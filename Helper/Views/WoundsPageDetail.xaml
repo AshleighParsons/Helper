@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="Helper.Views.WoundsPageDetail">
+
+    <ScrollView>
+        <StackLayout BackgroundColor="#F7F8F3" >
+
+            <Label x:Name="MyWoundTypeShow"  
+                HorizontalTextAlignment="Center" 
+                VerticalTextAlignment="Center" 
+                HorizontalOptions="FillAndExpand" 
+                Margin="17"
+                TextColor="#002C3E" 
+                FontSize="Large"
+                HeightRequest="50"
+                Font="Bold,25" />
+
+            <Label x:Name="MyDescriptionShow"
+                    Margin="15,15"
+                    FontSize="Large"
+                    TextColor="#002C3E"
+                    HorizontalTextAlignment="Center" />
+
+            <Label x:Name="MyStepsShow"
+                    Margin="15,15"
+                    FontSize="Medium"
+                    TextColor="#002C3E"/>
+        </StackLayout>
+    </ScrollView>
+
+</ContentPage>

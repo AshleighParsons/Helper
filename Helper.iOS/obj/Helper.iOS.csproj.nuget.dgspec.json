@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/ashleighparsons/Projects/Helper/Helper.iOS/Helper.iOS.csproj": {}
+    "/Users/ashleighparsons/Projects/firstaidhelper/Helper.iOS/Helper.iOS.csproj": {}
   },
   "projects": {
-    "/Users/ashleighparsons/Projects/Helper/Helper.iOS/Helper.iOS.csproj": {
+    "/Users/ashleighparsons/Projects/firstaidhelper/Helper.iOS/Helper.iOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/ashleighparsons/Projects/Helper/Helper.iOS/Helper.iOS.csproj",
+        "projectUniqueName": "/Users/ashleighparsons/Projects/firstaidhelper/Helper.iOS/Helper.iOS.csproj",
         "projectName": "Helper.iOS",
-        "projectPath": "/Users/ashleighparsons/Projects/Helper/Helper.iOS/Helper.iOS.csproj",
+        "projectPath": "/Users/ashleighparsons/Projects/firstaidhelper/Helper.iOS/Helper.iOS.csproj",
         "packagesPath": "/Users/ashleighparsons/.nuget/packages/",
-        "outputPath": "/Users/ashleighparsons/Projects/Helper/Helper.iOS/obj/",
+        "outputPath": "/Users/ashleighparsons/Projects/firstaidhelper/Helper.iOS/obj/",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "configFilePaths": [
@@ -26,8 +26,8 @@
         "frameworks": {
           "xamarinios10": {
             "projectReferences": {
-              "/Users/ashleighparsons/Projects/Helper/Helper/Helper.csproj": {
-                "projectPath": "/Users/ashleighparsons/Projects/Helper/Helper/Helper.csproj"
+              "/Users/ashleighparsons/Projects/firstaidhelper/Helper/Helper.csproj": {
+                "projectPath": "/Users/ashleighparsons/Projects/firstaidhelper/Helper/Helper.csproj"
               }
             }
           }
@@ -59,14 +59,14 @@
         }
       }
     },
-    "/Users/ashleighparsons/Projects/Helper/Helper/Helper.csproj": {
+    "/Users/ashleighparsons/Projects/firstaidhelper/Helper/Helper.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/ashleighparsons/Projects/Helper/Helper/Helper.csproj",
+        "projectUniqueName": "/Users/ashleighparsons/Projects/firstaidhelper/Helper/Helper.csproj",
         "projectName": "Helper",
-        "projectPath": "/Users/ashleighparsons/Projects/Helper/Helper/Helper.csproj",
+        "projectPath": "/Users/ashleighparsons/Projects/firstaidhelper/Helper/Helper.csproj",
         "packagesPath": "/Users/ashleighparsons/.nuget/packages/",
-        "outputPath": "/Users/ashleighparsons/Projects/Helper/Helper/obj/",
+        "outputPath": "/Users/ashleighparsons/Projects/firstaidhelper/Helper/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

@@ -2006,11 +2006,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/ashleighparsons/Projects/Helper/Helper.Android/Helper.Android.csproj",
+      "projectUniqueName": "/Users/ashleighparsons/Projects/firstaidhelper/Helper.Android/Helper.Android.csproj",
       "projectName": "Helper.Android",
-      "projectPath": "/Users/ashleighparsons/Projects/Helper/Helper.Android/Helper.Android.csproj",
+      "projectPath": "/Users/ashleighparsons/Projects/firstaidhelper/Helper.Android/Helper.Android.csproj",
       "packagesPath": "/Users/ashleighparsons/.nuget/packages/",
-      "outputPath": "/Users/ashleighparsons/Projects/Helper/Helper.Android/obj/",
+      "outputPath": "/Users/ashleighparsons/Projects/firstaidhelper/Helper.Android/obj/",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -2025,8 +2025,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "/Users/ashleighparsons/Projects/Helper/Helper/Helper.csproj": {
-              "projectPath": "/Users/ashleighparsons/Projects/Helper/Helper/Helper.csproj"
+            "/Users/ashleighparsons/Projects/firstaidhelper/Helper/Helper.csproj": {
+              "projectPath": "/Users/ashleighparsons/Projects/firstaidhelper/Helper/Helper.csproj"
             }
           }
         }

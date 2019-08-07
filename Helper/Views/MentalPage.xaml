@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="Helper.Views.MentalPage">
+
+    <StackLayout BackgroundColor="#F7F8F3" >
+        <Label Text="Select your mental illness:"  
+                HorizontalTextAlignment="Center" 
+                VerticalTextAlignment="Center" 
+                HorizontalOptions="FillAndExpand" 
+                Margin="25"
+                TextColor="#002C3E" 
+                FontSize="Large"
+                HeightRequest="50"
+                Font="Bold,25" />
+
+        <ListView x:Name="MentalView"
+                  BackgroundColor="#F7F8F3"
+                  ItemsSource="{Binding MentalList}"
+                  SeparatorColor="#023B5B"
+                  ItemTapped="OnItemSelected"
+                  Margin="15"
+                  RowHeight="80" >
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <TextCell Text="{Binding MentalType}"
+                                TextColor="#023B5B" />
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        
+    </StackLayout>
+
+</ContentPage>

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="Helper.Views.AddContactPage">
+
+    <StackLayout BackgroundColor="#F7F8F3" >
+        <Label Text="Your emergency contact:"  
+                HorizontalTextAlignment="Center" 
+                VerticalTextAlignment="Center" 
+                HorizontalOptions="FillAndExpand" 
+                Margin="25"
+                TextColor="#002C3E" 
+                FontSize="Large"
+                HeightRequest="50"
+                Font="Bold,25" />
+
+        <Entry Placeholder="Name"
+               HeightRequest="70"
+               Margin="20" />
+
+        <Entry Placeholder="Contact Number"
+               HeightRequest="70"
+               Margin="20" />
+
+        <Button Text="Add Contact"
+                BackgroundColor="#F7444E"
+               HeightRequest="70"
+               Margin="20"
+               TextColor="#002C3E"
+                FontSize="Medium"/>
+
+    </StackLayout>
+
+</ContentPage>

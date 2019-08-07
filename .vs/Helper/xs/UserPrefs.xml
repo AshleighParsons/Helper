@@ -1,0 +1,38 @@
+﻿<Properties StartupConfiguration="{5107B829-1C6B-4D12-AE1B-921ED5C724AF}|Default">
+  <MonoDevelop.Ide.ItemProperties.Helper.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.B2C62A96-13AF-4DDA-913A-8D7CFC41E753" />
+  <MonoDevelop.Ide.ItemProperties.Helper.Android PreferredExecutionTarget="Android.Android_Accelerated_Oreo" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Helper/App.xaml.cs">
+    <Files>
+      <File FileName="Helper/Views/Hospital.xaml" Line="17" Column="19" />
+      <File FileName="Helper/Views/Emergency.xaml" />
+      <File FileName="Helper/Views/Contact.xaml" Line="67" Column="21" />
+      <File FileName="Helper/Views/Contact.xaml.cs" Line="27" Column="58" />
+      <File FileName="Helper/Views/AddContactPage.xaml" Line="30" Column="35" />
+      <File FileName="Helper/Views/Emergency.xaml.cs" Line="28" Column="10" />
+      <File FileName="Helper/App.xaml" Line="1" Column="1" />
+      <File FileName="Helper/App.xaml.cs" Line="18" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Helper" expanded="True">
+            <Node name="Helper" expanded="True">
+              <Node name="Models" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Contact.xaml" expanded="True" />
+                <Node name="Emergency.xaml" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="Helper.iOS" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

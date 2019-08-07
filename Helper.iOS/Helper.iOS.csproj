@@ -130,4 +130,14 @@
       <Name>Helper</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\bone.png" />
+    <BundleResource Include="Resources\brain.png" />
+    <BundleResource Include="Resources\cut.png" />
+    <BundleResource Include="Resources\ill.png" />
+    <BundleResource Include="Resources\add.png" />
+    <BundleResource Include="Resources\ambulance.png" />
+    <BundleResource Include="Resources\fire.png" />
+    <BundleResource Include="Resources\mental.png" />
+  </ItemGroup>
 </Project>

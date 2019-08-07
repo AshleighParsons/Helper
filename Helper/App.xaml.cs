@@ -1,4 +1,5 @@
 ﻿using System;
+using Helper.Views;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -10,7 +11,11 @@ namespace Helper
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new NavigationPage(new MainTabbedPage())
+            {
+                BarBackgroundColor = Color.FromHex("#78BCC4"),
+                BarTextColor = Color.FromHex("#F7F8F3"),
+            };
         }
 
         protected override void OnStart()
