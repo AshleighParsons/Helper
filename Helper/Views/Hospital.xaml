@@ -2,9 +2,10 @@
 <ContentPage
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:maps="clr-namespace:Xamarin.Forms.Maps;assembly=Xamarin.Forms.Maps"
     x:Class="Helper.Views.Hospital">
 
-    <StackLayout BackgroundColor="#F7F8F3" >
+    <!--<StackLayout BackgroundColor="#F7F8F3" >
         <Label Text="Find help nearby:"  
                 HorizontalTextAlignment="Center" 
                 VerticalTextAlignment="Center" 
@@ -14,5 +15,12 @@
                 FontSize="Large"
                 HeightRequest="50"
                 Font="Bold,25" />
+    </StackLayout>-->
+    <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+        <maps:Map WidthRequest="320" HeightRequest="200"
+                  x:Name="MyMap"
+                  MapType="Street"
+        />
     </StackLayout>
+
 </ContentPage>
