@@ -11,5 +11,11 @@ namespace Helper.Views
         {
             InitializeComponent();
         }
+
+        async void HandleClick(object sender, System.EventArgs e)
+        {
+            Console.WriteLine("test");
+            await Navigation.PushAsync(new Contact());
+        }
     }
 }

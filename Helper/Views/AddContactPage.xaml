@@ -17,18 +17,22 @@
 
         <Entry Placeholder="Name"
                HeightRequest="70"
-               Margin="20" />
+               Margin="20"
+               x:Name="name" />
 
         <Entry Placeholder="Contact Number"
                HeightRequest="70"
-               Margin="20" />
+               Margin="20"
+               x:Name="number"
+               Keyboard="Numeric" />
 
         <Button Text="Add Contact"
                 BackgroundColor="#F7444E"
-               HeightRequest="70"
-               Margin="20"
-               TextColor="#002C3E"
-                FontSize="Medium"/>
+                HeightRequest="70"
+                Margin="20"
+                TextColor="#002C3E"
+                FontSize="Medium"
+                Clicked="HandleClick" />
 
     </StackLayout>
 

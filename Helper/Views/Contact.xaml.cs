@@ -22,14 +22,14 @@ namespace Helper.Views
             Device.OpenUri(new Uri("tel://0123106300"));
         }
 
-        async void HandleClicked3(object sender, System.EventArgs e)
-        {
-            await Navigation.PushAsync(new AddContactPage());
-        }
-
         void HandleClicked4(object sender, System.EventArgs e)
         {
             Device.OpenUri(new Uri("tel://0861322322"));
+        }
+
+        async void HandleClicked3(object sender, System.EventArgs e)
+        {
+            await Navigation.PushAsync(new AddContactPage());
         }
     }
 }
