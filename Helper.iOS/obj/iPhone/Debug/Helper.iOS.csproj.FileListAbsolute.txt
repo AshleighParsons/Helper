@@ -66,3 +66,5 @@
 /Users/ashleighparsons/Projects/firstaidhelper/Helper.iOS/obj/iPhone/Debug/Helper.iOS.csproj.CopyComplete
 /Users/ashleighparsons/Projects/firstaidhelper/Helper.iOS/obj/iPhone/Debug/Helper.iOS.exe
 /Users/ashleighparsons/Projects/firstaidhelper/Helper.iOS/obj/iPhone/Debug/Helper.iOS.pdb
+/Users/ashleighparsons/Projects/firstaidhelper/Helper.iOS/obj/iPhone/Debug/device-builds/iphone10.4-12.3.1/optimized/splash.png
+/Users/ashleighparsons/Projects/firstaidhelper/Helper.iOS/obj/iPhone/Debug/Helper.iOS.csprojAssemblyReference.cache

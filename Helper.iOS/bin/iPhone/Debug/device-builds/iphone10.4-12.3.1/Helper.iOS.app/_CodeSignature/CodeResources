@@ -78,15 +78,15 @@
 		</data>
 		<key>Helper.aotdata.arm64</key>
 		<data>
-		RdaVR8sSmEoqY06rjmzq/56Xo4c=
+		SYrZghrsdEj6rViawtMX+DkpQXI=
 		</data>
 		<key>Helper.dll</key>
 		<data>
-		S66OsDo36rb7P/3OTGaABk1apko=
+		1T9j//jASfo5NRbolZ9Gs26/LNc=
 		</data>
 		<key>Helper.iOS.aotdata.arm64</key>
 		<data>
-		U3L4657knO/h7S1I/Nlmqqp9q5g=
+		1f3PWmomWOKRo9fxm1xFsaA2JRQ=
 		</data>
 		<key>Helper.iOS.exe</key>
 		<data>
@@ -98,7 +98,7 @@
 		</data>
 		<key>Helper.pdb</key>
 		<data>
-		6IrmfnW04twWIWQtrIak7IXD/Go=
+		IGH/1F4mbtP9o+JhSNLkcMFQlrI=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -110,11 +110,11 @@
 		</data>
 		<key>LaunchScreen.storyboardc/UIViewController-X5k-f2-b5h.nib</key>
 		<data>
-		jHkGIA9F84aABcO31ERLsWiBvXU=
+		ywdE8fjM73Cha4sUzFigL2wRI7E=
 		</data>
 		<key>LaunchScreen.storyboardc/X5k-f2-b5h-view-yd7-JS-zBw.nib</key>
 		<data>
-		SkB4JM9IfLIpJt0X19vL8AiQD4w=
+		k7eRUNXiAiLky1rmA0lU3mZPzNM=
 		</data>
 		<key>Mono.Security.aotdata.arm64</key>
 		<data>
@@ -130,7 +130,7 @@
 		</data>
 		<key>MonoTouchDebugConfiguration.txt</key>
 		<data>
-		oowkf1sL6T19nanXUObgmuayWqM=
+		OfQ85/glJH7KSKj8fxd4ZEj52YE=
 		</data>
 		<key>NOTICE</key>
 		<data>
@@ -496,6 +496,10 @@
 		<data>
 		fnfltvWkVT7lB0ID0cATxXWp+68=
 		</data>
+		<key>splash.png</key>
+		<data>
+		MST2i/XmrICZoevjWzfprbphgPo=
+		</data>
 		<key>sv/Xamarin.Forms.Platform.iOS.resources.dll</key>
 		<data>
 		yIedNXb2w+DeH+7EAH5UICFgX3g=
@@ -733,33 +737,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			RdaVR8sSmEoqY06rjmzq/56Xo4c=
+			SYrZghrsdEj6rViawtMX+DkpQXI=
 			</data>
 			<key>hash2</key>
 			<data>
-			jx5jbjrDu9DpJSs9iJZNRDaa6yslkR2oGBDc4VkvoSk=
+			e8PO73hINDIQpNhBm0QaUalO739L5bVvyR0Sv6m++Hc=
 			</data>
 		</dict>
 		<key>Helper.dll</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			S66OsDo36rb7P/3OTGaABk1apko=
+			1T9j//jASfo5NRbolZ9Gs26/LNc=
 			</data>
 			<key>hash2</key>
 			<data>
-			TGtM+aEWZLWhz9MElX5ZKMEtanqfqDg1hMBF/TLchnc=
+			J+nnhD73tZsbGp6OY32SNwM5bHIfGyc7b8Qo+Vovrmg=
 			</data>
 		</dict>
 		<key>Helper.iOS.aotdata.arm64</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			U3L4657knO/h7S1I/Nlmqqp9q5g=
+			1f3PWmomWOKRo9fxm1xFsaA2JRQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			mGa2T3vz3QnVUXuNTi7fcnT+TkImE+63VamjlgAOGr8=
+			GdbjSjiEd0d8sTyNYhjSQZwRZp8LBXSqE/Ay5skq86s=
 			</data>
 		</dict>
 		<key>Helper.iOS.exe</key>
@@ -788,11 +792,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			6IrmfnW04twWIWQtrIak7IXD/Go=
+			IGH/1F4mbtP9o+JhSNLkcMFQlrI=
 			</data>
 			<key>hash2</key>
 			<data>
-			H/YGIffVD9QOxLD/IrRmJWU1vKcd1dJpFNjN9yUr9eI=
+			yX8tryDrM1owcQdCSdYv05V8mMJXlvM5ajSQmxQlXBA=
 			</data>
 		</dict>
 		<key>LaunchScreen.storyboardc/Info.plist</key>
@@ -810,22 +814,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			jHkGIA9F84aABcO31ERLsWiBvXU=
+			ywdE8fjM73Cha4sUzFigL2wRI7E=
 			</data>
 			<key>hash2</key>
 			<data>
-			Xg/JUODWG/ORJV7AA6VN8+inpn8/OLwQtVpTdb9k8uk=
+			kndWOJXaywVL9OzUDUj+S0f3vb7fmF+FZFjYT7oSnH4=
 			</data>
 		</dict>
 		<key>LaunchScreen.storyboardc/X5k-f2-b5h-view-yd7-JS-zBw.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			SkB4JM9IfLIpJt0X19vL8AiQD4w=
+			k7eRUNXiAiLky1rmA0lU3mZPzNM=
 			</data>
 			<key>hash2</key>
 			<data>
-			St1q8p8fi+wEAz0VNZI6GvEq6cN11ZlglL1Ta5m8CMo=
+			+BajNgJNWErOE+W6sggxAgz3jcMiOOSFEDOUvctlME0=
 			</data>
 		</dict>
 		<key>Mono.Security.aotdata.arm64</key>
@@ -865,11 +869,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			oowkf1sL6T19nanXUObgmuayWqM=
+			OfQ85/glJH7KSKj8fxd4ZEj52YE=
 			</data>
 			<key>hash2</key>
 			<data>
-			RS51BO98d+zhJWK1abJOyD5jB4nYJnWJPtL2DZyA/zw=
+			gqESks8GvN3leTUeuM52UfLiLvBDFU7je6L+CllTELw=
 			</data>
 		</dict>
 		<key>NOTICE</key>
@@ -1860,6 +1864,17 @@
 			<key>hash2</key>
 			<data>
 			pYjSJ80OAoMxegLQ1MWF0eQGP0NsY8eJRDdlNTa+8Ao=
+			</data>
+		</dict>
+		<key>splash.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			MST2i/XmrICZoevjWzfprbphgPo=
+			</data>
+			<key>hash2</key>
+			<data>
+			C81mNYboV6uguOvdxI+f9DzVO3390xqO7PBr4sJINSo=
 			</data>
 		</dict>
 		<key>sv/Xamarin.Forms.Platform.iOS.resources.dll</key>

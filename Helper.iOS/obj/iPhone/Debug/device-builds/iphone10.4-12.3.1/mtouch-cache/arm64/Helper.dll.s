@@ -24784,7 +24784,7 @@ Lme_39:
 Helper_Views_Hospital_InitializeComponent:
 .file 16 "/Users/ashleighparsons/Projects/firstaidhelper/Helper/obj/Debug/netstandard2.0/Views/Hospital.xaml.g.cs"
 .loc 16 24 0 prologue_end
-.word 0xd2806e10
+.word 0xd2807010
 .word 0x910003f1
 .word 0xcb100231
 .word 0x9100023f
@@ -24930,7 +24930,7 @@ bl _p_141
 .word 0xf9422a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0x140004a5
+.word 0x140004d5
 bl _p_18
 .word 0xf900dba0
 .word 0xf9402bb1
@@ -24975,7 +24975,7 @@ bl _p_141
 .word 0xf942de31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0x14000478
+.word 0x140004a8
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
@@ -25111,7 +25111,7 @@ adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
 ldr x0, [x16, #576]
 .word 0xf9400000
-.word 0xf901b7a0
+.word 0xf901bba0
 .word 0xd280001e
 .word 0xf2dfdffe
 .word 0xf2e7fdde
@@ -25188,7 +25188,7 @@ ldr x0, [x16, #584]
 .word 0xd2800601
 bl _p_4
 .word 0xaa0003e2
-.word 0xf941b7a1
+.word 0xf941bba1
 .word 0x910303a0
 .word 0x91004040
 .word 0xb980c3a3
@@ -25237,7 +25237,7 @@ adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
 ldr x0, [x16, #600]
 .word 0xf9400000
-.word 0xf901aba0
+.word 0xf901afa0
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
@@ -25245,13 +25245,13 @@ ldr x0, [x16, #608]
 .word 0xd2800201
 .word 0xd2800201
 bl _p_4
-.word 0xf901b3a0
+.word 0xf901b7a0
 bl _p_40
 .word 0xf9402bb1
 .word 0xf946f631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf941b3a2
+.word 0xf941b7a2
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
@@ -25260,13 +25260,13 @@ ldr x1, [x16, #616]
 .word 0xf9400042
 .word 0xf9403450
 .word 0xd63f0200
-.word 0xf901afa0
+.word 0xf901b3a0
 .word 0xf9402bb1
 .word 0xf9472a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf941aba1
-.word 0xf941afa2
+.word 0xf941afa1
+.word 0xf941b3a2
 .word 0xaa1903e0
 .word 0x3940033e
 bl _p_27
@@ -25280,7 +25280,7 @@ adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
 ldr x0, [x16, #624]
 .word 0xf9400000
-.word 0xf9019fa0
+.word 0xf901a3a0
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
@@ -25288,13 +25288,13 @@ ldr x0, [x16, #608]
 .word 0xd2800201
 .word 0xd2800201
 bl _p_4
-.word 0xf901a7a0
+.word 0xf901aba0
 bl _p_40
 .word 0xf9402bb1
 .word 0xf9479631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf941a7a2
+.word 0xf941aba2
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
@@ -25303,13 +25303,13 @@ ldr x1, [x16, #616]
 .word 0xf9400042
 .word 0xf9403450
 .word 0xd63f0200
-.word 0xf901a3a0
+.word 0xf901a7a0
 .word 0xf9402bb1
 .word 0xf947ca31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9419fa1
-.word 0xf941a3a2
+.word 0xf941a3a1
+.word 0xf941a7a2
 .word 0xaa1903e0
 .word 0x3940033e
 bl _p_27
@@ -25323,7 +25323,7 @@ adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
 ldr x0, [x16, #408]
 .word 0xf9400000
-.word 0xf9019ba0
+.word 0xf9019fa0
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
@@ -25339,7 +25339,7 @@ ldr x0, [x16, #424]
 .word 0xd2800281
 bl _p_4
 .word 0xaa0003e2
-.word 0xf9419ba1
+.word 0xf9419fa1
 .word 0x9102e3a0
 .word 0x91004040
 .word 0xb980bba3
@@ -25357,7 +25357,7 @@ adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
 ldr x0, [x16, #640]
 .word 0xf9400000
-.word 0xf90197a0
+.word 0xf9019ba0
 .word 0xd280001e
 .word 0xf2e8073e
 .word 0x9e6703c0
@@ -25394,7 +25394,7 @@ ldr x0, [x16, #648]
 .word 0xd2800601
 bl _p_4
 .word 0xaa0003e2
-.word 0xf94197a1
+.word 0xf9419ba1
 .word 0x910263a0
 .word 0x91004040
 .word 0xf9404fa3
@@ -25418,7 +25418,7 @@ adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
 ldr x0, [x16, #656]
 .word 0xf9400000
-.word 0xf90193a0
+.word 0xf90197a0
 .word 0x9e6703e0
 .word 0xd280001e
 .word 0xf2a4001e
@@ -25489,7 +25489,7 @@ ldr x0, [x16, #584]
 .word 0xd2800601
 bl _p_4
 .word 0xaa0003e2
-.word 0xf94193a1
+.word 0xf94197a1
 .word 0x9101e3a0
 .word 0x91004040
 .word 0xb9807ba3
@@ -25521,7 +25521,7 @@ adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
 ldr x0, [x16, #664]
 .word 0xf9400000
-.word 0xf9011fa0
+.word 0xf90123a0
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
@@ -25529,7 +25529,7 @@ ldr x0, [x16, #672]
 .word 0xd2800201
 .word 0xd2800201
 bl _p_4
-.word 0xf9012fa0
+.word 0xf90133a0
 bl _p_42
 .word 0xf9402bb1
 .word 0xf94b3231
@@ -25539,7 +25539,7 @@ bl _p_42
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
 ldr x0, [x16, #680]
-.word 0xf90127a0
+.word 0xf9012ba0
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
@@ -25547,23 +25547,23 @@ ldr x0, [x16, #688]
 .word 0xd2800301
 .word 0xd2800301
 bl _p_4
-.word 0xf9018fa0
+.word 0xf90193a0
 bl _p_43
 .word 0xf9402bb1
 .word 0xf94b7231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9418fa0
+.word 0xf94193a0
 .word 0xf900aba0
 .word 0xf940aba0
-.word 0xf9016fa0
+.word 0xf90173a0
 .word 0xf940aba0
-.word 0xf9017ba0
+.word 0xf9017fa0
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
 ldr x0, [x16, #696]
-.word 0xf90177a0
+.word 0xf9017ba0
 .word 0xd2800000
 .word 0xd2800060
 
@@ -25574,7 +25574,7 @@ ldr x0, [x16, #704]
 bl _p_44
 .word 0xf900afa0
 .word 0xf940afa0
-.word 0xf9018ba0
+.word 0xf9018fa0
 .word 0xf940afa3
 .word 0xd2800000
 .word 0xaa1903e0
@@ -25584,10 +25584,10 @@ bl _p_44
 .word 0xf9400063
 .word 0xf9408470
 .word 0xd63f0200
-.word 0xf9418ba0
+.word 0xf9418fa0
 .word 0xf900b3a0
 .word 0xf940b3a0
-.word 0xf90187a0
+.word 0xf9018ba0
 .word 0xf940b3a3
 .word 0xd2800020
 .word 0xaa1703e0
@@ -25597,10 +25597,10 @@ bl _p_44
 .word 0xf9400063
 .word 0xf9408470
 .word 0xd63f0200
-.word 0xf94187a0
+.word 0xf9418ba0
 .word 0xf900b7a0
 .word 0xf940b7a0
-.word 0xf9017fa0
+.word 0xf90183a0
 .word 0xf940b7a3
 .word 0xd2800040
 .word 0xaa1603e0
@@ -25615,7 +25615,7 @@ adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
 ldr x0, [x16, #664]
 .word 0xf9400000
-.word 0xf90183a0
+.word 0xf90187a0
 .word 0xaa1503e0
 
 adrp x16, mono_aot_Helper_got@PAGE+0
@@ -25624,18 +25624,18 @@ ldr x0, [x16, #712]
 .word 0xd2800501
 .word 0xd2800501
 bl _p_4
-.word 0xf9417fa1
-.word 0xf94183a2
-.word 0xf90173a0
+.word 0xf94183a1
+.word 0xf94187a2
+.word 0xf90177a0
 .word 0xaa1503e3
 bl _p_45
 .word 0xf9402bb1
 .word 0xf94ca231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf94173a0
-.word 0xf94177a1
-.word 0xf9417ba3
+.word 0xf94177a0
+.word 0xf9417ba1
+.word 0xf9417fa3
 .word 0xf900bba0
 .word 0xf940bba2
 .word 0xf940bba0
@@ -25647,10 +25647,10 @@ bl _p_46
 .word 0xf94cda31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9416fa0
+.word 0xf94173a0
 .word 0xf900bfa0
 .word 0xf940bfa0
-.word 0xf9016ba0
+.word 0xf9016fa0
 .word 0xf940bfa3
 
 adrp x16, mono_aot_Helper_got@PAGE+0
@@ -25664,17 +25664,17 @@ bl _p_46
 .word 0xf94d1a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9416ba0
+.word 0xf9416fa0
 .word 0xf900c3a0
 .word 0xf940c3a0
-.word 0xf90143a0
+.word 0xf90147a0
 .word 0xf940c3a0
-.word 0xf9014fa0
+.word 0xf90153a0
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
 ldr x0, [x16, #728]
-.word 0xf90147a0
+.word 0xf9014ba0
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
@@ -25682,16 +25682,16 @@ ldr x0, [x16, #736]
 .word 0xd2800301
 .word 0xd2800301
 bl _p_4
-.word 0xf90167a0
+.word 0xf9016ba0
 bl _p_47
 .word 0xf9402bb1
 .word 0xf94d7231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf94167a0
+.word 0xf9416ba0
 .word 0xf900c7a0
 .word 0xf940c7a0
-.word 0xf90163a0
+.word 0xf90167a0
 .word 0xf940c7a3
 
 adrp x16, mono_aot_Helper_got@PAGE+0
@@ -25708,10 +25708,10 @@ bl _p_48
 .word 0xf94dba31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf94163a0
+.word 0xf94167a0
 .word 0xf900cba0
 .word 0xf940cba0
-.word 0xf9015fa0
+.word 0xf90163a0
 .word 0xf940cba3
 
 adrp x16, mono_aot_Helper_got@PAGE+0
@@ -25728,10 +25728,10 @@ bl _p_48
 .word 0xf94e0231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9415fa0
+.word 0xf94163a0
 .word 0xf900cfa0
 .word 0xf940cfa0
-.word 0xf90153a0
+.word 0xf90157a0
 .word 0xf940cfa3
 
 adrp x16, mono_aot_Helper_got@PAGE+0
@@ -25753,17 +25753,17 @@ adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
 ldr x0, [x16, #2448]
 bl _p_12
-.word 0xf9015ba0
+.word 0xf9015fa0
 .word 0xf9402bb1
 .word 0xf94e6e31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9415ba1
+.word 0xf9415fa1
 .word 0xaa0103e0
 .word 0xf9400021
 .word 0xf9417430
 .word 0xd63f0200
-.word 0xf90157a0
+.word 0xf9015ba0
 .word 0xf9402bb1
 .word 0xf94e9631
 .word 0xb4000051
@@ -25775,17 +25775,17 @@ ldr x0, [x16, #776]
 .word 0xd2800501
 .word 0xd2800501
 bl _p_4
-.word 0xf94153a1
-.word 0xf94157a2
-.word 0xf9014ba0
+.word 0xf94157a1
+.word 0xf9415ba2
+.word 0xf9014fa0
 bl _p_49
 .word 0xf9402bb1
 .word 0xf94ece31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf94147a1
-.word 0xf9414ba2
-.word 0xf9414fa3
+.word 0xf9414ba1
+.word 0xf9414fa2
+.word 0xf94153a3
 .word 0xaa0303e0
 .word 0x3940007e
 bl _p_46
@@ -25793,17 +25793,17 @@ bl _p_46
 .word 0xf94ef631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf94143a0
+.word 0xf94147a0
 .word 0xf900d3a0
 .word 0xf940d3a0
-.word 0xf9012ba0
+.word 0xf9012fa0
 .word 0xf940d3a0
-.word 0xf9013ba0
+.word 0xf9013fa0
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
 ldr x0, [x16, #784]
-.word 0xf90133a0
+.word 0xf90137a0
 .word 0xd28001e0
 .word 0xd2800220
 
@@ -25813,7 +25813,7 @@ ldr x0, [x16, #792]
 .word 0xd2800381
 .word 0xd2800381
 bl _p_4
-.word 0xf9013fa0
+.word 0xf90143a0
 .word 0xd28001e1
 .word 0xd2800222
 bl _p_50
@@ -25828,16 +25828,16 @@ ldr x0, [x16, #800]
 .word 0xd2800301
 .word 0xd2800301
 bl _p_4
-.word 0xf9413fa1
-.word 0xf90137a0
+.word 0xf94143a1
+.word 0xf9013ba0
 bl _p_51
 .word 0xf9402bb1
 .word 0xf94f9231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf94133a1
-.word 0xf94137a2
-.word 0xf9413ba3
+.word 0xf94137a1
+.word 0xf9413ba2
+.word 0xf9413fa3
 .word 0xaa0303e0
 .word 0x3940007e
 bl _p_46
@@ -25845,9 +25845,9 @@ bl _p_46
 .word 0xf94fba31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf94127a1
-.word 0xf9412ba2
-.word 0xf9412fa3
+.word 0xf9412ba1
+.word 0xf9412fa2
+.word 0xf94133a3
 .word 0xaa0303e0
 .word 0xf9400063
 
@@ -25858,13 +25858,13 @@ ldr x15, [x16, #808]
 .word 0xf2bffff0
 .word 0xf8706870
 .word 0xd63f0200
-.word 0xf90123a0
+.word 0xf90127a0
 .word 0xf9402bb1
 .word 0xf94ffe31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9411fa1
-.word 0xf94123a2
+.word 0xf94123a1
+.word 0xf94127a2
 .word 0xaa1903e0
 .word 0x3940033e
 bl _p_27
@@ -25878,11 +25878,11 @@ adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
 ldr x0, [x16, #816]
 .word 0xf9400000
-.word 0xf90117a0
+.word 0xf9011ba0
 .word 0xd280001e
 .word 0xf2e8093e
 .word 0x9e6703c0
-.word 0xfd011ba0
+.word 0xfd011fa0
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
@@ -25891,8 +25891,8 @@ ldr x0, [x16, #824]
 .word 0xd2800301
 bl _p_4
 .word 0xaa0003e2
-.word 0xf94117a1
-.word 0xfd411ba0
+.word 0xf9411ba1
+.word 0xfd411fa0
 .word 0xfd000840
 .word 0xaa1903e0
 .word 0x3940033e
@@ -25907,7 +25907,7 @@ adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
 ldr x0, [x16, #832]
 .word 0xf9400000
-.word 0xf9010ba0
+.word 0xf9010fa0
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
@@ -25915,13 +25915,13 @@ ldr x0, [x16, #840]
 .word 0xd2800201
 .word 0xd2800201
 bl _p_4
-.word 0xf90113a0
+.word 0xf90117a0
 bl _p_52
 .word 0xf9402bb1
 .word 0xf950d631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf94113a2
+.word 0xf94117a2
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
@@ -25929,13 +25929,13 @@ ldr x1, [x16, #848]
 .word 0xaa0203e0
 .word 0x3940005e
 bl _p_53
-.word 0xf9010fa0
+.word 0xf90113a0
 .word 0xf9402bb1
 .word 0xf9510631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9410ba1
-.word 0xf9410fa2
+.word 0xf9410fa1
+.word 0xf94113a2
 .word 0xaa1903e0
 .word 0x3940033e
 bl _p_27
@@ -25947,12 +25947,12 @@ bl _p_27
 .word 0xaa1703e0
 .word 0x394002fe
 bl _p_28
-.word 0xf90107a0
+.word 0xf9010ba0
 .word 0xf9402bb1
 .word 0xf9514e31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf94107a2
+.word 0xf9410ba2
 .word 0xaa1903e0
 .word 0xaa0203e0
 .word 0xaa1903e1
@@ -25975,11 +25975,11 @@ adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
 ldr x0, [x16, #2504]
 .word 0xf9400000
-.word 0xf900f7a0
+.word 0xf90103a0
 .word 0xd280001e
 .word 0xf2e80e9e
 .word 0x9e6703c0
-.word 0xfd0103a0
+.word 0xfd0107a0
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
@@ -25988,8 +25988,8 @@ ldr x0, [x16, #824]
 .word 0xd2800301
 bl _p_4
 .word 0xaa0003e2
-.word 0xf940f7a1
-.word 0xfd4103a0
+.word 0xf94103a1
+.word 0xfd4107a0
 .word 0xfd000840
 .word 0xaa1803e0
 .word 0x3940031e
@@ -26004,7 +26004,7 @@ adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
 ldr x0, [x16, #816]
 .word 0xf9400000
-.word 0xf900efa0
+.word 0xf900f7a0
 .word 0xd280001e
 .word 0xf2e80d3e
 .word 0x9e6703c0
@@ -26017,7 +26017,7 @@ ldr x0, [x16, #824]
 .word 0xd2800301
 bl _p_4
 .word 0xaa0003e2
-.word 0xf940efa1
+.word 0xf940f7a1
 .word 0xfd40ffa0
 .word 0xfd000840
 .word 0xaa1803e0
@@ -26033,7 +26033,7 @@ adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
 ldr x0, [x16, #2512]
 .word 0xf9400000
-.word 0xf900eba0
+.word 0xf900f3a0
 .word 0xd2800000
 .word 0xd2800000
 
@@ -26044,7 +26044,7 @@ ldr x0, [x16, #2520]
 .word 0xd2800281
 bl _p_4
 .word 0xaa0003e2
-.word 0xf940eba1
+.word 0xf940f3a1
 .word 0xb900105f
 .word 0xaa0203e0
 .word 0xaa1803e0
@@ -26060,7 +26060,7 @@ adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
 ldr x0, [x16, #432]
 .word 0xf9400000
-.word 0xf900e7a0
+.word 0xf900efa0
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
@@ -26076,7 +26076,7 @@ ldr x0, [x16, #424]
 .word 0xd2800281
 bl _p_4
 .word 0xaa0003e2
-.word 0xf940e7a1
+.word 0xf940efa1
 .word 0x9101c3a0
 .word 0x91004040
 .word 0xb98073a3
@@ -26094,7 +26094,7 @@ adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
 ldr x0, [x16, #408]
 .word 0xf9400000
-.word 0xf900e3a0
+.word 0xf900eba0
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
@@ -26110,7 +26110,7 @@ ldr x0, [x16, #424]
 .word 0xd2800281
 bl _p_4
 .word 0xaa0003e2
-.word 0xf940e3a1
+.word 0xf940eba1
 .word 0x9101a3a0
 .word 0x91004040
 .word 0xb9806ba3
@@ -26127,6 +26127,58 @@ bl _p_27
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
 ldr x0, [x16, #2528]
+.word 0xf9400000
+.word 0xf900e7a0
+.word 0xd2800020
+
+adrp x16, mono_aot_Helper_got@PAGE+0
+add x16, x16, mono_aot_Helper_got@PAGEOFF
+ldr x0, [x16, #2536]
+.word 0xd2800221
+.word 0xd2800221
+bl _p_4
+.word 0xaa0003e2
+.word 0xf940e7a1
+.word 0xd280003e
+.word 0x3900405e
+.word 0xaa1803e0
+.word 0x3940031e
+bl _p_27
+.word 0xf9402bb1
+.word 0xf9542231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1803e0
+
+adrp x16, mono_aot_Helper_got@PAGE+0
+add x16, x16, mono_aot_Helper_got@PAGEOFF
+ldr x0, [x16, #2544]
+.word 0xf9400000
+.word 0xf900e3a0
+.word 0xd2800020
+
+adrp x16, mono_aot_Helper_got@PAGE+0
+add x16, x16, mono_aot_Helper_got@PAGEOFF
+ldr x0, [x16, #2536]
+.word 0xd2800221
+.word 0xd2800221
+bl _p_4
+.word 0xaa0003e2
+.word 0xf940e3a1
+.word 0xd280003e
+.word 0x3900405e
+.word 0xaa1803e0
+.word 0x3940031e
+bl _p_27
+.word 0xf9402bb1
+.word 0xf9548231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1803e0
+
+adrp x16, mono_aot_Helper_got@PAGE+0
+add x16, x16, mono_aot_Helper_got@PAGEOFF
+ldr x0, [x16, #2552]
 .word 0xf9400000
 .word 0xf900dfa0
 .word 0xd2800020
@@ -26145,7 +26197,7 @@ bl _p_4
 .word 0x3940031e
 bl _p_27
 .word 0xf9402bb1
-.word 0xf9542231
+.word 0xf954e231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1703e0
@@ -26154,7 +26206,7 @@ bl _p_27
 bl _p_28
 .word 0xf900dba0
 .word 0xf9402bb1
-.word 0xf9544631
+.word 0xf9550631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf940dba2
@@ -26171,7 +26223,7 @@ ldr x15, [x16, #448]
 .word 0xf8706850
 .word 0xd63f0200
 .word 0xf9402bb1
-.word 0xf9548631
+.word 0xf9554631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1603e0
@@ -26186,11 +26238,11 @@ ldr x0, [x16, #456]
 .word 0x394002de
 bl _p_27
 .word 0xf9402bb1
-.word 0xf954be31
+.word 0xf9557e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402bb1
-.word 0xf954ce31
+.word 0xf9558e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xa94153b3
@@ -26199,7 +26251,7 @@ bl _p_27
 .word 0xa9446bb9
 .word 0x910003bf
 .word 0xa9407bfd
-.word 0xd2806e10
+.word 0xd2807010
 .word 0x910003f1
 .word 0x8b100231
 .word 0x9100023f
@@ -26217,7 +26269,7 @@ Helper_Views_Hospital___InitComponentRuntime:
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2544]
+ldr x16, [x16, #2560]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -26240,7 +26292,7 @@ ldr x1, [x16, #2448]
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x15, [x16, #2552]
+ldr x15, [x16, #2568]
 .word 0xaa1a03e0
 bl _p_143
 .word 0xf9400fb1
@@ -26256,7 +26308,7 @@ ldr x1, [x16, #2472]
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x15, [x16, #2560]
+ldr x15, [x16, #2576]
 .word 0xaa1a03e0
 bl _p_144
 .word 0xf9001ba0
@@ -26301,7 +26353,7 @@ Helper_Views_IllnessPage__ctor:
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2568]
+ldr x16, [x16, #2584]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -26357,7 +26409,7 @@ bl _p_145
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x0, [x16, #2576]
+ldr x0, [x16, #2592]
 .word 0xd2800301
 .word 0xd2800301
 bl _p_4
@@ -26401,7 +26453,7 @@ Helper_Views_IllnessPage_OnItemSelected_object_Xamarin_Forms_ItemTappedEventArgs
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2584]
+ldr x16, [x16, #2600]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -26426,7 +26478,7 @@ bl _p_1
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x0, [x16, #2592]
+ldr x0, [x16, #2608]
 .word 0xd2800c01
 .word 0xd2800c01
 bl _p_4
@@ -26583,7 +26635,7 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x15, [x16, #2600]
+ldr x15, [x16, #2616]
 bl _p_148
 .word 0xf94017b1
 .word 0xf942e231
@@ -26618,7 +26670,7 @@ Helper_Views_IllnessPage_InitializeComponent:
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2608]
+ldr x16, [x16, #2624]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -26668,7 +26720,7 @@ bl _p_11
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x0, [x16, #2616]
+ldr x0, [x16, #2632]
 bl _p_12
 .word 0xf9016fa0
 .word 0xf9402bb1
@@ -26714,7 +26766,7 @@ bl _p_13
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x1, [x16, #2624]
+ldr x1, [x16, #2640]
 .word 0xaa0203e0
 .word 0x3940005e
 bl _p_14
@@ -26904,7 +26956,7 @@ bl _p_20
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x1, [x16, #2632]
+ldr x1, [x16, #2648]
 .word 0xaa1603e2
 .word 0xaa0303e0
 .word 0xf9400063
@@ -26935,7 +26987,7 @@ bl _p_37
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x1, [x16, #2632]
+ldr x1, [x16, #2648]
 .word 0xaa1603e0
 .word 0x394002de
 bl _p_38
@@ -27076,7 +27128,7 @@ ldr x0, [x16, #392]
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x2, [x16, #2640]
+ldr x2, [x16, #2656]
 .word 0xaa1903e0
 .word 0x3940033e
 bl _p_27
@@ -27584,7 +27636,7 @@ bl _p_48
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x0, [x16, #2616]
+ldr x0, [x16, #2632]
 bl _p_12
 .word 0xf901dfa0
 .word 0xf9402bb1
@@ -27915,7 +27967,7 @@ bl _p_27
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x1, [x16, #2648]
+ldr x1, [x16, #2664]
 .word 0xaa1803e0
 .word 0x3940031e
 bl _p_79
@@ -28100,17 +28152,17 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x0, [x16, #2656]
+ldr x0, [x16, #2672]
 .word 0xf9001420
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x0, [x16, #2664]
+ldr x0, [x16, #2680]
 .word 0xf9002020
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x0, [x16, #2672]
+ldr x0, [x16, #2688]
 .word 0xf9401402
 .word 0xf9000c22
 .word 0xf9401000
@@ -28215,7 +28267,7 @@ bl _p_27
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x0, [x16, #2680]
+ldr x0, [x16, #2696]
 .word 0xd2800401
 .word 0xd2800401
 bl _p_4
@@ -28355,17 +28407,17 @@ ldr x3, [x16, #16]
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x0, [x16, #2688]
+ldr x0, [x16, #2704]
 .word 0xf9001420
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x0, [x16, #2696]
+ldr x0, [x16, #2712]
 .word 0xf9002020
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x0, [x16, #2704]
+ldr x0, [x16, #2720]
 .word 0xf9401402
 .word 0xf9000c22
 .word 0xf9401000
@@ -28476,7 +28528,7 @@ Helper_Views_IllnessPage___InitComponentRuntime:
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2712]
+ldr x16, [x16, #2728]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -28495,11 +28547,11 @@ bl _p_1
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x1, [x16, #2616]
+ldr x1, [x16, #2632]
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x15, [x16, #2720]
+ldr x15, [x16, #2736]
 .word 0xaa1a03e0
 bl _p_151
 .word 0xf9400fb1
@@ -28511,7 +28563,7 @@ bl _p_151
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x1, [x16, #2632]
+ldr x1, [x16, #2648]
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
@@ -28557,7 +28609,7 @@ Helper_Views_IllnessPage__OnItemSelectedd__1__ctor:
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2728]
+ldr x16, [x16, #2744]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -28593,7 +28645,7 @@ Helper_Views_IllnessPage__OnItemSelectedd__1_MoveNext:
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2736]
+ldr x16, [x16, #2752]
 .word 0xf90027b0
 .word 0xf9400a11
 .word 0xf9002bb1
@@ -28655,7 +28707,7 @@ bl _p_85
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x1, [x16, #2744]
+ldr x1, [x16, #2760]
 .word 0xeb01001f
 .word 0x54000060
 .word 0xd2800016
@@ -28720,7 +28772,7 @@ bl _p_154
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x0, [x16, #2752]
+ldr x0, [x16, #2768]
 .word 0xd2804001
 .word 0xd2804001
 bl _p_4
@@ -28820,7 +28872,7 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x15, [x16, #2760]
+ldr x15, [x16, #2776]
 bl _p_156
 .word 0xf94027b1
 .word 0xf9439a31
@@ -28956,7 +29008,7 @@ Helper_Views_IllnessPage__OnItemSelectedd__1_SetStateMachine_System_Runtime_Comp
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2768]
+ldr x16, [x16, #2784]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -28983,7 +29035,7 @@ Helper_Views_IllnessPage__InitializeComponent_anonXamlCDataTemplate_1__ctor:
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2776]
+ldr x16, [x16, #2792]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -29017,7 +29069,7 @@ Helper_Views_IllnessPage__InitializeComponent_anonXamlCDataTemplate_1_LoadDataTe
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2784]
+ldr x16, [x16, #2800]
 .word 0xf9001fb0
 .word 0xf9400a11
 .word 0xf90023b1
@@ -29093,7 +29145,7 @@ bl _p_20
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x1, [x16, #2792]
+ldr x1, [x16, #2808]
 .word 0xaa0203e0
 .word 0x3940005e
 bl _p_79
@@ -29276,7 +29328,7 @@ Helper_Views_IllnessPageDetail__ctor_string_string_string:
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2800]
+ldr x16, [x16, #2816]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -29403,7 +29455,7 @@ Helper_Views_IllnessPageDetail_InitializeComponent:
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2808]
+ldr x16, [x16, #2824]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -29454,7 +29506,7 @@ bl _p_11
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x0, [x16, #2816]
+ldr x0, [x16, #2832]
 bl _p_12
 .word 0xf901d7a0
 .word 0xf9402bb1
@@ -29500,7 +29552,7 @@ bl _p_13
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x1, [x16, #2824]
+ldr x1, [x16, #2840]
 .word 0xaa0203e0
 .word 0x3940005e
 bl _p_14
@@ -29696,7 +29748,7 @@ bl _p_20
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x1, [x16, #2832]
+ldr x1, [x16, #2848]
 .word 0xaa1903e2
 .word 0xaa0303e0
 .word 0xf9400063
@@ -29727,7 +29779,7 @@ bl _p_37
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x1, [x16, #2832]
+ldr x1, [x16, #2848]
 .word 0xaa1903e0
 .word 0x3940033e
 bl _p_38
@@ -30490,7 +30542,7 @@ bl _p_48
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x0, [x16, #2816]
+ldr x0, [x16, #2832]
 bl _p_12
 .word 0xf9031ba0
 .word 0xf9402bb1
@@ -31004,7 +31056,7 @@ bl _p_48
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x0, [x16, #2816]
+ldr x0, [x16, #2832]
 bl _p_12
 .word 0xf9028ba0
 .word 0xf9402bb1
@@ -31593,7 +31645,7 @@ bl _p_48
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x0, [x16, #2816]
+ldr x0, [x16, #2832]
 bl _p_12
 .word 0xf901ffa0
 .word 0xf9402bb1
@@ -31896,7 +31948,7 @@ Helper_Views_IllnessPageDetail___InitComponentRuntime:
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2840]
+ldr x16, [x16, #2856]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -31915,11 +31967,11 @@ bl _p_1
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x1, [x16, #2816]
+ldr x1, [x16, #2832]
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x15, [x16, #2848]
+ldr x15, [x16, #2864]
 .word 0xaa1a03e0
 bl _p_159
 .word 0xf9400fb1
@@ -31931,7 +31983,7 @@ bl _p_159
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x1, [x16, #2832]
+ldr x1, [x16, #2848]
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
@@ -32043,7 +32095,7 @@ Helper_Views_MainTabbedPage__ctor:
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2856]
+ldr x16, [x16, #2872]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -32106,7 +32158,7 @@ bl _p_162
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x0, [x16, #2864]
+ldr x0, [x16, #2880]
 .word 0xd2803d01
 .word 0xd2803d01
 bl _p_4
@@ -32124,7 +32176,7 @@ bl _p_163
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x1, [x16, #2872]
+ldr x1, [x16, #2888]
 .word 0xaa1903e0
 .word 0x3940033e
 bl _p_164
@@ -32139,7 +32191,7 @@ bl _p_164
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x15, [x16, #2880]
+ldr x15, [x16, #2896]
 .word 0x928010f0
 .word 0xf2bffff0
 .word 0xf8706850
@@ -32164,7 +32216,7 @@ bl _p_162
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x0, [x16, #2888]
+ldr x0, [x16, #2904]
 .word 0xd2803e01
 .word 0xd2803e01
 bl _p_4
@@ -32182,7 +32234,7 @@ bl _p_165
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x1, [x16, #2896]
+ldr x1, [x16, #2912]
 .word 0xaa1803e0
 .word 0x3940031e
 bl _p_164
@@ -32197,7 +32249,7 @@ bl _p_164
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x15, [x16, #2880]
+ldr x15, [x16, #2896]
 .word 0x928010f0
 .word 0xf2bffff0
 .word 0xf8706850
@@ -32240,7 +32292,7 @@ bl _p_61
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x1, [x16, #2904]
+ldr x1, [x16, #2920]
 .word 0xaa1703e0
 .word 0x394002fe
 bl _p_164
@@ -32255,7 +32307,7 @@ bl _p_164
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x15, [x16, #2880]
+ldr x15, [x16, #2896]
 .word 0x928010f0
 .word 0xf2bffff0
 .word 0xf8706850
@@ -32295,7 +32347,7 @@ Helper_Views_MainTabbedPage_InitializeComponent:
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2912]
+ldr x16, [x16, #2928]
 .word 0xf90023b0
 .word 0xf9400a11
 .word 0xf90027b1
@@ -32347,7 +32399,7 @@ bl _p_11
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x0, [x16, #2920]
+ldr x0, [x16, #2936]
 bl _p_12
 .word 0xf9004fa0
 .word 0xf94023b1
@@ -32392,7 +32444,7 @@ bl _p_13
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x1, [x16, #2928]
+ldr x1, [x16, #2944]
 .word 0xaa1603e0
 .word 0x394002de
 bl _p_14
@@ -32525,7 +32577,7 @@ Helper_Views_MainTabbedPage___InitComponentRuntime:
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2936]
+ldr x16, [x16, #2952]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -32544,11 +32596,11 @@ bl _p_1
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x1, [x16, #2920]
+ldr x1, [x16, #2936]
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x15, [x16, #2944]
+ldr x15, [x16, #2960]
 bl _p_167
 .word 0xf9400fb1
 .word 0xf9407a31
@@ -32576,7 +32628,7 @@ Helper_Views_MentalPage__ctor:
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2952]
+ldr x16, [x16, #2968]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -32632,7 +32684,7 @@ bl _p_168
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x0, [x16, #2960]
+ldr x0, [x16, #2976]
 .word 0xd2800301
 .word 0xd2800301
 bl _p_4
@@ -32676,7 +32728,7 @@ Helper_Views_MentalPage_OnItemSelected_object_Xamarin_Forms_ItemTappedEventArgs:
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2968]
+ldr x16, [x16, #2984]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -32701,7 +32753,7 @@ bl _p_1
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x0, [x16, #2976]
+ldr x0, [x16, #2992]
 .word 0xd2800c01
 .word 0xd2800c01
 bl _p_4
@@ -32858,7 +32910,7 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x15, [x16, #2984]
+ldr x15, [x16, #3000]
 bl _p_171
 .word 0xf94017b1
 .word 0xf942e231
@@ -32893,7 +32945,7 @@ Helper_Views_MentalPage_InitializeComponent:
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2992]
+ldr x16, [x16, #3008]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -32943,7 +32995,7 @@ bl _p_11
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x0, [x16, #3000]
+ldr x0, [x16, #3016]
 bl _p_12
 .word 0xf9016fa0
 .word 0xf9402bb1
@@ -32989,7 +33041,7 @@ bl _p_13
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x1, [x16, #3008]
+ldr x1, [x16, #3024]
 .word 0xaa0203e0
 .word 0x3940005e
 bl _p_14
@@ -33179,7 +33231,7 @@ bl _p_20
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x1, [x16, #3016]
+ldr x1, [x16, #3032]
 .word 0xaa1603e2
 .word 0xaa0303e0
 .word 0xf9400063
@@ -33210,7 +33262,7 @@ bl _p_37
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x1, [x16, #3016]
+ldr x1, [x16, #3032]
 .word 0xaa1603e0
 .word 0x394002de
 bl _p_38
@@ -33351,7 +33403,7 @@ ldr x0, [x16, #392]
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x2, [x16, #3024]
+ldr x2, [x16, #3040]
 .word 0xaa1903e0
 .word 0x3940033e
 bl _p_27
@@ -33859,7 +33911,7 @@ bl _p_48
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x0, [x16, #3000]
+ldr x0, [x16, #3016]
 bl _p_12
 .word 0xf901dfa0
 .word 0xf9402bb1
@@ -34190,7 +34242,7 @@ bl _p_27
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x1, [x16, #3032]
+ldr x1, [x16, #3048]
 .word 0xaa1803e0
 .word 0x3940031e
 bl _p_79
@@ -34375,17 +34427,17 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x0, [x16, #3040]
+ldr x0, [x16, #3056]
 .word 0xf9001420
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x0, [x16, #3048]
+ldr x0, [x16, #3064]
 .word 0xf9002020
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x0, [x16, #3056]
+ldr x0, [x16, #3072]
 .word 0xf9401402
 .word 0xf9000c22
 .word 0xf9401000
@@ -34490,7 +34542,7 @@ bl _p_27
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x0, [x16, #3064]
+ldr x0, [x16, #3080]
 .word 0xd2800401
 .word 0xd2800401
 bl _p_4
@@ -34630,17 +34682,17 @@ ldr x3, [x16, #16]
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x0, [x16, #3072]
+ldr x0, [x16, #3088]
 .word 0xf9001420
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x0, [x16, #3080]
+ldr x0, [x16, #3096]
 .word 0xf9002020
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x0, [x16, #3088]
+ldr x0, [x16, #3104]
 .word 0xf9401402
 .word 0xf9000c22
 .word 0xf9401000
@@ -34751,7 +34803,7 @@ Helper_Views_MentalPage___InitComponentRuntime:
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #3096]
+ldr x16, [x16, #3112]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -34770,11 +34822,11 @@ bl _p_1
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x1, [x16, #3000]
+ldr x1, [x16, #3016]
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x15, [x16, #3104]
+ldr x15, [x16, #3120]
 .word 0xaa1a03e0
 bl _p_174
 .word 0xf9400fb1
@@ -34786,7 +34838,7 @@ bl _p_174
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x1, [x16, #3016]
+ldr x1, [x16, #3032]
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
@@ -34832,7 +34884,7 @@ Helper_Views_MentalPage__OnItemSelectedd__1__ctor:
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #3112]
+ldr x16, [x16, #3128]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -34868,7 +34920,7 @@ Helper_Views_MentalPage__OnItemSelectedd__1_MoveNext:
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #3120]
+ldr x16, [x16, #3136]
 .word 0xf90027b0
 .word 0xf9400a11
 .word 0xf9002bb1
@@ -34930,7 +34982,7 @@ bl _p_85
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x1, [x16, #3128]
+ldr x1, [x16, #3144]
 .word 0xeb01001f
 .word 0x54000060
 .word 0xd2800016
@@ -34995,7 +35047,7 @@ bl _p_177
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x0, [x16, #3136]
+ldr x0, [x16, #3152]
 .word 0xd2804001
 .word 0xd2804001
 bl _p_4
@@ -35095,7 +35147,7 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x15, [x16, #3144]
+ldr x15, [x16, #3160]
 bl _p_179
 .word 0xf94027b1
 .word 0xf9439a31
@@ -35231,7 +35283,7 @@ Helper_Views_MentalPage__OnItemSelectedd__1_SetStateMachine_System_Runtime_Compi
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #3152]
+ldr x16, [x16, #3168]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -35258,7 +35310,7 @@ Helper_Views_MentalPage__InitializeComponent_anonXamlCDataTemplate_2__ctor:
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #3160]
+ldr x16, [x16, #3176]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -35292,7 +35344,7 @@ Helper_Views_MentalPage__InitializeComponent_anonXamlCDataTemplate_2_LoadDataTem
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #3168]
+ldr x16, [x16, #3184]
 .word 0xf9001fb0
 .word 0xf9400a11
 .word 0xf90023b1
@@ -35368,7 +35420,7 @@ bl _p_20
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x1, [x16, #3176]
+ldr x1, [x16, #3192]
 .word 0xaa0203e0
 .word 0x3940005e
 bl _p_79
@@ -35551,7 +35603,7 @@ Helper_Views_MentalPageDetail__ctor_string_string_string:
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #3184]
+ldr x16, [x16, #3200]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -35678,7 +35730,7 @@ Helper_Views_MentalPageDetail_InitializeComponent:
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #3192]
+ldr x16, [x16, #3208]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -35729,7 +35781,7 @@ bl _p_11
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x0, [x16, #3200]
+ldr x0, [x16, #3216]
 bl _p_12
 .word 0xf901d7a0
 .word 0xf9402bb1
@@ -35775,7 +35827,7 @@ bl _p_13
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x1, [x16, #3208]
+ldr x1, [x16, #3224]
 .word 0xaa0203e0
 .word 0x3940005e
 bl _p_14
@@ -35971,7 +36023,7 @@ bl _p_20
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x1, [x16, #3216]
+ldr x1, [x16, #3232]
 .word 0xaa1903e2
 .word 0xaa0303e0
 .word 0xf9400063
@@ -36002,7 +36054,7 @@ bl _p_37
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x1, [x16, #3216]
+ldr x1, [x16, #3232]
 .word 0xaa1903e0
 .word 0x3940033e
 bl _p_38
@@ -36765,7 +36817,7 @@ bl _p_48
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x0, [x16, #3200]
+ldr x0, [x16, #3216]
 bl _p_12
 .word 0xf9031ba0
 .word 0xf9402bb1
@@ -37279,7 +37331,7 @@ bl _p_48
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x0, [x16, #3200]
+ldr x0, [x16, #3216]
 bl _p_12
 .word 0xf9028ba0
 .word 0xf9402bb1
@@ -37868,7 +37920,7 @@ bl _p_48
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x0, [x16, #3200]
+ldr x0, [x16, #3216]
 bl _p_12
 .word 0xf901ffa0
 .word 0xf9402bb1
@@ -38171,7 +38223,7 @@ Helper_Views_MentalPageDetail___InitComponentRuntime:
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #3224]
+ldr x16, [x16, #3240]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -38190,11 +38242,11 @@ bl _p_1
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x1, [x16, #3200]
+ldr x1, [x16, #3216]
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x15, [x16, #3232]
+ldr x15, [x16, #3248]
 .word 0xaa1a03e0
 bl _p_182
 .word 0xf9400fb1
@@ -38206,7 +38258,7 @@ bl _p_182
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x1, [x16, #3216]
+ldr x1, [x16, #3232]
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
@@ -38317,7 +38369,7 @@ Helper_Views_WoundsPage__ctor:
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #3240]
+ldr x16, [x16, #3256]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -38373,7 +38425,7 @@ bl _p_183
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x0, [x16, #3248]
+ldr x0, [x16, #3264]
 .word 0xd2800301
 .word 0xd2800301
 bl _p_4
@@ -38417,7 +38469,7 @@ Helper_Views_WoundsPage_OnItemSelected_object_Xamarin_Forms_ItemTappedEventArgs:
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #3256]
+ldr x16, [x16, #3272]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -38442,7 +38494,7 @@ bl _p_1
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x0, [x16, #3264]
+ldr x0, [x16, #3280]
 .word 0xd2800c01
 .word 0xd2800c01
 bl _p_4
@@ -38599,7 +38651,7 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x15, [x16, #3272]
+ldr x15, [x16, #3288]
 bl _p_186
 .word 0xf94017b1
 .word 0xf942e231
@@ -38634,7 +38686,7 @@ Helper_Views_WoundsPage_InitializeComponent:
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #3280]
+ldr x16, [x16, #3296]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -38684,7 +38736,7 @@ bl _p_11
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x0, [x16, #3288]
+ldr x0, [x16, #3304]
 bl _p_12
 .word 0xf9016fa0
 .word 0xf9402bb1
@@ -38730,7 +38782,7 @@ bl _p_13
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x1, [x16, #3296]
+ldr x1, [x16, #3312]
 .word 0xaa0203e0
 .word 0x3940005e
 bl _p_14
@@ -38920,7 +38972,7 @@ bl _p_20
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x1, [x16, #3304]
+ldr x1, [x16, #3320]
 .word 0xaa1603e2
 .word 0xaa0303e0
 .word 0xf9400063
@@ -38951,7 +39003,7 @@ bl _p_37
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x1, [x16, #3304]
+ldr x1, [x16, #3320]
 .word 0xaa1603e0
 .word 0x394002de
 bl _p_38
@@ -39092,7 +39144,7 @@ ldr x0, [x16, #392]
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x2, [x16, #3312]
+ldr x2, [x16, #3328]
 .word 0xaa1903e0
 .word 0x3940033e
 bl _p_27
@@ -39600,7 +39652,7 @@ bl _p_48
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x0, [x16, #3288]
+ldr x0, [x16, #3304]
 bl _p_12
 .word 0xf901dfa0
 .word 0xf9402bb1
@@ -39931,7 +39983,7 @@ bl _p_27
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x1, [x16, #3320]
+ldr x1, [x16, #3336]
 .word 0xaa1803e0
 .word 0x3940031e
 bl _p_79
@@ -40116,17 +40168,17 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x0, [x16, #3328]
+ldr x0, [x16, #3344]
 .word 0xf9001420
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x0, [x16, #3336]
+ldr x0, [x16, #3352]
 .word 0xf9002020
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x0, [x16, #3344]
+ldr x0, [x16, #3360]
 .word 0xf9401402
 .word 0xf9000c22
 .word 0xf9401000
@@ -40231,7 +40283,7 @@ bl _p_27
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x0, [x16, #3352]
+ldr x0, [x16, #3368]
 .word 0xd2800401
 .word 0xd2800401
 bl _p_4
@@ -40371,17 +40423,17 @@ ldr x3, [x16, #16]
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x0, [x16, #3360]
+ldr x0, [x16, #3376]
 .word 0xf9001420
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x0, [x16, #3368]
+ldr x0, [x16, #3384]
 .word 0xf9002020
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x0, [x16, #3376]
+ldr x0, [x16, #3392]
 .word 0xf9401402
 .word 0xf9000c22
 .word 0xf9401000
@@ -40492,7 +40544,7 @@ Helper_Views_WoundsPage___InitComponentRuntime:
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #3384]
+ldr x16, [x16, #3400]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -40511,11 +40563,11 @@ bl _p_1
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x1, [x16, #3288]
+ldr x1, [x16, #3304]
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x15, [x16, #3392]
+ldr x15, [x16, #3408]
 .word 0xaa1a03e0
 bl _p_189
 .word 0xf9400fb1
@@ -40527,7 +40579,7 @@ bl _p_189
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x1, [x16, #3304]
+ldr x1, [x16, #3320]
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
@@ -40573,7 +40625,7 @@ Helper_Views_WoundsPage__OnItemSelectedd__1__ctor:
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #3400]
+ldr x16, [x16, #3416]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -40609,7 +40661,7 @@ Helper_Views_WoundsPage__OnItemSelectedd__1_MoveNext:
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #3408]
+ldr x16, [x16, #3424]
 .word 0xf90027b0
 .word 0xf9400a11
 .word 0xf9002bb1
@@ -40671,7 +40723,7 @@ bl _p_85
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x1, [x16, #3416]
+ldr x1, [x16, #3432]
 .word 0xeb01001f
 .word 0x54000060
 .word 0xd2800016
@@ -40736,7 +40788,7 @@ bl _p_192
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x0, [x16, #3424]
+ldr x0, [x16, #3440]
 .word 0xd2804001
 .word 0xd2804001
 bl _p_4
@@ -40836,7 +40888,7 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x15, [x16, #3432]
+ldr x15, [x16, #3448]
 bl _p_194
 .word 0xf94027b1
 .word 0xf9439a31
@@ -40972,7 +41024,7 @@ Helper_Views_WoundsPage__OnItemSelectedd__1_SetStateMachine_System_Runtime_Compi
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #3440]
+ldr x16, [x16, #3456]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -40999,7 +41051,7 @@ Helper_Views_WoundsPage__InitializeComponent_anonXamlCDataTemplate_3__ctor:
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #3448]
+ldr x16, [x16, #3464]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -41033,7 +41085,7 @@ Helper_Views_WoundsPage__InitializeComponent_anonXamlCDataTemplate_3_LoadDataTem
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #3456]
+ldr x16, [x16, #3472]
 .word 0xf9001fb0
 .word 0xf9400a11
 .word 0xf90023b1
@@ -41109,7 +41161,7 @@ bl _p_20
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x1, [x16, #3464]
+ldr x1, [x16, #3480]
 .word 0xaa0203e0
 .word 0x3940005e
 bl _p_79
@@ -41292,7 +41344,7 @@ Helper_Views_WoundsPageDetail__ctor_string_string_string:
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #3472]
+ldr x16, [x16, #3488]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -41419,7 +41471,7 @@ Helper_Views_WoundsPageDetail_InitializeComponent:
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #3480]
+ldr x16, [x16, #3496]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -41470,7 +41522,7 @@ bl _p_11
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x0, [x16, #3488]
+ldr x0, [x16, #3504]
 bl _p_12
 .word 0xf901d7a0
 .word 0xf9402bb1
@@ -41516,7 +41568,7 @@ bl _p_13
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x1, [x16, #3496]
+ldr x1, [x16, #3512]
 .word 0xaa0203e0
 .word 0x3940005e
 bl _p_14
@@ -41712,7 +41764,7 @@ bl _p_20
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x1, [x16, #3504]
+ldr x1, [x16, #3520]
 .word 0xaa1903e2
 .word 0xaa0303e0
 .word 0xf9400063
@@ -41743,7 +41795,7 @@ bl _p_37
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x1, [x16, #3504]
+ldr x1, [x16, #3520]
 .word 0xaa1903e0
 .word 0x3940033e
 bl _p_38
@@ -42506,7 +42558,7 @@ bl _p_48
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x0, [x16, #3488]
+ldr x0, [x16, #3504]
 bl _p_12
 .word 0xf9031ba0
 .word 0xf9402bb1
@@ -43020,7 +43072,7 @@ bl _p_48
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x0, [x16, #3488]
+ldr x0, [x16, #3504]
 bl _p_12
 .word 0xf9028ba0
 .word 0xf9402bb1
@@ -43609,7 +43661,7 @@ bl _p_48
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x0, [x16, #3488]
+ldr x0, [x16, #3504]
 bl _p_12
 .word 0xf901ffa0
 .word 0xf9402bb1
@@ -43912,7 +43964,7 @@ Helper_Views_WoundsPageDetail___InitComponentRuntime:
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #3512]
+ldr x16, [x16, #3528]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -43931,11 +43983,11 @@ bl _p_1
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x1, [x16, #3488]
+ldr x1, [x16, #3504]
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x15, [x16, #3520]
+ldr x15, [x16, #3536]
 .word 0xaa1a03e0
 bl _p_197
 .word 0xf9400fb1
@@ -43947,7 +43999,7 @@ bl _p_197
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x1, [x16, #3504]
+ldr x1, [x16, #3520]
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
@@ -44057,7 +44109,7 @@ Helper_ViewModel_BonesPageViewModel_get_BoneList:
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #3528]
+ldr x16, [x16, #3544]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -44096,7 +44148,7 @@ Helper_ViewModel_BonesPageViewModel_set_BoneList_System_Collections_ObjectModel_
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #3536]
+ldr x16, [x16, #3552]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -44151,7 +44203,7 @@ Helper_ViewModel_BonesPageViewModel__ctor:
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #3544]
+ldr x16, [x16, #3560]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -44193,7 +44245,7 @@ bl _p_1
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x0, [x16, #3552]
+ldr x0, [x16, #3568]
 .word 0xd2800801
 .word 0xd2800801
 bl _p_4
@@ -44226,7 +44278,7 @@ bl _p_200
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x0, [x16, #3560]
+ldr x0, [x16, #3576]
 .word 0xd2800501
 .word 0xd2800501
 bl _p_4
@@ -44244,7 +44296,7 @@ bl _p_201
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x1, [x16, #3568]
+ldr x1, [x16, #3584]
 .word 0xaa1903e0
 .word 0x3940033e
 bl _p_202
@@ -44260,7 +44312,7 @@ bl _p_202
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x1, [x16, #3576]
+ldr x1, [x16, #3592]
 .word 0xaa1803e0
 .word 0x3940031e
 bl _p_203
@@ -44276,7 +44328,7 @@ bl _p_203
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x1, [x16, #3584]
+ldr x1, [x16, #3600]
 .word 0xaa1703e0
 .word 0x394002fe
 bl _p_204
@@ -44309,7 +44361,7 @@ bl _p_200
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x0, [x16, #3560]
+ldr x0, [x16, #3576]
 .word 0xd2800501
 .word 0xd2800501
 bl _p_4
@@ -44327,7 +44379,7 @@ bl _p_201
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x1, [x16, #3592]
+ldr x1, [x16, #3608]
 .word 0xaa1603e0
 .word 0x394002de
 bl _p_202
@@ -44343,7 +44395,7 @@ bl _p_202
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x1, [x16, #3600]
+ldr x1, [x16, #3616]
 .word 0xaa1503e0
 .word 0x394002be
 bl _p_203
@@ -44359,7 +44411,7 @@ bl _p_203
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x1, [x16, #3608]
+ldr x1, [x16, #3624]
 .word 0xaa1403e0
 .word 0x3940029e
 bl _p_204
@@ -44392,7 +44444,7 @@ bl _p_200
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x0, [x16, #3560]
+ldr x0, [x16, #3576]
 .word 0xd2800501
 .word 0xd2800501
 bl _p_4
@@ -44410,7 +44462,7 @@ bl _p_201
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x1, [x16, #3616]
+ldr x1, [x16, #3632]
 .word 0xaa1303e0
 .word 0x3940027e
 bl _p_202
@@ -44426,7 +44478,7 @@ bl _p_202
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x1, [x16, #3624]
+ldr x1, [x16, #3640]
 .word 0xaa0203e0
 .word 0x3940005e
 bl _p_203
@@ -44442,7 +44494,7 @@ bl _p_203
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x1, [x16, #3632]
+ldr x1, [x16, #3648]
 .word 0xaa0203e0
 .word 0x3940005e
 bl _p_204
@@ -44475,7 +44527,7 @@ bl _p_200
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x0, [x16, #3560]
+ldr x0, [x16, #3576]
 .word 0xd2800501
 .word 0xd2800501
 bl _p_4
@@ -44493,7 +44545,7 @@ bl _p_201
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x1, [x16, #3640]
+ldr x1, [x16, #3656]
 .word 0xaa0203e0
 .word 0x3940005e
 bl _p_202
@@ -44509,7 +44561,7 @@ bl _p_202
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x1, [x16, #3648]
+ldr x1, [x16, #3664]
 .word 0xaa0203e0
 .word 0x3940005e
 bl _p_203
@@ -44525,7 +44577,7 @@ bl _p_203
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x1, [x16, #3656]
+ldr x1, [x16, #3672]
 .word 0xaa0203e0
 .word 0x3940005e
 bl _p_204
@@ -44558,7 +44610,7 @@ bl _p_200
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x0, [x16, #3560]
+ldr x0, [x16, #3576]
 .word 0xd2800501
 .word 0xd2800501
 bl _p_4
@@ -44576,7 +44628,7 @@ bl _p_201
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x1, [x16, #3664]
+ldr x1, [x16, #3680]
 .word 0xaa0203e0
 .word 0x3940005e
 bl _p_202
@@ -44592,7 +44644,7 @@ bl _p_202
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x1, [x16, #3672]
+ldr x1, [x16, #3688]
 .word 0xaa0203e0
 .word 0x3940005e
 bl _p_203
@@ -44608,7 +44660,7 @@ bl _p_203
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x1, [x16, #3680]
+ldr x1, [x16, #3696]
 .word 0xaa0203e0
 .word 0x3940005e
 bl _p_204
@@ -44641,7 +44693,7 @@ bl _p_200
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x0, [x16, #3560]
+ldr x0, [x16, #3576]
 .word 0xd2800501
 .word 0xd2800501
 bl _p_4
@@ -44659,7 +44711,7 @@ bl _p_201
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x1, [x16, #3688]
+ldr x1, [x16, #3704]
 .word 0xaa0203e0
 .word 0x3940005e
 bl _p_202
@@ -44675,7 +44727,7 @@ bl _p_202
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x1, [x16, #3696]
+ldr x1, [x16, #3712]
 .word 0xaa0203e0
 .word 0x3940005e
 bl _p_203
@@ -44691,7 +44743,7 @@ bl _p_203
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x1, [x16, #3704]
+ldr x1, [x16, #3720]
 .word 0xaa0203e0
 .word 0x3940005e
 bl _p_204
@@ -44738,7 +44790,7 @@ Helper_ViewModel_IllnessPageViewModel_get_IllnessList:
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #3712]
+ldr x16, [x16, #3728]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -44777,7 +44829,7 @@ Helper_ViewModel_IllnessPageViewModel_set_IllnessList_System_Collections_ObjectM
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #3720]
+ldr x16, [x16, #3736]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -44832,7 +44884,7 @@ Helper_ViewModel_IllnessPageViewModel__ctor:
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #3728]
+ldr x16, [x16, #3744]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -44874,7 +44926,7 @@ bl _p_1
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x0, [x16, #3736]
+ldr x0, [x16, #3752]
 .word 0xd2800801
 .word 0xd2800801
 bl _p_4
@@ -44907,7 +44959,7 @@ bl _p_208
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x0, [x16, #3744]
+ldr x0, [x16, #3760]
 .word 0xd2800501
 .word 0xd2800501
 bl _p_4
@@ -44925,7 +44977,7 @@ bl _p_209
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x1, [x16, #3752]
+ldr x1, [x16, #3768]
 .word 0xaa1903e0
 .word 0x3940033e
 bl _p_210
@@ -44941,7 +44993,7 @@ bl _p_210
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x1, [x16, #3760]
+ldr x1, [x16, #3776]
 .word 0xaa1803e0
 .word 0x3940031e
 bl _p_211
@@ -44957,7 +45009,7 @@ bl _p_211
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x1, [x16, #3768]
+ldr x1, [x16, #3784]
 .word 0xaa1703e0
 .word 0x394002fe
 bl _p_212
@@ -44990,7 +45042,7 @@ bl _p_208
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x0, [x16, #3744]
+ldr x0, [x16, #3760]
 .word 0xd2800501
 .word 0xd2800501
 bl _p_4
@@ -45008,7 +45060,7 @@ bl _p_209
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x1, [x16, #3776]
+ldr x1, [x16, #3792]
 .word 0xaa1603e0
 .word 0x394002de
 bl _p_210
@@ -45024,7 +45076,7 @@ bl _p_210
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x1, [x16, #3784]
+ldr x1, [x16, #3800]
 .word 0xaa1503e0
 .word 0x394002be
 bl _p_211
@@ -45040,7 +45092,7 @@ bl _p_211
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x1, [x16, #3792]
+ldr x1, [x16, #3808]
 .word 0xaa1403e0
 .word 0x3940029e
 bl _p_212
@@ -45073,7 +45125,7 @@ bl _p_208
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x0, [x16, #3744]
+ldr x0, [x16, #3760]
 .word 0xd2800501
 .word 0xd2800501
 bl _p_4
@@ -45091,7 +45143,7 @@ bl _p_209
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x1, [x16, #3800]
+ldr x1, [x16, #3816]
 .word 0xaa1303e0
 .word 0x3940027e
 bl _p_210
@@ -45107,7 +45159,7 @@ bl _p_210
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x1, [x16, #3808]
+ldr x1, [x16, #3824]
 .word 0xaa0203e0
 .word 0x3940005e
 bl _p_211
@@ -45123,7 +45175,7 @@ bl _p_211
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x1, [x16, #3816]
+ldr x1, [x16, #3832]
 .word 0xaa0203e0
 .word 0x3940005e
 bl _p_212
@@ -45156,7 +45208,7 @@ bl _p_208
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x0, [x16, #3744]
+ldr x0, [x16, #3760]
 .word 0xd2800501
 .word 0xd2800501
 bl _p_4
@@ -45174,7 +45226,7 @@ bl _p_209
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x1, [x16, #3824]
+ldr x1, [x16, #3840]
 .word 0xaa0203e0
 .word 0x3940005e
 bl _p_210
@@ -45190,7 +45242,7 @@ bl _p_210
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x1, [x16, #3832]
+ldr x1, [x16, #3848]
 .word 0xaa0203e0
 .word 0x3940005e
 bl _p_211
@@ -45206,7 +45258,7 @@ bl _p_211
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x1, [x16, #3840]
+ldr x1, [x16, #3856]
 .word 0xaa0203e0
 .word 0x3940005e
 bl _p_212
@@ -45239,7 +45291,7 @@ bl _p_208
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x0, [x16, #3744]
+ldr x0, [x16, #3760]
 .word 0xd2800501
 .word 0xd2800501
 bl _p_4
@@ -45257,7 +45309,7 @@ bl _p_209
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x1, [x16, #3848]
+ldr x1, [x16, #3864]
 .word 0xaa0203e0
 .word 0x3940005e
 bl _p_210
@@ -45273,7 +45325,7 @@ bl _p_210
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x1, [x16, #3856]
+ldr x1, [x16, #3872]
 .word 0xaa0203e0
 .word 0x3940005e
 bl _p_211
@@ -45289,7 +45341,7 @@ bl _p_211
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x1, [x16, #3864]
+ldr x1, [x16, #3880]
 .word 0xaa0203e0
 .word 0x3940005e
 bl _p_212
@@ -45322,7 +45374,7 @@ bl _p_208
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x0, [x16, #3744]
+ldr x0, [x16, #3760]
 .word 0xd2800501
 .word 0xd2800501
 bl _p_4
@@ -45340,7 +45392,7 @@ bl _p_209
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x1, [x16, #3872]
+ldr x1, [x16, #3888]
 .word 0xaa0203e0
 .word 0x3940005e
 bl _p_210
@@ -45356,7 +45408,7 @@ bl _p_210
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x1, [x16, #3880]
+ldr x1, [x16, #3896]
 .word 0xaa0203e0
 .word 0x3940005e
 bl _p_211
@@ -45372,7 +45424,7 @@ bl _p_211
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x1, [x16, #3888]
+ldr x1, [x16, #3904]
 .word 0xaa0203e0
 .word 0x3940005e
 bl _p_212
@@ -45419,7 +45471,7 @@ Helper_ViewModel_MentalPageViewModel_get_MentalList:
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #3896]
+ldr x16, [x16, #3912]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -45458,7 +45510,7 @@ Helper_ViewModel_MentalPageViewModel_set_MentalList_System_Collections_ObjectMod
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #3904]
+ldr x16, [x16, #3920]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -45513,7 +45565,7 @@ Helper_ViewModel_MentalPageViewModel__ctor:
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #3912]
+ldr x16, [x16, #3928]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -45555,7 +45607,7 @@ bl _p_1
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x0, [x16, #3920]
+ldr x0, [x16, #3936]
 .word 0xd2800801
 .word 0xd2800801
 bl _p_4
@@ -45588,7 +45640,7 @@ bl _p_216
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x0, [x16, #3928]
+ldr x0, [x16, #3944]
 .word 0xd2800501
 .word 0xd2800501
 bl _p_4
@@ -45606,7 +45658,7 @@ bl _p_217
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x1, [x16, #3936]
+ldr x1, [x16, #3952]
 .word 0xaa1903e0
 .word 0x3940033e
 bl _p_218
@@ -45622,7 +45674,7 @@ bl _p_218
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x1, [x16, #3944]
+ldr x1, [x16, #3960]
 .word 0xaa1803e0
 .word 0x3940031e
 bl _p_219
@@ -45638,7 +45690,7 @@ bl _p_219
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x1, [x16, #3952]
+ldr x1, [x16, #3968]
 .word 0xaa1703e0
 .word 0x394002fe
 bl _p_220
@@ -45671,7 +45723,7 @@ bl _p_216
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x0, [x16, #3928]
+ldr x0, [x16, #3944]
 .word 0xd2800501
 .word 0xd2800501
 bl _p_4
@@ -45689,7 +45741,7 @@ bl _p_217
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x1, [x16, #3960]
+ldr x1, [x16, #3976]
 .word 0xaa1603e0
 .word 0x394002de
 bl _p_218
@@ -45705,7 +45757,7 @@ bl _p_218
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x1, [x16, #3968]
+ldr x1, [x16, #3984]
 .word 0xaa1503e0
 .word 0x394002be
 bl _p_219
@@ -45721,7 +45773,7 @@ bl _p_219
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x1, [x16, #3976]
+ldr x1, [x16, #3992]
 .word 0xaa1403e0
 .word 0x3940029e
 bl _p_220
@@ -45754,7 +45806,7 @@ bl _p_216
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x0, [x16, #3928]
+ldr x0, [x16, #3944]
 .word 0xd2800501
 .word 0xd2800501
 bl _p_4
@@ -45772,7 +45824,7 @@ bl _p_217
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x1, [x16, #3984]
+ldr x1, [x16, #4000]
 .word 0xaa1303e0
 .word 0x3940027e
 bl _p_218
@@ -45788,7 +45840,7 @@ bl _p_218
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x1, [x16, #3992]
+ldr x1, [x16, #4008]
 .word 0xaa0203e0
 .word 0x3940005e
 bl _p_219
@@ -45804,7 +45856,7 @@ bl _p_219
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x1, [x16, #4000]
+ldr x1, [x16, #4016]
 .word 0xaa0203e0
 .word 0x3940005e
 bl _p_220
@@ -45837,7 +45889,7 @@ bl _p_216
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x0, [x16, #3928]
+ldr x0, [x16, #3944]
 .word 0xd2800501
 .word 0xd2800501
 bl _p_4
@@ -45855,7 +45907,7 @@ bl _p_217
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x1, [x16, #4008]
+ldr x1, [x16, #4024]
 .word 0xaa0203e0
 .word 0x3940005e
 bl _p_218
@@ -45871,7 +45923,7 @@ bl _p_218
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x1, [x16, #4016]
+ldr x1, [x16, #4032]
 .word 0xaa0203e0
 .word 0x3940005e
 bl _p_219
@@ -45887,7 +45939,7 @@ bl _p_219
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x1, [x16, #4024]
+ldr x1, [x16, #4040]
 .word 0xaa0203e0
 .word 0x3940005e
 bl _p_220
@@ -45920,7 +45972,7 @@ bl _p_216
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x0, [x16, #3928]
+ldr x0, [x16, #3944]
 .word 0xd2800501
 .word 0xd2800501
 bl _p_4
@@ -45938,7 +45990,7 @@ bl _p_217
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x1, [x16, #4032]
+ldr x1, [x16, #4048]
 .word 0xaa0203e0
 .word 0x3940005e
 bl _p_218
@@ -45954,7 +46006,7 @@ bl _p_218
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x1, [x16, #4040]
+ldr x1, [x16, #4056]
 .word 0xaa0203e0
 .word 0x3940005e
 bl _p_219
@@ -45970,7 +46022,7 @@ bl _p_219
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x1, [x16, #4048]
+ldr x1, [x16, #4064]
 .word 0xaa0203e0
 .word 0x3940005e
 bl _p_220
@@ -46003,7 +46055,7 @@ bl _p_216
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x0, [x16, #3928]
+ldr x0, [x16, #3944]
 .word 0xd2800501
 .word 0xd2800501
 bl _p_4
@@ -46021,7 +46073,7 @@ bl _p_217
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x1, [x16, #4056]
+ldr x1, [x16, #4072]
 .word 0xaa0203e0
 .word 0x3940005e
 bl _p_218
@@ -46037,7 +46089,7 @@ bl _p_218
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x1, [x16, #4064]
+ldr x1, [x16, #4080]
 .word 0xaa0203e0
 .word 0x3940005e
 bl _p_219
@@ -46053,7 +46105,7 @@ bl _p_219
 
 adrp x16, mono_aot_Helper_got@PAGE+0
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x1, [x16, #4072]
+ldr x1, [x16, #4088]
 .word 0xaa0203e0
 .word 0x3940005e
 bl _p_220
@@ -46098,9 +46150,9 @@ Helper_ViewModel_WoundsPageViewModel_get_WoundList:
 .word 0x910003fd
 .word 0xf9000ba0
 
-adrp x16, mono_aot_Helper_got@PAGE+0
+adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #4080]
+ldr x16, [x16, #0]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -46137,9 +46189,9 @@ Helper_ViewModel_WoundsPageViewModel_set_WoundList_System_Collections_ObjectMode
 .word 0xf9000ba0
 .word 0xf9000fa1
 
-adrp x16, mono_aot_Helper_got@PAGE+0
+adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #4088]
+ldr x16, [x16, #8]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -46194,7 +46246,7 @@ Helper_ViewModel_WoundsPageViewModel__ctor:
 
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #0]
+ldr x16, [x16, #16]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -46236,7 +46288,7 @@ bl _p_1
 
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x0, [x16, #8]
+ldr x0, [x16, #24]
 .word 0xd2800801
 .word 0xd2800801
 bl _p_4
@@ -46269,7 +46321,7 @@ bl _p_224
 
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x0, [x16, #16]
+ldr x0, [x16, #32]
 .word 0xd2800501
 .word 0xd2800501
 bl _p_4
@@ -46287,7 +46339,7 @@ bl _p_225
 
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x1, [x16, #24]
+ldr x1, [x16, #40]
 .word 0xaa1903e0
 .word 0x3940033e
 bl _p_226
@@ -46303,7 +46355,7 @@ bl _p_226
 
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x1, [x16, #32]
+ldr x1, [x16, #48]
 .word 0xaa1803e0
 .word 0x3940031e
 bl _p_227
@@ -46319,7 +46371,7 @@ bl _p_227
 
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x1, [x16, #40]
+ldr x1, [x16, #56]
 .word 0xaa1703e0
 .word 0x394002fe
 bl _p_228
@@ -46352,7 +46404,7 @@ bl _p_224
 
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x0, [x16, #16]
+ldr x0, [x16, #32]
 .word 0xd2800501
 .word 0xd2800501
 bl _p_4
@@ -46370,7 +46422,7 @@ bl _p_225
 
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x1, [x16, #48]
+ldr x1, [x16, #64]
 .word 0xaa1603e0
 .word 0x394002de
 bl _p_226
@@ -46386,7 +46438,7 @@ bl _p_226
 
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x1, [x16, #56]
+ldr x1, [x16, #72]
 .word 0xaa1503e0
 .word 0x394002be
 bl _p_227
@@ -46402,7 +46454,7 @@ bl _p_227
 
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x1, [x16, #64]
+ldr x1, [x16, #80]
 .word 0xaa1403e0
 .word 0x3940029e
 bl _p_228
@@ -46435,7 +46487,7 @@ bl _p_224
 
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x0, [x16, #16]
+ldr x0, [x16, #32]
 .word 0xd2800501
 .word 0xd2800501
 bl _p_4
@@ -46453,7 +46505,7 @@ bl _p_225
 
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x1, [x16, #72]
+ldr x1, [x16, #88]
 .word 0xaa1303e0
 .word 0x3940027e
 bl _p_226
@@ -46469,7 +46521,7 @@ bl _p_226
 
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x1, [x16, #80]
+ldr x1, [x16, #96]
 .word 0xaa0203e0
 .word 0x3940005e
 bl _p_227
@@ -46485,7 +46537,7 @@ bl _p_227
 
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x1, [x16, #88]
+ldr x1, [x16, #104]
 .word 0xaa0203e0
 .word 0x3940005e
 bl _p_228
@@ -46518,7 +46570,7 @@ bl _p_224
 
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x0, [x16, #16]
+ldr x0, [x16, #32]
 .word 0xd2800501
 .word 0xd2800501
 bl _p_4
@@ -46536,7 +46588,7 @@ bl _p_225
 
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x1, [x16, #96]
+ldr x1, [x16, #112]
 .word 0xaa0203e0
 .word 0x3940005e
 bl _p_226
@@ -46552,7 +46604,7 @@ bl _p_226
 
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x1, [x16, #104]
+ldr x1, [x16, #120]
 .word 0xaa0203e0
 .word 0x3940005e
 bl _p_227
@@ -46568,7 +46620,7 @@ bl _p_227
 
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x1, [x16, #112]
+ldr x1, [x16, #128]
 .word 0xaa0203e0
 .word 0x3940005e
 bl _p_228
@@ -46601,7 +46653,7 @@ bl _p_224
 
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x0, [x16, #16]
+ldr x0, [x16, #32]
 .word 0xd2800501
 .word 0xd2800501
 bl _p_4
@@ -46619,7 +46671,7 @@ bl _p_225
 
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x1, [x16, #120]
+ldr x1, [x16, #136]
 .word 0xaa0203e0
 .word 0x3940005e
 bl _p_226
@@ -46635,7 +46687,7 @@ bl _p_226
 
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x1, [x16, #128]
+ldr x1, [x16, #144]
 .word 0xaa0203e0
 .word 0x3940005e
 bl _p_227
@@ -46651,7 +46703,7 @@ bl _p_227
 
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x1, [x16, #136]
+ldr x1, [x16, #152]
 .word 0xaa0203e0
 .word 0x3940005e
 bl _p_228
@@ -46684,7 +46736,7 @@ bl _p_224
 
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x0, [x16, #16]
+ldr x0, [x16, #32]
 .word 0xd2800501
 .word 0xd2800501
 bl _p_4
@@ -46702,7 +46754,7 @@ bl _p_225
 
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x1, [x16, #144]
+ldr x1, [x16, #160]
 .word 0xaa0203e0
 .word 0x3940005e
 bl _p_226
@@ -46718,7 +46770,7 @@ bl _p_226
 
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x1, [x16, #152]
+ldr x1, [x16, #168]
 .word 0xaa0203e0
 .word 0x3940005e
 bl _p_227
@@ -46734,7 +46786,7 @@ bl _p_227
 
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x1, [x16, #160]
+ldr x1, [x16, #176]
 .word 0xaa0203e0
 .word 0x3940005e
 bl _p_228
@@ -46781,7 +46833,7 @@ Helper_Emergencies_StepsClass_get_NewStep:
 
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #168]
+ldr x16, [x16, #184]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -46820,7 +46872,7 @@ Helper_Emergencies_StepsClass_set_NewStep_string:
 
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #176]
+ldr x16, [x16, #192]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -46870,7 +46922,7 @@ Helper_Emergencies_StepsClass__ctor:
 
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #184]
+ldr x16, [x16, #200]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -46904,7 +46956,7 @@ Helper_Models_BonesModel_get_BoneType:
 
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #192]
+ldr x16, [x16, #208]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -46943,7 +46995,7 @@ Helper_Models_BonesModel_set_BoneType_string:
 
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #200]
+ldr x16, [x16, #216]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -46994,7 +47046,7 @@ Helper_Models_BonesModel_get_Description:
 
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #208]
+ldr x16, [x16, #224]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -47033,7 +47085,7 @@ Helper_Models_BonesModel_set_Description_string:
 
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #216]
+ldr x16, [x16, #232]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -47084,7 +47136,7 @@ Helper_Models_BonesModel_get_FirstAidSteps:
 
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #224]
+ldr x16, [x16, #240]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -47123,7 +47175,7 @@ Helper_Models_BonesModel_set_FirstAidSteps_string:
 
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #232]
+ldr x16, [x16, #248]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -47173,7 +47225,7 @@ Helper_Models_BonesModel__ctor:
 
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #240]
+ldr x16, [x16, #256]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -47207,7 +47259,7 @@ Helper_Models_IllnessModel_get_IllnessType:
 
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #248]
+ldr x16, [x16, #264]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -47246,7 +47298,7 @@ Helper_Models_IllnessModel_set_IllnessType_string:
 
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #256]
+ldr x16, [x16, #272]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -47297,7 +47349,7 @@ Helper_Models_IllnessModel_get_Description:
 
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #264]
+ldr x16, [x16, #280]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -47336,7 +47388,7 @@ Helper_Models_IllnessModel_set_Description_string:
 
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #272]
+ldr x16, [x16, #288]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -47387,7 +47439,7 @@ Helper_Models_IllnessModel_get_FirstAidSteps:
 
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #280]
+ldr x16, [x16, #296]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -47426,7 +47478,7 @@ Helper_Models_IllnessModel_set_FirstAidSteps_string:
 
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #288]
+ldr x16, [x16, #304]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -47476,7 +47528,7 @@ Helper_Models_IllnessModel__ctor:
 
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #296]
+ldr x16, [x16, #312]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -47510,7 +47562,7 @@ Helper_Models_MentalModel_get_MentalType:
 
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #304]
+ldr x16, [x16, #320]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -47549,7 +47601,7 @@ Helper_Models_MentalModel_set_MentalType_string:
 
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #312]
+ldr x16, [x16, #328]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -47600,7 +47652,7 @@ Helper_Models_MentalModel_get_Description:
 
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #320]
+ldr x16, [x16, #336]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -47639,7 +47691,7 @@ Helper_Models_MentalModel_set_Description_string:
 
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #328]
+ldr x16, [x16, #344]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -47690,7 +47742,7 @@ Helper_Models_MentalModel_get_FirstAidSteps:
 
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #336]
+ldr x16, [x16, #352]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -47729,7 +47781,7 @@ Helper_Models_MentalModel_set_FirstAidSteps_string:
 
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #344]
+ldr x16, [x16, #360]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -47779,7 +47831,7 @@ Helper_Models_MentalModel__ctor:
 
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #352]
+ldr x16, [x16, #368]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -47813,7 +47865,7 @@ Helper_Models_WoundsModel_get_WoundType:
 
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #360]
+ldr x16, [x16, #376]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -47852,7 +47904,7 @@ Helper_Models_WoundsModel_set_WoundType_string:
 
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #368]
+ldr x16, [x16, #384]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -47903,7 +47955,7 @@ Helper_Models_WoundsModel_get_Description:
 
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #376]
+ldr x16, [x16, #392]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -47942,7 +47994,7 @@ Helper_Models_WoundsModel_set_Description_string:
 
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #384]
+ldr x16, [x16, #400]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -47993,7 +48045,7 @@ Helper_Models_WoundsModel_get_FirstAidSteps:
 
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #392]
+ldr x16, [x16, #408]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -48032,7 +48084,7 @@ Helper_Models_WoundsModel_set_FirstAidSteps_string:
 
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #400]
+ldr x16, [x16, #416]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -48082,7 +48134,7 @@ Helper_Models_WoundsModel__ctor:
 
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #408]
+ldr x16, [x16, #424]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -48119,7 +48171,7 @@ wrapper_delegate_invoke_System_Func_2_System_Type_string_invoke_TResult_T_System
 
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #416]
+ldr x16, [x16, #432]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -48288,7 +48340,7 @@ System_Array_InternalEnumerator_1_T_INST__ctor_System_Array:
 
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #424]
+ldr x16, [x16, #440]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -48361,7 +48413,7 @@ System_Array_InternalEnumerator_1_T_INST_Dispose:
 
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #432]
+ldr x16, [x16, #448]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -48403,7 +48455,7 @@ System_Array_InternalEnumerator_1_T_INST_MoveNext:
 
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #440]
+ldr x16, [x16, #456]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -48508,7 +48560,7 @@ System_Array_InternalEnumerator_1_T_INST_get_Current:
 
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #448]
+ldr x16, [x16, #464]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -48662,7 +48714,7 @@ System_Array_InternalEnumerator_1_T_INST_System_Collections_IEnumerator_Reset:
 
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #456]
+ldr x16, [x16, #472]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -48714,7 +48766,7 @@ System_Array_InternalEnumerator_1_T_INST_System_Collections_IEnumerator_get_Curr
 
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #464]
+ldr x16, [x16, #480]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -48818,7 +48870,7 @@ System_Array_InternalArray__IEnumerable_GetEnumerator_T_INST:
 
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #472]
+ldr x16, [x16, #488]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -48942,7 +48994,7 @@ System_Tuple_2_T1_INT_T2_INT_get_Item1:
 
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #480]
+ldr x16, [x16, #496]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -48980,7 +49032,7 @@ System_Tuple_2_T1_INT_T2_INT_get_Item2:
 
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #488]
+ldr x16, [x16, #504]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -49020,7 +49072,7 @@ System_Tuple_2_T1_INT_T2_INT__ctor_T1_INT_T2_INT:
 
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #496]
+ldr x16, [x16, #512]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -49079,7 +49131,7 @@ System_Tuple_2_T1_INT_T2_INT_Equals_object:
 
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #504]
+ldr x16, [x16, #520]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -49109,7 +49161,7 @@ bl _p_1
 
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x15, [x16, #512]
+ldr x15, [x16, #528]
 bl _p_243
 .word 0xf9002ba0
 .word 0xf94013b1
@@ -49124,7 +49176,7 @@ bl _p_243
 
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x15, [x16, #520]
+ldr x15, [x16, #536]
 .word 0x92800af0
 .word 0xf2bffff0
 .word 0xf8706870
@@ -49161,7 +49213,7 @@ System_Tuple_2_T1_INT_T2_INT_System_Collections_IStructuralEquatable_Equals_obje
 
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #528]
+ldr x16, [x16, #544]
 .word 0xf90023b0
 .word 0xf9400a11
 .word 0xf90027b1
@@ -49268,7 +49320,7 @@ bl _p_4
 
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x15, [x16, #536]
+ldr x15, [x16, #552]
 .word 0x928002f0
 .word 0xf2bffff0
 .word 0xf8706870
@@ -49312,7 +49364,7 @@ bl _p_4
 
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x15, [x16, #536]
+ldr x15, [x16, #552]
 .word 0x928002f0
 .word 0xf2bffff0
 .word 0xf8706870
@@ -49351,7 +49403,7 @@ System_Tuple_2_T1_INT_T2_INT_System_IComparable_CompareTo_object:
 
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #544]
+ldr x16, [x16, #560]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -49381,7 +49433,7 @@ bl _p_1
 
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x15, [x16, #552]
+ldr x15, [x16, #568]
 bl _p_247
 .word 0xf9002ba0
 .word 0xf94013b1
@@ -49396,7 +49448,7 @@ bl _p_247
 
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x15, [x16, #560]
+ldr x15, [x16, #576]
 .word 0x928003f0
 .word 0xf2bffff0
 .word 0xf8706870
@@ -49434,7 +49486,7 @@ System_Tuple_2_T1_INT_T2_INT_System_Collections_IStructuralComparable_CompareTo_
 
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #568]
+ldr x16, [x16, #584]
 .word 0xf90027b0
 .word 0xf9400a11
 .word 0xf9002bb1
@@ -49586,7 +49638,7 @@ bl _p_4
 
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x15, [x16, #576]
+ldr x15, [x16, #592]
 .word 0x928010f0
 .word 0xf2bffff0
 .word 0xf8706870
@@ -49651,7 +49703,7 @@ bl _p_4
 
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x15, [x16, #576]
+ldr x15, [x16, #592]
 .word 0x928010f0
 .word 0xf2bffff0
 .word 0xf8706870
@@ -49687,7 +49739,7 @@ System_Tuple_2_T1_INT_T2_INT_GetHashCode:
 
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #584]
+ldr x16, [x16, #600]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -49715,7 +49767,7 @@ bl _p_1
 
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x15, [x16, #512]
+ldr x15, [x16, #528]
 bl _p_243
 .word 0xf9001fa0
 .word 0xf9400fb1
@@ -49729,7 +49781,7 @@ bl _p_243
 
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x15, [x16, #592]
+ldr x15, [x16, #608]
 .word 0x928002f0
 .word 0xf2bffff0
 .word 0xf8706850
@@ -49763,7 +49815,7 @@ System_Tuple_2_T1_INT_T2_INT_System_Collections_IStructuralEquatable_GetHashCode
 
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #600]
+ldr x16, [x16, #616]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -49804,7 +49856,7 @@ bl _p_4
 
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x15, [x16, #608]
+ldr x15, [x16, #624]
 .word 0x928006f0
 .word 0xf2bffff0
 .word 0xf8706850
@@ -49833,7 +49885,7 @@ bl _p_4
 
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x15, [x16, #608]
+ldr x15, [x16, #624]
 .word 0x928006f0
 .word 0xf2bffff0
 .word 0xf8706850
@@ -49876,7 +49928,7 @@ System_Tuple_2_T1_INT_T2_INT_ToString:
 
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #616]
+ldr x16, [x16, #632]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -49903,7 +49955,7 @@ bl _p_1
 
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x0, [x16, #624]
+ldr x0, [x16, #640]
 .word 0xd2800601
 .word 0xd2800601
 bl _p_4
@@ -49942,7 +49994,7 @@ bl _p_251
 
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x15, [x16, #632]
+ldr x15, [x16, #648]
 .word 0x928002f0
 .word 0xf2bffff0
 .word 0xf8706850
@@ -49976,7 +50028,7 @@ System_Tuple_2_T1_INT_T2_INT_System_ITupleInternal_ToString_System_Text_StringBu
 
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #640]
+ldr x16, [x16, #656]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -50028,7 +50080,7 @@ bl _p_252
 
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x1, [x16, #648]
+ldr x1, [x16, #664]
 .word 0xaa1a03e0
 .word 0x3940035e
 bl _p_253
@@ -50113,7 +50165,7 @@ System_Tuple_2_T1_INT_T2_INT_System_Runtime_CompilerServices_ITuple_get_Length:
 
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #656]
+ldr x16, [x16, #672]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -50155,7 +50207,7 @@ wrapper_delegate_invoke_System_Predicate_1_Xamarin_Forms_Cell_invoke_bool_T_Xama
 
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #664]
+ldr x16, [x16, #680]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -50316,7 +50368,7 @@ wrapper_delegate_invoke_System_Action_1_Xamarin_Forms_Cell_invoke_void_T_Xamarin
 
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #672]
+ldr x16, [x16, #688]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -50468,7 +50520,7 @@ wrapper_delegate_invoke_System_Comparison_1_Xamarin_Forms_Cell_invoke_int_T_T_Xa
 
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #680]
+ldr x16, [x16, #696]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -50634,7 +50686,7 @@ wrapper_delegate_invoke_System_Predicate_1_Xamarin_Forms_Internals_TemplatedItem
 
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #688]
+ldr x16, [x16, #704]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -50795,7 +50847,7 @@ wrapper_delegate_invoke_System_Action_1_Xamarin_Forms_Internals_TemplatedItemsLi
 
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #696]
+ldr x16, [x16, #712]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -50947,7 +50999,7 @@ wrapper_delegate_invoke_System_Comparison_1_Xamarin_Forms_Internals_TemplatedIte
 
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #704]
+ldr x16, [x16, #720]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -51112,7 +51164,7 @@ System_Array_InternalArray__ICollection_Add_T_INST_T_INST:
 
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #712]
+ldr x16, [x16, #728]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -51168,7 +51220,7 @@ System_Array_InternalArray__ICollection_Remove_T_INST_T_INST:
 
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #720]
+ldr x16, [x16, #736]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -51228,7 +51280,7 @@ System_Array_InternalArray__ICollection_Contains_T_INST_T_INST:
 
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #728]
+ldr x16, [x16, #744]
 .word 0xf9002fb0
 .word 0xf9400a11
 .word 0xf90033b1
@@ -51573,7 +51625,7 @@ System_Array_InternalArray__ICollection_CopyTo_T_INST_T_INST___int:
 
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #736]
+ldr x16, [x16, #752]
 .word 0xf9001fb0
 .word 0xf9400a11
 .word 0xf90023b1
@@ -51657,7 +51709,7 @@ wrapper_delegate_invoke_System_Predicate_1_object_invoke_bool_T_object:
 
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #744]
+ldr x16, [x16, #760]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -51818,7 +51870,7 @@ wrapper_delegate_invoke_System_Action_1_object_invoke_void_T_object:
 
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #752]
+ldr x16, [x16, #768]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -51970,7 +52022,7 @@ wrapper_delegate_invoke_System_Comparison_1_object_invoke_int_T_T_object_object:
 
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #760]
+ldr x16, [x16, #776]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -52137,7 +52189,7 @@ wrapper_delegate_invoke_System_EventHandler_1_Xamarin_Forms_ItemTappedEventArgs_
 
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #768]
+ldr x16, [x16, #784]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -52293,7 +52345,7 @@ wrapper_delegate_invoke_System_Func_1_object_invoke_TResult:
 
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #776]
+ldr x16, [x16, #792]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -52445,7 +52497,7 @@ wrapper_delegate_invoke_System_Predicate_1_Xamarin_Forms_RowDefinition_invoke_bo
 
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #784]
+ldr x16, [x16, #800]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -52606,7 +52658,7 @@ wrapper_delegate_invoke_System_Action_1_Xamarin_Forms_RowDefinition_invoke_void_
 
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #792]
+ldr x16, [x16, #808]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -52758,7 +52810,7 @@ wrapper_delegate_invoke_System_Comparison_1_Xamarin_Forms_RowDefinition_invoke_i
 
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #800]
+ldr x16, [x16, #816]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -52924,7 +52976,7 @@ wrapper_delegate_invoke_System_Predicate_1_Xamarin_Forms_ColumnDefinition_invoke
 
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #808]
+ldr x16, [x16, #824]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -53085,7 +53137,7 @@ wrapper_delegate_invoke_System_Action_1_Xamarin_Forms_ColumnDefinition_invoke_vo
 
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #816]
+ldr x16, [x16, #832]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -53237,7 +53289,7 @@ wrapper_delegate_invoke_System_Comparison_1_Xamarin_Forms_ColumnDefinition_invok
 
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #824]
+ldr x16, [x16, #840]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -53403,7 +53455,7 @@ wrapper_delegate_invoke_System_Predicate_1_Xamarin_Forms_Element_invoke_bool_T_X
 
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #832]
+ldr x16, [x16, #848]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -53564,7 +53616,7 @@ wrapper_delegate_invoke_System_Action_1_Xamarin_Forms_Element_invoke_void_T_Xama
 
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #840]
+ldr x16, [x16, #856]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -53716,7 +53768,7 @@ wrapper_delegate_invoke_System_Comparison_1_Xamarin_Forms_Element_invoke_int_T_T
 
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #848]
+ldr x16, [x16, #864]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -53882,7 +53934,7 @@ wrapper_delegate_invoke_System_Predicate_1_Xamarin_Forms_Page_invoke_bool_T_Xama
 
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #856]
+ldr x16, [x16, #872]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -54043,7 +54095,7 @@ wrapper_delegate_invoke_System_Action_1_Xamarin_Forms_Page_invoke_void_T_Xamarin
 
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #864]
+ldr x16, [x16, #880]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -54195,7 +54247,7 @@ wrapper_delegate_invoke_System_Comparison_1_Xamarin_Forms_Page_invoke_int_T_T_Xa
 
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #872]
+ldr x16, [x16, #888]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -54361,7 +54413,7 @@ wrapper_delegate_invoke_System_Predicate_1_Xamarin_Forms_Internals_TemplatedItem
 
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #880]
+ldr x16, [x16, #896]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -54522,7 +54574,7 @@ wrapper_delegate_invoke_System_Action_1_Xamarin_Forms_Internals_TemplatedItemsLi
 
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #888]
+ldr x16, [x16, #904]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -54674,7 +54726,7 @@ wrapper_delegate_invoke_System_Comparison_1_Xamarin_Forms_Internals_TemplatedIte
 
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #896]
+ldr x16, [x16, #912]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -54848,7 +54900,7 @@ System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TA
 
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #904]
+ldr x16, [x16, #920]
 .word 0xf90033b0
 .word 0xf9400a11
 .word 0xf90037b1
@@ -54999,14 +55051,14 @@ bl _p_262
 
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x0, [x16, #912]
+ldr x0, [x16, #928]
 .word 0xf9006ba0
 .word 0xf9402fa0
 .word 0xf90077a0
 
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x0, [x16, #920]
+ldr x0, [x16, #936]
 .word 0xf9007ba0
 .word 0xf9403fa0
 bl _p_263
@@ -55128,7 +55180,7 @@ bl _p_269
 
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x0, [x16, #928]
+ldr x0, [x16, #944]
 .word 0xf90067a0
 .word 0xf9403fa0
 bl _p_270
@@ -55215,7 +55267,7 @@ System_Array_InternalArray__get_Item_T_INST_int:
 
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #936]
+ldr x16, [x16, #952]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -55596,8 +55648,8 @@ unwind_info:
 	.byte 12,31,0,84,14,240,13,157,222,1,158,221,1,68,13,29,68,147,220,1,148,219,1,68,149,218,1,150,217,1,68,151
 	.byte 216,1,152,215,1,68,153,214,1,154,213,1,16,12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8,13,12,31
 	.byte 0,68,14,80,157,10,158,9,68,13,29,44,12,31,0,84,14,144,35,157,178,4,158,177,4,68,13,29,68,147,176,4
-	.byte 148,175,4,68,149,174,4,150,173,4,68,151,172,4,152,171,4,68,153,170,4,154,169,4,34,12,31,0,84,14,240,6
-	.byte 157,110,158,109,68,13,29,68,147,108,148,107,68,149,106,150,105,68,151,104,152,103,68,153,102,154,101,24,12,31,0,68
+	.byte 148,175,4,68,149,174,4,150,173,4,68,151,172,4,152,171,4,68,153,170,4,154,169,4,34,12,31,0,84,14,128,7
+	.byte 157,112,158,111,68,13,29,68,147,110,148,109,68,149,108,150,107,68,151,106,152,105,68,153,104,154,103,24,12,31,0,68
 	.byte 14,160,1,157,20,158,19,68,13,29,68,151,18,152,17,68,153,16,154,15,34,12,31,0,68,14,192,3,157,56,158,55
 	.byte 68,13,29,68,147,54,148,53,68,149,52,150,51,68,151,50,152,49,68,153,48,154,47,34,12,31,0,68,14,144,1,157
 	.byte 18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10,154,9,16,12,31,0,68,14
@@ -55621,2173 +55673,2173 @@ plt__jit_icall_mono_threads_state_poll:
 _p_1:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #952]
+ldr x16, [x16, #968]
 br x16
-.word 7395
+.word 7413
 	.no_dead_strip plt_Xamarin_Forms_Application__ctor
 plt_Xamarin_Forms_Application__ctor:
 _p_2:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #960]
+ldr x16, [x16, #976]
 br x16
-.word 7421
+.word 7439
 	.no_dead_strip plt_Helper_App_InitializeComponent
 plt_Helper_App_InitializeComponent:
 _p_3:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #968]
+ldr x16, [x16, #984]
 br x16
-.word 7426
+.word 7444
 	.no_dead_strip plt_wrapper_alloc_object_AllocSmall_intptr_intptr
 plt_wrapper_alloc_object_AllocSmall_intptr_intptr:
 _p_4:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #976]
+ldr x16, [x16, #992]
 br x16
-.word 7431
+.word 7449
 	.no_dead_strip plt_Helper_Views_MainTabbedPage__ctor
 plt_Helper_Views_MainTabbedPage__ctor:
 _p_5:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #984]
+ldr x16, [x16, #1000]
 br x16
-.word 7439
+.word 7457
 	.no_dead_strip plt_Xamarin_Forms_NavigationPage__ctor_Xamarin_Forms_Page
 plt_Xamarin_Forms_NavigationPage__ctor_Xamarin_Forms_Page:
 _p_6:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #992]
+ldr x16, [x16, #1008]
 br x16
-.word 7444
+.word 7462
 	.no_dead_strip plt_Xamarin_Forms_Color_FromHex_string
 plt_Xamarin_Forms_Color_FromHex_string:
 _p_7:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #1000]
+ldr x16, [x16, #1016]
 br x16
-.word 7449
+.word 7467
 	.no_dead_strip plt_Xamarin_Forms_NavigationPage_set_BarBackgroundColor_Xamarin_Forms_Color
 plt_Xamarin_Forms_NavigationPage_set_BarBackgroundColor_Xamarin_Forms_Color:
 _p_8:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #1008]
+ldr x16, [x16, #1024]
 br x16
-.word 7454
+.word 7472
 	.no_dead_strip plt_Xamarin_Forms_NavigationPage_set_BarTextColor_Xamarin_Forms_Color
 plt_Xamarin_Forms_NavigationPage_set_BarTextColor_Xamarin_Forms_Color:
 _p_9:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #1016]
+ldr x16, [x16, #1032]
 br x16
-.word 7459
+.word 7477
 	.no_dead_strip plt_Xamarin_Forms_Application_set_MainPage_Xamarin_Forms_Page
 plt_Xamarin_Forms_Application_set_MainPage_Xamarin_Forms_Page:
 _p_10:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #1024]
+ldr x16, [x16, #1040]
 br x16
-.word 7464
+.word 7482
 	.no_dead_strip plt_Xamarin_Forms_Internals_ResourceLoader_ResourceLoadingQuery__ctor
 plt_Xamarin_Forms_Internals_ResourceLoader_ResourceLoadingQuery__ctor:
 _p_11:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #1032]
+ldr x16, [x16, #1048]
 br x16
-.word 7469
+.word 7487
 	.no_dead_strip plt_System_Reflection_IntrospectionExtensions_GetTypeInfo_System_Type
 plt_System_Reflection_IntrospectionExtensions_GetTypeInfo_System_Type:
 _p_12:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #1040]
+ldr x16, [x16, #1056]
 br x16
-.word 7474
+.word 7492
 	.no_dead_strip plt_Xamarin_Forms_Internals_ResourceLoader_ResourceLoadingQuery_set_AssemblyName_System_Reflection_AssemblyName
 plt_Xamarin_Forms_Internals_ResourceLoader_ResourceLoadingQuery_set_AssemblyName_System_Reflection_AssemblyName:
 _p_13:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #1048]
+ldr x16, [x16, #1064]
 br x16
-.word 7477
+.word 7495
 	.no_dead_strip plt_Xamarin_Forms_Internals_ResourceLoader_ResourceLoadingQuery_set_ResourcePath_string
 plt_Xamarin_Forms_Internals_ResourceLoader_ResourceLoadingQuery_set_ResourcePath_string:
 _p_14:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #1056]
+ldr x16, [x16, #1072]
 br x16
-.word 7482
+.word 7500
 	.no_dead_strip plt_Xamarin_Forms_Internals_ResourceLoader_ResourceLoadingQuery_set_Instance_object
 plt_Xamarin_Forms_Internals_ResourceLoader_ResourceLoadingQuery_set_Instance_object:
 _p_15:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #1064]
+ldr x16, [x16, #1080]
 br x16
-.word 7487
+.word 7505
 	.no_dead_strip plt_Xamarin_Forms_Internals_ResourceLoader_CanProvideContentFor_Xamarin_Forms_Internals_ResourceLoader_ResourceLoadingQuery
 plt_Xamarin_Forms_Internals_ResourceLoader_CanProvideContentFor_Xamarin_Forms_Internals_ResourceLoader_ResourceLoadingQuery:
 _p_16:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #1072]
+ldr x16, [x16, #1088]
 br x16
-.word 7492
+.word 7510
 	.no_dead_strip plt_Helper_App___InitComponentRuntime
 plt_Helper_App___InitComponentRuntime:
 _p_17:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #1080]
+ldr x16, [x16, #1096]
 br x16
-.word 7497
+.word 7515
 	.no_dead_strip plt_Xamarin_Forms_Xaml_Internals_XamlLoader_get_XamlFileProvider
 plt_Xamarin_Forms_Xaml_Internals_XamlLoader_get_XamlFileProvider:
 _p_18:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #1088]
+ldr x16, [x16, #1104]
 br x16
-.word 7502
+.word 7520
 	.no_dead_strip plt_Xamarin_Forms_Internals_NameScope__ctor
 plt_Xamarin_Forms_Internals_NameScope__ctor:
 _p_19:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #1096]
+ldr x16, [x16, #1112]
 br x16
-.word 7507
+.word 7525
 	.no_dead_strip plt_Xamarin_Forms_Internals_NameScope_SetNameScope_Xamarin_Forms_BindableObject_Xamarin_Forms_Internals_INameScope
 plt_Xamarin_Forms_Internals_NameScope_SetNameScope_Xamarin_Forms_BindableObject_Xamarin_Forms_Internals_INameScope:
 _p_20:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #1104]
+ldr x16, [x16, #1120]
 br x16
-.word 7512
+.word 7530
 	.no_dead_strip plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_Helper_App_Helper_App_System_Type
 plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_Helper_App_Helper_App_System_Type:
 _p_21:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #1112]
+ldr x16, [x16, #1128]
 br x16
-.word 7517
+.word 7535
 	.no_dead_strip plt_Xamarin_Forms_ContentPage__ctor
 plt_Xamarin_Forms_ContentPage__ctor:
 _p_22:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #1120]
+ldr x16, [x16, #1136]
 br x16
-.word 7529
+.word 7547
 	.no_dead_strip plt_Helper_MainPage_InitializeComponent
 plt_Helper_MainPage_InitializeComponent:
 _p_23:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #1128]
+ldr x16, [x16, #1144]
 br x16
-.word 7534
+.word 7552
 	.no_dead_strip plt_Helper_MainPage___InitComponentRuntime
 plt_Helper_MainPage___InitComponentRuntime:
 _p_24:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #1136]
+ldr x16, [x16, #1152]
 br x16
-.word 7539
+.word 7557
 	.no_dead_strip plt_Xamarin_Forms_Label__ctor
 plt_Xamarin_Forms_Label__ctor:
 _p_25:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #1144]
+ldr x16, [x16, #1160]
 br x16
-.word 7544
+.word 7562
 	.no_dead_strip plt_Xamarin_Forms_StackLayout__ctor
 plt_Xamarin_Forms_StackLayout__ctor:
 _p_26:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #1152]
+ldr x16, [x16, #1168]
 br x16
-.word 7549
+.word 7567
 	.no_dead_strip plt_Xamarin_Forms_BindableObject_SetValue_Xamarin_Forms_BindableProperty_object
 plt_Xamarin_Forms_BindableObject_SetValue_Xamarin_Forms_BindableProperty_object:
 _p_27:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #1160]
+ldr x16, [x16, #1176]
 br x16
-.word 7554
+.word 7572
 	.no_dead_strip plt_Xamarin_Forms_Layout_1_Xamarin_Forms_View_get_Children
 plt_Xamarin_Forms_Layout_1_Xamarin_Forms_View_get_Children:
 _p_28:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #1168]
+ldr x16, [x16, #1184]
 br x16
-.word 7559
+.word 7577
 	.no_dead_strip plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_Helper_MainPage_Helper_MainPage_System_Type
 plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_Helper_MainPage_Helper_MainPage_System_Type:
 _p_29:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #1176]
+ldr x16, [x16, #1192]
 br x16
-.word 7570
+.word 7588
 	.no_dead_strip plt_Helper_Views_AddContactPage_InitializeComponent
 plt_Helper_Views_AddContactPage_InitializeComponent:
 _p_30:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #1184]
+ldr x16, [x16, #1200]
 br x16
-.word 7582
+.word 7600
 	.no_dead_strip plt_Helper_Views_AddContactPage__HandleClickd__1__ctor
 plt_Helper_Views_AddContactPage__HandleClickd__1__ctor:
 _p_31:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #1192]
+ldr x16, [x16, #1208]
 br x16
-.word 7587
+.word 7605
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Create
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Create:
 _p_32:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #1200]
+ldr x16, [x16, #1216]
 br x16
-.word 7592
+.word 7610
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_Helper_Views_AddContactPage__HandleClickd__1_Helper_Views_AddContactPage__HandleClickd__1_
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_Helper_Views_AddContactPage__HandleClickd__1_Helper_Views_AddContactPage__HandleClickd__1_:
 _p_33:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #1208]
+ldr x16, [x16, #1224]
 br x16
-.word 7595
+.word 7613
 	.no_dead_strip plt_Helper_Views_AddContactPage___InitComponentRuntime
 plt_Helper_Views_AddContactPage___InitComponentRuntime:
 _p_34:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #1216]
+ldr x16, [x16, #1232]
 br x16
-.word 7607
+.word 7625
 	.no_dead_strip plt_Xamarin_Forms_Entry__ctor
 plt_Xamarin_Forms_Entry__ctor:
 _p_35:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #1224]
+ldr x16, [x16, #1240]
 br x16
-.word 7612
+.word 7630
 	.no_dead_strip plt_Xamarin_Forms_Button__ctor
 plt_Xamarin_Forms_Button__ctor:
 _p_36:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #1232]
+ldr x16, [x16, #1248]
 br x16
-.word 7617
+.word 7635
 	.no_dead_strip plt_Xamarin_Forms_Element_get_StyleId
 plt_Xamarin_Forms_Element_get_StyleId:
 _p_37:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #1240]
+ldr x16, [x16, #1256]
 br x16
-.word 7622
+.word 7640
 	.no_dead_strip plt_Xamarin_Forms_Element_set_StyleId_string
 plt_Xamarin_Forms_Element_set_StyleId_string:
 _p_38:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #1248]
+ldr x16, [x16, #1264]
 br x16
-.word 7627
+.word 7645
 	.no_dead_strip plt_Xamarin_Forms_Color__ctor_double_double_double_double
 plt_Xamarin_Forms_Color__ctor_double_double_double_double:
 _p_39:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #1256]
+ldr x16, [x16, #1272]
 br x16
-.word 7632
+.word 7650
 	.no_dead_strip plt_Xamarin_Forms_TextAlignmentConverter__ctor
 plt_Xamarin_Forms_TextAlignmentConverter__ctor:
 _p_40:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #1264]
+ldr x16, [x16, #1280]
 br x16
-.word 7637
+.word 7655
 	.no_dead_strip plt_Xamarin_Forms_Thickness__ctor_double
 plt_Xamarin_Forms_Thickness__ctor_double:
 _p_41:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #1272]
+ldr x16, [x16, #1288]
 br x16
-.word 7642
+.word 7660
 	.no_dead_strip plt_Xamarin_Forms_FontSizeConverter__ctor
 plt_Xamarin_Forms_FontSizeConverter__ctor:
 _p_42:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #1280]
+ldr x16, [x16, #1296]
 br x16
-.word 7647
+.word 7665
 	.no_dead_strip plt_Xamarin_Forms_Xaml_Internals_XamlServiceProvider__ctor
 plt_Xamarin_Forms_Xaml_Internals_XamlServiceProvider__ctor:
 _p_43:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #1288]
+ldr x16, [x16, #1304]
 br x16
-.word 7652
+.word 7670
 	.no_dead_strip plt_wrapper_alloc_object_AllocVector_intptr_intptr
 plt_wrapper_alloc_object_AllocVector_intptr_intptr:
 _p_44:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #1296]
+ldr x16, [x16, #1312]
 br x16
-.word 7657
+.word 7675
 	.no_dead_strip plt_Xamarin_Forms_Xaml_Internals_SimpleValueTargetProvider__ctor_object___object_Xamarin_Forms_Internals_INameScope
 plt_Xamarin_Forms_Xaml_Internals_SimpleValueTargetProvider__ctor_object___object_Xamarin_Forms_Internals_INameScope:
 _p_45:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #1304]
+ldr x16, [x16, #1320]
 br x16
-.word 7665
+.word 7683
 	.no_dead_strip plt_Xamarin_Forms_Xaml_Internals_XamlServiceProvider_Add_System_Type_object
 plt_Xamarin_Forms_Xaml_Internals_XamlServiceProvider_Add_System_Type_object:
 _p_46:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #1312]
+ldr x16, [x16, #1328]
 br x16
-.word 7670
+.word 7688
 	.no_dead_strip plt_Xamarin_Forms_Xaml_Internals_XmlNamespaceResolver__ctor
 plt_Xamarin_Forms_Xaml_Internals_XmlNamespaceResolver__ctor:
 _p_47:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #1320]
+ldr x16, [x16, #1336]
 br x16
-.word 7675
+.word 7693
 	.no_dead_strip plt_Xamarin_Forms_Xaml_Internals_XmlNamespaceResolver_Add_string_string
 plt_Xamarin_Forms_Xaml_Internals_XmlNamespaceResolver_Add_string_string:
 _p_48:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #1328]
+ldr x16, [x16, #1344]
 br x16
-.word 7680
+.word 7698
 	.no_dead_strip plt_Xamarin_Forms_Xaml_Internals_XamlTypeResolver__ctor_System_Xml_IXmlNamespaceResolver_System_Reflection_Assembly
 plt_Xamarin_Forms_Xaml_Internals_XamlTypeResolver__ctor_System_Xml_IXmlNamespaceResolver_System_Reflection_Assembly:
 _p_49:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #1336]
+ldr x16, [x16, #1352]
 br x16
-.word 7685
+.word 7703
 	.no_dead_strip plt_Xamarin_Forms_Xaml_XmlLineInfo__ctor_int_int
 plt_Xamarin_Forms_Xaml_XmlLineInfo__ctor_int_int:
 _p_50:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #1344]
+ldr x16, [x16, #1360]
 br x16
-.word 7690
+.word 7708
 	.no_dead_strip plt_Xamarin_Forms_Xaml_Internals_XmlLineInfoProvider__ctor_System_Xml_IXmlLineInfo
 plt_Xamarin_Forms_Xaml_Internals_XmlLineInfoProvider__ctor_System_Xml_IXmlLineInfo:
 _p_51:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #1352]
+ldr x16, [x16, #1368]
 br x16
-.word 7695
+.word 7713
 	.no_dead_strip plt_Xamarin_Forms_FontTypeConverter__ctor
 plt_Xamarin_Forms_FontTypeConverter__ctor:
 _p_52:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #1360]
+ldr x16, [x16, #1376]
 br x16
-.word 7700
+.word 7718
 	.no_dead_strip plt_Xamarin_Forms_FontTypeConverter_ConvertFromInvariantString_string
 plt_Xamarin_Forms_FontTypeConverter_ConvertFromInvariantString_string:
 _p_53:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #1368]
+ldr x16, [x16, #1384]
 br x16
-.word 7705
+.word 7723
 	.no_dead_strip plt_Xamarin_Forms_KeyboardTypeConverter__ctor
 plt_Xamarin_Forms_KeyboardTypeConverter__ctor:
 _p_54:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #1376]
+ldr x16, [x16, #1392]
 br x16
-.word 7710
+.word 7728
 	.no_dead_strip plt_Xamarin_Forms_Button_add_Clicked_System_EventHandler
 plt_Xamarin_Forms_Button_add_Clicked_System_EventHandler:
 _p_55:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #1384]
+ldr x16, [x16, #1400]
 br x16
-.word 7715
+.word 7733
 	.no_dead_strip plt__jit_icall_mono_arch_throw_corlib_exception
 plt__jit_icall_mono_arch_throw_corlib_exception:
 _p_56:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #1392]
+ldr x16, [x16, #1408]
 br x16
-.word 7720
+.word 7738
 	.no_dead_strip plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_Helper_Views_AddContactPage_Helper_Views_AddContactPage_System_Type
 plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_Helper_Views_AddContactPage_Helper_Views_AddContactPage_System_Type:
 _p_57:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #1400]
+ldr x16, [x16, #1416]
 br x16
-.word 7755
+.word 7773
 	.no_dead_strip plt_Xamarin_Forms_NameScopeExtensions_FindByName_Xamarin_Forms_Entry_Xamarin_Forms_Element_string
 plt_Xamarin_Forms_NameScopeExtensions_FindByName_Xamarin_Forms_Entry_Xamarin_Forms_Element_string:
 _p_58:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #1408]
+ldr x16, [x16, #1424]
 br x16
-.word 7767
+.word 7785
 	.no_dead_strip plt_System_Console_WriteLine_string
 plt_System_Console_WriteLine_string:
 _p_59:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #1416]
+ldr x16, [x16, #1432]
 br x16
-.word 7779
+.word 7797
 	.no_dead_strip plt_Xamarin_Forms_NavigableElement_get_Navigation
 plt_Xamarin_Forms_NavigableElement_get_Navigation:
 _p_60:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #1424]
+ldr x16, [x16, #1440]
 br x16
-.word 7782
+.word 7800
 	.no_dead_strip plt_Helper_Views_Contact__ctor
 plt_Helper_Views_Contact__ctor:
 _p_61:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #1432]
+ldr x16, [x16, #1448]
 br x16
-.word 7787
+.word 7805
 	.no_dead_strip plt_System_Threading_Tasks_Task_GetAwaiter
 plt_System_Threading_Tasks_Task_GetAwaiter:
 _p_62:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #1440]
+ldr x16, [x16, #1456]
 br x16
-.word 7792
+.word 7810
 	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_get_IsCompleted
 plt_System_Runtime_CompilerServices_TaskAwaiter_get_IsCompleted:
 _p_63:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #1448]
+ldr x16, [x16, #1464]
 br x16
-.word 7795
+.word 7813
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_Helper_Views_AddContactPage__HandleClickd__1_System_Runtime_CompilerServices_TaskAwaiter__Helper_Views_AddContactPage__HandleClickd__1_
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_Helper_Views_AddContactPage__HandleClickd__1_System_Runtime_CompilerServices_TaskAwaiter__Helper_Views_AddContactPage__HandleClickd__1_:
 _p_64:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #1456]
+ldr x16, [x16, #1472]
 br x16
-.word 7798
+.word 7816
 	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_GetResult
 plt_System_Runtime_CompilerServices_TaskAwaiter_GetResult:
 _p_65:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #1464]
+ldr x16, [x16, #1480]
 br x16
-.word 7810
+.word 7828
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_SetException_System_Exception
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_SetException_System_Exception:
 _p_66:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #1472]
+ldr x16, [x16, #1488]
 br x16
-.word 7813
+.word 7831
 	.no_dead_strip plt__jit_icall_mono_thread_get_undeniable_exception
 plt__jit_icall_mono_thread_get_undeniable_exception:
 _p_67:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #1480]
+ldr x16, [x16, #1496]
 br x16
-.word 7816
+.word 7834
 	.no_dead_strip plt__jit_icall_mono_arch_throw_exception
 plt__jit_icall_mono_arch_throw_exception:
 _p_68:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #1488]
+ldr x16, [x16, #1504]
 br x16
-.word 7855
+.word 7873
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_SetResult
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_SetResult:
 _p_69:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #1496]
+ldr x16, [x16, #1512]
 br x16
-.word 7883
+.word 7901
 	.no_dead_strip plt_Helper_Views_BonesPage_InitializeComponent
 plt_Helper_Views_BonesPage_InitializeComponent:
 _p_70:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #1504]
+ldr x16, [x16, #1520]
 br x16
-.word 7886
+.word 7904
 	.no_dead_strip plt_Helper_ViewModel_BonesPageViewModel__ctor
 plt_Helper_ViewModel_BonesPageViewModel__ctor:
 _p_71:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #1512]
+ldr x16, [x16, #1528]
 br x16
-.word 7891
+.word 7909
 	.no_dead_strip plt_Xamarin_Forms_BindableObject_set_BindingContext_object
 plt_Xamarin_Forms_BindableObject_set_BindingContext_object:
 _p_72:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #1520]
+ldr x16, [x16, #1536]
 br x16
-.word 7896
+.word 7914
 	.no_dead_strip plt_Helper_Views_BonesPage__OnItemSelectedd__1__ctor
 plt_Helper_Views_BonesPage__OnItemSelectedd__1__ctor:
 _p_73:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #1528]
+ldr x16, [x16, #1544]
 br x16
-.word 7901
+.word 7919
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_Helper_Views_BonesPage__OnItemSelectedd__1_Helper_Views_BonesPage__OnItemSelectedd__1_
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_Helper_Views_BonesPage__OnItemSelectedd__1_Helper_Views_BonesPage__OnItemSelectedd__1_:
 _p_74:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #1536]
+ldr x16, [x16, #1552]
 br x16
-.word 7906
+.word 7924
 	.no_dead_strip plt_Helper_Views_BonesPage___InitComponentRuntime
 plt_Helper_Views_BonesPage___InitComponentRuntime:
 _p_75:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #1544]
+ldr x16, [x16, #1560]
 br x16
-.word 7918
+.word 7936
 	.no_dead_strip plt_Xamarin_Forms_Xaml_BindingExtension__ctor
 plt_Xamarin_Forms_Xaml_BindingExtension__ctor:
 _p_76:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #1552]
+ldr x16, [x16, #1568]
 br x16
-.word 7923
+.word 7941
 	.no_dead_strip plt_Xamarin_Forms_DataTemplate__ctor
 plt_Xamarin_Forms_DataTemplate__ctor:
 _p_77:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #1560]
+ldr x16, [x16, #1576]
 br x16
-.word 7928
+.word 7946
 	.no_dead_strip plt_Xamarin_Forms_ListView__ctor
 plt_Xamarin_Forms_ListView__ctor:
 _p_78:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #1568]
+ldr x16, [x16, #1584]
 br x16
-.word 7933
+.word 7951
 	.no_dead_strip plt_Xamarin_Forms_Xaml_BindingExtension_set_Path_string
 plt_Xamarin_Forms_Xaml_BindingExtension_set_Path_string:
 _p_79:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #1576]
+ldr x16, [x16, #1592]
 br x16
-.word 7938
+.word 7956
 	.no_dead_strip plt_Xamarin_Forms_BindableObject_SetBinding_Xamarin_Forms_BindableProperty_Xamarin_Forms_BindingBase
 plt_Xamarin_Forms_BindableObject_SetBinding_Xamarin_Forms_BindableProperty_Xamarin_Forms_BindingBase:
 _p_80:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #1584]
+ldr x16, [x16, #1600]
 br x16
-.word 7943
+.word 7961
 	.no_dead_strip plt_Xamarin_Forms_ListView_add_ItemTapped_System_EventHandler_1_Xamarin_Forms_ItemTappedEventArgs
 plt_Xamarin_Forms_ListView_add_ItemTapped_System_EventHandler_1_Xamarin_Forms_ItemTappedEventArgs:
 _p_81:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #1592]
+ldr x16, [x16, #1608]
 br x16
-.word 7948
+.word 7966
 	.no_dead_strip plt_Helper_Views_BonesPage__InitializeComponent_anonXamlCDataTemplate_0__ctor
 plt_Helper_Views_BonesPage__InitializeComponent_anonXamlCDataTemplate_0__ctor:
 _p_82:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #1600]
+ldr x16, [x16, #1616]
 br x16
-.word 7953
+.word 7971
 	.no_dead_strip plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_Helper_Views_BonesPage_Helper_Views_BonesPage_System_Type
 plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_Helper_Views_BonesPage_Helper_Views_BonesPage_System_Type:
 _p_83:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #1608]
+ldr x16, [x16, #1624]
 br x16
-.word 7958
+.word 7976
 	.no_dead_strip plt_Xamarin_Forms_NameScopeExtensions_FindByName_Xamarin_Forms_ListView_Xamarin_Forms_Element_string
 plt_Xamarin_Forms_NameScopeExtensions_FindByName_Xamarin_Forms_ListView_Xamarin_Forms_Element_string:
 _p_84:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #1616]
+ldr x16, [x16, #1632]
 br x16
-.word 7970
+.word 7988
 	.no_dead_strip plt_Xamarin_Forms_ItemTappedEventArgs_get_Item
 plt_Xamarin_Forms_ItemTappedEventArgs_get_Item:
 _p_85:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #1624]
+ldr x16, [x16, #1640]
 br x16
-.word 7982
+.word 8000
 	.no_dead_strip plt_Helper_Models_BonesModel_get_BoneType
 plt_Helper_Models_BonesModel_get_BoneType:
 _p_86:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #1632]
+ldr x16, [x16, #1648]
 br x16
-.word 7987
+.word 8005
 	.no_dead_strip plt_Helper_Models_BonesModel_get_Description
 plt_Helper_Models_BonesModel_get_Description:
 _p_87:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #1640]
+ldr x16, [x16, #1656]
 br x16
-.word 7992
+.word 8010
 	.no_dead_strip plt_Helper_Models_BonesModel_get_FirstAidSteps
 plt_Helper_Models_BonesModel_get_FirstAidSteps:
 _p_88:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #1648]
+ldr x16, [x16, #1664]
 br x16
-.word 7997
+.word 8015
 	.no_dead_strip plt_Helper_Views_BonesPageDetail__ctor_string_string_string
 plt_Helper_Views_BonesPageDetail__ctor_string_string_string:
 _p_89:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #1656]
+ldr x16, [x16, #1672]
 br x16
-.word 8002
+.word 8020
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_Helper_Views_BonesPage__OnItemSelectedd__1_System_Runtime_CompilerServices_TaskAwaiter__Helper_Views_BonesPage__OnItemSelectedd__1_
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_Helper_Views_BonesPage__OnItemSelectedd__1_System_Runtime_CompilerServices_TaskAwaiter__Helper_Views_BonesPage__OnItemSelectedd__1_:
 _p_90:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #1664]
+ldr x16, [x16, #1680]
 br x16
-.word 8007
+.word 8025
 	.no_dead_strip plt_Xamarin_Forms_TextCell__ctor
 plt_Xamarin_Forms_TextCell__ctor:
 _p_91:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #1672]
+ldr x16, [x16, #1688]
 br x16
-.word 8019
+.word 8037
 	.no_dead_strip plt_Helper_Views_BonesPageDetail_InitializeComponent
 plt_Helper_Views_BonesPageDetail_InitializeComponent:
 _p_92:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #1680]
+ldr x16, [x16, #1696]
 br x16
-.word 8024
+.word 8042
 	.no_dead_strip plt_Xamarin_Forms_Label_set_Text_string
 plt_Xamarin_Forms_Label_set_Text_string:
 _p_93:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #1688]
+ldr x16, [x16, #1704]
 br x16
-.word 8029
+.word 8047
 	.no_dead_strip plt_Helper_Views_BonesPageDetail___InitComponentRuntime
 plt_Helper_Views_BonesPageDetail___InitComponentRuntime:
 _p_94:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #1696]
+ldr x16, [x16, #1712]
 br x16
-.word 8034
+.word 8052
 	.no_dead_strip plt_Xamarin_Forms_ScrollView__ctor
 plt_Xamarin_Forms_ScrollView__ctor:
 _p_95:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #1704]
+ldr x16, [x16, #1720]
 br x16
-.word 8039
+.word 8057
 	.no_dead_strip plt_Xamarin_Forms_Thickness__ctor_double_double
 plt_Xamarin_Forms_Thickness__ctor_double_double:
 _p_96:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #1712]
+ldr x16, [x16, #1728]
 br x16
-.word 8044
+.word 8062
 	.no_dead_strip plt_Xamarin_Forms_ScrollView_set_Content_Xamarin_Forms_View
 plt_Xamarin_Forms_ScrollView_set_Content_Xamarin_Forms_View:
 _p_97:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #1720]
+ldr x16, [x16, #1736]
 br x16
-.word 8049
+.word 8067
 	.no_dead_strip plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_Helper_Views_BonesPageDetail_Helper_Views_BonesPageDetail_System_Type
 plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_Helper_Views_BonesPageDetail_Helper_Views_BonesPageDetail_System_Type:
 _p_98:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #1728]
+ldr x16, [x16, #1744]
 br x16
-.word 8054
+.word 8072
 	.no_dead_strip plt_Xamarin_Forms_NameScopeExtensions_FindByName_Xamarin_Forms_Label_Xamarin_Forms_Element_string
 plt_Xamarin_Forms_NameScopeExtensions_FindByName_Xamarin_Forms_Label_Xamarin_Forms_Element_string:
 _p_99:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #1736]
+ldr x16, [x16, #1752]
 br x16
-.word 8066
+.word 8084
 	.no_dead_strip plt_Helper_Views_Contact_InitializeComponent
 plt_Helper_Views_Contact_InitializeComponent:
 _p_100:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #1744]
+ldr x16, [x16, #1760]
 br x16
-.word 8078
+.word 8096
 	.no_dead_strip plt_System_Uri__ctor_string
 plt_System_Uri__ctor_string:
 _p_101:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #1752]
+ldr x16, [x16, #1768]
 br x16
-.word 8083
+.word 8101
 	.no_dead_strip plt_Xamarin_Forms_Device_OpenUri_System_Uri
 plt_Xamarin_Forms_Device_OpenUri_System_Uri:
 _p_102:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #1760]
+ldr x16, [x16, #1776]
 br x16
-.word 8088
+.word 8106
 	.no_dead_strip plt_Helper_Views_Contact__HandleClicked3d__4__ctor
 plt_Helper_Views_Contact__HandleClicked3d__4__ctor:
 _p_103:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #1768]
+ldr x16, [x16, #1784]
 br x16
-.word 8093
+.word 8111
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_Helper_Views_Contact__HandleClicked3d__4_Helper_Views_Contact__HandleClicked3d__4_
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_Helper_Views_Contact__HandleClicked3d__4_Helper_Views_Contact__HandleClicked3d__4_:
 _p_104:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #1776]
+ldr x16, [x16, #1792]
 br x16
-.word 8098
+.word 8116
 	.no_dead_strip plt_Helper_Views_Contact___InitComponentRuntime
 plt_Helper_Views_Contact___InitComponentRuntime:
 _p_105:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #1784]
+ldr x16, [x16, #1800]
 br x16
-.word 8110
+.word 8128
 	.no_dead_strip plt_Xamarin_Forms_RowDefinition__ctor
 plt_Xamarin_Forms_RowDefinition__ctor:
 _p_106:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #1792]
+ldr x16, [x16, #1808]
 br x16
-.word 8115
+.word 8133
 	.no_dead_strip plt_Xamarin_Forms_ColumnDefinition__ctor
 plt_Xamarin_Forms_ColumnDefinition__ctor:
 _p_107:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #1800]
+ldr x16, [x16, #1816]
 br x16
-.word 8120
+.word 8138
 	.no_dead_strip plt_Xamarin_Forms_ImageButton__ctor
 plt_Xamarin_Forms_ImageButton__ctor:
 _p_108:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #1808]
+ldr x16, [x16, #1824]
 br x16
-.word 8125
+.word 8143
 	.no_dead_strip plt_Xamarin_Forms_Grid__ctor
 plt_Xamarin_Forms_Grid__ctor:
 _p_109:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #1816]
+ldr x16, [x16, #1832]
 br x16
-.word 8130
+.word 8148
 	.no_dead_strip plt_Xamarin_Forms_GridLengthTypeConverter__ctor
 plt_Xamarin_Forms_GridLengthTypeConverter__ctor:
 _p_110:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #1824]
+ldr x16, [x16, #1840]
 br x16
-.word 8135
+.word 8153
 	.no_dead_strip plt_Xamarin_Forms_BindableObject_GetValue_Xamarin_Forms_BindableProperty
 plt_Xamarin_Forms_BindableObject_GetValue_Xamarin_Forms_BindableProperty:
 _p_111:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #1832]
+ldr x16, [x16, #1848]
 br x16
-.word 8140
+.word 8158
 	.no_dead_strip plt_Xamarin_Forms_DefinitionCollection_1_Xamarin_Forms_RowDefinition_Add_Xamarin_Forms_RowDefinition
 plt_Xamarin_Forms_DefinitionCollection_1_Xamarin_Forms_RowDefinition_Add_Xamarin_Forms_RowDefinition:
 _p_112:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #1840]
+ldr x16, [x16, #1856]
 br x16
-.word 8145
+.word 8163
 	.no_dead_strip plt_Xamarin_Forms_DefinitionCollection_1_Xamarin_Forms_ColumnDefinition_Add_Xamarin_Forms_ColumnDefinition
 plt_Xamarin_Forms_DefinitionCollection_1_Xamarin_Forms_ColumnDefinition_Add_Xamarin_Forms_ColumnDefinition:
 _p_113:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #1848]
+ldr x16, [x16, #1864]
 br x16
-.word 8156
+.word 8174
 	.no_dead_strip plt_Xamarin_Forms_ImageSourceConverter__ctor
 plt_Xamarin_Forms_ImageSourceConverter__ctor:
 _p_114:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #1856]
+ldr x16, [x16, #1872]
 br x16
-.word 8167
+.word 8185
 	.no_dead_strip plt_Xamarin_Forms_ImageSourceConverter_ConvertFromInvariantString_string
 plt_Xamarin_Forms_ImageSourceConverter_ConvertFromInvariantString_string:
 _p_115:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #1864]
+ldr x16, [x16, #1880]
 br x16
-.word 8172
+.word 8190
 	.no_dead_strip plt_Xamarin_Forms_ImageButton_add_Clicked_System_EventHandler
 plt_Xamarin_Forms_ImageButton_add_Clicked_System_EventHandler:
 _p_116:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #1872]
+ldr x16, [x16, #1888]
 br x16
-.word 8177
+.word 8195
 	.no_dead_strip plt_Xamarin_Forms_Grid_get_Children
 plt_Xamarin_Forms_Grid_get_Children:
 _p_117:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #1880]
+ldr x16, [x16, #1896]
 br x16
-.word 8182
+.word 8200
 	.no_dead_strip plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_Helper_Views_Contact_Helper_Views_Contact_System_Type
 plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_Helper_Views_Contact_Helper_Views_Contact_System_Type:
 _p_118:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #1888]
+ldr x16, [x16, #1904]
 br x16
-.word 8187
+.word 8205
 	.no_dead_strip plt_Helper_Views_AddContactPage__ctor
 plt_Helper_Views_AddContactPage__ctor:
 _p_119:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #1896]
+ldr x16, [x16, #1912]
 br x16
-.word 8199
+.word 8217
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_Helper_Views_Contact__HandleClicked3d__4_System_Runtime_CompilerServices_TaskAwaiter__Helper_Views_Contact__HandleClicked3d__4_
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_Helper_Views_Contact__HandleClicked3d__4_System_Runtime_CompilerServices_TaskAwaiter__Helper_Views_Contact__HandleClicked3d__4_:
 _p_120:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #1904]
+ldr x16, [x16, #1920]
 br x16
-.word 8204
+.word 8222
 	.no_dead_strip plt_Helper_Views_Emergency_InitializeComponent
 plt_Helper_Views_Emergency_InitializeComponent:
 _p_121:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #1912]
+ldr x16, [x16, #1928]
 br x16
-.word 8216
+.word 8234
 	.no_dead_strip plt_Helper_Views_Emergency__HandleClickedd__1__ctor
 plt_Helper_Views_Emergency__HandleClickedd__1__ctor:
 _p_122:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #1920]
+ldr x16, [x16, #1936]
 br x16
-.word 8221
+.word 8239
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_Helper_Views_Emergency__HandleClickedd__1_Helper_Views_Emergency__HandleClickedd__1_
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_Helper_Views_Emergency__HandleClickedd__1_Helper_Views_Emergency__HandleClickedd__1_:
 _p_123:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #1928]
+ldr x16, [x16, #1944]
 br x16
-.word 8226
+.word 8244
 	.no_dead_strip plt_Helper_Views_Emergency__HandleClicked2d__2__ctor
 plt_Helper_Views_Emergency__HandleClicked2d__2__ctor:
 _p_124:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #1936]
+ldr x16, [x16, #1952]
 br x16
-.word 8238
+.word 8256
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_Helper_Views_Emergency__HandleClicked2d__2_Helper_Views_Emergency__HandleClicked2d__2_
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_Helper_Views_Emergency__HandleClicked2d__2_Helper_Views_Emergency__HandleClicked2d__2_:
 _p_125:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #1944]
+ldr x16, [x16, #1960]
 br x16
-.word 8243
+.word 8261
 	.no_dead_strip plt_Helper_Views_Emergency__HandleClicked3d__3__ctor
 plt_Helper_Views_Emergency__HandleClicked3d__3__ctor:
 _p_126:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #1952]
+ldr x16, [x16, #1968]
 br x16
-.word 8255
+.word 8273
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_Helper_Views_Emergency__HandleClicked3d__3_Helper_Views_Emergency__HandleClicked3d__3_
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_Helper_Views_Emergency__HandleClicked3d__3_Helper_Views_Emergency__HandleClicked3d__3_:
 _p_127:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #1960]
+ldr x16, [x16, #1976]
 br x16
-.word 8260
+.word 8278
 	.no_dead_strip plt_Helper_Views_Emergency__HandleClicked4d__4__ctor
 plt_Helper_Views_Emergency__HandleClicked4d__4__ctor:
 _p_128:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #1968]
+ldr x16, [x16, #1984]
 br x16
-.word 8272
+.word 8290
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_Helper_Views_Emergency__HandleClicked4d__4_Helper_Views_Emergency__HandleClicked4d__4_
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_Helper_Views_Emergency__HandleClicked4d__4_Helper_Views_Emergency__HandleClicked4d__4_:
 _p_129:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #1976]
+ldr x16, [x16, #1992]
 br x16
-.word 8277
+.word 8295
 	.no_dead_strip plt_Helper_Views_Emergency___InitComponentRuntime
 plt_Helper_Views_Emergency___InitComponentRuntime:
 _p_130:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #1984]
+ldr x16, [x16, #2000]
 br x16
-.word 8289
+.word 8307
 	.no_dead_strip plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_Helper_Views_Emergency_Helper_Views_Emergency_System_Type
 plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_Helper_Views_Emergency_Helper_Views_Emergency_System_Type:
 _p_131:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #1992]
+ldr x16, [x16, #2008]
 br x16
-.word 8294
+.word 8312
 	.no_dead_strip plt_Helper_Views_WoundsPage__ctor
 plt_Helper_Views_WoundsPage__ctor:
 _p_132:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2000]
+ldr x16, [x16, #2016]
 br x16
-.word 8306
+.word 8324
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_Helper_Views_Emergency__HandleClickedd__1_System_Runtime_CompilerServices_TaskAwaiter__Helper_Views_Emergency__HandleClickedd__1_
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_Helper_Views_Emergency__HandleClickedd__1_System_Runtime_CompilerServices_TaskAwaiter__Helper_Views_Emergency__HandleClickedd__1_:
 _p_133:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2008]
+ldr x16, [x16, #2024]
 br x16
-.word 8311
+.word 8329
 	.no_dead_strip plt_Helper_Views_BonesPage__ctor
 plt_Helper_Views_BonesPage__ctor:
 _p_134:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2016]
+ldr x16, [x16, #2032]
 br x16
-.word 8323
+.word 8341
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_Helper_Views_Emergency__HandleClicked2d__2_System_Runtime_CompilerServices_TaskAwaiter__Helper_Views_Emergency__HandleClicked2d__2_
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_Helper_Views_Emergency__HandleClicked2d__2_System_Runtime_CompilerServices_TaskAwaiter__Helper_Views_Emergency__HandleClicked2d__2_:
 _p_135:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2024]
+ldr x16, [x16, #2040]
 br x16
-.word 8328
+.word 8346
 	.no_dead_strip plt_Helper_Views_IllnessPage__ctor
 plt_Helper_Views_IllnessPage__ctor:
 _p_136:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2032]
+ldr x16, [x16, #2048]
 br x16
-.word 8340
+.word 8358
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_Helper_Views_Emergency__HandleClicked3d__3_System_Runtime_CompilerServices_TaskAwaiter__Helper_Views_Emergency__HandleClicked3d__3_
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_Helper_Views_Emergency__HandleClicked3d__3_System_Runtime_CompilerServices_TaskAwaiter__Helper_Views_Emergency__HandleClicked3d__3_:
 _p_137:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2040]
+ldr x16, [x16, #2056]
 br x16
-.word 8345
+.word 8363
 	.no_dead_strip plt_Helper_Views_MentalPage__ctor
 plt_Helper_Views_MentalPage__ctor:
 _p_138:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2048]
+ldr x16, [x16, #2064]
 br x16
-.word 8357
+.word 8375
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_Helper_Views_Emergency__HandleClicked4d__4_System_Runtime_CompilerServices_TaskAwaiter__Helper_Views_Emergency__HandleClicked4d__4_
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_Helper_Views_Emergency__HandleClicked4d__4_System_Runtime_CompilerServices_TaskAwaiter__Helper_Views_Emergency__HandleClicked4d__4_:
 _p_139:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2056]
+ldr x16, [x16, #2072]
 br x16
-.word 8362
+.word 8380
 	.no_dead_strip plt_Helper_Views_Hospital_InitializeComponent
 plt_Helper_Views_Hospital_InitializeComponent:
 _p_140:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2064]
+ldr x16, [x16, #2080]
 br x16
-.word 8374
+.word 8392
 	.no_dead_strip plt_Helper_Views_Hospital___InitComponentRuntime
 plt_Helper_Views_Hospital___InitComponentRuntime:
 _p_141:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2072]
+ldr x16, [x16, #2088]
 br x16
-.word 8379
+.word 8397
 	.no_dead_strip plt_Xamarin_Forms_Maps_Map__ctor
 plt_Xamarin_Forms_Maps_Map__ctor:
 _p_142:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2080]
+ldr x16, [x16, #2096]
 br x16
-.word 8384
+.word 8402
 	.no_dead_strip plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_Helper_Views_Hospital_Helper_Views_Hospital_System_Type
 plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_Helper_Views_Hospital_Helper_Views_Hospital_System_Type:
 _p_143:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2088]
+ldr x16, [x16, #2104]
 br x16
-.word 8389
+.word 8407
 	.no_dead_strip plt_Xamarin_Forms_NameScopeExtensions_FindByName_Xamarin_Forms_Maps_Map_Xamarin_Forms_Element_string
 plt_Xamarin_Forms_NameScopeExtensions_FindByName_Xamarin_Forms_Maps_Map_Xamarin_Forms_Element_string:
 _p_144:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2096]
+ldr x16, [x16, #2112]
 br x16
-.word 8401
+.word 8419
 	.no_dead_strip plt_Helper_Views_IllnessPage_InitializeComponent
 plt_Helper_Views_IllnessPage_InitializeComponent:
 _p_145:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2104]
+ldr x16, [x16, #2120]
 br x16
-.word 8413
+.word 8431
 	.no_dead_strip plt_Helper_ViewModel_IllnessPageViewModel__ctor
 plt_Helper_ViewModel_IllnessPageViewModel__ctor:
 _p_146:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2112]
+ldr x16, [x16, #2128]
 br x16
-.word 8418
+.word 8436
 	.no_dead_strip plt_Helper_Views_IllnessPage__OnItemSelectedd__1__ctor
 plt_Helper_Views_IllnessPage__OnItemSelectedd__1__ctor:
 _p_147:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2120]
+ldr x16, [x16, #2136]
 br x16
-.word 8423
+.word 8441
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_Helper_Views_IllnessPage__OnItemSelectedd__1_Helper_Views_IllnessPage__OnItemSelectedd__1_
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_Helper_Views_IllnessPage__OnItemSelectedd__1_Helper_Views_IllnessPage__OnItemSelectedd__1_:
 _p_148:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2128]
+ldr x16, [x16, #2144]
 br x16
-.word 8428
+.word 8446
 	.no_dead_strip plt_Helper_Views_IllnessPage___InitComponentRuntime
 plt_Helper_Views_IllnessPage___InitComponentRuntime:
 _p_149:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2136]
+ldr x16, [x16, #2152]
 br x16
-.word 8440
+.word 8458
 	.no_dead_strip plt_Helper_Views_IllnessPage__InitializeComponent_anonXamlCDataTemplate_1__ctor
 plt_Helper_Views_IllnessPage__InitializeComponent_anonXamlCDataTemplate_1__ctor:
 _p_150:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2144]
+ldr x16, [x16, #2160]
 br x16
-.word 8445
+.word 8463
 	.no_dead_strip plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_Helper_Views_IllnessPage_Helper_Views_IllnessPage_System_Type
 plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_Helper_Views_IllnessPage_Helper_Views_IllnessPage_System_Type:
 _p_151:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2152]
+ldr x16, [x16, #2168]
 br x16
-.word 8450
+.word 8468
 	.no_dead_strip plt_Helper_Models_IllnessModel_get_IllnessType
 plt_Helper_Models_IllnessModel_get_IllnessType:
 _p_152:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2160]
+ldr x16, [x16, #2176]
 br x16
-.word 8462
+.word 8480
 	.no_dead_strip plt_Helper_Models_IllnessModel_get_Description
 plt_Helper_Models_IllnessModel_get_Description:
 _p_153:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2168]
+ldr x16, [x16, #2184]
 br x16
-.word 8467
+.word 8485
 	.no_dead_strip plt_Helper_Models_IllnessModel_get_FirstAidSteps
 plt_Helper_Models_IllnessModel_get_FirstAidSteps:
 _p_154:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2176]
+ldr x16, [x16, #2192]
 br x16
-.word 8472
+.word 8490
 	.no_dead_strip plt_Helper_Views_IllnessPageDetail__ctor_string_string_string
 plt_Helper_Views_IllnessPageDetail__ctor_string_string_string:
 _p_155:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2184]
+ldr x16, [x16, #2200]
 br x16
-.word 8477
+.word 8495
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_Helper_Views_IllnessPage__OnItemSelectedd__1_System_Runtime_CompilerServices_TaskAwaiter__Helper_Views_IllnessPage__OnItemSelectedd__1_
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_Helper_Views_IllnessPage__OnItemSelectedd__1_System_Runtime_CompilerServices_TaskAwaiter__Helper_Views_IllnessPage__OnItemSelectedd__1_:
 _p_156:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2192]
+ldr x16, [x16, #2208]
 br x16
-.word 8482
+.word 8500
 	.no_dead_strip plt_Helper_Views_IllnessPageDetail_InitializeComponent
 plt_Helper_Views_IllnessPageDetail_InitializeComponent:
 _p_157:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2200]
+ldr x16, [x16, #2216]
 br x16
-.word 8494
+.word 8512
 	.no_dead_strip plt_Helper_Views_IllnessPageDetail___InitComponentRuntime
 plt_Helper_Views_IllnessPageDetail___InitComponentRuntime:
 _p_158:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2208]
+ldr x16, [x16, #2224]
 br x16
-.word 8499
+.word 8517
 	.no_dead_strip plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_Helper_Views_IllnessPageDetail_Helper_Views_IllnessPageDetail_System_Type
 plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_Helper_Views_IllnessPageDetail_Helper_Views_IllnessPageDetail_System_Type:
 _p_159:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2216]
+ldr x16, [x16, #2232]
 br x16
-.word 8504
+.word 8522
 	.no_dead_strip plt_Xamarin_Forms_TabbedPage__ctor
 plt_Xamarin_Forms_TabbedPage__ctor:
 _p_160:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2224]
+ldr x16, [x16, #2240]
 br x16
-.word 8516
+.word 8534
 	.no_dead_strip plt_Helper_Views_MainTabbedPage_InitializeComponent
 plt_Helper_Views_MainTabbedPage_InitializeComponent:
 _p_161:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2232]
+ldr x16, [x16, #2248]
 br x16
-.word 8521
+.word 8539
 	.no_dead_strip plt_Xamarin_Forms_MultiPage_1_Xamarin_Forms_Page_get_Children
 plt_Xamarin_Forms_MultiPage_1_Xamarin_Forms_Page_get_Children:
 _p_162:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2240]
+ldr x16, [x16, #2256]
 br x16
-.word 8526
+.word 8544
 	.no_dead_strip plt_Helper_Views_Emergency__ctor
 plt_Helper_Views_Emergency__ctor:
 _p_163:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2248]
+ldr x16, [x16, #2264]
 br x16
-.word 8537
+.word 8555
 	.no_dead_strip plt_Xamarin_Forms_Page_set_Title_string
 plt_Xamarin_Forms_Page_set_Title_string:
 _p_164:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2256]
+ldr x16, [x16, #2272]
 br x16
-.word 8542
+.word 8560
 	.no_dead_strip plt_Helper_Views_Hospital__ctor
 plt_Helper_Views_Hospital__ctor:
 _p_165:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2264]
+ldr x16, [x16, #2280]
 br x16
-.word 8547
+.word 8565
 	.no_dead_strip plt_Helper_Views_MainTabbedPage___InitComponentRuntime
 plt_Helper_Views_MainTabbedPage___InitComponentRuntime:
 _p_166:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2272]
+ldr x16, [x16, #2288]
 br x16
-.word 8552
+.word 8570
 	.no_dead_strip plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_Helper_Views_MainTabbedPage_Helper_Views_MainTabbedPage_System_Type
 plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_Helper_Views_MainTabbedPage_Helper_Views_MainTabbedPage_System_Type:
 _p_167:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2280]
+ldr x16, [x16, #2296]
 br x16
-.word 8557
+.word 8575
 	.no_dead_strip plt_Helper_Views_MentalPage_InitializeComponent
 plt_Helper_Views_MentalPage_InitializeComponent:
 _p_168:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2288]
+ldr x16, [x16, #2304]
 br x16
-.word 8569
+.word 8587
 	.no_dead_strip plt_Helper_ViewModel_MentalPageViewModel__ctor
 plt_Helper_ViewModel_MentalPageViewModel__ctor:
 _p_169:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2296]
+ldr x16, [x16, #2312]
 br x16
-.word 8574
+.word 8592
 	.no_dead_strip plt_Helper_Views_MentalPage__OnItemSelectedd__1__ctor
 plt_Helper_Views_MentalPage__OnItemSelectedd__1__ctor:
 _p_170:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2304]
+ldr x16, [x16, #2320]
 br x16
-.word 8579
+.word 8597
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_Helper_Views_MentalPage__OnItemSelectedd__1_Helper_Views_MentalPage__OnItemSelectedd__1_
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_Helper_Views_MentalPage__OnItemSelectedd__1_Helper_Views_MentalPage__OnItemSelectedd__1_:
 _p_171:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2312]
+ldr x16, [x16, #2328]
 br x16
-.word 8584
+.word 8602
 	.no_dead_strip plt_Helper_Views_MentalPage___InitComponentRuntime
 plt_Helper_Views_MentalPage___InitComponentRuntime:
 _p_172:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2320]
+ldr x16, [x16, #2336]
 br x16
-.word 8596
+.word 8614
 	.no_dead_strip plt_Helper_Views_MentalPage__InitializeComponent_anonXamlCDataTemplate_2__ctor
 plt_Helper_Views_MentalPage__InitializeComponent_anonXamlCDataTemplate_2__ctor:
 _p_173:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2328]
+ldr x16, [x16, #2344]
 br x16
-.word 8601
+.word 8619
 	.no_dead_strip plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_Helper_Views_MentalPage_Helper_Views_MentalPage_System_Type
 plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_Helper_Views_MentalPage_Helper_Views_MentalPage_System_Type:
 _p_174:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2336]
+ldr x16, [x16, #2352]
 br x16
-.word 8606
+.word 8624
 	.no_dead_strip plt_Helper_Models_MentalModel_get_MentalType
 plt_Helper_Models_MentalModel_get_MentalType:
 _p_175:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2344]
+ldr x16, [x16, #2360]
 br x16
-.word 8618
+.word 8636
 	.no_dead_strip plt_Helper_Models_MentalModel_get_Description
 plt_Helper_Models_MentalModel_get_Description:
 _p_176:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2352]
+ldr x16, [x16, #2368]
 br x16
-.word 8623
+.word 8641
 	.no_dead_strip plt_Helper_Models_MentalModel_get_FirstAidSteps
 plt_Helper_Models_MentalModel_get_FirstAidSteps:
 _p_177:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2360]
+ldr x16, [x16, #2376]
 br x16
-.word 8628
+.word 8646
 	.no_dead_strip plt_Helper_Views_MentalPageDetail__ctor_string_string_string
 plt_Helper_Views_MentalPageDetail__ctor_string_string_string:
 _p_178:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2368]
+ldr x16, [x16, #2384]
 br x16
-.word 8633
+.word 8651
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_Helper_Views_MentalPage__OnItemSelectedd__1_System_Runtime_CompilerServices_TaskAwaiter__Helper_Views_MentalPage__OnItemSelectedd__1_
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_Helper_Views_MentalPage__OnItemSelectedd__1_System_Runtime_CompilerServices_TaskAwaiter__Helper_Views_MentalPage__OnItemSelectedd__1_:
 _p_179:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2376]
+ldr x16, [x16, #2392]
 br x16
-.word 8638
+.word 8656
 	.no_dead_strip plt_Helper_Views_MentalPageDetail_InitializeComponent
 plt_Helper_Views_MentalPageDetail_InitializeComponent:
 _p_180:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2384]
+ldr x16, [x16, #2400]
 br x16
-.word 8650
+.word 8668
 	.no_dead_strip plt_Helper_Views_MentalPageDetail___InitComponentRuntime
 plt_Helper_Views_MentalPageDetail___InitComponentRuntime:
 _p_181:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2392]
+ldr x16, [x16, #2408]
 br x16
-.word 8655
+.word 8673
 	.no_dead_strip plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_Helper_Views_MentalPageDetail_Helper_Views_MentalPageDetail_System_Type
 plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_Helper_Views_MentalPageDetail_Helper_Views_MentalPageDetail_System_Type:
 _p_182:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2400]
+ldr x16, [x16, #2416]
 br x16
-.word 8660
+.word 8678
 	.no_dead_strip plt_Helper_Views_WoundsPage_InitializeComponent
 plt_Helper_Views_WoundsPage_InitializeComponent:
 _p_183:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2408]
+ldr x16, [x16, #2424]
 br x16
-.word 8672
+.word 8690
 	.no_dead_strip plt_Helper_ViewModel_WoundsPageViewModel__ctor
 plt_Helper_ViewModel_WoundsPageViewModel__ctor:
 _p_184:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2416]
+ldr x16, [x16, #2432]
 br x16
-.word 8677
+.word 8695
 	.no_dead_strip plt_Helper_Views_WoundsPage__OnItemSelectedd__1__ctor
 plt_Helper_Views_WoundsPage__OnItemSelectedd__1__ctor:
 _p_185:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2424]
+ldr x16, [x16, #2440]
 br x16
-.word 8682
+.word 8700
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_Helper_Views_WoundsPage__OnItemSelectedd__1_Helper_Views_WoundsPage__OnItemSelectedd__1_
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_Helper_Views_WoundsPage__OnItemSelectedd__1_Helper_Views_WoundsPage__OnItemSelectedd__1_:
 _p_186:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2432]
+ldr x16, [x16, #2448]
 br x16
-.word 8687
+.word 8705
 	.no_dead_strip plt_Helper_Views_WoundsPage___InitComponentRuntime
 plt_Helper_Views_WoundsPage___InitComponentRuntime:
 _p_187:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2440]
+ldr x16, [x16, #2456]
 br x16
-.word 8699
+.word 8717
 	.no_dead_strip plt_Helper_Views_WoundsPage__InitializeComponent_anonXamlCDataTemplate_3__ctor
 plt_Helper_Views_WoundsPage__InitializeComponent_anonXamlCDataTemplate_3__ctor:
 _p_188:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2448]
+ldr x16, [x16, #2464]
 br x16
-.word 8704
+.word 8722
 	.no_dead_strip plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_Helper_Views_WoundsPage_Helper_Views_WoundsPage_System_Type
 plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_Helper_Views_WoundsPage_Helper_Views_WoundsPage_System_Type:
 _p_189:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2456]
+ldr x16, [x16, #2472]
 br x16
-.word 8709
+.word 8727
 	.no_dead_strip plt_Helper_Models_WoundsModel_get_WoundType
 plt_Helper_Models_WoundsModel_get_WoundType:
 _p_190:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2464]
+ldr x16, [x16, #2480]
 br x16
-.word 8721
+.word 8739
 	.no_dead_strip plt_Helper_Models_WoundsModel_get_Description
 plt_Helper_Models_WoundsModel_get_Description:
 _p_191:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2472]
+ldr x16, [x16, #2488]
 br x16
-.word 8726
+.word 8744
 	.no_dead_strip plt_Helper_Models_WoundsModel_get_FirstAidSteps
 plt_Helper_Models_WoundsModel_get_FirstAidSteps:
 _p_192:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2480]
+ldr x16, [x16, #2496]
 br x16
-.word 8731
+.word 8749
 	.no_dead_strip plt_Helper_Views_WoundsPageDetail__ctor_string_string_string
 plt_Helper_Views_WoundsPageDetail__ctor_string_string_string:
 _p_193:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2488]
+ldr x16, [x16, #2504]
 br x16
-.word 8736
+.word 8754
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_Helper_Views_WoundsPage__OnItemSelectedd__1_System_Runtime_CompilerServices_TaskAwaiter__Helper_Views_WoundsPage__OnItemSelectedd__1_
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_Helper_Views_WoundsPage__OnItemSelectedd__1_System_Runtime_CompilerServices_TaskAwaiter__Helper_Views_WoundsPage__OnItemSelectedd__1_:
 _p_194:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2496]
+ldr x16, [x16, #2512]
 br x16
-.word 8741
+.word 8759
 	.no_dead_strip plt_Helper_Views_WoundsPageDetail_InitializeComponent
 plt_Helper_Views_WoundsPageDetail_InitializeComponent:
 _p_195:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2504]
+ldr x16, [x16, #2520]
 br x16
-.word 8753
+.word 8771
 	.no_dead_strip plt_Helper_Views_WoundsPageDetail___InitComponentRuntime
 plt_Helper_Views_WoundsPageDetail___InitComponentRuntime:
 _p_196:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2512]
+ldr x16, [x16, #2528]
 br x16
-.word 8758
+.word 8776
 	.no_dead_strip plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_Helper_Views_WoundsPageDetail_Helper_Views_WoundsPageDetail_System_Type
 plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_Helper_Views_WoundsPageDetail_Helper_Views_WoundsPageDetail_System_Type:
 _p_197:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2520]
+ldr x16, [x16, #2536]
 br x16
-.word 8763
+.word 8781
 	.no_dead_strip plt_System_Collections_ObjectModel_ObservableCollection_1_Helper_Models_BonesModel__ctor
 plt_System_Collections_ObjectModel_ObservableCollection_1_Helper_Models_BonesModel__ctor:
 _p_198:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2528]
+ldr x16, [x16, #2544]
 br x16
-.word 8775
+.word 8793
 	.no_dead_strip plt_Helper_ViewModel_BonesPageViewModel_set_BoneList_System_Collections_ObjectModel_ObservableCollection_1_Helper_Models_BonesModel
 plt_Helper_ViewModel_BonesPageViewModel_set_BoneList_System_Collections_ObjectModel_ObservableCollection_1_Helper_Models_BonesModel:
 _p_199:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2536]
+ldr x16, [x16, #2552]
 br x16
-.word 8786
+.word 8804
 	.no_dead_strip plt_Helper_ViewModel_BonesPageViewModel_get_BoneList
 plt_Helper_ViewModel_BonesPageViewModel_get_BoneList:
 _p_200:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2544]
+ldr x16, [x16, #2560]
 br x16
-.word 8791
+.word 8809
 	.no_dead_strip plt_Helper_Models_BonesModel__ctor
 plt_Helper_Models_BonesModel__ctor:
 _p_201:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2552]
+ldr x16, [x16, #2568]
 br x16
-.word 8796
+.word 8814
 	.no_dead_strip plt_Helper_Models_BonesModel_set_BoneType_string
 plt_Helper_Models_BonesModel_set_BoneType_string:
 _p_202:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2560]
+ldr x16, [x16, #2576]
 br x16
-.word 8801
+.word 8819
 	.no_dead_strip plt_Helper_Models_BonesModel_set_Description_string
 plt_Helper_Models_BonesModel_set_Description_string:
 _p_203:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2568]
+ldr x16, [x16, #2584]
 br x16
-.word 8806
+.word 8824
 	.no_dead_strip plt_Helper_Models_BonesModel_set_FirstAidSteps_string
 plt_Helper_Models_BonesModel_set_FirstAidSteps_string:
 _p_204:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2576]
+ldr x16, [x16, #2592]
 br x16
-.word 8811
+.word 8829
 	.no_dead_strip plt_System_Collections_ObjectModel_Collection_1_Helper_Models_BonesModel_Add_Helper_Models_BonesModel
 plt_System_Collections_ObjectModel_Collection_1_Helper_Models_BonesModel_Add_Helper_Models_BonesModel:
 _p_205:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2584]
+ldr x16, [x16, #2600]
 br x16
-.word 8816
+.word 8834
 	.no_dead_strip plt_System_Collections_ObjectModel_ObservableCollection_1_Helper_Models_IllnessModel__ctor
 plt_System_Collections_ObjectModel_ObservableCollection_1_Helper_Models_IllnessModel__ctor:
 _p_206:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2592]
+ldr x16, [x16, #2608]
 br x16
-.word 8827
+.word 8845
 	.no_dead_strip plt_Helper_ViewModel_IllnessPageViewModel_set_IllnessList_System_Collections_ObjectModel_ObservableCollection_1_Helper_Models_IllnessModel
 plt_Helper_ViewModel_IllnessPageViewModel_set_IllnessList_System_Collections_ObjectModel_ObservableCollection_1_Helper_Models_IllnessModel:
 _p_207:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2600]
+ldr x16, [x16, #2616]
 br x16
-.word 8838
+.word 8856
 	.no_dead_strip plt_Helper_ViewModel_IllnessPageViewModel_get_IllnessList
 plt_Helper_ViewModel_IllnessPageViewModel_get_IllnessList:
 _p_208:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2608]
+ldr x16, [x16, #2624]
 br x16
-.word 8843
+.word 8861
 	.no_dead_strip plt_Helper_Models_IllnessModel__ctor
 plt_Helper_Models_IllnessModel__ctor:
 _p_209:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2616]
+ldr x16, [x16, #2632]
 br x16
-.word 8848
+.word 8866
 	.no_dead_strip plt_Helper_Models_IllnessModel_set_IllnessType_string
 plt_Helper_Models_IllnessModel_set_IllnessType_string:
 _p_210:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2624]
+ldr x16, [x16, #2640]
 br x16
-.word 8853
+.word 8871
 	.no_dead_strip plt_Helper_Models_IllnessModel_set_Description_string
 plt_Helper_Models_IllnessModel_set_Description_string:
 _p_211:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2632]
+ldr x16, [x16, #2648]
 br x16
-.word 8858
+.word 8876
 	.no_dead_strip plt_Helper_Models_IllnessModel_set_FirstAidSteps_string
 plt_Helper_Models_IllnessModel_set_FirstAidSteps_string:
 _p_212:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2640]
+ldr x16, [x16, #2656]
 br x16
-.word 8863
+.word 8881
 	.no_dead_strip plt_System_Collections_ObjectModel_Collection_1_Helper_Models_IllnessModel_Add_Helper_Models_IllnessModel
 plt_System_Collections_ObjectModel_Collection_1_Helper_Models_IllnessModel_Add_Helper_Models_IllnessModel:
 _p_213:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2648]
+ldr x16, [x16, #2664]
 br x16
-.word 8868
+.word 8886
 	.no_dead_strip plt_System_Collections_ObjectModel_ObservableCollection_1_Helper_Models_MentalModel__ctor
 plt_System_Collections_ObjectModel_ObservableCollection_1_Helper_Models_MentalModel__ctor:
 _p_214:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2656]
+ldr x16, [x16, #2672]
 br x16
-.word 8879
+.word 8897
 	.no_dead_strip plt_Helper_ViewModel_MentalPageViewModel_set_MentalList_System_Collections_ObjectModel_ObservableCollection_1_Helper_Models_MentalModel
 plt_Helper_ViewModel_MentalPageViewModel_set_MentalList_System_Collections_ObjectModel_ObservableCollection_1_Helper_Models_MentalModel:
 _p_215:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2664]
+ldr x16, [x16, #2680]
 br x16
-.word 8890
+.word 8908
 	.no_dead_strip plt_Helper_ViewModel_MentalPageViewModel_get_MentalList
 plt_Helper_ViewModel_MentalPageViewModel_get_MentalList:
 _p_216:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2672]
+ldr x16, [x16, #2688]
 br x16
-.word 8895
+.word 8913
 	.no_dead_strip plt_Helper_Models_MentalModel__ctor
 plt_Helper_Models_MentalModel__ctor:
 _p_217:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2680]
+ldr x16, [x16, #2696]
 br x16
-.word 8900
+.word 8918
 	.no_dead_strip plt_Helper_Models_MentalModel_set_MentalType_string
 plt_Helper_Models_MentalModel_set_MentalType_string:
 _p_218:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2688]
+ldr x16, [x16, #2704]
 br x16
-.word 8905
+.word 8923
 	.no_dead_strip plt_Helper_Models_MentalModel_set_Description_string
 plt_Helper_Models_MentalModel_set_Description_string:
 _p_219:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2696]
+ldr x16, [x16, #2712]
 br x16
-.word 8910
+.word 8928
 	.no_dead_strip plt_Helper_Models_MentalModel_set_FirstAidSteps_string
 plt_Helper_Models_MentalModel_set_FirstAidSteps_string:
 _p_220:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2704]
+ldr x16, [x16, #2720]
 br x16
-.word 8915
+.word 8933
 	.no_dead_strip plt_System_Collections_ObjectModel_Collection_1_Helper_Models_MentalModel_Add_Helper_Models_MentalModel
 plt_System_Collections_ObjectModel_Collection_1_Helper_Models_MentalModel_Add_Helper_Models_MentalModel:
 _p_221:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2712]
+ldr x16, [x16, #2728]
 br x16
-.word 8920
+.word 8938
 	.no_dead_strip plt_System_Collections_ObjectModel_ObservableCollection_1_Helper_Models_WoundsModel__ctor
 plt_System_Collections_ObjectModel_ObservableCollection_1_Helper_Models_WoundsModel__ctor:
 _p_222:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2720]
+ldr x16, [x16, #2736]
 br x16
-.word 8931
+.word 8949
 	.no_dead_strip plt_Helper_ViewModel_WoundsPageViewModel_set_WoundList_System_Collections_ObjectModel_ObservableCollection_1_Helper_Models_WoundsModel
 plt_Helper_ViewModel_WoundsPageViewModel_set_WoundList_System_Collections_ObjectModel_ObservableCollection_1_Helper_Models_WoundsModel:
 _p_223:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2728]
+ldr x16, [x16, #2744]
 br x16
-.word 8942
+.word 8960
 	.no_dead_strip plt_Helper_ViewModel_WoundsPageViewModel_get_WoundList
 plt_Helper_ViewModel_WoundsPageViewModel_get_WoundList:
 _p_224:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2736]
+ldr x16, [x16, #2752]
 br x16
-.word 8947
+.word 8965
 	.no_dead_strip plt_Helper_Models_WoundsModel__ctor
 plt_Helper_Models_WoundsModel__ctor:
 _p_225:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2744]
+ldr x16, [x16, #2760]
 br x16
-.word 8952
+.word 8970
 	.no_dead_strip plt_Helper_Models_WoundsModel_set_WoundType_string
 plt_Helper_Models_WoundsModel_set_WoundType_string:
 _p_226:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2752]
+ldr x16, [x16, #2768]
 br x16
-.word 8957
+.word 8975
 	.no_dead_strip plt_Helper_Models_WoundsModel_set_Description_string
 plt_Helper_Models_WoundsModel_set_Description_string:
 _p_227:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2760]
+ldr x16, [x16, #2776]
 br x16
-.word 8962
+.word 8980
 	.no_dead_strip plt_Helper_Models_WoundsModel_set_FirstAidSteps_string
 plt_Helper_Models_WoundsModel_set_FirstAidSteps_string:
 _p_228:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2768]
+ldr x16, [x16, #2784]
 br x16
-.word 8967
+.word 8985
 	.no_dead_strip plt_System_Collections_ObjectModel_Collection_1_Helper_Models_WoundsModel_Add_Helper_Models_WoundsModel
 plt_System_Collections_ObjectModel_Collection_1_Helper_Models_WoundsModel_Add_Helper_Models_WoundsModel:
 _p_229:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2776]
+ldr x16, [x16, #2792]
 br x16
-.word 8972
+.word 8990
 	.no_dead_strip plt__jit_icall_mono_thread_interruption_checkpoint
 plt__jit_icall_mono_thread_interruption_checkpoint:
 _p_230:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2784]
+ldr x16, [x16, #2800]
 br x16
-.word 8983
+.word 9001
 	.no_dead_strip plt__jit_icall_mono_arch_rethrow_exception
 plt__jit_icall_mono_arch_rethrow_exception:
 _p_231:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2792]
+ldr x16, [x16, #2808]
 br x16
-.word 9021
+.word 9039
 	.no_dead_strip plt__jit_icall_mono_helper_ldstr_mscorlib
 plt__jit_icall_mono_helper_ldstr_mscorlib:
 _p_232:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2800]
+ldr x16, [x16, #2816]
 br x16
-.word 9051
+.word 9069
 	.no_dead_strip plt__rgctx_fetch_0
 plt__rgctx_fetch_0:
 _p_233:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2808]
+ldr x16, [x16, #2824]
 br x16
-.word 9080
+.word 9098
 	.no_dead_strip plt__rgctx_fetch_1
 plt__rgctx_fetch_1:
 _p_234:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2816]
+ldr x16, [x16, #2832]
 br x16
-.word 9099
+.word 9117
 	.no_dead_strip plt__rgctx_fetch_2
 plt__rgctx_fetch_2:
 _p_235:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2824]
+ldr x16, [x16, #2840]
 br x16
-.word 9118
+.word 9136
 	.no_dead_strip plt__rgctx_fetch_3
 plt__rgctx_fetch_3:
 _p_236:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2832]
+ldr x16, [x16, #2848]
 br x16
-.word 9126
+.word 9144
 	.no_dead_strip plt__rgctx_fetch_4
 plt__rgctx_fetch_4:
 _p_237:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2840]
+ldr x16, [x16, #2856]
 br x16
-.word 9145
+.word 9163
 	.no_dead_strip plt__rgctx_fetch_5
 plt__rgctx_fetch_5:
 _p_238:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2848]
+ldr x16, [x16, #2864]
 br x16
-.word 9173
+.word 9191
 	.no_dead_strip plt__jit_icall_mono_generic_class_init
 plt__jit_icall_mono_generic_class_init:
 _p_239:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2856]
+ldr x16, [x16, #2872]
 br x16
-.word 9181
+.word 9199
 	.no_dead_strip plt__rgctx_fetch_6
 plt__rgctx_fetch_6:
 _p_240:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2864]
+ldr x16, [x16, #2880]
 br x16
-.word 9207
+.word 9225
 	.no_dead_strip plt__rgctx_fetch_7
 plt__rgctx_fetch_7:
 _p_241:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2872]
+ldr x16, [x16, #2888]
 br x16
-.word 9221
+.word 9239
 	.no_dead_strip plt__rgctx_fetch_8
 plt__rgctx_fetch_8:
 _p_242:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2880]
+ldr x16, [x16, #2896]
 br x16
-.word 9229
+.word 9247
 	.no_dead_strip plt_System_Collections_Generic_EqualityComparer_1_object_get_Default
 plt_System_Collections_Generic_EqualityComparer_1_object_get_Default:
 _p_243:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2888]
+ldr x16, [x16, #2904]
 br x16
-.word 9248
+.word 9266
 	.no_dead_strip plt__rgctx_fetch_9
 plt__rgctx_fetch_9:
 _p_244:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2896]
+ldr x16, [x16, #2912]
 br x16
-.word 9263
+.word 9281
 	.no_dead_strip plt__rgctx_fetch_10
 plt__rgctx_fetch_10:
 _p_245:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2904]
+ldr x16, [x16, #2920]
 br x16
-.word 9271
+.word 9289
 	.no_dead_strip plt__rgctx_fetch_11
 plt__rgctx_fetch_11:
 _p_246:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2912]
+ldr x16, [x16, #2928]
 br x16
-.word 9279
+.word 9297
 	.no_dead_strip plt_System_Collections_Generic_Comparer_1_object_get_Default
 plt_System_Collections_Generic_Comparer_1_object_get_Default:
 _p_247:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2920]
+ldr x16, [x16, #2936]
 br x16
-.word 9287
+.word 9305
 	.no_dead_strip plt_SR_Format_string_object
 plt_SR_Format_string_object:
 _p_248:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2928]
+ldr x16, [x16, #2944]
 br x16
-.word 9302
+.word 9320
 	.no_dead_strip plt_System_Tuple_CombineHashCodes_int_int
 plt_System_Tuple_CombineHashCodes_int_int:
 _p_249:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2936]
+ldr x16, [x16, #2952]
 br x16
-.word 9304
+.word 9322
 	.no_dead_strip plt_System_Text_StringBuilder__ctor
 plt_System_Text_StringBuilder__ctor:
 _p_250:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2944]
+ldr x16, [x16, #2960]
 br x16
-.word 9307
+.word 9325
 	.no_dead_strip plt_System_Text_StringBuilder_Append_char
 plt_System_Text_StringBuilder_Append_char:
 _p_251:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2952]
+ldr x16, [x16, #2968]
 br x16
-.word 9310
+.word 9328
 	.no_dead_strip plt_System_Text_StringBuilder_Append_object
 plt_System_Text_StringBuilder_Append_object:
 _p_252:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2960]
+ldr x16, [x16, #2976]
 br x16
-.word 9313
+.word 9331
 	.no_dead_strip plt_System_Text_StringBuilder_Append_string
 plt_System_Text_StringBuilder_Append_string:
 _p_253:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2968]
+ldr x16, [x16, #2984]
 br x16
-.word 9316
+.word 9334
 	.no_dead_strip plt__rgctx_fetch_12
 plt__rgctx_fetch_12:
 _p_254:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2976]
+ldr x16, [x16, #2992]
 br x16
-.word 9333
+.word 9351
 	.no_dead_strip plt__rgctx_fetch_13
 plt__rgctx_fetch_13:
 _p_255:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2984]
+ldr x16, [x16, #3000]
 br x16
-.word 9341
+.word 9359
 	.no_dead_strip plt__rgctx_fetch_14
 plt__rgctx_fetch_14:
 _p_256:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #2992]
+ldr x16, [x16, #3008]
 br x16
-.word 9353
+.word 9371
 	.no_dead_strip plt_System_Array_Copy_System_Array_int_System_Array_int_int
 plt_System_Array_Copy_System_Array_int_System_Array_int_int:
 _p_257:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #3000]
+ldr x16, [x16, #3016]
 br x16
-.word 9365
+.word 9383
 	.no_dead_strip plt__rgctx_fetch_15
 plt__rgctx_fetch_15:
 _p_258:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #3008]
+ldr x16, [x16, #3024]
 br x16
-.word 9382
+.word 9400
 	.no_dead_strip plt_System_Threading_Tasks_AsyncCausalityTracer_get_LoggingOn
 plt_System_Threading_Tasks_AsyncCausalityTracer_get_LoggingOn:
 _p_259:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #3016]
+ldr x16, [x16, #3032]
 br x16
-.word 9417
+.word 9435
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_get_Task
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_get_Task:
 _p_260:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #3024]
+ldr x16, [x16, #3040]
 br x16
-.word 9420
+.word 9438
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_GetCompletionAction_System_Threading_Tasks_Task_System_Runtime_CompilerServices_AsyncMethodBuilderCore_MoveNextRunner_
 plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_GetCompletionAction_System_Threading_Tasks_Task_System_Runtime_CompilerServices_AsyncMethodBuilderCore_MoveNextRunner_:
 _p_261:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #3032]
+ldr x16, [x16, #3048]
 br x16
-.word 9423
+.word 9441
 	.no_dead_strip plt_System_Threading_Tasks_Task_get_Id
 plt_System_Threading_Tasks_Task_get_Id:
 _p_262:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #3040]
+ldr x16, [x16, #3056]
 br x16
-.word 9426
+.word 9444
 	.no_dead_strip plt__rgctx_fetch_16
 plt__rgctx_fetch_16:
 _p_263:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #3048]
+ldr x16, [x16, #3064]
 br x16
-.word 9429
+.word 9447
 	.no_dead_strip plt__jit_icall_mono_gsharedvt_constrained_call
 plt__jit_icall_mono_gsharedvt_constrained_call:
 _p_264:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #3056]
+ldr x16, [x16, #3072]
 br x16
-.word 9437
+.word 9455
 	.no_dead_strip plt_string_Concat_string_string
 plt_string_Concat_string_string:
 _p_265:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #3064]
+ldr x16, [x16, #3080]
 br x16
-.word 9471
+.word 9489
 	.no_dead_strip plt_System_Threading_Tasks_AsyncCausalityTracer_TraceOperationCreation_System_Threading_Tasks_CausalityTraceLevel_int_string_ulong
 plt_System_Threading_Tasks_AsyncCausalityTracer_TraceOperationCreation_System_Threading_Tasks_CausalityTraceLevel_int_string_ulong:
 _p_266:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #3072]
+ldr x16, [x16, #3088]
 br x16
-.word 9474
+.word 9492
 	.no_dead_strip plt__rgctx_fetch_17
 plt__rgctx_fetch_17:
 _p_267:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #3080]
+ldr x16, [x16, #3096]
 br x16
-.word 9477
+.word 9495
 	.no_dead_strip plt_wrapper_alloc_object_Alloc_intptr
 plt_wrapper_alloc_object_Alloc_intptr:
 _p_268:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #3088]
+ldr x16, [x16, #3104]
 br x16
-.word 9485
+.word 9503
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_PostBoxInitialization_System_Runtime_CompilerServices_IAsyncStateMachine_System_Runtime_CompilerServices_AsyncMethodBuilderCore_MoveNextRunner_System_Threading_Tasks_Task
 plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_PostBoxInitialization_System_Runtime_CompilerServices_IAsyncStateMachine_System_Runtime_CompilerServices_AsyncMethodBuilderCore_MoveNextRunner_System_Threading_Tasks_Task:
 _p_269:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #3096]
+ldr x16, [x16, #3112]
 br x16
-.word 9493
+.word 9511
 	.no_dead_strip plt__rgctx_fetch_18
 plt__rgctx_fetch_18:
 _p_270:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #3104]
+ldr x16, [x16, #3120]
 br x16
-.word 9496
+.word 9514
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_ThrowAsync_System_Exception_System_Threading_SynchronizationContext
 plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_ThrowAsync_System_Exception_System_Threading_SynchronizationContext:
 _p_271:
 adrp x16, mono_aot_Helper_got@PAGE+4096
 add x16, x16, mono_aot_Helper_got@PAGEOFF
-ldr x16, [x16, #3112]
+ldr x16, [x16, #3128]
 br x16
-.word 9504
+.word 9522
 plt_end:
 .section __DATA, __bss
 	.align 3
-.lcomm mono_aot_Helper_got, 7216
+.lcomm mono_aot_Helper_got, 7232
 got_end:
 .section __TEXT, __const
 	.align 3
@@ -57818,7 +57870,7 @@ runtime_version:
 .section __TEXT, __const
 	.align 2
 assembly_guid:
-	.asciz "6C11B933-9403-4BE1-87DC-71DD3FE394E2"
+	.asciz "1BDFF218-813B-46E8-96D2-4020E0ED7ED0"
 .section __TEXT, __const
 	.align 2
 assembly_name:
@@ -57905,14 +57957,14 @@ _mono_aot_file_info:
 	.align 3
 	.quad unbox_trampoline_addresses
 
-	.long 630,7216,272,203,27,102,387000831,0
-	.long 86869,128,8,8,8,9,8388607,0
-	.long 28,91296,0,0,4416,3912,2208,0
-	.long 3400,3824,2560,0,1720,304,4408,0
+	.long 632,7232,272,203,27,102,387000831,0
+	.long 86971,128,8,8,8,9,8388607,0
+	.long 28,91408,0,0,4424,3920,2208,0
+	.long 3408,3832,2560,0,1720,304,4416,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0
-	.byte 68,99,47,119,201,48,70,174,115,139,21,64,37,229,179,17
+	.byte 160,114,82,96,231,141,12,152,99,176,223,132,83,14,139,192
 	.globl _mono_aot_module_Helper_info
 	.align 3
 _mono_aot_module_Helper_info:
@@ -71318,8 +71370,8 @@ Lfde58_start:
 LDIFF_SYM2202=Lme_3a - Helper_Views_Hospital_InitializeComponent
 	.long LDIFF_SYM2202
 	.long 0
-	.byte 12,31,0,84,14,240,6,157,110,158,109,68,13,29,68,147,108,148,107,68,149,106,150,105,68,151,104,152,103,68,153,102
-	.byte 154,101
+	.byte 12,31,0,84,14,128,7,157,112,158,111,68,13,29,68,147,110,148,109,68,149,108,150,107,68,151,106,152,105,68,153,104
+	.byte 154,103
 	.align 3
 Lfde58_end:
 

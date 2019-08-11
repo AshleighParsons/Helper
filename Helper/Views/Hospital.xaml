@@ -21,7 +21,10 @@
                   MapType="Street"
                   VerticalOptions="FillAndExpand"
                   HorizontalOptions="FillAndExpand"
-                  IsShowingUser="True" />
+                  IsShowingUser="True"
+                  HasZoomEnabled="True"
+                  HasScrollEnabled="True"
+                  />
 
     </StackLayout>
 

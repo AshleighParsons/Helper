@@ -67,3 +67,4 @@
 /Users/ashleighparsons/Projects/firstaidhelper/Helper.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-12.2/optimized/mental.png
 /Users/ashleighparsons/Projects/firstaidhelper/Helper.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Maps.dll
 /Users/ashleighparsons/Projects/firstaidhelper/Helper.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Maps.iOS.dll
+/Users/ashleighparsons/Projects/firstaidhelper/Helper.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-12.2/optimized/splash.png

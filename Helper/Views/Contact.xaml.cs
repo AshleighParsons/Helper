@@ -29,7 +29,7 @@ namespace Helper.Views
 
         async void HandleClicked3(object sender, System.EventArgs e)
         {
-            await Navigation.PushAsync(new AddContactPage());
+            await Navigation.PushAsync(new MainTabbedPage());
         }
     }
 }

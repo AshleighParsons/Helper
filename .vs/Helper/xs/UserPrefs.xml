@@ -1,15 +1,12 @@
 ﻿<Properties StartupConfiguration="{5107B829-1C6B-4D12-AE1B-921ED5C724AF}|Default">
-  <MonoDevelop.Ide.ItemProperties.Helper.iOS automaticSigning="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.42ecee95746602a9deccdf63f11a00f3644aaaee" />
+  <MonoDevelop.Ide.ItemProperties.Helper.iOS automaticSigning="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.B2C62A96-13AF-4DDA-913A-8D7CFC41E753" />
   <MonoDevelop.Ide.ItemProperties.Helper.Android PreferredExecutionTarget="Android.Android_Accelerated_Oreo" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Helper.iOS/Resources/LaunchScreen.storyboard">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Helper/Views/AddContactPage.xaml.cs">
     <Files>
-      <File FileName="Helper/Views/Hospital.xaml" Line="27" Column="19" />
-      <File FileName="Helper/Views/Hospital.xaml.cs" Line="28" Column="17" />
       <File FileName="Helper/Views/Contact.xaml" />
       <File FileName="Helper/Views/Contact.xaml.cs" Line="32" Column="62" />
       <File FileName="Helper/Views/AddContactPage.xaml" Line="27" Column="35" />
-      <File FileName="Helper/Views/AddContactPage.xaml.cs" Line="19" Column="10" />
-      <File FileName="Helper.iOS/Resources/LaunchScreen.storyboard" />
+      <File FileName="Helper/Views/AddContactPage.xaml.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -17,7 +14,9 @@
           <Node name="Helper" expanded="True">
             <Node name="Helper" expanded="True">
               <Node name="Views" expanded="True">
-                <Node name="AddContactPage.xaml" expanded="True" />
+                <Node name="AddContactPage.xaml" expanded="True">
+                  <Node name="AddContactPage.xaml.cs" selected="True" />
+                </Node>
                 <Node name="Contact.xaml" expanded="True" />
                 <Node name="Hospital.xaml" expanded="True" />
               </Node>
@@ -32,7 +31,7 @@
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
