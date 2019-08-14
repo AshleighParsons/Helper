@@ -78,15 +78,15 @@
 		</data>
 		<key>Helper.aotdata.arm64</key>
 		<data>
-		SYrZghrsdEj6rViawtMX+DkpQXI=
+		I8QprYKRCnLA5adhyoc93Kb0ACA=
 		</data>
 		<key>Helper.dll</key>
 		<data>
-		1T9j//jASfo5NRbolZ9Gs26/LNc=
+		3y2COMMb1T8qz8Ph+rnmtJxN67g=
 		</data>
 		<key>Helper.iOS.aotdata.arm64</key>
 		<data>
-		1f3PWmomWOKRo9fxm1xFsaA2JRQ=
+		+xqkwdU9IKadDeOyTVPLFBIqheU=
 		</data>
 		<key>Helper.iOS.exe</key>
 		<data>
@@ -98,7 +98,7 @@
 		</data>
 		<key>Helper.pdb</key>
 		<data>
-		IGH/1F4mbtP9o+JhSNLkcMFQlrI=
+		ATsp62ae2LzVHRMzVo8mEakXigM=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -130,7 +130,7 @@
 		</data>
 		<key>MonoTouchDebugConfiguration.txt</key>
 		<data>
-		OfQ85/glJH7KSKj8fxd4ZEj52YE=
+		oowkf1sL6T19nanXUObgmuayWqM=
 		</data>
 		<key>NOTICE</key>
 		<data>
@@ -367,6 +367,10 @@
 		<key>ca/Xamarin.Forms.Platform.iOS.resources.dll</key>
 		<data>
 		4kwp5ePv6fG2J8aERM9d6x3vGK0=
+		</data>
+		<key>contact.png</key>
+		<data>
+		y5v870ZdkjwYQ2EO1FB1URfb8ug=
 		</data>
 		<key>cs/Xamarin.Forms.Platform.iOS.resources.dll</key>
 		<data>
@@ -737,33 +741,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			SYrZghrsdEj6rViawtMX+DkpQXI=
+			I8QprYKRCnLA5adhyoc93Kb0ACA=
 			</data>
 			<key>hash2</key>
 			<data>
-			e8PO73hINDIQpNhBm0QaUalO739L5bVvyR0Sv6m++Hc=
+			QokKz4EuOSR5F0FWDe/MCTIyny5WDJq9GnaKmWA7u9k=
 			</data>
 		</dict>
 		<key>Helper.dll</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			1T9j//jASfo5NRbolZ9Gs26/LNc=
+			3y2COMMb1T8qz8Ph+rnmtJxN67g=
 			</data>
 			<key>hash2</key>
 			<data>
-			J+nnhD73tZsbGp6OY32SNwM5bHIfGyc7b8Qo+Vovrmg=
+			Kiqhx9NXuZ864NTt+it3tnr+/O6x3KKMfOuPW2Uusls=
 			</data>
 		</dict>
 		<key>Helper.iOS.aotdata.arm64</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			1f3PWmomWOKRo9fxm1xFsaA2JRQ=
+			+xqkwdU9IKadDeOyTVPLFBIqheU=
 			</data>
 			<key>hash2</key>
 			<data>
-			GdbjSjiEd0d8sTyNYhjSQZwRZp8LBXSqE/Ay5skq86s=
+			5sS/bG3bIHc8IJKzou1nbcUzTdEstuOq/TXcEtgQix8=
 			</data>
 		</dict>
 		<key>Helper.iOS.exe</key>
@@ -792,11 +796,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			IGH/1F4mbtP9o+JhSNLkcMFQlrI=
+			ATsp62ae2LzVHRMzVo8mEakXigM=
 			</data>
 			<key>hash2</key>
 			<data>
-			yX8tryDrM1owcQdCSdYv05V8mMJXlvM5ajSQmxQlXBA=
+			5wTOn5p3MBTHV95ImGZnlTmdEmt8ptfk0zBFgppBW18=
 			</data>
 		</dict>
 		<key>LaunchScreen.storyboardc/Info.plist</key>
@@ -869,11 +873,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			OfQ85/glJH7KSKj8fxd4ZEj52YE=
+			oowkf1sL6T19nanXUObgmuayWqM=
 			</data>
 			<key>hash2</key>
 			<data>
-			gqESks8GvN3leTUeuM52UfLiLvBDFU7je6L+CllTELw=
+			RS51BO98d+zhJWK1abJOyD5jB4nYJnWJPtL2DZyA/zw=
 			</data>
 		</dict>
 		<key>NOTICE</key>
@@ -1512,6 +1516,17 @@
 			<key>hash2</key>
 			<data>
 			wiXqLBXu/R0DAwv/jeyUoPeBvaIKAjT/4qeqoWRVe+c=
+			</data>
+		</dict>
+		<key>contact.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			y5v870ZdkjwYQ2EO1FB1URfb8ug=
+			</data>
+			<key>hash2</key>
+			<data>
+			L4Xrryn+tZq1HjbLvWaijMXKBe9NG6Xuw3oHP6jQBSM=
 			</data>
 		</dict>
 		<key>cs/Xamarin.Forms.Platform.iOS.resources.dll</key>

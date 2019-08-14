@@ -10,6 +10,12 @@ namespace Helper.Views
         public Contact()
         {
             InitializeComponent();
+
+            if (Application.Current.Properties.ContainsKey("name"))
+            {
+                myICEname.Text = Application.Current.Properties["name"].ToString();
+                myICEimage.Source = "contact.png";
+            }
         }
 
         void HandleClicked(object sender, System.EventArgs e)
@@ -29,7 +35,15 @@ namespace Helper.Views
 
         async void HandleClicked3(object sender, System.EventArgs e)
         {
-            await Navigation.PushAsync(new MainTabbedPage());
+            if (Application.Current.Properties.ContainsKey("name"))
+            {
+                var number = Application.Current.Properties["number"].ToString();
+                Device.OpenUri(new Uri("tel://" + number));
+            }
+            else
+            {
+                await Navigation.PushAsync(new AddContactPage());
+            }
         }
     }
 }

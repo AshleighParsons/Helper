@@ -60,21 +60,6 @@
                     HorizontalTextAlignment="Center"/>
 
             <ImageButton Grid.Row="2"
-                    Grid.Column="1"
-                    Source="add"
-                    Margin="15"
-                    HeightRequest="120"
-                    Clicked="HandleClicked3" />
-
-            <Label Grid.Row="3"
-                    Grid.Column="1"
-                    Text="Your ICE"
-                    TextColor="#002C3E"
-                    Margin="0"
-                    FontSize="Medium"
-                    HorizontalTextAlignment="Center"/>
-
-            <ImageButton Grid.Row="2"
                     Grid.Column="0"
                     Source="mental"
                     Margin="15"
@@ -88,6 +73,23 @@
                     Margin="0"
                     FontSize="Medium"
                     HorizontalTextAlignment="Center"/>
+
+            <ImageButton Grid.Row="2"
+                    Grid.Column="1"
+                    Source="add"
+                    Margin="15"
+                    HeightRequest="120"
+                    Clicked="HandleClicked3"
+                    x:Name="myICEimage"/>
+
+            <Label Grid.Row="3"
+                    Grid.Column="1"
+                    Text="Your ICE"
+                    TextColor="#002C3E"
+                    Margin="0"
+                    FontSize="Medium"
+                    HorizontalTextAlignment="Center"
+                   x:Name="myICEname"/>
 
         </Grid>
 

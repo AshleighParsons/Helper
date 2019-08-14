@@ -5,7 +5,7 @@
     x:Class="Helper.Views.Hospital"
     xmlns:maps="clr-namespace:Xamarin.Forms.Maps;assembly=Xamarin.Forms.Maps" >
 
-   <StackLayout BackgroundColor="#F7F8F3" >
+   <!--<StackLayout BackgroundColor="#F7F8F3" >
         <Label Text="Find help nearby:"  
                 HorizontalTextAlignment="Center" 
                 VerticalTextAlignment="Center" 
@@ -26,6 +26,6 @@
                   HasScrollEnabled="True"
                   />
 
-    </StackLayout>
+    </StackLayout>-->
 
 </ContentPage>
