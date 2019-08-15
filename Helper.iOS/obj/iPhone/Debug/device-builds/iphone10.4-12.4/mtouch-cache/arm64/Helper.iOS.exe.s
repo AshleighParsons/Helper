@@ -606,7 +606,7 @@ _mono_aot_file_info:
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0
-	.byte 168,37,30,144,255,243,176,54,119,6,156,140,223,191,228,169
+	.byte 116,1,205,32,145,96,126,88,157,65,206,144,95,38,116,12
 	.globl _mono_aot_module_Helper_iOS_info
 	.align 3
 _mono_aot_module_Helper_iOS_info:
