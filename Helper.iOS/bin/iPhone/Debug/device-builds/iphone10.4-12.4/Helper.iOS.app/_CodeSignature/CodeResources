@@ -74,19 +74,19 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		e2gdn+5YxkQKU5iOu5WQIGvHdZw=
+		sU+WJR+DvQmJ4Da7NRvRsCxJMA4=
 		</data>
 		<key>Helper.aotdata.arm64</key>
 		<data>
-		MnvlknpBVwSadDA3TgCXpHUqcxE=
+		H+HLNfq/aj+6sf7OvyNnkq9ZZ9o=
 		</data>
 		<key>Helper.dll</key>
 		<data>
-		RVH09dZXBrN7PcTaIopJcB/7Ias=
+		UfWKx2KOSkf0rCdbBznRd3lXwFM=
 		</data>
 		<key>Helper.iOS.aotdata.arm64</key>
 		<data>
-		ggZSUIEQOU8mtTUuYSn0uAXkeBo=
+		zUavSNLwGJLmmneqzbF8k4/SNek=
 		</data>
 		<key>Helper.iOS.exe</key>
 		<data>
@@ -98,7 +98,7 @@
 		</data>
 		<key>Helper.pdb</key>
 		<data>
-		c/O2WLL4NOthedtCflsned0+X38=
+		oA2HIwzhOU0p7MCnUigLrJnA4m0=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -394,7 +394,7 @@
 		</data>
 		<key>embedded.mobileprovision</key>
 		<data>
-		GOI+k9Oa0pVXOX0LWMol0GUsvLI=
+		9iHti6881ZFEGvefjIFwkXx9Tbo=
 		</data>
 		<key>es/Xamarin.Forms.Platform.iOS.resources.dll</key>
 		<data>
@@ -427,6 +427,18 @@
 		<key>hu/Xamarin.Forms.Platform.iOS.resources.dll</key>
 		<data>
 		Avh4od5rpg9jgPG+caA9igVN2HE=
+		</data>
+		<key>icon1.png</key>
+		<data>
+		cbzwZxGr8rWuDXwYl+DPgDLp+rw=
+		</data>
+		<key>icon2.png</key>
+		<data>
+		nXQr1jyKz7T1H/SwX4cxcweL+0w=
+		</data>
+		<key>icon3.png</key>
+		<data>
+		A1jjg6pePZf4QT4SjmOsDe2/NDc=
 		</data>
 		<key>id/Xamarin.Forms.Platform.iOS.resources.dll</key>
 		<data>
@@ -730,44 +742,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			e2gdn+5YxkQKU5iOu5WQIGvHdZw=
+			sU+WJR+DvQmJ4Da7NRvRsCxJMA4=
 			</data>
 			<key>hash2</key>
 			<data>
-			2tzUREhbe1YpqKkPE9vfJ4xrBLc4diYC3IoVDmup3yE=
+			Lv1GpMhVHxtHLjVl+QntCHnUAKQRktDeeI+gwDUFxdg=
 			</data>
 		</dict>
 		<key>Helper.aotdata.arm64</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			MnvlknpBVwSadDA3TgCXpHUqcxE=
+			H+HLNfq/aj+6sf7OvyNnkq9ZZ9o=
 			</data>
 			<key>hash2</key>
 			<data>
-			JsUVqv3ZNuw5ilhI1bS5M7g17CNCsra/pZ6tlNTROMI=
+			Zf1shfRP12Q10Z50e3Iueq1+JB59KwAhSB6FTz4GNpU=
 			</data>
 		</dict>
 		<key>Helper.dll</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			RVH09dZXBrN7PcTaIopJcB/7Ias=
+			UfWKx2KOSkf0rCdbBznRd3lXwFM=
 			</data>
 			<key>hash2</key>
 			<data>
-			k3GKfFE2vo9hyyJ8a8273g1++2rLDyQ8Gb1H/RuKh4U=
+			NJGhFUZpxzfuFpysqqRBtQ0vA3hyUQIj2oziNTF2iM4=
 			</data>
 		</dict>
 		<key>Helper.iOS.aotdata.arm64</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ggZSUIEQOU8mtTUuYSn0uAXkeBo=
+			zUavSNLwGJLmmneqzbF8k4/SNek=
 			</data>
 			<key>hash2</key>
 			<data>
-			hgfM6Epbyc7Ym7hAOKrjjhx0BJeqPiAgMc8+O77KTww=
+			14hsKpYM4oNN9az0mCvd/gnkZfVczOpKbou0b7e6ZMs=
 			</data>
 		</dict>
 		<key>Helper.iOS.exe</key>
@@ -796,11 +808,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			c/O2WLL4NOthedtCflsned0+X38=
+			oA2HIwzhOU0p7MCnUigLrJnA4m0=
 			</data>
 			<key>hash2</key>
 			<data>
-			idyNIAKj8pGMCSAf5JoCpZWIFrBprG0rNdVtsVqBn10=
+			YNa6zbYGC9r6TmdpIfv1zlsL6W3tEDR1kmg4bFS2Soo=
 			</data>
 		</dict>
 		<key>LaunchScreen.storyboardc/Info.plist</key>
@@ -1588,11 +1600,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			GOI+k9Oa0pVXOX0LWMol0GUsvLI=
+			9iHti6881ZFEGvefjIFwkXx9Tbo=
 			</data>
 			<key>hash2</key>
 			<data>
-			arjR+NKJ/qgUnTsZ5pL90yX9MdyvUyKUB8hjATv6FSM=
+			ecn3GsajhwZ8OtlGTu95ILURXM8/zo9FJZQz5gSuZhQ=
 			</data>
 		</dict>
 		<key>es/Xamarin.Forms.Platform.iOS.resources.dll</key>
@@ -1681,6 +1693,39 @@
 			<key>hash2</key>
 			<data>
 			Nf4GXAP3BI8KHHg6qjQ7PCL4xUAQ6kC+fd6ATLJLW/Y=
+			</data>
+		</dict>
+		<key>icon1.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			cbzwZxGr8rWuDXwYl+DPgDLp+rw=
+			</data>
+			<key>hash2</key>
+			<data>
+			iIE8LTl5y0gqCRpV8gRTr+A3kkclyawtxoC9QBS2u+g=
+			</data>
+		</dict>
+		<key>icon2.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			nXQr1jyKz7T1H/SwX4cxcweL+0w=
+			</data>
+			<key>hash2</key>
+			<data>
+			5R9Y5/XwuvqbUNoXWHkKYvrAmKZAmIY7nLjS0T9mIQM=
+			</data>
+		</dict>
+		<key>icon3.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			A1jjg6pePZf4QT4SjmOsDe2/NDc=
+			</data>
+			<key>hash2</key>
+			<data>
+			uLYecV++lLp7R/fQih9Xa4vf1hA97iz74gnidBrGmkc=
 			</data>
 		</dict>
 		<key>id/Xamarin.Forms.Platform.iOS.resources.dll</key>

@@ -144,5 +144,11 @@
     <BundleResource Include="Resources\mental.png" />
     <BundleResource Include="Resources\splash.png" />
     <BundleResource Include="Resources\contact.png" />
+    <BundleResource Include="Resources\icon1.png" />
+    <BundleResource Include="Resources\icon2.png" />
+    <BundleResource Include="Resources\icon3.png" />
+    <BundleResource Include="Resources\phone.png" />
+    <BundleResource Include="Resources\pin.png" />
+    <BundleResource Include="Resources\siren2.png" />
   </ItemGroup>
 </Project>

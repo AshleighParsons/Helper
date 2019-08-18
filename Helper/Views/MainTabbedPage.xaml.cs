@@ -16,9 +16,9 @@ namespace Helper.Views
         {
             InitializeComponent();
 
-            Children.Add(new Emergency() { Title = "Emergency" });
-            Children.Add(new Hospital() { Title = "Nearby Help" });
-            Children.Add(new Contact() { Title = "Contact" });
+            Children.Add(new Emergency() { Title = "Emergency", IconImageSource = "siren2" });
+            Children.Add(new Hospital() { Title = "Nearby Help", IconImageSource = "pin" });
+            Children.Add(new Contact() { Title = "Contact", IconImageSource = "phone" });
         }
     }
 }

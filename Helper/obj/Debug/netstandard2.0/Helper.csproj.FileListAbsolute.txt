@@ -23,3 +23,6 @@
 /Users/ashleighparsons/Projects/firstaidhelper/Helper/obj/Debug/netstandard2.0/Helper.dll
 /Users/ashleighparsons/Projects/firstaidhelper/Helper/obj/Debug/netstandard2.0/Helper.pdb
 /Users/ashleighparsons/Projects/firstaidhelper/Helper/obj/Debug/netstandard2.0/Views/AddContactPage.xaml.g.cs
+/Users/ashleighparsons/Projects/firstaidhelper/Helper/bin/Debug/netstandard2.0/Xamarin.iOS.dll
+/Users/ashleighparsons/Projects/firstaidhelper/Helper/bin/Debug/netstandard2.0/Xamarin.iOS.pdb
+/Users/ashleighparsons/Projects/firstaidhelper/Helper/obj/Debug/netstandard2.0/Helper.csproj.CopyComplete
