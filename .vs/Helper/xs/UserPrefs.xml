@@ -1,20 +1,31 @@
 ﻿<Properties StartupConfiguration="{5107B829-1C6B-4D12-AE1B-921ED5C724AF}|Default">
   <MonoDevelop.Ide.ItemProperties.Helper.iOS automaticSigning="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.B2C62A96-13AF-4DDA-913A-8D7CFC41E753" />
   <MonoDevelop.Ide.ItemProperties.Helper.Android PreferredExecutionTarget="Android.Android_Accelerated_Oreo" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Helper/Views/Hospital.xaml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Helper/Views/Hospital.xaml.cs">
     <Files>
-      <File FileName="Helper/Views/Hospital.xaml" Line="1" Column="1" />
-      <File FileName="Helper/Views/Hospital.xaml.cs" />
+      <File FileName="Helper/Views/Hospital.xaml" Line="11" Column="31" />
+      <File FileName="Helper/Views/Hospital.xaml.cs" Line="34" Column="54" />
       <File FileName="Helper/Views/Contact.xaml" />
+      <File FileName="Helper/Views/Emergency.xaml" />
+      <File FileName="Helper/Views/MainTabbedPage.xaml" />
+      <File FileName="Helper/Views/MainTabbedPage.xaml.cs" />
+      <File FileName="Helper.iOS/Info.plist" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Helper" expanded="True">
             <Node name="Helper" expanded="True">
+              <Node name="ViewModel" expanded="True" />
               <Node name="Views" expanded="True">
-                <Node name="Hospital.xaml" selected="True" />
+                <Node name="Hospital.xaml" expanded="True">
+                  <Node name="Hospital.xaml.cs" selected="True" />
+                </Node>
+                <Node name="MainTabbedPage.xaml" expanded="True" />
               </Node>
+            </Node>
+            <Node name="Helper.iOS" expanded="True">
+              <Node name="Resources" expanded="True" />
             </Node>
           </Node>
         </State>
