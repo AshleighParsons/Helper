@@ -1,7 +1,7 @@
 ﻿<Properties StartupConfiguration="{5107B829-1C6B-4D12-AE1B-921ED5C724AF}|Default">
   <MonoDevelop.Ide.ItemProperties.Helper.iOS automaticSigning="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.42ecee95746602a9deccdf63f11a00f3644aaaee" />
   <MonoDevelop.Ide.ItemProperties.Helper.Android AndroidDesignerPreferredTheme="Theme.AppCompat.Light.NoActionBar" PreferredExecutionTarget="Android.Android_Accelerated_Oreo" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Helper/Views/Emergency.xaml">
+  <MonoDevelop.Ide.Workbench>
     <Files>
       <File FileName="Helper/Views/Emergency.xaml" Line="16" Column="32" />
       <File FileName="Helper/Views/Contact.xaml" />
@@ -17,12 +17,10 @@
         <State name="__root__">
           <Node name="Helper" expanded="True">
             <Node name="Helper" expanded="True">
-              <Node name="Views" expanded="True" />
               <Node name="App.xaml" expanded="True" />
             </Node>
             <Node name="Helper.iOS" expanded="True">
               <Node name="Assets.xcassets" selected="True" />
-              <Node name="Resources" expanded="True" />
             </Node>
           </Node>
         </State>

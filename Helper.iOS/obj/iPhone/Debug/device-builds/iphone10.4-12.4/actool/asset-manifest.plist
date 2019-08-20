@@ -15,10 +15,7 @@
 			<string>/Users/ashleighparsons/Projects/firstaidhelper/Helper.iOS/obj/iPhone/Debug/device-builds/iphone10.4-12.4/actool/bundle/AppIcon60x60@2x.png</string>
 			<string>/Users/ashleighparsons/Projects/firstaidhelper/Helper.iOS/obj/iPhone/Debug/device-builds/iphone10.4-12.4/actool/bundle/AppIcon60x60@3x.png</string>
 			<string>/Users/ashleighparsons/Projects/firstaidhelper/Helper.iOS/obj/iPhone/Debug/device-builds/iphone10.4-12.4/actool/bundle/AppIcon20x20~ipad.png</string>
-			<string>/Users/ashleighparsons/Projects/firstaidhelper/Helper.iOS/obj/iPhone/Debug/device-builds/iphone10.4-12.4/actool/bundle/AppIcon20x20@2x~ipad.png</string>
 			<string>/Users/ashleighparsons/Projects/firstaidhelper/Helper.iOS/obj/iPhone/Debug/device-builds/iphone10.4-12.4/actool/bundle/AppIcon29x29~ipad.png</string>
-			<string>/Users/ashleighparsons/Projects/firstaidhelper/Helper.iOS/obj/iPhone/Debug/device-builds/iphone10.4-12.4/actool/bundle/AppIcon29x29@2x~ipad.png</string>
-			<string>/Users/ashleighparsons/Projects/firstaidhelper/Helper.iOS/obj/iPhone/Debug/device-builds/iphone10.4-12.4/actool/bundle/AppIcon40x40~ipad.png</string>
 			<string>/Users/ashleighparsons/Projects/firstaidhelper/Helper.iOS/obj/iPhone/Debug/device-builds/iphone10.4-12.4/actool/bundle/AppIcon76x76~ipad.png</string>
 			<string>/Users/ashleighparsons/Projects/firstaidhelper/Helper.iOS/obj/iPhone/Debug/device-builds/iphone10.4-12.4/actool/bundle/AppIcon76x76@2x~ipad.png</string>
 			<string>/Users/ashleighparsons/Projects/firstaidhelper/Helper.iOS/obj/iPhone/Debug/device-builds/iphone10.4-12.4/actool/bundle/AppIcon83.5x83.5@2x~ipad.png</string>
@@ -28,6 +25,18 @@
 	</dict>
 	<key>com.apple.actool.document.warnings</key>
 	<array>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./AppIcon.appiconset/[][ipad][40x40][][][1x][][]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/ashleighparsons/Projects/firstaidhelper/Helper.iOS/obj/iPhone/Debug/device-builds/iphone10.4-12.4/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The file "Icon40.png" for the image set "AppIcon" does not exist.</string>
+			<key>type</key>
+			<string>Missing Content</string>
+		</dict>
 		<dict>
 			<key>affected-items</key>
 			<array>
@@ -43,14 +52,62 @@
 		<dict>
 			<key>affected-items</key>
 			<array>
-				<string>./AppIcon-1.appiconset/[][watch][44x44][longLook][42mm][2x][][][2d][(null)]</string>
+				<string>./AppIcon.appiconset/[][ipad][29x29][][][2x][][]</string>
 			</array>
 			<key>catalog</key>
 			<string>/Users/ashleighparsons/Projects/firstaidhelper/Helper.iOS/obj/iPhone/Debug/device-builds/iphone10.4-12.4/actool/cloned-assets/Assets.xcassets</string>
 			<key>message</key>
-			<string>The app icon set "AppIcon-1" has an unassigned child.</string>
+			<string>The file "Icon58.png" for the image set "AppIcon" does not exist.</string>
 			<key>type</key>
-			<string>Ambiguous Content</string>
+			<string>Missing Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./AppIcon.appiconset/[][ipad][20x20][][][2x][][]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/ashleighparsons/Projects/firstaidhelper/Helper.iOS/obj/iPhone/Debug/device-builds/iphone10.4-12.4/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The file "Icon40.png" for the image set "AppIcon" does not exist.</string>
+			<key>type</key>
+			<string>Missing Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./AppIcon.appiconset/[][ipad][40x40][][][1x][][]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/ashleighparsons/Projects/firstaidhelper/Helper.iOS/obj/iPhone/Debug/device-builds/iphone10.4-12.4/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The file "Icon40.png" for the image set "AppIcon" does not exist.</string>
+			<key>type</key>
+			<string>Missing Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./AppIcon.appiconset/[][ipad][20x20][][][2x][][]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/ashleighparsons/Projects/firstaidhelper/Helper.iOS/obj/iPhone/Debug/device-builds/iphone10.4-12.4/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The file "Icon40.png" for the image set "AppIcon" does not exist.</string>
+			<key>type</key>
+			<string>Missing Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./AppIcon.appiconset/[][ipad][29x29][][][2x][][]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/ashleighparsons/Projects/firstaidhelper/Helper.iOS/obj/iPhone/Debug/device-builds/iphone10.4-12.4/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The file "Icon58.png" for the image set "AppIcon" does not exist.</string>
+			<key>type</key>
+			<string>Missing Content</string>
 		</dict>
 		<dict>
 			<key>affected-items</key>
