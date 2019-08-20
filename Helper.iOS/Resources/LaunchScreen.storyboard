@@ -19,7 +19,7 @@
                     <view key="view" contentMode="scaleToFill" id="yd7-JS-zBw">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" colorSpace="custom" customColorSpace="sRGB" red="0.470588235294118" green="0.737254901960784" blue="0.768627450980392" alpha="1"/>
+                        <color key="backgroundColor" colorSpace="custom" customColorSpace="sRGB" red="0.165" green="0.557" blue="0.616" alpha="1"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="243" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" image="splash.png">
                                 <rect key="frame" x="68" y="214" width="240" height="240"/>

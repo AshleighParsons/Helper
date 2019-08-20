@@ -14,7 +14,7 @@ namespace Helper.Views
             if (Application.Current.Properties.ContainsKey("name"))
             {
                 myICEname.Text = Application.Current.Properties["name"].ToString();
-                myICEimage.Source = "contact.png";
+                myICEimage.Source = "contact";
             }
         }
 

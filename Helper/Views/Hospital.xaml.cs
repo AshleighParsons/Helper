@@ -22,7 +22,7 @@ namespace Helper.Views
                 WidthRequest = 960,
                 VerticalOptions = LayoutOptions.FillAndExpand
             };
-            var stack = new StackLayout { Spacing = 0, BackgroundColor = Color.FromHex("#F7F8F3") };
+            var stack = new StackLayout { Spacing = 0 };
             var headLabel = new Label {
                 Text = "Find hospitals nearby:",
                 HorizontalOptions = LayoutOptions.FillAndExpand,

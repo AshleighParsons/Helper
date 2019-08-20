@@ -125,6 +125,9 @@
     <PackageReference Include="Xamarin.Forms.Maps">
       <Version>4.1.0.555618</Version>
     </PackageReference>
+    <PackageReference Include="DLToolkit.Forms.Controls.FlowListView">
+      <Version>2.0.11</Version>
+    </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
@@ -144,11 +147,39 @@
     <BundleResource Include="Resources\mental.png" />
     <BundleResource Include="Resources\splash.png" />
     <BundleResource Include="Resources\contact.png" />
-    <BundleResource Include="Resources\icon1.png" />
-    <BundleResource Include="Resources\icon2.png" />
-    <BundleResource Include="Resources\icon3.png" />
     <BundleResource Include="Resources\phone.png" />
     <BundleResource Include="Resources\pin.png" />
+    <BundleResource Include="Resources\ambulance2.png" />
+    <BundleResource Include="Resources\bone2.png" />
+    <BundleResource Include="Resources\ill2.png" />
+    <BundleResource Include="Resources\icon.png" />
+    <BundleResource Include="Resources\anxiety.png" />
+    <BundleResource Include="Resources\bite.png" />
+    <BundleResource Include="Resources\burn.png" />
+    <BundleResource Include="Resources\cold.png" />
+    <BundleResource Include="Resources\depressed.png" />
+    <BundleResource Include="Resources\dislocation.png" />
+    <BundleResource Include="Resources\ear.png" />
+    <BundleResource Include="Resources\epilepsy.png" />
+    <BundleResource Include="Resources\eye.png" />
+    <BundleResource Include="Resources\fracture.png" />
+    <BundleResource Include="Resources\knife.png" />
+    <BundleResource Include="Resources\nose.png" />
+    <BundleResource Include="Resources\nervous.png" />
+    <BundleResource Include="Resources\seizure.png" />
+    <BundleResource Include="Resources\slipped.png" />
+    <BundleResource Include="Resources\spinal.png" />
+    <BundleResource Include="Resources\splinter.png" />
+    <BundleResource Include="Resources\carpal.png" />
+    <BundleResource Include="Resources\sprain2.png" />
+    <BundleResource Include="Resources\suicide.png" />
+    <BundleResource Include="Resources\sunburn.png" />
+    <BundleResource Include="Resources\throat.png" />
+    <BundleResource Include="Resources\toilet.png" />
+    <BundleResource Include="Resources\uti.png" />
     <BundleResource Include="Resources\siren2.png" />
+    <BundleResource Include="Resources\Roboto-Light.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </BundleResource>
   </ItemGroup>
 </Project>

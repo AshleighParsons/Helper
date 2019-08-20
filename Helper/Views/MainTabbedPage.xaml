@@ -2,8 +2,10 @@
 <TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Helper.Views.MainTabbedPage"
-             BarBackgroundColor="#78BCC4"
-             BarTextColor="#F7F8F3" >
+             BarBackgroundColor="#2a8e9d"
+             BarTextColor="#F7F8F3"
+             SelectedTabColor="#002C3E"
+             UnselectedTabColor="#F7F8F3" >
   <!--Pages can be added as references or inline-->
 
 </TabbedPage>

@@ -5,28 +5,61 @@
     x:Class="Helper.Views.MentalPageDetail">
 
     <ScrollView>
-        <StackLayout BackgroundColor="#F7F8F3" >
+        <StackLayout >
 
             <Label x:Name="MyMentalTypeShow"  
                 HorizontalTextAlignment="Center" 
                 VerticalTextAlignment="Center" 
-                HorizontalOptions="FillAndExpand" 
-                Margin="17"
-                TextColor="#002C3E" 
+                HorizontalOptions="FillAndExpand"
+                TextColor="White" 
                 FontSize="Large"
-                HeightRequest="50"
+                HeightRequest="90"
+                BackgroundColor="#F7444E"
                 Font="Bold,25" />
+
+            <!--<Image x:Name="MyImageShow" />-->
 
             <Label x:Name="MyDescriptionShow"
                     Margin="15,15"
                     FontSize="Large"
                     TextColor="#002C3E"
-                    HorizontalTextAlignment="Center" />
+                    FontFamily="Roboto-Light"/>
 
-            <Label x:Name="MyStepsShow"
-                    Margin="15,15"
+            <Label x:Name="MyStep1Show"
+                    Margin="35,15"
                     FontSize="Medium"
-                    TextColor="#002C3E"/>
+                    TextColor="#002C3E"
+                    FontFamily="Roboto-Light"/>
+
+            <Label x:Name="MyStep2Show"
+                    Margin="35,15"
+                    FontSize="Medium"
+                    TextColor="#002C3E"
+                    FontFamily="Roboto-Light"/>
+
+            <Label x:Name="MyStep3Show"
+                    Margin="35,15"
+                    FontSize="Medium"
+                    TextColor="#002C3E"
+                    FontFamily="Roboto-Light"/>
+
+            <Label x:Name="MyStep4Show"
+                    Margin="35,15"
+                    FontSize="Medium"
+                    TextColor="#002C3E"
+                    FontFamily="Roboto-Light"/>
+
+            <Label x:Name="MyStep5Show"
+                    Margin="35,15"
+                    FontSize="Medium"
+                    TextColor="#002C3E"
+                    FontFamily="Roboto-Light"/>
+
+            <Label x:Name="MyStep6Show"
+                    Margin="35,15"
+                    FontSize="Medium"
+                    TextColor="#002C3E"
+                    FontFamily="Roboto-Light"/>
         </StackLayout>
     </ScrollView>
 

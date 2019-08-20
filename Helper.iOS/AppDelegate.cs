@@ -26,6 +26,8 @@ namespace Helper.iOS
 
             Xamarin.FormsMaps.Init();
 
+            UITabBar.Appearance.TintColor = UIColor.Red;
+
             LoadApplication(new App());
 
             return base.FinishedLaunching(uiApplication, launchOptions);

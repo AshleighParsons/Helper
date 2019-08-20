@@ -17,7 +17,7 @@ namespace Helper.Views
         private async void OnItemSelected(Object sender, ItemTappedEventArgs e)
         {
             var illnessdetail = e.Item as IllnessModel;
-            await Navigation.PushAsync(new IllnessPageDetail(illnessdetail.IllnessType, illnessdetail.Description, illnessdetail.FirstAidSteps));
+            await Navigation.PushAsync(new IllnessPageDetail(illnessdetail.IllnessType, illnessdetail.Description, illnessdetail.FirstAidStep1, illnessdetail.FirstAidStep2, illnessdetail.FirstAidStep3, illnessdetail.FirstAidStep4, illnessdetail.FirstAidStep5, illnessdetail.FirstAidStep6));
 
         }
     }

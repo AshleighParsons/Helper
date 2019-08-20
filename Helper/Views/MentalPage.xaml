@@ -1,10 +1,11 @@
 ﻿<?xml version="1.0" encoding="UTF-8" ?>
 <ContentPage
     xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:flv="clr-namespace:DLToolkit.Forms.Controls;assembly=DLToolkit.Forms.Controls.FlowListView"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     x:Class="Helper.Views.MentalPage">
 
-    <StackLayout BackgroundColor="#F7F8F3" >
+    <StackLayout >
         <Label Text="Select your mental illness:"  
                 HorizontalTextAlignment="Center" 
                 VerticalTextAlignment="Center" 
@@ -15,7 +16,31 @@
                 HeightRequest="50"
                 Font="Bold,25" />
 
-        <ListView x:Name="MentalView"
+        <flv:FlowListView FlowColumnCount="2"
+                          SeparatorVisibility="None"
+                          HasUnevenRows="true"
+	                      FlowItemsSource="{Binding MentalList}"
+                          RowHeight="165"
+                          FlowItemTapped="OnItemSelected" >
+	        <flv:FlowListView.FlowColumnTemplate >
+		        <DataTemplate >
+                    <StackLayout >
+                        <Image Source="{Binding Image}"
+                                     HeightRequest="90"
+                                     Margin="10" />
+			            <Label HorizontalOptions="Fill"
+                               VerticalOptions="Fill" 
+				               XAlign="Center"
+                               YAlign="Center"
+                               Text="{Binding MentalType}"
+                        />
+                     </StackLayout>
+		        </DataTemplate>
+	        </flv:FlowListView.FlowColumnTemplate>
+
+        </flv:FlowListView>
+
+        <!--<ListView x:Name="MentalView"
                   BackgroundColor="#F7F8F3"
                   ItemsSource="{Binding MentalList}"
                   SeparatorColor="#023B5B"
@@ -28,7 +53,7 @@
                                 TextColor="#023B5B" />
                 </DataTemplate>
             </ListView.ItemTemplate>
-        </ListView>
+        </ListView>-->
         
     </StackLayout>
 

@@ -69,6 +69,7 @@
 @class UIKit_UITextView__UITextViewDelegate;
 @class UIKit_UISplitViewController__UISplitViewControllerDelegate;
 @class UIKit_UISwitch_UISwitchAppearance;
+@class UIKit_UITabBar_UITabBarAppearance;
 @class UIKit_UITabBarController__UITabBarControllerDelegate;
 @class UIKit_UIWebView__UIWebViewDelegate;
 @class __NSObject_Disposer;
@@ -307,6 +308,7 @@
 	-(void) xamarinSetGCHandle: (int) gchandle;
 	-(UIColor *) backgroundColor;
 	-(UIColor *) tintColor;
+	-(void) setTintColor:(UIColor *)p0;
 	-(BOOL) conformsToProtocol:(void *)p0;
 @end
 
@@ -354,6 +356,10 @@
 @interface UIKit_UISwitch_UISwitchAppearance : UIKit_UIControl_UIControlAppearance {
 }
 	-(UIColor *) onTintColor;
+@end
+
+@interface UIKit_UITabBar_UITabBarAppearance : UIKit_UIView_UIViewAppearance {
+}
 @end
 
 @interface Xamarin_Forms_Platform_iOS_VisualElementRenderer_1 : UIView {

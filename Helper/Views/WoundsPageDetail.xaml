@@ -5,28 +5,119 @@
     x:Class="Helper.Views.WoundsPageDetail">
 
     <ScrollView>
-        <StackLayout BackgroundColor="#F7F8F3" >
-
+        <StackLayout >
+            
             <Label x:Name="MyWoundTypeShow"  
                 HorizontalTextAlignment="Center" 
                 VerticalTextAlignment="Center" 
-                HorizontalOptions="FillAndExpand" 
-                Margin="17"
-                TextColor="#002C3E" 
+                HorizontalOptions="FillAndExpand"
+                TextColor="White" 
                 FontSize="Large"
-                HeightRequest="50"
+                HeightRequest="90"
+                BackgroundColor="#F7444E"
                 Font="Bold,25" />
 
             <Label x:Name="MyDescriptionShow"
                     Margin="15,15"
                     FontSize="Large"
                     TextColor="#002C3E"
-                    HorizontalTextAlignment="Center" />
+                    FontFamily="Roboto-Light"/>
 
-            <Label x:Name="MyStepsShow"
-                    Margin="15,15"
-                    FontSize="Medium"
-                    TextColor="#002C3E"/>
+            <Grid Margin="20">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="6*" />
+                </Grid.ColumnDefinitions>
+
+                <Label Text="one"
+                   TextColor="#F7444E"
+                   Rotation="-90"
+                   Grid.Row="0"
+                   Grid.Column="0"/>
+
+                <Label x:Name="MyStep1Show"
+                        Margin="35,15"
+                        FontSize="Medium"
+                        TextColor="#002C3E"
+                        FontFamily="Roboto-Light"
+                        Grid.Row="0"
+                        Grid.Column="1"/>
+
+                <Label Text="two"
+                   TextColor="#F7444E"
+                   Rotation="-90"
+                   Grid.Row="1"
+                   Grid.Column="0"/>
+
+                <Label x:Name="MyStep2Show"
+                       Margin="35,15"
+                       FontSize="Medium"
+                       TextColor="#002C3E"
+                       FontFamily="Roboto-Light"
+                       Grid.Row="1"
+                       Grid.Column="1"/>
+
+                <Label Text="three"
+                   TextColor="#F7444E"
+                   Rotation="-90"
+                   Grid.Row="2"
+                   Grid.Column="0"/>
+
+                <Label x:Name="MyStep3Show"
+                       Margin="35,15"
+                       FontSize="Medium"
+                       TextColor="#002C3E"
+                       FontFamily="Roboto-Light"
+                       Grid.Row="1"
+                       Grid.Column="1"/>
+
+                <Label Text="four"
+                   TextColor="#F7444E"
+                   Rotation="-90"
+                   Grid.Row="3"
+                   Grid.Column="0"/>
+
+                <Label x:Name="MyStep4Show"
+                        Margin="35,15"
+                        FontSize="Medium"
+                        TextColor="#002C3E"
+                        FontFamily="Roboto-Light"/>
+
+                <Label Text="five"
+                   TextColor="#F7444E"
+                   Rotation="-90"
+                   Grid.Row="4"
+                   Grid.Column="0"/>
+
+                <Label x:Name="MyStep5Show"
+                        Margin="35,15"
+                        FontSize="Medium"
+                        TextColor="#002C3E"
+                        FontFamily="Roboto-Light"/>
+
+                <Label Text="six"
+                   TextColor="#F7444E"
+                   Rotation="-90"
+                   Grid.Row="5"
+                   Grid.Column="0"/>
+
+                <Label x:Name="MyStep6Show"
+                        Margin="35,15"
+                        FontSize="Medium"
+                        TextColor="#002C3E"
+                        FontFamily="Roboto-Light"/>
+ 
+            </Grid>
+
         </StackLayout>
     </ScrollView>
 

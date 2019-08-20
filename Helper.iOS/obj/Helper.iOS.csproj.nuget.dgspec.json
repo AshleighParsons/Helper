@@ -36,6 +36,10 @@
       "frameworks": {
         "xamarinios10": {
           "dependencies": {
+            "DLToolkit.Forms.Controls.FlowListView": {
+              "target": "Package",
+              "version": "[2.0.11, )"
+            },
             "Xamarin.Essentials": {
               "target": "Package",
               "version": "[1.2.0, )"
@@ -98,6 +102,10 @@
       "frameworks": {
         "netstandard2.0": {
           "dependencies": {
+            "DLToolkit.Forms.Controls.FlowListView": {
+              "target": "Package",
+              "version": "[2.0.11, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",

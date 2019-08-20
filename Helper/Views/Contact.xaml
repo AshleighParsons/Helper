@@ -4,7 +4,7 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     x:Class="Helper.Views.Contact">
 
-    <StackLayout BackgroundColor="#F7F8F3" >
+    <StackLayout >
         <Label Text="Call for help:"  
                 HorizontalTextAlignment="Center" 
                 VerticalTextAlignment="Center" 

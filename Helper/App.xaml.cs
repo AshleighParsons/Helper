@@ -1,4 +1,5 @@
 ﻿using System;
+using DLToolkit.Forms.Controls;
 using Helper.Views;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -10,10 +11,11 @@ namespace Helper
         public App()
         {
             InitializeComponent();
+            FlowListView.Init();
 
             MainPage = new NavigationPage(new MainTabbedPage())
             {
-                BarBackgroundColor = Color.FromHex("#78BCC4"),
+                BarBackgroundColor = Color.FromHex("#2a8e9d"),
                 BarTextColor = Color.FromHex("#F7F8F3"),
             };
         }

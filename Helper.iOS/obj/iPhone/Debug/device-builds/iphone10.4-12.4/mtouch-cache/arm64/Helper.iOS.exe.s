@@ -221,7 +221,7 @@ Lme_1:
 Helper_iOS_AppDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary:
 .file 2 "/Users/ashleighparsons/Projects/firstaidhelper/Helper.iOS/AppDelegate.cs"
 .loc 2 24 0 prologue_end
-.word 0xa9ba7bfd
+.word 0xa9b97bfd
 .word 0x910003fd
 .word 0xa90163b7
 .word 0xaa0003f8
@@ -279,6 +279,33 @@ bl _p_4
 .word 0xf940d231
 .word 0xb4000051
 .word 0xd63f0220
+bl _p_5
+.word 0xf90037a0
+.word 0xf9401bb1
+.word 0xf940ea31
+.word 0xb4000051
+.word 0xd63f0220
+bl _p_6
+.word 0xf90033a0
+.word 0xf9401bb1
+.word 0xf9410231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94033a1
+.word 0xf94037a2
+.word 0xaa0203e0
+.word 0xf9400042
+.word 0xf940ec50
+.word 0xd63f0200
+.word 0xf9401bb1
+.word 0xf9412a31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 2 31 0
+.word 0xf9401bb1
+.word 0xf9413a31
+.word 0xb4000051
+.word 0xd63f0220
 .word 0xaa1803e0
 
 adrp x16, mono_aot_Helper_iOS_got@PAGE+0
@@ -286,53 +313,53 @@ add x16, x16, mono_aot_Helper_iOS_got@PAGEOFF
 ldr x0, [x16, #256]
 .word 0xd2802d01
 .word 0xd2802d01
-bl _p_5
+bl _p_7
 .word 0xf9002fa0
-bl _p_6
+bl _p_8
 .word 0xf9401bb1
-.word 0xf9410631
+.word 0xf9416e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fa1
 .word 0xaa1803e0
-bl _p_7
+bl _p_9
 .word 0xf9401bb1
-.word 0xf9412231
+.word 0xf9418a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 2 31 0
+.loc 2 33 0
 .word 0xf9401bb1
-.word 0xf9413231
+.word 0xf9419a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1803e0
 .word 0xf94013a1
 .word 0xf94017a2
 .word 0xaa1803e0
-bl _p_8
+bl _p_10
 .word 0x53001c00
 .word 0xf9002ba0
 .word 0xf9401bb1
-.word 0xf9415e31
+.word 0xf941c631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba0
 .word 0x53001c00
 .word 0xaa0003f7
-.loc 2 32 0
+.loc 2 34 0
 .word 0xf9401bb1
-.word 0xf9417a31
+.word 0xf941e231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1703e0
 .word 0xaa1703e0
 .word 0xf9401bb1
-.word 0xf9419231
+.word 0xf941fa31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xa94163b7
 .word 0x910003bf
-.word 0xa8c67bfd
+.word 0xa8c77bfd
 .word 0xd65f03c0
 
 Lme_2:
@@ -362,7 +389,7 @@ bl _p_1
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400ba0
-bl _p_9
+bl _p_11
 .word 0xf9400fb1
 .word 0xf9406231
 .word 0xb4000051
@@ -407,8 +434,8 @@ unbox_trampoline_addresses:
 	.align 3
 unwind_info:
 
-	.byte 13,12,31,0,68,14,48,157,6,158,5,68,13,29,18,12,31,0,68,14,96,157,12,158,11,68,13,29,68,151,10,152
-	.byte 9
+	.byte 13,12,31,0,68,14,48,157,6,158,5,68,13,29,18,12,31,0,68,14,112,157,14,158,13,68,13,29,68,151,12,152
+	.byte 11
 
 .text
 	.align 4
@@ -446,50 +473,66 @@ add x16, x16, mono_aot_Helper_iOS_got@PAGEOFF
 ldr x16, [x16, #304]
 br x16
 .word 419
-	.no_dead_strip plt_wrapper_alloc_object_AllocSmall_intptr_intptr
-plt_wrapper_alloc_object_AllocSmall_intptr_intptr:
+	.no_dead_strip plt_UIKit_UITabBar_get_Appearance
+plt_UIKit_UITabBar_get_Appearance:
 _p_5:
 adrp x16, mono_aot_Helper_iOS_got@PAGE+0
 add x16, x16, mono_aot_Helper_iOS_got@PAGEOFF
 ldr x16, [x16, #312]
 br x16
 .word 424
-	.no_dead_strip plt_Helper_App__ctor
-plt_Helper_App__ctor:
+	.no_dead_strip plt_UIKit_UIColor_get_Red
+plt_UIKit_UIColor_get_Red:
 _p_6:
 adrp x16, mono_aot_Helper_iOS_got@PAGE+0
 add x16, x16, mono_aot_Helper_iOS_got@PAGEOFF
 ldr x16, [x16, #320]
 br x16
-.word 432
-	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate_LoadApplication_Xamarin_Forms_Application
-plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate_LoadApplication_Xamarin_Forms_Application:
+.word 429
+	.no_dead_strip plt_wrapper_alloc_object_AllocSmall_intptr_intptr
+plt_wrapper_alloc_object_AllocSmall_intptr_intptr:
 _p_7:
 adrp x16, mono_aot_Helper_iOS_got@PAGE+0
 add x16, x16, mono_aot_Helper_iOS_got@PAGEOFF
 ldr x16, [x16, #328]
 br x16
-.word 437
-	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary
-plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary:
+.word 434
+	.no_dead_strip plt_Helper_App__ctor
+plt_Helper_App__ctor:
 _p_8:
 adrp x16, mono_aot_Helper_iOS_got@PAGE+0
 add x16, x16, mono_aot_Helper_iOS_got@PAGEOFF
 ldr x16, [x16, #336]
 br x16
 .word 442
-	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate__ctor
-plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate__ctor:
+	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate_LoadApplication_Xamarin_Forms_Application
+plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate_LoadApplication_Xamarin_Forms_Application:
 _p_9:
 adrp x16, mono_aot_Helper_iOS_got@PAGE+0
 add x16, x16, mono_aot_Helper_iOS_got@PAGEOFF
 ldr x16, [x16, #344]
 br x16
 .word 447
+	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary
+plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary:
+_p_10:
+adrp x16, mono_aot_Helper_iOS_got@PAGE+0
+add x16, x16, mono_aot_Helper_iOS_got@PAGEOFF
+ldr x16, [x16, #352]
+br x16
+.word 452
+	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate__ctor
+plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate__ctor:
+_p_11:
+adrp x16, mono_aot_Helper_iOS_got@PAGE+0
+add x16, x16, mono_aot_Helper_iOS_got@PAGEOFF
+ldr x16, [x16, #360]
+br x16
+.word 457
 plt_end:
 .section __DATA, __bss
 	.align 3
-.lcomm mono_aot_Helper_iOS_got, 352
+.lcomm mono_aot_Helper_iOS_got, 368
 got_end:
 .section __TEXT, __const
 	.align 3
@@ -512,7 +555,7 @@ runtime_version:
 .section __TEXT, __const
 	.align 2
 assembly_guid:
-	.asciz "3AC53DD3-D1BC-46AD-A53B-7324555612F5"
+	.asciz "F48431B7-31D7-4E66-BC35-509AC9299D71"
 .section __TEXT, __const
 	.align 2
 assembly_name:
@@ -599,14 +642,14 @@ _mono_aot_file_info:
 	.align 3
 	.quad unbox_trampoline_addresses
 
-	.long 34,352,10,5,0,102,387000831,0
-	.long 1030,128,8,8,8,9,8388607,0
-	.long 28,1912,0,0,872,360,184,0
+	.long 34,368,12,5,0,102,387000831,0
+	.long 1082,128,8,8,8,9,8388607,0
+	.long 28,1960,0,0,872,360,184,0
 	.long 304,336,240,0,176,32,864,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0
-	.byte 238,37,225,209,45,19,163,166,218,143,140,208,159,112,134,172
+	.byte 74,208,229,45,144,34,212,248,162,88,216,197,37,67,198,139
 	.globl _mono_aot_module_Helper_iOS_info
 	.align 3
 _mono_aot_module_Helper_iOS_info:
@@ -6892,7 +6935,7 @@ Lfde2_start:
 LDIFF_SYM1067=Lme_2 - Helper_iOS_AppDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary
 	.long LDIFF_SYM1067
 	.long 0
-	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,151,10,152,9
+	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,151,12,152,11
 	.align 3
 Lfde2_end:
 
