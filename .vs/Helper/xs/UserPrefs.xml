@@ -1,27 +1,27 @@
 ﻿<Properties StartupConfiguration="{5107B829-1C6B-4D12-AE1B-921ED5C724AF}|Default">
-  <MonoDevelop.Ide.ItemProperties.Helper.iOS automaticSigning="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.B2C62A96-13AF-4DDA-913A-8D7CFC41E753" />
+  <MonoDevelop.Ide.ItemProperties.Helper.iOS automaticSigning="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.42ecee95746602a9deccdf63f11a00f3644aaaee" />
   <MonoDevelop.Ide.ItemProperties.Helper.Android AndroidDesignerPreferredTheme="Theme.AppCompat.Light.NoActionBar" PreferredExecutionTarget="Android.Android_Accelerated_Oreo" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Helper/Views/WoundsPageDetail.xaml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Helper/Views/Emergency.xaml">
     <Files>
-      <File FileName="Helper/Views/WoundsPageDetail.xaml" Line="76" Column="23" />
-      <File FileName="Helper/Views/MentalPageDetail.xaml" />
-      <File FileName="Helper/Views/IllnessPageDetail.xaml" />
-      <File FileName="Helper/Views/BonesPageDetail.xaml" />
+      <File FileName="Helper/Views/Emergency.xaml" Line="16" Column="32" />
+      <File FileName="Helper/Views/Contact.xaml" />
+      <File FileName="Helper/Views/BonesPage.xaml" />
+      <File FileName="Helper/Views/IllnessPage.xaml" />
+      <File FileName="Helper/Views/MentalPage.xaml" />
+      <File FileName="Helper/Views/WoundsPage.xaml" />
+      <File FileName="Helper/Views/AddContactPage.xaml" />
       <File FileName="Helper.iOS/Info.plist" />
-      <File FileName="Helper/Views/Emergency.xaml" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Helper" expanded="True">
             <Node name="Helper" expanded="True">
-              <Node name="ViewModel" expanded="True" />
-              <Node name="Views" expanded="True">
-                <Node name="WoundsPageDetail.xaml" selected="True" />
-              </Node>
+              <Node name="Views" expanded="True" />
               <Node name="App.xaml" expanded="True" />
             </Node>
             <Node name="Helper.iOS" expanded="True">
+              <Node name="Assets.xcassets" selected="True" />
               <Node name="Resources" expanded="True" />
             </Node>
           </Node>
@@ -30,7 +30,7 @@
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

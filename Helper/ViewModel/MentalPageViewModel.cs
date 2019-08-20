@@ -56,7 +56,7 @@ namespace Helper.ViewModel
                                              FirstAidStep3 = "Listen to them and be there for them.",
                                              FirstAidStep4 = "Encourage them to call a helpline or contact someone to for support them, for example, a friend, family member, or mentor.",
                                              FirstAidStep5 = "Follow up with them after the crisis has passed, as this may reduce the risk of a recurrence.",
-                                             FirstAidStep6 = ""
+                                             FirstAidStep6 = "Suggest that they seek professional help to manage their symptoms."
             });
 
             

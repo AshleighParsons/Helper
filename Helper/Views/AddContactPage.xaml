@@ -4,7 +4,7 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     x:Class="Helper.Views.AddContactPage">
 
-    <StackLayout BackgroundColor="#F7F8F3" >
+    <StackLayout >
         <Label Text="Your emergency contact:"  
                 HorizontalTextAlignment="Center" 
                 VerticalTextAlignment="Center" 

@@ -32,7 +32,7 @@ namespace Helper.ViewModel
                                                FirstAidStep3 = "A cold pack can help with the pain of an earache.",
                                                FirstAidStep4 = "Ear drops can reduce pressure in the ear caused by fluid and earwax.",
                                                FirstAidStep5 = "Eating a clove of garlic or some onion each day may help prevent ear infections.",
-                                               FirstAidStep6 = ""
+                                               FirstAidStep6 = "Earaches are often caused by a buildup of fluid caught in the Eustachian tube, and  clearing the nose can relieve pressure on the eardrum."
             });
             
             IllnessList.Add(new IllnessModel { IllnessType = "Cold",
@@ -54,7 +54,7 @@ namespace Helper.ViewModel
                                                FirstAidStep3 = "Drink cranberry juice, which contains antioxidants which have antibacterial and anti-inflammatory properties.",
                                                FirstAidStep4 = "Use probiotics to keep the urinary tract healthy and free from harmful bacteria.",
                                                FirstAidStep5 = "Get enough vitamin C to improve immune system function.",
-                                               FirstAidStep6 = ""
+                                               FirstAidStep6 = "UTIs are bacterial infections, and as such, doctor prescribed antibiotics are the most thorough, most recommended treatment to consider."
             });
             
             IllnessList.Add(new IllnessModel { IllnessType = "Conjunctivitis",
@@ -63,9 +63,9 @@ namespace Helper.ViewModel
                                                FirstAidStep1 = "Apply a compress to your eyes - generally, a cool water compress will feel the most soothing.",
                                                FirstAidStep2 = "Try eyedrops that contain antihistamines or other medications that can be helpful for people with allergic conjunctivitis.",
                                                FirstAidStep3 = "Stop wearing contact lenses.",
-                                               FirstAidStep4 = "",
-                                               FirstAidStep5 = "",
-                                               FirstAidStep6 = ""
+                                               FirstAidStep4 = "Eye makeup, sunglasses and towels that comes into contact with your eyes can carry the bacteria. Avoid sharing these items with anyone.",
+                                               FirstAidStep5 = "Wash your hands often while you have the condition, especially before and after touching your eyes.",
+                                               FirstAidStep6 = "Most forms of viral conjunctivitis will clear within 7-14 days without any long-term consequences or complications to your eyes."
             });
 
             IllnessList.Add(new IllnessModel { IllnessType = "Diarrhea",

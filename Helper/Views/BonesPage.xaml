@@ -33,7 +33,8 @@
 				               XAlign="Center"
                                YAlign="Center"
                                Text="{Binding BoneType}"
-                        />
+                               FontFamily="Roboto-Light"
+                               TextColor="#002C3E" />
                      </StackLayout>
 		        </DataTemplate>
 	        </flv:FlowListView.FlowColumnTemplate>

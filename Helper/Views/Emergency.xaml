@@ -42,7 +42,8 @@
                     TextColor="#002C3E"
                     Margin="0"
                     FontSize="Medium"
-                    HorizontalTextAlignment="Center"/>
+                    HorizontalTextAlignment="Center"
+                    FontFamily="Roboto-Light"/>
 
             <ImageButton Grid.Row="0"
                     Grid.Column="1"
@@ -57,7 +58,8 @@
                     TextColor="#002C3E"
                     Margin="0"
                     FontSize="Medium"
-                    HorizontalTextAlignment="Center"/>
+                    HorizontalTextAlignment="Center"
+                    FontFamily="Roboto-Light"/>
 
             <ImageButton Grid.Row="2"
                     Grid.Column="1"
@@ -72,7 +74,8 @@
                     TextColor="#002C3E"
                     Margin="0"
                     FontSize="Medium"
-                    HorizontalTextAlignment="Center"/>
+                    HorizontalTextAlignment="Center"
+                    FontFamily="Roboto-Light"/>
 
             <ImageButton Grid.Row="2"
                     Grid.Column="0"
@@ -87,7 +90,8 @@
                     TextColor="#002C3E"
                     Margin="0"
                     FontSize="Medium"
-                    HorizontalTextAlignment="Center"/>
+                    HorizontalTextAlignment="Center"
+                    FontFamily="Roboto-Light"/>
 
         </Grid>
 

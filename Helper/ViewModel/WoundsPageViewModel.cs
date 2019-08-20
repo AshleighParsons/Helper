@@ -45,7 +45,7 @@ namespace Helper.ViewModel
                                                 FirstAidStep3 = "Call 911 if you have trouble breathing, coughing, or develop a hoarse voice, hives, or swollen lips or tongue.",
                                                 FirstAidStep4 = "To combat itching, apply 1% hydrocortisone cream or a topical antihistamine if the skin isn't broken or scabbed.",
                                                 FirstAidStep5 = "Contact your doctor if you suspect a tick bite. They may want to test for Lyme disease and other tick-borne diseases.",
-                                                FirstAidStep6 = ""
+                                                FirstAidStep6 = "For bites that itch, apply an ice pack or an over-the-counter anti-itch cream, such as hydrocortisone."
                 });
 
                 WoundList.Add(new WoundsModel { WoundType = "Splinter",
@@ -53,10 +53,10 @@ namespace Helper.ViewModel
                                                 Description = "A thin wood split broken off lengthwise and embedded in the skin." ,
                                                 FirstAidStep1 = "Use soap and water to wash around the splinter.",
                                                 FirstAidStep2 = "Clean a pair of tweezers with rubbing alcohol and slowly pull the splinter out.",
-                                                FirstAidStep3 = "Rewash the skin.",
+                                                FirstAidStep3 = "Use a magnifying glass when removing the splinter to see the splinter more clearly and reduce the risk of injuring the skin further.",
                                                 FirstAidStep4 = "If you come across a fragment that is hard to remove, leave it for a day or so to see if it will come out on its own.",
-                                                FirstAidStep5 = "",
-                                                FirstAidStep6 = ""
+                                                FirstAidStep5 = "Break and lift the skin over the splinter if the splinter is covered by a flap of skin.",
+                                                FirstAidStep6 = "Rewash the area and apply a plaster to avoid infection."
                 });
 
                 WoundList.Add(new WoundsModel { WoundType = "Sunburn",
@@ -65,9 +65,9 @@ namespace Helper.ViewModel
                                                 FirstAidStep1 = "If you feel dizzy, weak, sick to your stomach, or are spiking a high fever—or if the burn is severe (oozing blisters form within 48 hours) and covering a significant portion of your body—go to the Emergency Room.",
                                                 FirstAidStep2 = "If your only symptoms are discomfort and redness, apply cold compresses and aloe vera lotion and take some ibuprofen.",
                                                 FirstAidStep3 = "Avoid creams with petroleum, which can cause infection, or anything ending in -Caine. When not administered by a professional, these drugs may be dangerous.",
-                                                FirstAidStep4 = "",
-                                                FirstAidStep5 = "",
-                                                FirstAidStep6 = ""
+                                                FirstAidStep4 = "Have a cool bath or gentle shower, and keep the water just below lukewarm.",
+                                                FirstAidStep5 = "Wear loose cotton clothing over sunburned areas to avoid irritation.",
+                                                FirstAidStep6 = "Minimize sun exposure to prevent further damage."
                 });
 
                 WoundList.Add(new WoundsModel { WoundType = "Nosebleed",

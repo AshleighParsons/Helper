@@ -53,10 +53,6 @@
       <LogicalName>AppIcon40x40~ipad.png</LogicalName>
       <Optimize>false</Optimize>
     </_BundleResourceWithLogicalName>
-    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/device-builds/iphone10.4-12.2/actool/bundle/AppIcon40x40@2x~ipad.png">
-      <LogicalName>AppIcon40x40@2x~ipad.png</LogicalName>
-      <Optimize>false</Optimize>
-    </_BundleResourceWithLogicalName>
     <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/device-builds/iphone10.4-12.2/actool/bundle/AppIcon76x76~ipad.png">
       <LogicalName>AppIcon76x76~ipad.png</LogicalName>
       <Optimize>false</Optimize>
