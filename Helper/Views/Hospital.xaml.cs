@@ -49,7 +49,7 @@ namespace Helper.Views
             {
                 Type = PinType.Place,
                 Position = position1,
-                Label = "Intercare Irene",
+                Label = "Intercare Irene ↗︎",
                 Address = "54 John Vorster Dr, Irene, Centurion",
             };
 
@@ -61,7 +61,7 @@ namespace Helper.Views
             {
                 Type = PinType.Place,
                 Position = position2,
-                Label = "Midstream Mediclinic",
+                Label = "Midstream Mediclinic ↗︎",
                 Address = "Midstream Dr & Midstream Hill Boulevard",
             };
 
@@ -73,7 +73,7 @@ namespace Helper.Views
             {
                 Type = PinType.Place,
                 Position = position3,
-                Label = "Centurion Day Hospital",
+                Label = "Centurion Day Hospital ↗︎",
                 Address = "192 Glover Ave, Lyttleton, Centurion",
             };
 
@@ -85,7 +85,7 @@ namespace Helper.Views
             {
                 Type = PinType.Place,
                 Position = position4,
-                Label = "Netcare Unitas Hospital",
+                Label = "Netcare Unitas Hospital ↗︎",
                 Address = "Clifton Avenue Lyttelton, Centurion",
             };
 

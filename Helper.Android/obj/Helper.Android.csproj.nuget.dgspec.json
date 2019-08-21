@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/ashleighparsons/Projects/firstaidhelper/Helper.Android/Helper.Android.csproj": {}
+    "/Users/ashleighparsons/firstaidhelper/Helper.Android/Helper.Android.csproj": {}
   },
   "projects": {
-    "/Users/ashleighparsons/Projects/firstaidhelper/Helper.Android/Helper.Android.csproj": {
+    "/Users/ashleighparsons/firstaidhelper/Helper.Android/Helper.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/ashleighparsons/Projects/firstaidhelper/Helper.Android/Helper.Android.csproj",
+        "projectUniqueName": "/Users/ashleighparsons/firstaidhelper/Helper.Android/Helper.Android.csproj",
         "projectName": "Helper.Android",
-        "projectPath": "/Users/ashleighparsons/Projects/firstaidhelper/Helper.Android/Helper.Android.csproj",
+        "projectPath": "/Users/ashleighparsons/firstaidhelper/Helper.Android/Helper.Android.csproj",
         "packagesPath": "/Users/ashleighparsons/.nuget/packages/",
-        "outputPath": "/Users/ashleighparsons/Projects/firstaidhelper/Helper.Android/obj/",
+        "outputPath": "/Users/ashleighparsons/firstaidhelper/Helper.Android/obj/",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "configFilePaths": [
@@ -26,8 +26,8 @@
         "frameworks": {
           "monoandroid90": {
             "projectReferences": {
-              "/Users/ashleighparsons/Projects/firstaidhelper/Helper/Helper.csproj": {
-                "projectPath": "/Users/ashleighparsons/Projects/firstaidhelper/Helper/Helper.csproj"
+              "/Users/ashleighparsons/firstaidhelper/Helper/Helper.csproj": {
+                "projectPath": "/Users/ashleighparsons/firstaidhelper/Helper/Helper.csproj"
               }
             }
           }
@@ -80,14 +80,14 @@
         }
       }
     },
-    "/Users/ashleighparsons/Projects/firstaidhelper/Helper/Helper.csproj": {
+    "/Users/ashleighparsons/firstaidhelper/Helper/Helper.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/ashleighparsons/Projects/firstaidhelper/Helper/Helper.csproj",
+        "projectUniqueName": "/Users/ashleighparsons/firstaidhelper/Helper/Helper.csproj",
         "projectName": "Helper",
-        "projectPath": "/Users/ashleighparsons/Projects/firstaidhelper/Helper/Helper.csproj",
+        "projectPath": "/Users/ashleighparsons/firstaidhelper/Helper/Helper.csproj",
         "packagesPath": "/Users/ashleighparsons/.nuget/packages/",
-        "outputPath": "/Users/ashleighparsons/Projects/firstaidhelper/Helper/obj/",
+        "outputPath": "/Users/ashleighparsons/firstaidhelper/Helper/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

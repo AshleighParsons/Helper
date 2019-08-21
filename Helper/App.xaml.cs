@@ -3,6 +3,7 @@ using DLToolkit.Forms.Controls;
 using Helper.Views;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using Xamarin.Essentials;
 
 namespace Helper
 {

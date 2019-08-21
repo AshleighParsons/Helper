@@ -635,11 +635,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/ashleighparsons/Projects/firstaidhelper/Helper/Helper.csproj",
+      "projectUniqueName": "/Users/ashleighparsons/firstaidhelper/Helper/Helper.csproj",
       "projectName": "Helper",
-      "projectPath": "/Users/ashleighparsons/Projects/firstaidhelper/Helper/Helper.csproj",
+      "projectPath": "/Users/ashleighparsons/firstaidhelper/Helper/Helper.csproj",
       "packagesPath": "/Users/ashleighparsons/.nuget/packages/",
-      "outputPath": "/Users/ashleighparsons/Projects/firstaidhelper/Helper/obj/",
+      "outputPath": "/Users/ashleighparsons/firstaidhelper/Helper/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

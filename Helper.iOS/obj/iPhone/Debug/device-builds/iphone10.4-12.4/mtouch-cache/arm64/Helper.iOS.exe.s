@@ -121,7 +121,7 @@ jit_code_start:
 	.align 4
 	.no_dead_strip Helper_iOS_Application_Main_string__
 Helper_iOS_Application_Main_string__:
-.file 1 "/Users/ashleighparsons/Projects/firstaidhelper/Helper.iOS/Main.cs"
+.file 1 "/Users/ashleighparsons/firstaidhelper/Helper.iOS/Main.cs"
 .loc 1 14 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
@@ -219,7 +219,7 @@ Lme_1:
 	.align 4
 	.no_dead_strip Helper_iOS_AppDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary
 Helper_iOS_AppDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary:
-.file 2 "/Users/ashleighparsons/Projects/firstaidhelper/Helper.iOS/AppDelegate.cs"
+.file 2 "/Users/ashleighparsons/firstaidhelper/Helper.iOS/AppDelegate.cs"
 .loc 2 24 0 prologue_end
 .word 0xa9b97bfd
 .word 0x910003fd
@@ -555,7 +555,7 @@ runtime_version:
 .section __TEXT, __const
 	.align 2
 assembly_guid:
-	.asciz "F48431B7-31D7-4E66-BC35-509AC9299D71"
+	.asciz "01114554-6C0F-440A-A970-A02D0306AA13"
 .section __TEXT, __const
 	.align 2
 assembly_name:
@@ -649,7 +649,7 @@ _mono_aot_file_info:
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0
-	.byte 115,173,166,1,228,188,117,43,241,222,37,4,152,247,242,219
+	.byte 160,109,38,67,182,191,68,148,86,213,56,214,187,27,74,134
 	.globl _mono_aot_module_Helper_iOS_info
 	.align 3
 _mono_aot_module_Helper_iOS_info:

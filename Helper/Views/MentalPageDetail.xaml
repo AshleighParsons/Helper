@@ -14,24 +14,29 @@
                 TextColor="White" 
                 FontSize="Large"
                 HeightRequest="90"
+                Margin="0, 4, 0, 0"
                 BackgroundColor="#F7444E"
                 Font="Bold,25" />
-
-            <!--<Image x:Name="MyImageShow" />-->
 
             <Label x:Name="MyDescriptionShow"
                     Margin="15,15"
                     FontSize="Large"
                     TextColor="#002C3E"
-                    FontFamily="Roboto-Light"/>
+                    FontFamily="Roboto-Light"
+                   HorizontalTextAlignment="Center" />
 
             <Grid Margin="20">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="*" />
+                    <RowDefinition Height="1" />
                     <RowDefinition Height="*" />
+                    <RowDefinition Height="1" />
                     <RowDefinition Height="*" />
+                    <RowDefinition Height="1" />
                     <RowDefinition Height="*" />
+                    <RowDefinition Height="1" />
                     <RowDefinition Height="*" />
+                    <RowDefinition Height="1" />
                     <RowDefinition Height="*" />
                 </Grid.RowDefinitions>
 
@@ -49,7 +54,7 @@
                    Grid.Column="0"/>
 
                 <Label x:Name="MyStep1Show"
-                        Margin="35,5"
+                        Margin="15,5"
                         FontSize="Medium"
                         TextColor="#002C3E"
                         FontFamily="Roboto-Light"
@@ -57,24 +62,9 @@
                         Grid.Column="1"
                         VerticalTextAlignment="Center"/>
 
+                <BoxView Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" BackgroundColor="#2a8e9d" HeightRequest="1" VerticalOptions="End" HorizontalOptions="FillAndExpand"/>
+
                 <Label Text="two"
-                   TextColor="#F7444E"
-                   VerticalTextAlignment="Center"
-                   HorizontalTextAlignment="Center"
-                   Grid.Row="1"
-                   Rotation="-90"
-                   Grid.Column="0"/>
-
-                <Label x:Name="MyStep2Show"
-                       Margin="35,15"
-                       FontSize="Medium"
-                       TextColor="#002C3E"
-                       FontFamily="Roboto-Light"
-                       Grid.Row="1"
-                       Grid.Column="1"
-                       VerticalTextAlignment="Center"/>
-
-                <Label Text="three"
                    TextColor="#F7444E"
                    VerticalTextAlignment="Center"
                    HorizontalTextAlignment="Center"
@@ -82,8 +72,8 @@
                    Rotation="-90"
                    Grid.Column="0"/>
 
-                <Label x:Name="MyStep3Show"
-                       Margin="35,15"
+                <Label x:Name="MyStep2Show"
+                       Margin="15,15"
                        FontSize="Medium"
                        TextColor="#002C3E"
                        FontFamily="Roboto-Light"
@@ -91,24 +81,9 @@
                        Grid.Column="1"
                        VerticalTextAlignment="Center"/>
 
-                <Label Text="four"
-                   TextColor="#F7444E"
-                   VerticalTextAlignment="Center"
-                   HorizontalTextAlignment="Center"
-                   Grid.Row="3"
-                   Rotation="-90"
-                   Grid.Column="0"/>
+                <BoxView Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2" BackgroundColor="#2a8e9d" HeightRequest="1" VerticalOptions="End" HorizontalOptions="FillAndExpand"/>
 
-                <Label x:Name="MyStep4Show"
-                        Margin="35,15"
-                        FontSize="Medium"
-                        TextColor="#002C3E"
-                        FontFamily="Roboto-Light"
-                        Grid.Row="3"
-                        Grid.Column="1"
-                        VerticalTextAlignment="Center"/>
-
-                <Label Text="five"
+                <Label Text="three"
                    TextColor="#F7444E"
                    VerticalTextAlignment="Center"
                    HorizontalTextAlignment="Center"
@@ -116,29 +91,69 @@
                    Rotation="-90"
                    Grid.Column="0"/>
 
-                <Label x:Name="MyStep5Show"
-                        Margin="35,15"
+                <Label x:Name="MyStep3Show"
+                       Margin="15,15"
+                       FontSize="Medium"
+                       TextColor="#002C3E"
+                       FontFamily="Roboto-Light"
+                       Grid.Row="4"
+                       Grid.Column="1"
+                       VerticalTextAlignment="Center"/>
+
+                <BoxView Grid.Row="5" Grid.Column="0" Grid.ColumnSpan="2" BackgroundColor="#2a8e9d" HeightRequest="1" VerticalOptions="End" HorizontalOptions="FillAndExpand"/>
+
+                <Label Text="four"
+                   TextColor="#F7444E"
+                   VerticalTextAlignment="Center"
+                   HorizontalTextAlignment="Center"
+                   Grid.Row="6"
+                   Rotation="-90"
+                   Grid.Column="0"/>
+
+                <Label x:Name="MyStep4Show"
+                        Margin="15,15"
                         FontSize="Medium"
                         TextColor="#002C3E"
                         FontFamily="Roboto-Light"
-                        Grid.Row="4"
+                        Grid.Row="6"
                         Grid.Column="1"
                         VerticalTextAlignment="Center"/>
+
+                <BoxView Grid.Row="7" Grid.Column="0" Grid.ColumnSpan="2" BackgroundColor="#2a8e9d" HeightRequest="1" VerticalOptions="End" HorizontalOptions="FillAndExpand"/>
+
+                <Label Text="five"
+                   TextColor="#F7444E"
+                   VerticalTextAlignment="Center"
+                   HorizontalTextAlignment="Center"
+                   Grid.Row="8"
+                   Rotation="-90"
+                   Grid.Column="0"/>
+
+                <Label x:Name="MyStep5Show"
+                        Margin="15,15"
+                        FontSize="Medium"
+                        TextColor="#002C3E"
+                        FontFamily="Roboto-Light"
+                        Grid.Row="8"
+                        Grid.Column="1"
+                        VerticalTextAlignment="Center"/>
+
+                <BoxView Grid.Row="9" Grid.Column="0" Grid.ColumnSpan="2" BackgroundColor="#2a8e9d" HeightRequest="1" VerticalOptions="End" HorizontalOptions="FillAndExpand"/>
 
                 <Label Text="six"
                    TextColor="#F7444E"
                    VerticalTextAlignment="Center"
                    HorizontalTextAlignment="Center"
-                   Grid.Row="5"
+                   Grid.Row="10"
                    Rotation="-90"
                    Grid.Column="0"/>
 
                 <Label x:Name="MyStep6Show"
-                        Margin="35,15"
+                        Margin="15,15"
                         FontSize="Medium"
                         TextColor="#002C3E"
                         FontFamily="Roboto-Light"
-                        Grid.Row="5"
+                        Grid.Row="10"
                         Grid.Column="1"
                         VerticalTextAlignment="Center"/>
  

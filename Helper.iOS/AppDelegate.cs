@@ -1,9 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-
+using System.Threading.Tasks;
 using Foundation;
 using UIKit;
+using Xamarin.Forms;
 
 namespace Helper.iOS
 {
@@ -22,9 +23,18 @@ namespace Helper.iOS
         //
         public override bool FinishedLaunching(UIApplication uiApplication, NSDictionary launchOptions)
         {
+            // Allow shake detection
+            UIApplication.SharedApplication.ApplicationSupportsShakeToEdit = true;
+
             global::Xamarin.Forms.Forms.Init();
 
             Xamarin.FormsMaps.Init();
+
+            //var notificationSettings = UIUserNotificationSettings.GetSettingsForTypes(
+            //    UIUserNotificationType.Alert | UIUserNotificationType.Badge | UIUserNotificationType.Sound, null
+            //);
+
+            //uiApplication.RegisterUserNotificationSettings(notificationSettings);
 
             UITabBar.Appearance.TintColor = UIColor.Red;
 
