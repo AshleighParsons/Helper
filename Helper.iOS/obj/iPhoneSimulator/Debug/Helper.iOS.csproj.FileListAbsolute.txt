@@ -204,3 +204,4 @@
 /Users/ashleighparsons/firstaidhelper/Helper.iOS/obj/iPhoneSimulator/Debug/Helper.iOS.csproj.CopyComplete
 /Users/ashleighparsons/firstaidhelper/Helper.iOS/obj/iPhoneSimulator/Debug/Helper.iOS.exe
 /Users/ashleighparsons/firstaidhelper/Helper.iOS/obj/iPhoneSimulator/Debug/Helper.iOS.pdb
+/Users/ashleighparsons/firstaidhelper/Helper.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-12.2/optimized/icon2.png

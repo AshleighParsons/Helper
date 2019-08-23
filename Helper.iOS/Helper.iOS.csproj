@@ -86,15 +86,15 @@
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon20.png">
       <Visible>false</Visible>
     </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Screenshot 2019-08-20 at 22.05.54-5.png" />
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Screenshot 2019-08-20 at 22.05.54-1.png" />
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Screenshot 2019-08-20 at 22.05.54-2.png" />
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Screenshot 2019-08-20 at 22.05.54-3.png" />
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Screenshot 2019-08-20 at 22.05.54-4.png" />
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Screenshot 2019-08-20 at 22.05.54.png" />
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Screenshot 2019-08-20 at 22.05.54-6.png" />
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Screenshot 2019-08-20 at 22.05.54-7.png" />
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Screenshot 2019-08-20 at 22.05.54-8.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Screenshot 2019-08-23 at 16.33.07.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Screenshot 2019-08-23 at 16.33.07-1.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Screenshot 2019-08-23 at 16.33.07-2.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Screenshot 2019-08-23 at 16.33.07-3.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Screenshot 2019-08-23 at 16.33.07-4.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Screenshot 2019-08-23 at 16.33.07-5.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Screenshot 2019-08-23 at 16.33.07-6.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Screenshot 2019-08-23 at 16.33.07-7.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Screenshot 2019-08-23 at 16.33.07-8.png" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -166,5 +166,6 @@
     <BundleResource Include="Resources\Roboto-Light.ttf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </BundleResource>
+    <BundleResource Include="Resources\icon2.png" />
   </ItemGroup>
 </Project>
