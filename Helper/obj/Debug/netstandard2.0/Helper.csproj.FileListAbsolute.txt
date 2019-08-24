@@ -31,7 +31,6 @@
 /Users/ashleighparsons/firstaidhelper/Helper/bin/Debug/netstandard2.0/Helper.pdb
 /Users/ashleighparsons/firstaidhelper/Helper/bin/Debug/netstandard2.0/Xamarin.iOS.dll
 /Users/ashleighparsons/firstaidhelper/Helper/bin/Debug/netstandard2.0/Xamarin.iOS.pdb
-/Users/ashleighparsons/firstaidhelper/Helper/obj/Debug/netstandard2.0/Helper.csprojAssemblyReference.cache
 /Users/ashleighparsons/firstaidhelper/Helper/obj/Debug/netstandard2.0/App.xaml.g.cs
 /Users/ashleighparsons/firstaidhelper/Helper/obj/Debug/netstandard2.0/Views/AddContactPage.xaml.g.cs
 /Users/ashleighparsons/firstaidhelper/Helper/obj/Debug/netstandard2.0/Views/BonesPage.xaml.g.cs
@@ -54,3 +53,4 @@
 /Users/ashleighparsons/firstaidhelper/Helper/obj/Debug/netstandard2.0/Helper.csproj.CopyComplete
 /Users/ashleighparsons/firstaidhelper/Helper/obj/Debug/netstandard2.0/Helper.dll
 /Users/ashleighparsons/firstaidhelper/Helper/obj/Debug/netstandard2.0/Helper.pdb
+/Users/ashleighparsons/firstaidhelper/Helper/obj/Debug/netstandard2.0/Helper.csprojAssemblyReference.cache

@@ -5,6 +5,8 @@ using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using Xamarin.Essentials;
 
+using Plugin.LocalNotifications;
+
 namespace Helper
 {
     public partial class App : Application
@@ -23,7 +25,7 @@ namespace Helper
 
         protected override void OnStart()
         {
-            // Handle when your app starts
+            CrossLocalNotifications.Current.Show("Stay Safe 🏥!", "Don't forget to add Helper to your Homescreen in case of an emergency. 🚑");
         }
 
         protected override void OnSleep()

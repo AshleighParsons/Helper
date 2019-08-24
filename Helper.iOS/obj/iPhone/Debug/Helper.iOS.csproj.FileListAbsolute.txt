@@ -205,3 +205,5 @@
 /Users/ashleighparsons/firstaidhelper/Helper.iOS/obj/iPhone/Debug/Helper.iOS.exe
 /Users/ashleighparsons/firstaidhelper/Helper.iOS/obj/iPhone/Debug/Helper.iOS.pdb
 /Users/ashleighparsons/firstaidhelper/Helper.iOS/obj/iPhone/Debug/device-builds/iphone10.4-12.4/optimized/icon2.png
+/Users/ashleighparsons/firstaidhelper/Helper.iOS/bin/iPhone/Debug/Plugin.LocalNotifications.Abstractions.dll
+/Users/ashleighparsons/firstaidhelper/Helper.iOS/bin/iPhone/Debug/Plugin.LocalNotifications.dll

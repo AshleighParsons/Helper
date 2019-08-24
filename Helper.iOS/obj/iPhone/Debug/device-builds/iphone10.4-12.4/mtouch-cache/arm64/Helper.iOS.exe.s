@@ -220,20 +220,23 @@ Lme_1:
 	.no_dead_strip Helper_iOS_AppDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary
 Helper_iOS_AppDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary:
 .file 2 "/Users/ashleighparsons/firstaidhelper/Helper.iOS/AppDelegate.cs"
-.loc 2 25 0 prologue_end
-.word 0xa9b87bfd
+.loc 2 26 0 prologue_end
+.word 0xa9b47bfd
 .word 0x910003fd
-.word 0xa90163b7
-.word 0xaa0003f8
-.word 0xf90013a1
-.word 0xf90017a2
+.word 0xa90153b3
+.word 0xa9025bb5
+.word 0xa90363b7
+.word 0xa9046bb9
+.word 0xf9002ba0
+.word 0xf9002fa1
+.word 0xf90033a2
 
 adrp x16, mono_aot_Helper_iOS_got@PAGE+0
 add x16, x16, mono_aot_Helper_iOS_got@PAGEOFF
 ldr x16, [x16, #248]
-.word 0xf9001bb0
+.word 0xf90037b0
 .word 0xf9400a11
-.word 0xf9001fb1
+.word 0xf9003bb1
 
 adrp x16, mono_aot_Helper_iOS_got@PAGE+0
 add x16, x16, mono_aot_Helper_iOS_got@PAGEOFF
@@ -242,147 +245,427 @@ ldr x0, [x16, #56]
 .word 0xb4000051
 bl _p_1
 .word 0xd2800017
-.word 0xf9401bb1
-.word 0xf9405a31
+.word 0xd2800016
+.word 0xd2800015
+.word 0xd2800014
+.word 0xf94037b1
+.word 0xf9407231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9401fb1
+.word 0xf9403bb1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9401bb1
-.word 0xf9407a31
+.word 0xf94037b1
+.word 0xf9409231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 2 27 0
-.word 0xf9401bb1
-.word 0xf9408a31
-.word 0xb4000051
-.word 0xd63f0220
-bl _p_3
-.word 0xf9003ba0
-.word 0xf9401bb1
+.loc 2 28 0
+.word 0xf94037b1
 .word 0xf940a231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9403ba2
+bl _p_3
+.word 0xf90053a0
+.word 0xf94037b1
+.word 0xf940ba31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94053a2
 .word 0xd2800020
 .word 0xaa0203e0
 .word 0xd2800021
 .word 0xf9400042
-.word 0xf9413450
+.word 0xf9413850
 .word 0xd63f0200
-.word 0xf9401bb1
-.word 0xf940ce31
+.word 0xf94037b1
+.word 0xf940e631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 2 29 0
-.word 0xf9401bb1
-.word 0xf940de31
+.loc 2 30 0
+.word 0xf94037b1
+.word 0xf940f631
 .word 0xb4000051
 .word 0xd63f0220
 bl _p_4
-.word 0xf9401bb1
-.word 0xf940f231
+.word 0xf94037b1
+.word 0xf9410a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 2 31 0
-.word 0xf9401bb1
-.word 0xf9410231
+.loc 2 32 0
+.word 0xf94037b1
+.word 0xf9411a31
 .word 0xb4000051
 .word 0xd63f0220
 bl _p_5
-.word 0xf9401bb1
-.word 0xf9411631
+.word 0xf94037b1
+.word 0xf9412e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 2 39 0
-.word 0xf9401bb1
-.word 0xf9412631
-.word 0xb4000051
-.word 0xd63f0220
-bl _p_6
-.word 0xf90037a0
-.word 0xf9401bb1
+.loc 2 40 0
+.word 0xf94037b1
 .word 0xf9413e31
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_7
-.word 0xf90033a0
-.word 0xf9401bb1
+bl _p_6
+.word 0xf9004fa0
+.word 0xf94037b1
 .word 0xf9415631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf94033a1
-.word 0xf94037a2
-.word 0xaa0203e0
-.word 0xf9400042
-.word 0xf940ec50
-.word 0xd63f0200
-.word 0xf9401bb1
-.word 0xf9417e31
-.word 0xb4000051
-.word 0xd63f0220
-.loc 2 41 0
-.word 0xf9401bb1
+.word 0xf9404fa3
+.word 0xd2800140
+.word 0xd2800000
+.word 0xaa0303e0
+.word 0xd2800141
+.word 0xd2800002
+.word 0x3940007e
+bl _p_7
+.word 0x53001c00
+.word 0xf9004ba0
+.word 0xf94037b1
 .word 0xf9418e31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xaa1803e0
+.word 0xf9404ba0
+.word 0x53001c00
+.word 0xaa0003f7
+.word 0xaa1703e0
+.word 0x340010c0
+.loc 2 41 0
+.word 0xf94037b1
+.word 0xf941b231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 2 43 0
+.word 0xf94037b1
+.word 0xf941c231
+.word 0xb4000051
+.word 0xd63f0220
+bl _p_8
+.word 0xf9004ba0
+.word 0xf94037b1
+.word 0xf941da31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9404ba1
+.word 0xd28000e0
 
 adrp x16, mono_aot_Helper_iOS_got@PAGE+0
 add x16, x16, mono_aot_Helper_iOS_got@PAGEOFF
 ldr x0, [x16, #256]
-.word 0xd2802d01
-.word 0xd2802d01
-bl _p_8
-.word 0xf9002fa0
+.word 0xf9400000
+.word 0xaa0003f3
+.word 0xaa1303e0
+.word 0xaa1303e2
+.word 0xaa0103fa
+.word 0xd28000f9
+.word 0xaa0003f8
+.word 0xb5000773
+.word 0xaa1a03e0
+.word 0xaa1903e0
+.word 0xaa1803e0
+
+adrp x16, mono_aot_Helper_iOS_got@PAGE+0
+add x16, x16, mono_aot_Helper_iOS_got@PAGEOFF
+ldr x0, [x16, #264]
+.word 0xf9400000
+.word 0xf9004ba0
+.word 0xeb1f001f
+.word 0x10000011
+.word 0x540021c0
+
+adrp x16, mono_aot_Helper_iOS_got@PAGE+0
+add x16, x16, mono_aot_Helper_iOS_got@PAGEOFF
+ldr x0, [x16, #272]
+.word 0xd2801001
+.word 0xd2801001
 bl _p_9
-.word 0xf9401bb1
-.word 0xf941c231
+.word 0xf9404ba1
+.word 0xeb1f003f
+.word 0x10000011
+.word 0x54002020
+.word 0xf9001001
+.word 0x91008002
+.word 0xd349fc42
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0042
+
+adrp x16, mono_aot_Helper_iOS_got@PAGE+0
+add x16, x16, mono_aot_Helper_iOS_got@PAGEOFF
+ldr x3, [x16, #16]
+.word 0x8b030042
+.word 0xd280003e
+.word 0x3900005e
+
+adrp x16, mono_aot_Helper_iOS_got@PAGE+0
+add x16, x16, mono_aot_Helper_iOS_got@PAGEOFF
+ldr x1, [x16, #280]
+.word 0xf9001401
+
+adrp x16, mono_aot_Helper_iOS_got@PAGE+0
+add x16, x16, mono_aot_Helper_iOS_got@PAGEOFF
+ldr x1, [x16, #288]
+.word 0xf9002001
+
+adrp x16, mono_aot_Helper_iOS_got@PAGE+0
+add x16, x16, mono_aot_Helper_iOS_got@PAGEOFF
+ldr x1, [x16, #296]
+.word 0xf9401422
+.word 0xf9000c02
+.word 0xf9401021
+.word 0xf9000801
+.word 0xd2800001
+.word 0x3901c01f
+.word 0xf90043a0
+.word 0xf94043a0
+.word 0xf94043a2
+
+adrp x16, mono_aot_Helper_iOS_got@PAGE+0
+add x16, x16, mono_aot_Helper_iOS_got@PAGEOFF
+ldr x1, [x16, #256]
+.word 0xf9000022
+.word 0xaa0003f8
+.word 0xaa1a03e0
+.word 0xaa1903e0
+.word 0xaa1803e0
+.word 0xaa1a03e0
+.word 0xaa1903e1
+.word 0xaa1803e2
+.word 0xf9400343
+.word 0xf940f070
+.word 0xd63f0200
+.word 0xf94037b1
+.word 0xf9432a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9402fa1
-.word 0xaa1803e0
+.loc 2 48 0
+.word 0xf94037b1
+.word 0xf9433a31
+.word 0xb4000051
+.word 0xd63f0220
+bl _p_8
+.word 0xf9004fa0
+.word 0xf94037b1
+.word 0xf9435231
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_Helper_iOS_got@PAGE+0
+add x16, x16, mono_aot_Helper_iOS_got@PAGEOFF
+ldr x0, [x16, #304]
 bl _p_10
-.word 0xf9401bb1
-.word 0xf941de31
-.word 0xb4000051
-.word 0xd63f0220
-.loc 2 43 0
-.word 0xf9401bb1
-.word 0xf941ee31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1803e0
-.word 0xf94013a1
-.word 0xf94017a2
-.word 0xaa1803e0
+.word 0xf9004ba0
 bl _p_11
+.word 0xf94037b1
+.word 0xf9437a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9404ba1
+.word 0xf9404fa2
+.word 0xaa0203e0
+.word 0xf9400042
+.word 0xf940ec50
+.word 0xd63f0200
+.word 0xf94037b1
+.word 0xf943a231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 2 49 0
+.word 0xf94037b1
+.word 0xf943b231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x14000053
+.loc 2 50 0
+.word 0xf94037b1
+.word 0xf943c631
+.word 0xb4000051
+.word 0xd63f0220
+bl _p_6
+.word 0xf9004fa0
+.word 0xf94037b1
+.word 0xf943de31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9404fa3
+.word 0xd2800100
+.word 0xd2800000
+.word 0xaa0303e0
+.word 0xd2800101
+.word 0xd2800002
+.word 0x3940007e
+bl _p_7
 .word 0x53001c00
-.word 0xf9002ba0
-.word 0xf9401bb1
-.word 0xf9421a31
+.word 0xf9004ba0
+.word 0xf94037b1
+.word 0xf9441631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9404ba0
+.word 0x53001c00
+.word 0xaa0003f6
+.word 0xaa1603e0
+.word 0x340006c0
+.loc 2 51 0
+.word 0xf94037b1
+.word 0xf9443a31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 2 53 0
+.word 0xf94037b1
+.word 0xf9444a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd28000e0
+
+adrp x16, mono_aot_Helper_iOS_got@PAGE+0
+add x16, x16, mono_aot_Helper_iOS_got@PAGEOFF
+ldr x0, [x16, #312]
+bl _p_10
+.word 0xf90053a0
+bl _p_12
+.word 0xf94037b1
+.word 0xf9447631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94053a1
+.word 0xd28000e0
+bl _p_13
+.word 0xf9004fa0
+.word 0xf94037b1
+.word 0xf9449631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9404fa0
+.word 0xaa0003f5
+.loc 2 57 0
+.word 0xf94037b1
+.word 0xf944ae31
+.word 0xb4000051
+.word 0xd63f0220
+bl _p_3
+.word 0xf9004ba0
+.word 0xf94037b1
+.word 0xf944c631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9404ba2
+.word 0xaa1503e1
+.word 0xaa0203e0
+.word 0xf9400042
+.word 0xf9414450
+.word 0xd63f0200
+.word 0xf94037b1
+.word 0xf944ee31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 2 58 0
+.word 0xf94037b1
+.word 0xf944fe31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 2 60 0
+.word 0xf9403bb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94037b1
+.word 0xf9451e31
+.word 0xb4000051
+.word 0xd63f0220
+bl _p_14
+.word 0xf9005ba0
+.word 0xf94037b1
+.word 0xf9453631
+.word 0xb4000051
+.word 0xd63f0220
+bl _p_15
+.word 0xf90057a0
+.word 0xf94037b1
+.word 0xf9454e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94057a1
+.word 0xf9405ba2
+.word 0xaa0203e0
+.word 0xf9400042
+.word 0xf940ec50
+.word 0xd63f0200
+.word 0xf94037b1
+.word 0xf9457631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 2 62 0
+.word 0xf94037b1
+.word 0xf9458631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba0
+.word 0xf9004fa0
+
+adrp x16, mono_aot_Helper_iOS_got@PAGE+0
+add x16, x16, mono_aot_Helper_iOS_got@PAGEOFF
+ldr x0, [x16, #320]
+.word 0xd2802d01
+.word 0xd2802d01
+bl _p_9
+.word 0xf90053a0
+bl _p_16
+.word 0xf94037b1
+.word 0xf945be31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9404fa0
+.word 0xf94053a1
+bl _p_17
+.word 0xf94037b1
+.word 0xf945da31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 2 64 0
+.word 0xf94037b1
+.word 0xf945ea31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402ba0
+.word 0xf9402fa1
+.word 0xf94033a2
+bl _p_18
 .word 0x53001c00
-.word 0xaa0003f7
-.loc 2 44 0
-.word 0xf9401bb1
-.word 0xf9423631
+.word 0xf9004ba0
+.word 0xf94037b1
+.word 0xf9461231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xaa1703e0
-.word 0xaa1703e0
-.word 0xf9401bb1
-.word 0xf9424e31
+.word 0xf9404ba0
+.word 0x53001c00
+.word 0xaa0003f4
+.loc 2 65 0
+.word 0xf94037b1
+.word 0xf9462e31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xa94163b7
+.word 0xaa1403e0
+.word 0xaa1403e0
+.word 0xf94037b1
+.word 0xf9464631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xa94153b3
+.word 0xa9425bb5
+.word 0xa94363b7
+.word 0xa9446bb9
 .word 0x910003bf
-.word 0xa8c87bfd
+.word 0xa8cc7bfd
 .word 0xd65f03c0
+.word 0xd2801bc0
+.word 0xaa1103e1
+bl _p_19
+.word 0xd2800f60
+.word 0xaa1103e1
+bl _p_19
 
 Lme_2:
 .text
@@ -395,7 +678,7 @@ Helper_iOS_AppDelegate__ctor:
 
 adrp x16, mono_aot_Helper_iOS_got@PAGE+0
 add x16, x16, mono_aot_Helper_iOS_got@PAGEOFF
-ldr x16, [x16, #264]
+ldr x16, [x16, #328]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -411,7 +694,7 @@ bl _p_1
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400ba0
-bl _p_12
+bl _p_20
 .word 0xf9400fb1
 .word 0xf9406231
 .word 0xb4000051
@@ -426,6 +709,550 @@ bl _p_12
 
 Lme_3:
 .text
+	.align 4
+	.no_dead_strip Helper_iOS_UserNotificationCenterDelegate_WillPresentNotification_UserNotifications_UNUserNotificationCenter_UserNotifications_UNNotification_System_Action_1_UserNotifications_UNNotificationPresentationOptions
+Helper_iOS_UserNotificationCenterDelegate_WillPresentNotification_UserNotifications_UNUserNotificationCenter_UserNotifications_UNNotification_System_Action_1_UserNotifications_UNNotificationPresentationOptions:
+.file 3 "/Users/ashleighparsons/firstaidhelper/Helper.iOS/UNUserNotificationCenterDelegate.cs"
+.loc 3 9 0 prologue_end
+.word 0xa9ba7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+.word 0xf9000fa1
+.word 0xf90013a2
+.word 0xf90017a3
+
+adrp x16, mono_aot_Helper_iOS_got@PAGE+0
+add x16, x16, mono_aot_Helper_iOS_got@PAGEOFF
+ldr x16, [x16, #336]
+.word 0xf9001bb0
+.word 0xf9400a11
+.word 0xf9001fb1
+
+adrp x16, mono_aot_Helper_iOS_got@PAGE+0
+add x16, x16, mono_aot_Helper_iOS_got@PAGEOFF
+ldr x0, [x16, #56]
+.word 0xf9400011
+.word 0xb4000051
+bl _p_1
+.word 0xf9401bb1
+.word 0xf9405631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401fb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401bb1
+.word 0xf9407631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 3 12 0
+.word 0xf9401bb1
+.word 0xf9408631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017a2
+.word 0xd2800080
+.word 0xaa0203e0
+.word 0xd2800081
+.word 0xf9002ba2
+.word 0xf9400c50
+.word 0xd63f0200
+.word 0xf9402ba0
+.word 0xf9401bb1
+.word 0xf940b631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 3 13 0
+.word 0xf9401bb1
+.word 0xf940c631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401bb1
+.word 0xf940d631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910003bf
+.word 0xa8c67bfd
+.word 0xd65f03c0
+
+Lme_4:
+.text
+	.align 4
+	.no_dead_strip Helper_iOS_UserNotificationCenterDelegate__ctor
+Helper_iOS_UserNotificationCenterDelegate__ctor:
+.word 0xa9bd7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+
+adrp x16, mono_aot_Helper_iOS_got@PAGE+0
+add x16, x16, mono_aot_Helper_iOS_got@PAGEOFF
+ldr x16, [x16, #344]
+.word 0xf9000fb0
+.word 0xf9400a11
+.word 0xf90013b1
+
+adrp x16, mono_aot_Helper_iOS_got@PAGE+0
+add x16, x16, mono_aot_Helper_iOS_got@PAGEOFF
+ldr x0, [x16, #56]
+.word 0xf9400011
+.word 0xb4000051
+bl _p_1
+.word 0xf9400fb1
+.word 0xf9404a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400ba0
+bl _p_21
+.word 0xf9400fb1
+.word 0xf9406231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf9407231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910003bf
+.word 0xa8c37bfd
+.word 0xd65f03c0
+
+Lme_5:
+.text
+	.align 4
+	.no_dead_strip Helper_iOS_AppDelegate__c__cctor
+Helper_iOS_AppDelegate__c__cctor:
+.word 0xa9bc7bfd
+.word 0x910003fd
+
+adrp x16, mono_aot_Helper_iOS_got@PAGE+0
+add x16, x16, mono_aot_Helper_iOS_got@PAGEOFF
+ldr x16, [x16, #352]
+.word 0xf9000bb0
+.word 0xf9400a11
+.word 0xf9000fb1
+
+adrp x16, mono_aot_Helper_iOS_got@PAGE+0
+add x16, x16, mono_aot_Helper_iOS_got@PAGEOFF
+ldr x0, [x16, #56]
+.word 0xf9400011
+.word 0xb4000051
+bl _p_1
+.word 0xf9400bb1
+.word 0xf9404631
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_Helper_iOS_got@PAGE+0
+add x16, x16, mono_aot_Helper_iOS_got@PAGEOFF
+ldr x0, [x16, #360]
+.word 0xd2800201
+.word 0xd2800201
+bl _p_9
+.word 0xf9001ba0
+bl _p_22
+.word 0xf9400bb1
+.word 0xf9407631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401ba1
+
+adrp x16, mono_aot_Helper_iOS_got@PAGE+0
+add x16, x16, mono_aot_Helper_iOS_got@PAGEOFF
+ldr x0, [x16, #264]
+.word 0xf9000001
+.word 0xf9400bb1
+.word 0xf9409a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910003bf
+.word 0xa8c47bfd
+.word 0xd65f03c0
+
+Lme_6:
+.text
+	.align 4
+	.no_dead_strip Helper_iOS_AppDelegate__c__ctor
+Helper_iOS_AppDelegate__c__ctor:
+.word 0xa9bd7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+
+adrp x16, mono_aot_Helper_iOS_got@PAGE+0
+add x16, x16, mono_aot_Helper_iOS_got@PAGEOFF
+ldr x16, [x16, #368]
+.word 0xf9000fb0
+.word 0xf9400a11
+.word 0xf90013b1
+.word 0xf9400fb1
+.word 0xf9403231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400ba0
+.word 0xf9400fb1
+.word 0xf9404631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf9405631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910003bf
+.word 0xa8c37bfd
+.word 0xd65f03c0
+
+Lme_7:
+.text
+	.align 4
+	.no_dead_strip Helper_iOS_AppDelegate__c__FinishedLaunchingb__0_0_bool_Foundation_NSError
+Helper_iOS_AppDelegate__c__FinishedLaunchingb__0_0_bool_Foundation_NSError:
+.loc 2 45 0 prologue_end
+.word 0xa9bc7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+.word 0xf9000fa1
+.word 0xf90013a2
+
+adrp x16, mono_aot_Helper_iOS_got@PAGE+0
+add x16, x16, mono_aot_Helper_iOS_got@PAGEOFF
+ldr x16, [x16, #376]
+.word 0xf90017b0
+.word 0xf9400a11
+.word 0xf9001bb1
+.word 0xf94017b1
+.word 0xf9403a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401bb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf9405a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf9406a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf9407a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910003bf
+.word 0xa8c47bfd
+.word 0xd65f03c0
+
+Lme_8:
+.text
+	.align 4
+	.no_dead_strip wrapper_delegate_invoke_System_Action_2_bool_Foundation_NSError_invoke_void_T1_T2_bool_Foundation_NSError
+wrapper_delegate_invoke_System_Action_2_bool_Foundation_NSError_invoke_void_T1_T2_bool_Foundation_NSError:
+.word 0xa9b77bfd
+.word 0x910003fd
+.word 0xa90153b3
+.word 0xa9025bb5
+.word 0xa90363b7
+.word 0xa9046bb9
+.word 0xaa0003f8
+.word 0xaa0103f9
+.word 0xaa0203fa
+
+adrp x16, mono_aot_Helper_iOS_got@PAGE+0
+add x16, x16, mono_aot_Helper_iOS_got@PAGEOFF
+ldr x16, [x16, #384]
+.word 0xf9002bb0
+.word 0xf9400a11
+.word 0xf9002fb1
+
+adrp x16, mono_aot_Helper_iOS_got@PAGE+0
+add x16, x16, mono_aot_Helper_iOS_got@PAGEOFF
+ldr x0, [x16, #56]
+.word 0xf9400011
+.word 0xb4000051
+bl _p_1
+.word 0xd2800017
+.word 0xd2800016
+.word 0xd2800015
+.word 0xd2800014
+.word 0xd2800013
+.word 0xf9402bb1
+.word 0xf9407631
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_Helper_iOS_got@PAGE+0
+add x16, x16, mono_aot_Helper_iOS_got@PAGEOFF
+ldr x0, [x16, #48]
+.word 0xb9400000
+.word 0x34000220
+bl _p_23
+.word 0xf90037a0
+.word 0xf94037a1
+.word 0xf94037a0
+.word 0xf9003ba1
+.word 0xb4000140
+.word 0xf9403ba0
+.word 0xf9003fa0
+.word 0xf9403fa0
+.word 0xf9403fa1
+.word 0x91022021
+.word 0xd2800022
+.word 0xd280003e
+.word 0xb900003e
+bl _p_24
+.word 0xf9403ba0
+.word 0xaa1803e0
+.word 0xaa1803e0
+.word 0x9101e300
+.word 0xf9403f00
+.word 0xaa0003f5
+.word 0xaa1503e0
+.word 0xb5000440
+.word 0xaa1803e0
+.word 0xaa1803e0
+.word 0x91008300
+.word 0xf9401300
+.word 0xaa0003f3
+.word 0xaa1303e0
+.word 0xb40001e0
+.word 0xaa1303e0
+.word 0xaa1903e0
+.word 0xaa1a03e0
+.word 0xaa1803e0
+.word 0xaa1803e0
+.word 0x9100e300
+.word 0xf9401f00
+.word 0xaa1803e0
+.word 0xf9400b03
+.word 0xaa1303e0
+.word 0xaa1903e1
+.word 0xaa1a03e2
+.word 0xd63f0060
+.word 0x14000038
+.word 0xaa1903e0
+.word 0xaa1a03e0
+.word 0xaa1803e0
+.word 0xaa1803e0
+.word 0x9100e300
+.word 0xf9401f00
+.word 0xaa1803e0
+.word 0xf9400b02
+.word 0xaa1903e0
+.word 0xaa1a03e1
+.word 0xd63f0040
+.word 0x1400002c
+.word 0xaa1503e0
+.word 0xb9801aa0
+.word 0xaa0003f6
+.word 0xd2800017
+
+adrp x16, mono_aot_Helper_iOS_got@PAGE+0
+add x16, x16, mono_aot_Helper_iOS_got@PAGEOFF
+ldr x0, [x16, #56]
+.word 0xf9400011
+.word 0xb4000051
+bl _p_1
+.word 0xaa1503e0
+.word 0xaa1703e0
+.word 0x93407ee0
+.word 0xb9801aa1
+.word 0xeb00003f
+.word 0x10000011
+.word 0x540004c9
+.word 0xd37df000
+.word 0x8b0002a0
+.word 0x91008000
+.word 0xf9400000
+.word 0xaa0003f4
+.word 0xaa1403e3
+.word 0xaa1903e0
+.word 0xaa1a03e0
+.word 0xaa0303e0
+.word 0xaa1903e1
+.word 0xaa1a03e2
+.word 0xf90043a3
+.word 0xf9400c70
+.word 0xd63f0200
+.word 0xf94043a0
+.word 0xf9402bb1
+.word 0xf941fa31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1703e0
+.word 0x110006e0
+.word 0xaa0003f7
+.word 0xaa1703e0
+.word 0xaa1603e1
+.word 0x6b16001f
+.word 0x54fffb4b
+.word 0xf9402bb1
+.word 0xf9422631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xa94153b3
+.word 0xa9425bb5
+.word 0xa94363b7
+.word 0xa9446bb9
+.word 0x910003bf
+.word 0xa8c97bfd
+.word 0xd65f03c0
+.word 0xd2801880
+.word 0xaa1103e1
+bl _p_19
+
+Lme_e:
+.text
+	.align 4
+	.no_dead_strip wrapper_delegate_invoke_System_Action_1_UserNotifications_UNNotificationPresentationOptions_invoke_void_T_UserNotifications_UNNotificationPresentationOptions
+wrapper_delegate_invoke_System_Action_1_UserNotifications_UNNotificationPresentationOptions_invoke_void_T_UserNotifications_UNNotificationPresentationOptions:
+.word 0xa9b77bfd
+.word 0x910003fd
+.word 0xa90153b3
+.word 0xa9025bb5
+.word 0xa90363b7
+.word 0xa9046bb9
+.word 0xaa0003f9
+.word 0xaa0103fa
+
+adrp x16, mono_aot_Helper_iOS_got@PAGE+0
+add x16, x16, mono_aot_Helper_iOS_got@PAGEOFF
+ldr x16, [x16, #392]
+.word 0xf9002bb0
+.word 0xf9400a11
+.word 0xf9002fb1
+
+adrp x16, mono_aot_Helper_iOS_got@PAGE+0
+add x16, x16, mono_aot_Helper_iOS_got@PAGEOFF
+ldr x0, [x16, #56]
+.word 0xf9400011
+.word 0xb4000051
+bl _p_1
+.word 0xd2800018
+.word 0xd2800017
+.word 0xd2800016
+.word 0xd2800015
+.word 0xd2800014
+.word 0xf9402bb1
+.word 0xf9407231
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_Helper_iOS_got@PAGE+0
+add x16, x16, mono_aot_Helper_iOS_got@PAGEOFF
+ldr x0, [x16, #48]
+.word 0xb9400000
+.word 0x34000220
+bl _p_23
+.word 0xaa0003f3
+.word 0xaa1303e0
+.word 0xaa1303e1
+.word 0xf90037a0
+.word 0xb4000153
+.word 0xf94037a0
+.word 0xf9003ba0
+.word 0xf9403ba0
+.word 0xf9403ba1
+.word 0x91022021
+.word 0xd2800022
+.word 0xd280003e
+.word 0xb900003e
+bl _p_24
+.word 0xf94037a0
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x9101e320
+.word 0xf9403f20
+.word 0xaa0003f6
+.word 0xaa1603e0
+.word 0xb50003c0
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x91008320
+.word 0xf9401320
+.word 0xaa0003f4
+.word 0xaa1403e0
+.word 0xb40001a0
+.word 0xaa1403e0
+.word 0xaa1a03e0
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x9100e320
+.word 0xf9401f20
+.word 0xaa1903e0
+.word 0xf9400b22
+.word 0xaa1403e0
+.word 0xaa1a03e1
+.word 0xd63f0040
+.word 0x14000034
+.word 0xaa1a03e0
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x9100e320
+.word 0xf9401f20
+.word 0xaa1903e0
+.word 0xf9400b21
+.word 0xaa1a03e0
+.word 0xd63f0020
+.word 0x1400002a
+.word 0xaa1603e0
+.word 0xb9801ac0
+.word 0xaa0003f7
+.word 0xd2800018
+
+adrp x16, mono_aot_Helper_iOS_got@PAGE+0
+add x16, x16, mono_aot_Helper_iOS_got@PAGEOFF
+ldr x0, [x16, #56]
+.word 0xf9400011
+.word 0xb4000051
+bl _p_1
+.word 0xaa1603e0
+.word 0xaa1803e0
+.word 0x93407f00
+.word 0xb9801ac1
+.word 0xeb00003f
+.word 0x10000011
+.word 0x54000489
+.word 0xd37df000
+.word 0x8b0002c0
+.word 0x91008000
+.word 0xf9400000
+.word 0xaa0003f5
+.word 0xaa1503e2
+.word 0xaa1a03e0
+.word 0xaa0203e0
+.word 0xaa1a03e1
+.word 0xf90043a2
+.word 0xf9400c50
+.word 0xd63f0200
+.word 0xf94043a0
+.word 0xf9402bb1
+.word 0xf941de31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1803e0
+.word 0x11000700
+.word 0xaa0003f8
+.word 0xaa1803e0
+.word 0xaa1703e1
+.word 0x6b17001f
+.word 0x54fffb8b
+.word 0xf9402bb1
+.word 0xf9420a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xa94153b3
+.word 0xa9425bb5
+.word 0xa94363b7
+.word 0xa9446bb9
+.word 0x910003bf
+.word 0xa8c97bfd
+.word 0xd65f03c0
+.word 0xd2801880
+.word 0xaa1103e1
+bl _p_19
+
+Lme_13:
+.text
 	.align 3
 jit_code_end:
 
@@ -438,7 +1265,22 @@ bl Helper_iOS_Application_Main_string__
 bl Helper_iOS_Application__ctor
 bl Helper_iOS_AppDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary
 bl Helper_iOS_AppDelegate__ctor
+bl Helper_iOS_UserNotificationCenterDelegate_WillPresentNotification_UserNotifications_UNUserNotificationCenter_UserNotifications_UNNotification_System_Action_1_UserNotifications_UNNotificationPresentationOptions
+bl Helper_iOS_UserNotificationCenterDelegate__ctor
+bl Helper_iOS_AppDelegate__c__cctor
+bl Helper_iOS_AppDelegate__c__ctor
+bl Helper_iOS_AppDelegate__c__FinishedLaunchingb__0_0_bool_Foundation_NSError
 bl method_addresses
+bl method_addresses
+bl method_addresses
+bl method_addresses
+bl method_addresses
+bl wrapper_delegate_invoke_System_Action_2_bool_Foundation_NSError_invoke_void_T1_T2_bool_Foundation_NSError
+bl method_addresses
+bl method_addresses
+bl method_addresses
+bl method_addresses
+bl wrapper_delegate_invoke_System_Action_1_UserNotifications_UNNotificationPresentationOptions_invoke_void_T_UserNotifications_UNNotificationPresentationOptions
 method_addresses_end:
 
 .section __TEXT, __const
@@ -456,8 +1298,10 @@ unbox_trampoline_addresses:
 	.align 3
 unwind_info:
 
-	.byte 13,12,31,0,68,14,48,157,6,158,5,68,13,29,19,12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,151,14
-	.byte 152,13
+	.byte 13,12,31,0,68,14,48,157,6,158,5,68,13,29,34,12,31,0,68,14,192,1,157,24,158,23,68,13,29,68,147,22
+	.byte 148,21,68,149,20,150,19,68,151,18,152,17,68,153,16,154,15,13,12,31,0,68,14,96,157,12,158,11,68,13,29,13
+	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,34,12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148
+	.byte 15,68,149,14,150,13,68,151,12,152,11,68,153,10,154,9
 
 .text
 	.align 4
@@ -468,101 +1312,197 @@ plt__jit_icall_mono_threads_state_poll:
 _p_1:
 adrp x16, mono_aot_Helper_iOS_got@PAGE+0
 add x16, x16, mono_aot_Helper_iOS_got@PAGEOFF
-ldr x16, [x16, #280]
+ldr x16, [x16, #408]
 br x16
-.word 383
+.word 490
 	.no_dead_strip plt_UIKit_UIApplication_Main_string___string_string
 plt_UIKit_UIApplication_Main_string___string_string:
 _p_2:
 adrp x16, mono_aot_Helper_iOS_got@PAGE+0
 add x16, x16, mono_aot_Helper_iOS_got@PAGEOFF
-ldr x16, [x16, #288]
+ldr x16, [x16, #416]
 br x16
-.word 409
+.word 516
 	.no_dead_strip plt_UIKit_UIApplication_get_SharedApplication
 plt_UIKit_UIApplication_get_SharedApplication:
 _p_3:
 adrp x16, mono_aot_Helper_iOS_got@PAGE+0
 add x16, x16, mono_aot_Helper_iOS_got@PAGEOFF
-ldr x16, [x16, #296]
+ldr x16, [x16, #424]
 br x16
-.word 414
+.word 521
 	.no_dead_strip plt_Xamarin_Forms_Forms_Init
 plt_Xamarin_Forms_Forms_Init:
 _p_4:
 adrp x16, mono_aot_Helper_iOS_got@PAGE+0
 add x16, x16, mono_aot_Helper_iOS_got@PAGEOFF
-ldr x16, [x16, #304]
+ldr x16, [x16, #432]
 br x16
-.word 419
+.word 526
 	.no_dead_strip plt_Xamarin_FormsMaps_Init
 plt_Xamarin_FormsMaps_Init:
 _p_5:
 adrp x16, mono_aot_Helper_iOS_got@PAGE+0
 add x16, x16, mono_aot_Helper_iOS_got@PAGEOFF
-ldr x16, [x16, #312]
+ldr x16, [x16, #440]
 br x16
-.word 424
-	.no_dead_strip plt_UIKit_UITabBar_get_Appearance
-plt_UIKit_UITabBar_get_Appearance:
+.word 531
+	.no_dead_strip plt_UIKit_UIDevice_get_CurrentDevice
+plt_UIKit_UIDevice_get_CurrentDevice:
 _p_6:
 adrp x16, mono_aot_Helper_iOS_got@PAGE+0
 add x16, x16, mono_aot_Helper_iOS_got@PAGEOFF
-ldr x16, [x16, #320]
+ldr x16, [x16, #448]
 br x16
-.word 429
-	.no_dead_strip plt_UIKit_UIColor_get_Red
-plt_UIKit_UIColor_get_Red:
+.word 536
+	.no_dead_strip plt_UIKit_UIDevice_CheckSystemVersion_int_int
+plt_UIKit_UIDevice_CheckSystemVersion_int_int:
 _p_7:
 adrp x16, mono_aot_Helper_iOS_got@PAGE+0
 add x16, x16, mono_aot_Helper_iOS_got@PAGEOFF
-ldr x16, [x16, #328]
+ldr x16, [x16, #456]
 br x16
-.word 434
-	.no_dead_strip plt_wrapper_alloc_object_AllocSmall_intptr_intptr
-plt_wrapper_alloc_object_AllocSmall_intptr_intptr:
+.word 541
+	.no_dead_strip plt_UserNotifications_UNUserNotificationCenter_get_Current
+plt_UserNotifications_UNUserNotificationCenter_get_Current:
 _p_8:
 adrp x16, mono_aot_Helper_iOS_got@PAGE+0
 add x16, x16, mono_aot_Helper_iOS_got@PAGEOFF
-ldr x16, [x16, #336]
+ldr x16, [x16, #464]
 br x16
-.word 439
-	.no_dead_strip plt_Helper_App__ctor
-plt_Helper_App__ctor:
+.word 546
+	.no_dead_strip plt_wrapper_alloc_object_AllocSmall_intptr_intptr
+plt_wrapper_alloc_object_AllocSmall_intptr_intptr:
 _p_9:
 adrp x16, mono_aot_Helper_iOS_got@PAGE+0
 add x16, x16, mono_aot_Helper_iOS_got@PAGEOFF
-ldr x16, [x16, #344]
+ldr x16, [x16, #472]
 br x16
-.word 447
-	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate_LoadApplication_Xamarin_Forms_Application
-plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate_LoadApplication_Xamarin_Forms_Application:
+.word 551
+	.no_dead_strip plt__jit_icall_ves_icall_object_new_specific
+plt__jit_icall_ves_icall_object_new_specific:
 _p_10:
 adrp x16, mono_aot_Helper_iOS_got@PAGE+0
 add x16, x16, mono_aot_Helper_iOS_got@PAGEOFF
-ldr x16, [x16, #352]
+ldr x16, [x16, #480]
 br x16
-.word 452
-	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary
-plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary:
+.word 559
+	.no_dead_strip plt_Helper_iOS_UserNotificationCenterDelegate__ctor
+plt_Helper_iOS_UserNotificationCenterDelegate__ctor:
 _p_11:
 adrp x16, mono_aot_Helper_iOS_got@PAGE+0
 add x16, x16, mono_aot_Helper_iOS_got@PAGEOFF
-ldr x16, [x16, #360]
+ldr x16, [x16, #488]
 br x16
-.word 457
-	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate__ctor
-plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate__ctor:
+.word 591
+	.no_dead_strip plt_Foundation_NSSet__ctor
+plt_Foundation_NSSet__ctor:
 _p_12:
 adrp x16, mono_aot_Helper_iOS_got@PAGE+0
 add x16, x16, mono_aot_Helper_iOS_got@PAGEOFF
-ldr x16, [x16, #368]
+ldr x16, [x16, #496]
 br x16
-.word 462
+.word 593
+	.no_dead_strip plt_UIKit_UIUserNotificationSettings_GetSettingsForTypes_UIKit_UIUserNotificationType_Foundation_NSSet
+plt_UIKit_UIUserNotificationSettings_GetSettingsForTypes_UIKit_UIUserNotificationType_Foundation_NSSet:
+_p_13:
+adrp x16, mono_aot_Helper_iOS_got@PAGE+0
+add x16, x16, mono_aot_Helper_iOS_got@PAGEOFF
+ldr x16, [x16, #504]
+br x16
+.word 598
+	.no_dead_strip plt_UIKit_UITabBar_get_Appearance
+plt_UIKit_UITabBar_get_Appearance:
+_p_14:
+adrp x16, mono_aot_Helper_iOS_got@PAGE+0
+add x16, x16, mono_aot_Helper_iOS_got@PAGEOFF
+ldr x16, [x16, #512]
+br x16
+.word 603
+	.no_dead_strip plt_UIKit_UIColor_get_Red
+plt_UIKit_UIColor_get_Red:
+_p_15:
+adrp x16, mono_aot_Helper_iOS_got@PAGE+0
+add x16, x16, mono_aot_Helper_iOS_got@PAGEOFF
+ldr x16, [x16, #520]
+br x16
+.word 608
+	.no_dead_strip plt_Helper_App__ctor
+plt_Helper_App__ctor:
+_p_16:
+adrp x16, mono_aot_Helper_iOS_got@PAGE+0
+add x16, x16, mono_aot_Helper_iOS_got@PAGEOFF
+ldr x16, [x16, #528]
+br x16
+.word 613
+	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate_LoadApplication_Xamarin_Forms_Application
+plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate_LoadApplication_Xamarin_Forms_Application:
+_p_17:
+adrp x16, mono_aot_Helper_iOS_got@PAGE+0
+add x16, x16, mono_aot_Helper_iOS_got@PAGEOFF
+ldr x16, [x16, #536]
+br x16
+.word 618
+	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary
+plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary:
+_p_18:
+adrp x16, mono_aot_Helper_iOS_got@PAGE+0
+add x16, x16, mono_aot_Helper_iOS_got@PAGEOFF
+ldr x16, [x16, #544]
+br x16
+.word 623
+	.no_dead_strip plt__jit_icall_mono_arch_throw_corlib_exception
+plt__jit_icall_mono_arch_throw_corlib_exception:
+_p_19:
+adrp x16, mono_aot_Helper_iOS_got@PAGE+0
+add x16, x16, mono_aot_Helper_iOS_got@PAGEOFF
+ldr x16, [x16, #552]
+br x16
+.word 628
+	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate__ctor
+plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate__ctor:
+_p_20:
+adrp x16, mono_aot_Helper_iOS_got@PAGE+0
+add x16, x16, mono_aot_Helper_iOS_got@PAGEOFF
+ldr x16, [x16, #560]
+br x16
+.word 663
+	.no_dead_strip plt_UserNotifications_UNUserNotificationCenterDelegate__ctor
+plt_UserNotifications_UNUserNotificationCenterDelegate__ctor:
+_p_21:
+adrp x16, mono_aot_Helper_iOS_got@PAGE+0
+add x16, x16, mono_aot_Helper_iOS_got@PAGEOFF
+ldr x16, [x16, #568]
+br x16
+.word 668
+	.no_dead_strip plt_Helper_iOS_AppDelegate__c__ctor
+plt_Helper_iOS_AppDelegate__c__ctor:
+_p_22:
+adrp x16, mono_aot_Helper_iOS_got@PAGE+0
+add x16, x16, mono_aot_Helper_iOS_got@PAGEOFF
+ldr x16, [x16, #576]
+br x16
+.word 673
+	.no_dead_strip plt__jit_icall_mono_thread_interruption_checkpoint
+plt__jit_icall_mono_thread_interruption_checkpoint:
+_p_23:
+adrp x16, mono_aot_Helper_iOS_got@PAGE+0
+add x16, x16, mono_aot_Helper_iOS_got@PAGEOFF
+ldr x16, [x16, #584]
+br x16
+.word 675
+	.no_dead_strip plt__jit_icall_mono_arch_rethrow_exception
+plt__jit_icall_mono_arch_rethrow_exception:
+_p_24:
+adrp x16, mono_aot_Helper_iOS_got@PAGE+0
+add x16, x16, mono_aot_Helper_iOS_got@PAGEOFF
+ldr x16, [x16, #592]
+br x16
+.word 713
 plt_end:
 .section __DATA, __bss
 	.align 3
-.lcomm mono_aot_Helper_iOS_got, 376
+.lcomm mono_aot_Helper_iOS_got, 600
 got_end:
 .section __TEXT, __const
 	.align 3
@@ -585,7 +1525,7 @@ runtime_version:
 .section __TEXT, __const
 	.align 2
 assembly_guid:
-	.asciz "B4C86709-3D9A-4A01-AF2C-FC7DBCF3C20A"
+	.asciz "9F054ECD-BF6B-4E64-8B75-CA9AC3B0E162"
 .section __TEXT, __const
 	.align 2
 assembly_name:
@@ -672,14 +1612,14 @@ _mono_aot_file_info:
 	.align 3
 	.quad unbox_trampoline_addresses
 
-	.long 34,376,13,5,0,102,387000831,0
-	.long 1123,128,8,8,8,9,8388607,0
-	.long 28,2008,0,0,872,360,184,0
-	.long 304,336,240,0,176,32,864,0
+	.long 50,600,25,20,2,102,387000831,0
+	.long 2746,128,8,8,8,9,8388607,0
+	.long 28,3776,0,0,1024,512,288,0
+	.long 424,480,344,0,200,56,1016,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0
-	.byte 96,210,30,177,55,190,76,54,27,6,196,206,156,106,116,174
+	.byte 24,164,231,69,254,202,179,37,52,197,34,122,126,16,75,6
 	.globl _mono_aot_module_Helper_iOS_info
 	.align 3
 _mono_aot_module_Helper_iOS_info:
@@ -6922,50 +7862,89 @@ LTDIE_168_REFERENCE:
 	.byte 14
 LDIFF_SYM1061=LTDIE_168 - Ldebug_info_start
 	.long LDIFF_SYM1061
+LTDIE_169:
+
+	.byte 5
+	.asciz "UIKit_UIUserNotificationSettings"
+
+	.byte 40,16
+LDIFF_SYM1062=LTDIE_5 - Ldebug_info_start
+	.long LDIFF_SYM1062
+	.byte 2,35,0,0,7
+	.asciz "UIKit_UIUserNotificationSettings"
+
+LDIFF_SYM1063=LTDIE_169 - Ldebug_info_start
+	.long LDIFF_SYM1063
+LTDIE_169_POINTER:
+
+	.byte 13
+LDIFF_SYM1064=LTDIE_169 - Ldebug_info_start
+	.long LDIFF_SYM1064
+LTDIE_169_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1065=LTDIE_169 - Ldebug_info_start
+	.long LDIFF_SYM1065
 	.byte 2
 	.asciz "Helper.iOS.AppDelegate:FinishedLaunching"
 	.asciz "Helper_iOS_AppDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary"
 
-	.byte 2,25
+	.byte 2,26
 	.quad Helper_iOS_AppDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary
 	.quad Lme_2
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1062=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1062
-	.byte 1,104,3
+LDIFF_SYM1066=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1066
+	.byte 3,141,208,0,3
 	.asciz "uiApplication"
 
-LDIFF_SYM1063=LTDIE_167_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1063
-	.byte 2,141,32,3
+LDIFF_SYM1067=LTDIE_167_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1067
+	.byte 3,141,216,0,3
 	.asciz "launchOptions"
 
-LDIFF_SYM1064=LTDIE_168_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1064
-	.byte 2,141,40,11
+LDIFF_SYM1068=LTDIE_168_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1068
+	.byte 3,141,224,0,11
 	.asciz "V_0"
 
-LDIFF_SYM1065=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1065
-	.byte 1,103,0
+LDIFF_SYM1069=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1069
+	.byte 1,103,11
+	.asciz "V_1"
+
+LDIFF_SYM1070=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1070
+	.byte 1,102,11
+	.asciz "settings"
+
+LDIFF_SYM1071=LTDIE_169_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1071
+	.byte 1,101,11
+	.asciz "V_3"
+
+LDIFF_SYM1072=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1072
+	.byte 1,100,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1066=Lfde2_end - Lfde2_start
-	.long LDIFF_SYM1066
+LDIFF_SYM1073=Lfde2_end - Lfde2_start
+	.long LDIFF_SYM1073
 Lfde2_start:
 
 	.long 0
 	.align 3
 	.quad Helper_iOS_AppDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary
 
-LDIFF_SYM1067=Lme_2 - Helper_iOS_AppDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary
-	.long LDIFF_SYM1067
+LDIFF_SYM1074=Lme_2 - Helper_iOS_AppDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary
+	.long LDIFF_SYM1074
 	.long 0
-	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,151,14,152,13
+	.byte 12,31,0,68,14,192,1,157,24,158,23,68,13,29,68,147,22,148,21,68,149,20,150,19,68,151,18,152,17,68,153,16
+	.byte 154,15
 	.align 3
 Lfde2_end:
 
@@ -6982,26 +7961,593 @@ Lfde2_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1068=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1068
+LDIFF_SYM1075=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1075
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1069=Lfde3_end - Lfde3_start
-	.long LDIFF_SYM1069
+LDIFF_SYM1076=Lfde3_end - Lfde3_start
+	.long LDIFF_SYM1076
 Lfde3_start:
 
 	.long 0
 	.align 3
 	.quad Helper_iOS_AppDelegate__ctor
 
-LDIFF_SYM1070=Lme_3 - Helper_iOS_AppDelegate__ctor
-	.long LDIFF_SYM1070
+LDIFF_SYM1077=Lme_3 - Helper_iOS_AppDelegate__ctor
+	.long LDIFF_SYM1077
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
 Lfde3_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_171:
+
+	.byte 5
+	.asciz "UserNotifications_UNUserNotificationCenterDelegate"
+
+	.byte 40,16
+LDIFF_SYM1078=LTDIE_5 - Ldebug_info_start
+	.long LDIFF_SYM1078
+	.byte 2,35,0,0,7
+	.asciz "UserNotifications_UNUserNotificationCenterDelegate"
+
+LDIFF_SYM1079=LTDIE_171 - Ldebug_info_start
+	.long LDIFF_SYM1079
+LTDIE_171_POINTER:
+
+	.byte 13
+LDIFF_SYM1080=LTDIE_171 - Ldebug_info_start
+	.long LDIFF_SYM1080
+LTDIE_171_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1081=LTDIE_171 - Ldebug_info_start
+	.long LDIFF_SYM1081
+LTDIE_170:
+
+	.byte 5
+	.asciz "Helper_iOS_UserNotificationCenterDelegate"
+
+	.byte 40,16
+LDIFF_SYM1082=LTDIE_171 - Ldebug_info_start
+	.long LDIFF_SYM1082
+	.byte 2,35,0,0,7
+	.asciz "Helper_iOS_UserNotificationCenterDelegate"
+
+LDIFF_SYM1083=LTDIE_170 - Ldebug_info_start
+	.long LDIFF_SYM1083
+LTDIE_170_POINTER:
+
+	.byte 13
+LDIFF_SYM1084=LTDIE_170 - Ldebug_info_start
+	.long LDIFF_SYM1084
+LTDIE_170_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1085=LTDIE_170 - Ldebug_info_start
+	.long LDIFF_SYM1085
+LTDIE_172:
+
+	.byte 5
+	.asciz "UserNotifications_UNUserNotificationCenter"
+
+	.byte 48,16
+LDIFF_SYM1086=LTDIE_5 - Ldebug_info_start
+	.long LDIFF_SYM1086
+	.byte 2,35,0,6
+	.asciz "__mt_Delegate_var"
+
+LDIFF_SYM1087=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1087
+	.byte 2,35,40,0,7
+	.asciz "UserNotifications_UNUserNotificationCenter"
+
+LDIFF_SYM1088=LTDIE_172 - Ldebug_info_start
+	.long LDIFF_SYM1088
+LTDIE_172_POINTER:
+
+	.byte 13
+LDIFF_SYM1089=LTDIE_172 - Ldebug_info_start
+	.long LDIFF_SYM1089
+LTDIE_172_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1090=LTDIE_172 - Ldebug_info_start
+	.long LDIFF_SYM1090
+LTDIE_173:
+
+	.byte 5
+	.asciz "UserNotifications_UNNotification"
+
+	.byte 40,16
+LDIFF_SYM1091=LTDIE_5 - Ldebug_info_start
+	.long LDIFF_SYM1091
+	.byte 2,35,0,0,7
+	.asciz "UserNotifications_UNNotification"
+
+LDIFF_SYM1092=LTDIE_173 - Ldebug_info_start
+	.long LDIFF_SYM1092
+LTDIE_173_POINTER:
+
+	.byte 13
+LDIFF_SYM1093=LTDIE_173 - Ldebug_info_start
+	.long LDIFF_SYM1093
+LTDIE_173_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1094=LTDIE_173 - Ldebug_info_start
+	.long LDIFF_SYM1094
+LTDIE_174:
+
+	.byte 5
+	.asciz "System_Action`1"
+
+	.byte 128,1,16
+LDIFF_SYM1095=LTDIE_18 - Ldebug_info_start
+	.long LDIFF_SYM1095
+	.byte 2,35,0,0,7
+	.asciz "System_Action`1"
+
+LDIFF_SYM1096=LTDIE_174 - Ldebug_info_start
+	.long LDIFF_SYM1096
+LTDIE_174_POINTER:
+
+	.byte 13
+LDIFF_SYM1097=LTDIE_174 - Ldebug_info_start
+	.long LDIFF_SYM1097
+LTDIE_174_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1098=LTDIE_174 - Ldebug_info_start
+	.long LDIFF_SYM1098
+	.byte 2
+	.asciz "Helper.iOS.UserNotificationCenterDelegate:WillPresentNotification"
+	.asciz "Helper_iOS_UserNotificationCenterDelegate_WillPresentNotification_UserNotifications_UNUserNotificationCenter_UserNotifications_UNNotification_System_Action_1_UserNotifications_UNNotificationPresentationOptions"
+
+	.byte 3,9
+	.quad Helper_iOS_UserNotificationCenterDelegate_WillPresentNotification_UserNotifications_UNUserNotificationCenter_UserNotifications_UNNotification_System_Action_1_UserNotifications_UNNotificationPresentationOptions
+	.quad Lme_4
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1099=LTDIE_170_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1099
+	.byte 2,141,16,3
+	.asciz "center"
+
+LDIFF_SYM1100=LTDIE_172_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1100
+	.byte 2,141,24,3
+	.asciz "notification"
+
+LDIFF_SYM1101=LTDIE_173_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1101
+	.byte 2,141,32,3
+	.asciz "completionHandler"
+
+LDIFF_SYM1102=LTDIE_174_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1102
+	.byte 2,141,40,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1103=Lfde4_end - Lfde4_start
+	.long LDIFF_SYM1103
+Lfde4_start:
+
+	.long 0
+	.align 3
+	.quad Helper_iOS_UserNotificationCenterDelegate_WillPresentNotification_UserNotifications_UNUserNotificationCenter_UserNotifications_UNNotification_System_Action_1_UserNotifications_UNNotificationPresentationOptions
+
+LDIFF_SYM1104=Lme_4 - Helper_iOS_UserNotificationCenterDelegate_WillPresentNotification_UserNotifications_UNUserNotificationCenter_UserNotifications_UNNotification_System_Action_1_UserNotifications_UNNotificationPresentationOptions
+	.long LDIFF_SYM1104
+	.long 0
+	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29
+	.align 3
+Lfde4_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "Helper.iOS.UserNotificationCenterDelegate:.ctor"
+	.asciz "Helper_iOS_UserNotificationCenterDelegate__ctor"
+
+	.byte 0,0
+	.quad Helper_iOS_UserNotificationCenterDelegate__ctor
+	.quad Lme_5
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1105=LTDIE_170_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1105
+	.byte 2,141,16,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1106=Lfde5_end - Lfde5_start
+	.long LDIFF_SYM1106
+Lfde5_start:
+
+	.long 0
+	.align 3
+	.quad Helper_iOS_UserNotificationCenterDelegate__ctor
+
+LDIFF_SYM1107=Lme_5 - Helper_iOS_UserNotificationCenterDelegate__ctor
+	.long LDIFF_SYM1107
+	.long 0
+	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
+	.align 3
+Lfde5_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "Helper.iOS.AppDelegate/<>c:.cctor"
+	.asciz "Helper_iOS_AppDelegate__c__cctor"
+
+	.byte 0,0
+	.quad Helper_iOS_AppDelegate__c__cctor
+	.quad Lme_6
+
+	.byte 2,118,16,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1108=Lfde6_end - Lfde6_start
+	.long LDIFF_SYM1108
+Lfde6_start:
+
+	.long 0
+	.align 3
+	.quad Helper_iOS_AppDelegate__c__cctor
+
+LDIFF_SYM1109=Lme_6 - Helper_iOS_AppDelegate__c__cctor
+	.long LDIFF_SYM1109
+	.long 0
+	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
+	.align 3
+Lfde6_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_175:
+
+	.byte 5
+	.asciz "_<>c"
+
+	.byte 16,16
+LDIFF_SYM1110=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM1110
+	.byte 2,35,0,0,7
+	.asciz "_<>c"
+
+LDIFF_SYM1111=LTDIE_175 - Ldebug_info_start
+	.long LDIFF_SYM1111
+LTDIE_175_POINTER:
+
+	.byte 13
+LDIFF_SYM1112=LTDIE_175 - Ldebug_info_start
+	.long LDIFF_SYM1112
+LTDIE_175_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1113=LTDIE_175 - Ldebug_info_start
+	.long LDIFF_SYM1113
+	.byte 2
+	.asciz "Helper.iOS.AppDelegate/<>c:.ctor"
+	.asciz "Helper_iOS_AppDelegate__c__ctor"
+
+	.byte 0,0
+	.quad Helper_iOS_AppDelegate__c__ctor
+	.quad Lme_7
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1114=LTDIE_175_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1114
+	.byte 2,141,16,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1115=Lfde7_end - Lfde7_start
+	.long LDIFF_SYM1115
+Lfde7_start:
+
+	.long 0
+	.align 3
+	.quad Helper_iOS_AppDelegate__c__ctor
+
+LDIFF_SYM1116=Lme_7 - Helper_iOS_AppDelegate__c__ctor
+	.long LDIFF_SYM1116
+	.long 0
+	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
+	.align 3
+Lfde7_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_176:
+
+	.byte 5
+	.asciz "Foundation_NSError"
+
+	.byte 40,16
+LDIFF_SYM1117=LTDIE_5 - Ldebug_info_start
+	.long LDIFF_SYM1117
+	.byte 2,35,0,0,7
+	.asciz "Foundation_NSError"
+
+LDIFF_SYM1118=LTDIE_176 - Ldebug_info_start
+	.long LDIFF_SYM1118
+LTDIE_176_POINTER:
+
+	.byte 13
+LDIFF_SYM1119=LTDIE_176 - Ldebug_info_start
+	.long LDIFF_SYM1119
+LTDIE_176_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1120=LTDIE_176 - Ldebug_info_start
+	.long LDIFF_SYM1120
+	.byte 2
+	.asciz "Helper.iOS.AppDelegate/<>c:<FinishedLaunching>b__0_0"
+	.asciz "Helper_iOS_AppDelegate__c__FinishedLaunchingb__0_0_bool_Foundation_NSError"
+
+	.byte 2,45
+	.quad Helper_iOS_AppDelegate__c__FinishedLaunchingb__0_0_bool_Foundation_NSError
+	.quad Lme_8
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1121=LTDIE_175_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1121
+	.byte 2,141,16,3
+	.asciz "approved"
+
+LDIFF_SYM1122=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1122
+	.byte 2,141,24,3
+	.asciz "error"
+
+LDIFF_SYM1123=LTDIE_176_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1123
+	.byte 2,141,32,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1124=Lfde8_end - Lfde8_start
+	.long LDIFF_SYM1124
+Lfde8_start:
+
+	.long 0
+	.align 3
+	.quad Helper_iOS_AppDelegate__c__FinishedLaunchingb__0_0_bool_Foundation_NSError
+
+LDIFF_SYM1125=Lme_8 - Helper_iOS_AppDelegate__c__FinishedLaunchingb__0_0_bool_Foundation_NSError
+	.long LDIFF_SYM1125
+	.long 0
+	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
+	.align 3
+Lfde8_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_177:
+
+	.byte 5
+	.asciz "System_Action`2"
+
+	.byte 128,1,16
+LDIFF_SYM1126=LTDIE_18 - Ldebug_info_start
+	.long LDIFF_SYM1126
+	.byte 2,35,0,0,7
+	.asciz "System_Action`2"
+
+LDIFF_SYM1127=LTDIE_177 - Ldebug_info_start
+	.long LDIFF_SYM1127
+LTDIE_177_POINTER:
+
+	.byte 13
+LDIFF_SYM1128=LTDIE_177 - Ldebug_info_start
+	.long LDIFF_SYM1128
+LTDIE_177_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1129=LTDIE_177 - Ldebug_info_start
+	.long LDIFF_SYM1129
+LTDIE_178:
+
+	.byte 5
+	.asciz "System_Array"
+
+	.byte 16,16
+LDIFF_SYM1130=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM1130
+	.byte 2,35,0,0,7
+	.asciz "System_Array"
+
+LDIFF_SYM1131=LTDIE_178 - Ldebug_info_start
+	.long LDIFF_SYM1131
+LTDIE_178_POINTER:
+
+	.byte 13
+LDIFF_SYM1132=LTDIE_178 - Ldebug_info_start
+	.long LDIFF_SYM1132
+LTDIE_178_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1133=LTDIE_178 - Ldebug_info_start
+	.long LDIFF_SYM1133
+	.byte 2
+	.asciz "(wrapper_delegate-invoke)_System.Action`2<bool,_Foundation.NSError>:invoke_void_T1_T2"
+	.asciz "wrapper_delegate_invoke_System_Action_2_bool_Foundation_NSError_invoke_void_T1_T2_bool_Foundation_NSError"
+
+	.byte 0,0
+	.quad wrapper_delegate_invoke_System_Action_2_bool_Foundation_NSError_invoke_void_T1_T2_bool_Foundation_NSError
+	.quad Lme_e
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1134=LTDIE_177_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1134
+	.byte 1,104,3
+	.asciz "param0"
+
+LDIFF_SYM1135=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1135
+	.byte 1,105,3
+	.asciz "param1"
+
+LDIFF_SYM1136=LTDIE_176_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1136
+	.byte 1,106,11
+	.asciz "V_0"
+
+LDIFF_SYM1137=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1137
+	.byte 1,103,11
+	.asciz "V_1"
+
+LDIFF_SYM1138=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1138
+	.byte 1,102,11
+	.asciz "V_2"
+
+LDIFF_SYM1139=LTDIE_178_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1139
+	.byte 1,101,11
+	.asciz "V_3"
+
+LDIFF_SYM1140=LTDIE_18_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1140
+	.byte 1,100,11
+	.asciz "V_4"
+
+LDIFF_SYM1141=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1141
+	.byte 1,99,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1142=Lfde9_end - Lfde9_start
+	.long LDIFF_SYM1142
+Lfde9_start:
+
+	.long 0
+	.align 3
+	.quad wrapper_delegate_invoke_System_Action_2_bool_Foundation_NSError_invoke_void_T1_T2_bool_Foundation_NSError
+
+LDIFF_SYM1143=Lme_e - wrapper_delegate_invoke_System_Action_2_bool_Foundation_NSError_invoke_void_T1_T2_bool_Foundation_NSError
+	.long LDIFF_SYM1143
+	.long 0
+	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
+	.byte 154,9
+	.align 3
+Lfde9_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_179:
+
+	.byte 8
+	.asciz "UserNotifications_UNNotificationPresentationOptions"
+
+	.byte 8
+LDIFF_SYM1144=LDIE_U8 - Ldebug_info_start
+	.long LDIFF_SYM1144
+	.byte 9
+	.asciz "None"
+
+	.byte 0,9
+	.asciz "Badge"
+
+	.byte 1,9
+	.asciz "Sound"
+
+	.byte 2,9
+	.asciz "Alert"
+
+	.byte 4,0,7
+	.asciz "UserNotifications_UNNotificationPresentationOptions"
+
+LDIFF_SYM1145=LTDIE_179 - Ldebug_info_start
+	.long LDIFF_SYM1145
+LTDIE_179_POINTER:
+
+	.byte 13
+LDIFF_SYM1146=LTDIE_179 - Ldebug_info_start
+	.long LDIFF_SYM1146
+LTDIE_179_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1147=LTDIE_179 - Ldebug_info_start
+	.long LDIFF_SYM1147
+	.byte 2
+	.asciz "(wrapper_delegate-invoke)_System.Action`1<UserNotifications.UNNotificationPresentationOptions>:invoke_void_T"
+	.asciz "wrapper_delegate_invoke_System_Action_1_UserNotifications_UNNotificationPresentationOptions_invoke_void_T_UserNotifications_UNNotificationPresentationOptions"
+
+	.byte 0,0
+	.quad wrapper_delegate_invoke_System_Action_1_UserNotifications_UNNotificationPresentationOptions_invoke_void_T_UserNotifications_UNNotificationPresentationOptions
+	.quad Lme_13
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1148=LTDIE_174_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1148
+	.byte 1,105,3
+	.asciz "param0"
+
+LDIFF_SYM1149=LTDIE_179 - Ldebug_info_start
+	.long LDIFF_SYM1149
+	.byte 1,106,11
+	.asciz "V_0"
+
+LDIFF_SYM1150=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1150
+	.byte 1,104,11
+	.asciz "V_1"
+
+LDIFF_SYM1151=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1151
+	.byte 1,103,11
+	.asciz "V_2"
+
+LDIFF_SYM1152=LTDIE_178_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1152
+	.byte 1,102,11
+	.asciz "V_3"
+
+LDIFF_SYM1153=LTDIE_18_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1153
+	.byte 1,101,11
+	.asciz "V_4"
+
+LDIFF_SYM1154=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1154
+	.byte 1,100,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1155=Lfde10_end - Lfde10_start
+	.long LDIFF_SYM1155
+Lfde10_start:
+
+	.long 0
+	.align 3
+	.quad wrapper_delegate_invoke_System_Action_1_UserNotifications_UNNotificationPresentationOptions_invoke_void_T_UserNotifications_UNNotificationPresentationOptions
+
+LDIFF_SYM1156=Lme_13 - wrapper_delegate_invoke_System_Action_1_UserNotifications_UNNotificationPresentationOptions_invoke_void_T_UserNotifications_UNNotificationPresentationOptions
+	.long LDIFF_SYM1156
+	.long 0
+	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
+	.byte 154,9
+	.align 3
+Lfde10_end:
 
 .section __DWARF, __debug_info,regular,debug
 

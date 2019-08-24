@@ -23,6 +23,8 @@ extern void *mono_aot_module_Xamarin_Forms_Maps_info;
 extern void *mono_aot_module_Helper_info;
 extern void *mono_aot_module_Xamarin_Forms_Xaml_info;
 extern void *mono_aot_module_DLToolkit_Forms_Controls_FlowListView_info;
+extern void *mono_aot_module_Plugin_LocalNotifications_info;
+extern void *mono_aot_module_Plugin_LocalNotifications_Abstractions_info;
 
 void xamarin_register_modules_impl ()
 {
@@ -49,6 +51,8 @@ void xamarin_register_modules_impl ()
 	mono_aot_register_module (mono_aot_module_Helper_info);
 	mono_aot_register_module (mono_aot_module_Xamarin_Forms_Xaml_info);
 	mono_aot_register_module (mono_aot_module_DLToolkit_Forms_Controls_FlowListView_info);
+	mono_aot_register_module (mono_aot_module_Plugin_LocalNotifications_info);
+	mono_aot_register_module (mono_aot_module_Plugin_LocalNotifications_Abstractions_info);
 
 }
 

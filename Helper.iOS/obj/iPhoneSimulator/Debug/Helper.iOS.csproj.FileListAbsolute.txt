@@ -104,6 +104,8 @@
 /Users/ashleighparsons/firstaidhelper/Helper.iOS/bin/iPhoneSimulator/Debug/Helper.iOS.exe
 /Users/ashleighparsons/firstaidhelper/Helper.iOS/bin/iPhoneSimulator/Debug/Helper.iOS.pdb
 /Users/ashleighparsons/firstaidhelper/Helper.iOS/bin/iPhoneSimulator/Debug/DLToolkit.Forms.Controls.FlowListView.dll
+/Users/ashleighparsons/firstaidhelper/Helper.iOS/bin/iPhoneSimulator/Debug/Plugin.LocalNotifications.Abstractions.dll
+/Users/ashleighparsons/firstaidhelper/Helper.iOS/bin/iPhoneSimulator/Debug/Plugin.LocalNotifications.dll
 /Users/ashleighparsons/firstaidhelper/Helper.iOS/bin/iPhoneSimulator/Debug/Xamarin.Essentials.dll
 /Users/ashleighparsons/firstaidhelper/Helper.iOS/bin/iPhoneSimulator/Debug/Xamarin.Essentials.pdb
 /Users/ashleighparsons/firstaidhelper/Helper.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Core.dll
@@ -197,6 +199,7 @@
 /Users/ashleighparsons/firstaidhelper/Helper.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-12.2/optimized/toilet.png
 /Users/ashleighparsons/firstaidhelper/Helper.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-12.2/optimized/uti.png
 /Users/ashleighparsons/firstaidhelper/Helper.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-12.2/optimized/siren2.png
+/Users/ashleighparsons/firstaidhelper/Helper.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-12.2/optimized/icon2.png
 /Users/ashleighparsons/firstaidhelper/Helper.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-12.2/optimized/
 /Users/ashleighparsons/firstaidhelper/Helper.iOS/obj/iPhoneSimulator/Debug/Helper.iOS.csprojAssemblyReference.cache
 /Users/ashleighparsons/firstaidhelper/Helper.iOS/obj/iPhoneSimulator/Debug/Helper.iOS.csproj.CoreCompileInputs.cache
@@ -204,4 +207,3 @@
 /Users/ashleighparsons/firstaidhelper/Helper.iOS/obj/iPhoneSimulator/Debug/Helper.iOS.csproj.CopyComplete
 /Users/ashleighparsons/firstaidhelper/Helper.iOS/obj/iPhoneSimulator/Debug/Helper.iOS.exe
 /Users/ashleighparsons/firstaidhelper/Helper.iOS/obj/iPhoneSimulator/Debug/Helper.iOS.pdb
-/Users/ashleighparsons/firstaidhelper/Helper.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-12.2/optimized/icon2.png

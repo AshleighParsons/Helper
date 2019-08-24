@@ -26,6 +26,7 @@ namespace Helper.Droid
 		
 		public static void UpdateIdValues()
 		{
+			global::Plugin.LocalNotifications.Resource.Drawable.plugin_lc_smallicon = global::Helper.Droid.Resource.Drawable.plugin_lc_smallicon;
 			global::Xamarin.Essentials.Resource.Attribute.alpha = global::Helper.Droid.Resource.Attribute.alpha;
 			global::Xamarin.Essentials.Resource.Attribute.coordinatorLayoutStyle = global::Helper.Droid.Resource.Attribute.coordinatorLayoutStyle;
 			global::Xamarin.Essentials.Resource.Attribute.font = global::Helper.Droid.Resource.Attribute.font;
@@ -6622,10 +6623,13 @@ namespace Helper.Droid
 			public const int notify_panel_notification_icon_bg = 2131165517;
 			
 			// aapt resource value: 0x7F07014E
-			public const int tooltip_frame_dark = 2131165518;
+			public const int plugin_lc_smallicon = 2131165518;
 			
 			// aapt resource value: 0x7F07014F
-			public const int tooltip_frame_light = 2131165519;
+			public const int tooltip_frame_dark = 2131165519;
+			
+			// aapt resource value: 0x7F070150
+			public const int tooltip_frame_light = 2131165520;
 			
 			static Drawable()
 			{

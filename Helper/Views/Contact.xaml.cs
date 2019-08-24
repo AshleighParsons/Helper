@@ -3,12 +3,14 @@ using System.Collections.Generic;
 
 using Xamarin.Forms;
 
+using Plugin.LocalNotifications;
+
 namespace Helper.Views
 {
     public partial class Contact : ContentPage
     {
         public Contact()
-        {
+        {               
             InitializeComponent();
 
             if (Application.Current.Properties.ContainsKey("name"))
@@ -42,6 +44,7 @@ namespace Helper.Views
             }
             else
             {
+                CrossLocalNotifications.Current.Show("👨🏼‍⚕️ Hey There! 👩🏽‍⚕️", "Add your own ICE contact to get hold of someone quickly in an emergency. 📞");
                 await Navigation.PushAsync(new AddContactPage());
             }
         }

@@ -8,6 +8,7 @@
 #include <objc/runtime.h>
 #include <objc/message.h>
 #import <Foundation/Foundation.h>
+#import <UserNotifications/UserNotifications.h>
 #import <UIKit/UIKit.h>
 #import <MediaPlayer/MediaPlayer.h>
 #import <MapKit/MapKit.h>
@@ -18,6 +19,8 @@
 #import <WebKit/WebKit.h>
 #import <CoreGraphics/CoreGraphics.h>
 
+@class UNUserNotificationCenterDelegate;
+@class Helper_iOS_UserNotificationCenterDelegate;
 @class UIApplicationDelegate;
 @class Xamarin_Forms_Platform_iOS_FormsApplicationDelegate;
 @class AppDelegate;
@@ -194,6 +197,22 @@
 @class Xamarin_Forms_Platform_iOS_NavigationRenderer_ParentingViewController;
 @class Xamarin_Forms_Platform_iOS_WkWebViewRenderer_CustomWebViewUIDelegate;
 @class Xamarin_Forms_Maps_iOS_MapRenderer;
+
+@interface UNUserNotificationCenterDelegate : NSObject<UNUserNotificationCenterDelegate> {
+}
+	-(id) init;
+@end
+
+@interface Helper_iOS_UserNotificationCenterDelegate : NSObject<UNUserNotificationCenterDelegate> {
+}
+	-(void) release;
+	-(id) retain;
+	-(int) xamarinGetGCHandle;
+	-(void) xamarinSetGCHandle: (int) gchandle;
+	-(void) userNotificationCenter:(UNUserNotificationCenter *)p0 willPresentNotification:(UNNotification *)p1 withCompletionHandler:(id)p2;
+	-(BOOL) conformsToProtocol:(void *)p0;
+	-(id) init;
+@end
 
 @interface UIApplicationDelegate : NSObject<UIApplicationDelegate> {
 }
