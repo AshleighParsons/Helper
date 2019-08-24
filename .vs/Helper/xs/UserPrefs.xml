@@ -1,10 +1,10 @@
 ﻿<Properties StartupConfiguration="{5107B829-1C6B-4D12-AE1B-921ED5C724AF}|Default">
-  <MonoDevelop.Ide.ItemProperties.Helper.iOS automaticSigning="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.3A7EC101-3770-4531-A50D-F0ADBC0A7B41" />
+  <MonoDevelop.Ide.ItemProperties.Helper.iOS automaticSigning="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.42ecee95746602a9deccdf63f11a00f3644aaaee" />
   <MonoDevelop.Ide.ItemProperties.Helper.Android AndroidDesignerPreferredTheme="Theme.AppCompat.Light.NoActionBar" PreferredExecutionTarget="Android.Android_Accelerated_Oreo" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Helper/Views/Contact.xaml.cs">
     <Files>
       <File FileName="Helper/App.xaml.cs" Line="25" Column="1" />
-      <File FileName="Helper/Views/Contact.xaml.cs" Line="18" Column="50" />
+      <File FileName="Helper/Views/Contact.xaml.cs" Line="17" Column="14" />
       <File FileName="../../../Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets" Line="991" Column="3" />
     </Files>
     <Pads>
@@ -24,10 +24,13 @@
           </Node>
         </State>
       </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
