@@ -38,6 +38,8 @@ Function=xamarin_GetFolderPath
 	/Users/ashleighparsons/firstaidhelper/Helper.iOS/obj/iPhone/Debug/device-builds/iphone10.4-12.4/mtouch-cache/1-Link/mscorlib.dll
 Function=xamarin_log
 	/Users/ashleighparsons/firstaidhelper/Helper.iOS/obj/iPhone/Debug/device-builds/iphone10.4-12.4/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_start_wwan
+	/Users/ashleighparsons/firstaidhelper/Helper.iOS/obj/iPhone/Debug/device-builds/iphone10.4-12.4/mtouch-cache/1-Link/System.dll
 Function=xamarin_find_protocol_wrapper_type
 	/Users/ashleighparsons/firstaidhelper/Helper.iOS/obj/iPhone/Debug/device-builds/iphone10.4-12.4/mtouch-cache/1-Link/Xamarin.iOS.dll
 Function=xamarin_release_block_on_main_thread
@@ -50,6 +52,4 @@ Function=xamarin_IntPtr_objc_msgSendSuper_IntPtr
 	/Users/ashleighparsons/firstaidhelper/Helper.iOS/obj/iPhone/Debug/device-builds/iphone10.4-12.4/mtouch-cache/1-Link/Xamarin.iOS.dll
 Function=UIApplicationMain
 	/Users/ashleighparsons/firstaidhelper/Helper.iOS/obj/iPhone/Debug/device-builds/iphone10.4-12.4/mtouch-cache/1-Link/Xamarin.iOS.dll
-Function=xamarin_start_wwan
-	/Users/ashleighparsons/firstaidhelper/Helper.iOS/obj/iPhone/Debug/device-builds/iphone10.4-12.4/mtouch-cache/1-Link/System.dll
 Function=mono_pmip

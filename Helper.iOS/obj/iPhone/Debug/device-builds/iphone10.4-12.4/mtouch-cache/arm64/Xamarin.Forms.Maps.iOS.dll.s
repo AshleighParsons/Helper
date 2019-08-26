@@ -1783,7 +1783,7 @@ bl _p_25
 .word 0xaa1803e0
 .word 0xaa1803e0
 .word 0xf9400301
-.word 0xf9423030
+.word 0xf9424030
 .word 0xd63f0200
 .word 0xf9402bb1
 .word 0xf948fe31
@@ -1798,7 +1798,7 @@ bl _p_25
 .word 0xf9407b21
 .word 0xaa1803e0
 .word 0xf9400302
-.word 0xf9422c50
+.word 0xf9423c50
 .word 0xd63f0200
 .word 0xf9402bb1
 .word 0xf9493a31
@@ -2718,7 +2718,7 @@ ldr x2, [x16, #16]
 .word 0xaa1703e0
 .word 0xaa1603e1
 .word 0xf94002e2
-.word 0xf9427450
+.word 0xf9428450
 .word 0xd63f0200
 .word 0xf94027b1
 .word 0xf94b8a31
@@ -3864,7 +3864,7 @@ add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x1, [x16, #784]
 .word 0xaa0203e0
 .word 0xf9400042
-.word 0xf942b050
+.word 0xf942c050
 .word 0xd63f0200
 .word 0xf90037a0
 .word 0xf94023b1
@@ -3915,7 +3915,7 @@ bl _p_64
 .word 0xaa1703e0
 .word 0xd2800021
 .word 0xf94002e2
-.word 0xf9427c50
+.word 0xf9428c50
 .word 0xd63f0200
 .word 0xf94023b1
 .word 0xf9426a31
@@ -3934,7 +3934,7 @@ bl _p_64
 .word 0xaa1703e0
 .word 0xaa1a03e1
 .word 0xf94002e2
-.word 0xf9428050
+.word 0xf9429050
 .word 0xd63f0200
 .word 0xf94023b1
 .word 0xf942b631
@@ -4086,7 +4086,7 @@ ldr x2, [x16, #16]
 .word 0xf94027a1
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf941c030
+.word 0xf941c430
 .word 0xd63f0200
 .word 0xf90047a0
 .word 0xf9402fb1
@@ -4151,7 +4151,7 @@ bl _p_1
 .word 0xaa0203e0
 .word 0xaa1903e1
 .word 0xf9400042
-.word 0xf9422c50
+.word 0xf9423c50
 .word 0xd63f0200
 .word 0xf9402fb1
 .word 0xf9429631
@@ -4318,7 +4318,7 @@ bl _p_67
 .word 0xaa0203e0
 .word 0xaa1503e1
 .word 0xf9400042
-.word 0xf9427450
+.word 0xf9428450
 .word 0xd63f0200
 .word 0xf9402fb1
 .word 0xf9450631
@@ -4940,7 +4940,7 @@ bl _p_14
 .word 0xfd402fa0
 .word 0xfd4033a1
 .word 0xf9400302
-.word 0xf942b450
+.word 0xf942c450
 .word 0xd63f0200
 .word 0xf9405fbe
 .word 0xfd0003c0
@@ -5332,7 +5332,7 @@ bl _p_73
 .word 0xaa1903e0
 .word 0xaa1603e1
 .word 0xf9400322
-.word 0xf9431450
+.word 0xf9432450
 .word 0xd63f0200
 .word 0xf90057a0
 .word 0xf94023b1
@@ -5385,7 +5385,7 @@ ldr x1, [x16, #512]
 .word 0xaa1503e0
 .word 0xaa1703e1
 .word 0xf94002a2
-.word 0xf942b850
+.word 0xf942c850
 .word 0xd63f0200
 .word 0xf94023b1
 .word 0xf9438231
@@ -6043,7 +6043,7 @@ ldr x1, [x16, #512]
 .word 0xf900a3a0
 .word 0xaa1603e0
 .word 0xf94002c1
-.word 0xf9429830
+.word 0xf942a830
 .word 0xd63f0200
 .word 0xf940a3be
 .word 0xfd0003c0
@@ -6068,7 +6068,7 @@ ldr x1, [x16, #512]
 .word 0xf900a3a0
 .word 0xaa1603e0
 .word 0xf94002c1
-.word 0xf9429830
+.word 0xf942a830
 .word 0xd63f0200
 .word 0xf940a3be
 .word 0xfd0003c0
@@ -6109,7 +6109,7 @@ bl _p_71
 .word 0xf900a3a0
 .word 0xaa1603e0
 .word 0xf94002c1
-.word 0xf9429830
+.word 0xf942a830
 .word 0xd63f0200
 .word 0xf940a3be
 .word 0xfd0003c0
@@ -6135,7 +6135,7 @@ bl _p_71
 .word 0xf900a3a0
 .word 0xaa1603e0
 .word 0xf94002c1
-.word 0xf9429830
+.word 0xf942a830
 .word 0xd63f0200
 .word 0xf940a3be
 .word 0xfd0003c0
@@ -6396,7 +6396,7 @@ ldr x1, [x16, #512]
 .word 0xfd402fa2
 .word 0xfd4033a3
 .word 0xf94002e2
-.word 0xf942a450
+.word 0xf942b450
 .word 0xd63f0200
 .word 0xf9401bb1
 .word 0xf9430231
@@ -6630,7 +6630,7 @@ ldr x1, [x16, #512]
 .word 0xaa1503e0
 .word 0xaa1503e0
 .word 0xf94002a1
-.word 0xf942a030
+.word 0xf942b030
 .word 0xd63f0200
 .word 0xf90053a0
 .word 0xf9402fb1
@@ -6667,7 +6667,7 @@ ldr x1, [x16, #512]
 .word 0xaa1703e0
 .word 0xaa1703e0
 .word 0xf94002e1
-.word 0xf942a030
+.word 0xf942b030
 .word 0xd63f0200
 .word 0xf90053a0
 .word 0xf9402fb1
@@ -6677,7 +6677,7 @@ ldr x1, [x16, #512]
 .word 0xf94053a1
 .word 0xaa1703e0
 .word 0xf94002e2
-.word 0xf942a850
+.word 0xf942b850
 .word 0xd63f0200
 .word 0xf9402fb1
 .word 0xf943f631
@@ -7029,7 +7029,7 @@ ldr x1, [x16, #880]
 .word 0xaa1503e0
 .word 0xaa1403e1
 .word 0xf94002a2
-.word 0xf942ac50
+.word 0xf942bc50
 .word 0xd63f0200
 .word 0xf94027b1
 .word 0xf9438231
@@ -7289,7 +7289,7 @@ bl _p_87
 .word 0xf9402ba1
 .word 0xaa1803e0
 .word 0xf9400302
-.word 0xf9429450
+.word 0xf942a450
 .word 0xd63f0200
 .word 0xf9401bb1
 .word 0xf9416e31
@@ -7408,7 +7408,7 @@ bl _p_88
 .word 0xf9402ba1
 .word 0xaa1803e0
 .word 0xf9400302
-.word 0xf9428450
+.word 0xf9429450
 .word 0xd63f0200
 .word 0xf9401bb1
 .word 0xf9416e31
@@ -7630,7 +7630,7 @@ bl _p_90
 .word 0xf9402ba1
 .word 0xaa1803e0
 .word 0xf9400302
-.word 0xf9429050
+.word 0xf942a050
 .word 0xd63f0200
 .word 0xf9401fb1
 .word 0xf942fe31
@@ -7784,7 +7784,7 @@ ldr x1, [x16, #512]
 .word 0xaa1603e0
 .word 0xd2800001
 .word 0xf94002c2
-.word 0xf9429c50
+.word 0xf942ac50
 .word 0xd63f0200
 .word 0xf94027b1
 .word 0xf941f231
@@ -7824,7 +7824,7 @@ ldr x1, [x16, #512]
 .word 0xaa1503e0
 .word 0xd2800021
 .word 0xf94002a2
-.word 0xf9429c50
+.word 0xf942ac50
 .word 0xd63f0200
 .word 0xf94027b1
 .word 0xf9428e31
@@ -7864,7 +7864,7 @@ ldr x1, [x16, #512]
 .word 0xaa1403e0
 .word 0xd2800041
 .word 0xf9400282
-.word 0xf9429c50
+.word 0xf942ac50
 .word 0xd63f0200
 .word 0xf94027b1
 .word 0xf9432a31
@@ -35894,7 +35894,7 @@ _mono_aot_file_info:
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0
-	.byte 38,78,40,12,26,240,53,69,246,204,57,43,242,101,185,208
+	.byte 104,245,237,244,81,160,47,214,213,186,215,20,74,127,230,206
 	.globl _mono_aot_module_Xamarin_Forms_Maps_iOS_info
 	.align 3
 _mono_aot_module_Xamarin_Forms_Maps_iOS_info:

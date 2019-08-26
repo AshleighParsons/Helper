@@ -66,6 +66,7 @@
     <None Include="Info.plist" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UNUserNotificationCenterDelegate.cs" />
+    <Compile Include="iOSLongPressedEffect.cs" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="Resources\LaunchScreen.storyboard" />
@@ -171,5 +172,7 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </BundleResource>
     <BundleResource Include="Resources\icon2.png" />
+    <BundleResource Include="Resources\red-torch.png" />
+    <BundleResource Include="Resources\blue-torch.png" />
   </ItemGroup>
 </Project>

@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-
+using Xamarin.Essentials;
 using Xamarin.Forms;
 
 namespace Helper.Views
@@ -20,5 +20,40 @@ namespace Helper.Views
             MyStep5Show.Text = FirstAidStep5;
             MyStep6Show.Text = FirstAidStep6;
         }
+
+        async void Handle_Clicked(object sender, System.EventArgs e)
+        {
+            try
+            {
+                // Turn On Flashlight  
+                await Flashlight.TurnOnAsync();
+            }
+            catch (FeatureNotSupportedException)
+            {
+                //await ShowAlert(fnsEx.Message);
+            }
+            catch (PermissionException)
+            {
+                //await ShowAlert(pEx.Message);
+            }
+       
+        }
+
+        async void Handle_Clicked_1(object sender, System.EventArgs e)
+        {
+            try
+            {
+                await Flashlight.TurnOffAsync();
+            }
+            catch (FeatureNotSupportedException)
+            {
+                //await ShowAlert(fnsEx.Message);
+            }
+            catch (PermissionException)
+            {
+                //await ShowAlert(pEx.Message);
+            }
+        }
+
     }
 }

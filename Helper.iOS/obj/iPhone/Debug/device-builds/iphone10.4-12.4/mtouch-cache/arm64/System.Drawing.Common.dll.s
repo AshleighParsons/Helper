@@ -4872,6 +4872,303 @@ Lme_19:
 .text
 ut_26:
 add x0, x0, 16
+b System_Drawing_Point_get_X
+.text
+	.align 4
+	.no_dead_strip System_Drawing_Point_get_X
+System_Drawing_Point_get_X:
+.loc 1 1 0
+.word 0xa9be7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+.word 0xf9400ba0
+.word 0xb9800000
+.word 0x910003bf
+.word 0xa8c27bfd
+.word 0xd65f03c0
+
+Lme_1a:
+.text
+ut_27:
+add x0, x0, 16
+b System_Drawing_Point_get_Y
+.text
+	.align 4
+	.no_dead_strip System_Drawing_Point_get_Y
+System_Drawing_Point_get_Y:
+.loc 1 1 0
+.word 0xa9be7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+.word 0xf9400ba0
+.word 0xb9800400
+.word 0x910003bf
+.word 0xa8c27bfd
+.word 0xd65f03c0
+
+Lme_1b:
+.text
+ut_28:
+add x0, x0, 16
+b System_Drawing_Point_op_Equality_System_Drawing_Point_System_Drawing_Point
+.text
+	.align 4
+	.no_dead_strip System_Drawing_Point_op_Equality_System_Drawing_Point_System_Drawing_Point
+System_Drawing_Point_op_Equality_System_Drawing_Point_System_Drawing_Point:
+.loc 1 1 0
+.word 0xa9bd7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+.word 0xf90013a1
+.word 0xb98013a0
+.word 0xb98023a1
+.word 0x6b01001f
+.word 0x540000c1
+.word 0xb98017a0
+.word 0xb98027a1
+.word 0x6b01001f
+.word 0x9a9f17e0
+.word 0x14000002
+.word 0xd2800000
+.word 0x910003bf
+.word 0xa8c37bfd
+.word 0xd65f03c0
+
+Lme_1c:
+.text
+ut_29:
+add x0, x0, 16
+b System_Drawing_Point_Equals_object
+.text
+	.align 4
+	.no_dead_strip System_Drawing_Point_Equals_object
+System_Drawing_Point_Equals_object:
+.loc 1 1 0
+.word 0xa9bd7bfd
+.word 0x910003fd
+.word 0xf9000bb8
+.word 0xf9000fba
+.word 0xf90013a0
+.word 0xaa0103fa
+
+adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
+add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
+ldr x0, [x16, #56]
+.word 0xf9400011
+.word 0xb4000051
+bl _p_1
+.word 0xaa1a03f8
+.word 0xeb1f035f
+.word 0x54000160
+.word 0xf9400340
+.word 0xf9400000
+.word 0xf9400800
+.word 0xf9400800
+
+adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
+add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
+ldr x1, [x16, #1768]
+.word 0xeb01001f
+.word 0x54000040
+.word 0xd2800018
+.word 0xb4000318
+.word 0xf9400340
+.word 0x3940b001
+.word 0xeb1f003f
+.word 0x10000011
+.word 0x54000321
+.word 0xf9400000
+.word 0xf9400000
+
+adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
+add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
+ldr x1, [x16, #1768]
+.word 0xeb01001f
+.word 0x10000011
+.word 0x54000221
+.word 0x91004340
+.word 0xb9800001
+.word 0xb9002ba1
+.word 0xb9800400
+.word 0xb9002fa0
+.word 0xf94013a0
+.word 0xf94017a1
+bl _p_33
+.word 0x53001c00
+.word 0x14000002
+.word 0xd2800000
+.word 0xf9400bb8
+.word 0xf9400fba
+.word 0x910003bf
+.word 0xa8c37bfd
+.word 0xd65f03c0
+.word 0xd2801920
+.word 0xaa1103e1
+bl _p_7
+
+Lme_1d:
+.text
+ut_30:
+add x0, x0, 16
+b System_Drawing_Point_Equals_System_Drawing_Point
+.text
+	.align 4
+	.no_dead_strip System_Drawing_Point_Equals_System_Drawing_Point
+System_Drawing_Point_Equals_System_Drawing_Point:
+.loc 1 1 0
+.word 0xa9bd7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+.word 0xf9000fa1
+
+adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
+add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
+ldr x0, [x16, #56]
+.word 0xf9400011
+.word 0xb4000051
+bl _p_1
+.word 0xf9400ba0
+.word 0xb9800001
+.word 0xb9002ba1
+.word 0xb9800400
+.word 0xb9002fa0
+.word 0xf94017a0
+.word 0xf9400fa1
+bl _p_34
+.word 0x53001c00
+.word 0x910003bf
+.word 0xa8c37bfd
+.word 0xd65f03c0
+
+Lme_1e:
+.text
+ut_31:
+add x0, x0, 16
+b System_Drawing_Point_GetHashCode
+.text
+	.align 4
+	.no_dead_strip System_Drawing_Point_GetHashCode
+System_Drawing_Point_GetHashCode:
+.loc 1 1 0
+.word 0xa9be7bfd
+.word 0x910003fd
+.word 0xf9000bba
+.word 0xaa0003fa
+.word 0xb9800342
+.word 0xb9800741
+.word 0x531b6840
+.word 0x531b7c43
+.word 0x2a030000
+.word 0xb020000
+.word 0x4a010000
+.word 0xf9400bba
+.word 0x910003bf
+.word 0xa8c27bfd
+.word 0xd65f03c0
+
+Lme_1f:
+.text
+ut_32:
+add x0, x0, 16
+b System_Drawing_Point_ToString
+.text
+	.align 4
+	.no_dead_strip System_Drawing_Point_ToString
+System_Drawing_Point_ToString:
+.loc 1 1 0
+.word 0xa9b87bfd
+.word 0x910003fd
+.word 0xf9000bba
+.word 0xaa0003fa
+
+adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
+add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
+ldr x0, [x16, #56]
+.word 0xf9400011
+.word 0xb4000051
+bl _p_1
+.word 0xb9001bbf
+
+adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
+add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
+ldr x0, [x16, #264]
+.word 0xd28000a1
+bl _p_5
+.word 0xaa0003e3
+.word 0xaa0303e0
+.word 0xf9003ba0
+
+adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
+add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
+ldr x2, [x16, #1776]
+.word 0xaa0303e0
+.word 0xd2800001
+.word 0xf9400063
+.word 0xf9408470
+.word 0xd63f0200
+.word 0xf9403ba0
+.word 0xf90037a0
+.word 0xf90033a0
+.word 0xb9800340
+.word 0xb9001ba0
+.word 0x910063a0
+bl _p_35
+.word 0xaa0003e2
+.word 0xf94037a3
+.word 0xaa0303e0
+.word 0xd2800021
+.word 0xf9400063
+.word 0xf9408470
+.word 0xd63f0200
+.word 0xf94033a3
+.word 0xaa0303e0
+.word 0xf9002fa0
+
+adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
+add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
+ldr x2, [x16, #1784]
+.word 0xaa0303e0
+.word 0xd2800041
+.word 0xf9400063
+.word 0xf9408470
+.word 0xd63f0200
+.word 0xf9402fa0
+.word 0xf9002ba0
+.word 0xf90027a0
+.word 0xb9800740
+.word 0xb9001ba0
+.word 0x910063a0
+bl _p_35
+.word 0xaa0003e2
+.word 0xf9402ba3
+.word 0xaa0303e0
+.word 0xd2800061
+.word 0xf9400063
+.word 0xf9408470
+.word 0xd63f0200
+.word 0xf94027a3
+.word 0xaa0303e0
+.word 0xf90023a0
+
+adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
+add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
+ldr x2, [x16, #1792]
+.word 0xaa0303e0
+.word 0xd2800081
+.word 0xf9400063
+.word 0xf9408470
+.word 0xd63f0200
+.word 0xf94023a0
+bl _p_29
+.word 0xf9400bba
+.word 0x910003bf
+.word 0xa8c87bfd
+.word 0xd65f03c0
+
+Lme_20:
+.text
+ut_33:
+add x0, x0, 16
 b System_Drawing_PointF__ctor_single_single
 .text
 	.align 4
@@ -4897,9 +5194,9 @@ System_Drawing_PointF__ctor_single_single:
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_1a:
+Lme_21:
 .text
-ut_27:
+ut_34:
 add x0, x0, 16
 b System_Drawing_PointF_get_X
 .text
@@ -4918,9 +5215,9 @@ System_Drawing_PointF_get_X:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_1b:
+Lme_22:
 .text
-ut_28:
+ut_35:
 add x0, x0, 16
 b System_Drawing_PointF_get_Y
 .text
@@ -4939,9 +5236,9 @@ System_Drawing_PointF_get_Y:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_1c:
+Lme_23:
 .text
-ut_29:
+ut_36:
 add x0, x0, 16
 b System_Drawing_PointF_op_Equality_System_Drawing_PointF_System_Drawing_PointF
 .text
@@ -4989,9 +5286,9 @@ System_Drawing_PointF_op_Equality_System_Drawing_PointF_System_Drawing_PointF:
 .word 0xa8ca7bfd
 .word 0xd65f03c0
 
-Lme_1d:
+Lme_24:
 .text
-ut_30:
+ut_37:
 add x0, x0, 16
 b System_Drawing_PointF_Equals_object
 .text
@@ -5022,7 +5319,7 @@ bl _p_1
 
 adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
-ldr x1, [x16, #1768]
+ldr x1, [x16, #1800]
 .word 0xeb01001f
 .word 0x54000040
 .word 0xd2800018
@@ -5037,7 +5334,7 @@ ldr x1, [x16, #1768]
 
 adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
-ldr x1, [x16, #1768]
+ldr x1, [x16, #1800]
 .word 0xeb01001f
 .word 0x10000011
 .word 0x540002c1
@@ -5053,7 +5350,7 @@ ldr x1, [x16, #1768]
 .word 0xbd402fb0
 .word 0x1e22c201
 .word 0x1e624021
-bl _p_33
+bl _p_36
 .word 0x53001c00
 .word 0x14000002
 .word 0xd2800000
@@ -5066,9 +5363,9 @@ bl _p_33
 .word 0xaa1103e1
 bl _p_7
 
-Lme_1e:
+Lme_25:
 .text
-ut_31:
+ut_38:
 add x0, x0, 16
 b System_Drawing_PointF_Equals_System_Drawing_PointF
 .text
@@ -5105,15 +5402,15 @@ bl _p_1
 .word 0xbd401fb0
 .word 0x1e22c203
 .word 0x1e624063
-bl _p_34
+bl _p_37
 .word 0x53001c00
 .word 0x910003bf
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_1f:
+Lme_26:
 .text
-ut_32:
+ut_39:
 add x0, x0, 16
 b System_Drawing_PointF_GetHashCode
 .text
@@ -5144,7 +5441,7 @@ bl _p_1
 .word 0x1e624010
 .word 0xbd001bb0
 .word 0x910063a0
-bl _p_35
+bl _p_38
 .word 0x93407c00
 .word 0xf90013a0
 .word 0xbd400750
@@ -5156,7 +5453,7 @@ bl _p_35
 .word 0x1e624010
 .word 0xbd001bb0
 .word 0x910063a0
-bl _p_35
+bl _p_38
 .word 0x93407c00
 .word 0xaa0003e1
 .word 0xf94013a2
@@ -5170,9 +5467,9 @@ bl _p_35
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_20:
+Lme_27:
 .text
-ut_33:
+ut_40:
 add x0, x0, 16
 b System_Drawing_PointF_ToString
 .text
@@ -5212,7 +5509,7 @@ ldr x2, [x16, #1776]
 .word 0xf90027a0
 .word 0xf90023a0
 .word 0xf9400ba0
-bl _p_36
+bl _p_39
 .word 0xaa0003e2
 .word 0xf94027a3
 .word 0xaa0303e0
@@ -5226,7 +5523,7 @@ bl _p_36
 
 adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
-ldr x2, [x16, #1784]
+ldr x2, [x16, #1808]
 .word 0xaa0303e0
 .word 0xd2800041
 .word 0xf9400063
@@ -5237,7 +5534,7 @@ ldr x2, [x16, #1784]
 .word 0xf90017a0
 .word 0xf9400ba0
 .word 0x91001000
-bl _p_36
+bl _p_39
 .word 0xaa0003e2
 .word 0xf9401ba3
 .word 0xaa0303e0
@@ -5263,9 +5560,430 @@ bl _p_29
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_21:
+Lme_28:
 .text
-ut_34:
+ut_41:
+add x0, x0, 16
+b System_Drawing_Rectangle_get_X
+.text
+	.align 4
+	.no_dead_strip System_Drawing_Rectangle_get_X
+System_Drawing_Rectangle_get_X:
+.loc 1 1 0
+.word 0xa9be7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+.word 0xf9400ba0
+.word 0xb9800000
+.word 0x910003bf
+.word 0xa8c27bfd
+.word 0xd65f03c0
+
+Lme_29:
+.text
+ut_42:
+add x0, x0, 16
+b System_Drawing_Rectangle_get_Y
+.text
+	.align 4
+	.no_dead_strip System_Drawing_Rectangle_get_Y
+System_Drawing_Rectangle_get_Y:
+.loc 1 1 0
+.word 0xa9be7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+.word 0xf9400ba0
+.word 0xb9800400
+.word 0x910003bf
+.word 0xa8c27bfd
+.word 0xd65f03c0
+
+Lme_2a:
+.text
+ut_43:
+add x0, x0, 16
+b System_Drawing_Rectangle_get_Width
+.text
+	.align 4
+	.no_dead_strip System_Drawing_Rectangle_get_Width
+System_Drawing_Rectangle_get_Width:
+.loc 1 1 0
+.word 0xa9be7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+.word 0xf9400ba0
+.word 0xb9800800
+.word 0x910003bf
+.word 0xa8c27bfd
+.word 0xd65f03c0
+
+Lme_2b:
+.text
+ut_44:
+add x0, x0, 16
+b System_Drawing_Rectangle_get_Height
+.text
+	.align 4
+	.no_dead_strip System_Drawing_Rectangle_get_Height
+System_Drawing_Rectangle_get_Height:
+.loc 1 1 0
+.word 0xa9be7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+.word 0xf9400ba0
+.word 0xb9800c00
+.word 0x910003bf
+.word 0xa8c27bfd
+.word 0xd65f03c0
+
+Lme_2c:
+.text
+ut_45:
+add x0, x0, 16
+b System_Drawing_Rectangle_Equals_object
+.text
+	.align 4
+	.no_dead_strip System_Drawing_Rectangle_Equals_object
+System_Drawing_Rectangle_Equals_object:
+.loc 1 1 0
+.word 0xa9bc7bfd
+.word 0x910003fd
+.word 0xf9000bb8
+.word 0xf9000fba
+.word 0xf90013a0
+.word 0xaa0103fa
+
+adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
+add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
+ldr x0, [x16, #56]
+.word 0xf9400011
+.word 0xb4000051
+bl _p_1
+.word 0xaa1a03f8
+.word 0xeb1f035f
+.word 0x54000160
+.word 0xf9400340
+.word 0xf9400000
+.word 0xf9400800
+.word 0xf9400800
+
+adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
+add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
+ldr x1, [x16, #1816]
+.word 0xeb01001f
+.word 0x54000040
+.word 0xd2800018
+.word 0xb40003b8
+.word 0xf9400340
+.word 0x3940b001
+.word 0xeb1f003f
+.word 0x10000011
+.word 0x540003c1
+.word 0xf9400000
+.word 0xf9400000
+
+adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
+add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
+ldr x1, [x16, #1816]
+.word 0xeb01001f
+.word 0x10000011
+.word 0x540002c1
+.word 0x91004340
+.word 0xb9800001
+.word 0xb9002ba1
+.word 0xb9800401
+.word 0xb9002fa1
+.word 0xb9800801
+.word 0xb90033a1
+.word 0xb9800c00
+.word 0xb90037a0
+.word 0xf94013a0
+.word 0xf94017a1
+.word 0xf9401ba2
+bl _p_40
+.word 0x53001c00
+.word 0x14000002
+.word 0xd2800000
+.word 0xf9400bb8
+.word 0xf9400fba
+.word 0x910003bf
+.word 0xa8c47bfd
+.word 0xd65f03c0
+.word 0xd2801920
+.word 0xaa1103e1
+bl _p_7
+
+Lme_2d:
+.text
+ut_46:
+add x0, x0, 16
+b System_Drawing_Rectangle_Equals_System_Drawing_Rectangle
+.text
+	.align 4
+	.no_dead_strip System_Drawing_Rectangle_Equals_System_Drawing_Rectangle
+System_Drawing_Rectangle_Equals_System_Drawing_Rectangle:
+.loc 1 1 0
+.word 0xa9bc7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+.word 0xf9000fa1
+.word 0xf90013a2
+
+adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
+add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
+ldr x0, [x16, #56]
+.word 0xf9400011
+.word 0xb4000051
+bl _p_1
+.word 0xf9400ba0
+.word 0xb9800001
+.word 0xb9002ba1
+.word 0xb9800401
+.word 0xb9002fa1
+.word 0xb9800801
+.word 0xb90033a1
+.word 0xb9800c00
+.word 0xb90037a0
+.word 0xf94017a0
+.word 0xf9401ba1
+.word 0xf9400fa2
+.word 0xf94013a3
+bl _p_41
+.word 0x53001c00
+.word 0x910003bf
+.word 0xa8c47bfd
+.word 0xd65f03c0
+
+Lme_2e:
+.text
+ut_47:
+add x0, x0, 16
+b System_Drawing_Rectangle_op_Equality_System_Drawing_Rectangle_System_Drawing_Rectangle
+.text
+	.align 4
+	.no_dead_strip System_Drawing_Rectangle_op_Equality_System_Drawing_Rectangle_System_Drawing_Rectangle
+System_Drawing_Rectangle_op_Equality_System_Drawing_Rectangle_System_Drawing_Rectangle:
+.loc 1 1 0
+.word 0xa9bd7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+.word 0xf9000fa1
+.word 0xf90013a2
+.word 0xf90017a3
+.word 0xb98013a0
+.word 0xb98023a1
+.word 0x6b01001f
+.word 0x540001c1
+.word 0xb98017a0
+.word 0xb98027a1
+.word 0x6b01001f
+.word 0x54000141
+.word 0xb9801ba0
+.word 0xb9802ba1
+.word 0x6b01001f
+.word 0x540000c1
+.word 0xb9801fa0
+.word 0xb9802fa1
+.word 0x6b01001f
+.word 0x9a9f17e0
+.word 0x14000002
+.word 0xd2800000
+.word 0x910003bf
+.word 0xa8c37bfd
+.word 0xd65f03c0
+
+Lme_2f:
+.text
+ut_48:
+add x0, x0, 16
+b System_Drawing_Rectangle_GetHashCode
+.text
+	.align 4
+	.no_dead_strip System_Drawing_Rectangle_GetHashCode
+System_Drawing_Rectangle_GetHashCode:
+.loc 1 1 0
+.word 0xa9be7bfd
+.word 0x910003fd
+.word 0xf9000bba
+.word 0xaa0003fa
+.word 0xb9800342
+.word 0xb9800741
+.word 0x531b6840
+.word 0x531b7c43
+.word 0x2a030000
+.word 0xb020000
+.word 0x4a010002
+.word 0xb9800b41
+.word 0x531b6840
+.word 0x531b7c43
+.word 0x2a030000
+.word 0xb020000
+.word 0x4a010002
+.word 0xb9800f41
+.word 0x531b6840
+.word 0x531b7c43
+.word 0x2a030000
+.word 0xb020000
+.word 0x4a010000
+.word 0xf9400bba
+.word 0x910003bf
+.word 0xa8c27bfd
+.word 0xd65f03c0
+
+Lme_30:
+.text
+ut_49:
+add x0, x0, 16
+b System_Drawing_Rectangle_ToString
+.text
+	.align 4
+	.no_dead_strip System_Drawing_Rectangle_ToString
+System_Drawing_Rectangle_ToString:
+.loc 1 1 0
+.word 0xa9b37bfd
+.word 0x910003fd
+.word 0xf9000bba
+.word 0xaa0003fa
+
+adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
+add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
+ldr x0, [x16, #56]
+.word 0xf9400011
+.word 0xb4000051
+bl _p_1
+.word 0xb9001bbf
+
+adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
+add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
+ldr x0, [x16, #264]
+.word 0xd2800121
+bl _p_5
+.word 0xaa0003e3
+.word 0xaa0303e0
+.word 0xf90063a0
+
+adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
+add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
+ldr x2, [x16, #1776]
+.word 0xaa0303e0
+.word 0xd2800001
+.word 0xf9400063
+.word 0xf9408470
+.word 0xd63f0200
+.word 0xf94063a0
+.word 0xf9005fa0
+.word 0xf9005ba0
+.word 0xb9800340
+.word 0xb9001ba0
+.word 0x910063a0
+bl _p_35
+.word 0xaa0003e2
+.word 0xf9405fa3
+.word 0xaa0303e0
+.word 0xd2800021
+.word 0xf9400063
+.word 0xf9408470
+.word 0xd63f0200
+.word 0xf9405ba3
+.word 0xaa0303e0
+.word 0xf90057a0
+
+adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
+add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
+ldr x2, [x16, #1784]
+.word 0xaa0303e0
+.word 0xd2800041
+.word 0xf9400063
+.word 0xf9408470
+.word 0xd63f0200
+.word 0xf94057a0
+.word 0xf90053a0
+.word 0xf9004fa0
+.word 0xb9800740
+.word 0xb9001ba0
+.word 0x910063a0
+bl _p_35
+.word 0xaa0003e2
+.word 0xf94053a3
+.word 0xaa0303e0
+.word 0xd2800061
+.word 0xf9400063
+.word 0xf9408470
+.word 0xd63f0200
+.word 0xf9404fa3
+.word 0xaa0303e0
+.word 0xf9004ba0
+
+adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
+add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
+ldr x2, [x16, #1824]
+.word 0xaa0303e0
+.word 0xd2800081
+.word 0xf9400063
+.word 0xf9408470
+.word 0xd63f0200
+.word 0xf9404ba0
+.word 0xf90047a0
+.word 0xf90043a0
+.word 0xb9800b40
+.word 0xb9001ba0
+.word 0x910063a0
+bl _p_35
+.word 0xaa0003e2
+.word 0xf94047a3
+.word 0xaa0303e0
+.word 0xd28000a1
+.word 0xf9400063
+.word 0xf9408470
+.word 0xd63f0200
+.word 0xf94043a3
+.word 0xaa0303e0
+.word 0xf9003fa0
+
+adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
+add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
+ldr x2, [x16, #1832]
+.word 0xaa0303e0
+.word 0xd28000c1
+.word 0xf9400063
+.word 0xf9408470
+.word 0xd63f0200
+.word 0xf9403fa0
+.word 0xf9003ba0
+.word 0xf90037a0
+.word 0xb9800f40
+.word 0xb9001ba0
+.word 0x910063a0
+bl _p_35
+.word 0xaa0003e2
+.word 0xf9403ba3
+.word 0xaa0303e0
+.word 0xd28000e1
+.word 0xf9400063
+.word 0xf9408470
+.word 0xd63f0200
+.word 0xf94037a3
+.word 0xaa0303e0
+.word 0xf90033a0
+
+adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
+add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
+ldr x2, [x16, #1792]
+.word 0xaa0303e0
+.word 0xd2800101
+.word 0xf9400063
+.word 0xf9408470
+.word 0xd63f0200
+.word 0xf94033a0
+bl _p_29
+.word 0xf9400bba
+.word 0x910003bf
+.word 0xa8cd7bfd
+.word 0xd65f03c0
+
+Lme_31:
+.text
+ut_50:
 add x0, x0, 16
 b System_Drawing_RectangleF__ctor_single_single_single_single
 .text
@@ -5302,9 +6020,9 @@ System_Drawing_RectangleF__ctor_single_single_single_single:
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_22:
+Lme_32:
 .text
-ut_35:
+ut_51:
 add x0, x0, 16
 b System_Drawing_RectangleF_get_X
 .text
@@ -5323,9 +6041,9 @@ System_Drawing_RectangleF_get_X:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_23:
+Lme_33:
 .text
-ut_36:
+ut_52:
 add x0, x0, 16
 b System_Drawing_RectangleF_get_Y
 .text
@@ -5344,9 +6062,9 @@ System_Drawing_RectangleF_get_Y:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_24:
+Lme_34:
 .text
-ut_37:
+ut_53:
 add x0, x0, 16
 b System_Drawing_RectangleF_get_Width
 .text
@@ -5365,9 +6083,9 @@ System_Drawing_RectangleF_get_Width:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_25:
+Lme_35:
 .text
-ut_38:
+ut_54:
 add x0, x0, 16
 b System_Drawing_RectangleF_get_Height
 .text
@@ -5386,9 +6104,9 @@ System_Drawing_RectangleF_get_Height:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_26:
+Lme_36:
 .text
-ut_39:
+ut_55:
 add x0, x0, 16
 b System_Drawing_RectangleF_Equals_object
 .text
@@ -5419,7 +6137,7 @@ bl _p_1
 
 adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
-ldr x1, [x16, #1800]
+ldr x1, [x16, #1840]
 .word 0xeb01001f
 .word 0x54000040
 .word 0xd2800018
@@ -5434,7 +6152,7 @@ ldr x1, [x16, #1800]
 
 adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
-ldr x1, [x16, #1800]
+ldr x1, [x16, #1840]
 .word 0xeb01001f
 .word 0x10000011
 .word 0x54000401
@@ -5460,7 +6178,7 @@ ldr x1, [x16, #1800]
 .word 0xbd4037b0
 .word 0x1e22c203
 .word 0x1e624063
-bl _p_37
+bl _p_42
 .word 0x53001c00
 .word 0x14000002
 .word 0xd2800000
@@ -5473,9 +6191,9 @@ bl _p_37
 .word 0xaa1103e1
 bl _p_7
 
-Lme_27:
+Lme_37:
 .text
-ut_40:
+ut_56:
 add x0, x0, 16
 b System_Drawing_RectangleF_Equals_System_Drawing_RectangleF
 .text
@@ -5530,15 +6248,15 @@ bl _p_1
 .word 0xbd4027b0
 .word 0x1e22c207
 .word 0x1e6240e7
-bl _p_38
+bl _p_43
 .word 0x53001c00
 .word 0x910003bf
 .word 0xa8c77bfd
 .word 0xd65f03c0
 
-Lme_28:
+Lme_38:
 .text
-ut_41:
+ut_57:
 add x0, x0, 16
 b System_Drawing_RectangleF_op_Equality_System_Drawing_RectangleF_System_Drawing_RectangleF
 .text
@@ -5618,9 +6336,9 @@ System_Drawing_RectangleF_op_Equality_System_Drawing_RectangleF_System_Drawing_R
 .word 0xa8ca7bfd
 .word 0xd65f03c0
 
-Lme_29:
+Lme_39:
 .text
-ut_42:
+ut_58:
 add x0, x0, 16
 b System_Drawing_RectangleF_GetHashCode
 .text
@@ -5651,7 +6369,7 @@ bl _p_1
 .word 0x1e624010
 .word 0xbd001bb0
 .word 0x910063a0
-bl _p_35
+bl _p_38
 .word 0x93407c00
 .word 0xf9001ba0
 .word 0xbd400750
@@ -5663,7 +6381,7 @@ bl _p_35
 .word 0x1e624010
 .word 0xbd001bb0
 .word 0x910063a0
-bl _p_35
+bl _p_38
 .word 0x93407c00
 .word 0xaa0003e1
 .word 0xf9401ba2
@@ -5682,7 +6400,7 @@ bl _p_35
 .word 0x1e624010
 .word 0xbd001bb0
 .word 0x910063a0
-bl _p_35
+bl _p_38
 .word 0x93407c00
 .word 0xaa0003e1
 .word 0xf94017a2
@@ -5701,7 +6419,7 @@ bl _p_35
 .word 0x1e624010
 .word 0xbd001bb0
 .word 0x910063a0
-bl _p_35
+bl _p_38
 .word 0x93407c00
 .word 0xaa0003e1
 .word 0xf94013a2
@@ -5715,9 +6433,9 @@ bl _p_35
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_2a:
+Lme_3a:
 .text
-ut_43:
+ut_59:
 add x0, x0, 16
 b System_Drawing_RectangleF_ToString
 .text
@@ -5769,7 +6487,7 @@ ldr x2, [x16, #1776]
 .word 0x1e624010
 .word 0xbd001bb0
 .word 0x910063a0
-bl _p_36
+bl _p_39
 .word 0xaa0003e2
 .word 0xf9403fa3
 .word 0xaa0303e0
@@ -5783,7 +6501,7 @@ bl _p_36
 
 adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
-ldr x2, [x16, #1808]
+ldr x2, [x16, #1784]
 .word 0xaa0303e0
 .word 0xd2800041
 .word 0xf9400063
@@ -5801,7 +6519,7 @@ ldr x2, [x16, #1808]
 .word 0x1e624010
 .word 0xbd001bb0
 .word 0x910063a0
-bl _p_36
+bl _p_39
 .word 0xaa0003e2
 .word 0xf94033a3
 .word 0xaa0303e0
@@ -5815,7 +6533,7 @@ bl _p_36
 
 adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
-ldr x2, [x16, #1816]
+ldr x2, [x16, #1824]
 .word 0xaa0303e0
 .word 0xd2800081
 .word 0xf9400063
@@ -5833,7 +6551,7 @@ ldr x2, [x16, #1816]
 .word 0x1e624010
 .word 0xbd001bb0
 .word 0x910063a0
-bl _p_36
+bl _p_39
 .word 0xaa0003e2
 .word 0xf94027a3
 .word 0xaa0303e0
@@ -5847,7 +6565,7 @@ bl _p_36
 
 adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
-ldr x2, [x16, #1824]
+ldr x2, [x16, #1832]
 .word 0xaa0303e0
 .word 0xd28000c1
 .word 0xf9400063
@@ -5865,7 +6583,7 @@ ldr x2, [x16, #1824]
 .word 0x1e624010
 .word 0xbd001bb0
 .word 0x910063a0
-bl _p_36
+bl _p_39
 .word 0xaa0003e2
 .word 0xf9401ba3
 .word 0xaa0303e0
@@ -5892,9 +6610,356 @@ bl _p_29
 .word 0xa8c97bfd
 .word 0xd65f03c0
 
-Lme_2b:
+Lme_3b:
 .text
-ut_44:
+ut_60:
+add x0, x0, 16
+b System_Drawing_Size__ctor_int_int
+.text
+	.align 4
+	.no_dead_strip System_Drawing_Size__ctor_int_int
+System_Drawing_Size__ctor_int_int:
+.loc 1 1 0
+.word 0xa9bd7bfd
+.word 0x910003fd
+.word 0xf9000bb8
+.word 0xaa0003f8
+.word 0xf9000fa1
+.word 0xf90013a2
+.word 0xb9801ba0
+.word 0xb9000300
+.word 0xb98023a0
+.word 0xb9000700
+.word 0xf9400bb8
+.word 0x910003bf
+.word 0xa8c37bfd
+.word 0xd65f03c0
+
+Lme_3c:
+.text
+ut_61:
+add x0, x0, 16
+b System_Drawing_Size_op_Equality_System_Drawing_Size_System_Drawing_Size
+.text
+	.align 4
+	.no_dead_strip System_Drawing_Size_op_Equality_System_Drawing_Size_System_Drawing_Size
+System_Drawing_Size_op_Equality_System_Drawing_Size_System_Drawing_Size:
+.loc 1 1 0
+.word 0xa9bd7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+.word 0xf90013a1
+.word 0xb98013a0
+.word 0xb98023a1
+.word 0x6b01001f
+.word 0x540000c1
+.word 0xb98017a0
+.word 0xb98027a1
+.word 0x6b01001f
+.word 0x9a9f17e0
+.word 0x14000002
+.word 0xd2800000
+.word 0x910003bf
+.word 0xa8c37bfd
+.word 0xd65f03c0
+
+Lme_3d:
+.text
+ut_62:
+add x0, x0, 16
+b System_Drawing_Size_op_Inequality_System_Drawing_Size_System_Drawing_Size
+.text
+	.align 4
+	.no_dead_strip System_Drawing_Size_op_Inequality_System_Drawing_Size_System_Drawing_Size
+System_Drawing_Size_op_Inequality_System_Drawing_Size_System_Drawing_Size:
+.loc 1 1 0
+.word 0xa9bd7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+.word 0xf90013a1
+
+adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
+add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
+ldr x0, [x16, #56]
+.word 0xf9400011
+.word 0xb4000051
+bl _p_1
+.word 0xf9400ba0
+.word 0xf94013a1
+bl _p_44
+.word 0x53001c00
+.word 0x6b1f001f
+.word 0x9a9f17e0
+.word 0x910003bf
+.word 0xa8c37bfd
+.word 0xd65f03c0
+
+Lme_3e:
+.text
+ut_63:
+add x0, x0, 16
+b System_Drawing_Size_get_Width
+.text
+	.align 4
+	.no_dead_strip System_Drawing_Size_get_Width
+System_Drawing_Size_get_Width:
+.loc 1 1 0
+.word 0xa9be7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+.word 0xf9400ba0
+.word 0xb9800000
+.word 0x910003bf
+.word 0xa8c27bfd
+.word 0xd65f03c0
+
+Lme_3f:
+.text
+ut_64:
+add x0, x0, 16
+b System_Drawing_Size_get_Height
+.text
+	.align 4
+	.no_dead_strip System_Drawing_Size_get_Height
+System_Drawing_Size_get_Height:
+.loc 1 1 0
+.word 0xa9be7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+.word 0xf9400ba0
+.word 0xb9800400
+.word 0x910003bf
+.word 0xa8c27bfd
+.word 0xd65f03c0
+
+Lme_40:
+.text
+ut_65:
+add x0, x0, 16
+b System_Drawing_Size_Equals_object
+.text
+	.align 4
+	.no_dead_strip System_Drawing_Size_Equals_object
+System_Drawing_Size_Equals_object:
+.loc 1 1 0
+.word 0xa9bd7bfd
+.word 0x910003fd
+.word 0xf9000bb8
+.word 0xf9000fba
+.word 0xf90013a0
+.word 0xaa0103fa
+
+adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
+add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
+ldr x0, [x16, #56]
+.word 0xf9400011
+.word 0xb4000051
+bl _p_1
+.word 0xaa1a03f8
+.word 0xeb1f035f
+.word 0x54000160
+.word 0xf9400340
+.word 0xf9400000
+.word 0xf9400800
+.word 0xf9400800
+
+adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
+add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
+ldr x1, [x16, #1848]
+.word 0xeb01001f
+.word 0x54000040
+.word 0xd2800018
+.word 0xb4000318
+.word 0xf9400340
+.word 0x3940b001
+.word 0xeb1f003f
+.word 0x10000011
+.word 0x54000321
+.word 0xf9400000
+.word 0xf9400000
+
+adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
+add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
+ldr x1, [x16, #1848]
+.word 0xeb01001f
+.word 0x10000011
+.word 0x54000221
+.word 0x91004340
+.word 0xb9800001
+.word 0xb9002ba1
+.word 0xb9800400
+.word 0xb9002fa0
+.word 0xf94013a0
+.word 0xf94017a1
+bl _p_45
+.word 0x53001c00
+.word 0x14000002
+.word 0xd2800000
+.word 0xf9400bb8
+.word 0xf9400fba
+.word 0x910003bf
+.word 0xa8c37bfd
+.word 0xd65f03c0
+.word 0xd2801920
+.word 0xaa1103e1
+bl _p_7
+
+Lme_41:
+.text
+ut_66:
+add x0, x0, 16
+b System_Drawing_Size_Equals_System_Drawing_Size
+.text
+	.align 4
+	.no_dead_strip System_Drawing_Size_Equals_System_Drawing_Size
+System_Drawing_Size_Equals_System_Drawing_Size:
+.loc 1 1 0
+.word 0xa9bd7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+.word 0xf9000fa1
+
+adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
+add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
+ldr x0, [x16, #56]
+.word 0xf9400011
+.word 0xb4000051
+bl _p_1
+.word 0xf9400ba0
+.word 0xb9800001
+.word 0xb9002ba1
+.word 0xb9800400
+.word 0xb9002fa0
+.word 0xf94017a0
+.word 0xf9400fa1
+bl _p_44
+.word 0x53001c00
+.word 0x910003bf
+.word 0xa8c37bfd
+.word 0xd65f03c0
+
+Lme_42:
+.text
+ut_67:
+add x0, x0, 16
+b System_Drawing_Size_GetHashCode
+.text
+	.align 4
+	.no_dead_strip System_Drawing_Size_GetHashCode
+System_Drawing_Size_GetHashCode:
+.loc 1 1 0
+.word 0xa9be7bfd
+.word 0x910003fd
+.word 0xf9000bba
+.word 0xaa0003fa
+.word 0xb9800342
+.word 0xb9800741
+.word 0x531b6840
+.word 0x531b7c43
+.word 0x2a030000
+.word 0xb020000
+.word 0x4a010000
+.word 0xf9400bba
+.word 0x910003bf
+.word 0xa8c27bfd
+.word 0xd65f03c0
+
+Lme_43:
+.text
+ut_68:
+add x0, x0, 16
+b System_Drawing_Size_ToString
+.text
+	.align 4
+	.no_dead_strip System_Drawing_Size_ToString
+System_Drawing_Size_ToString:
+.loc 1 1 0
+.word 0xa9b87bfd
+.word 0x910003fd
+.word 0xf9000ba0
+
+adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
+add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
+ldr x0, [x16, #56]
+.word 0xf9400011
+.word 0xb4000051
+bl _p_1
+
+adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
+add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
+ldr x0, [x16, #264]
+.word 0xd28000a1
+bl _p_5
+.word 0xaa0003e3
+.word 0xaa0303e0
+.word 0xf9003ba0
+
+adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
+add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
+ldr x2, [x16, #1856]
+.word 0xaa0303e0
+.word 0xd2800001
+.word 0xf9400063
+.word 0xf9408470
+.word 0xd63f0200
+.word 0xf9403ba0
+.word 0xf90037a0
+.word 0xf90033a0
+.word 0xf9400ba0
+bl _p_35
+.word 0xaa0003e2
+.word 0xf94037a3
+.word 0xaa0303e0
+.word 0xd2800021
+.word 0xf9400063
+.word 0xf9408470
+.word 0xd63f0200
+.word 0xf94033a3
+.word 0xaa0303e0
+.word 0xf9002fa0
+
+adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
+add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
+ldr x2, [x16, #1864]
+.word 0xaa0303e0
+.word 0xd2800041
+.word 0xf9400063
+.word 0xf9408470
+.word 0xd63f0200
+.word 0xf9402fa0
+.word 0xf9002ba0
+.word 0xf90027a0
+.word 0xf9400ba0
+.word 0x91001000
+bl _p_35
+.word 0xaa0003e2
+.word 0xf9402ba3
+.word 0xaa0303e0
+.word 0xd2800061
+.word 0xf9400063
+.word 0xf9408470
+.word 0xd63f0200
+.word 0xf94027a3
+.word 0xaa0303e0
+.word 0xf90023a0
+
+adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
+add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
+ldr x2, [x16, #1792]
+.word 0xaa0303e0
+.word 0xd2800081
+.word 0xf9400063
+.word 0xf9408470
+.word 0xd63f0200
+.word 0xf94023a0
+bl _p_29
+.word 0x910003bf
+.word 0xa8c87bfd
+.word 0xd65f03c0
+
+Lme_44:
+.text
+ut_69:
 add x0, x0, 16
 b System_Drawing_SizeF__ctor_single_single
 .text
@@ -5921,9 +6986,9 @@ System_Drawing_SizeF__ctor_single_single:
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_2c:
+Lme_45:
 .text
-ut_45:
+ut_70:
 add x0, x0, 16
 b System_Drawing_SizeF_op_Equality_System_Drawing_SizeF_System_Drawing_SizeF
 .text
@@ -5971,9 +7036,9 @@ System_Drawing_SizeF_op_Equality_System_Drawing_SizeF_System_Drawing_SizeF:
 .word 0xa8ca7bfd
 .word 0xd65f03c0
 
-Lme_2d:
+Lme_46:
 .text
-ut_46:
+ut_71:
 add x0, x0, 16
 b System_Drawing_SizeF_get_Width
 .text
@@ -5992,9 +7057,9 @@ System_Drawing_SizeF_get_Width:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_2e:
+Lme_47:
 .text
-ut_47:
+ut_72:
 add x0, x0, 16
 b System_Drawing_SizeF_get_Height
 .text
@@ -6013,9 +7078,9 @@ System_Drawing_SizeF_get_Height:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_2f:
+Lme_48:
 .text
-ut_48:
+ut_73:
 add x0, x0, 16
 b System_Drawing_SizeF_Equals_object
 .text
@@ -6046,7 +7111,7 @@ bl _p_1
 
 adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
-ldr x1, [x16, #1832]
+ldr x1, [x16, #1872]
 .word 0xeb01001f
 .word 0x54000040
 .word 0xd2800018
@@ -6061,7 +7126,7 @@ ldr x1, [x16, #1832]
 
 adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
-ldr x1, [x16, #1832]
+ldr x1, [x16, #1872]
 .word 0xeb01001f
 .word 0x10000011
 .word 0x540002c1
@@ -6077,7 +7142,7 @@ ldr x1, [x16, #1832]
 .word 0xbd402fb0
 .word 0x1e22c201
 .word 0x1e624021
-bl _p_39
+bl _p_46
 .word 0x53001c00
 .word 0x14000002
 .word 0xd2800000
@@ -6090,9 +7155,9 @@ bl _p_39
 .word 0xaa1103e1
 bl _p_7
 
-Lme_30:
+Lme_49:
 .text
-ut_49:
+ut_74:
 add x0, x0, 16
 b System_Drawing_SizeF_Equals_System_Drawing_SizeF
 .text
@@ -6129,15 +7194,15 @@ bl _p_1
 .word 0xbd401fb0
 .word 0x1e22c203
 .word 0x1e624063
-bl _p_40
+bl _p_47
 .word 0x53001c00
 .word 0x910003bf
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_31:
+Lme_4a:
 .text
-ut_50:
+ut_75:
 add x0, x0, 16
 b System_Drawing_SizeF_GetHashCode
 .text
@@ -6168,7 +7233,7 @@ bl _p_1
 .word 0x1e624010
 .word 0xbd001bb0
 .word 0x910063a0
-bl _p_35
+bl _p_38
 .word 0x93407c00
 .word 0xf90013a0
 .word 0xbd400750
@@ -6180,7 +7245,7 @@ bl _p_35
 .word 0x1e624010
 .word 0xbd001bb0
 .word 0x910063a0
-bl _p_35
+bl _p_38
 .word 0x93407c00
 .word 0xaa0003e1
 .word 0xf94013a2
@@ -6194,9 +7259,9 @@ bl _p_35
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_32:
+Lme_4b:
 .text
-ut_51:
+ut_76:
 add x0, x0, 16
 b System_Drawing_SizeF_ToString
 .text
@@ -6226,7 +7291,7 @@ bl _p_5
 
 adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
-ldr x2, [x16, #1840]
+ldr x2, [x16, #1856]
 .word 0xaa0303e0
 .word 0xd2800001
 .word 0xf9400063
@@ -6236,7 +7301,7 @@ ldr x2, [x16, #1840]
 .word 0xf90027a0
 .word 0xf90023a0
 .word 0xf9400ba0
-bl _p_36
+bl _p_39
 .word 0xaa0003e2
 .word 0xf94027a3
 .word 0xaa0303e0
@@ -6250,7 +7315,7 @@ bl _p_36
 
 adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
-ldr x2, [x16, #1848]
+ldr x2, [x16, #1864]
 .word 0xaa0303e0
 .word 0xd2800041
 .word 0xf9400063
@@ -6261,7 +7326,7 @@ ldr x2, [x16, #1848]
 .word 0xf90017a0
 .word 0xf9400ba0
 .word 0x91001000
-bl _p_36
+bl _p_39
 .word 0xaa0003e2
 .word 0xf9401ba3
 .word 0xaa0303e0
@@ -6287,9 +7352,9 @@ bl _p_29
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_33:
+Lme_4c:
 .text
-ut_57:
+ut_85:
 add x0, x0, 16
 b wrapper_other_System_Drawing_Color_StructureToPtr_object_intptr_bool
 .text
@@ -6319,9 +7384,9 @@ bl _p_1
 .word 0xf9001ba1
 .word 0x34000060
 .word 0xf9400300
-bl _p_41
+bl _p_48
 .word 0xf9400340
-bl _p_42
+bl _p_49
 .word 0xf9000300
 .word 0xf94017a0
 .word 0x9100201a
@@ -6345,9 +7410,9 @@ bl _p_42
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_39:
+Lme_55:
 .text
-ut_58:
+ut_86:
 add x0, x0, 16
 b wrapper_other_System_Drawing_Color_PtrToStructure_intptr_object
 .text
@@ -6371,7 +7436,7 @@ bl _p_1
 .word 0xf90013a0
 .word 0xf9400ba0
 .word 0xf9400000
-bl _p_43
+bl _p_50
 .word 0xaa0003e1
 .word 0xf94013a0
 .word 0xf9000001
@@ -6403,9 +7468,55 @@ ldr x3, [x16, #16]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_3a:
+Lme_56:
 .text
-ut_59:
+ut_87:
+add x0, x0, 16
+b wrapper_other_System_Drawing_Point_StructureToPtr_object_intptr_bool
+.text
+	.align 4
+	.no_dead_strip wrapper_other_System_Drawing_Point_StructureToPtr_object_intptr_bool
+wrapper_other_System_Drawing_Point_StructureToPtr_object_intptr_bool:
+.loc 1 1 0
+.word 0xa9bd7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+.word 0xf9000fa1
+.word 0xf90013a2
+.word 0xf9400ba0
+.word 0xf9400801
+.word 0xf9400fa0
+.word 0xf9000001
+.word 0x910003bf
+.word 0xa8c37bfd
+.word 0xd65f03c0
+
+Lme_57:
+.text
+ut_88:
+add x0, x0, 16
+b wrapper_other_System_Drawing_Point_PtrToStructure_intptr_object
+.text
+	.align 4
+	.no_dead_strip wrapper_other_System_Drawing_Point_PtrToStructure_intptr_object
+wrapper_other_System_Drawing_Point_PtrToStructure_intptr_object:
+.loc 1 1 0
+.word 0xa9be7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+.word 0xf9000fa1
+.word 0xf9400fa0
+.word 0x91004000
+.word 0xf9400ba1
+.word 0xf9400021
+.word 0xf9000001
+.word 0x910003bf
+.word 0xa8c27bfd
+.word 0xd65f03c0
+
+Lme_58:
+.text
+ut_89:
 add x0, x0, 16
 b wrapper_other_System_Drawing_PointF_StructureToPtr_object_intptr_bool
 .text
@@ -6426,9 +7537,9 @@ wrapper_other_System_Drawing_PointF_StructureToPtr_object_intptr_bool:
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_3b:
+Lme_59:
 .text
-ut_60:
+ut_90:
 add x0, x0, 16
 b wrapper_other_System_Drawing_PointF_PtrToStructure_intptr_object
 .text
@@ -6449,9 +7560,60 @@ wrapper_other_System_Drawing_PointF_PtrToStructure_intptr_object:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_3c:
+Lme_5a:
 .text
-ut_61:
+ut_91:
+add x0, x0, 16
+b wrapper_other_System_Drawing_Rectangle_StructureToPtr_object_intptr_bool
+.text
+	.align 4
+	.no_dead_strip wrapper_other_System_Drawing_Rectangle_StructureToPtr_object_intptr_bool
+wrapper_other_System_Drawing_Rectangle_StructureToPtr_object_intptr_bool:
+.loc 1 1 0
+.word 0xa9bd7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+.word 0xf9000fa1
+.word 0xf90013a2
+.word 0xf9400ba0
+.word 0x91004001
+.word 0xf9400802
+.word 0xf9400fa0
+.word 0xf9000002
+.word 0xf9400421
+.word 0xf9000401
+.word 0x910003bf
+.word 0xa8c37bfd
+.word 0xd65f03c0
+
+Lme_5b:
+.text
+ut_92:
+add x0, x0, 16
+b wrapper_other_System_Drawing_Rectangle_PtrToStructure_intptr_object
+.text
+	.align 4
+	.no_dead_strip wrapper_other_System_Drawing_Rectangle_PtrToStructure_intptr_object
+wrapper_other_System_Drawing_Rectangle_PtrToStructure_intptr_object:
+.loc 1 1 0
+.word 0xa9be7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+.word 0xf9000fa1
+.word 0xf9400fa0
+.word 0x91004000
+.word 0xf9400ba1
+.word 0xf9400022
+.word 0xf9000002
+.word 0xf9400421
+.word 0xf9000401
+.word 0x910003bf
+.word 0xa8c27bfd
+.word 0xd65f03c0
+
+Lme_5c:
+.text
+ut_93:
 add x0, x0, 16
 b wrapper_other_System_Drawing_RectangleF_StructureToPtr_object_intptr_bool
 .text
@@ -6475,9 +7637,9 @@ wrapper_other_System_Drawing_RectangleF_StructureToPtr_object_intptr_bool:
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_3d:
+Lme_5d:
 .text
-ut_62:
+ut_94:
 add x0, x0, 16
 b wrapper_other_System_Drawing_RectangleF_PtrToStructure_intptr_object
 .text
@@ -6500,9 +7662,55 @@ wrapper_other_System_Drawing_RectangleF_PtrToStructure_intptr_object:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_3e:
+Lme_5e:
 .text
-ut_63:
+ut_95:
+add x0, x0, 16
+b wrapper_other_System_Drawing_Size_StructureToPtr_object_intptr_bool
+.text
+	.align 4
+	.no_dead_strip wrapper_other_System_Drawing_Size_StructureToPtr_object_intptr_bool
+wrapper_other_System_Drawing_Size_StructureToPtr_object_intptr_bool:
+.loc 1 1 0
+.word 0xa9bd7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+.word 0xf9000fa1
+.word 0xf90013a2
+.word 0xf9400ba0
+.word 0xf9400801
+.word 0xf9400fa0
+.word 0xf9000001
+.word 0x910003bf
+.word 0xa8c37bfd
+.word 0xd65f03c0
+
+Lme_5f:
+.text
+ut_96:
+add x0, x0, 16
+b wrapper_other_System_Drawing_Size_PtrToStructure_intptr_object
+.text
+	.align 4
+	.no_dead_strip wrapper_other_System_Drawing_Size_PtrToStructure_intptr_object
+wrapper_other_System_Drawing_Size_PtrToStructure_intptr_object:
+.loc 1 1 0
+.word 0xa9be7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+.word 0xf9000fa1
+.word 0xf9400fa0
+.word 0x91004000
+.word 0xf9400ba1
+.word 0xf9400021
+.word 0xf9000001
+.word 0x910003bf
+.word 0xa8c27bfd
+.word 0xd65f03c0
+
+Lme_60:
+.text
+ut_97:
 add x0, x0, 16
 b wrapper_other_System_Drawing_SizeF_StructureToPtr_object_intptr_bool
 .text
@@ -6523,9 +7731,9 @@ wrapper_other_System_Drawing_SizeF_StructureToPtr_object_intptr_bool:
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_3f:
+Lme_61:
 .text
-ut_64:
+ut_98:
 add x0, x0, 16
 b wrapper_other_System_Drawing_SizeF_PtrToStructure_intptr_object
 .text
@@ -6546,7 +7754,7 @@ wrapper_other_System_Drawing_SizeF_PtrToStructure_intptr_object:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_40:
+Lme_62:
 .text
 	.align 3
 jit_code_end:
@@ -6582,6 +7790,13 @@ bl System_Drawing_Color_op_Equality_System_Drawing_Color_System_Drawing_Color
 bl System_Drawing_Color_Equals_object
 bl System_Drawing_Color_Equals_System_Drawing_Color
 bl System_Drawing_Color_GetHashCode
+bl System_Drawing_Point_get_X
+bl System_Drawing_Point_get_Y
+bl System_Drawing_Point_op_Equality_System_Drawing_Point_System_Drawing_Point
+bl System_Drawing_Point_Equals_object
+bl System_Drawing_Point_Equals_System_Drawing_Point
+bl System_Drawing_Point_GetHashCode
+bl System_Drawing_Point_ToString
 bl System_Drawing_PointF__ctor_single_single
 bl System_Drawing_PointF_get_X
 bl System_Drawing_PointF_get_Y
@@ -6590,6 +7805,15 @@ bl System_Drawing_PointF_Equals_object
 bl System_Drawing_PointF_Equals_System_Drawing_PointF
 bl System_Drawing_PointF_GetHashCode
 bl System_Drawing_PointF_ToString
+bl System_Drawing_Rectangle_get_X
+bl System_Drawing_Rectangle_get_Y
+bl System_Drawing_Rectangle_get_Width
+bl System_Drawing_Rectangle_get_Height
+bl System_Drawing_Rectangle_Equals_object
+bl System_Drawing_Rectangle_Equals_System_Drawing_Rectangle
+bl System_Drawing_Rectangle_op_Equality_System_Drawing_Rectangle_System_Drawing_Rectangle
+bl System_Drawing_Rectangle_GetHashCode
+bl System_Drawing_Rectangle_ToString
 bl System_Drawing_RectangleF__ctor_single_single_single_single
 bl System_Drawing_RectangleF_get_X
 bl System_Drawing_RectangleF_get_Y
@@ -6600,6 +7824,15 @@ bl System_Drawing_RectangleF_Equals_System_Drawing_RectangleF
 bl System_Drawing_RectangleF_op_Equality_System_Drawing_RectangleF_System_Drawing_RectangleF
 bl System_Drawing_RectangleF_GetHashCode
 bl System_Drawing_RectangleF_ToString
+bl System_Drawing_Size__ctor_int_int
+bl System_Drawing_Size_op_Equality_System_Drawing_Size_System_Drawing_Size
+bl System_Drawing_Size_op_Inequality_System_Drawing_Size_System_Drawing_Size
+bl System_Drawing_Size_get_Width
+bl System_Drawing_Size_get_Height
+bl System_Drawing_Size_Equals_object
+bl System_Drawing_Size_Equals_System_Drawing_Size
+bl System_Drawing_Size_GetHashCode
+bl System_Drawing_Size_ToString
 bl System_Drawing_SizeF__ctor_single_single
 bl System_Drawing_SizeF_op_Equality_System_Drawing_SizeF_System_Drawing_SizeF
 bl System_Drawing_SizeF_get_Width
@@ -6613,12 +7846,21 @@ bl method_addresses
 bl method_addresses
 bl method_addresses
 bl method_addresses
+bl method_addresses
+bl method_addresses
+bl method_addresses
 bl wrapper_other_System_Drawing_Color_StructureToPtr_object_intptr_bool
 bl wrapper_other_System_Drawing_Color_PtrToStructure_intptr_object
+bl wrapper_other_System_Drawing_Point_StructureToPtr_object_intptr_bool
+bl wrapper_other_System_Drawing_Point_PtrToStructure_intptr_object
 bl wrapper_other_System_Drawing_PointF_StructureToPtr_object_intptr_bool
 bl wrapper_other_System_Drawing_PointF_PtrToStructure_intptr_object
+bl wrapper_other_System_Drawing_Rectangle_StructureToPtr_object_intptr_bool
+bl wrapper_other_System_Drawing_Rectangle_PtrToStructure_intptr_object
 bl wrapper_other_System_Drawing_RectangleF_StructureToPtr_object_intptr_bool
 bl wrapper_other_System_Drawing_RectangleF_PtrToStructure_intptr_object
+bl wrapper_other_System_Drawing_Size_StructureToPtr_object_intptr_bool
+bl wrapper_other_System_Drawing_Size_PtrToStructure_intptr_object
 bl wrapper_other_System_Drawing_SizeF_StructureToPtr_object_intptr_bool
 bl wrapper_other_System_Drawing_SizeF_PtrToStructure_intptr_object
 method_addresses_end:
@@ -6632,8 +7874,12 @@ unbox_trampolines:
 	.long 25,26,27,28,29,30,31,32
 	.long 33,34,35,36,37,38,39,40
 	.long 41,42,43,44,45,46,47,48
-	.long 49,50,51,57,58,59,60,61
-	.long 62,63,64
+	.long 49,50,51,52,53,54,55,56
+	.long 57,58,59,60,61,62,63,64
+	.long 65,66,67,68,69,70,71,72
+	.long 73,74,75,76,85,86,87,88
+	.long 89,90,91,92,93,94,95,96
+	.long 97,98
 unbox_trampolines_end:
 
 	.long 0
@@ -6683,6 +7929,11 @@ bl ut_48
 bl ut_49
 bl ut_50
 bl ut_51
+bl ut_52
+bl ut_53
+bl ut_54
+bl ut_55
+bl ut_56
 bl ut_57
 bl ut_58
 bl ut_59
@@ -6691,6 +7942,32 @@ bl ut_61
 bl ut_62
 bl ut_63
 bl ut_64
+bl ut_65
+bl ut_66
+bl ut_67
+bl ut_68
+bl ut_69
+bl ut_70
+bl ut_71
+bl ut_72
+bl ut_73
+bl ut_74
+bl ut_75
+bl ut_76
+bl ut_85
+bl ut_86
+bl ut_87
+bl ut_88
+bl ut_89
+bl ut_90
+bl ut_91
+bl ut_92
+bl ut_93
+bl ut_94
+bl ut_95
+bl ut_96
+bl ut_97
+bl ut_98
 
 	.long 0
 .section __TEXT, __const
@@ -6702,10 +7979,12 @@ unwind_info:
 	.byte 68,14,32,157,4,158,3,68,13,29,68,154,2,16,12,31,0,68,14,64,157,8,158,7,68,13,29,68,150,6,13,12
 	.byte 31,0,68,14,96,157,12,158,11,68,13,29,13,12,31,0,68,14,112,157,14,158,13,68,13,29,17,12,31,0,68,14
 	.byte 208,1,157,26,158,25,68,13,29,68,154,24,19,12,31,0,68,14,96,157,12,158,11,68,13,29,68,152,10,68,154,9
-	.byte 18,12,31,0,68,14,32,157,4,158,3,68,13,29,68,153,2,154,1,16,12,31,0,68,14,48,157,6,158,5,68,13
-	.byte 29,68,154,4,14,12,31,0,68,14,160,1,157,20,158,19,68,13,29,19,12,31,0,68,14,48,157,6,158,5,68,13
-	.byte 29,68,152,4,68,154,3,16,12,31,0,68,14,64,157,8,158,7,68,13,29,68,154,6,19,12,31,0,68,14,64,157
-	.byte 8,158,7,68,13,29,68,152,6,68,154,5,17,12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,154,16
+	.byte 18,12,31,0,68,14,32,157,4,158,3,68,13,29,68,153,2,154,1,19,12,31,0,68,14,48,157,6,158,5,68,13
+	.byte 29,68,152,4,68,154,3,17,12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,154,14,16,12,31,0,68,14,48
+	.byte 157,6,158,5,68,13,29,68,154,4,14,12,31,0,68,14,160,1,157,20,158,19,68,13,29,19,12,31,0,68,14,64
+	.byte 157,8,158,7,68,13,29,68,152,6,68,154,5,13,12,31,0,68,14,64,157,8,158,7,68,13,29,16,12,31,0,68
+	.byte 14,64,157,8,158,7,68,13,29,68,154,6,17,12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,154,16,16,12
+	.byte 31,0,68,14,48,157,6,158,5,68,13,29,68,152,4,14,12,31,0,68,14,128,1,157,16,158,15,68,13,29
 
 .text
 	.align 4
@@ -6716,349 +7995,405 @@ plt__jit_icall_mono_threads_state_poll:
 _p_1:
 adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
-ldr x16, [x16, #1864]
+ldr x16, [x16, #1888]
 br x16
-.word 1662
+.word 1799
 	.no_dead_strip plt__jit_icall_mono_generic_class_init
 plt__jit_icall_mono_generic_class_init:
 _p_2:
 adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
-ldr x16, [x16, #1872]
+ldr x16, [x16, #1896]
 br x16
-.word 1688
+.word 1825
 	.no_dead_strip plt_string_Format_System_IFormatProvider_string_object__
 plt_string_Format_System_IFormatProvider_string_object__:
 _p_3:
 adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
-ldr x16, [x16, #1880]
+ldr x16, [x16, #1904]
 br x16
-.word 1714
+.word 1851
 	.no_dead_strip plt_System_Drawing_KnownColorTable_InitColorTable
 plt_System_Drawing_KnownColorTable_InitColorTable:
 _p_4:
 adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
-ldr x16, [x16, #1888]
+ldr x16, [x16, #1912]
 br x16
-.word 1719
+.word 1856
 	.no_dead_strip plt_wrapper_alloc_object_AllocVector_intptr_intptr
 plt_wrapper_alloc_object_AllocVector_intptr_intptr:
 _p_5:
 adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
-ldr x16, [x16, #1896]
+ldr x16, [x16, #1920]
 br x16
-.word 1721
+.word 1858
 	.no_dead_strip plt_System_Drawing_KnownColorTable_UpdateSystemColors_int__
 plt_System_Drawing_KnownColorTable_UpdateSystemColors_int__:
 _p_6:
 adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
-ldr x16, [x16, #1904]
+ldr x16, [x16, #1928]
 br x16
-.word 1729
+.word 1866
 	.no_dead_strip plt__jit_icall_mono_arch_throw_corlib_exception
 plt__jit_icall_mono_arch_throw_corlib_exception:
 _p_7:
 adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
-ldr x16, [x16, #1912]
+ldr x16, [x16, #1936]
 br x16
-.word 1731
+.word 1868
 	.no_dead_strip plt_System_Drawing_KnownColorTable_InitColorNameTable
 plt_System_Drawing_KnownColorTable_InitColorNameTable:
 _p_8:
 adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
-ldr x16, [x16, #1920]
+ldr x16, [x16, #1944]
 br x16
-.word 1766
+.word 1903
 	.no_dead_strip plt_System_Drawing_KnownColorTable_EnsureColorTable
 plt_System_Drawing_KnownColorTable_EnsureColorTable:
 _p_9:
 adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
-ldr x16, [x16, #1928]
+ldr x16, [x16, #1952]
 br x16
-.word 1768
+.word 1905
 	.no_dead_strip plt_System_Drawing_KnownColorTable_EnsureColorNameTable
 plt_System_Drawing_KnownColorTable_EnsureColorNameTable:
 _p_10:
 adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
-ldr x16, [x16, #1936]
+ldr x16, [x16, #1960]
 br x16
-.word 1770
+.word 1907
 	.no_dead_strip plt_System_Drawing_Color_get_Value
 plt_System_Drawing_Color_get_Value:
 _p_11:
 adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
-ldr x16, [x16, #1944]
+ldr x16, [x16, #1968]
 br x16
-.word 1772
+.word 1909
 	.no_dead_strip plt_System_Drawing_KnownColorTable_KnownColorToName_System_Drawing_KnownColor
 plt_System_Drawing_KnownColorTable_KnownColorToName_System_Drawing_KnownColor:
 _p_12:
 adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
-ldr x16, [x16, #1952]
+ldr x16, [x16, #1976]
 br x16
-.word 1774
+.word 1911
 	.no_dead_strip plt_System_Convert_ToString_long_int
 plt_System_Convert_ToString_long_int:
 _p_13:
 adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
-ldr x16, [x16, #1960]
+ldr x16, [x16, #1984]
 br x16
-.word 1776
+.word 1913
 	.no_dead_strip plt_System_Drawing_KnownColorTable_KnownColorToArgb_System_Drawing_KnownColor
 plt_System_Drawing_KnownColorTable_KnownColorToArgb_System_Drawing_KnownColor:
 _p_14:
 adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
-ldr x16, [x16, #1968]
+ldr x16, [x16, #1992]
 br x16
-.word 1781
+.word 1918
 	.no_dead_strip plt__jit_icall_mono_helper_ldstr
 plt__jit_icall_mono_helper_ldstr:
 _p_15:
 adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
-ldr x16, [x16, #1976]
+ldr x16, [x16, #2000]
 br x16
-.word 1783
+.word 1920
 	.no_dead_strip plt__jit_icall_mono_helper_newobj_mscorlib
 plt__jit_icall_mono_helper_newobj_mscorlib:
 _p_16:
 adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
-ldr x16, [x16, #1984]
+ldr x16, [x16, #2008]
 br x16
-.word 1803
+.word 1940
 	.no_dead_strip plt_SR_Format_string_object__
 plt_SR_Format_string_object__:
 _p_17:
 adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
-ldr x16, [x16, #1992]
+ldr x16, [x16, #2016]
 br x16
-.word 1833
+.word 1970
 	.no_dead_strip plt__jit_icall_mono_arch_throw_exception
 plt__jit_icall_mono_arch_throw_exception:
 _p_18:
 adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
-ldr x16, [x16, #2000]
+ldr x16, [x16, #2024]
 br x16
-.word 1835
+.word 1972
 	.no_dead_strip plt_System_Drawing_Color_CheckByte_int_string
 plt_System_Drawing_Color_CheckByte_int_string:
 _p_19:
 adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
-ldr x16, [x16, #2008]
+ldr x16, [x16, #2032]
 br x16
-.word 1863
+.word 2000
 	.no_dead_strip plt_System_Drawing_Color_MakeArgb_byte_byte_byte_byte
 plt_System_Drawing_Color_MakeArgb_byte_byte_byte_byte:
 _p_20:
 adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
-ldr x16, [x16, #2016]
+ldr x16, [x16, #2040]
 br x16
-.word 1865
+.word 2002
 	.no_dead_strip plt_System_Drawing_Color__ctor_long_int16_string_System_Drawing_KnownColor
 plt_System_Drawing_Color__ctor_long_int16_string_System_Drawing_KnownColor:
 _p_21:
 adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
-ldr x16, [x16, #2024]
+ldr x16, [x16, #2048]
 br x16
-.word 1867
+.word 2004
 	.no_dead_strip plt_System_Drawing_Color_get_Name
 plt_System_Drawing_Color_get_Name:
 _p_22:
 adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
-ldr x16, [x16, #2032]
+ldr x16, [x16, #2056]
 br x16
-.word 1869
+.word 2006
 	.no_dead_strip plt_string_Concat_string_string_string
 plt_string_Concat_string_string_string:
 _p_23:
 adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
-ldr x16, [x16, #2040]
+ldr x16, [x16, #2064]
 br x16
-.word 1871
+.word 2008
 	.no_dead_strip plt_System_Drawing_Color_get_A
 plt_System_Drawing_Color_get_A:
 _p_24:
 adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
-ldr x16, [x16, #2048]
+ldr x16, [x16, #2072]
 br x16
-.word 1876
+.word 2013
 	.no_dead_strip plt_byte_ToString
 plt_byte_ToString:
 _p_25:
 adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
-ldr x16, [x16, #2056]
+ldr x16, [x16, #2080]
 br x16
-.word 1878
+.word 2015
 	.no_dead_strip plt_System_Drawing_Color_get_R
 plt_System_Drawing_Color_get_R:
 _p_26:
 adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
-ldr x16, [x16, #2064]
+ldr x16, [x16, #2088]
 br x16
-.word 1883
+.word 2020
 	.no_dead_strip plt_System_Drawing_Color_get_G
 plt_System_Drawing_Color_get_G:
 _p_27:
 adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
-ldr x16, [x16, #2072]
+ldr x16, [x16, #2096]
 br x16
-.word 1885
+.word 2022
 	.no_dead_strip plt_System_Drawing_Color_get_B
 plt_System_Drawing_Color_get_B:
 _p_28:
 adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
-ldr x16, [x16, #2080]
+ldr x16, [x16, #2104]
 br x16
-.word 1887
+.word 2024
 	.no_dead_strip plt_string_Concat_string__
 plt_string_Concat_string__:
 _p_29:
 adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
-ldr x16, [x16, #2088]
+ldr x16, [x16, #2112]
 br x16
-.word 1889
+.word 2026
 	.no_dead_strip plt_string_op_Equality_string_string
 plt_string_op_Equality_string_string:
 _p_30:
 adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
-ldr x16, [x16, #2096]
+ldr x16, [x16, #2120]
 br x16
-.word 1894
+.word 2031
 	.no_dead_strip plt_System_Drawing_Color_Equals_System_Drawing_Color
 plt_System_Drawing_Color_Equals_System_Drawing_Color:
 _p_31:
 adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
-ldr x16, [x16, #2104]
+ldr x16, [x16, #2128]
 br x16
-.word 1899
+.word 2036
 	.no_dead_strip plt_System_Drawing_Color_op_Equality_System_Drawing_Color_System_Drawing_Color
 plt_System_Drawing_Color_op_Equality_System_Drawing_Color_System_Drawing_Color:
 _p_32:
 adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
-ldr x16, [x16, #2112]
-br x16
-.word 1901
-	.no_dead_strip plt_System_Drawing_PointF_Equals_System_Drawing_PointF
-plt_System_Drawing_PointF_Equals_System_Drawing_PointF:
-_p_33:
-adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
-add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
-ldr x16, [x16, #2120]
-br x16
-.word 1903
-	.no_dead_strip plt_System_Drawing_PointF_op_Equality_System_Drawing_PointF_System_Drawing_PointF
-plt_System_Drawing_PointF_op_Equality_System_Drawing_PointF_System_Drawing_PointF:
-_p_34:
-adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
-add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
-ldr x16, [x16, #2128]
-br x16
-.word 1905
-	.no_dead_strip plt_single_GetHashCode
-plt_single_GetHashCode:
-_p_35:
-adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
-add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #2136]
 br x16
-.word 1907
-	.no_dead_strip plt_single_ToString
-plt_single_ToString:
-_p_36:
+.word 2038
+	.no_dead_strip plt_System_Drawing_Point_Equals_System_Drawing_Point
+plt_System_Drawing_Point_Equals_System_Drawing_Point:
+_p_33:
 adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #2144]
 br x16
-.word 1912
-	.no_dead_strip plt_System_Drawing_RectangleF_Equals_System_Drawing_RectangleF
-plt_System_Drawing_RectangleF_Equals_System_Drawing_RectangleF:
-_p_37:
+.word 2040
+	.no_dead_strip plt_System_Drawing_Point_op_Equality_System_Drawing_Point_System_Drawing_Point
+plt_System_Drawing_Point_op_Equality_System_Drawing_Point_System_Drawing_Point:
+_p_34:
 adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #2152]
 br x16
-.word 1917
-	.no_dead_strip plt_System_Drawing_RectangleF_op_Equality_System_Drawing_RectangleF_System_Drawing_RectangleF
-plt_System_Drawing_RectangleF_op_Equality_System_Drawing_RectangleF_System_Drawing_RectangleF:
-_p_38:
+.word 2042
+	.no_dead_strip plt_int_ToString
+plt_int_ToString:
+_p_35:
 adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #2160]
 br x16
-.word 1919
-	.no_dead_strip plt_System_Drawing_SizeF_Equals_System_Drawing_SizeF
-plt_System_Drawing_SizeF_Equals_System_Drawing_SizeF:
-_p_39:
+.word 2044
+	.no_dead_strip plt_System_Drawing_PointF_Equals_System_Drawing_PointF
+plt_System_Drawing_PointF_Equals_System_Drawing_PointF:
+_p_36:
 adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #2168]
 br x16
-.word 1921
-	.no_dead_strip plt_System_Drawing_SizeF_op_Equality_System_Drawing_SizeF_System_Drawing_SizeF
-plt_System_Drawing_SizeF_op_Equality_System_Drawing_SizeF_System_Drawing_SizeF:
-_p_40:
+.word 2049
+	.no_dead_strip plt_System_Drawing_PointF_op_Equality_System_Drawing_PointF_System_Drawing_PointF
+plt_System_Drawing_PointF_op_Equality_System_Drawing_PointF_System_Drawing_PointF:
+_p_37:
 adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #2176]
 br x16
-.word 1923
-	.no_dead_strip plt__jit_icall_g_free
-plt__jit_icall_g_free:
-_p_41:
+.word 2051
+	.no_dead_strip plt_single_GetHashCode
+plt_single_GetHashCode:
+_p_38:
 adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #2184]
 br x16
-.word 1925
-	.no_dead_strip plt__jit_icall_mono_string_to_utf8str
-plt__jit_icall_mono_string_to_utf8str:
-_p_42:
+.word 2053
+	.no_dead_strip plt_single_ToString
+plt_single_ToString:
+_p_39:
 adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #2192]
 br x16
-.word 1934
-	.no_dead_strip plt__jit_icall_ves_icall_string_new_wrapper
-plt__jit_icall_ves_icall_string_new_wrapper:
-_p_43:
+.word 2058
+	.no_dead_strip plt_System_Drawing_Rectangle_Equals_System_Drawing_Rectangle
+plt_System_Drawing_Rectangle_Equals_System_Drawing_Rectangle:
+_p_40:
 adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #2200]
 br x16
-.word 1959
+.word 2063
+	.no_dead_strip plt_System_Drawing_Rectangle_op_Equality_System_Drawing_Rectangle_System_Drawing_Rectangle
+plt_System_Drawing_Rectangle_op_Equality_System_Drawing_Rectangle_System_Drawing_Rectangle:
+_p_41:
+adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
+add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
+ldr x16, [x16, #2208]
+br x16
+.word 2065
+	.no_dead_strip plt_System_Drawing_RectangleF_Equals_System_Drawing_RectangleF
+plt_System_Drawing_RectangleF_Equals_System_Drawing_RectangleF:
+_p_42:
+adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
+add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
+ldr x16, [x16, #2216]
+br x16
+.word 2067
+	.no_dead_strip plt_System_Drawing_RectangleF_op_Equality_System_Drawing_RectangleF_System_Drawing_RectangleF
+plt_System_Drawing_RectangleF_op_Equality_System_Drawing_RectangleF_System_Drawing_RectangleF:
+_p_43:
+adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
+add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
+ldr x16, [x16, #2224]
+br x16
+.word 2069
+	.no_dead_strip plt_System_Drawing_Size_op_Equality_System_Drawing_Size_System_Drawing_Size
+plt_System_Drawing_Size_op_Equality_System_Drawing_Size_System_Drawing_Size:
+_p_44:
+adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
+add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
+ldr x16, [x16, #2232]
+br x16
+.word 2071
+	.no_dead_strip plt_System_Drawing_Size_Equals_System_Drawing_Size
+plt_System_Drawing_Size_Equals_System_Drawing_Size:
+_p_45:
+adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
+add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
+ldr x16, [x16, #2240]
+br x16
+.word 2073
+	.no_dead_strip plt_System_Drawing_SizeF_Equals_System_Drawing_SizeF
+plt_System_Drawing_SizeF_Equals_System_Drawing_SizeF:
+_p_46:
+adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
+add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
+ldr x16, [x16, #2248]
+br x16
+.word 2075
+	.no_dead_strip plt_System_Drawing_SizeF_op_Equality_System_Drawing_SizeF_System_Drawing_SizeF
+plt_System_Drawing_SizeF_op_Equality_System_Drawing_SizeF_System_Drawing_SizeF:
+_p_47:
+adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
+add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
+ldr x16, [x16, #2256]
+br x16
+.word 2077
+	.no_dead_strip plt__jit_icall_g_free
+plt__jit_icall_g_free:
+_p_48:
+adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
+add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
+ldr x16, [x16, #2264]
+br x16
+.word 2079
+	.no_dead_strip plt__jit_icall_mono_string_to_utf8str
+plt__jit_icall_mono_string_to_utf8str:
+_p_49:
+adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
+add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
+ldr x16, [x16, #2272]
+br x16
+.word 2088
+	.no_dead_strip plt__jit_icall_ves_icall_string_new_wrapper
+plt__jit_icall_ves_icall_string_new_wrapper:
+_p_50:
+adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
+add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
+ldr x16, [x16, #2280]
+br x16
+.word 2113
 plt_end:
 .section __DATA, __bss
 	.align 3
-.lcomm mono_aot_System_Drawing_Common_got, 2208
+.lcomm mono_aot_System_Drawing_Common_got, 2288
 got_end:
 .section __TEXT, __const
 	.align 3
@@ -7176,14 +8511,14 @@ _mono_aot_file_info:
 	.align 3
 	.quad unbox_trampoline_addresses
 
-	.long 232,2208,44,65,8,98,387000831,0
-	.long 11218,128,8,8,8,9,8388607,0
-	.long 28,12528,0,0,1304,1096,528,0
-	.long 944,1064,616,0,424,112,1296,0
+	.long 235,2288,51,99,14,98,387000831,0
+	.long 12913,128,8,8,8,9,8388607,0
+	.long 28,14680,0,0,1760,1552,928,0
+	.long 1352,1512,1024,0,752,152,1752,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0
-	.byte 41,182,230,22,175,216,252,131,206,221,244,175,86,172,225,150
+	.byte 205,191,11,201,15,44,92,231,160,160,157,120,172,14,9,42
 	.globl _mono_aot_module_System_Drawing_Common_info
 	.align 3
 _mono_aot_module_System_Drawing_Common_info:
@@ -8888,108 +10223,398 @@ LDIFF_SYM135=Lme_19 - System_Drawing_Color_GetHashCode
 Lfde25_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_9:
+LTDIE_8:
+
+	.byte 5
+	.asciz "System_Drawing_Point"
+
+	.byte 24,16
+LDIFF_SYM136=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM136
+	.byte 2,35,0,6
+	.asciz "x"
+
+LDIFF_SYM137=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM137
+	.byte 2,35,0,6
+	.asciz "y"
+
+LDIFF_SYM138=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM138
+	.byte 2,35,4,0,7
+	.asciz "System_Drawing_Point"
+
+LDIFF_SYM139=LTDIE_8 - Ldebug_info_start
+	.long LDIFF_SYM139
+LTDIE_8_POINTER:
+
+	.byte 13
+LDIFF_SYM140=LTDIE_8 - Ldebug_info_start
+	.long LDIFF_SYM140
+LTDIE_8_REFERENCE:
+
+	.byte 14
+LDIFF_SYM141=LTDIE_8 - Ldebug_info_start
+	.long LDIFF_SYM141
+	.byte 2
+	.asciz "System.Drawing.Point:get_X"
+	.asciz "System_Drawing_Point_get_X"
+
+	.byte 0,0
+	.quad System_Drawing_Point_get_X
+	.quad Lme_1a
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM142=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM142
+	.byte 2,141,16,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM143=Lfde26_end - Lfde26_start
+	.long LDIFF_SYM143
+Lfde26_start:
+
+	.long 0
+	.align 3
+	.quad System_Drawing_Point_get_X
+
+LDIFF_SYM144=Lme_1a - System_Drawing_Point_get_X
+	.long LDIFF_SYM144
+	.long 0
+	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
+	.align 3
+Lfde26_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Drawing.Point:get_Y"
+	.asciz "System_Drawing_Point_get_Y"
+
+	.byte 0,0
+	.quad System_Drawing_Point_get_Y
+	.quad Lme_1b
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM145=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM145
+	.byte 2,141,16,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM146=Lfde27_end - Lfde27_start
+	.long LDIFF_SYM146
+Lfde27_start:
+
+	.long 0
+	.align 3
+	.quad System_Drawing_Point_get_Y
+
+LDIFF_SYM147=Lme_1b - System_Drawing_Point_get_Y
+	.long LDIFF_SYM147
+	.long 0
+	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
+	.align 3
+Lfde27_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Drawing.Point:op_Equality"
+	.asciz "System_Drawing_Point_op_Equality_System_Drawing_Point_System_Drawing_Point"
+
+	.byte 0,0
+	.quad System_Drawing_Point_op_Equality_System_Drawing_Point_System_Drawing_Point
+	.quad Lme_1c
+
+	.byte 2,118,16,3
+	.asciz "left"
+
+LDIFF_SYM148=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM148
+	.byte 2,141,16,3
+	.asciz "right"
+
+LDIFF_SYM149=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM149
+	.byte 2,141,32,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM150=Lfde28_end - Lfde28_start
+	.long LDIFF_SYM150
+Lfde28_start:
+
+	.long 0
+	.align 3
+	.quad System_Drawing_Point_op_Equality_System_Drawing_Point_System_Drawing_Point
+
+LDIFF_SYM151=Lme_1c - System_Drawing_Point_op_Equality_System_Drawing_Point_System_Drawing_Point
+	.long LDIFF_SYM151
+	.long 0
+	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
+	.align 3
+Lfde28_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Drawing.Point:Equals"
+	.asciz "System_Drawing_Point_Equals_object"
+
+	.byte 0,0
+	.quad System_Drawing_Point_Equals_object
+	.quad Lme_1d
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM152=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM152
+	.byte 2,141,32,3
+	.asciz "obj"
+
+LDIFF_SYM153=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM153
+	.byte 1,106,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM154=Lfde29_end - Lfde29_start
+	.long LDIFF_SYM154
+Lfde29_start:
+
+	.long 0
+	.align 3
+	.quad System_Drawing_Point_Equals_object
+
+LDIFF_SYM155=Lme_1d - System_Drawing_Point_Equals_object
+	.long LDIFF_SYM155
+	.long 0
+	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,152,4,68,154,3
+	.align 3
+Lfde29_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Drawing.Point:Equals"
+	.asciz "System_Drawing_Point_Equals_System_Drawing_Point"
+
+	.byte 0,0
+	.quad System_Drawing_Point_Equals_System_Drawing_Point
+	.quad Lme_1e
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM156=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM156
+	.byte 2,141,16,3
+	.asciz "other"
+
+LDIFF_SYM157=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM157
+	.byte 2,141,24,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM158=Lfde30_end - Lfde30_start
+	.long LDIFF_SYM158
+Lfde30_start:
+
+	.long 0
+	.align 3
+	.quad System_Drawing_Point_Equals_System_Drawing_Point
+
+LDIFF_SYM159=Lme_1e - System_Drawing_Point_Equals_System_Drawing_Point
+	.long LDIFF_SYM159
+	.long 0
+	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
+	.align 3
+Lfde30_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Drawing.Point:GetHashCode"
+	.asciz "System_Drawing_Point_GetHashCode"
+
+	.byte 0,0
+	.quad System_Drawing_Point_GetHashCode
+	.quad Lme_1f
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM160=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM160
+	.byte 1,106,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM161=Lfde31_end - Lfde31_start
+	.long LDIFF_SYM161
+Lfde31_start:
+
+	.long 0
+	.align 3
+	.quad System_Drawing_Point_GetHashCode
+
+LDIFF_SYM162=Lme_1f - System_Drawing_Point_GetHashCode
+	.long LDIFF_SYM162
+	.long 0
+	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29,68,154,2
+	.align 3
+Lfde31_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Drawing.Point:ToString"
+	.asciz "System_Drawing_Point_ToString"
+
+	.byte 0,0
+	.quad System_Drawing_Point_ToString
+	.quad Lme_20
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM163=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM163
+	.byte 1,106,11
+	.asciz "V_0"
+
+LDIFF_SYM164=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM164
+	.byte 2,141,24,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM165=Lfde32_end - Lfde32_start
+	.long LDIFF_SYM165
+Lfde32_start:
+
+	.long 0
+	.align 3
+	.quad System_Drawing_Point_ToString
+
+LDIFF_SYM166=Lme_20 - System_Drawing_Point_ToString
+	.long LDIFF_SYM166
+	.long 0
+	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,154,14
+	.align 3
+Lfde32_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_10:
 
 	.byte 5
 	.asciz "System_Single"
 
 	.byte 20,16
-LDIFF_SYM136=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM136
+LDIFF_SYM167=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM167
 	.byte 2,35,0,6
 	.asciz "m_value"
 
-LDIFF_SYM137=LDIE_R4 - Ldebug_info_start
-	.long LDIFF_SYM137
+LDIFF_SYM168=LDIE_R4 - Ldebug_info_start
+	.long LDIFF_SYM168
 	.byte 2,35,16,0,7
 	.asciz "System_Single"
 
-LDIFF_SYM138=LTDIE_9 - Ldebug_info_start
-	.long LDIFF_SYM138
-LTDIE_9_POINTER:
+LDIFF_SYM169=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM169
+LTDIE_10_POINTER:
 
 	.byte 13
-LDIFF_SYM139=LTDIE_9 - Ldebug_info_start
-	.long LDIFF_SYM139
-LTDIE_9_REFERENCE:
+LDIFF_SYM170=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM170
+LTDIE_10_REFERENCE:
 
 	.byte 14
-LDIFF_SYM140=LTDIE_9 - Ldebug_info_start
-	.long LDIFF_SYM140
-LTDIE_8:
+LDIFF_SYM171=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM171
+LTDIE_9:
 
 	.byte 5
 	.asciz "System_Drawing_PointF"
 
 	.byte 24,16
-LDIFF_SYM141=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM141
+LDIFF_SYM172=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM172
 	.byte 2,35,0,6
 	.asciz "x"
 
-LDIFF_SYM142=LDIE_R4 - Ldebug_info_start
-	.long LDIFF_SYM142
+LDIFF_SYM173=LDIE_R4 - Ldebug_info_start
+	.long LDIFF_SYM173
 	.byte 2,35,0,6
 	.asciz "y"
 
-LDIFF_SYM143=LDIE_R4 - Ldebug_info_start
-	.long LDIFF_SYM143
+LDIFF_SYM174=LDIE_R4 - Ldebug_info_start
+	.long LDIFF_SYM174
 	.byte 2,35,4,0,7
 	.asciz "System_Drawing_PointF"
 
-LDIFF_SYM144=LTDIE_8 - Ldebug_info_start
-	.long LDIFF_SYM144
-LTDIE_8_POINTER:
+LDIFF_SYM175=LTDIE_9 - Ldebug_info_start
+	.long LDIFF_SYM175
+LTDIE_9_POINTER:
 
 	.byte 13
-LDIFF_SYM145=LTDIE_8 - Ldebug_info_start
-	.long LDIFF_SYM145
-LTDIE_8_REFERENCE:
+LDIFF_SYM176=LTDIE_9 - Ldebug_info_start
+	.long LDIFF_SYM176
+LTDIE_9_REFERENCE:
 
 	.byte 14
-LDIFF_SYM146=LTDIE_8 - Ldebug_info_start
-	.long LDIFF_SYM146
+LDIFF_SYM177=LTDIE_9 - Ldebug_info_start
+	.long LDIFF_SYM177
 	.byte 2
 	.asciz "System.Drawing.PointF:.ctor"
 	.asciz "System_Drawing_PointF__ctor_single_single"
 
 	.byte 0,0
 	.quad System_Drawing_PointF__ctor_single_single
-	.quad Lme_1a
+	.quad Lme_21
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM147=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM147
+LDIFF_SYM178=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM178
 	.byte 1,106,3
 	.asciz "x"
 
-LDIFF_SYM148=LDIE_R4 - Ldebug_info_start
-	.long LDIFF_SYM148
+LDIFF_SYM179=LDIE_R4 - Ldebug_info_start
+	.long LDIFF_SYM179
 	.byte 2,141,24,3
 	.asciz "y"
 
-LDIFF_SYM149=LDIE_R4 - Ldebug_info_start
-	.long LDIFF_SYM149
+LDIFF_SYM180=LDIE_R4 - Ldebug_info_start
+	.long LDIFF_SYM180
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM150=Lfde26_end - Lfde26_start
-	.long LDIFF_SYM150
-Lfde26_start:
+LDIFF_SYM181=Lfde33_end - Lfde33_start
+	.long LDIFF_SYM181
+Lfde33_start:
 
 	.long 0
 	.align 3
 	.quad System_Drawing_PointF__ctor_single_single
 
-LDIFF_SYM151=Lme_1a - System_Drawing_PointF__ctor_single_single
-	.long LDIFF_SYM151
+LDIFF_SYM182=Lme_21 - System_Drawing_PointF__ctor_single_single
+	.long LDIFF_SYM182
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,154,4
 	.align 3
-Lfde26_end:
+Lfde33_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -8999,31 +10624,31 @@ Lfde26_end:
 
 	.byte 0,0
 	.quad System_Drawing_PointF_get_X
-	.quad Lme_1b
+	.quad Lme_22
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM152=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM152
+LDIFF_SYM183=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM183
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM153=Lfde27_end - Lfde27_start
-	.long LDIFF_SYM153
-Lfde27_start:
+LDIFF_SYM184=Lfde34_end - Lfde34_start
+	.long LDIFF_SYM184
+Lfde34_start:
 
 	.long 0
 	.align 3
 	.quad System_Drawing_PointF_get_X
 
-LDIFF_SYM154=Lme_1b - System_Drawing_PointF_get_X
-	.long LDIFF_SYM154
+LDIFF_SYM185=Lme_22 - System_Drawing_PointF_get_X
+	.long LDIFF_SYM185
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde27_end:
+Lfde34_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -9033,31 +10658,31 @@ Lfde27_end:
 
 	.byte 0,0
 	.quad System_Drawing_PointF_get_Y
-	.quad Lme_1c
+	.quad Lme_23
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM155=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM155
+LDIFF_SYM186=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM186
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM156=Lfde28_end - Lfde28_start
-	.long LDIFF_SYM156
-Lfde28_start:
+LDIFF_SYM187=Lfde35_end - Lfde35_start
+	.long LDIFF_SYM187
+Lfde35_start:
 
 	.long 0
 	.align 3
 	.quad System_Drawing_PointF_get_Y
 
-LDIFF_SYM157=Lme_1c - System_Drawing_PointF_get_Y
-	.long LDIFF_SYM157
+LDIFF_SYM188=Lme_23 - System_Drawing_PointF_get_Y
+	.long LDIFF_SYM188
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde28_end:
+Lfde35_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -9067,36 +10692,36 @@ Lfde28_end:
 
 	.byte 0,0
 	.quad System_Drawing_PointF_op_Equality_System_Drawing_PointF_System_Drawing_PointF
-	.quad Lme_1d
+	.quad Lme_24
 
 	.byte 2,118,16,3
 	.asciz "left"
 
-LDIFF_SYM158=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM158
+LDIFF_SYM189=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM189
 	.byte 2,141,16,3
 	.asciz "right"
 
-LDIFF_SYM159=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM159
+LDIFF_SYM190=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM190
 	.byte 3,141,208,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM160=Lfde29_end - Lfde29_start
-	.long LDIFF_SYM160
-Lfde29_start:
+LDIFF_SYM191=Lfde36_end - Lfde36_start
+	.long LDIFF_SYM191
+Lfde36_start:
 
 	.long 0
 	.align 3
 	.quad System_Drawing_PointF_op_Equality_System_Drawing_PointF_System_Drawing_PointF
 
-LDIFF_SYM161=Lme_1d - System_Drawing_PointF_op_Equality_System_Drawing_PointF_System_Drawing_PointF
-	.long LDIFF_SYM161
+LDIFF_SYM192=Lme_24 - System_Drawing_PointF_op_Equality_System_Drawing_PointF_System_Drawing_PointF
+	.long LDIFF_SYM192
 	.long 0
 	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29
 	.align 3
-Lfde29_end:
+Lfde36_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -9106,36 +10731,36 @@ Lfde29_end:
 
 	.byte 0,0
 	.quad System_Drawing_PointF_Equals_object
-	.quad Lme_1e
+	.quad Lme_25
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM162=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM162
+LDIFF_SYM193=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM193
 	.byte 2,141,32,3
 	.asciz "obj"
 
-LDIFF_SYM163=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM163
+LDIFF_SYM194=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM194
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM164=Lfde30_end - Lfde30_start
-	.long LDIFF_SYM164
-Lfde30_start:
+LDIFF_SYM195=Lfde37_end - Lfde37_start
+	.long LDIFF_SYM195
+Lfde37_start:
 
 	.long 0
 	.align 3
 	.quad System_Drawing_PointF_Equals_object
 
-LDIFF_SYM165=Lme_1e - System_Drawing_PointF_Equals_object
-	.long LDIFF_SYM165
+LDIFF_SYM196=Lme_25 - System_Drawing_PointF_Equals_object
+	.long LDIFF_SYM196
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,152,4,68,154,3
 	.align 3
-Lfde30_end:
+Lfde37_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -9145,36 +10770,36 @@ Lfde30_end:
 
 	.byte 0,0
 	.quad System_Drawing_PointF_Equals_System_Drawing_PointF
-	.quad Lme_1f
+	.quad Lme_26
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM166=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM166
+LDIFF_SYM197=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM197
 	.byte 2,141,16,3
 	.asciz "other"
 
-LDIFF_SYM167=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM167
+LDIFF_SYM198=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM198
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM168=Lfde31_end - Lfde31_start
-	.long LDIFF_SYM168
-Lfde31_start:
+LDIFF_SYM199=Lfde38_end - Lfde38_start
+	.long LDIFF_SYM199
+Lfde38_start:
 
 	.long 0
 	.align 3
 	.quad System_Drawing_PointF_Equals_System_Drawing_PointF
 
-LDIFF_SYM169=Lme_1f - System_Drawing_PointF_Equals_System_Drawing_PointF
-	.long LDIFF_SYM169
+LDIFF_SYM200=Lme_26 - System_Drawing_PointF_Equals_System_Drawing_PointF
+	.long LDIFF_SYM200
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29
 	.align 3
-Lfde31_end:
+Lfde38_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -9184,36 +10809,36 @@ Lfde31_end:
 
 	.byte 0,0
 	.quad System_Drawing_PointF_GetHashCode
-	.quad Lme_20
+	.quad Lme_27
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM170=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM170
+LDIFF_SYM201=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM201
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM171=LDIE_R4 - Ldebug_info_start
-	.long LDIFF_SYM171
+LDIFF_SYM202=LDIE_R4 - Ldebug_info_start
+	.long LDIFF_SYM202
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM172=Lfde32_end - Lfde32_start
-	.long LDIFF_SYM172
-Lfde32_start:
+LDIFF_SYM203=Lfde39_end - Lfde39_start
+	.long LDIFF_SYM203
+Lfde39_start:
 
 	.long 0
 	.align 3
 	.quad System_Drawing_PointF_GetHashCode
 
-LDIFF_SYM173=Lme_20 - System_Drawing_PointF_GetHashCode
-	.long LDIFF_SYM173
+LDIFF_SYM204=Lme_27 - System_Drawing_PointF_GetHashCode
+	.long LDIFF_SYM204
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,154,4
 	.align 3
-Lfde32_end:
+Lfde39_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -9223,127 +10848,495 @@ Lfde32_end:
 
 	.byte 0,0
 	.quad System_Drawing_PointF_ToString
-	.quad Lme_21
+	.quad Lme_28
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM174=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM174
+LDIFF_SYM205=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM205
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM175=Lfde33_end - Lfde33_start
-	.long LDIFF_SYM175
-Lfde33_start:
+LDIFF_SYM206=Lfde40_end - Lfde40_start
+	.long LDIFF_SYM206
+Lfde40_start:
 
 	.long 0
 	.align 3
 	.quad System_Drawing_PointF_ToString
 
-LDIFF_SYM176=Lme_21 - System_Drawing_PointF_ToString
-	.long LDIFF_SYM176
+LDIFF_SYM207=Lme_28 - System_Drawing_PointF_ToString
+	.long LDIFF_SYM207
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29
 	.align 3
-Lfde33_end:
+Lfde40_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_10:
+LTDIE_11:
+
+	.byte 5
+	.asciz "System_Drawing_Rectangle"
+
+	.byte 32,16
+LDIFF_SYM208=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM208
+	.byte 2,35,0,6
+	.asciz "x"
+
+LDIFF_SYM209=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM209
+	.byte 2,35,0,6
+	.asciz "y"
+
+LDIFF_SYM210=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM210
+	.byte 2,35,4,6
+	.asciz "width"
+
+LDIFF_SYM211=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM211
+	.byte 2,35,8,6
+	.asciz "height"
+
+LDIFF_SYM212=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM212
+	.byte 2,35,12,0,7
+	.asciz "System_Drawing_Rectangle"
+
+LDIFF_SYM213=LTDIE_11 - Ldebug_info_start
+	.long LDIFF_SYM213
+LTDIE_11_POINTER:
+
+	.byte 13
+LDIFF_SYM214=LTDIE_11 - Ldebug_info_start
+	.long LDIFF_SYM214
+LTDIE_11_REFERENCE:
+
+	.byte 14
+LDIFF_SYM215=LTDIE_11 - Ldebug_info_start
+	.long LDIFF_SYM215
+	.byte 2
+	.asciz "System.Drawing.Rectangle:get_X"
+	.asciz "System_Drawing_Rectangle_get_X"
+
+	.byte 0,0
+	.quad System_Drawing_Rectangle_get_X
+	.quad Lme_29
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM216=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM216
+	.byte 2,141,16,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM217=Lfde41_end - Lfde41_start
+	.long LDIFF_SYM217
+Lfde41_start:
+
+	.long 0
+	.align 3
+	.quad System_Drawing_Rectangle_get_X
+
+LDIFF_SYM218=Lme_29 - System_Drawing_Rectangle_get_X
+	.long LDIFF_SYM218
+	.long 0
+	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
+	.align 3
+Lfde41_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Drawing.Rectangle:get_Y"
+	.asciz "System_Drawing_Rectangle_get_Y"
+
+	.byte 0,0
+	.quad System_Drawing_Rectangle_get_Y
+	.quad Lme_2a
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM219=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM219
+	.byte 2,141,16,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM220=Lfde42_end - Lfde42_start
+	.long LDIFF_SYM220
+Lfde42_start:
+
+	.long 0
+	.align 3
+	.quad System_Drawing_Rectangle_get_Y
+
+LDIFF_SYM221=Lme_2a - System_Drawing_Rectangle_get_Y
+	.long LDIFF_SYM221
+	.long 0
+	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
+	.align 3
+Lfde42_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Drawing.Rectangle:get_Width"
+	.asciz "System_Drawing_Rectangle_get_Width"
+
+	.byte 0,0
+	.quad System_Drawing_Rectangle_get_Width
+	.quad Lme_2b
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM222=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM222
+	.byte 2,141,16,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM223=Lfde43_end - Lfde43_start
+	.long LDIFF_SYM223
+Lfde43_start:
+
+	.long 0
+	.align 3
+	.quad System_Drawing_Rectangle_get_Width
+
+LDIFF_SYM224=Lme_2b - System_Drawing_Rectangle_get_Width
+	.long LDIFF_SYM224
+	.long 0
+	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
+	.align 3
+Lfde43_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Drawing.Rectangle:get_Height"
+	.asciz "System_Drawing_Rectangle_get_Height"
+
+	.byte 0,0
+	.quad System_Drawing_Rectangle_get_Height
+	.quad Lme_2c
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM225=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM225
+	.byte 2,141,16,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM226=Lfde44_end - Lfde44_start
+	.long LDIFF_SYM226
+Lfde44_start:
+
+	.long 0
+	.align 3
+	.quad System_Drawing_Rectangle_get_Height
+
+LDIFF_SYM227=Lme_2c - System_Drawing_Rectangle_get_Height
+	.long LDIFF_SYM227
+	.long 0
+	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
+	.align 3
+Lfde44_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Drawing.Rectangle:Equals"
+	.asciz "System_Drawing_Rectangle_Equals_object"
+
+	.byte 0,0
+	.quad System_Drawing_Rectangle_Equals_object
+	.quad Lme_2d
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM228=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM228
+	.byte 2,141,32,3
+	.asciz "obj"
+
+LDIFF_SYM229=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM229
+	.byte 1,106,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM230=Lfde45_end - Lfde45_start
+	.long LDIFF_SYM230
+Lfde45_start:
+
+	.long 0
+	.align 3
+	.quad System_Drawing_Rectangle_Equals_object
+
+LDIFF_SYM231=Lme_2d - System_Drawing_Rectangle_Equals_object
+	.long LDIFF_SYM231
+	.long 0
+	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,152,6,68,154,5
+	.align 3
+Lfde45_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Drawing.Rectangle:Equals"
+	.asciz "System_Drawing_Rectangle_Equals_System_Drawing_Rectangle"
+
+	.byte 0,0
+	.quad System_Drawing_Rectangle_Equals_System_Drawing_Rectangle
+	.quad Lme_2e
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM232=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM232
+	.byte 2,141,16,3
+	.asciz "other"
+
+LDIFF_SYM233=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM233
+	.byte 2,141,24,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM234=Lfde46_end - Lfde46_start
+	.long LDIFF_SYM234
+Lfde46_start:
+
+	.long 0
+	.align 3
+	.quad System_Drawing_Rectangle_Equals_System_Drawing_Rectangle
+
+LDIFF_SYM235=Lme_2e - System_Drawing_Rectangle_Equals_System_Drawing_Rectangle
+	.long LDIFF_SYM235
+	.long 0
+	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
+	.align 3
+Lfde46_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Drawing.Rectangle:op_Equality"
+	.asciz "System_Drawing_Rectangle_op_Equality_System_Drawing_Rectangle_System_Drawing_Rectangle"
+
+	.byte 0,0
+	.quad System_Drawing_Rectangle_op_Equality_System_Drawing_Rectangle_System_Drawing_Rectangle
+	.quad Lme_2f
+
+	.byte 2,118,16,3
+	.asciz "left"
+
+LDIFF_SYM236=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM236
+	.byte 2,141,16,3
+	.asciz "right"
+
+LDIFF_SYM237=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM237
+	.byte 2,141,32,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM238=Lfde47_end - Lfde47_start
+	.long LDIFF_SYM238
+Lfde47_start:
+
+	.long 0
+	.align 3
+	.quad System_Drawing_Rectangle_op_Equality_System_Drawing_Rectangle_System_Drawing_Rectangle
+
+LDIFF_SYM239=Lme_2f - System_Drawing_Rectangle_op_Equality_System_Drawing_Rectangle_System_Drawing_Rectangle
+	.long LDIFF_SYM239
+	.long 0
+	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
+	.align 3
+Lfde47_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Drawing.Rectangle:GetHashCode"
+	.asciz "System_Drawing_Rectangle_GetHashCode"
+
+	.byte 0,0
+	.quad System_Drawing_Rectangle_GetHashCode
+	.quad Lme_30
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM240=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM240
+	.byte 1,106,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM241=Lfde48_end - Lfde48_start
+	.long LDIFF_SYM241
+Lfde48_start:
+
+	.long 0
+	.align 3
+	.quad System_Drawing_Rectangle_GetHashCode
+
+LDIFF_SYM242=Lme_30 - System_Drawing_Rectangle_GetHashCode
+	.long LDIFF_SYM242
+	.long 0
+	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29,68,154,2
+	.align 3
+Lfde48_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Drawing.Rectangle:ToString"
+	.asciz "System_Drawing_Rectangle_ToString"
+
+	.byte 0,0
+	.quad System_Drawing_Rectangle_ToString
+	.quad Lme_31
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM243=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM243
+	.byte 1,106,11
+	.asciz "V_0"
+
+LDIFF_SYM244=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM244
+	.byte 2,141,24,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM245=Lfde49_end - Lfde49_start
+	.long LDIFF_SYM245
+Lfde49_start:
+
+	.long 0
+	.align 3
+	.quad System_Drawing_Rectangle_ToString
+
+LDIFF_SYM246=Lme_31 - System_Drawing_Rectangle_ToString
+	.long LDIFF_SYM246
+	.long 0
+	.byte 12,31,0,68,14,208,1,157,26,158,25,68,13,29,68,154,24
+	.align 3
+Lfde49_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_12:
 
 	.byte 5
 	.asciz "System_Drawing_RectangleF"
 
 	.byte 32,16
-LDIFF_SYM177=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM177
+LDIFF_SYM247=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM247
 	.byte 2,35,0,6
 	.asciz "x"
 
-LDIFF_SYM178=LDIE_R4 - Ldebug_info_start
-	.long LDIFF_SYM178
+LDIFF_SYM248=LDIE_R4 - Ldebug_info_start
+	.long LDIFF_SYM248
 	.byte 2,35,0,6
 	.asciz "y"
 
-LDIFF_SYM179=LDIE_R4 - Ldebug_info_start
-	.long LDIFF_SYM179
+LDIFF_SYM249=LDIE_R4 - Ldebug_info_start
+	.long LDIFF_SYM249
 	.byte 2,35,4,6
 	.asciz "width"
 
-LDIFF_SYM180=LDIE_R4 - Ldebug_info_start
-	.long LDIFF_SYM180
+LDIFF_SYM250=LDIE_R4 - Ldebug_info_start
+	.long LDIFF_SYM250
 	.byte 2,35,8,6
 	.asciz "height"
 
-LDIFF_SYM181=LDIE_R4 - Ldebug_info_start
-	.long LDIFF_SYM181
+LDIFF_SYM251=LDIE_R4 - Ldebug_info_start
+	.long LDIFF_SYM251
 	.byte 2,35,12,0,7
 	.asciz "System_Drawing_RectangleF"
 
-LDIFF_SYM182=LTDIE_10 - Ldebug_info_start
-	.long LDIFF_SYM182
-LTDIE_10_POINTER:
+LDIFF_SYM252=LTDIE_12 - Ldebug_info_start
+	.long LDIFF_SYM252
+LTDIE_12_POINTER:
 
 	.byte 13
-LDIFF_SYM183=LTDIE_10 - Ldebug_info_start
-	.long LDIFF_SYM183
-LTDIE_10_REFERENCE:
+LDIFF_SYM253=LTDIE_12 - Ldebug_info_start
+	.long LDIFF_SYM253
+LTDIE_12_REFERENCE:
 
 	.byte 14
-LDIFF_SYM184=LTDIE_10 - Ldebug_info_start
-	.long LDIFF_SYM184
+LDIFF_SYM254=LTDIE_12 - Ldebug_info_start
+	.long LDIFF_SYM254
 	.byte 2
 	.asciz "System.Drawing.RectangleF:.ctor"
 	.asciz "System_Drawing_RectangleF__ctor_single_single_single_single"
 
 	.byte 0,0
 	.quad System_Drawing_RectangleF__ctor_single_single_single_single
-	.quad Lme_22
+	.quad Lme_32
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM185=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM185
+LDIFF_SYM255=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM255
 	.byte 1,106,3
 	.asciz "x"
 
-LDIFF_SYM186=LDIE_R4 - Ldebug_info_start
-	.long LDIFF_SYM186
+LDIFF_SYM256=LDIE_R4 - Ldebug_info_start
+	.long LDIFF_SYM256
 	.byte 2,141,24,3
 	.asciz "y"
 
-LDIFF_SYM187=LDIE_R4 - Ldebug_info_start
-	.long LDIFF_SYM187
+LDIFF_SYM257=LDIE_R4 - Ldebug_info_start
+	.long LDIFF_SYM257
 	.byte 2,141,32,3
 	.asciz "width"
 
-LDIFF_SYM188=LDIE_R4 - Ldebug_info_start
-	.long LDIFF_SYM188
+LDIFF_SYM258=LDIE_R4 - Ldebug_info_start
+	.long LDIFF_SYM258
 	.byte 2,141,40,3
 	.asciz "height"
 
-LDIFF_SYM189=LDIE_R4 - Ldebug_info_start
-	.long LDIFF_SYM189
+LDIFF_SYM259=LDIE_R4 - Ldebug_info_start
+	.long LDIFF_SYM259
 	.byte 2,141,48,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM190=Lfde34_end - Lfde34_start
-	.long LDIFF_SYM190
-Lfde34_start:
+LDIFF_SYM260=Lfde50_end - Lfde50_start
+	.long LDIFF_SYM260
+Lfde50_start:
 
 	.long 0
 	.align 3
 	.quad System_Drawing_RectangleF__ctor_single_single_single_single
 
-LDIFF_SYM191=Lme_22 - System_Drawing_RectangleF__ctor_single_single_single_single
-	.long LDIFF_SYM191
+LDIFF_SYM261=Lme_32 - System_Drawing_RectangleF__ctor_single_single_single_single
+	.long LDIFF_SYM261
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,154,6
 	.align 3
-Lfde34_end:
+Lfde50_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -9353,31 +11346,31 @@ Lfde34_end:
 
 	.byte 0,0
 	.quad System_Drawing_RectangleF_get_X
-	.quad Lme_23
+	.quad Lme_33
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM192=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM192
+LDIFF_SYM262=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM262
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM193=Lfde35_end - Lfde35_start
-	.long LDIFF_SYM193
-Lfde35_start:
+LDIFF_SYM263=Lfde51_end - Lfde51_start
+	.long LDIFF_SYM263
+Lfde51_start:
 
 	.long 0
 	.align 3
 	.quad System_Drawing_RectangleF_get_X
 
-LDIFF_SYM194=Lme_23 - System_Drawing_RectangleF_get_X
-	.long LDIFF_SYM194
+LDIFF_SYM264=Lme_33 - System_Drawing_RectangleF_get_X
+	.long LDIFF_SYM264
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde35_end:
+Lfde51_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -9387,31 +11380,31 @@ Lfde35_end:
 
 	.byte 0,0
 	.quad System_Drawing_RectangleF_get_Y
-	.quad Lme_24
+	.quad Lme_34
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM195=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM195
+LDIFF_SYM265=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM265
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM196=Lfde36_end - Lfde36_start
-	.long LDIFF_SYM196
-Lfde36_start:
+LDIFF_SYM266=Lfde52_end - Lfde52_start
+	.long LDIFF_SYM266
+Lfde52_start:
 
 	.long 0
 	.align 3
 	.quad System_Drawing_RectangleF_get_Y
 
-LDIFF_SYM197=Lme_24 - System_Drawing_RectangleF_get_Y
-	.long LDIFF_SYM197
+LDIFF_SYM267=Lme_34 - System_Drawing_RectangleF_get_Y
+	.long LDIFF_SYM267
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde36_end:
+Lfde52_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -9421,31 +11414,31 @@ Lfde36_end:
 
 	.byte 0,0
 	.quad System_Drawing_RectangleF_get_Width
-	.quad Lme_25
+	.quad Lme_35
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM198=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM198
+LDIFF_SYM268=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM268
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM199=Lfde37_end - Lfde37_start
-	.long LDIFF_SYM199
-Lfde37_start:
+LDIFF_SYM269=Lfde53_end - Lfde53_start
+	.long LDIFF_SYM269
+Lfde53_start:
 
 	.long 0
 	.align 3
 	.quad System_Drawing_RectangleF_get_Width
 
-LDIFF_SYM200=Lme_25 - System_Drawing_RectangleF_get_Width
-	.long LDIFF_SYM200
+LDIFF_SYM270=Lme_35 - System_Drawing_RectangleF_get_Width
+	.long LDIFF_SYM270
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde37_end:
+Lfde53_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -9455,31 +11448,31 @@ Lfde37_end:
 
 	.byte 0,0
 	.quad System_Drawing_RectangleF_get_Height
-	.quad Lme_26
+	.quad Lme_36
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM201=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM201
+LDIFF_SYM271=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM271
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM202=Lfde38_end - Lfde38_start
-	.long LDIFF_SYM202
-Lfde38_start:
+LDIFF_SYM272=Lfde54_end - Lfde54_start
+	.long LDIFF_SYM272
+Lfde54_start:
 
 	.long 0
 	.align 3
 	.quad System_Drawing_RectangleF_get_Height
 
-LDIFF_SYM203=Lme_26 - System_Drawing_RectangleF_get_Height
-	.long LDIFF_SYM203
+LDIFF_SYM273=Lme_36 - System_Drawing_RectangleF_get_Height
+	.long LDIFF_SYM273
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde38_end:
+Lfde54_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -9489,36 +11482,36 @@ Lfde38_end:
 
 	.byte 0,0
 	.quad System_Drawing_RectangleF_Equals_object
-	.quad Lme_27
+	.quad Lme_37
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM204=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM204
+LDIFF_SYM274=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM274
 	.byte 2,141,32,3
 	.asciz "obj"
 
-LDIFF_SYM205=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM205
+LDIFF_SYM275=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM275
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM206=Lfde39_end - Lfde39_start
-	.long LDIFF_SYM206
-Lfde39_start:
+LDIFF_SYM276=Lfde55_end - Lfde55_start
+	.long LDIFF_SYM276
+Lfde55_start:
 
 	.long 0
 	.align 3
 	.quad System_Drawing_RectangleF_Equals_object
 
-LDIFF_SYM207=Lme_27 - System_Drawing_RectangleF_Equals_object
-	.long LDIFF_SYM207
+LDIFF_SYM277=Lme_37 - System_Drawing_RectangleF_Equals_object
+	.long LDIFF_SYM277
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,152,6,68,154,5
 	.align 3
-Lfde39_end:
+Lfde55_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -9528,36 +11521,36 @@ Lfde39_end:
 
 	.byte 0,0
 	.quad System_Drawing_RectangleF_Equals_System_Drawing_RectangleF
-	.quad Lme_28
+	.quad Lme_38
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM208=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM208
+LDIFF_SYM278=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM278
 	.byte 2,141,16,3
 	.asciz "other"
 
-LDIFF_SYM209=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM209
+LDIFF_SYM279=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM279
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM210=Lfde40_end - Lfde40_start
-	.long LDIFF_SYM210
-Lfde40_start:
+LDIFF_SYM280=Lfde56_end - Lfde56_start
+	.long LDIFF_SYM280
+Lfde56_start:
 
 	.long 0
 	.align 3
 	.quad System_Drawing_RectangleF_Equals_System_Drawing_RectangleF
 
-LDIFF_SYM211=Lme_28 - System_Drawing_RectangleF_Equals_System_Drawing_RectangleF
-	.long LDIFF_SYM211
+LDIFF_SYM281=Lme_38 - System_Drawing_RectangleF_Equals_System_Drawing_RectangleF
+	.long LDIFF_SYM281
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29
 	.align 3
-Lfde40_end:
+Lfde56_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -9567,36 +11560,36 @@ Lfde40_end:
 
 	.byte 0,0
 	.quad System_Drawing_RectangleF_op_Equality_System_Drawing_RectangleF_System_Drawing_RectangleF
-	.quad Lme_29
+	.quad Lme_39
 
 	.byte 2,118,16,3
 	.asciz "left"
 
-LDIFF_SYM212=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM212
+LDIFF_SYM282=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM282
 	.byte 2,141,16,3
 	.asciz "right"
 
-LDIFF_SYM213=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM213
+LDIFF_SYM283=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM283
 	.byte 3,141,208,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM214=Lfde41_end - Lfde41_start
-	.long LDIFF_SYM214
-Lfde41_start:
+LDIFF_SYM284=Lfde57_end - Lfde57_start
+	.long LDIFF_SYM284
+Lfde57_start:
 
 	.long 0
 	.align 3
 	.quad System_Drawing_RectangleF_op_Equality_System_Drawing_RectangleF_System_Drawing_RectangleF
 
-LDIFF_SYM215=Lme_29 - System_Drawing_RectangleF_op_Equality_System_Drawing_RectangleF_System_Drawing_RectangleF
-	.long LDIFF_SYM215
+LDIFF_SYM285=Lme_39 - System_Drawing_RectangleF_op_Equality_System_Drawing_RectangleF_System_Drawing_RectangleF
+	.long LDIFF_SYM285
 	.long 0
 	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29
 	.align 3
-Lfde41_end:
+Lfde57_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -9606,36 +11599,36 @@ Lfde41_end:
 
 	.byte 0,0
 	.quad System_Drawing_RectangleF_GetHashCode
-	.quad Lme_2a
+	.quad Lme_3a
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM216=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM216
+LDIFF_SYM286=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM286
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM217=LDIE_R4 - Ldebug_info_start
-	.long LDIFF_SYM217
+LDIFF_SYM287=LDIE_R4 - Ldebug_info_start
+	.long LDIFF_SYM287
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM218=Lfde42_end - Lfde42_start
-	.long LDIFF_SYM218
-Lfde42_start:
+LDIFF_SYM288=Lfde58_end - Lfde58_start
+	.long LDIFF_SYM288
+Lfde58_start:
 
 	.long 0
 	.align 3
 	.quad System_Drawing_RectangleF_GetHashCode
 
-LDIFF_SYM219=Lme_2a - System_Drawing_RectangleF_GetHashCode
-	.long LDIFF_SYM219
+LDIFF_SYM289=Lme_3a - System_Drawing_RectangleF_GetHashCode
+	.long LDIFF_SYM289
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,154,6
 	.align 3
-Lfde42_end:
+Lfde58_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -9645,112 +11638,480 @@ Lfde42_end:
 
 	.byte 0,0
 	.quad System_Drawing_RectangleF_ToString
-	.quad Lme_2b
+	.quad Lme_3b
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM220=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM220
+LDIFF_SYM290=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM290
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM221=LDIE_R4 - Ldebug_info_start
-	.long LDIFF_SYM221
+LDIFF_SYM291=LDIE_R4 - Ldebug_info_start
+	.long LDIFF_SYM291
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM222=Lfde43_end - Lfde43_start
-	.long LDIFF_SYM222
-Lfde43_start:
+LDIFF_SYM292=Lfde59_end - Lfde59_start
+	.long LDIFF_SYM292
+Lfde59_start:
 
 	.long 0
 	.align 3
 	.quad System_Drawing_RectangleF_ToString
 
-LDIFF_SYM223=Lme_2b - System_Drawing_RectangleF_ToString
-	.long LDIFF_SYM223
+LDIFF_SYM293=Lme_3b - System_Drawing_RectangleF_ToString
+	.long LDIFF_SYM293
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,154,16
 	.align 3
-Lfde43_end:
+Lfde59_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_11:
+LTDIE_13:
+
+	.byte 5
+	.asciz "System_Drawing_Size"
+
+	.byte 24,16
+LDIFF_SYM294=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM294
+	.byte 2,35,0,6
+	.asciz "width"
+
+LDIFF_SYM295=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM295
+	.byte 2,35,0,6
+	.asciz "height"
+
+LDIFF_SYM296=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM296
+	.byte 2,35,4,0,7
+	.asciz "System_Drawing_Size"
+
+LDIFF_SYM297=LTDIE_13 - Ldebug_info_start
+	.long LDIFF_SYM297
+LTDIE_13_POINTER:
+
+	.byte 13
+LDIFF_SYM298=LTDIE_13 - Ldebug_info_start
+	.long LDIFF_SYM298
+LTDIE_13_REFERENCE:
+
+	.byte 14
+LDIFF_SYM299=LTDIE_13 - Ldebug_info_start
+	.long LDIFF_SYM299
+	.byte 2
+	.asciz "System.Drawing.Size:.ctor"
+	.asciz "System_Drawing_Size__ctor_int_int"
+
+	.byte 0,0
+	.quad System_Drawing_Size__ctor_int_int
+	.quad Lme_3c
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM300=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM300
+	.byte 1,104,3
+	.asciz "width"
+
+LDIFF_SYM301=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM301
+	.byte 2,141,24,3
+	.asciz "height"
+
+LDIFF_SYM302=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM302
+	.byte 2,141,32,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM303=Lfde60_end - Lfde60_start
+	.long LDIFF_SYM303
+Lfde60_start:
+
+	.long 0
+	.align 3
+	.quad System_Drawing_Size__ctor_int_int
+
+LDIFF_SYM304=Lme_3c - System_Drawing_Size__ctor_int_int
+	.long LDIFF_SYM304
+	.long 0
+	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,152,4
+	.align 3
+Lfde60_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Drawing.Size:op_Equality"
+	.asciz "System_Drawing_Size_op_Equality_System_Drawing_Size_System_Drawing_Size"
+
+	.byte 0,0
+	.quad System_Drawing_Size_op_Equality_System_Drawing_Size_System_Drawing_Size
+	.quad Lme_3d
+
+	.byte 2,118,16,3
+	.asciz "sz1"
+
+LDIFF_SYM305=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM305
+	.byte 2,141,16,3
+	.asciz "sz2"
+
+LDIFF_SYM306=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM306
+	.byte 2,141,32,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM307=Lfde61_end - Lfde61_start
+	.long LDIFF_SYM307
+Lfde61_start:
+
+	.long 0
+	.align 3
+	.quad System_Drawing_Size_op_Equality_System_Drawing_Size_System_Drawing_Size
+
+LDIFF_SYM308=Lme_3d - System_Drawing_Size_op_Equality_System_Drawing_Size_System_Drawing_Size
+	.long LDIFF_SYM308
+	.long 0
+	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
+	.align 3
+Lfde61_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Drawing.Size:op_Inequality"
+	.asciz "System_Drawing_Size_op_Inequality_System_Drawing_Size_System_Drawing_Size"
+
+	.byte 0,0
+	.quad System_Drawing_Size_op_Inequality_System_Drawing_Size_System_Drawing_Size
+	.quad Lme_3e
+
+	.byte 2,118,16,3
+	.asciz "sz1"
+
+LDIFF_SYM309=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM309
+	.byte 2,141,16,3
+	.asciz "sz2"
+
+LDIFF_SYM310=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM310
+	.byte 2,141,32,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM311=Lfde62_end - Lfde62_start
+	.long LDIFF_SYM311
+Lfde62_start:
+
+	.long 0
+	.align 3
+	.quad System_Drawing_Size_op_Inequality_System_Drawing_Size_System_Drawing_Size
+
+LDIFF_SYM312=Lme_3e - System_Drawing_Size_op_Inequality_System_Drawing_Size_System_Drawing_Size
+	.long LDIFF_SYM312
+	.long 0
+	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
+	.align 3
+Lfde62_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Drawing.Size:get_Width"
+	.asciz "System_Drawing_Size_get_Width"
+
+	.byte 0,0
+	.quad System_Drawing_Size_get_Width
+	.quad Lme_3f
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM313=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM313
+	.byte 2,141,16,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM314=Lfde63_end - Lfde63_start
+	.long LDIFF_SYM314
+Lfde63_start:
+
+	.long 0
+	.align 3
+	.quad System_Drawing_Size_get_Width
+
+LDIFF_SYM315=Lme_3f - System_Drawing_Size_get_Width
+	.long LDIFF_SYM315
+	.long 0
+	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
+	.align 3
+Lfde63_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Drawing.Size:get_Height"
+	.asciz "System_Drawing_Size_get_Height"
+
+	.byte 0,0
+	.quad System_Drawing_Size_get_Height
+	.quad Lme_40
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM316=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM316
+	.byte 2,141,16,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM317=Lfde64_end - Lfde64_start
+	.long LDIFF_SYM317
+Lfde64_start:
+
+	.long 0
+	.align 3
+	.quad System_Drawing_Size_get_Height
+
+LDIFF_SYM318=Lme_40 - System_Drawing_Size_get_Height
+	.long LDIFF_SYM318
+	.long 0
+	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
+	.align 3
+Lfde64_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Drawing.Size:Equals"
+	.asciz "System_Drawing_Size_Equals_object"
+
+	.byte 0,0
+	.quad System_Drawing_Size_Equals_object
+	.quad Lme_41
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM319=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM319
+	.byte 2,141,32,3
+	.asciz "obj"
+
+LDIFF_SYM320=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM320
+	.byte 1,106,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM321=Lfde65_end - Lfde65_start
+	.long LDIFF_SYM321
+Lfde65_start:
+
+	.long 0
+	.align 3
+	.quad System_Drawing_Size_Equals_object
+
+LDIFF_SYM322=Lme_41 - System_Drawing_Size_Equals_object
+	.long LDIFF_SYM322
+	.long 0
+	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,152,4,68,154,3
+	.align 3
+Lfde65_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Drawing.Size:Equals"
+	.asciz "System_Drawing_Size_Equals_System_Drawing_Size"
+
+	.byte 0,0
+	.quad System_Drawing_Size_Equals_System_Drawing_Size
+	.quad Lme_42
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM323=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM323
+	.byte 2,141,16,3
+	.asciz "other"
+
+LDIFF_SYM324=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM324
+	.byte 2,141,24,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM325=Lfde66_end - Lfde66_start
+	.long LDIFF_SYM325
+Lfde66_start:
+
+	.long 0
+	.align 3
+	.quad System_Drawing_Size_Equals_System_Drawing_Size
+
+LDIFF_SYM326=Lme_42 - System_Drawing_Size_Equals_System_Drawing_Size
+	.long LDIFF_SYM326
+	.long 0
+	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
+	.align 3
+Lfde66_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Drawing.Size:GetHashCode"
+	.asciz "System_Drawing_Size_GetHashCode"
+
+	.byte 0,0
+	.quad System_Drawing_Size_GetHashCode
+	.quad Lme_43
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM327=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM327
+	.byte 1,106,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM328=Lfde67_end - Lfde67_start
+	.long LDIFF_SYM328
+Lfde67_start:
+
+	.long 0
+	.align 3
+	.quad System_Drawing_Size_GetHashCode
+
+LDIFF_SYM329=Lme_43 - System_Drawing_Size_GetHashCode
+	.long LDIFF_SYM329
+	.long 0
+	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29,68,154,2
+	.align 3
+Lfde67_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Drawing.Size:ToString"
+	.asciz "System_Drawing_Size_ToString"
+
+	.byte 0,0
+	.quad System_Drawing_Size_ToString
+	.quad Lme_44
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM330=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM330
+	.byte 2,141,16,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM331=Lfde68_end - Lfde68_start
+	.long LDIFF_SYM331
+Lfde68_start:
+
+	.long 0
+	.align 3
+	.quad System_Drawing_Size_ToString
+
+LDIFF_SYM332=Lme_44 - System_Drawing_Size_ToString
+	.long LDIFF_SYM332
+	.long 0
+	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29
+	.align 3
+Lfde68_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_14:
 
 	.byte 5
 	.asciz "System_Drawing_SizeF"
 
 	.byte 24,16
-LDIFF_SYM224=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM224
+LDIFF_SYM333=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM333
 	.byte 2,35,0,6
 	.asciz "width"
 
-LDIFF_SYM225=LDIE_R4 - Ldebug_info_start
-	.long LDIFF_SYM225
+LDIFF_SYM334=LDIE_R4 - Ldebug_info_start
+	.long LDIFF_SYM334
 	.byte 2,35,0,6
 	.asciz "height"
 
-LDIFF_SYM226=LDIE_R4 - Ldebug_info_start
-	.long LDIFF_SYM226
+LDIFF_SYM335=LDIE_R4 - Ldebug_info_start
+	.long LDIFF_SYM335
 	.byte 2,35,4,0,7
 	.asciz "System_Drawing_SizeF"
 
-LDIFF_SYM227=LTDIE_11 - Ldebug_info_start
-	.long LDIFF_SYM227
-LTDIE_11_POINTER:
+LDIFF_SYM336=LTDIE_14 - Ldebug_info_start
+	.long LDIFF_SYM336
+LTDIE_14_POINTER:
 
 	.byte 13
-LDIFF_SYM228=LTDIE_11 - Ldebug_info_start
-	.long LDIFF_SYM228
-LTDIE_11_REFERENCE:
+LDIFF_SYM337=LTDIE_14 - Ldebug_info_start
+	.long LDIFF_SYM337
+LTDIE_14_REFERENCE:
 
 	.byte 14
-LDIFF_SYM229=LTDIE_11 - Ldebug_info_start
-	.long LDIFF_SYM229
+LDIFF_SYM338=LTDIE_14 - Ldebug_info_start
+	.long LDIFF_SYM338
 	.byte 2
 	.asciz "System.Drawing.SizeF:.ctor"
 	.asciz "System_Drawing_SizeF__ctor_single_single"
 
 	.byte 0,0
 	.quad System_Drawing_SizeF__ctor_single_single
-	.quad Lme_2c
+	.quad Lme_45
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM230=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM230
+LDIFF_SYM339=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM339
 	.byte 1,106,3
 	.asciz "width"
 
-LDIFF_SYM231=LDIE_R4 - Ldebug_info_start
-	.long LDIFF_SYM231
+LDIFF_SYM340=LDIE_R4 - Ldebug_info_start
+	.long LDIFF_SYM340
 	.byte 2,141,24,3
 	.asciz "height"
 
-LDIFF_SYM232=LDIE_R4 - Ldebug_info_start
-	.long LDIFF_SYM232
+LDIFF_SYM341=LDIE_R4 - Ldebug_info_start
+	.long LDIFF_SYM341
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM233=Lfde44_end - Lfde44_start
-	.long LDIFF_SYM233
-Lfde44_start:
+LDIFF_SYM342=Lfde69_end - Lfde69_start
+	.long LDIFF_SYM342
+Lfde69_start:
 
 	.long 0
 	.align 3
 	.quad System_Drawing_SizeF__ctor_single_single
 
-LDIFF_SYM234=Lme_2c - System_Drawing_SizeF__ctor_single_single
-	.long LDIFF_SYM234
+LDIFF_SYM343=Lme_45 - System_Drawing_SizeF__ctor_single_single
+	.long LDIFF_SYM343
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,154,4
 	.align 3
-Lfde44_end:
+Lfde69_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -9760,36 +12121,36 @@ Lfde44_end:
 
 	.byte 0,0
 	.quad System_Drawing_SizeF_op_Equality_System_Drawing_SizeF_System_Drawing_SizeF
-	.quad Lme_2d
+	.quad Lme_46
 
 	.byte 2,118,16,3
 	.asciz "sz1"
 
-LDIFF_SYM235=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM235
+LDIFF_SYM344=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM344
 	.byte 2,141,16,3
 	.asciz "sz2"
 
-LDIFF_SYM236=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM236
+LDIFF_SYM345=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM345
 	.byte 3,141,208,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM237=Lfde45_end - Lfde45_start
-	.long LDIFF_SYM237
-Lfde45_start:
+LDIFF_SYM346=Lfde70_end - Lfde70_start
+	.long LDIFF_SYM346
+Lfde70_start:
 
 	.long 0
 	.align 3
 	.quad System_Drawing_SizeF_op_Equality_System_Drawing_SizeF_System_Drawing_SizeF
 
-LDIFF_SYM238=Lme_2d - System_Drawing_SizeF_op_Equality_System_Drawing_SizeF_System_Drawing_SizeF
-	.long LDIFF_SYM238
+LDIFF_SYM347=Lme_46 - System_Drawing_SizeF_op_Equality_System_Drawing_SizeF_System_Drawing_SizeF
+	.long LDIFF_SYM347
 	.long 0
 	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29
 	.align 3
-Lfde45_end:
+Lfde70_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -9799,31 +12160,31 @@ Lfde45_end:
 
 	.byte 0,0
 	.quad System_Drawing_SizeF_get_Width
-	.quad Lme_2e
+	.quad Lme_47
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM239=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM239
+LDIFF_SYM348=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM348
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM240=Lfde46_end - Lfde46_start
-	.long LDIFF_SYM240
-Lfde46_start:
+LDIFF_SYM349=Lfde71_end - Lfde71_start
+	.long LDIFF_SYM349
+Lfde71_start:
 
 	.long 0
 	.align 3
 	.quad System_Drawing_SizeF_get_Width
 
-LDIFF_SYM241=Lme_2e - System_Drawing_SizeF_get_Width
-	.long LDIFF_SYM241
+LDIFF_SYM350=Lme_47 - System_Drawing_SizeF_get_Width
+	.long LDIFF_SYM350
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde46_end:
+Lfde71_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -9833,31 +12194,31 @@ Lfde46_end:
 
 	.byte 0,0
 	.quad System_Drawing_SizeF_get_Height
-	.quad Lme_2f
+	.quad Lme_48
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM242=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM242
+LDIFF_SYM351=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM351
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM243=Lfde47_end - Lfde47_start
-	.long LDIFF_SYM243
-Lfde47_start:
+LDIFF_SYM352=Lfde72_end - Lfde72_start
+	.long LDIFF_SYM352
+Lfde72_start:
 
 	.long 0
 	.align 3
 	.quad System_Drawing_SizeF_get_Height
 
-LDIFF_SYM244=Lme_2f - System_Drawing_SizeF_get_Height
-	.long LDIFF_SYM244
+LDIFF_SYM353=Lme_48 - System_Drawing_SizeF_get_Height
+	.long LDIFF_SYM353
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde47_end:
+Lfde72_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -9867,36 +12228,36 @@ Lfde47_end:
 
 	.byte 0,0
 	.quad System_Drawing_SizeF_Equals_object
-	.quad Lme_30
+	.quad Lme_49
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM245=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM245
+LDIFF_SYM354=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM354
 	.byte 2,141,32,3
 	.asciz "obj"
 
-LDIFF_SYM246=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM246
+LDIFF_SYM355=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM355
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM247=Lfde48_end - Lfde48_start
-	.long LDIFF_SYM247
-Lfde48_start:
+LDIFF_SYM356=Lfde73_end - Lfde73_start
+	.long LDIFF_SYM356
+Lfde73_start:
 
 	.long 0
 	.align 3
 	.quad System_Drawing_SizeF_Equals_object
 
-LDIFF_SYM248=Lme_30 - System_Drawing_SizeF_Equals_object
-	.long LDIFF_SYM248
+LDIFF_SYM357=Lme_49 - System_Drawing_SizeF_Equals_object
+	.long LDIFF_SYM357
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,152,4,68,154,3
 	.align 3
-Lfde48_end:
+Lfde73_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -9906,36 +12267,36 @@ Lfde48_end:
 
 	.byte 0,0
 	.quad System_Drawing_SizeF_Equals_System_Drawing_SizeF
-	.quad Lme_31
+	.quad Lme_4a
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM249=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM249
+LDIFF_SYM358=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM358
 	.byte 2,141,16,3
 	.asciz "other"
 
-LDIFF_SYM250=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM250
+LDIFF_SYM359=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM359
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM251=Lfde49_end - Lfde49_start
-	.long LDIFF_SYM251
-Lfde49_start:
+LDIFF_SYM360=Lfde74_end - Lfde74_start
+	.long LDIFF_SYM360
+Lfde74_start:
 
 	.long 0
 	.align 3
 	.quad System_Drawing_SizeF_Equals_System_Drawing_SizeF
 
-LDIFF_SYM252=Lme_31 - System_Drawing_SizeF_Equals_System_Drawing_SizeF
-	.long LDIFF_SYM252
+LDIFF_SYM361=Lme_4a - System_Drawing_SizeF_Equals_System_Drawing_SizeF
+	.long LDIFF_SYM361
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29
 	.align 3
-Lfde49_end:
+Lfde74_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -9945,36 +12306,36 @@ Lfde49_end:
 
 	.byte 0,0
 	.quad System_Drawing_SizeF_GetHashCode
-	.quad Lme_32
+	.quad Lme_4b
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM253=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM253
+LDIFF_SYM362=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM362
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM254=LDIE_R4 - Ldebug_info_start
-	.long LDIFF_SYM254
+LDIFF_SYM363=LDIE_R4 - Ldebug_info_start
+	.long LDIFF_SYM363
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM255=Lfde50_end - Lfde50_start
-	.long LDIFF_SYM255
-Lfde50_start:
+LDIFF_SYM364=Lfde75_end - Lfde75_start
+	.long LDIFF_SYM364
+Lfde75_start:
 
 	.long 0
 	.align 3
 	.quad System_Drawing_SizeF_GetHashCode
 
-LDIFF_SYM256=Lme_32 - System_Drawing_SizeF_GetHashCode
-	.long LDIFF_SYM256
+LDIFF_SYM365=Lme_4b - System_Drawing_SizeF_GetHashCode
+	.long LDIFF_SYM365
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,154,4
 	.align 3
-Lfde50_end:
+Lfde75_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -9984,127 +12345,127 @@ Lfde50_end:
 
 	.byte 0,0
 	.quad System_Drawing_SizeF_ToString
-	.quad Lme_33
+	.quad Lme_4c
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM257=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM257
+LDIFF_SYM366=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM366
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM258=Lfde51_end - Lfde51_start
-	.long LDIFF_SYM258
-Lfde51_start:
+LDIFF_SYM367=Lfde76_end - Lfde76_start
+	.long LDIFF_SYM367
+Lfde76_start:
 
 	.long 0
 	.align 3
 	.quad System_Drawing_SizeF_ToString
 
-LDIFF_SYM259=Lme_33 - System_Drawing_SizeF_ToString
-	.long LDIFF_SYM259
+LDIFF_SYM368=Lme_4c - System_Drawing_SizeF_ToString
+	.long LDIFF_SYM368
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29
 	.align 3
-Lfde51_end:
+Lfde76_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_12:
+LTDIE_15:
 
 	.byte 5
 	.asciz "System_Boolean"
 
 	.byte 17,16
-LDIFF_SYM260=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM260
+LDIFF_SYM369=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM369
 	.byte 2,35,0,6
 	.asciz "m_value"
 
-LDIFF_SYM261=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM261
+LDIFF_SYM370=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM370
 	.byte 2,35,16,0,7
 	.asciz "System_Boolean"
 
-LDIFF_SYM262=LTDIE_12 - Ldebug_info_start
-	.long LDIFF_SYM262
-LTDIE_12_POINTER:
+LDIFF_SYM371=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM371
+LTDIE_15_POINTER:
 
 	.byte 13
-LDIFF_SYM263=LTDIE_12 - Ldebug_info_start
-	.long LDIFF_SYM263
-LTDIE_12_REFERENCE:
+LDIFF_SYM372=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM372
+LTDIE_15_REFERENCE:
 
 	.byte 14
-LDIFF_SYM264=LTDIE_12 - Ldebug_info_start
-	.long LDIFF_SYM264
+LDIFF_SYM373=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM373
 	.byte 2
 	.asciz "(wrapper_other)_System.Drawing.Color:StructureToPtr"
 	.asciz "wrapper_other_System_Drawing_Color_StructureToPtr_object_intptr_bool"
 
 	.byte 0,0
 	.quad wrapper_other_System_Drawing_Color_StructureToPtr_object_intptr_bool
-	.quad Lme_39
+	.quad Lme_55
 
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM265=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM265
+LDIFF_SYM374=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM374
 	.byte 1,104,3
 	.asciz "param1"
 
-LDIFF_SYM266=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM266
+LDIFF_SYM375=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM375
 	.byte 2,141,32,3
 	.asciz "param2"
 
-LDIFF_SYM267=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM267
+LDIFF_SYM376=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM376
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM268=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM268
+LDIFF_SYM377=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM377
 	.byte 1,106,11
 	.asciz "V_1"
 
-LDIFF_SYM269=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM269
+LDIFF_SYM378=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM378
 	.byte 1,104,11
 	.asciz "V_2"
 
-LDIFF_SYM270=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM270
+LDIFF_SYM379=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM379
 	.byte 0,11
 	.asciz "V_3"
 
-LDIFF_SYM271=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM271
+LDIFF_SYM380=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM380
 	.byte 2,141,40,11
 	.asciz "V_4"
 
-LDIFF_SYM272=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM272
+LDIFF_SYM381=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM381
 	.byte 2,141,48,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM273=Lfde52_end - Lfde52_start
-	.long LDIFF_SYM273
-Lfde52_start:
+LDIFF_SYM382=Lfde77_end - Lfde77_start
+	.long LDIFF_SYM382
+Lfde77_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_other_System_Drawing_Color_StructureToPtr_object_intptr_bool
 
-LDIFF_SYM274=Lme_39 - wrapper_other_System_Drawing_Color_StructureToPtr_object_intptr_bool
-	.long LDIFF_SYM274
+LDIFF_SYM383=Lme_55 - wrapper_other_System_Drawing_Color_StructureToPtr_object_intptr_bool
+	.long LDIFF_SYM383
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,152,6,68,154,5
 	.align 3
-Lfde52_end:
+Lfde77_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -10114,56 +12475,139 @@ Lfde52_end:
 
 	.byte 0,0
 	.quad wrapper_other_System_Drawing_Color_PtrToStructure_intptr_object
-	.quad Lme_3a
+	.quad Lme_56
 
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM275=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM275
+LDIFF_SYM384=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM384
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM276=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM276
+LDIFF_SYM385=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM385
 	.byte 2,141,24,11
 	.asciz "V_0"
 
-LDIFF_SYM277=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM277
+LDIFF_SYM386=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM386
 	.byte 0,11
 	.asciz "V_1"
 
-LDIFF_SYM278=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM278
+LDIFF_SYM387=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM387
 	.byte 0,11
 	.asciz "V_2"
 
-LDIFF_SYM279=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM279
+LDIFF_SYM388=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM388
 	.byte 0,11
 	.asciz "V_3"
 
-LDIFF_SYM280=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM280
+LDIFF_SYM389=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM389
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM281=Lfde53_end - Lfde53_start
-	.long LDIFF_SYM281
-Lfde53_start:
+LDIFF_SYM390=Lfde78_end - Lfde78_start
+	.long LDIFF_SYM390
+Lfde78_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_other_System_Drawing_Color_PtrToStructure_intptr_object
 
-LDIFF_SYM282=Lme_3a - wrapper_other_System_Drawing_Color_PtrToStructure_intptr_object
-	.long LDIFF_SYM282
+LDIFF_SYM391=Lme_56 - wrapper_other_System_Drawing_Color_PtrToStructure_intptr_object
+	.long LDIFF_SYM391
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde53_end:
+Lfde78_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "(wrapper_other)_System.Drawing.Point:StructureToPtr"
+	.asciz "wrapper_other_System_Drawing_Point_StructureToPtr_object_intptr_bool"
+
+	.byte 0,0
+	.quad wrapper_other_System_Drawing_Point_StructureToPtr_object_intptr_bool
+	.quad Lme_57
+
+	.byte 2,118,16,3
+	.asciz "param0"
+
+LDIFF_SYM392=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM392
+	.byte 2,141,16,3
+	.asciz "param1"
+
+LDIFF_SYM393=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM393
+	.byte 2,141,24,3
+	.asciz "param2"
+
+LDIFF_SYM394=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM394
+	.byte 0,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM395=Lfde79_end - Lfde79_start
+	.long LDIFF_SYM395
+Lfde79_start:
+
+	.long 0
+	.align 3
+	.quad wrapper_other_System_Drawing_Point_StructureToPtr_object_intptr_bool
+
+LDIFF_SYM396=Lme_57 - wrapper_other_System_Drawing_Point_StructureToPtr_object_intptr_bool
+	.long LDIFF_SYM396
+	.long 0
+	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
+	.align 3
+Lfde79_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "(wrapper_other)_System.Drawing.Point:PtrToStructure"
+	.asciz "wrapper_other_System_Drawing_Point_PtrToStructure_intptr_object"
+
+	.byte 0,0
+	.quad wrapper_other_System_Drawing_Point_PtrToStructure_intptr_object
+	.quad Lme_58
+
+	.byte 2,118,16,3
+	.asciz "param0"
+
+LDIFF_SYM397=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM397
+	.byte 2,141,16,3
+	.asciz "param1"
+
+LDIFF_SYM398=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM398
+	.byte 2,141,24,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM399=Lfde80_end - Lfde80_start
+	.long LDIFF_SYM399
+Lfde80_start:
+
+	.long 0
+	.align 3
+	.quad wrapper_other_System_Drawing_Point_PtrToStructure_intptr_object
+
+LDIFF_SYM400=Lme_58 - wrapper_other_System_Drawing_Point_PtrToStructure_intptr_object
+	.long LDIFF_SYM400
+	.long 0
+	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
+	.align 3
+Lfde80_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -10173,41 +12617,41 @@ Lfde53_end:
 
 	.byte 0,0
 	.quad wrapper_other_System_Drawing_PointF_StructureToPtr_object_intptr_bool
-	.quad Lme_3b
+	.quad Lme_59
 
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM283=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM283
+LDIFF_SYM401=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM401
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM284=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM284
+LDIFF_SYM402=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM402
 	.byte 2,141,24,3
 	.asciz "param2"
 
-LDIFF_SYM285=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM285
+LDIFF_SYM403=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM403
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM286=Lfde54_end - Lfde54_start
-	.long LDIFF_SYM286
-Lfde54_start:
+LDIFF_SYM404=Lfde81_end - Lfde81_start
+	.long LDIFF_SYM404
+Lfde81_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_other_System_Drawing_PointF_StructureToPtr_object_intptr_bool
 
-LDIFF_SYM287=Lme_3b - wrapper_other_System_Drawing_PointF_StructureToPtr_object_intptr_bool
-	.long LDIFF_SYM287
+LDIFF_SYM405=Lme_59 - wrapper_other_System_Drawing_PointF_StructureToPtr_object_intptr_bool
+	.long LDIFF_SYM405
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde54_end:
+Lfde81_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -10217,36 +12661,119 @@ Lfde54_end:
 
 	.byte 0,0
 	.quad wrapper_other_System_Drawing_PointF_PtrToStructure_intptr_object
-	.quad Lme_3c
+	.quad Lme_5a
 
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM288=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM288
+LDIFF_SYM406=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM406
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM289=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM289
+LDIFF_SYM407=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM407
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM290=Lfde55_end - Lfde55_start
-	.long LDIFF_SYM290
-Lfde55_start:
+LDIFF_SYM408=Lfde82_end - Lfde82_start
+	.long LDIFF_SYM408
+Lfde82_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_other_System_Drawing_PointF_PtrToStructure_intptr_object
 
-LDIFF_SYM291=Lme_3c - wrapper_other_System_Drawing_PointF_PtrToStructure_intptr_object
-	.long LDIFF_SYM291
+LDIFF_SYM409=Lme_5a - wrapper_other_System_Drawing_PointF_PtrToStructure_intptr_object
+	.long LDIFF_SYM409
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde55_end:
+Lfde82_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "(wrapper_other)_System.Drawing.Rectangle:StructureToPtr"
+	.asciz "wrapper_other_System_Drawing_Rectangle_StructureToPtr_object_intptr_bool"
+
+	.byte 0,0
+	.quad wrapper_other_System_Drawing_Rectangle_StructureToPtr_object_intptr_bool
+	.quad Lme_5b
+
+	.byte 2,118,16,3
+	.asciz "param0"
+
+LDIFF_SYM410=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM410
+	.byte 2,141,16,3
+	.asciz "param1"
+
+LDIFF_SYM411=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM411
+	.byte 2,141,24,3
+	.asciz "param2"
+
+LDIFF_SYM412=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM412
+	.byte 0,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM413=Lfde83_end - Lfde83_start
+	.long LDIFF_SYM413
+Lfde83_start:
+
+	.long 0
+	.align 3
+	.quad wrapper_other_System_Drawing_Rectangle_StructureToPtr_object_intptr_bool
+
+LDIFF_SYM414=Lme_5b - wrapper_other_System_Drawing_Rectangle_StructureToPtr_object_intptr_bool
+	.long LDIFF_SYM414
+	.long 0
+	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
+	.align 3
+Lfde83_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "(wrapper_other)_System.Drawing.Rectangle:PtrToStructure"
+	.asciz "wrapper_other_System_Drawing_Rectangle_PtrToStructure_intptr_object"
+
+	.byte 0,0
+	.quad wrapper_other_System_Drawing_Rectangle_PtrToStructure_intptr_object
+	.quad Lme_5c
+
+	.byte 2,118,16,3
+	.asciz "param0"
+
+LDIFF_SYM415=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM415
+	.byte 2,141,16,3
+	.asciz "param1"
+
+LDIFF_SYM416=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM416
+	.byte 2,141,24,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM417=Lfde84_end - Lfde84_start
+	.long LDIFF_SYM417
+Lfde84_start:
+
+	.long 0
+	.align 3
+	.quad wrapper_other_System_Drawing_Rectangle_PtrToStructure_intptr_object
+
+LDIFF_SYM418=Lme_5c - wrapper_other_System_Drawing_Rectangle_PtrToStructure_intptr_object
+	.long LDIFF_SYM418
+	.long 0
+	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
+	.align 3
+Lfde84_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -10256,41 +12783,41 @@ Lfde55_end:
 
 	.byte 0,0
 	.quad wrapper_other_System_Drawing_RectangleF_StructureToPtr_object_intptr_bool
-	.quad Lme_3d
+	.quad Lme_5d
 
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM292=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM292
+LDIFF_SYM419=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM419
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM293=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM293
+LDIFF_SYM420=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM420
 	.byte 2,141,24,3
 	.asciz "param2"
 
-LDIFF_SYM294=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM294
+LDIFF_SYM421=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM421
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM295=Lfde56_end - Lfde56_start
-	.long LDIFF_SYM295
-Lfde56_start:
+LDIFF_SYM422=Lfde85_end - Lfde85_start
+	.long LDIFF_SYM422
+Lfde85_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_other_System_Drawing_RectangleF_StructureToPtr_object_intptr_bool
 
-LDIFF_SYM296=Lme_3d - wrapper_other_System_Drawing_RectangleF_StructureToPtr_object_intptr_bool
-	.long LDIFF_SYM296
+LDIFF_SYM423=Lme_5d - wrapper_other_System_Drawing_RectangleF_StructureToPtr_object_intptr_bool
+	.long LDIFF_SYM423
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde56_end:
+Lfde85_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -10300,36 +12827,119 @@ Lfde56_end:
 
 	.byte 0,0
 	.quad wrapper_other_System_Drawing_RectangleF_PtrToStructure_intptr_object
-	.quad Lme_3e
+	.quad Lme_5e
 
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM297=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM297
+LDIFF_SYM424=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM424
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM298=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM298
+LDIFF_SYM425=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM425
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM299=Lfde57_end - Lfde57_start
-	.long LDIFF_SYM299
-Lfde57_start:
+LDIFF_SYM426=Lfde86_end - Lfde86_start
+	.long LDIFF_SYM426
+Lfde86_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_other_System_Drawing_RectangleF_PtrToStructure_intptr_object
 
-LDIFF_SYM300=Lme_3e - wrapper_other_System_Drawing_RectangleF_PtrToStructure_intptr_object
-	.long LDIFF_SYM300
+LDIFF_SYM427=Lme_5e - wrapper_other_System_Drawing_RectangleF_PtrToStructure_intptr_object
+	.long LDIFF_SYM427
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde57_end:
+Lfde86_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "(wrapper_other)_System.Drawing.Size:StructureToPtr"
+	.asciz "wrapper_other_System_Drawing_Size_StructureToPtr_object_intptr_bool"
+
+	.byte 0,0
+	.quad wrapper_other_System_Drawing_Size_StructureToPtr_object_intptr_bool
+	.quad Lme_5f
+
+	.byte 2,118,16,3
+	.asciz "param0"
+
+LDIFF_SYM428=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM428
+	.byte 2,141,16,3
+	.asciz "param1"
+
+LDIFF_SYM429=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM429
+	.byte 2,141,24,3
+	.asciz "param2"
+
+LDIFF_SYM430=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM430
+	.byte 0,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM431=Lfde87_end - Lfde87_start
+	.long LDIFF_SYM431
+Lfde87_start:
+
+	.long 0
+	.align 3
+	.quad wrapper_other_System_Drawing_Size_StructureToPtr_object_intptr_bool
+
+LDIFF_SYM432=Lme_5f - wrapper_other_System_Drawing_Size_StructureToPtr_object_intptr_bool
+	.long LDIFF_SYM432
+	.long 0
+	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
+	.align 3
+Lfde87_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "(wrapper_other)_System.Drawing.Size:PtrToStructure"
+	.asciz "wrapper_other_System_Drawing_Size_PtrToStructure_intptr_object"
+
+	.byte 0,0
+	.quad wrapper_other_System_Drawing_Size_PtrToStructure_intptr_object
+	.quad Lme_60
+
+	.byte 2,118,16,3
+	.asciz "param0"
+
+LDIFF_SYM433=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM433
+	.byte 2,141,16,3
+	.asciz "param1"
+
+LDIFF_SYM434=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM434
+	.byte 2,141,24,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM435=Lfde88_end - Lfde88_start
+	.long LDIFF_SYM435
+Lfde88_start:
+
+	.long 0
+	.align 3
+	.quad wrapper_other_System_Drawing_Size_PtrToStructure_intptr_object
+
+LDIFF_SYM436=Lme_60 - wrapper_other_System_Drawing_Size_PtrToStructure_intptr_object
+	.long LDIFF_SYM436
+	.long 0
+	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
+	.align 3
+Lfde88_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -10339,41 +12949,41 @@ Lfde57_end:
 
 	.byte 0,0
 	.quad wrapper_other_System_Drawing_SizeF_StructureToPtr_object_intptr_bool
-	.quad Lme_3f
+	.quad Lme_61
 
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM301=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM301
+LDIFF_SYM437=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM437
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM302=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM302
+LDIFF_SYM438=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM438
 	.byte 2,141,24,3
 	.asciz "param2"
 
-LDIFF_SYM303=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM303
+LDIFF_SYM439=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM439
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM304=Lfde58_end - Lfde58_start
-	.long LDIFF_SYM304
-Lfde58_start:
+LDIFF_SYM440=Lfde89_end - Lfde89_start
+	.long LDIFF_SYM440
+Lfde89_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_other_System_Drawing_SizeF_StructureToPtr_object_intptr_bool
 
-LDIFF_SYM305=Lme_3f - wrapper_other_System_Drawing_SizeF_StructureToPtr_object_intptr_bool
-	.long LDIFF_SYM305
+LDIFF_SYM441=Lme_61 - wrapper_other_System_Drawing_SizeF_StructureToPtr_object_intptr_bool
+	.long LDIFF_SYM441
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde58_end:
+Lfde89_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -10383,36 +12993,36 @@ Lfde58_end:
 
 	.byte 0,0
 	.quad wrapper_other_System_Drawing_SizeF_PtrToStructure_intptr_object
-	.quad Lme_40
+	.quad Lme_62
 
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM306=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM306
+LDIFF_SYM442=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM442
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM307=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM307
+LDIFF_SYM443=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM443
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM308=Lfde59_end - Lfde59_start
-	.long LDIFF_SYM308
-Lfde59_start:
+LDIFF_SYM444=Lfde90_end - Lfde90_start
+	.long LDIFF_SYM444
+Lfde90_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_other_System_Drawing_SizeF_PtrToStructure_intptr_object
 
-LDIFF_SYM309=Lme_40 - wrapper_other_System_Drawing_SizeF_PtrToStructure_intptr_object
-	.long LDIFF_SYM309
+LDIFF_SYM445=Lme_62 - wrapper_other_System_Drawing_SizeF_PtrToStructure_intptr_object
+	.long LDIFF_SYM445
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde59_end:
+Lfde90_end:
 
 .section __DWARF, __debug_info,regular,debug
 

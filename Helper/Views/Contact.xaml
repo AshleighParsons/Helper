@@ -85,6 +85,13 @@
                     Clicked="HandleClicked3"
                     x:Name="myICEimage"/>
 
+            
+            <!--<Label Text="Long Press Me!" effects:LongPressEffect.Command="{Binding ShowAlertCommand}" effects:LongPressEffect.CommandParameter="{Binding .}">
+                <Label.Effects>
+                    <effects:LongPressEffect />
+                </Label.Effects>
+            </Label>-->
+
             <Label Grid.Row="3"
                     Grid.Column="1"
                     Text="Your ICE"

@@ -1,7 +1,7 @@
 IP: 192.168.0.102
 IP: fe80::aede:48ff:fe00:1122
-IP: fe80::86b:531c:a1c7:360b
-IP: fe80::dcee:a3ff:fec6:582d
-IP: fe80::98bd:f3b6:f2a2:e708
-IP: fe80::a0b1:5903:f983:3094
+IP: fe80::38:dca:6ea5:5179
+IP: fe80::7c04:d5ff:fe29:7297
+IP: fe80::4080:67b6:256f:e31
+IP: fe80::8a45:e87b:1533:10f3
 Port: 10000

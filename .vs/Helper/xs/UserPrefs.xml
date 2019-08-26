@@ -1,11 +1,14 @@
 ﻿<Properties StartupConfiguration="{5107B829-1C6B-4D12-AE1B-921ED5C724AF}|Default">
   <MonoDevelop.Ide.ItemProperties.Helper.iOS automaticSigning="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.42ecee95746602a9deccdf63f11a00f3644aaaee" />
   <MonoDevelop.Ide.ItemProperties.Helper.Android AndroidDesignerPreferredTheme="Theme.AppCompat.Light.NoActionBar" PreferredExecutionTarget="Android.Android_Accelerated_Oreo" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Helper/Views/Contact.xaml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Helper/Views/BonesPageDetail.xaml">
     <Files>
-      <File FileName="Helper/App.xaml.cs" Line="25" Column="1" />
-      <File FileName="Helper/Views/Contact.xaml.cs" Line="17" Column="14" />
-      <File FileName="../../../Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets" Line="991" Column="3" />
+      <File FileName="Helper/Views/WoundsPageDetail.xaml" Line="51" Column="42" />
+      <File FileName="Helper/Views/WoundsPageDetail.xaml.cs" Line="56" Column="10" />
+      <File FileName="Helper/Views/WoundsPage.xaml" Line="1" Column="1" />
+      <File FileName="Helper/Views/Emergency.xaml" Line="16" Column="34" />
+      <File FileName="Helper/Views/BonesPageDetail.xaml" Line="51" Column="43" />
+      <File FileName="Helper/Views/BonesPageDetail.xaml.cs" Line="56" Column="10" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -13,19 +16,12 @@
           <Node name="Helper" expanded="True">
             <Node name="Helper" expanded="True">
               <Node name="Views" expanded="True">
-                <Node name="Contact.xaml" expanded="True">
-                  <Node name="Contact.xaml.cs" selected="True" />
-                </Node>
-                <Node name="MainTabbedPage.xaml" expanded="True" />
+                <Node name="BonesPageDetail.xaml" expanded="True" selected="True" />
               </Node>
-              <Node name="App.xaml" expanded="True" />
             </Node>
             <Node name="Helper.iOS" expanded="True" />
           </Node>
         </State>
-      </Pad>
-      <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State />
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
