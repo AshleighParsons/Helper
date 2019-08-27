@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/ashleighparsons/firstaidhelper/Helper/Helper.csproj": {}
+    "/Users/ashleighparsons/Desktop/firstaidhelper/Helper/Helper.csproj": {}
   },
   "projects": {
-    "/Users/ashleighparsons/firstaidhelper/Helper/Helper.csproj": {
+    "/Users/ashleighparsons/Desktop/firstaidhelper/Helper/Helper.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/ashleighparsons/firstaidhelper/Helper/Helper.csproj",
+        "projectUniqueName": "/Users/ashleighparsons/Desktop/firstaidhelper/Helper/Helper.csproj",
         "projectName": "Helper",
-        "projectPath": "/Users/ashleighparsons/firstaidhelper/Helper/Helper.csproj",
+        "projectPath": "/Users/ashleighparsons/Desktop/firstaidhelper/Helper/Helper.csproj",
         "packagesPath": "/Users/ashleighparsons/.nuget/packages/",
-        "outputPath": "/Users/ashleighparsons/firstaidhelper/Helper/obj/",
+        "outputPath": "/Users/ashleighparsons/Desktop/firstaidhelper/Helper/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

@@ -1,32 +1,35 @@
 ﻿<Properties StartupConfiguration="{5107B829-1C6B-4D12-AE1B-921ED5C724AF}|Default">
-  <MonoDevelop.Ide.ItemProperties.Helper.iOS automaticSigning="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.42ecee95746602a9deccdf63f11a00f3644aaaee" />
+  <MonoDevelop.Ide.ItemProperties.Helper.iOS automaticSigning="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.3A7EC101-3770-4531-A50D-F0ADBC0A7B41" />
   <MonoDevelop.Ide.ItemProperties.Helper.Android AndroidDesignerPreferredTheme="Theme.AppCompat.Light.NoActionBar" PreferredExecutionTarget="Android.Android_Accelerated_Oreo" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Helper/Views/BonesPageDetail.xaml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Helper.iOS/AppDelegate.cs">
     <Files>
-      <File FileName="Helper/Views/WoundsPageDetail.xaml" Line="51" Column="42" />
-      <File FileName="Helper/Views/WoundsPageDetail.xaml.cs" Line="56" Column="10" />
-      <File FileName="Helper/Views/WoundsPage.xaml" Line="1" Column="1" />
-      <File FileName="Helper/Views/Emergency.xaml" Line="16" Column="34" />
-      <File FileName="Helper/Views/BonesPageDetail.xaml" Line="51" Column="43" />
-      <File FileName="Helper/Views/BonesPageDetail.xaml.cs" Line="56" Column="10" />
+      <File FileName="Helper.iOS/AppDelegate.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Helper" expanded="True">
             <Node name="Helper" expanded="True">
+              <Node name="Models" expanded="True" />
               <Node name="Views" expanded="True">
-                <Node name="BonesPageDetail.xaml" expanded="True" selected="True" />
+                <Node name="AddContactPage.xaml" expanded="True" />
+                <Node name="BonesPage.xaml" expanded="True" />
+                <Node name="Emergency.xaml" expanded="True" />
+                <Node name="IllnessPage.xaml" expanded="True" />
+                <Node name="WoundsPageDetail.xaml" expanded="True" />
               </Node>
+              <Node name="App.xaml" expanded="True" />
             </Node>
-            <Node name="Helper.iOS" expanded="True" />
+            <Node name="Helper.iOS" expanded="True">
+              <Node name="AppDelegate.cs" selected="True" />
+            </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
