@@ -1,9 +1,10 @@
 ﻿<Properties StartupConfiguration="{5107B829-1C6B-4D12-AE1B-921ED5C724AF}|Default">
-  <MonoDevelop.Ide.ItemProperties.Helper.iOS automaticSigning="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.3A7EC101-3770-4531-A50D-F0ADBC0A7B41" />
+  <MonoDevelop.Ide.ItemProperties.Helper.iOS automaticSigning="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.B2C62A96-13AF-4DDA-913A-8D7CFC41E753" />
   <MonoDevelop.Ide.ItemProperties.Helper.Android AndroidDesignerPreferredTheme="Theme.AppCompat.Light.NoActionBar" PreferredExecutionTarget="Android.Android_Accelerated_Oreo" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Helper.iOS/AppDelegate.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Helper/Views/Hospital.xaml.cs">
     <Files>
-      <File FileName="Helper.iOS/AppDelegate.cs" Line="1" Column="1" />
+      <File FileName="Helper/Views/Hospital.xaml" Line="1" Column="1" />
+      <File FileName="Helper/Views/Hospital.xaml.cs" Line="65" Column="69" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -12,17 +13,13 @@
             <Node name="Helper" expanded="True">
               <Node name="Models" expanded="True" />
               <Node name="Views" expanded="True">
-                <Node name="AddContactPage.xaml" expanded="True" />
-                <Node name="BonesPage.xaml" expanded="True" />
-                <Node name="Emergency.xaml" expanded="True" />
-                <Node name="IllnessPage.xaml" expanded="True" />
-                <Node name="WoundsPageDetail.xaml" expanded="True" />
+                <Node name="Hospital.xaml" expanded="True">
+                  <Node name="Hospital.xaml.cs" selected="True" />
+                </Node>
               </Node>
               <Node name="App.xaml" expanded="True" />
             </Node>
-            <Node name="Helper.iOS" expanded="True">
-              <Node name="AppDelegate.cs" selected="True" />
-            </Node>
+            <Node name="Helper.iOS" expanded="True" />
           </Node>
         </State>
       </Pad>
