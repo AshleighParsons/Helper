@@ -42,7 +42,7 @@ I believe that this would benefit society, as basic first aid before emergency r
 
 ## How to use Helper:
 
-![Home Screen](/Users/ashleighparsons/Library/Containers/com.apple.mail/Data/Library/Mail Downloads/F956A635-73CB-470E-96F4-88321A128AAE/IMG_1372.PNG)
+![Home Screen](/Users/ashleighparsons/Downloads/IMG_1372.PNG)
 The home screen will present the user with 4 icons, each representing a different kind of emergency. 
 
 ![Emergency Screen](/Users/ashleighparsons/Library/Containers/com.apple.mail/Data/Library/Mail Downloads/5160D26D-62FB-4583-BF7B-F7FB208855A3/IMG_1373.PNG)
