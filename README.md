@@ -18,7 +18,7 @@ I believe that this would benefit society, as basic first aid before emergency r
 * View specific injuries within the categories
 * Access the torch upon specific category selection
 * Access user location
-* Direct to google maps when a pin is clicked
+* Direct to Google Maps when a pin is clicked
 * Call emergency services from the app
 * Add your own ICE contact
 * Use an external font
