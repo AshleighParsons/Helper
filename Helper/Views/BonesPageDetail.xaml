@@ -33,6 +33,9 @@
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*" />
                     <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
                 </Grid.ColumnDefinitions>
 
                 <ImageButton Source="red-torch"
@@ -40,24 +43,31 @@
                              HeightRequest="60"
                              Clicked="Handle_Clicked"
                              Grid.Row="0"
-                             Grid.Column="0" />
+                             Grid.Column="1"
+                             CornerRadius="30"
+                             Padding="10" 
+                             x:Name="torchOnImage" />
 
                 <Label Text="On"
                        HorizontalOptions="Center"
                        VerticalOptions="End"
-                       Grid.Column="0" />
+                       Grid.Column="1" />
 
                 <ImageButton Source="blue-torch"
                              Margin="0, 20"
                              HeightRequest="60"
                              Clicked="Handle_Clicked_1"
                              Grid.Row="0"
-                             Grid.Column="1" />
+                             Grid.Column="3"
+                             BackgroundColor="#5078BCC4"
+                             CornerRadius="30"
+                             Padding="10"
+                             x:Name="torchOffImage" />
 
                 <Label Text="Off"
                        HorizontalOptions="Center"
                        VerticalOptions="End"
-                       Grid.Column="1" />
+                       Grid.Column="3" />
             </Grid>
 
             <Grid Margin="20">

@@ -1,4 +1,4 @@
-/Users/ashleighparsons/firstaidhelper/Helper.iOS/bin/iPhone/Debug/Helper.iOS.exe
+/Users/ashleighparsons/Desktop/firstaidhelper/Helper.iOS/bin/iPhone/Debug/Helper.iOS.exe
 /Library/Frameworks/Xamarin.iOS.framework/Versions/12.14.0.110/lib/mono/Xamarin.iOS/mscorlib.dll
 /Users/ashleighparsons/.nuget/packages/xamarin.forms/4.2.0.709249/lib/Xamarin.iOS10/Xamarin.Forms.Core.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/12.14.0.110/lib/mono/Xamarin.iOS/Facades/netstandard.dll
@@ -23,7 +23,7 @@
 /Users/ashleighparsons/.nuget/packages/xamarin.forms/4.2.0.709249/lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.dll
 /Users/ashleighparsons/.nuget/packages/xamarin.forms.maps/4.2.0.709249/lib/Xamarin.iOS10/Xamarin.Forms.Maps.iOS.dll
 /Users/ashleighparsons/.nuget/packages/xamarin.forms.maps/4.2.0.709249/lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll
-/Users/ashleighparsons/firstaidhelper/Helper/bin/Debug/netstandard2.0/Helper.dll
+/Users/ashleighparsons/Desktop/firstaidhelper/Helper/bin/Debug/netstandard2.0/Helper.dll
 /Users/ashleighparsons/.nuget/packages/xamarin.forms/4.2.0.709249/lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll
 /Users/ashleighparsons/.nuget/packages/xamarin.essentials/1.3.0/lib/xamarinios10/Xamarin.Essentials.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/12.14.0.110/lib/mono/Xamarin.iOS/OpenTK-1.0.dll

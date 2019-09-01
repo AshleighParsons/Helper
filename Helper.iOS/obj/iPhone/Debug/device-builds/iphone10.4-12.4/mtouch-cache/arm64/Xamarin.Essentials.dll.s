@@ -269,7 +269,7 @@ Lme_2:
 	.align 4
 	.no_dead_strip Xamarin_Essentials_AppInfo_PlatformGetPackageName
 Xamarin_Essentials_AppInfo_PlatformGetPackageName:
-.file 2 "D:\\a\\1\\s\\Xamarin.Essentials\\AppInfo\\AppInfo.ios.cs"
+.file 2 "D:\\a\\1\\s\\Xamarin.Essentials\\AppInfo\\AppInfo.ios.tvos.watchos.cs"
 .loc 2 8 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
@@ -1296,7 +1296,7 @@ Lme_f:
 	.align 4
 	.no_dead_strip Xamarin_Essentials_Preferences_PlatformContainsKey_string_string
 Xamarin_Essentials_Preferences_PlatformContainsKey_string_string:
-.file 6 "D:\\a\\1\\s\\Xamarin.Essentials\\Preferences\\Preferences.ios.cs"
+.file 6 "D:\\a\\1\\s\\Xamarin.Essentials\\Preferences\\Preferences.ios.tvos.watchos.cs"
 .loc 6 13 0 prologue_end
 .word 0xa9b77bfd
 .word 0x910003fd
@@ -4614,7 +4614,7 @@ Lme_20:
 	.no_dead_strip Xamarin_Essentials_FeatureNotSupportedException__ctor
 Xamarin_Essentials_FeatureNotSupportedException__ctor:
 .file 8 "D:\\a\\1\\s\\Xamarin.Essentials\\Types\\Shared\\Exceptions.shared.cs"
-.loc 8 23 0 prologue_end
+.loc 8 35 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
 .word 0xf9000ba0
@@ -4646,7 +4646,7 @@ bl _p_1
 .word 0xd63f0220
 .word 0xf9400ba0
 bl _p_54
-.loc 8 25 0
+.loc 8 37 0
 .word 0xf9400fb1
 .word 0xf9408231
 .word 0xb4000051
@@ -19585,7 +19585,7 @@ runtime_version:
 .section __TEXT, __const
 	.align 2
 assembly_guid:
-	.asciz "6161CCED-7006-4A27-A0E1-3BA167ADD0C5"
+	.asciz "FB3D558E-C010-4FC6-A273-0BC4AC6C17AC"
 .section __TEXT, __const
 	.align 2
 assembly_name:
@@ -19679,7 +19679,7 @@ _mono_aot_file_info:
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0
-	.byte 175,2,229,112,112,17,126,179,0,241,98,130,42,12,234,206
+	.byte 46,205,20,135,180,50,205,105,174,188,83,117,40,92,73,115
 	.globl _mono_aot_module_Xamarin_Essentials_info
 	.align 3
 _mono_aot_module_Xamarin_Essentials_info:
@@ -22453,7 +22453,7 @@ LDIFF_SYM395=LTDIE_15 - Ldebug_info_start
 	.asciz "Xamarin.Essentials.FeatureNotSupportedException:.ctor"
 	.asciz "Xamarin_Essentials_FeatureNotSupportedException__ctor"
 
-	.byte 8,23
+	.byte 8,35
 	.quad Xamarin_Essentials_FeatureNotSupportedException__ctor
 	.quad Lme_21
 

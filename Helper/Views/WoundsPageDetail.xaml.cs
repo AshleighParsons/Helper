@@ -27,6 +27,8 @@ namespace Helper.Views
             {
                 // Turn On Flashlight  
                 await Flashlight.TurnOnAsync();
+                torchOffImage.BackgroundColor = Color.White;
+                torchOnImage.BackgroundColor = Color.FromHex("#5078BCC4");
             }
             catch (FeatureNotSupportedException)
             {
@@ -44,6 +46,8 @@ namespace Helper.Views
             try
             {
                 await Flashlight.TurnOffAsync();
+                torchOnImage.BackgroundColor = Color.White;
+                torchOffImage.BackgroundColor = Color.FromHex("#5078BCC4");
             }
             catch (FeatureNotSupportedException)
             {

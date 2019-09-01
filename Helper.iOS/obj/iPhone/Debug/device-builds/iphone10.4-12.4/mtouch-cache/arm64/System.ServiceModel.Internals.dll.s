@@ -19899,7 +19899,7 @@ _mono_aot_file_info:
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0
-	.byte 239,74,242,80,70,134,60,150,107,245,42,220,106,147,101,210
+	.byte 231,179,83,226,246,141,111,226,205,154,148,138,170,207,180,122
 	.globl _mono_aot_module_System_ServiceModel_Internals_info
 	.align 3
 _mono_aot_module_System_ServiceModel_Internals_info:

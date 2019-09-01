@@ -121,7 +121,7 @@ jit_code_start:
 	.align 4
 	.no_dead_strip Helper_iOS_Application_Main_string__
 Helper_iOS_Application_Main_string__:
-.file 1 "/Users/ashleighparsons/firstaidhelper/Helper.iOS/Main.cs"
+.file 1 "/Users/ashleighparsons/Desktop/firstaidhelper/Helper.iOS/Main.cs"
 .loc 1 14 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
@@ -219,7 +219,7 @@ Lme_1:
 	.align 4
 	.no_dead_strip Helper_iOS_AppDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary
 Helper_iOS_AppDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary:
-.file 2 "/Users/ashleighparsons/firstaidhelper/Helper.iOS/AppDelegate.cs"
+.file 2 "/Users/ashleighparsons/Desktop/firstaidhelper/Helper.iOS/AppDelegate.cs"
 .loc 2 26 0 prologue_end
 .word 0xa9b47bfd
 .word 0x910003fd
@@ -712,7 +712,7 @@ Lme_3:
 	.align 4
 	.no_dead_strip Helper_iOS_UserNotificationCenterDelegate_WillPresentNotification_UserNotifications_UNUserNotificationCenter_UserNotifications_UNNotification_System_Action_1_UserNotifications_UNNotificationPresentationOptions
 Helper_iOS_UserNotificationCenterDelegate_WillPresentNotification_UserNotifications_UNUserNotificationCenter_UserNotifications_UNNotification_System_Action_1_UserNotifications_UNNotificationPresentationOptions:
-.file 3 "/Users/ashleighparsons/firstaidhelper/Helper.iOS/UNUserNotificationCenterDelegate.cs"
+.file 3 "/Users/ashleighparsons/Desktop/firstaidhelper/Helper.iOS/UNUserNotificationCenterDelegate.cs"
 .loc 3 9 0 prologue_end
 .word 0xa9ba7bfd
 .word 0x910003fd
@@ -821,7 +821,7 @@ Lme_5:
 	.align 4
 	.no_dead_strip Helper_iOS_iOSLongPressedEffect__ctor
 Helper_iOS_iOSLongPressedEffect__ctor:
-.file 4 "/Users/ashleighparsons/firstaidhelper/Helper.iOS/iOSLongPressedEffect.cs"
+.file 4 "/Users/ashleighparsons/Desktop/firstaidhelper/Helper.iOS/iOSLongPressedEffect.cs"
 .loc 4 24 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
@@ -2065,7 +2065,7 @@ runtime_version:
 .section __TEXT, __const
 	.align 2
 assembly_guid:
-	.asciz "ECF1CE2D-DF9F-4D12-A8F5-AEA332F68038"
+	.asciz "74B0BB7D-D66B-490F-B5A8-19AC1925F9F4"
 .section __TEXT, __const
 	.align 2
 assembly_name:
@@ -2159,7 +2159,7 @@ _mono_aot_file_info:
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0
-	.byte 212,193,25,70,182,123,171,118,27,231,102,58,82,12,41,167
+	.byte 130,3,242,29,175,50,163,106,255,140,97,50,176,192,185,75
 	.globl _mono_aot_module_Helper_iOS_info
 	.align 3
 _mono_aot_module_Helper_iOS_info:

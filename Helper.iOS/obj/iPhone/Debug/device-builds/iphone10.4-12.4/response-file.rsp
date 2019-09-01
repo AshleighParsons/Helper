@@ -1,5 +1,5 @@
---cache=/Users/ashleighparsons/firstaidhelper/Helper.iOS/obj/iPhone/Debug/device-builds/iphone10.4-12.4/mtouch-cache
---dev=/Users/ashleighparsons/firstaidhelper/Helper.iOS/bin/iPhone/Debug/device-builds/iphone10.4-12.4/Helper.iOS.app
+--cache=/Users/ashleighparsons/Desktop/firstaidhelper/Helper.iOS/obj/iPhone/Debug/device-builds/iphone10.4-12.4/mtouch-cache
+--dev=/Users/ashleighparsons/Desktop/firstaidhelper/Helper.iOS/bin/iPhone/Debug/device-builds/iphone10.4-12.4/Helper.iOS.app
 --executable=Helper.iOS
  --debug
  --sgen-conc
@@ -10,9 +10,9 @@
  --aot-options=-O=-float32
  --http-message-handler=NSUrlSessionHandler
  --abi=arm64
---symbollist=/Users/ashleighparsons/firstaidhelper/Helper.iOS/obj/iPhone/Debug/device-builds/iphone10.4-12.4/mtouch-symbols.list
+--symbollist=/Users/ashleighparsons/Desktop/firstaidhelper/Helper.iOS/obj/iPhone/Debug/device-builds/iphone10.4-12.4/mtouch-symbols.list
  --dsym=no
--r=/Users/ashleighparsons/firstaidhelper/Helper/bin/Debug/netstandard2.0/Helper.dll
+-r=/Users/ashleighparsons/Desktop/firstaidhelper/Helper/bin/Debug/netstandard2.0/Helper.dll
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/mscorlib.dll
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/OpenTK-1.0.dll
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Core.dll
@@ -208,7 +208,7 @@
 -r=/Users/ashleighparsons/.nuget/packages/xamarin.forms/4.2.0.709249/lib/Xamarin.iOS10/zh-Hant/Xamarin.Forms.Platform.iOS.resources.dll
 -r=/Users/ashleighparsons/.nuget/packages/xamarin.forms.maps/4.2.0.709249/lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll
 -r=/Users/ashleighparsons/.nuget/packages/xamarin.forms.maps/4.2.0.709249/lib/Xamarin.iOS10/Xamarin.Forms.Maps.iOS.dll
--r=/Users/ashleighparsons/firstaidhelper/Helper/bin/Debug/netstandard2.0/Helper.dll
+-r=/Users/ashleighparsons/Desktop/firstaidhelper/Helper/bin/Debug/netstandard2.0/Helper.dll
  --target-framework=Xamarin.iOS,v1.0
---root-assembly=/Users/ashleighparsons/firstaidhelper/Helper.iOS/bin/iPhone/Debug/Helper.iOS.exe
+--root-assembly=/Users/ashleighparsons/Desktop/firstaidhelper/Helper.iOS/bin/iPhone/Debug/Helper.iOS.exe
  

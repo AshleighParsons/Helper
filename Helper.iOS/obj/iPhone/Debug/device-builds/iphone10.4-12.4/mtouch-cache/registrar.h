@@ -121,26 +121,30 @@
 @class Xamarin_Forms_Platform_iOS_ItemsViewRenderer;
 @class Xamarin_Forms_Platform_iOS_CarouselViewRenderer;
 @class Xamarin_Forms_Platform_iOS_SelectableItemsViewRenderer;
+@class Xamarin_Forms_Platform_iOS_GroupableItemsViewRenderer;
 @class Xamarin_Forms_Platform_iOS_CollectionViewRenderer;
-@class Xamarin_Forms_Platform_iOS_ItemsViewCell;
-@class Xamarin_Forms_Platform_iOS_DefaultCell;
-@class Xamarin_Forms_Platform_iOS_HorizontalDefaultCell;
 @class Xamarin_Forms_Platform_iOS_ItemsViewController;
 @class Xamarin_Forms_Platform_iOS_SelectableItemsViewController;
-@class Xamarin_Forms_Platform_iOS_UICollectionViewDelegator;
+@class Xamarin_Forms_Platform_iOS_GroupableItemsViewController;
+@class Xamarin_Forms_Platform_iOS_ItemsViewCell;
+@class Xamarin_Forms_Platform_iOS_DefaultCell;
+@class Xamarin_Forms_Platform_iOS_HorizontalDefaultSupplementalView;
+@class Xamarin_Forms_Platform_iOS_TemplatedCell;
+@class Xamarin_Forms_Platform_iOS_HorizontalTemplatedSupplementalView;
+@class Xamarin_Forms_Platform_iOS_HorizontalDefaultCell;
 @class Xamarin_Forms_Platform_iOS_VerticalDefaultCell;
 @class Xamarin_Forms_Platform_iOS_ItemsViewLayout;
 @class Xamarin_Forms_Platform_iOS_GridViewLayout;
 @class Xamarin_Forms_Platform_iOS_ListViewLayout;
-@class Xamarin_Forms_Platform_iOS_TemplatedCell;
 @class Xamarin_Forms_Platform_iOS_HorizontalTemplatedCell;
+@class Xamarin_Forms_Platform_iOS_VerticalDefaultSupplementalView;
 @class Xamarin_Forms_Platform_iOS_VerticalTemplatedCell;
+@class Xamarin_Forms_Platform_iOS_VerticalTemplatedSupplementalView;
 @class Xamarin_Forms_Platform_iOS_ModalWrapper;
 @class Xamarin_Forms_Platform_iOS_FormsCheckBox;
 @class Xamarin_Forms_Platform_iOS_NativeViewWrapperRenderer;
 @class Xamarin_Forms_Platform_iOS_PageContainer;
 @class Xamarin_Forms_Platform_iOS_CheckBoxRendererBase_1;
-@class Xamarin_Forms_Platform_iOS_ShellFlyoutContentRenderer;
 @class Xamarin_Forms_Platform_iOS_ShellItemRenderer;
 @class Xamarin_Forms_Platform_iOS_ShellSearchResultsRenderer;
 @class Xamarin_Forms_Platform_iOS_ShellTableViewController;
@@ -179,8 +183,10 @@
 @class Xamarin_Forms_Platform_iOS_TabletMasterDetailRenderer;
 @class Xamarin_Forms_Platform_iOS_WebViewRenderer_CustomWebViewDelegate;
 @class Xamarin_Forms_Platform_iOS_WebViewRenderer;
+@class Xamarin_Forms_Platform_iOS_UICollectionViewDelegator;
 @class Xamarin_Forms_Platform_iOS_WkWebViewRenderer_CustomWebViewNavigationDelegate;
 @class Xamarin_Forms_Platform_iOS_WkWebViewRenderer;
+@class Xamarin_Forms_Platform_iOS_ShellFlyoutContentRenderer;
 @class Xamarin_Forms_Platform_iOS_ShellFlyoutRenderer;
 @class Xamarin_Forms_Platform_iOS_ShellPageRendererTracker_TitleViewContainer;
 @class Xamarin_Forms_Platform_iOS_ShellRenderer;
@@ -392,6 +398,7 @@
 @interface UIKit_UISwitch_UISwitchAppearance : UIKit_UIControl_UIControlAppearance {
 }
 	-(UIColor *) onTintColor;
+	-(UIColor *) thumbTintColor;
 @end
 
 @interface UIKit_UITabBar_UITabBarAppearance : UIKit_UIView_UIViewAppearance {
@@ -610,9 +617,39 @@
 	-(id) init;
 @end
 
-@interface Xamarin_Forms_Platform_iOS_CollectionViewRenderer : Xamarin_Forms_Platform_iOS_SelectableItemsViewRenderer {
+@interface Xamarin_Forms_Platform_iOS_GroupableItemsViewRenderer : Xamarin_Forms_Platform_iOS_SelectableItemsViewRenderer {
 }
 	-(id) init;
+@end
+
+@interface Xamarin_Forms_Platform_iOS_CollectionViewRenderer : Xamarin_Forms_Platform_iOS_GroupableItemsViewRenderer {
+}
+	-(id) init;
+@end
+
+@interface Xamarin_Forms_Platform_iOS_ItemsViewController : UICollectionViewController {
+}
+	-(void) release;
+	-(id) retain;
+	-(int) xamarinGetGCHandle;
+	-(void) xamarinSetGCHandle: (int) gchandle;
+	-(UICollectionViewCell *) collectionView:(UICollectionView *)p0 cellForItemAtIndexPath:(NSIndexPath *)p1;
+	-(NSInteger) collectionView:(UICollectionView *)p0 numberOfItemsInSection:(NSInteger)p1;
+	-(void) viewDidLoad;
+	-(void) viewWillLayoutSubviews;
+	-(NSInteger) numberOfSectionsInCollectionView:(UICollectionView *)p0;
+	-(BOOL) conformsToProtocol:(void *)p0;
+@end
+
+@interface Xamarin_Forms_Platform_iOS_SelectableItemsViewController : Xamarin_Forms_Platform_iOS_ItemsViewController {
+}
+	-(void) collectionView:(UICollectionView *)p0 didSelectItemAtIndexPath:(NSIndexPath *)p1;
+	-(void) collectionView:(UICollectionView *)p0 didDeselectItemAtIndexPath:(NSIndexPath *)p1;
+@end
+
+@interface Xamarin_Forms_Platform_iOS_GroupableItemsViewController : Xamarin_Forms_Platform_iOS_SelectableItemsViewController {
+}
+	-(UICollectionReusableView *) collectionView:(UICollectionView *)p0 viewForSupplementaryElementOfKind:(NSString *)p1 atIndexPath:(NSIndexPath *)p2;
 @end
 
 @interface Xamarin_Forms_Platform_iOS_ItemsViewCell : UICollectionViewCell {
@@ -630,39 +667,18 @@
 	-(id) initWithFrame:(CGRect)p0;
 @end
 
-@interface Xamarin_Forms_Platform_iOS_ItemsViewController : UICollectionViewController {
+@interface Xamarin_Forms_Platform_iOS_TemplatedCell : Xamarin_Forms_Platform_iOS_ItemsViewCell {
 }
-	-(void) release;
-	-(id) retain;
-	-(int) xamarinGetGCHandle;
-	-(void) xamarinSetGCHandle: (int) gchandle;
-	-(UICollectionViewCell *) collectionView:(UICollectionView *)p0 cellForItemAtIndexPath:(NSIndexPath *)p1;
-	-(NSInteger) collectionView:(UICollectionView *)p0 numberOfItemsInSection:(NSInteger)p1;
-	-(void) viewDidLoad;
-	-(void) viewWillLayoutSubviews;
-	-(BOOL) conformsToProtocol:(void *)p0;
+	-(UICollectionViewLayoutAttributes *) preferredLayoutAttributesFittingAttributes:(UICollectionViewLayoutAttributes *)p0;
+	-(void) prepareForReuse;
+	-(BOOL) isSelected;
+	-(void) setSelected:(BOOL)p0;
+	-(id) initWithFrame:(CGRect)p0;
 @end
 
-@interface Xamarin_Forms_Platform_iOS_SelectableItemsViewController : Xamarin_Forms_Platform_iOS_ItemsViewController {
+@interface Xamarin_Forms_Platform_iOS_HorizontalTemplatedSupplementalView : Xamarin_Forms_Platform_iOS_TemplatedCell {
 }
-	-(void) collectionView:(UICollectionView *)p0 didSelectItemAtIndexPath:(NSIndexPath *)p1;
-	-(void) collectionView:(UICollectionView *)p0 didDeselectItemAtIndexPath:(NSIndexPath *)p1;
-@end
-
-@interface Xamarin_Forms_Platform_iOS_UICollectionViewDelegator : NSObject<UICollectionViewDelegateFlowLayout, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout, UICollectionViewDelegate> {
-}
-	-(void) release;
-	-(id) retain;
-	-(int) xamarinGetGCHandle;
-	-(void) xamarinSetGCHandle: (int) gchandle;
-	-(void) collectionView:(UICollectionView *)p0 willDisplayCell:(UICollectionViewCell *)p1 forItemAtIndexPath:(NSIndexPath *)p2;
-	-(UIEdgeInsets) collectionView:(UICollectionView *)p0 layout:(UICollectionViewLayout *)p1 insetForSectionAtIndex:(NSInteger)p2;
-	-(CGFloat) collectionView:(UICollectionView *)p0 layout:(UICollectionViewLayout *)p1 minimumInteritemSpacingForSectionAtIndex:(NSInteger)p2;
-	-(CGFloat) collectionView:(UICollectionView *)p0 layout:(UICollectionViewLayout *)p1 minimumLineSpacingForSectionAtIndex:(NSInteger)p2;
-	-(void) collectionView:(UICollectionView *)p0 didSelectItemAtIndexPath:(NSIndexPath *)p1;
-	-(void) collectionView:(UICollectionView *)p0 didDeselectItemAtIndexPath:(NSIndexPath *)p1;
-	-(void) collectionView:(UICollectionView *)p0 didEndDisplayingCell:(UICollectionViewCell *)p1 forItemAtIndexPath:(NSIndexPath *)p2;
-	-(BOOL) conformsToProtocol:(void *)p0;
+	-(id) initWithFrame:(CGRect)p0;
 @end
 
 @interface Xamarin_Forms_Platform_iOS_ItemsViewLayout : UICollectionViewFlowLayout {
@@ -674,15 +690,17 @@
 	-(BOOL) shouldInvalidateLayoutForBoundsChange:(CGRect)p0;
 	-(BOOL) shouldInvalidateLayoutForPreferredLayoutAttributes:(UICollectionViewLayoutAttributes *)p0 withOriginalAttributes:(UICollectionViewLayoutAttributes *)p1;
 	-(CGPoint) targetContentOffsetForProposedContentOffset:(CGPoint)p0 withScrollingVelocity:(CGPoint)p1;
+	-(UICollectionViewLayoutInvalidationContext *) invalidationContextForPreferredLayoutAttributes:(UICollectionViewLayoutAttributes *)p0 withOriginalAttributes:(UICollectionViewLayoutAttributes *)p1;
+	-(UICollectionViewLayoutAttributes *) layoutAttributesForSupplementaryViewOfKind:(NSString *)p0 atIndexPath:(NSIndexPath *)p1;
+	-(void) prepareLayout;
+	-(void) prepareForCollectionViewUpdates:(NSArray *)p0;
+	-(CGPoint) targetContentOffsetForProposedContentOffset:(CGPoint)p0;
+	-(void) finalizeCollectionViewUpdates;
 	-(BOOL) conformsToProtocol:(void *)p0;
 @end
 
-@interface Xamarin_Forms_Platform_iOS_TemplatedCell : Xamarin_Forms_Platform_iOS_ItemsViewCell {
+@interface Xamarin_Forms_Platform_iOS_VerticalTemplatedSupplementalView : Xamarin_Forms_Platform_iOS_TemplatedCell {
 }
-	-(UICollectionViewLayoutAttributes *) preferredLayoutAttributesFittingAttributes:(UICollectionViewLayoutAttributes *)p0;
-	-(void) prepareForReuse;
-	-(BOOL) isSelected;
-	-(void) setSelected:(BOOL)p0;
 	-(id) initWithFrame:(CGRect)p0;
 @end
 
@@ -710,19 +728,6 @@
 	-(void) layoutSubviews;
 	-(CGSize) sizeThatFits:(CGSize)p0;
 	-(id) init;
-@end
-
-@interface Xamarin_Forms_Platform_iOS_ShellFlyoutContentRenderer : UIViewController {
-}
-	-(void) release;
-	-(id) retain;
-	-(int) xamarinGetGCHandle;
-	-(void) xamarinSetGCHandle: (int) gchandle;
-	-(void) viewDidLayoutSubviews;
-	-(void) viewDidLoad;
-	-(void) viewWillAppear:(BOOL)p0;
-	-(void) viewWillDisappear:(BOOL)p0;
-	-(BOOL) conformsToProtocol:(void *)p0;
 @end
 
 @interface Xamarin_Forms_Platform_iOS_ShellItemRenderer : UITabBarController {
@@ -931,6 +936,26 @@
 	-(id) init;
 @end
 
+@interface Xamarin_Forms_Platform_iOS_UICollectionViewDelegator : NSObject<UICollectionViewDelegateFlowLayout, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout, UICollectionViewDelegate> {
+}
+	-(void) release;
+	-(id) retain;
+	-(int) xamarinGetGCHandle;
+	-(void) xamarinSetGCHandle: (int) gchandle;
+	-(void) scrollViewWillBeginDragging:(UIScrollView *)p0;
+	-(void) scrollViewDidEndDragging:(UIScrollView *)p0 willDecelerate:(BOOL)p1;
+	-(void) scrollViewDidScroll:(UIScrollView *)p0;
+	-(UIEdgeInsets) collectionView:(UICollectionView *)p0 layout:(UICollectionViewLayout *)p1 insetForSectionAtIndex:(NSInteger)p2;
+	-(CGFloat) collectionView:(UICollectionView *)p0 layout:(UICollectionViewLayout *)p1 minimumInteritemSpacingForSectionAtIndex:(NSInteger)p2;
+	-(CGFloat) collectionView:(UICollectionView *)p0 layout:(UICollectionViewLayout *)p1 minimumLineSpacingForSectionAtIndex:(NSInteger)p2;
+	-(void) collectionView:(UICollectionView *)p0 didSelectItemAtIndexPath:(NSIndexPath *)p1;
+	-(void) collectionView:(UICollectionView *)p0 didDeselectItemAtIndexPath:(NSIndexPath *)p1;
+	-(void) collectionView:(UICollectionView *)p0 didEndDisplayingCell:(UICollectionViewCell *)p1 forItemAtIndexPath:(NSIndexPath *)p2;
+	-(CGSize) collectionView:(UICollectionView *)p0 layout:(UICollectionViewLayout *)p1 referenceSizeForHeaderInSection:(NSInteger)p2;
+	-(CGSize) collectionView:(UICollectionView *)p0 layout:(UICollectionViewLayout *)p1 referenceSizeForFooterInSection:(NSInteger)p2;
+	-(BOOL) conformsToProtocol:(void *)p0;
+@end
+
 @interface Xamarin_Forms_Platform_iOS_WkWebViewRenderer : WKWebView {
 }
 	-(void) release;
@@ -940,6 +965,19 @@
 	-(void) layoutSubviews;
 	-(BOOL) conformsToProtocol:(void *)p0;
 	-(id) init;
+@end
+
+@interface Xamarin_Forms_Platform_iOS_ShellFlyoutContentRenderer : UIViewController {
+}
+	-(void) release;
+	-(id) retain;
+	-(int) xamarinGetGCHandle;
+	-(void) xamarinSetGCHandle: (int) gchandle;
+	-(void) viewDidLayoutSubviews;
+	-(void) viewDidLoad;
+	-(void) viewWillAppear:(BOOL)p0;
+	-(void) viewWillDisappear:(BOOL)p0;
+	-(BOOL) conformsToProtocol:(void *)p0;
 @end
 
 @interface Xamarin_Forms_Platform_iOS_ShellFlyoutRenderer : UIViewController {

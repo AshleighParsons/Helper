@@ -3080,20 +3080,21 @@ Lme_c:
 	.no_dead_strip Xamarin_Forms_Maps_iOS_MapRenderer_OnElementPropertyChanged_object_System_ComponentModel_PropertyChangedEventArgs
 Xamarin_Forms_Maps_iOS_MapRenderer_OnElementPropertyChanged_object_System_ComponentModel_PropertyChangedEventArgs:
 .loc 1 1 0
-.word 0xa9b97bfd
+.word 0xa9b87bfd
 .word 0x910003fd
-.word 0xa90163b7
-.word 0xf90013ba
+.word 0xa9015bb5
+.word 0xa90263b7
+.word 0xf9001bba
 .word 0xaa0003f8
-.word 0xf90017a1
+.word 0xf9001fa1
 .word 0xaa0203fa
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #680]
-.word 0xf9001bb0
+.word 0xf90023b0
 .word 0xf9400a11
-.word 0xf9001fb1
+.word 0xf90027b1
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
@@ -3101,30 +3102,30 @@ ldr x0, [x16, #56]
 .word 0xf9400011
 .word 0xb4000051
 bl _p_1
-.word 0xf9401bb1
-.word 0xf9405a31
+.word 0xf94023b1
+.word 0xf9405e31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9401fb1
+.word 0xf94027b1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9401bb1
-.word 0xf9407a31
+.word 0xf94023b1
+.word 0xf9407e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1803e0
-.word 0xf94017a1
+.word 0xf9401fa1
 .word 0xaa1a03e0
 .word 0xaa1803e0
 .word 0xaa1a03e2
 bl _p_51
-.word 0xf9401bb1
-.word 0xf940a231
+.word 0xf94023b1
+.word 0xf940a631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9401bb1
-.word 0xf940b231
+.word 0xf94023b1
+.word 0xf940b631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
@@ -3132,9 +3133,9 @@ bl _p_51
 .word 0xf9400341
 .word 0xf9403430
 .word 0xd63f0200
-.word 0xf9002fa0
-.word 0xf9401bb1
-.word 0xf940da31
+.word 0xf90037a0
+.word 0xf94023b1
+.word 0xf940de31
 .word 0xb4000051
 .word 0xd63f0220
 
@@ -3145,40 +3146,40 @@ ldr x0, [x16, #688]
 .word 0xaa0103e0
 .word 0x3940003e
 bl _p_52
-.word 0xf90033a0
-.word 0xf9401bb1
-.word 0xf9410a31
+.word 0xf9003ba0
+.word 0xf94023b1
+.word 0xf9410e31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9402fa0
-.word 0xf94033a1
+.word 0xf94037a0
+.word 0xf9403ba1
 bl _p_53
 .word 0x53001c00
-.word 0xf9002ba0
-.word 0xf9401bb1
-.word 0xf9412e31
+.word 0xf90033a0
+.word 0xf94023b1
+.word 0xf9413231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9402ba0
+.word 0xf94033a0
 .word 0x34000220
-.word 0xf9401bb1
-.word 0xf9414631
+.word 0xf94023b1
+.word 0xf9414a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1803e0
 .word 0xaa1803e0
 bl _p_45
-.word 0xf9401bb1
-.word 0xf9416231
+.word 0xf94023b1
+.word 0xf9416631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9401bb1
-.word 0xf9417231
+.word 0xf94023b1
+.word 0xf9417631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0x14000106
-.word 0xf9401bb1
-.word 0xf9418631
+.word 0x14000127
+.word 0xf94023b1
+.word 0xf9418a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
@@ -3186,9 +3187,9 @@ bl _p_45
 .word 0xf9400341
 .word 0xf9403430
 .word 0xd63f0200
-.word 0xf9002fa0
-.word 0xf9401bb1
-.word 0xf941ae31
+.word 0xf90037a0
+.word 0xf94023b1
+.word 0xf941b231
 .word 0xb4000051
 .word 0xd63f0220
 
@@ -3199,40 +3200,40 @@ ldr x0, [x16, #696]
 .word 0xaa0103e0
 .word 0x3940003e
 bl _p_52
-.word 0xf90033a0
-.word 0xf9401bb1
-.word 0xf941de31
+.word 0xf9003ba0
+.word 0xf94023b1
+.word 0xf941e231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9402fa0
-.word 0xf94033a1
+.word 0xf94037a0
+.word 0xf9403ba1
 bl _p_53
 .word 0x53001c00
-.word 0xf9002ba0
-.word 0xf9401bb1
-.word 0xf9420231
+.word 0xf90033a0
+.word 0xf94023b1
+.word 0xf9420631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9402ba0
+.word 0xf94033a0
 .word 0x34000220
-.word 0xf9401bb1
-.word 0xf9421a31
+.word 0xf94023b1
+.word 0xf9421e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1803e0
 .word 0xaa1803e0
 bl _p_46
-.word 0xf9401bb1
-.word 0xf9423631
+.word 0xf94023b1
+.word 0xf9423a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9401bb1
-.word 0xf9424631
+.word 0xf94023b1
+.word 0xf9424a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0x140000d1
-.word 0xf9401bb1
-.word 0xf9425a31
+.word 0x140000f2
+.word 0xf94023b1
+.word 0xf9425e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
@@ -3240,9 +3241,9 @@ bl _p_46
 .word 0xf9400341
 .word 0xf9403430
 .word 0xd63f0200
-.word 0xf9002fa0
-.word 0xf9401bb1
-.word 0xf9428231
+.word 0xf90037a0
+.word 0xf94023b1
+.word 0xf9428631
 .word 0xb4000051
 .word 0xd63f0220
 
@@ -3253,40 +3254,40 @@ ldr x0, [x16, #704]
 .word 0xaa0103e0
 .word 0x3940003e
 bl _p_52
-.word 0xf90033a0
-.word 0xf9401bb1
-.word 0xf942b231
+.word 0xf9003ba0
+.word 0xf94023b1
+.word 0xf942b631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9402fa0
-.word 0xf94033a1
+.word 0xf94037a0
+.word 0xf9403ba1
 bl _p_53
 .word 0x53001c00
-.word 0xf9002ba0
-.word 0xf9401bb1
-.word 0xf942d631
+.word 0xf90033a0
+.word 0xf94023b1
+.word 0xf942da31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9402ba0
+.word 0xf94033a0
 .word 0x34000220
-.word 0xf9401bb1
-.word 0xf942ee31
+.word 0xf94023b1
+.word 0xf942f231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1803e0
 .word 0xaa1803e0
 bl _p_47
-.word 0xf9401bb1
-.word 0xf9430a31
+.word 0xf94023b1
+.word 0xf9430e31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9401bb1
-.word 0xf9431a31
+.word 0xf94023b1
+.word 0xf9431e31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0x1400009c
-.word 0xf9401bb1
-.word 0xf9432e31
+.word 0x140000bd
+.word 0xf94023b1
+.word 0xf9433231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
@@ -3294,9 +3295,9 @@ bl _p_47
 .word 0xf9400341
 .word 0xf9403430
 .word 0xd63f0200
-.word 0xf9002fa0
-.word 0xf9401bb1
-.word 0xf9435631
+.word 0xf90037a0
+.word 0xf94023b1
+.word 0xf9435a31
 .word 0xb4000051
 .word 0xd63f0220
 
@@ -3307,40 +3308,40 @@ ldr x0, [x16, #712]
 .word 0xaa0103e0
 .word 0x3940003e
 bl _p_52
-.word 0xf90033a0
-.word 0xf9401bb1
-.word 0xf9438631
+.word 0xf9003ba0
+.word 0xf94023b1
+.word 0xf9438a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9402fa0
-.word 0xf94033a1
+.word 0xf94037a0
+.word 0xf9403ba1
 bl _p_53
 .word 0x53001c00
-.word 0xf9002ba0
-.word 0xf9401bb1
-.word 0xf943aa31
+.word 0xf90033a0
+.word 0xf94023b1
+.word 0xf943ae31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9402ba0
+.word 0xf94033a0
 .word 0x34000220
-.word 0xf9401bb1
-.word 0xf943c231
+.word 0xf94023b1
+.word 0xf943c631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1803e0
 .word 0xaa1803e0
 bl _p_48
-.word 0xf9401bb1
-.word 0xf943de31
+.word 0xf94023b1
+.word 0xf943e231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9401bb1
-.word 0xf943ee31
+.word 0xf94023b1
+.word 0xf943f231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0x14000067
-.word 0xf9401bb1
-.word 0xf9440231
+.word 0x14000088
+.word 0xf94023b1
+.word 0xf9440631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
@@ -3348,9 +3349,9 @@ bl _p_48
 .word 0xf9400341
 .word 0xf9403430
 .word 0xd63f0200
-.word 0xf9002fa0
-.word 0xf9401bb1
-.word 0xf9442a31
+.word 0xf90037a0
+.word 0xf94023b1
+.word 0xf9442e31
 .word 0xb4000051
 .word 0xd63f0220
 
@@ -3361,32 +3362,32 @@ ldr x0, [x16, #720]
 .word 0xaa0103e0
 .word 0x3940003e
 bl _p_52
-.word 0xf90033a0
-.word 0xf9401bb1
-.word 0xf9445a31
+.word 0xf9003ba0
+.word 0xf94023b1
+.word 0xf9445e31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9402fa0
-.word 0xf94033a1
+.word 0xf94037a0
+.word 0xf9403ba1
 bl _p_53
 .word 0x53001c00
-.word 0xf9002ba0
-.word 0xf9401bb1
-.word 0xf9447e31
+.word 0xf90033a0
+.word 0xf94023b1
+.word 0xf9448231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9402ba0
-.word 0x34000740
-.word 0xf9401bb1
-.word 0xf9449631
+.word 0xf94033a0
+.word 0x34000b60
+.word 0xf94023b1
+.word 0xf9449a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1803e0
 .word 0xaa1803e0
 bl _p_17
 .word 0xaa0003f7
-.word 0xf9401bb1
-.word 0xf944b631
+.word 0xf94023b1
+.word 0xf944ba31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xb4000217
@@ -3396,7 +3397,7 @@ bl _p_17
 .word 0xd28000fe
 .word 0xeb1e003f
 .word 0x10000011
-.word 0x540006e3
+.word 0x54000b23
 .word 0xf9400800
 .word 0xf9401800
 
@@ -3405,52 +3406,87 @@ add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x1, [x16, #384]
 .word 0xeb01001f
 .word 0x10000011
-.word 0x540005e1
+.word 0x54000a21
 .word 0xaa1703e0
 .word 0xaa1703e0
 .word 0x394002fe
 bl _p_42
-.word 0xf9002fa0
-.word 0xf9401bb1
-.word 0xf9451a31
+.word 0xf90037a0
+.word 0xf94023b1
+.word 0xf9451e31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9402fa0
+.word 0xf94037a0
 .word 0xd2800001
 .word 0xd2800001
 bl _p_43
 .word 0x53001c00
-.word 0xf9002ba0
-.word 0xf9401bb1
-.word 0xf9454231
+.word 0xf90033a0
+.word 0xf94023b1
+.word 0xf9454631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9402ba0
-.word 0x34000120
-.word 0xf9401bb1
-.word 0xf9455a31
+.word 0xf94033a0
+.word 0x34000540
+.word 0xf94023b1
+.word 0xf9455e31
 .word 0xb4000051
 .word 0xd63f0220
+.word 0xaa1803f6
 .word 0xaa1803e0
-.word 0xd2800020
-.word 0xd280003e
-.word 0x3903e31e
-.word 0xf9401fb1
+.word 0xaa1803e0
+bl _p_17
+.word 0xaa0003f5
+.word 0xf94023b1
+.word 0xf9458231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xb4000215
+.word 0xf94002a0
+.word 0xf9400000
+.word 0x79403001
+.word 0xd28000fe
+.word 0xeb1e003f
+.word 0x10000011
+.word 0x540004e3
+.word 0xf9400800
+.word 0xf9401800
+
+adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+0
+add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
+ldr x1, [x16, #384]
+.word 0xeb01001f
+.word 0x10000011
+.word 0x540003e1
+.word 0xaa1503e0
+.word 0xaa1503e0
+.word 0x394002be
+bl _p_54
+.word 0xf90033a0
+.word 0x53001c00
+.word 0xf94023b1
+.word 0xf945ea31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94033a0
+.word 0x3903e2c0
+.word 0xf94027b1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9401bb1
-.word 0xf9458a31
+.word 0xf94023b1
+.word 0xf9461231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9401bb1
-.word 0xf9459a31
+.word 0xf94023b1
+.word 0xf9462231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xa94163b7
-.word 0xf94013ba
+.word 0xa9415bb5
+.word 0xa94263b7
+.word 0xf9401bba
 .word 0x910003bf
-.word 0xa8c77bfd
+.word 0xa8c87bfd
 .word 0xd65f03c0
 .word 0xd2801920
 .word 0xaa1103e1
@@ -3494,7 +3530,7 @@ bl _p_1
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_54
+bl _p_55
 .word 0xf9400fb1
 .word 0xf9408a31
 .word 0xb4000051
@@ -3505,7 +3541,7 @@ bl _p_54
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_55
+bl _p_56
 .word 0xf9400fb1
 .word 0xf940b631
 .word 0xb4000051
@@ -3573,7 +3609,7 @@ add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x0, [x16, #744]
 bl _p_34
 .word 0xf90083a0
-bl _p_56
+bl _p_57
 .word 0xf9402fb1
 .word 0xf940b631
 .word 0xb4000051
@@ -3587,7 +3623,7 @@ bl _p_56
 .word 0xaa1a03e0
 .word 0xaa1a03e0
 .word 0x3940035e
-bl _p_57
+bl _p_58
 .word 0xf9007ba0
 .word 0xf9402fb1
 .word 0xf940f231
@@ -3612,7 +3648,7 @@ bl _p_57
 .word 0xaa1a03e0
 .word 0xaa1a03e0
 .word 0x3940035e
-bl _p_58
+bl _p_59
 .word 0xf9006ba0
 .word 0xf9402fb1
 .word 0xf9415631
@@ -3656,7 +3692,7 @@ ldr x0, [x16, #752]
 .word 0xf90063a0
 .word 0xaa1a03e0
 .word 0x3940035e
-bl _p_59
+bl _p_60
 .word 0xf94063be
 .word 0xfd0003c0
 .word 0xfd0007c1
@@ -3671,7 +3707,7 @@ bl _p_59
 .word 0xf94057a0
 .word 0xf9005fa0
 .word 0x9102c3a0
-bl _p_60
+bl _p_61
 .word 0xfd0087a0
 .word 0xf9402fb1
 .word 0xf9423e31
@@ -3682,7 +3718,7 @@ bl _p_60
 .word 0xf90063a0
 .word 0xaa1a03e0
 .word 0x3940035e
-bl _p_59
+bl _p_60
 .word 0xf94063be
 .word 0xfd0003c0
 .word 0xfd0007c1
@@ -3697,7 +3733,7 @@ bl _p_59
 .word 0xf9404fa0
 .word 0xf9005fa0
 .word 0x9102c3a0
-bl _p_61
+bl _p_62
 .word 0xfd008ba0
 .word 0xf9402fb1
 .word 0xf942a631
@@ -3710,7 +3746,7 @@ bl _p_61
 .word 0xf90043a0
 .word 0xf90047a0
 .word 0x910203a0
-bl _p_62
+bl _p_63
 .word 0x910203a0
 .word 0x9101c3a0
 .word 0xf94043a0
@@ -3816,7 +3852,7 @@ ldr x15, [x16, #768]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94033a0
-bl _p_63
+bl _p_64
 .word 0xaa0003f6
 .word 0xf94023b1
 .word 0xf940ee31
@@ -3899,7 +3935,7 @@ bl _p_34
 .word 0xf94037a2
 .word 0xf90033a0
 .word 0xaa1a03e1
-bl _p_64
+bl _p_65
 .word 0xf94023b1
 .word 0xf9422631
 .word 0xb4000051
@@ -3949,7 +3985,7 @@ bl _p_64
 .word 0xaa1a03e1
 .word 0xaa1703e1
 .word 0xaa1a03e2
-bl _p_65
+bl _p_66
 .word 0xf94023b1
 .word 0xf942ee31
 .word 0xb4000051
@@ -4034,7 +4070,7 @@ ldr x0, [x16, #808]
 .word 0xd2800401
 bl _p_8
 .word 0xf9004ba0
-bl _p_66
+bl _p_67
 .word 0xf9402fb1
 .word 0xf940ca31
 .word 0xb4000051
@@ -4302,7 +4338,7 @@ ldr x0, [x16, #864]
 .word 0x3901c03f
 .word 0xaa0203e0
 .word 0x3940005e
-bl _p_67
+bl _p_68
 .word 0xf9402fb1
 .word 0xf944c231
 .word 0xb4000051
@@ -4438,7 +4474,7 @@ ldr x15, [x16, #768]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9405ba0
-bl _p_63
+bl _p_64
 .word 0xf90057a0
 .word 0xf94033b1
 .word 0xf9414e31
@@ -4578,7 +4614,7 @@ ldr x15, [x16, #456]
 .word 0xaa0103e0
 .word 0xaa0103e0
 .word 0x3940003e
-bl _p_68
+bl _p_69
 .word 0xf90053a0
 .word 0xf94033b1
 .word 0xf9436e31
@@ -4708,7 +4744,7 @@ ldr x15, [x16, #504]
 .word 0xd2800000
 .word 0xaa1703e0
 .word 0xd2800001
-bl _p_69
+bl _p_70
 .word 0x53001c00
 .word 0xf90053a0
 .word 0xf94033b1
@@ -4772,7 +4808,7 @@ ldr x1, [x16, #888]
 .word 0xaa1703e0
 .word 0xaa1703e0
 .word 0x394002fe
-bl _p_70
+bl _p_71
 .word 0x53001c00
 .word 0xf94033b1
 .word 0xf9466631
@@ -4994,7 +5030,7 @@ ldr x1, [x16, #384]
 .word 0xf90037a0
 .word 0xf9003ba0
 .word 0x9101a3a0
-bl _p_71
+bl _p_72
 .word 0x9101a3a0
 .word 0x910123a0
 .word 0xf94037a0
@@ -5010,7 +5046,7 @@ bl _p_71
 .word 0xfd4027a0
 .word 0xfd402ba1
 .word 0x394002fe
-bl _p_72
+bl _p_73
 .word 0xf9401bb1
 .word 0xf9433e31
 .word 0xb4000051
@@ -5318,7 +5354,7 @@ ldr x0, [x16, #488]
 .word 0x3901c03f
 .word 0xaa1603e0
 .word 0x394002de
-bl _p_73
+bl _p_74
 .word 0xf94023b1
 .word 0xf9427631
 .word 0xb4000051
@@ -5351,7 +5387,7 @@ bl _p_73
 .word 0xaa0103e0
 .word 0xaa1603e0
 .word 0x394002de
-bl _p_74
+bl _p_75
 .word 0xf94023b1
 .word 0xf942fa31
 .word 0xb4000051
@@ -5618,7 +5654,7 @@ ldr x1, [x16, #936]
 .word 0xaa1603e0
 .word 0xaa1603e0
 .word 0x394002de
-bl _p_68
+bl _p_69
 .word 0xaa0003f5
 .word 0xf9402bb1
 .word 0xf9410631
@@ -5697,7 +5733,7 @@ bl _p_53
 .word 0xaa1803e0
 .word 0xaa1803e0
 .word 0x3940031e
-bl _p_57
+bl _p_58
 .word 0xf90063a0
 .word 0xf9402bb1
 .word 0xf9423a31
@@ -5763,7 +5799,7 @@ bl _p_53
 .word 0xaa1803e0
 .word 0xaa1803e0
 .word 0x3940031e
-bl _p_58
+bl _p_59
 .word 0xf90063a0
 .word 0xf9402bb1
 .word 0xf9433e31
@@ -5831,7 +5867,7 @@ bl _p_53
 .word 0xf9005fa0
 .word 0xaa1803e0
 .word 0x3940031e
-bl _p_59
+bl _p_60
 .word 0xf9405fbe
 .word 0xfd0003c0
 .word 0xfd0007c1
@@ -5846,7 +5882,7 @@ bl _p_59
 .word 0xf94053a0
 .word 0xf9005ba0
 .word 0x9102a3a0
-bl _p_60
+bl _p_61
 .word 0xfd006fa0
 .word 0xf9402bb1
 .word 0xf9448631
@@ -5857,7 +5893,7 @@ bl _p_60
 .word 0xf9005fa0
 .word 0xaa1803e0
 .word 0x3940031e
-bl _p_59
+bl _p_60
 .word 0xf9405fbe
 .word 0xfd0003c0
 .word 0xfd0007c1
@@ -5872,7 +5908,7 @@ bl _p_59
 .word 0xf9404ba0
 .word 0xf9005ba0
 .word 0x9102a3a0
-bl _p_61
+bl _p_62
 .word 0xfd0073a0
 .word 0xf9402bb1
 .word 0xf944ee31
@@ -5885,7 +5921,7 @@ bl _p_61
 .word 0xf9003fa0
 .word 0xf90043a0
 .word 0x9101e3a0
-bl _p_62
+bl _p_63
 .word 0x9101e3a0
 .word 0x9101a3a0
 .word 0xf9403fa0
@@ -6093,7 +6129,7 @@ ldr x1, [x16, #512]
 .word 0xf9006ba0
 .word 0xf9006fa0
 .word 0x910343a0
-bl _p_71
+bl _p_72
 .word 0x910343a0
 .word 0x910183a0
 .word 0xf9406ba0
@@ -6169,7 +6205,7 @@ bl _p_8
 .word 0x910183a1
 .word 0xfd4033a0
 .word 0xfd4037a1
-bl _p_75
+bl _p_76
 .word 0xf94027b1
 .word 0xf943a231
 .word 0xb4000051
@@ -6177,7 +6213,7 @@ bl _p_75
 .word 0xf940aba1
 .word 0xaa1703e0
 .word 0x394002fe
-bl _p_76
+bl _p_77
 .word 0xf94027b1
 .word 0xf943c231
 .word 0xb4000051
@@ -6254,7 +6290,7 @@ bl _p_1
 .word 0xf90077a0
 .word 0xaa1903e0
 .word 0x3940033e
-bl _p_77
+bl _p_78
 .word 0xf94077be
 .word 0xfd0003c0
 .word 0xfd0007c1
@@ -6275,14 +6311,14 @@ bl _p_77
 .word 0x9102e3a0
 .word 0xf9007ba0
 .word 0x910363a0
-bl _p_60
+bl _p_61
 .word 0xfd0087a0
 .word 0xf9401bb1
 .word 0xf9412231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x910363a0
-bl _p_61
+bl _p_62
 .word 0xfd008ba0
 .word 0xf9401bb1
 .word 0xf9413e31
@@ -6295,7 +6331,7 @@ bl _p_61
 .word 0xf9004fa0
 .word 0xf90053a0
 .word 0x910263a0
-bl _p_62
+bl _p_63
 .word 0x910263a0
 .word 0x9101e3a0
 .word 0xf9404fa0
@@ -6309,7 +6345,7 @@ bl _p_62
 .word 0xaa1903e0
 .word 0xaa1903e0
 .word 0x3940033e
-bl _p_78
+bl _p_79
 .word 0xfd007fa0
 .word 0xf9401bb1
 .word 0xf941aa31
@@ -6318,7 +6354,7 @@ bl _p_78
 .word 0xaa1903e0
 .word 0xaa1903e0
 .word 0x3940033e
-bl _p_79
+bl _p_80
 .word 0xfd0083a0
 .word 0xf9401bb1
 .word 0xf941ce31
@@ -6331,7 +6367,7 @@ bl _p_79
 .word 0xf90047a0
 .word 0xf9004ba0
 .word 0x910223a0
-bl _p_80
+bl _p_81
 .word 0x910223a0
 .word 0x9101a3a0
 .word 0xf94047a0
@@ -6349,7 +6385,7 @@ bl _p_80
 .word 0x9101a3a1
 .word 0xfd4037a2
 .word 0xfd403ba3
-bl _p_81
+bl _p_82
 .word 0xf9401bb1
 .word 0xf9424631
 .word 0xb4000051
@@ -6465,7 +6501,7 @@ bl _p_1
 .word 0xaa1a03e0
 .word 0xaa1a03e0
 .word 0x3940035e
-bl _p_82
+bl _p_83
 .word 0x93407c00
 .word 0xf90057a0
 .word 0xf9402fb1
@@ -6506,7 +6542,7 @@ ldr x0, [x16, #1024]
 .word 0xaa1a03e0
 .word 0xaa1a03e0
 .word 0x3940035e
-bl _p_83
+bl _p_84
 .word 0xf90053a0
 .word 0xf9402fb1
 .word 0xf9414e31
@@ -6514,7 +6550,7 @@ bl _p_83
 .word 0xd63f0220
 .word 0xf94053a1
 .word 0xaa1903e0
-bl _p_84
+bl _p_85
 .word 0xf9402fb1
 .word 0xf9416a31
 .word 0xb4000051
@@ -6532,7 +6568,7 @@ bl _p_84
 .word 0xaa1a03e0
 .word 0xaa1a03e0
 .word 0x3940035e
-bl _p_85
+bl _p_86
 .word 0xf90053a0
 .word 0xf9402fb1
 .word 0xf941b631
@@ -6540,7 +6576,7 @@ bl _p_85
 .word 0xd63f0220
 .word 0xf94053a1
 .word 0xaa1903e0
-bl _p_86
+bl _p_87
 .word 0xf9402fb1
 .word 0xf941d231
 .word 0xb4000051
@@ -6558,7 +6594,7 @@ bl _p_86
 .word 0xaa1a03e0
 .word 0xaa1a03e0
 .word 0x3940035e
-bl _p_85
+bl _p_86
 .word 0xf90057a0
 .word 0xf9402fb1
 .word 0xf9421e31
@@ -6566,7 +6602,7 @@ bl _p_85
 .word 0xd63f0220
 .word 0xf94057a1
 .word 0xaa1903e0
-bl _p_86
+bl _p_87
 .word 0xf9402fb1
 .word 0xf9423a31
 .word 0xb4000051
@@ -6579,7 +6615,7 @@ bl _p_86
 .word 0xaa1a03e0
 .word 0xaa1a03e0
 .word 0x3940035e
-bl _p_83
+bl _p_84
 .word 0xf90053a0
 .word 0xf9402fb1
 .word 0xf9427231
@@ -6587,7 +6623,7 @@ bl _p_83
 .word 0xd63f0220
 .word 0xf94053a1
 .word 0xaa1903e0
-bl _p_84
+bl _p_85
 .word 0xf9402fb1
 .word 0xf9428e31
 .word 0xb4000051
@@ -6762,7 +6798,7 @@ ldr x1, [x16, #1032]
 .word 0x54000360
 .word 0xf9404fa1
 .word 0xf9403fa0
-bl _p_84
+bl _p_85
 .word 0xf9402fb1
 .word 0xf9453a31
 .word 0xb4000051
@@ -6992,7 +7028,7 @@ ldr x1, [x16, #512]
 .word 0xaa1803e0
 .word 0xaa1803e0
 .word 0x3940031e
-bl _p_68
+bl _p_69
 .word 0xaa0003f4
 .word 0xf94027b1
 .word 0xf942f631
@@ -7279,7 +7315,7 @@ ldr x1, [x16, #384]
 .word 0xaa1703e0
 .word 0xaa1703e0
 .word 0x394002fe
-bl _p_87
+bl _p_88
 .word 0x53001c00
 .word 0xf9002ba0
 .word 0xf9401bb1
@@ -7398,7 +7434,7 @@ ldr x1, [x16, #384]
 .word 0xaa1703e0
 .word 0xaa1703e0
 .word 0x394002fe
-bl _p_88
+bl _p_89
 .word 0x53001c00
 .word 0xf9002ba0
 .word 0xf9401bb1
@@ -7469,7 +7505,7 @@ bl _p_1
 .word 0xf9407631
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_89
+bl _p_90
 .word 0x53001c00
 .word 0xf9002ba0
 .word 0xf9401fb1
@@ -7510,7 +7546,7 @@ ldr x1, [x16, #384]
 .word 0xaa1603e0
 .word 0xaa1603e0
 .word 0x394002de
-bl _p_90
+bl _p_91
 .word 0x53001c00
 .word 0xf9002ba0
 .word 0xf9401fb1
@@ -7530,7 +7566,7 @@ add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x0, [x16, #1072]
 bl _p_34
 .word 0xf9002ba0
-bl _p_91
+bl _p_92
 .word 0xf9401fb1
 .word 0xf9417631
 .word 0xb4000051
@@ -7620,7 +7656,7 @@ ldr x1, [x16, #384]
 .word 0xaa1703e0
 .word 0xaa1703e0
 .word 0x394002fe
-bl _p_90
+bl _p_91
 .word 0x53001c00
 .word 0xf9002ba0
 .word 0xf9401fb1
@@ -7722,7 +7758,7 @@ ldr x1, [x16, #384]
 .word 0xaa1803e0
 .word 0xaa1803e0
 .word 0x3940031e
-bl _p_92
+bl _p_93
 .word 0x93407c00
 .word 0xf90037a0
 .word 0xf94027b1
@@ -7925,7 +7961,7 @@ bl _p_1
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400ba0
-bl _p_93
+bl _p_94
 .word 0xf9400fb1
 .word 0xf9408231
 .word 0xb4000051
@@ -8165,7 +8201,7 @@ ldr x0, [x16, #1208]
 .word 0xd2800301
 bl _p_8
 .word 0xf90067a0
-bl _p_94
+bl _p_95
 .word 0xf94033b1
 .word 0xf940aa31
 .word 0xb4000051
@@ -8177,14 +8213,14 @@ bl _p_94
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x910083a0
-bl _p_60
+bl _p_61
 .word 0xfd005fa0
 .word 0xf94033b1
 .word 0xf940de31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x910083a0
-bl _p_61
+bl _p_62
 .word 0xfd0063a0
 .word 0xf94033b1
 .word 0xf940fa31
@@ -8198,7 +8234,7 @@ bl _p_34
 .word 0xfd405fa0
 .word 0xfd4063a1
 .word 0xf9005ba0
-bl _p_95
+bl _p_96
 .word 0xf94033b1
 .word 0xf9412a31
 .word 0xb4000051
@@ -8215,7 +8251,7 @@ add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x0, [x16, #1224]
 bl _p_34
 .word 0xf9004fa0
-bl _p_96
+bl _p_97
 .word 0xf94033b1
 .word 0xf9416a31
 .word 0xb4000051
@@ -8230,7 +8266,7 @@ ldr x0, [x16, #1232]
 .word 0xd2800301
 bl _p_8
 .word 0xf90053a0
-bl _p_97
+bl _p_98
 .word 0xf94033b1
 .word 0xf941a231
 .word 0xb4000051
@@ -8320,7 +8356,7 @@ ldr x0, [x16, #1264]
 .word 0xf9400801
 .word 0xaa0103e0
 .word 0x3940003e
-bl _p_98
+bl _p_99
 .word 0xf90043a0
 .word 0xf94033b1
 .word 0xf942f631
@@ -8395,7 +8431,7 @@ ldr x0, [x16, #1280]
 .word 0xd2800301
 bl _p_8
 .word 0xf9003ba0
-bl _p_99
+bl _p_100
 .word 0xf94013b1
 .word 0xf940a231
 .word 0xb4000051
@@ -8412,7 +8448,7 @@ add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x0, [x16, #1224]
 bl _p_34
 .word 0xf9002fa0
-bl _p_96
+bl _p_97
 .word 0xf94013b1
 .word 0xf940e231
 .word 0xb4000051
@@ -8427,7 +8463,7 @@ ldr x0, [x16, #1288]
 .word 0xd2800301
 bl _p_8
 .word 0xf90033a0
-bl _p_100
+bl _p_101
 .word 0xf94013b1
 .word 0xf9411a31
 .word 0xb4000051
@@ -8517,7 +8553,7 @@ ldr x0, [x16, #1312]
 .word 0xf9400801
 .word 0xaa0103e0
 .word 0x3940003e
-bl _p_101
+bl _p_102
 .word 0xf90023a0
 .word 0xf94013b1
 .word 0xf9426e31
@@ -8724,7 +8760,7 @@ bl _p_1
 .word 0xaa1903e1
 .word 0xf9400f21
 .word 0xf9400fa2
-bl _p_102
+bl _p_103
 .word 0xf94013b1
 .word 0xf9409a31
 .word 0xb4000051
@@ -8928,7 +8964,7 @@ adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x0, [x16, #1376]
 .word 0xd2800001
-bl _p_103
+bl _p_104
 .word 0xaa0003fa
 .word 0xf9402fb1
 .word 0xf9400231
@@ -8946,7 +8982,7 @@ ldr x0, [x16, #1384]
 .word 0xd2800501
 bl _p_8
 .word 0xf9003ba0
-bl _p_104
+bl _p_105
 .word 0xf9402bb1
 .word 0xf9410a31
 .word 0xb4000051
@@ -9041,7 +9077,7 @@ add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x15, [x16, #1440]
 .word 0xaa1603e0
 .word 0xaa1503e1
-bl _p_105
+bl _p_106
 .word 0xf90043a0
 .word 0xf9402bb1
 .word 0xf9426631
@@ -9052,7 +9088,7 @@ bl _p_105
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x15, [x16, #1448]
-bl _p_106
+bl _p_107
 .word 0xf9003fa0
 .word 0xf9402bb1
 .word 0xf9428e31
@@ -9071,7 +9107,7 @@ bl _p_106
 .word 0xaa0103e0
 .word 0xaa0203e0
 .word 0x3940005e
-bl _p_107
+bl _p_108
 .word 0xf9402bb1
 .word 0xf942d631
 .word 0xb4000051
@@ -9140,7 +9176,7 @@ ldr x0, [x16, #1464]
 .word 0xd2800201
 bl _p_8
 .word 0xf9001ba0
-bl _p_108
+bl _p_109
 .word 0xf9400bb1
 .word 0xf9409631
 .word 0xb4000051
@@ -9257,7 +9293,7 @@ bl _p_1
 .word 0xf94027a0
 .word 0xd2800001
 .word 0xd2800001
-bl _p_109
+bl _p_110
 .word 0xf90023a0
 .word 0xf94013b1
 .word 0xf940ba31
@@ -9376,7 +9412,7 @@ bl _p_1
 .word 0xf90047a0
 .word 0xf9004ba0
 .word 0x910223a0
-bl _p_71
+bl _p_72
 .word 0x910223a0
 .word 0x9101e3a0
 .word 0xf94047a0
@@ -9511,7 +9547,7 @@ adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x0, [x16, #1376]
 .word 0xd2800001
-bl _p_103
+bl _p_104
 .word 0xaa0003fa
 .word 0xf9402fb1
 .word 0xf9400231
@@ -9605,7 +9641,7 @@ add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x15, [x16, #1552]
 .word 0xaa1603e0
 .word 0xaa1503e1
-bl _p_110
+bl _p_111
 .word 0xf9003fa0
 .word 0xf9402bb1
 .word 0xf9421e31
@@ -9624,7 +9660,7 @@ bl _p_110
 .word 0xaa0103e0
 .word 0xaa0203e0
 .word 0x3940005e
-bl _p_111
+bl _p_112
 .word 0xf9402bb1
 .word 0xf9426631
 .word 0xb4000051
@@ -9899,7 +9935,7 @@ bl _p_1
 .word 0xf9408a31
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_112
+bl _p_113
 .loc 2 48 0
 .word 0xf94013b1
 .word 0xf9400231
@@ -10038,7 +10074,7 @@ bl _p_1
 .word 0x91000720
 .word 0xaa1a03e1
 .word 0xaa1a03e1
-bl _p_113
+bl _p_114
 .word 0x53001c00
 .word 0xf90023a0
 .word 0xf94013b1
@@ -10103,7 +10139,7 @@ bl _p_1
 .word 0x1400000b
 .word 0xaa1a03e0
 .word 0x91000740
-bl _p_114
+bl _p_115
 .word 0x93407c00
 .word 0xf9001ba0
 .word 0xf9400fb1
@@ -10170,7 +10206,7 @@ ldr x0, [x16, #1632]
 .word 0x1400000a
 .word 0xaa1a03e0
 .word 0x91000740
-bl _p_115
+bl _p_116
 .word 0xf9001ba0
 .word 0xf9400fb1
 .word 0xf940aa31
@@ -10477,7 +10513,7 @@ bl _p_1
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x1, [x16, #1680]
-bl _p_116
+bl _p_117
 .word 0x53001c00
 .word 0xf90033a0
 .word 0xf94017b1
@@ -10496,7 +10532,7 @@ bl _p_116
 .word 0xd2801920
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
-bl _p_117
+bl _p_118
 .loc 3 72 0
 .word 0xf94017b1
 .word 0xf9417631
@@ -10601,7 +10637,7 @@ add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x0, [x16, #48]
 .word 0xb9400000
 .word 0x34000220
-bl _p_118
+bl _p_119
 .word 0xf90037a0
 .word 0xf94037a1
 .word 0xf94037a0
@@ -10615,7 +10651,7 @@ bl _p_118
 .word 0xd2800022
 .word 0xd280003e
 .word 0xb900003e
-bl _p_119
+bl _p_120
 .word 0xf9403ba0
 .word 0xaa1803e0
 .word 0xaa1803e0
@@ -10759,7 +10795,7 @@ add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x0, [x16, #48]
 .word 0xb9400000
 .word 0x34000220
-bl _p_118
+bl _p_119
 .word 0xf90037a0
 .word 0xf94037a1
 .word 0xf94037a0
@@ -10773,7 +10809,7 @@ bl _p_118
 .word 0xd2800022
 .word 0xd280003e
 .word 0xb900003e
-bl _p_119
+bl _p_120
 .word 0xf9403ba0
 .word 0xaa1803e0
 .word 0xaa1803e0
@@ -10917,7 +10953,7 @@ add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x0, [x16, #48]
 .word 0xb9400000
 .word 0x34000220
-bl _p_118
+bl _p_119
 .word 0xf90037a0
 .word 0xf94037a1
 .word 0xf94037a0
@@ -10931,7 +10967,7 @@ bl _p_118
 .word 0xd2800022
 .word 0xd280003e
 .word 0xb900003e
-bl _p_119
+bl _p_120
 .word 0xf9403ba0
 .word 0xaa1803e0
 .word 0xaa1803e0
@@ -11075,7 +11111,7 @@ add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x0, [x16, #48]
 .word 0xb9400000
 .word 0x34000220
-bl _p_118
+bl _p_119
 .word 0xf90037a0
 .word 0xf94037a1
 .word 0xf94037a0
@@ -11089,7 +11125,7 @@ bl _p_118
 .word 0xd2800022
 .word 0xd280003e
 .word 0xb900003e
-bl _p_119
+bl _p_120
 .word 0xf9403ba0
 .word 0xaa1903e0
 .word 0xaa1903e0
@@ -11235,7 +11271,7 @@ add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x0, [x16, #48]
 .word 0xb9400000
 .word 0x34000220
-bl _p_118
+bl _p_119
 .word 0xaa0003f3
 .word 0xaa1303e0
 .word 0xaa1303e1
@@ -11249,7 +11285,7 @@ bl _p_118
 .word 0xd2800022
 .word 0xd280003e
 .word 0xb900003e
-bl _p_119
+bl _p_120
 .word 0xf94037a0
 .word 0xaa1903e0
 .word 0xaa1903e0
@@ -11388,7 +11424,7 @@ add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x0, [x16, #48]
 .word 0xb9400000
 .word 0x34000220
-bl _p_118
+bl _p_119
 .word 0xf9003ba0
 .word 0xf9403ba1
 .word 0xf9403ba0
@@ -11402,7 +11438,7 @@ bl _p_118
 .word 0xd2800022
 .word 0xd280003e
 .word 0xb900003e
-bl _p_119
+bl _p_120
 .word 0xf9403fa0
 .word 0xaa1803e0
 .word 0xaa1803e0
@@ -11554,7 +11590,7 @@ add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x0, [x16, #48]
 .word 0xb9400000
 .word 0x34000220
-bl _p_118
+bl _p_119
 .word 0xf90037a0
 .word 0xf94037a1
 .word 0xf94037a0
@@ -11568,7 +11604,7 @@ bl _p_118
 .word 0xd2800022
 .word 0xd280003e
 .word 0xb900003e
-bl _p_119
+bl _p_120
 .word 0xf9403ba0
 .word 0xaa1803e0
 .word 0xaa1803e0
@@ -11711,7 +11747,7 @@ add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x0, [x16, #48]
 .word 0xb9400000
 .word 0x34000220
-bl _p_118
+bl _p_119
 .word 0xaa0003f3
 .word 0xaa1303e0
 .word 0xaa1303e1
@@ -11725,7 +11761,7 @@ bl _p_118
 .word 0xd2800022
 .word 0xd280003e
 .word 0xb900003e
-bl _p_119
+bl _p_120
 .word 0xf94037a0
 .word 0xaa1903e0
 .word 0xaa1903e0
@@ -11863,7 +11899,7 @@ add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x0, [x16, #48]
 .word 0xb9400000
 .word 0x34000220
-bl _p_118
+bl _p_119
 .word 0xf90037a0
 .word 0xf94037a1
 .word 0xf94037a0
@@ -11877,7 +11913,7 @@ bl _p_118
 .word 0xd2800022
 .word 0xd280003e
 .word 0xb900003e
-bl _p_119
+bl _p_120
 .word 0xf9403ba0
 .word 0xaa1803e0
 .word 0xaa1803e0
@@ -12021,7 +12057,7 @@ add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x0, [x16, #48]
 .word 0xb9400000
 .word 0x34000220
-bl _p_118
+bl _p_119
 .word 0xf90037a0
 .word 0xf94037a1
 .word 0xf94037a0
@@ -12035,7 +12071,7 @@ bl _p_118
 .word 0xd2800022
 .word 0xd280003e
 .word 0xb900003e
-bl _p_119
+bl _p_120
 .word 0xf9403ba0
 .word 0xaa1903e0
 .word 0xaa1903e0
@@ -12180,7 +12216,7 @@ add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x0, [x16, #48]
 .word 0xb9400000
 .word 0x34000220
-bl _p_118
+bl _p_119
 .word 0xaa0003f3
 .word 0xaa1303e0
 .word 0xaa1303e1
@@ -12194,7 +12230,7 @@ bl _p_118
 .word 0xd2800022
 .word 0xd280003e
 .word 0xb900003e
-bl _p_119
+bl _p_120
 .word 0xf9406fa0
 .word 0xaa1a03e0
 .word 0xaa1a03e0
@@ -12359,7 +12395,7 @@ add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x0, [x16, #48]
 .word 0xb9400000
 .word 0x34000220
-bl _p_118
+bl _p_119
 .word 0xf90037a0
 .word 0xf94037a1
 .word 0xf94037a0
@@ -12373,7 +12409,7 @@ bl _p_118
 .word 0xd2800022
 .word 0xd280003e
 .word 0xb900003e
-bl _p_119
+bl _p_120
 .word 0xf9403ba0
 .word 0xaa1903e0
 .word 0xaa1903e0
@@ -12516,7 +12552,7 @@ add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x0, [x16, #48]
 .word 0xb9400000
 .word 0x34000220
-bl _p_118
+bl _p_119
 .word 0xaa0003f3
 .word 0xaa1303e0
 .word 0xaa1303e1
@@ -12530,7 +12566,7 @@ bl _p_118
 .word 0xd2800022
 .word 0xd280003e
 .word 0xb900003e
-bl _p_119
+bl _p_120
 .word 0xf94037a0
 .word 0xaa1a03e0
 .word 0xaa1a03e0
@@ -12667,7 +12703,7 @@ add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x0, [x16, #48]
 .word 0xb9400000
 .word 0x34000220
-bl _p_118
+bl _p_119
 .word 0xaa0003f3
 .word 0xaa1303e0
 .word 0xaa1303e1
@@ -12681,7 +12717,7 @@ bl _p_118
 .word 0xd2800022
 .word 0xd280003e
 .word 0xb900003e
-bl _p_119
+bl _p_120
 .word 0xf94037a0
 .word 0xaa1903e0
 .word 0xaa1903e0
@@ -12819,7 +12855,7 @@ add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x0, [x16, #48]
 .word 0xb9400000
 .word 0x34000220
-bl _p_118
+bl _p_119
 .word 0xf90037a0
 .word 0xf94037a1
 .word 0xf94037a0
@@ -12833,7 +12869,7 @@ bl _p_118
 .word 0xd2800022
 .word 0xd280003e
 .word 0xb900003e
-bl _p_119
+bl _p_120
 .word 0xf9403ba0
 .word 0xaa1903e0
 .word 0xaa1903e0
@@ -12976,7 +13012,7 @@ add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x0, [x16, #48]
 .word 0xb9400000
 .word 0x34000220
-bl _p_118
+bl _p_119
 .word 0xaa0003f3
 .word 0xaa1303e0
 .word 0xaa1303e1
@@ -12990,7 +13026,7 @@ bl _p_118
 .word 0xd2800022
 .word 0xd280003e
 .word 0xb900003e
-bl _p_119
+bl _p_120
 .word 0xf94037a0
 .word 0xaa1903e0
 .word 0xaa1903e0
@@ -13129,7 +13165,7 @@ add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x0, [x16, #48]
 .word 0xb9400000
 .word 0x34000220
-bl _p_118
+bl _p_119
 .word 0xf9003ba0
 .word 0xf9403ba1
 .word 0xf9403ba0
@@ -13143,7 +13179,7 @@ bl _p_118
 .word 0xd2800022
 .word 0xd280003e
 .word 0xb900003e
-bl _p_119
+bl _p_120
 .word 0xf9403fa0
 .word 0xaa1803e0
 .word 0xaa1803e0
@@ -13523,14 +13559,14 @@ bl _p_1
 .word 0xd63f0220
 .word 0xd292d7c0
 .word 0xd292d7c0
-bl _p_120
+bl _p_121
 .word 0xaa0003e1
 .word 0xd2801940
 .word 0xf2a04000
 .word 0xd2801940
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
-bl _p_117
+bl _p_118
 .loc 4 256 0
 .word 0xf9402fb1
 .word 0xf940d631
@@ -13551,14 +13587,14 @@ bl _p_117
 .word 0xd63f0220
 .word 0xd292e280
 .word 0xd292e280
-bl _p_120
+bl _p_121
 .word 0xaa0003e1
 .word 0xd2801940
 .word 0xf2a04000
 .word 0xd2801940
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
-bl _p_117
+bl _p_118
 .loc 4 259 0
 .word 0xf9402fb1
 .word 0xf9413e31
@@ -13588,7 +13624,7 @@ ldr x15, [x16, #1856]
 .word 0x3940001e
 .word 0x9101c3a2
 .word 0xf90043a2
-bl _p_121
+bl _p_122
 .word 0xf94043be
 .word 0xfd0003c0
 .word 0xfd0007c1
@@ -13710,7 +13746,7 @@ add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x15, [x16, #1880]
 .word 0x9100c3a1
 .word 0xf90023a1
-bl _p_122
+bl _p_123
 .word 0xf94023be
 .word 0xfd0003c0
 .word 0xfd0007c1
@@ -13811,7 +13847,7 @@ adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x15, [x16, #1880]
 .word 0xaa1a03e1
-bl _p_123
+bl _p_124
 .word 0x910103a0
 .word 0x9100c3a0
 .word 0xf94023a0
@@ -13900,7 +13936,7 @@ add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x0, [x16, #48]
 .word 0xb9400000
 .word 0x34000220
-bl _p_118
+bl _p_119
 .word 0xf90037a0
 .word 0xf94037a1
 .word 0xf94037a0
@@ -13914,7 +13950,7 @@ bl _p_118
 .word 0xd2800022
 .word 0xd280003e
 .word 0xb900003e
-bl _p_119
+bl _p_120
 .word 0xf9403ba0
 .word 0xaa1903e0
 .word 0xaa1903e0
@@ -14057,7 +14093,7 @@ add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x0, [x16, #48]
 .word 0xb9400000
 .word 0x34000220
-bl _p_118
+bl _p_119
 .word 0xaa0003f3
 .word 0xaa1303e0
 .word 0xaa1303e1
@@ -14071,7 +14107,7 @@ bl _p_118
 .word 0xd2800022
 .word 0xd280003e
 .word 0xb900003e
-bl _p_119
+bl _p_120
 .word 0xf94037a0
 .word 0xaa1a03e0
 .word 0xaa1a03e0
@@ -14208,7 +14244,7 @@ add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x0, [x16, #48]
 .word 0xb9400000
 .word 0x34000220
-bl _p_118
+bl _p_119
 .word 0xaa0003f3
 .word 0xaa1303e0
 .word 0xaa1303e1
@@ -14222,7 +14258,7 @@ bl _p_118
 .word 0xd2800022
 .word 0xd280003e
 .word 0xb900003e
-bl _p_119
+bl _p_120
 .word 0xf94037a0
 .word 0xaa1903e0
 .word 0xaa1903e0
@@ -14360,7 +14396,7 @@ add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x0, [x16, #48]
 .word 0xb9400000
 .word 0x34000220
-bl _p_118
+bl _p_119
 .word 0xf90037a0
 .word 0xf94037a1
 .word 0xf94037a0
@@ -14374,7 +14410,7 @@ bl _p_118
 .word 0xd2800022
 .word 0xd280003e
 .word 0xb900003e
-bl _p_119
+bl _p_120
 .word 0xf9403ba0
 .word 0xaa1903e0
 .word 0xaa1903e0
@@ -14518,7 +14554,7 @@ add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x0, [x16, #48]
 .word 0xb9400000
 .word 0x34000220
-bl _p_118
+bl _p_119
 .word 0xf90037a0
 .word 0xf94037a1
 .word 0xf94037a0
@@ -14532,7 +14568,7 @@ bl _p_118
 .word 0xd2800022
 .word 0xd280003e
 .word 0xb900003e
-bl _p_119
+bl _p_120
 .word 0xf9403ba0
 .word 0xaa1903e0
 .word 0xaa1903e0
@@ -14678,7 +14714,7 @@ add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x0, [x16, #48]
 .word 0xb9400000
 .word 0x34000220
-bl _p_118
+bl _p_119
 .word 0xaa0003f3
 .word 0xaa1303e0
 .word 0xaa1303e1
@@ -14692,7 +14728,7 @@ bl _p_118
 .word 0xd2800022
 .word 0xd280003e
 .word 0xb900003e
-bl _p_119
+bl _p_120
 .word 0xf94037a0
 .word 0xaa1903e0
 .word 0xaa1903e0
@@ -14831,7 +14867,7 @@ add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x0, [x16, #48]
 .word 0xb9400000
 .word 0x34000220
-bl _p_118
+bl _p_119
 .word 0xf9003ba0
 .word 0xf9403ba1
 .word 0xf9403ba0
@@ -14845,7 +14881,7 @@ bl _p_118
 .word 0xd2800022
 .word 0xd280003e
 .word 0xb900003e
-bl _p_119
+bl _p_120
 .word 0xf9403fa0
 .word 0xaa1803e0
 .word 0xaa1803e0
@@ -14997,7 +15033,7 @@ add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x0, [x16, #48]
 .word 0xb9400000
 .word 0x34000220
-bl _p_118
+bl _p_119
 .word 0xf90037a0
 .word 0xf94037a1
 .word 0xf94037a0
@@ -15011,7 +15047,7 @@ bl _p_118
 .word 0xd2800022
 .word 0xd280003e
 .word 0xb900003e
-bl _p_119
+bl _p_120
 .word 0xf9403ba0
 .word 0xaa1903e0
 .word 0xaa1903e0
@@ -15158,7 +15194,7 @@ add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x0, [x16, #48]
 .word 0xb9400000
 .word 0x34000220
-bl _p_118
+bl _p_119
 .word 0xaa0003f3
 .word 0xaa1303e0
 .word 0xaa1303e1
@@ -15172,7 +15208,7 @@ bl _p_118
 .word 0xd2800022
 .word 0xd280003e
 .word 0xb900003e
-bl _p_119
+bl _p_120
 .word 0xf94083a0
 .word 0xaa1903e0
 .word 0xaa1903e0
@@ -15374,15 +15410,15 @@ add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x0, [x16, #1992]
 .word 0xd2801d61
 .word 0xd2801d61
-bl _p_124
 bl _p_125
+bl _p_126
 .word 0xf90073a0
 .word 0xf9402bb1
 .word 0xf940de31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94073a0
-bl _p_117
+bl _p_118
 .loc 5 21 0
 .word 0xf9402bb1
 .word 0xf940f631
@@ -15401,15 +15437,15 @@ add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x0, [x16, #1992]
 .word 0xd28036e1
 .word 0xd28036e1
-bl _p_124
 bl _p_125
+bl _p_126
 .word 0xf90073a0
 .word 0xf9402bb1
 .word 0xf9413e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94073a0
-bl _p_117
+bl _p_118
 .loc 5 26 0
 .word 0xf9402bb1
 .word 0xf9415631
@@ -15514,7 +15550,7 @@ adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x2, [x16, #2040]
 .word 0xf9403fa0
-bl _p_126
+bl _p_127
 .word 0xf90043a0
 .word 0x14000002
 .word 0xf90043bf
@@ -15579,7 +15615,7 @@ bl _p_8
 .word 0xf90073a0
 .word 0xaa1503e1
 .word 0xaa1a03e2
-bl _p_127
+bl _p_128
 .word 0xf9402bb1
 .word 0xf943c631
 .word 0xb4000051
@@ -15638,7 +15674,7 @@ bl _p_8
 .word 0xf90073a0
 .word 0xaa1403e1
 .word 0xaa1a03e2
-bl _p_128
+bl _p_129
 .word 0xf9402bb1
 .word 0xf9449e31
 .word 0xb4000051
@@ -15662,7 +15698,7 @@ bl _p_8
 .word 0xf90073a0
 .word 0xaa1703e1
 .word 0xaa1a03e2
-bl _p_129
+bl _p_130
 .word 0xf9402bb1
 .word 0xf944f631
 .word 0xb4000051
@@ -15747,7 +15783,7 @@ bl _p_8
 .word 0xf90073a0
 .word 0xaa1603e1
 .word 0xaa1a03e2
-bl _p_130
+bl _p_131
 .word 0xf9402bb1
 .word 0xf9463231
 .word 0xb4000051
@@ -15779,7 +15815,7 @@ bl _p_8
 .word 0xf90073a0
 .word 0xaa1903e1
 .word 0xaa1a03e2
-bl _p_131
+bl _p_132
 .word 0xf9402bb1
 .word 0xf946a631
 .word 0xb4000051
@@ -15840,7 +15876,7 @@ add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x0, [x16, #48]
 .word 0xb9400000
 .word 0x34000220
-bl _p_118
+bl _p_119
 .word 0xf90037a0
 .word 0xf94037a1
 .word 0xf94037a0
@@ -15854,7 +15890,7 @@ bl _p_118
 .word 0xd2800022
 .word 0xd280003e
 .word 0xb900003e
-bl _p_119
+bl _p_120
 .word 0xf9403ba0
 .word 0xaa1903e0
 .word 0xaa1903e0
@@ -16001,7 +16037,7 @@ add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x0, [x16, #48]
 .word 0xb9400000
 .word 0x34000220
-bl _p_118
+bl _p_119
 .word 0xf90037a0
 .word 0xf94037a1
 .word 0xf94037a0
@@ -16015,7 +16051,7 @@ bl _p_118
 .word 0xd2800022
 .word 0xd280003e
 .word 0xb900003e
-bl _p_119
+bl _p_120
 .word 0xf9403ba0
 .word 0xaa1903e0
 .word 0xaa1903e0
@@ -16161,7 +16197,7 @@ add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x0, [x16, #48]
 .word 0xb9400000
 .word 0x34000220
-bl _p_118
+bl _p_119
 .word 0xaa0003f3
 .word 0xaa1303e0
 .word 0xaa1303e1
@@ -16175,7 +16211,7 @@ bl _p_118
 .word 0xd2800022
 .word 0xd280003e
 .word 0xb900003e
-bl _p_119
+bl _p_120
 .word 0xf94037a0
 .word 0xaa1903e0
 .word 0xaa1903e0
@@ -16314,7 +16350,7 @@ add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x0, [x16, #48]
 .word 0xb9400000
 .word 0x34000220
-bl _p_118
+bl _p_119
 .word 0xf9003ba0
 .word 0xf9403ba1
 .word 0xf9403ba0
@@ -16328,7 +16364,7 @@ bl _p_118
 .word 0xd2800022
 .word 0xd280003e
 .word 0xb900003e
-bl _p_119
+bl _p_120
 .word 0xf9403fa0
 .word 0xaa1803e0
 .word 0xaa1803e0
@@ -16496,14 +16532,14 @@ bl _p_1
 .word 0xd63f0220
 .word 0xd2843a40
 .word 0xd2843a40
-bl _p_120
+bl _p_121
 .word 0xaa0003e1
 .word 0xd2800fa0
 .word 0xf2a04000
 .word 0xd2800fa0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
-bl _p_117
+bl _p_118
 .loc 4 198 0
 .word 0xf94033b1
 .word 0xf940f631
@@ -16597,7 +16633,7 @@ ldr x0, [x16, #2176]
 .word 0xd2800201
 bl _p_8
 .word 0xf9001ba0
-bl _p_132
+bl _p_133
 .word 0xf9400bb1
 .word 0xf9409631
 .word 0xb4000051
@@ -16656,7 +16692,7 @@ bl _p_1
 .word 0xd63f0220
 .word 0xaa1803e0
 .word 0xaa1803e0
-bl _p_133
+bl _p_134
 .loc 5 102 0
 .word 0xf94017b1
 .word 0xf9409231
@@ -16763,7 +16799,7 @@ bl _p_8
 .word 0xf9401fa1
 .word 0xf94023a2
 .word 0xf9001ba0
-bl _p_131
+bl _p_132
 .word 0xf9400fb1
 .word 0xf940be31
 .word 0xb4000051
@@ -16853,7 +16889,7 @@ ldr x15, [x16, #504]
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_134
+bl _p_135
 .loc 5 118 0
 .word 0xf9400fb1
 .word 0xf9410e31
@@ -17133,7 +17169,7 @@ adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x15, [x16, #2240]
 .word 0xd2800021
-bl _p_135
+bl _p_136
 .loc 5 149 0
 .word 0xf94013b1
 .word 0xf940c231
@@ -17226,7 +17262,7 @@ ldr x15, [x16, #2240]
 .word 0x9100e3a1
 .word 0xfd401fa0
 .word 0xfd4023a1
-bl _p_136
+bl _p_137
 .loc 5 149 0
 .word 0xf94017b1
 .word 0xf9400231
@@ -17302,7 +17338,7 @@ ldr x15, [x16, #504]
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x15, [x16, #2240]
-bl _p_137
+bl _p_138
 .word 0xf90053a0
 .word 0xf94013b1
 .word 0xf9433a31
@@ -17366,7 +17402,7 @@ ldr x0, [x16, #2256]
 .word 0xd2800501
 bl _p_8
 .word 0xf90047a0
-bl _p_138
+bl _p_139
 .word 0xf94017b1
 .word 0xf940ae31
 .word 0xb4000051
@@ -17461,7 +17497,7 @@ ldr x15, [x16, #2224]
 .word 0xfd4023a0
 .word 0xfd4027a1
 .word 0x3940033e
-bl _p_139
+bl _p_140
 .loc 5 161 0
 .word 0xf9401bb1
 .word 0xf9400231
@@ -17833,7 +17869,7 @@ bl _p_1
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
-bl _p_140
+bl _p_141
 .word 0x93407c00
 .word 0xf9001ba0
 .word 0xf9400fb1
@@ -18015,7 +18051,7 @@ bl _p_1
 .word 0xaa1a03e0
 .word 0xb9801340
 .word 0xf90023a0
-bl _p_140
+bl _p_141
 .word 0x93407c00
 .word 0xf90027a0
 .word 0xf94017b1
@@ -18119,7 +18155,7 @@ bl _p_8
 .word 0xf94027a1
 .word 0xf9402ba2
 .word 0xf90023a0
-bl _p_141
+bl _p_142
 .word 0xf94013b1
 .word 0xf940b631
 .word 0xb4000051
@@ -18171,7 +18207,7 @@ bl _p_1
 .word 0xf9400ba0
 .word 0x9100c3a1
 .word 0xf90023a1
-bl _p_142
+bl _p_143
 .word 0xf94023be
 .word 0xfd0003c0
 .word 0xfd0007c1
@@ -18236,7 +18272,7 @@ bl _p_1
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400ba0
-bl _p_143
+bl _p_144
 .word 0xf9001ba0
 .word 0xf9400fb1
 .word 0xf9408631
@@ -18286,14 +18322,14 @@ bl _p_1
 .word 0xf9406a31
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_144
+bl _p_145
 .word 0xf9001ba0
 .word 0xf9400fb1
 .word 0xf9408231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9401ba0
-bl _p_117
+bl _p_118
 .word 0xf9400fb1
 .word 0xf9409a31
 .word 0xb4000051
@@ -18345,7 +18381,7 @@ ldr x0, [x16, #2352]
 .word 0xd2800201
 bl _p_8
 .word 0xf9001ba0
-bl _p_145
+bl _p_146
 .word 0xf9400bb1
 .word 0xf9409631
 .word 0xb4000051
@@ -18404,7 +18440,7 @@ bl _p_1
 .word 0xd63f0220
 .word 0xaa1803e0
 .word 0xaa1803e0
-bl _p_133
+bl _p_134
 .loc 5 623 0
 .word 0xf94017b1
 .word 0xf9409231
@@ -18511,7 +18547,7 @@ bl _p_8
 .word 0xf9401fa1
 .word 0xf94023a2
 .word 0xf9001ba0
-bl _p_130
+bl _p_131
 .word 0xf9400fb1
 .word 0xf940be31
 .word 0xb4000051
@@ -18813,7 +18849,7 @@ ldr x15, [x16, #504]
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_134
+bl _p_135
 .loc 5 661 0
 .word 0xf9400fb1
 .word 0xf9410e31
@@ -18896,7 +18932,7 @@ bl _p_8
 .word 0xf94027a1
 .word 0xf9402ba2
 .word 0xf90023a0
-bl _p_130
+bl _p_131
 .word 0xf94013b1
 .word 0xf940fa31
 .word 0xb4000051
@@ -18979,7 +19015,7 @@ bl _p_8
 .word 0xf94027a1
 .word 0xf9402ba2
 .word 0xf90023a0
-bl _p_130
+bl _p_131
 .word 0xf94013b1
 .word 0xf940fa31
 .word 0xb4000051
@@ -19439,7 +19475,7 @@ adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x15, [x16, #2240]
 .word 0xd2800021
-bl _p_135
+bl _p_136
 .loc 5 704 0
 .word 0xf94013b1
 .word 0xf940c231
@@ -19532,7 +19568,7 @@ ldr x15, [x16, #2240]
 .word 0x9100e3a1
 .word 0xfd401fa0
 .word 0xfd4023a1
-bl _p_136
+bl _p_137
 .loc 5 704 0
 .word 0xf94017b1
 .word 0xf9400231
@@ -19608,7 +19644,7 @@ ldr x15, [x16, #504]
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x15, [x16, #2240]
-bl _p_137
+bl _p_138
 .word 0xf90053a0
 .word 0xf94013b1
 .word 0xf9433a31
@@ -19671,7 +19707,7 @@ bl _p_1
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x0, [x16, #2488]
-bl _p_103
+bl _p_104
 .word 0xaa0003f8
 .loc 5 717 0
 .word 0xf9401fb1
@@ -19946,7 +19982,7 @@ ldr x15, [x16, #2504]
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_146
+bl _p_147
 .word 0xf90023a0
 .word 0xf94013b1
 .word 0xf9411e31
@@ -19963,7 +19999,7 @@ bl _p_146
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x15, [x16, #2512]
-bl _p_147
+bl _p_148
 .word 0xf90023a0
 .word 0xf94013b1
 .word 0xf9415a31
@@ -19980,7 +20016,7 @@ bl _p_147
 .word 0xaa1903e0
 .word 0xaa1a03e0
 .word 0xaa1903e1
-bl _p_148
+bl _p_149
 .word 0xf90023a0
 .word 0xf94013b1
 .word 0xf9419a31
@@ -20086,7 +20122,7 @@ ldr x0, [x16, #2256]
 .word 0xd2800501
 bl _p_8
 .word 0xf90043a0
-bl _p_138
+bl _p_139
 .word 0xf9401bb1
 .word 0xf9414e31
 .word 0xb4000051
@@ -20116,7 +20152,7 @@ ldr x0, [x16, #2256]
 .word 0xd2800501
 bl _p_8
 .word 0xf90043a0
-bl _p_138
+bl _p_139
 .word 0xf9401bb1
 .word 0xf941ba31
 .word 0xb4000051
@@ -20142,7 +20178,7 @@ ldr x0, [x16, #2256]
 bl _p_8
 .word 0xf90043a0
 .word 0xaa1903e1
-bl _p_149
+bl _p_150
 .word 0xf9401bb1
 .word 0xf9421a31
 .word 0xb4000051
@@ -20241,7 +20277,7 @@ ldr x15, [x16, #2224]
 .word 0xfd4027a0
 .word 0xfd402ba1
 .word 0x3940031e
-bl _p_139
+bl _p_140
 .loc 5 757 0
 .word 0xf9401fb1
 .word 0xf9400231
@@ -20593,7 +20629,7 @@ bl _p_1
 .word 0xd63f0220
 .word 0xaa1803e0
 .word 0xaa1803e0
-bl _p_133
+bl _p_134
 .loc 5 472 0
 .word 0xf94017b1
 .word 0xf9409231
@@ -20700,7 +20736,7 @@ bl _p_8
 .word 0xf9401fa1
 .word 0xf94023a2
 .word 0xf9001ba0
-bl _p_129
+bl _p_130
 .word 0xf9400fb1
 .word 0xf940be31
 .word 0xb4000051
@@ -21002,7 +21038,7 @@ ldr x15, [x16, #504]
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_134
+bl _p_135
 .loc 5 509 0
 .word 0xf9400fb1
 .word 0xf9410e31
@@ -21095,7 +21131,7 @@ ldr x15, [x16, #2576]
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x15, [x16, #2512]
-bl _p_147
+bl _p_148
 .word 0xf90033a0
 .word 0xf9401bb1
 .word 0xf9411e31
@@ -21114,7 +21150,7 @@ adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x0, [x16, #2488]
 .word 0xaa1903e1
-bl _p_103
+bl _p_104
 .word 0xaa0003f8
 .loc 5 523 0
 .word 0xf9401bb1
@@ -21307,7 +21343,7 @@ ldr x0, [x16, #2256]
 bl _p_8
 .word 0xf94037a1
 .word 0xf90033a0
-bl _p_149
+bl _p_150
 .word 0xf9401bb1
 .word 0xf9411a31
 .word 0xb4000051
@@ -21377,7 +21413,7 @@ ldr x15, [x16, #2584]
 .word 0xfd4027a0
 .word 0xfd402ba1
 .word 0x3940031e
-bl _p_139
+bl _p_140
 .loc 5 535 0
 .word 0xf9401bb1
 .word 0xf9422231
@@ -21640,7 +21676,7 @@ bl _p_8
 .word 0xf90023a0
 .word 0xd29fffe4
 .word 0xf2afffe4
-bl _p_150
+bl _p_151
 .word 0xf94013b1
 .word 0xf940de31
 .word 0xb4000051
@@ -21714,7 +21750,7 @@ bl _p_8
 .word 0xf9402fa4
 .word 0xf90023a0
 .word 0xd2800003
-bl _p_150
+bl _p_151
 .word 0xf94013b1
 .word 0xf940da31
 .word 0xb4000051
@@ -22266,7 +22302,7 @@ bl _p_1
 .word 0xd63f0220
 .word 0xaa1803e0
 .word 0xaa1803e0
-bl _p_133
+bl _p_134
 .loc 5 332 0
 .word 0xf94017b1
 .word 0xf9409231
@@ -22373,7 +22409,7 @@ bl _p_8
 .word 0xf9401fa1
 .word 0xf94023a2
 .word 0xf9001ba0
-bl _p_128
+bl _p_129
 .word 0xf9400fb1
 .word 0xf940be31
 .word 0xb4000051
@@ -22451,7 +22487,7 @@ bl _p_1
 .word 0xaa0003e8
 .word 0xaa0103e0
 .word 0x3940003e
-bl _p_151
+bl _p_152
 .word 0xf94013b1
 .word 0xf940ea31
 .word 0xb4000051
@@ -22516,7 +22552,7 @@ ldr x2, [x16, #16]
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x15, [x16, #2680]
-bl _p_152
+bl _p_153
 .word 0x53001c00
 .word 0xf9003ba0
 .word 0xf94013b1
@@ -22543,7 +22579,7 @@ bl _p_152
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x15, [x16, #2680]
-bl _p_153
+bl _p_154
 .word 0xf9003fa0
 .word 0xf94013b1
 .word 0xf9424231
@@ -22656,7 +22692,7 @@ bl _p_1
 .word 0xf9401741
 .word 0xaa0103e0
 .word 0x3940003e
-bl _p_154
+bl _p_155
 .word 0x93407c00
 .word 0xf90037a0
 .word 0xf9401bb1
@@ -22683,7 +22719,7 @@ bl _p_154
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x15, [x16, #2512]
-bl _p_147
+bl _p_148
 .word 0xf90033a0
 .word 0xf9401bb1
 .word 0xf9410631
@@ -22702,7 +22738,7 @@ adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x0, [x16, #2488]
 .word 0xaa1903e1
-bl _p_103
+bl _p_104
 .word 0xaa0003f8
 .loc 5 372 0
 .word 0xf9401bb1
@@ -22734,7 +22770,7 @@ bl _p_1
 .word 0xaa0203e0
 .word 0xaa1703e1
 .word 0x3940005e
-bl _p_155
+bl _p_156
 .word 0xf90037a0
 .word 0xf9401bb1
 .word 0xf941be31
@@ -22855,7 +22891,7 @@ bl _p_1
 .word 0xf9401741
 .word 0xaa0103e0
 .word 0x3940003e
-bl _p_154
+bl _p_155
 .word 0x93407c00
 .word 0xf9003fa0
 .word 0xf9401bb1
@@ -22881,7 +22917,7 @@ ldr x0, [x16, #2256]
 bl _p_8
 .word 0xf94037a1
 .word 0xf90033a0
-bl _p_149
+bl _p_150
 .word 0xf9401bb1
 .word 0xf9410231
 .word 0xb4000051
@@ -22917,7 +22953,7 @@ bl _p_1
 .word 0xaa0203e0
 .word 0xaa1703e1
 .word 0x3940005e
-bl _p_155
+bl _p_156
 .word 0xf90037a0
 .word 0xf9401bb1
 .word 0xf9418a31
@@ -22944,7 +22980,7 @@ bl _p_155
 .word 0xfd4027a0
 .word 0xfd402ba1
 .word 0x3940031e
-bl _p_139
+bl _p_140
 .loc 5 384 0
 .word 0xf9401bb1
 .word 0xf941f231
@@ -23026,7 +23062,7 @@ bl _p_1
 .word 0xf9401721
 .word 0xaa0103e0
 .word 0x3940003e
-bl _p_154
+bl _p_155
 .word 0x93407c00
 .word 0xf90033a0
 .word 0xf9401bb1
@@ -23070,7 +23106,7 @@ bl _p_1
 .word 0xaa0203e0
 .word 0xaa1703e1
 .word 0x3940005e
-bl _p_155
+bl _p_156
 .word 0xf90037a0
 .word 0xf9401bb1
 .word 0xf9414631
@@ -23193,7 +23229,7 @@ bl _p_8
 .word 0xf90023a0
 .word 0xd29fffe4
 .word 0xf2afffe4
-bl _p_150
+bl _p_151
 .word 0xf94013b1
 .word 0xf940de31
 .word 0xb4000051
@@ -23267,7 +23303,7 @@ bl _p_8
 .word 0xf9402fa4
 .word 0xf90023a0
 .word 0xd2800003
-bl _p_150
+bl _p_151
 .word 0xf94013b1
 .word 0xf940da31
 .word 0xb4000051
@@ -23330,7 +23366,7 @@ bl _p_1
 .word 0xf9401701
 .word 0xaa0103e0
 .word 0x3940003e
-bl _p_154
+bl _p_155
 .word 0x93407c00
 .word 0xf90063a0
 .word 0xf94037b1
@@ -23363,7 +23399,7 @@ bl _p_154
 .word 0xaa0203e0
 .word 0xaa1903e1
 .word 0x3940005e
-bl _p_155
+bl _p_156
 .word 0xf90067a0
 .word 0xf94037b1
 .word 0xf9413231
@@ -23478,7 +23514,7 @@ bl _p_1
 .word 0xf9401721
 .word 0xaa0103e0
 .word 0x3940003e
-bl _p_154
+bl _p_155
 .word 0x93407c00
 .word 0xf9005ba0
 .word 0xf94033b1
@@ -23510,7 +23546,7 @@ bl _p_154
 .word 0xaa0203e0
 .word 0xd2800001
 .word 0x3940005e
-bl _p_155
+bl _p_156
 .word 0xf9005fa0
 .word 0xf94033b1
 .word 0xf9412231
@@ -23626,7 +23662,7 @@ bl _p_1
 .word 0xf9401721
 .word 0xaa0103e0
 .word 0x3940003e
-bl _p_154
+bl _p_155
 .word 0x93407c00
 .word 0xf90067a0
 .word 0xf94037b1
@@ -23667,7 +23703,7 @@ bl _p_154
 .word 0x51000701
 .word 0xaa0203e0
 .word 0x3940005e
-bl _p_155
+bl _p_156
 .word 0xf90067a0
 .word 0xf94037b1
 .word 0xf9414a31
@@ -23777,7 +23813,7 @@ bl _p_1
 .word 0xd63f0220
 .word 0xaa1803e0
 .word 0xaa1803e0
-bl _p_133
+bl _p_134
 .loc 5 209 0
 .word 0xf94017b1
 .word 0xf9409231
@@ -23884,7 +23920,7 @@ bl _p_8
 .word 0xf9401fa1
 .word 0xf94023a2
 .word 0xf9001ba0
-bl _p_127
+bl _p_128
 .word 0xf9400fb1
 .word 0xf940be31
 .word 0xb4000051
@@ -24093,7 +24129,7 @@ bl _p_1
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x0, [x16, #2488]
-bl _p_103
+bl _p_104
 .word 0xaa0003f9
 .loc 5 238 0
 .word 0xf94017b1
@@ -24259,7 +24295,7 @@ ldr x0, [x16, #2256]
 bl _p_8
 .word 0xf94037a1
 .word 0xf90033a0
-bl _p_149
+bl _p_150
 .word 0xf9401bb1
 .word 0xf940da31
 .word 0xb4000051
@@ -24318,7 +24354,7 @@ bl _p_1
 .word 0xfd4027a0
 .word 0xfd402ba1
 .word 0x3940031e
-bl _p_139
+bl _p_140
 .loc 5 250 0
 .word 0xf9401bb1
 .word 0xf941ba31
@@ -24582,7 +24618,7 @@ bl _p_8
 .word 0xaa1a03e3
 .word 0xd29fffe4
 .word 0xf2afffe4
-bl _p_150
+bl _p_151
 .word 0xf94013b1
 .word 0xf9412631
 .word 0xb4000051
@@ -24664,7 +24700,7 @@ bl _p_8
 .word 0xf9402fa4
 .word 0xf90023a0
 .word 0xd2800003
-bl _p_150
+bl _p_151
 .word 0xf94017b1
 .word 0xf940fa31
 .word 0xb4000051
@@ -25066,7 +25102,7 @@ bl _p_8
 .word 0xf94027a1
 .word 0xf9402ba2
 .word 0xf90023a0
-bl _p_131
+bl _p_132
 .word 0xf94013b1
 .word 0xf940b631
 .word 0xb4000051
@@ -25223,14 +25259,14 @@ bl _p_1
 .word 0xd63f0220
 .word 0xd292d7c0
 .word 0xd292d7c0
-bl _p_120
+bl _p_121
 .word 0xaa0003e1
 .word 0xd2801940
 .word 0xf2a04000
 .word 0xd2801940
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
-bl _p_117
+bl _p_118
 .word 0xf9402fb1
 .word 0xf940a231
 .word 0xb4000051
@@ -25279,7 +25315,7 @@ bl _p_1
 .word 0xf9400ba0
 .word 0x9100c3a1
 .word 0xf90023a1
-bl _p_156
+bl _p_157
 .word 0xf94023be
 .word 0xfd0003c0
 .word 0xfd0007c1
@@ -25393,7 +25429,7 @@ adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x15, [x16, #2240]
 .word 0xaa1a03e0
-bl _p_157
+bl _p_158
 .word 0x53001c00
 .word 0xf90023a0
 .word 0xf9400fb1
@@ -25420,7 +25456,7 @@ bl _p_157
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x0, [x16, #2488]
-bl _p_103
+bl _p_104
 .word 0xf9001ba0
 .loc 8 349 0
 .word 0xf9400fb1
@@ -25438,7 +25474,7 @@ add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x15, [x16, #2240]
 .word 0xaa1a03e0
 .word 0xd2800002
-bl _p_158
+bl _p_159
 .loc 8 350 0
 .word 0xf9400fb1
 .word 0xf9413e31
@@ -25503,7 +25539,7 @@ add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x15, [x16, #2240]
 .word 0xd29fffe1
 .word 0xf2afffe1
-bl _p_159
+bl _p_160
 .loc 8 91 0
 .word 0xf94013b1
 .word 0xf940a231
@@ -25579,7 +25615,7 @@ bl _p_1
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x15, [x16, #2512]
-bl _p_147
+bl _p_148
 .word 0xf9002ba0
 .word 0xf9401bb1
 .word 0xf940d631
@@ -25768,7 +25804,7 @@ ldr x15, [x16, #2240]
 .word 0x910243a1
 .word 0xfd404ba0
 .word 0xfd404fa1
-bl _p_160
+bl _p_161
 .loc 8 134 0
 .word 0xf94037b1
 .word 0xf9412a31
@@ -25892,7 +25928,7 @@ adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x15, [x16, #2240]
 .word 0xaa1a03e0
-bl _p_161
+bl _p_162
 .loc 8 149 0
 .word 0xf94033b1
 .word 0xf940a231
@@ -26110,7 +26146,7 @@ ldr x15, [x16, #2240]
 .word 0x910123a3
 .word 0xfd4027a0
 .word 0xfd402ba1
-bl _p_162
+bl _p_163
 .loc 8 179 0
 .word 0xf94013b1
 .word 0xf9425231
@@ -26348,7 +26384,7 @@ adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x15, [x16, #2240]
 .word 0xaa1803e0
-bl _p_161
+bl _p_162
 .loc 8 201 0
 .word 0xf94037b1
 .word 0xf9410231
@@ -26496,7 +26532,7 @@ add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x15, [x16, #2240]
 .word 0xaa1703e0
 .word 0xaa1603e1
-bl _p_163
+bl _p_164
 .word 0xf9003fa0
 .word 0xf94027b1
 .word 0xf940f631
@@ -26515,7 +26551,7 @@ bl _p_163
 .word 0xaa0003e1
 .word 0xb9801801
 .word 0xaa1a03e0
-bl _p_164
+bl _p_165
 .word 0x93407c00
 .word 0xf90037a0
 .word 0xf94027b1
@@ -26539,7 +26575,7 @@ bl _p_164
 .word 0xd2800001
 .word 0xaa1803e2
 .word 0xaa1903e3
-bl _p_165
+bl _p_166
 .loc 8 228 0
 .word 0xf94027b1
 .word 0xf9419631
@@ -26673,7 +26709,7 @@ ldr x2, [x16, #16]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x910123a0
-bl _p_166
+bl _p_167
 .word 0x93407c00
 .word 0xf9008ba0
 .word 0xf9403bb1
@@ -26688,7 +26724,7 @@ bl _p_166
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x910123a0
-bl _p_167
+bl _p_168
 .word 0x93407c00
 .word 0xf90087a0
 .word 0xf9403bb1
@@ -26709,7 +26745,7 @@ adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x15, [x16, #2240]
 .word 0xaa1703e0
-bl _p_163
+bl _p_164
 .word 0xf90083a0
 .word 0xf9403bb1
 .word 0xf9419a31
@@ -26731,7 +26767,7 @@ bl _p_163
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x15, [x16, #2240]
-bl _p_168
+bl _p_169
 .word 0x93407c00
 .word 0xf9007ba0
 .word 0xf9403bb1
@@ -26763,7 +26799,7 @@ bl _p_168
 .word 0xb900b7bf
 .word 0x9102c3a0
 .word 0xaa1603e1
-bl _p_169
+bl _p_170
 .word 0x9102c3a0
 .word 0x910243a0
 .word 0xb980b3a0
@@ -26785,7 +26821,7 @@ bl _p_169
 .word 0xb9801a81
 .word 0x9102a3a2
 .word 0xf90073a2
-bl _p_170
+bl _p_171
 .word 0xf94073be
 .word 0xf90003c0
 .word 0xf9403bb1
@@ -26827,7 +26863,7 @@ adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x15, [x16, #2240]
 .word 0xaa1703e0
-bl _p_163
+bl _p_164
 .word 0xf90083a0
 .word 0xf9403bb1
 .word 0xf9435631
@@ -26850,7 +26886,7 @@ adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x15, [x16, #2240]
 .word 0xd2800001
-bl _p_168
+bl _p_169
 .word 0x93407c00
 .word 0xf9007ba0
 .word 0xf9403bb1
@@ -26883,7 +26919,7 @@ bl _p_168
 .word 0x910283a0
 .word 0xaa1603e1
 .word 0xaa1303e2
-bl _p_169
+bl _p_170
 .word 0x910283a0
 .word 0x910223a0
 .word 0xb980a3a0
@@ -26905,7 +26941,7 @@ bl _p_169
 .word 0xb9801a81
 .word 0x910263a2
 .word 0xf90073a2
-bl _p_170
+bl _p_171
 .word 0xf94073be
 .word 0xf90003c0
 .word 0xf9403bb1
@@ -26980,7 +27016,7 @@ bl _p_1
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x15, [x16, #3000]
-bl _p_171
+bl _p_172
 .word 0x93407c00
 .word 0xf90023a0
 .word 0xf94013b1
@@ -27001,7 +27037,7 @@ bl _p_171
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x15, [x16, #3000]
-bl _p_172
+bl _p_173
 .word 0xf90023a0
 .word 0xf94013b1
 .word 0xf940fa31
@@ -27075,7 +27111,7 @@ ldr x15, [x16, #2240]
 .word 0x9101c3a1
 .word 0xfd403ba0
 .word 0xfd403fa1
-bl _p_136
+bl _p_137
 .word 0xf9402fb1
 .word 0xf940ba31
 .word 0xb4000051
@@ -27226,7 +27262,7 @@ bl _p_1
 .word 0xaa1a03e0
 .word 0xb9800341
 .word 0xaa1703e0
-bl _p_164
+bl _p_165
 .word 0x93407c00
 .word 0xf9002fa0
 .word 0xf9401bb1
@@ -27248,7 +27284,7 @@ bl _p_164
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x0, [x16, #2488]
-bl _p_103
+bl _p_104
 .word 0xf9001340
 .word 0x91008341
 .word 0xd349fc21
@@ -27277,7 +27313,7 @@ ldr x2, [x16, #16]
 .word 0xb9802f44
 .word 0xd2800001
 .word 0xd2800003
-bl _p_165
+bl _p_166
 .loc 8 386 0
 .word 0xf9401bb1
 .word 0xf941aa31
@@ -27341,7 +27377,7 @@ ldr x2, [x16, #16]
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x15, [x16, #3000]
-bl _p_173
+bl _p_174
 .loc 8 411 0
 .word 0xf9401bb1
 .word 0xf9428a31
@@ -27354,7 +27390,7 @@ bl _p_173
 .word 0xaa1a03e2
 .word 0xb9802f42
 .word 0x4b020021
-bl _p_164
+bl _p_165
 .word 0x93407c00
 .word 0xf9002ba0
 .word 0xf9401bb1
@@ -27379,7 +27415,7 @@ adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x0, [x16, #2488]
 .word 0xaa1803e1
-bl _p_103
+bl _p_104
 .word 0xf9001340
 .word 0x91008341
 .word 0xd349fc21
@@ -27466,7 +27502,7 @@ bl _p_1
 .word 0x4b190000
 .word 0xaa1a03e1
 .word 0xb9800341
-bl _p_164
+bl _p_165
 .word 0x93407c00
 .word 0xf9002fa0
 .word 0xf9401bb1
@@ -27491,7 +27527,7 @@ bl _p_164
 .word 0xaa0403e0
 .word 0xaa1803e0
 .word 0xaa1903e1
-bl _p_165
+bl _p_166
 .loc 8 303 0
 .word 0xf9401bb1
 .word 0xf9410a31
@@ -27661,7 +27697,7 @@ bl _p_1
 .word 0x910203a1
 .word 0xfd4043a0
 .word 0xfd4047a1
-bl _p_174
+bl _p_175
 .loc 9 224 0
 .word 0xf94037b1
 .word 0xf941de31
@@ -27719,14 +27755,14 @@ bl _p_1
 .word 0xd63f0220
 .word 0xd2921600
 .word 0xd2921600
-bl _p_120
+bl _p_121
 .word 0xaa0003e1
 .word 0xd2801ba0
 .word 0xf2a04000
 .word 0xd2801ba0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
-bl _p_117
+bl _p_118
 .word 0xf9402fb1
 .word 0xf940aa31
 .word 0xb4000051
@@ -27774,14 +27810,14 @@ bl _p_1
 .word 0xd63f0220
 .word 0xd2921600
 .word 0xd2921600
-bl _p_120
+bl _p_121
 .word 0xaa0003e1
 .word 0xd2801ba0
 .word 0xf2a04000
 .word 0xd2801ba0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
-bl _p_117
+bl _p_118
 .word 0xf9402fb1
 .word 0xf940aa31
 .word 0xb4000051
@@ -27855,14 +27891,14 @@ bl _p_1
 .word 0xd63f0220
 .word 0xd2921d80
 .word 0xd2921d80
-bl _p_120
+bl _p_121
 .word 0xaa0003e1
 .word 0xd2801da0
 .word 0xf2a04000
 .word 0xd2801da0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
-bl _p_117
+bl _p_118
 .loc 4 115 0
 .word 0xf94037b1
 .word 0xf9410e31
@@ -27974,7 +28010,7 @@ bl _p_8
 .word 0xf9000043
 .word 0xf94047a3
 .word 0xf9000443
-bl _p_175
+bl _p_176
 .word 0x53001c00
 .word 0xf9006ba0
 .word 0xf94037b1
@@ -28100,7 +28136,7 @@ bl _p_1
 .word 0xf9403ba4
 .word 0xf9402ba0
 .word 0xaa1503e1
-bl _p_165
+bl _p_166
 .loc 4 138 0
 .word 0xf9401fb1
 .word 0xf9410231
@@ -28160,7 +28196,7 @@ add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x0, [x16, #48]
 .word 0xb9400000
 .word 0x34000220
-bl _p_118
+bl _p_119
 .word 0xaa0003f3
 .word 0xaa1303e0
 .word 0xaa1303e1
@@ -28174,7 +28210,7 @@ bl _p_118
 .word 0xd2800022
 .word 0xd280003e
 .word 0xb900003e
-bl _p_119
+bl _p_120
 .word 0xf9406fa0
 .word 0xaa1a03e0
 .word 0xaa1a03e0
@@ -28342,7 +28378,7 @@ add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x0, [x16, #48]
 .word 0xb9400000
 .word 0x34000220
-bl _p_118
+bl _p_119
 .word 0xaa0003f4
 .word 0xaa1403e0
 .word 0xaa1403e1
@@ -28356,7 +28392,7 @@ bl _p_118
 .word 0xd2800022
 .word 0xd280003e
 .word 0xb900003e
-bl _p_119
+bl _p_120
 .word 0xaa1303e0
 .word 0xaa1a03e0
 .word 0xaa1a03e0
@@ -28518,7 +28554,7 @@ add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x0, [x16, #48]
 .word 0xb9400000
 .word 0x34000220
-bl _p_118
+bl _p_119
 .word 0xaa0003f3
 .word 0xaa1303e0
 .word 0xaa1303e1
@@ -28532,7 +28568,7 @@ bl _p_118
 .word 0xd2800022
 .word 0xd280003e
 .word 0xb900003e
-bl _p_119
+bl _p_120
 .word 0xf940a7a0
 .word 0xaa1a03e0
 .word 0xaa1a03e0
@@ -28793,7 +28829,7 @@ bl _p_1
 .word 0xd63f0220
 .word 0xaa1803e0
 .word 0xaa1803e0
-bl _p_133
+bl _p_134
 .loc 10 91 0
 .word 0xf94017b1
 .word 0xf9409231
@@ -28892,7 +28928,7 @@ add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x0, [x16, #48]
 .word 0xb9400000
 .word 0x34000220
-bl _p_118
+bl _p_119
 .word 0xaa0003f3
 .word 0xaa1303e0
 .word 0xaa1303e1
@@ -28906,7 +28942,7 @@ bl _p_118
 .word 0xd2800022
 .word 0xd280003e
 .word 0xb900003e
-bl _p_119
+bl _p_120
 .word 0xf9406fa0
 .word 0xaa1a03e0
 .word 0xaa1a03e0
@@ -29083,7 +29119,7 @@ bl _p_8
 .word 0xf9401fa1
 .word 0xf94023a2
 .word 0xf9001ba0
-bl _p_141
+bl _p_142
 .word 0xf9400fb1
 .word 0xf940be31
 .word 0xb4000051
@@ -29173,7 +29209,7 @@ ldr x15, [x16, #504]
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_134
+bl _p_135
 .loc 10 106 0
 .word 0xf9400fb1
 .word 0xf9410e31
@@ -29767,7 +29803,7 @@ adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x15, [x16, #2240]
 .word 0xd2800021
-bl _p_135
+bl _p_136
 .loc 10 164 0
 .word 0xf9400fb1
 .word 0xf940ce31
@@ -29886,7 +29922,7 @@ ldr x15, [x16, #2240]
 .word 0x9100c3a1
 .word 0xfd401ba0
 .word 0xfd401fa1
-bl _p_136
+bl _p_137
 .loc 10 164 0
 .word 0xf94013b1
 .word 0xf9400231
@@ -29962,7 +29998,7 @@ ldr x15, [x16, #504]
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x15, [x16, #2240]
-bl _p_137
+bl _p_138
 .word 0xf9006ba0
 .word 0xf9400fb1
 .word 0xf943aa31
@@ -30028,7 +30064,7 @@ ldr x0, [x16, #2256]
 .word 0xd2800501
 bl _p_8
 .word 0xf90057a0
-bl _p_138
+bl _p_139
 .word 0xf94013b1
 .word 0xf940b631
 .word 0xb4000051
@@ -30151,7 +30187,7 @@ ldr x15, [x16, #2960]
 .word 0xfd401fa0
 .word 0xfd4023a1
 .word 0x3940033e
-bl _p_139
+bl _p_140
 .loc 10 179 0
 .word 0xf94017b1
 .word 0xf9400231
@@ -30280,7 +30316,7 @@ bl _p_1
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x15, [x16, #3192]
-bl _p_176
+bl _p_177
 .word 0xf9002ba0
 .word 0xf94013b1
 .word 0xf940ae31
@@ -30296,7 +30332,7 @@ bl _p_8
 .word 0xf94027a1
 .word 0xf9402ba2
 .word 0xf90023a0
-bl _p_141
+bl _p_142
 .word 0xf94013b1
 .word 0xf940e631
 .word 0xb4000051
@@ -30628,14 +30664,14 @@ bl _p_1
 .word 0xf9406a31
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_144
+bl _p_145
 .word 0xf9001ba0
 .word 0xf9400fb1
 .word 0xf9408231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9401ba0
-bl _p_117
+bl _p_118
 .word 0xf9400fb1
 .word 0xf9409a31
 .word 0xb4000051
@@ -30997,7 +31033,7 @@ bl _p_1
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x15, [x16, #2512]
-bl _p_147
+bl _p_148
 .word 0xf9001ba0
 .word 0xf9400fb1
 .word 0xf9408e31
@@ -31055,7 +31091,7 @@ ldr x0, [x16, #2256]
 .word 0xd2800501
 bl _p_8
 .word 0xf9001ba0
-bl _p_138
+bl _p_139
 .word 0xf9400fb1
 .word 0xf9409a31
 .word 0xb4000051
@@ -31204,7 +31240,7 @@ bl _p_1
 .word 0xd2800080
 .word 0xd2800180
 .word 0xd2800081
-bl _p_177
+bl _p_178
 .loc 9 54 0
 .word 0xf94017b1
 .word 0xf9400231
@@ -31253,7 +31289,7 @@ adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x0, [x16, #2488]
 .word 0xaa1a03e1
-bl _p_103
+bl _p_104
 .word 0xf9000b20
 .word 0x91004321
 .word 0xd349fc21
@@ -31323,7 +31359,7 @@ bl _p_1
 .word 0xd63f0220
 .word 0xaa1603e0
 .word 0xaa1603e0
-bl _p_133
+bl _p_134
 .loc 5 800 0
 .word 0xf9401fb1
 .word 0xf9409a31
@@ -31454,7 +31490,7 @@ bl _p_8
 .word 0xf94027a3
 .word 0xf9402ba4
 .word 0xf9001ba0
-bl _p_150
+bl _p_151
 .word 0xf9400fb1
 .word 0xf940de31
 .word 0xb4000051
@@ -31725,7 +31761,7 @@ bl _p_8
 .word 0xf94037a4
 .word 0xf9002ba0
 .word 0xaa1803e3
-bl _p_150
+bl _p_151
 .word 0xf9401bb1
 .word 0xf9411e31
 .word 0xb4000051
@@ -31825,7 +31861,7 @@ bl _p_8
 .word 0xf9402fa3
 .word 0xf90023a0
 .word 0xaa1803e4
-bl _p_150
+bl _p_151
 .word 0xf94017b1
 .word 0xf9411a31
 .word 0xb4000051
@@ -32286,7 +32322,7 @@ ldr x15, [x16, #2576]
 .word 0xaa1903e0
 .word 0xb9803f21
 .word 0xaa1803e0
-bl _p_164
+bl _p_165
 .word 0x93407c00
 .word 0xf9006fa0
 .word 0xf94037b1
@@ -32460,7 +32496,7 @@ ldr x15, [x16, #2576]
 .word 0x51000720
 .word 0xaa1a03e1
 .word 0xb9803f41
-bl _p_164
+bl _p_165
 .word 0x93407c00
 .word 0xf90023a0
 .word 0xf94013b1
@@ -32525,7 +32561,7 @@ bl _p_1
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_178
+bl _p_179
 .word 0x93407c00
 .word 0xf9003fa0
 .word 0xf9401fb1
@@ -32552,7 +32588,7 @@ bl _p_178
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x15, [x16, #2512]
-bl _p_147
+bl _p_148
 .word 0xf9003ba0
 .word 0xf9401fb1
 .word 0xf9410631
@@ -32571,7 +32607,7 @@ adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x0, [x16, #2488]
 .word 0xaa1903e1
-bl _p_103
+bl _p_104
 .word 0xaa0003f8
 .loc 5 902 0
 .word 0xf9401fb1
@@ -32746,7 +32782,7 @@ bl _p_1
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_178
+bl _p_179
 .word 0x93407c00
 .word 0xf9003fa0
 .word 0xf9401fb1
@@ -32777,7 +32813,7 @@ ldr x0, [x16, #2256]
 .word 0xd2800501
 bl _p_8
 .word 0xf9003ba0
-bl _p_138
+bl _p_139
 .word 0xf9401fb1
 .word 0xf9411231
 .word 0xb4000051
@@ -32799,7 +32835,7 @@ ldr x0, [x16, #2256]
 bl _p_8
 .word 0xf9003ba0
 .word 0xaa1903e1
-bl _p_149
+bl _p_150
 .word 0xf9401fb1
 .word 0xf9416231
 .word 0xb4000051
@@ -32881,7 +32917,7 @@ ldr x15, [x16, #2584]
 .word 0xfd402ba0
 .word 0xfd402fa1
 .word 0x3940031e
-bl _p_139
+bl _p_140
 .loc 5 920 0
 .word 0xf9401fb1
 .word 0xf9429631
@@ -32963,7 +32999,7 @@ bl _p_1
 .word 0xd63f0220
 .word 0xaa1903e0
 .word 0xaa1903e0
-bl _p_178
+bl _p_179
 .word 0x93407c00
 .word 0xf9003ba0
 .word 0xf9401fb1
@@ -33140,7 +33176,7 @@ bl _p_1
 .word 0xaa1903e0
 .word 0x11000721
 .word 0xaa1a03e0
-bl _p_179
+bl _p_180
 .loc 9 232 0
 .word 0xf94033b1
 .word 0xf940ba31
@@ -33228,7 +33264,7 @@ adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x0, [x16, #2488]
 .word 0xd2800001
-bl _p_103
+bl _p_104
 .word 0xaa0003e1
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+0
@@ -33281,7 +33317,7 @@ ldr x0, [x16, #3472]
 .word 0xd2800401
 bl _p_8
 .word 0xf90033a0
-bl _p_180
+bl _p_181
 .word 0xf9401bb1
 .word 0xf9408231
 .word 0xb4000051
@@ -33425,7 +33461,7 @@ adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x0, [x16, #2488]
 .word 0xd2800001
-bl _p_103
+bl _p_104
 .word 0xaa0003e1
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+0
@@ -33554,7 +33590,7 @@ bl _p_1
 .word 0xaa1803e0
 .word 0xaa1903e0
 .word 0xaa1803e1
-bl _p_181
+bl _p_182
 .loc 9 428 0
 .word 0xf9401fb1
 .word 0xf9400231
@@ -33756,7 +33792,7 @@ bl _p_1
 .word 0xd28002a0
 .word 0xd28001e0
 .word 0xd28002a1
-bl _p_177
+bl _p_178
 .loc 9 108 0
 .word 0xf9401bb1
 .word 0xf9400231
@@ -33792,7 +33828,7 @@ adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x0, [x16, #2488]
 .word 0xaa1a03e1
-bl _p_103
+bl _p_104
 .word 0xaa0003f8
 .loc 9 113 0
 .word 0xf94017b1
@@ -33819,7 +33855,7 @@ bl _p_103
 .word 0xd2800001
 .word 0xaa1803e2
 .word 0xd2800003
-bl _p_165
+bl _p_166
 .loc 9 117 0
 .word 0xf9401bb1
 .word 0xf9400231
@@ -34258,61 +34294,62 @@ unwind_info:
 	.byte 29,16,12,31,0,68,14,64,157,8,158,7,68,13,29,68,154,6,14,12,31,0,68,14,192,1,157,24,158,23,68,13
 	.byte 29,34,12,31,0,68,14,160,1,157,20,158,19,68,13,29,68,147,18,148,17,68,149,16,150,15,68,151,14,152,13,68
 	.byte 153,12,154,11,32,12,31,0,68,14,144,2,157,34,158,33,68,13,29,68,148,32,149,31,68,150,30,151,29,68,152,28
-	.byte 153,27,68,154,26,21,12,31,0,68,14,112,157,14,158,13,68,13,29,68,151,12,152,11,68,154,10,16,12,31,0,68
-	.byte 14,48,157,6,158,5,68,13,29,68,154,4,34,12,31,0,68,14,160,2,157,36,158,35,68,13,29,68,147,34,148,33
-	.byte 68,149,32,150,31,68,151,30,152,29,68,153,28,154,27,24,12,31,0,68,14,112,157,14,158,13,68,13,29,68,149,12
-	.byte 150,11,68,151,10,68,154,9,30,12,31,0,68,14,160,1,157,20,158,19,68,13,29,68,147,18,148,17,68,149,16,150
-	.byte 15,68,151,14,68,153,13,32,12,31,0,68,14,192,1,157,24,158,23,68,13,29,68,147,22,148,21,68,149,20,150,19
-	.byte 68,151,18,152,17,68,153,16,22,12,31,0,68,14,208,1,157,26,158,25,68,13,29,68,151,24,152,23,68,153,22,19
-	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,152,8,68,154,7,27,12,31,0,68,14,176,1,157,22,158,21,68
-	.byte 13,29,68,149,20,150,19,68,151,18,152,17,68,153,16,30,12,31,0,68,14,240,1,157,30,158,29,68,13,29,68,148
-	.byte 28,149,27,68,150,26,151,25,68,152,24,68,154,23,27,12,31,0,68,14,240,2,157,46,158,45,68,13,29,68,150,44
-	.byte 151,43,68,152,42,153,41,68,154,40,20,12,31,0,68,14,160,2,157,36,158,35,68,13,29,68,151,34,68,153,33,34
-	.byte 12,31,0,68,14,176,1,157,22,158,21,68,13,29,68,147,20,148,19,68,149,18,150,17,68,151,16,152,15,68,153,14
-	.byte 154,13,29,12,31,0,68,14,176,1,157,22,158,21,68,13,29,68,148,20,149,19,68,150,18,151,17,68,152,16,153,15
-	.byte 23,12,31,0,68,14,96,157,12,158,11,68,13,29,68,151,10,152,9,68,153,8,154,7,26,12,31,0,68,14,96,157
-	.byte 12,158,11,68,13,29,68,150,10,151,9,68,152,8,153,7,68,154,6,31,12,31,0,68,14,112,157,14,158,13,68,13
-	.byte 29,68,148,12,149,11,68,150,10,151,9,68,152,8,153,7,68,154,6,19,12,31,0,68,14,208,1,157,26,158,25,68
-	.byte 13,29,68,153,24,154,23,17,12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,153,14,16,12,31,0,68,14,64
-	.byte 157,8,158,7,68,13,29,68,153,6,30,12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,148,16,149,15,68,150
-	.byte 14,151,13,68,152,12,68,154,11,17,12,31,0,68,14,224,1,157,28,158,27,68,13,29,68,154,26,30,12,31,0,68
-	.byte 14,128,1,157,16,158,15,68,13,29,68,148,14,149,13,68,150,12,151,11,68,152,10,68,154,9,18,12,31,0,68,14
-	.byte 80,157,10,158,9,68,13,29,68,153,8,154,7,16,12,31,0,68,14,96,157,12,158,11,68,13,29,68,154,10,16,12
-	.byte 31,0,68,14,112,157,14,158,13,68,13,29,68,154,12,34,12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147
-	.byte 16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10,154,9,34,12,31,0,68,14,128,2,157,32,158,31,68,13
-	.byte 29,68,147,30,148,29,68,149,28,150,27,68,151,26,152,25,68,153,24,154,23,17,12,31,0,68,14,160,1,157,20,158
-	.byte 19,68,13,29,68,154,18,34,12,31,0,68,14,240,1,157,30,158,29,68,13,29,68,147,28,148,27,68,149,26,150,25
-	.byte 68,151,24,152,23,68,153,22,154,21,19,12,31,0,68,14,192,1,157,24,158,23,68,13,29,68,153,22,154,21,16,12
-	.byte 31,0,68,14,64,157,8,158,7,68,13,29,68,152,6,16,12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8
-	.byte 18,12,31,0,68,14,112,157,14,158,13,68,13,29,68,153,12,154,11,22,12,31,0,68,14,160,1,157,20,158,19,68
-	.byte 13,29,68,152,18,153,17,68,154,16,22,12,31,0,68,14,160,1,157,20,158,19,68,13,29,68,151,18,152,17,68,153
-	.byte 16,14,12,31,0,68,14,128,1,157,16,158,15,68,13,29,13,12,31,0,68,14,96,157,12,158,11,68,13,29,16,12
-	.byte 31,0,68,14,96,157,12,158,11,68,13,29,68,153,10,19,12,31,0,68,14,224,1,157,28,158,27,68,13,29,68,151
-	.byte 26,152,25,19,12,31,0,68,14,208,1,157,26,158,25,68,13,29,68,152,24,153,23,24,12,31,0,68,14,176,1,157
-	.byte 22,158,21,68,13,29,68,150,20,151,19,68,152,18,153,17,24,12,31,0,68,14,160,1,157,20,158,19,68,13,29,68
-	.byte 151,18,152,17,68,153,16,154,15,24,12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,151,14,152,13,68,153,12
-	.byte 154,11,22,12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,151,14,152,13,68,153,12,22,12,31,0,68,14,224
-	.byte 1,157,28,158,27,68,13,29,68,152,26,153,25,68,154,24,19,12,31,0,68,14,144,1,157,18,158,17,68,13,29,68
-	.byte 153,16,154,15,21,12,31,0,68,14,112,157,14,158,13,68,13,29,68,152,12,153,11,68,154,10,23,12,31,0,68,14
-	.byte 112,157,14,158,13,68,13,29,68,151,12,152,11,68,153,10,154,9,24,12,31,0,68,14,128,1,157,16,158,15,68,13
-	.byte 29,68,150,14,151,13,68,152,12,153,11,18,12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10,154,9,21,12
-	.byte 31,0,68,14,96,157,12,158,11,68,13,29,68,152,10,153,9,68,154,8,22,12,31,0,68,14,208,1,157,26,158,25
-	.byte 68,13,29,68,152,24,153,23,68,154,22,17,12,31,0,68,14,160,1,157,20,158,19,68,13,29,68,153,18,13,12,31
-	.byte 0,68,14,112,157,14,158,13,68,13,29,21,12,31,0,68,14,96,157,12,158,11,68,13,29,68,151,10,152,9,68,153
-	.byte 8,17,12,31,0,68,14,192,1,157,24,158,23,68,13,29,68,153,22,20,12,31,0,68,14,144,1,157,18,158,17,68
-	.byte 13,29,68,152,16,68,154,15,32,12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,148,14,149,13,68,150,12,151
-	.byte 11,68,152,10,153,9,68,154,8,27,12,31,0,68,14,160,2,157,36,158,35,68,13,29,68,147,34,148,33,68,149,32
-	.byte 150,31,68,151,30,22,12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,149,14,150,13,68,152,12,34,12,31,0
-	.byte 68,14,240,2,157,46,158,45,68,13,29,68,147,44,148,43,68,149,42,150,41,68,151,40,152,39,68,153,38,154,37,19
-	.byte 12,31,0,68,14,176,1,157,22,158,21,68,13,29,68,152,20,153,19,19,12,31,0,68,14,176,1,157,22,158,21,68
-	.byte 13,29,68,153,20,154,19,14,12,31,0,68,14,144,1,157,18,158,17,68,13,29,14,12,31,0,68,14,160,1,157,20
-	.byte 158,19,68,13,29,18,12,31,0,68,14,64,157,8,158,7,68,13,29,68,153,6,154,5,16,12,31,0,68,14,80,157
-	.byte 10,158,9,68,13,29,68,150,8,21,12,31,0,68,14,112,157,14,158,13,68,13,29,68,151,12,152,11,68,153,10,18
-	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,152,10,153,9,22,12,31,0,68,14,240,1,157,30,158,29,68,13
-	.byte 29,68,152,28,153,27,68,154,26,27,12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,150,16,151,15,68,152,14
-	.byte 153,13,68,154,12,24,12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,150,16,151,15,68,152,14,153,13,18,12
-	.byte 31,0,68,14,112,157,14,158,13,68,13,29,68,151,12,152,11,23,12,31,0,68,14,80,157,10,158,9,68,13,29,68
-	.byte 151,8,152,7,68,153,6,154,5,21,12,31,0,68,14,64,157,8,158,7,68,13,29,68,152,6,153,5,68,154,4
+	.byte 153,27,68,154,26,27,12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,149,14,150,13,68,151,12,152,11,68,154
+	.byte 10,16,12,31,0,68,14,48,157,6,158,5,68,13,29,68,154,4,34,12,31,0,68,14,160,2,157,36,158,35,68,13
+	.byte 29,68,147,34,148,33,68,149,32,150,31,68,151,30,152,29,68,153,28,154,27,24,12,31,0,68,14,112,157,14,158,13
+	.byte 68,13,29,68,149,12,150,11,68,151,10,68,154,9,30,12,31,0,68,14,160,1,157,20,158,19,68,13,29,68,147,18
+	.byte 148,17,68,149,16,150,15,68,151,14,68,153,13,32,12,31,0,68,14,192,1,157,24,158,23,68,13,29,68,147,22,148
+	.byte 21,68,149,20,150,19,68,151,18,152,17,68,153,16,22,12,31,0,68,14,208,1,157,26,158,25,68,13,29,68,151,24
+	.byte 152,23,68,153,22,19,12,31,0,68,14,80,157,10,158,9,68,13,29,68,152,8,68,154,7,27,12,31,0,68,14,176
+	.byte 1,157,22,158,21,68,13,29,68,149,20,150,19,68,151,18,152,17,68,153,16,30,12,31,0,68,14,240,1,157,30,158
+	.byte 29,68,13,29,68,148,28,149,27,68,150,26,151,25,68,152,24,68,154,23,27,12,31,0,68,14,240,2,157,46,158,45
+	.byte 68,13,29,68,150,44,151,43,68,152,42,153,41,68,154,40,20,12,31,0,68,14,160,2,157,36,158,35,68,13,29,68
+	.byte 151,34,68,153,33,34,12,31,0,68,14,176,1,157,22,158,21,68,13,29,68,147,20,148,19,68,149,18,150,17,68,151
+	.byte 16,152,15,68,153,14,154,13,29,12,31,0,68,14,176,1,157,22,158,21,68,13,29,68,148,20,149,19,68,150,18,151
+	.byte 17,68,152,16,153,15,23,12,31,0,68,14,96,157,12,158,11,68,13,29,68,151,10,152,9,68,153,8,154,7,26,12
+	.byte 31,0,68,14,96,157,12,158,11,68,13,29,68,150,10,151,9,68,152,8,153,7,68,154,6,31,12,31,0,68,14,112
+	.byte 157,14,158,13,68,13,29,68,148,12,149,11,68,150,10,151,9,68,152,8,153,7,68,154,6,19,12,31,0,68,14,208
+	.byte 1,157,26,158,25,68,13,29,68,153,24,154,23,17,12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,153,14,16
+	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,153,6,30,12,31,0,68,14,144,1,157,18,158,17,68,13,29,68
+	.byte 148,16,149,15,68,150,14,151,13,68,152,12,68,154,11,17,12,31,0,68,14,224,1,157,28,158,27,68,13,29,68,154
+	.byte 26,30,12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,148,14,149,13,68,150,12,151,11,68,152,10,68,154,9
+	.byte 18,12,31,0,68,14,80,157,10,158,9,68,13,29,68,153,8,154,7,16,12,31,0,68,14,96,157,12,158,11,68,13
+	.byte 29,68,154,10,16,12,31,0,68,14,112,157,14,158,13,68,13,29,68,154,12,34,12,31,0,68,14,144,1,157,18,158
+	.byte 17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10,154,9,34,12,31,0,68,14,128,2
+	.byte 157,32,158,31,68,13,29,68,147,30,148,29,68,149,28,150,27,68,151,26,152,25,68,153,24,154,23,17,12,31,0,68
+	.byte 14,160,1,157,20,158,19,68,13,29,68,154,18,34,12,31,0,68,14,240,1,157,30,158,29,68,13,29,68,147,28,148
+	.byte 27,68,149,26,150,25,68,151,24,152,23,68,153,22,154,21,19,12,31,0,68,14,192,1,157,24,158,23,68,13,29,68
+	.byte 153,22,154,21,16,12,31,0,68,14,64,157,8,158,7,68,13,29,68,152,6,16,12,31,0,68,14,80,157,10,158,9
+	.byte 68,13,29,68,154,8,18,12,31,0,68,14,112,157,14,158,13,68,13,29,68,153,12,154,11,22,12,31,0,68,14,160
+	.byte 1,157,20,158,19,68,13,29,68,152,18,153,17,68,154,16,22,12,31,0,68,14,160,1,157,20,158,19,68,13,29,68
+	.byte 151,18,152,17,68,153,16,14,12,31,0,68,14,128,1,157,16,158,15,68,13,29,13,12,31,0,68,14,96,157,12,158
+	.byte 11,68,13,29,16,12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10,19,12,31,0,68,14,224,1,157,28,158
+	.byte 27,68,13,29,68,151,26,152,25,19,12,31,0,68,14,208,1,157,26,158,25,68,13,29,68,152,24,153,23,24,12,31
+	.byte 0,68,14,176,1,157,22,158,21,68,13,29,68,150,20,151,19,68,152,18,153,17,24,12,31,0,68,14,160,1,157,20
+	.byte 158,19,68,13,29,68,151,18,152,17,68,153,16,154,15,24,12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,151
+	.byte 14,152,13,68,153,12,154,11,22,12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,151,14,152,13,68,153,12,22
+	.byte 12,31,0,68,14,224,1,157,28,158,27,68,13,29,68,152,26,153,25,68,154,24,19,12,31,0,68,14,144,1,157,18
+	.byte 158,17,68,13,29,68,153,16,154,15,21,12,31,0,68,14,112,157,14,158,13,68,13,29,68,152,12,153,11,68,154,10
+	.byte 23,12,31,0,68,14,112,157,14,158,13,68,13,29,68,151,12,152,11,68,153,10,154,9,24,12,31,0,68,14,128,1
+	.byte 157,16,158,15,68,13,29,68,150,14,151,13,68,152,12,153,11,18,12,31,0,68,14,96,157,12,158,11,68,13,29,68
+	.byte 153,10,154,9,21,12,31,0,68,14,96,157,12,158,11,68,13,29,68,152,10,153,9,68,154,8,22,12,31,0,68,14
+	.byte 208,1,157,26,158,25,68,13,29,68,152,24,153,23,68,154,22,17,12,31,0,68,14,160,1,157,20,158,19,68,13,29
+	.byte 68,153,18,13,12,31,0,68,14,112,157,14,158,13,68,13,29,21,12,31,0,68,14,96,157,12,158,11,68,13,29,68
+	.byte 151,10,152,9,68,153,8,17,12,31,0,68,14,192,1,157,24,158,23,68,13,29,68,153,22,20,12,31,0,68,14,144
+	.byte 1,157,18,158,17,68,13,29,68,152,16,68,154,15,32,12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,148,14
+	.byte 149,13,68,150,12,151,11,68,152,10,153,9,68,154,8,27,12,31,0,68,14,160,2,157,36,158,35,68,13,29,68,147
+	.byte 34,148,33,68,149,32,150,31,68,151,30,22,12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,149,14,150,13,68
+	.byte 152,12,34,12,31,0,68,14,240,2,157,46,158,45,68,13,29,68,147,44,148,43,68,149,42,150,41,68,151,40,152,39
+	.byte 68,153,38,154,37,19,12,31,0,68,14,176,1,157,22,158,21,68,13,29,68,152,20,153,19,19,12,31,0,68,14,176
+	.byte 1,157,22,158,21,68,13,29,68,153,20,154,19,14,12,31,0,68,14,144,1,157,18,158,17,68,13,29,14,12,31,0
+	.byte 68,14,160,1,157,20,158,19,68,13,29,18,12,31,0,68,14,64,157,8,158,7,68,13,29,68,153,6,154,5,16,12
+	.byte 31,0,68,14,80,157,10,158,9,68,13,29,68,150,8,21,12,31,0,68,14,112,157,14,158,13,68,13,29,68,151,12
+	.byte 152,11,68,153,10,18,12,31,0,68,14,96,157,12,158,11,68,13,29,68,152,10,153,9,22,12,31,0,68,14,240,1
+	.byte 157,30,158,29,68,13,29,68,152,28,153,27,68,154,26,27,12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,150
+	.byte 16,151,15,68,152,14,153,13,68,154,12,24,12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,150,16,151,15,68
+	.byte 152,14,153,13,18,12,31,0,68,14,112,157,14,158,13,68,13,29,68,151,12,152,11,23,12,31,0,68,14,80,157,10
+	.byte 158,9,68,13,29,68,151,8,152,7,68,153,6,154,5,21,12,31,0,68,14,64,157,8,158,7,68,13,29,68,152,6
+	.byte 153,5,68,154,4
 
 .text
 	.align 4
@@ -34325,7 +34362,7 @@ adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #3560]
 br x16
-.word 6494
+.word 6495
 	.no_dead_strip plt_System_Nullable_1_bool_get_HasValue
 plt_System_Nullable_1_bool_get_HasValue:
 _p_2:
@@ -34333,7 +34370,7 @@ adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #3568]
 br x16
-.word 6520
+.word 6521
 	.no_dead_strip plt_UIKit_UIDevice_get_CurrentDevice
 plt_UIKit_UIDevice_get_CurrentDevice:
 _p_3:
@@ -34341,7 +34378,7 @@ adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #3576]
 br x16
-.word 6531
+.word 6532
 	.no_dead_strip plt_UIKit_UIDevice_CheckSystemVersion_int_int
 plt_UIKit_UIDevice_CheckSystemVersion_int_int:
 _p_4:
@@ -34349,7 +34386,7 @@ adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #3584]
 br x16
-.word 6536
+.word 6537
 	.no_dead_strip plt_System_Nullable_1_bool__ctor_bool
 plt_System_Nullable_1_bool__ctor_bool:
 _p_5:
@@ -34357,7 +34394,7 @@ adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #3592]
 br x16
-.word 6541
+.word 6542
 	.no_dead_strip plt_System_Nullable_1_bool_get_Value
 plt_System_Nullable_1_bool_get_Value:
 _p_6:
@@ -34365,7 +34402,7 @@ adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #3600]
 br x16
-.word 6552
+.word 6553
 	.no_dead_strip plt_Xamarin_Forms_Maps_iOS_GeocoderBackend_Register
 plt_Xamarin_Forms_Maps_iOS_GeocoderBackend_Register:
 _p_7:
@@ -34373,7 +34410,7 @@ adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #3608]
 br x16
-.word 6563
+.word 6564
 	.no_dead_strip plt_wrapper_alloc_object_AllocSmall_intptr_intptr
 plt_wrapper_alloc_object_AllocSmall_intptr_intptr:
 _p_8:
@@ -34381,7 +34418,7 @@ adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #3616]
 br x16
-.word 6565
+.word 6566
 	.no_dead_strip plt_Xamarin_Forms_Maps_iOS_MapPool__ctor
 plt_Xamarin_Forms_Maps_iOS_MapPool__ctor:
 _p_9:
@@ -34389,7 +34426,7 @@ adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #3624]
 br x16
-.word 6573
+.word 6574
 	.no_dead_strip plt_Xamarin_Forms_Maps_iOS_MapPool_get_Instance
 plt_Xamarin_Forms_Maps_iOS_MapPool_get_Instance:
 _p_10:
@@ -34397,7 +34434,7 @@ adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #3632]
 br x16
-.word 6575
+.word 6576
 	.no_dead_strip plt_System_Collections_Concurrent_ConcurrentQueue_1_MapKit_MKMapView_Enqueue_MapKit_MKMapView
 plt_System_Collections_Concurrent_ConcurrentQueue_1_MapKit_MKMapView_Enqueue_MapKit_MKMapView:
 _p_11:
@@ -34405,7 +34442,7 @@ adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #3640]
 br x16
-.word 6577
+.word 6578
 	.no_dead_strip plt_System_Collections_Concurrent_ConcurrentQueue_1_MapKit_MKMapView_TryDequeue_MapKit_MKMapView_
 plt_System_Collections_Concurrent_ConcurrentQueue_1_MapKit_MKMapView_TryDequeue_MapKit_MKMapView_:
 _p_12:
@@ -34413,7 +34450,7 @@ adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #3648]
 br x16
-.word 6588
+.word 6589
 	.no_dead_strip plt_System_Collections_Concurrent_ConcurrentQueue_1_MapKit_MKMapView__ctor
 plt_System_Collections_Concurrent_ConcurrentQueue_1_MapKit_MKMapView__ctor:
 _p_13:
@@ -34421,7 +34458,7 @@ adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #3656]
 br x16
-.word 6599
+.word 6600
 	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_ViewRenderer_2_Xamarin_Forms_View_UIKit_UIView_get_Control
 plt_Xamarin_Forms_Platform_iOS_ViewRenderer_2_Xamarin_Forms_View_UIKit_UIView_get_Control:
 _p_14:
@@ -34429,7 +34466,7 @@ adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #3664]
 br x16
-.word 6610
+.word 6611
 	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_UIViewExtensions_GetSizeRequest_UIKit_UIView_double_double_double_double
 plt_Xamarin_Forms_Platform_iOS_UIViewExtensions_GetSizeRequest_UIKit_UIView_double_double_double_double:
 _p_15:
@@ -34437,7 +34474,7 @@ adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #3672]
 br x16
-.word 6621
+.word 6622
 	.no_dead_strip plt_Xamarin_FormsMaps_get_IsiOs9OrNewer
 plt_Xamarin_FormsMaps_get_IsiOs9OrNewer:
 _p_16:
@@ -34445,7 +34482,7 @@ adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #3680]
 br x16
-.word 6626
+.word 6627
 	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_VisualElementRenderer_1_Xamarin_Forms_View_get_Element
 plt_Xamarin_Forms_Platform_iOS_VisualElementRenderer_1_Xamarin_Forms_View_get_Element:
 _p_17:
@@ -34453,7 +34490,7 @@ adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #3688]
 br x16
-.word 6628
+.word 6629
 	.no_dead_strip plt_Xamarin_Forms_MessagingCenter_Unsubscribe_Xamarin_Forms_Maps_Map_Xamarin_Forms_Maps_MapSpan_object_string
 plt_Xamarin_Forms_MessagingCenter_Unsubscribe_Xamarin_Forms_Maps_Map_Xamarin_Forms_Maps_MapSpan_object_string:
 _p_18:
@@ -34461,7 +34498,7 @@ adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #3696]
 br x16
-.word 6639
+.word 6640
 	.no_dead_strip plt_Xamarin_Forms_Maps_Map_get_Pins
 plt_Xamarin_Forms_Maps_Map_get_Pins:
 _p_19:
@@ -34469,7 +34506,7 @@ adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #3704]
 br x16
-.word 6651
+.word 6652
 	.no_dead_strip plt_Xamarin_Forms_BindableObject_remove_PropertyChanged_System_ComponentModel_PropertyChangedEventHandler
 plt_Xamarin_Forms_BindableObject_remove_PropertyChanged_System_ComponentModel_PropertyChangedEventHandler:
 _p_20:
@@ -34477,7 +34514,7 @@ adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #3712]
 br x16
-.word 6656
+.word 6657
 	.no_dead_strip plt__jit_icall_ves_icall_thread_finish_async_abort
 plt__jit_icall_ves_icall_thread_finish_async_abort:
 _p_21:
@@ -34485,7 +34522,7 @@ adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #3720]
 br x16
-.word 6661
+.word 6662
 	.no_dead_strip plt_MapKit_MKMapView_remove_RegionChanged_System_EventHandler_1_MapKit_MKMapViewChangeEventArgs
 plt_MapKit_MKMapView_remove_RegionChanged_System_EventHandler_1_MapKit_MKMapViewChangeEventArgs:
 _p_22:
@@ -34493,7 +34530,7 @@ adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #3728]
 br x16
-.word 6699
+.word 6700
 	.no_dead_strip plt_MapKit_MKMapView_set_GetViewForAnnotation_MapKit_MKMapViewAnnotation
 plt_MapKit_MKMapView_set_GetViewForAnnotation_MapKit_MKMapViewAnnotation:
 _p_23:
@@ -34501,7 +34538,7 @@ adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #3736]
 br x16
-.word 6704
+.word 6705
 	.no_dead_strip plt_MapKit_MKMapView_get_Delegate
 plt_MapKit_MKMapView_get_Delegate:
 _p_24:
@@ -34509,7 +34546,7 @@ adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #3744]
 br x16
-.word 6709
+.word 6710
 	.no_dead_strip plt_MapKit_MKMapView_set_Delegate_MapKit_IMKMapViewDelegate
 plt_MapKit_MKMapView_set_Delegate_MapKit_IMKMapViewDelegate:
 _p_25:
@@ -34517,7 +34554,7 @@ adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #3752]
 br x16
-.word 6714
+.word 6715
 	.no_dead_strip plt_Foundation_NSObject_Dispose
 plt_Foundation_NSObject_Dispose:
 _p_26:
@@ -34525,7 +34562,7 @@ adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #3760]
 br x16
-.word 6719
+.word 6720
 	.no_dead_strip plt_Xamarin_Forms_Maps_iOS_MapPool_Add_MapKit_MKMapView
 plt_Xamarin_Forms_Maps_iOS_MapPool_Add_MapKit_MKMapView:
 _p_27:
@@ -34533,7 +34570,7 @@ adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #3768]
 br x16
-.word 6724
+.word 6725
 	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_ViewRenderer_2_Xamarin_Forms_View_UIKit_UIView_Dispose_bool
 plt_Xamarin_Forms_Platform_iOS_ViewRenderer_2_Xamarin_Forms_View_UIKit_UIView_Dispose_bool:
 _p_28:
@@ -34541,7 +34578,7 @@ adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #3776]
 br x16
-.word 6726
+.word 6727
 	.no_dead_strip plt__jit_icall_mono_arch_throw_corlib_exception
 plt__jit_icall_mono_arch_throw_corlib_exception:
 _p_29:
@@ -34549,7 +34586,7 @@ adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #3784]
 br x16
-.word 6737
+.word 6738
 	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_ViewRenderer_2_Xamarin_Forms_View_UIKit_UIView_OnElementChanged_Xamarin_Forms_Platform_iOS_ElementChangedEventArgs_1_Xamarin_Forms_View
 plt_Xamarin_Forms_Platform_iOS_ViewRenderer_2_Xamarin_Forms_View_UIKit_UIView_OnElementChanged_Xamarin_Forms_Platform_iOS_ElementChangedEventArgs_1_Xamarin_Forms_View:
 _p_30:
@@ -34557,7 +34594,7 @@ adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #3792]
 br x16
-.word 6772
+.word 6773
 	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_ElementChangedEventArgs_1_Xamarin_Forms_View_get_OldElement
 plt_Xamarin_Forms_Platform_iOS_ElementChangedEventArgs_1_Xamarin_Forms_View_get_OldElement:
 _p_31:
@@ -34565,7 +34602,7 @@ adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #3800]
 br x16
-.word 6783
+.word 6784
 	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_ElementChangedEventArgs_1_Xamarin_Forms_View_get_NewElement
 plt_Xamarin_Forms_Platform_iOS_ElementChangedEventArgs_1_Xamarin_Forms_View_get_NewElement:
 _p_32:
@@ -34573,7 +34610,7 @@ adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #3808]
 br x16
-.word 6794
+.word 6795
 	.no_dead_strip plt_Xamarin_Forms_Maps_iOS_MapPool_Get
 plt_Xamarin_Forms_Maps_iOS_MapPool_Get:
 _p_33:
@@ -34581,7 +34618,7 @@ adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #3816]
 br x16
-.word 6805
+.word 6806
 	.no_dead_strip plt__jit_icall_ves_icall_object_new_specific
 plt__jit_icall_ves_icall_object_new_specific:
 _p_34:
@@ -34589,7 +34626,7 @@ adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #3824]
 br x16
-.word 6807
+.word 6808
 	.no_dead_strip plt_MapKit_MKMapView__ctor_CoreGraphics_CGRect
 plt_MapKit_MKMapView__ctor_CoreGraphics_CGRect:
 _p_35:
@@ -34597,7 +34634,7 @@ adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #3832]
 br x16
-.word 6839
+.word 6840
 	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_ViewRenderer_2_Xamarin_Forms_View_UIKit_UIView_SetNativeControl_UIKit_UIView
 plt_Xamarin_Forms_Platform_iOS_ViewRenderer_2_Xamarin_Forms_View_UIKit_UIView_SetNativeControl_UIKit_UIView:
 _p_36:
@@ -34605,7 +34642,7 @@ adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #3840]
 br x16
-.word 6844
+.word 6845
 	.no_dead_strip plt__jit_icall_mono_ldvirtfn
 plt__jit_icall_mono_ldvirtfn:
 _p_37:
@@ -34613,7 +34650,7 @@ adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #3848]
 br x16
-.word 6855
+.word 6856
 	.no_dead_strip plt_MapKit_MKMapViewAnnotation__ctor_object_intptr
 plt_MapKit_MKMapViewAnnotation__ctor_object_intptr:
 _p_38:
@@ -34621,7 +34658,7 @@ adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #3856]
 br x16
-.word 6871
+.word 6872
 	.no_dead_strip plt_MapKit_MKMapView_add_RegionChanged_System_EventHandler_1_MapKit_MKMapViewChangeEventArgs
 plt_MapKit_MKMapView_add_RegionChanged_System_EventHandler_1_MapKit_MKMapViewChangeEventArgs:
 _p_39:
@@ -34629,7 +34666,7 @@ adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #3864]
 br x16
-.word 6876
+.word 6877
 	.no_dead_strip plt_UIKit_UITapGestureRecognizer__ctor_System_Action_1_UIKit_UITapGestureRecognizer
 plt_UIKit_UITapGestureRecognizer__ctor_System_Action_1_UIKit_UITapGestureRecognizer:
 _p_40:
@@ -34637,7 +34674,7 @@ adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #3872]
 br x16
-.word 6881
+.word 6882
 	.no_dead_strip plt_Xamarin_Forms_MessagingCenter_Subscribe_Xamarin_Forms_Maps_Map_Xamarin_Forms_Maps_MapSpan_object_string_System_Action_2_Xamarin_Forms_Maps_Map_Xamarin_Forms_Maps_MapSpan_Xamarin_Forms_Maps_Map
 plt_Xamarin_Forms_MessagingCenter_Subscribe_Xamarin_Forms_Maps_Map_Xamarin_Forms_Maps_MapSpan_object_string_System_Action_2_Xamarin_Forms_Maps_Map_Xamarin_Forms_Maps_MapSpan_Xamarin_Forms_Maps_Map:
 _p_41:
@@ -34645,7 +34682,7 @@ adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #3880]
 br x16
-.word 6886
+.word 6887
 	.no_dead_strip plt_Xamarin_Forms_Maps_Map_get_LastMoveToRegion
 plt_Xamarin_Forms_Maps_Map_get_LastMoveToRegion:
 _p_42:
@@ -34653,7 +34690,7 @@ adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #3888]
 br x16
-.word 6898
+.word 6899
 	.no_dead_strip plt_Xamarin_Forms_Maps_MapSpan_op_Inequality_Xamarin_Forms_Maps_MapSpan_Xamarin_Forms_Maps_MapSpan
 plt_Xamarin_Forms_Maps_MapSpan_op_Inequality_Xamarin_Forms_Maps_MapSpan_Xamarin_Forms_Maps_MapSpan:
 _p_43:
@@ -34661,7 +34698,7 @@ adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #3896]
 br x16
-.word 6903
+.word 6904
 	.no_dead_strip plt_Xamarin_Forms_Maps_iOS_MapRenderer_MoveToRegion_Xamarin_Forms_Maps_MapSpan_bool
 plt_Xamarin_Forms_Maps_iOS_MapRenderer_MoveToRegion_Xamarin_Forms_Maps_MapSpan_bool:
 _p_44:
@@ -34669,7 +34706,7 @@ adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #3904]
 br x16
-.word 6908
+.word 6909
 	.no_dead_strip plt_Xamarin_Forms_Maps_iOS_MapRenderer_UpdateMapType
 plt_Xamarin_Forms_Maps_iOS_MapRenderer_UpdateMapType:
 _p_45:
@@ -34677,7 +34714,7 @@ adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #3912]
 br x16
-.word 6910
+.word 6911
 	.no_dead_strip plt_Xamarin_Forms_Maps_iOS_MapRenderer_UpdateIsShowingUser
 plt_Xamarin_Forms_Maps_iOS_MapRenderer_UpdateIsShowingUser:
 _p_46:
@@ -34685,7 +34722,7 @@ adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #3920]
 br x16
-.word 6912
+.word 6913
 	.no_dead_strip plt_Xamarin_Forms_Maps_iOS_MapRenderer_UpdateHasScrollEnabled
 plt_Xamarin_Forms_Maps_iOS_MapRenderer_UpdateHasScrollEnabled:
 _p_47:
@@ -34693,7 +34730,7 @@ adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #3928]
 br x16
-.word 6914
+.word 6915
 	.no_dead_strip plt_Xamarin_Forms_Maps_iOS_MapRenderer_UpdateHasZoomEnabled
 plt_Xamarin_Forms_Maps_iOS_MapRenderer_UpdateHasZoomEnabled:
 _p_48:
@@ -34701,7 +34738,7 @@ adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #3936]
 br x16
-.word 6916
+.word 6917
 	.no_dead_strip plt_System_Collections_Specialized_NotifyCollectionChangedEventArgs__ctor_System_Collections_Specialized_NotifyCollectionChangedAction
 plt_System_Collections_Specialized_NotifyCollectionChangedEventArgs__ctor_System_Collections_Specialized_NotifyCollectionChangedAction:
 _p_49:
@@ -34709,7 +34746,7 @@ adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #3944]
 br x16
-.word 6918
+.word 6919
 	.no_dead_strip plt_Xamarin_Forms_Maps_iOS_MapRenderer_OnCollectionChanged_object_System_Collections_Specialized_NotifyCollectionChangedEventArgs
 plt_Xamarin_Forms_Maps_iOS_MapRenderer_OnCollectionChanged_object_System_Collections_Specialized_NotifyCollectionChangedEventArgs:
 _p_50:
@@ -34717,7 +34754,7 @@ adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #3952]
 br x16
-.word 6923
+.word 6924
 	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_ViewRenderer_2_Xamarin_Forms_View_UIKit_UIView_OnElementPropertyChanged_object_System_ComponentModel_PropertyChangedEventArgs
 plt_Xamarin_Forms_Platform_iOS_ViewRenderer_2_Xamarin_Forms_View_UIKit_UIView_OnElementPropertyChanged_object_System_ComponentModel_PropertyChangedEventArgs:
 _p_51:
@@ -34725,7 +34762,7 @@ adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #3960]
 br x16
-.word 6925
+.word 6926
 	.no_dead_strip plt_Xamarin_Forms_BindableProperty_get_PropertyName
 plt_Xamarin_Forms_BindableProperty_get_PropertyName:
 _p_52:
@@ -34733,7 +34770,7 @@ adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #3968]
 br x16
-.word 6936
+.word 6937
 	.no_dead_strip plt_string_op_Equality_string_string
 plt_string_op_Equality_string_string:
 _p_53:
@@ -34741,1035 +34778,1043 @@ adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #3976]
 br x16
-.word 6941
-	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_ViewRenderer_2_Xamarin_Forms_View_UIKit_UIView_LayoutSubviews
-plt_Xamarin_Forms_Platform_iOS_ViewRenderer_2_Xamarin_Forms_View_UIKit_UIView_LayoutSubviews:
+.word 6942
+	.no_dead_strip plt_Xamarin_Forms_Maps_Map_get_MoveToLastRegionOnLayoutChange
+plt_Xamarin_Forms_Maps_Map_get_MoveToLastRegionOnLayoutChange:
 _p_54:
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #3984]
 br x16
-.word 6946
-	.no_dead_strip plt_Xamarin_Forms_Maps_iOS_MapRenderer_UpdateRegion
-plt_Xamarin_Forms_Maps_iOS_MapRenderer_UpdateRegion:
+.word 6947
+	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_ViewRenderer_2_Xamarin_Forms_View_UIKit_UIView_LayoutSubviews
+plt_Xamarin_Forms_Platform_iOS_ViewRenderer_2_Xamarin_Forms_View_UIKit_UIView_LayoutSubviews:
 _p_55:
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #3992]
 br x16
-.word 6957
-	.no_dead_strip plt_MapKit_MKPointAnnotation__ctor
-plt_MapKit_MKPointAnnotation__ctor:
+.word 6952
+	.no_dead_strip plt_Xamarin_Forms_Maps_iOS_MapRenderer_UpdateRegion
+plt_Xamarin_Forms_Maps_iOS_MapRenderer_UpdateRegion:
 _p_56:
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #4000]
 br x16
-.word 6959
-	.no_dead_strip plt_Xamarin_Forms_Maps_Pin_get_Label
-plt_Xamarin_Forms_Maps_Pin_get_Label:
+.word 6963
+	.no_dead_strip plt_MapKit_MKPointAnnotation__ctor
+plt_MapKit_MKPointAnnotation__ctor:
 _p_57:
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #4008]
 br x16
-.word 6964
-	.no_dead_strip plt_Xamarin_Forms_Maps_Pin_get_Address
-plt_Xamarin_Forms_Maps_Pin_get_Address:
+.word 6965
+	.no_dead_strip plt_Xamarin_Forms_Maps_Pin_get_Label
+plt_Xamarin_Forms_Maps_Pin_get_Label:
 _p_58:
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #4016]
 br x16
-.word 6969
-	.no_dead_strip plt_Xamarin_Forms_Maps_Pin_get_Position
-plt_Xamarin_Forms_Maps_Pin_get_Position:
+.word 6970
+	.no_dead_strip plt_Xamarin_Forms_Maps_Pin_get_Address
+plt_Xamarin_Forms_Maps_Pin_get_Address:
 _p_59:
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #4024]
 br x16
-.word 6974
-	.no_dead_strip plt_Xamarin_Forms_Maps_Position_get_Latitude
-plt_Xamarin_Forms_Maps_Position_get_Latitude:
+.word 6975
+	.no_dead_strip plt_Xamarin_Forms_Maps_Pin_get_Position
+plt_Xamarin_Forms_Maps_Pin_get_Position:
 _p_60:
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #4032]
 br x16
-.word 6979
-	.no_dead_strip plt_Xamarin_Forms_Maps_Position_get_Longitude
-plt_Xamarin_Forms_Maps_Position_get_Longitude:
+.word 6980
+	.no_dead_strip plt_Xamarin_Forms_Maps_Position_get_Latitude
+plt_Xamarin_Forms_Maps_Position_get_Latitude:
 _p_61:
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #4040]
 br x16
-.word 6984
-	.no_dead_strip plt_CoreLocation_CLLocationCoordinate2D__ctor_double_double
-plt_CoreLocation_CLLocationCoordinate2D__ctor_double_double:
+.word 6985
+	.no_dead_strip plt_Xamarin_Forms_Maps_Position_get_Longitude
+plt_Xamarin_Forms_Maps_Position_get_Longitude:
 _p_62:
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #4048]
 br x16
-.word 6989
-	.no_dead_strip plt_ObjCRuntime_Runtime_GetNSObject_intptr
-plt_ObjCRuntime_Runtime_GetNSObject_intptr:
+.word 6990
+	.no_dead_strip plt_CoreLocation_CLLocationCoordinate2D__ctor_double_double
+plt_CoreLocation_CLLocationCoordinate2D__ctor_double_double:
 _p_63:
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #4056]
 br x16
-.word 6994
-	.no_dead_strip plt_MapKit_MKPinAnnotationView__ctor_MapKit_IMKAnnotation_string
-plt_MapKit_MKPinAnnotationView__ctor_MapKit_IMKAnnotation_string:
+.word 6995
+	.no_dead_strip plt_ObjCRuntime_Runtime_GetNSObject_intptr
+plt_ObjCRuntime_Runtime_GetNSObject_intptr:
 _p_64:
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #4064]
 br x16
-.word 6999
-	.no_dead_strip plt_Xamarin_Forms_Maps_iOS_MapRenderer_AttachGestureToPin_MapKit_MKAnnotationView_MapKit_IMKAnnotation
-plt_Xamarin_Forms_Maps_iOS_MapRenderer_AttachGestureToPin_MapKit_MKAnnotationView_MapKit_IMKAnnotation:
+.word 7000
+	.no_dead_strip plt_MapKit_MKPinAnnotationView__ctor_MapKit_IMKAnnotation_string
+plt_MapKit_MKPinAnnotationView__ctor_MapKit_IMKAnnotation_string:
 _p_65:
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #4072]
 br x16
-.word 7004
-	.no_dead_strip plt_Xamarin_Forms_Maps_iOS_MapRenderer__c__DisplayClass15_0__ctor
-plt_Xamarin_Forms_Maps_iOS_MapRenderer__c__DisplayClass15_0__ctor:
+.word 7005
+	.no_dead_strip plt_Xamarin_Forms_Maps_iOS_MapRenderer_AttachGestureToPin_MapKit_MKAnnotationView_MapKit_IMKAnnotation
+plt_Xamarin_Forms_Maps_iOS_MapRenderer_AttachGestureToPin_MapKit_MKAnnotationView_MapKit_IMKAnnotation:
 _p_66:
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #4080]
 br x16
-.word 7006
-	.no_dead_strip plt_UIKit_UIGestureRecognizer_set_ShouldReceiveTouch_UIKit_UITouchEventArgs
-plt_UIKit_UIGestureRecognizer_set_ShouldReceiveTouch_UIKit_UITouchEventArgs:
+.word 7010
+	.no_dead_strip plt_Xamarin_Forms_Maps_iOS_MapRenderer__c__DisplayClass15_0__ctor
+plt_Xamarin_Forms_Maps_iOS_MapRenderer__c__DisplayClass15_0__ctor:
 _p_67:
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #4088]
 br x16
-.word 7008
-	.no_dead_strip plt_Xamarin_Forms_Maps_Pin_get_MarkerId
-plt_Xamarin_Forms_Maps_Pin_get_MarkerId:
+.word 7012
+	.no_dead_strip plt_UIKit_UIGestureRecognizer_set_ShouldReceiveTouch_UIKit_UITouchEventArgs
+plt_UIKit_UIGestureRecognizer_set_ShouldReceiveTouch_UIKit_UITouchEventArgs:
 _p_68:
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #0]
 br x16
-.word 7013
-	.no_dead_strip plt_Xamarin_Forms_Maps_Pin_op_Equality_Xamarin_Forms_Maps_Pin_Xamarin_Forms_Maps_Pin
-plt_Xamarin_Forms_Maps_Pin_op_Equality_Xamarin_Forms_Maps_Pin_Xamarin_Forms_Maps_Pin:
+.word 7014
+	.no_dead_strip plt_Xamarin_Forms_Maps_Pin_get_MarkerId
+plt_Xamarin_Forms_Maps_Pin_get_MarkerId:
 _p_69:
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #8]
 br x16
-.word 7018
-	.no_dead_strip plt_Xamarin_Forms_Maps_Pin_SendTap
-plt_Xamarin_Forms_Maps_Pin_SendTap:
+.word 7019
+	.no_dead_strip plt_Xamarin_Forms_Maps_Pin_op_Equality_Xamarin_Forms_Maps_Pin_Xamarin_Forms_Maps_Pin
+plt_Xamarin_Forms_Maps_Pin_op_Equality_Xamarin_Forms_Maps_Pin_Xamarin_Forms_Maps_Pin:
 _p_70:
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #16]
 br x16
-.word 7023
-	.no_dead_strip plt_Xamarin_Forms_Maps_Position__ctor_double_double
-plt_Xamarin_Forms_Maps_Position__ctor_double_double:
+.word 7024
+	.no_dead_strip plt_Xamarin_Forms_Maps_Pin_SendTap
+plt_Xamarin_Forms_Maps_Pin_SendTap:
 _p_71:
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #24]
 br x16
-.word 7028
-	.no_dead_strip plt_Xamarin_Forms_Maps_Map_SendMapClicked_Xamarin_Forms_Maps_Position
-plt_Xamarin_Forms_Maps_Map_SendMapClicked_Xamarin_Forms_Maps_Position:
+.word 7029
+	.no_dead_strip plt_Xamarin_Forms_Maps_Position__ctor_double_double
+plt_Xamarin_Forms_Maps_Position__ctor_double_double:
 _p_72:
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #32]
 br x16
-.word 7033
-	.no_dead_strip plt_Xamarin_Forms_BindableObject_add_PropertyChanged_System_ComponentModel_PropertyChangedEventHandler
-plt_Xamarin_Forms_BindableObject_add_PropertyChanged_System_ComponentModel_PropertyChangedEventHandler:
+.word 7034
+	.no_dead_strip plt_Xamarin_Forms_Maps_Map_SendMapClicked_Xamarin_Forms_Maps_Position
+plt_Xamarin_Forms_Maps_Map_SendMapClicked_Xamarin_Forms_Maps_Position:
 _p_73:
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #40]
 br x16
-.word 7038
-	.no_dead_strip plt_Xamarin_Forms_Maps_Pin_set_MarkerId_object
-plt_Xamarin_Forms_Maps_Pin_set_MarkerId_object:
+.word 7039
+	.no_dead_strip plt_Xamarin_Forms_BindableObject_add_PropertyChanged_System_ComponentModel_PropertyChangedEventHandler
+plt_Xamarin_Forms_BindableObject_add_PropertyChanged_System_ComponentModel_PropertyChangedEventHandler:
 _p_74:
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #48]
 br x16
-.word 7043
-	.no_dead_strip plt_Xamarin_Forms_Maps_MapSpan__ctor_Xamarin_Forms_Maps_Position_double_double
-plt_Xamarin_Forms_Maps_MapSpan__ctor_Xamarin_Forms_Maps_Position_double_double:
+.word 7044
+	.no_dead_strip plt_Xamarin_Forms_Maps_Pin_set_MarkerId_object
+plt_Xamarin_Forms_Maps_Pin_set_MarkerId_object:
 _p_75:
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #56]
 br x16
-.word 7048
-	.no_dead_strip plt_Xamarin_Forms_Maps_Map_SetVisibleRegion_Xamarin_Forms_Maps_MapSpan
-plt_Xamarin_Forms_Maps_Map_SetVisibleRegion_Xamarin_Forms_Maps_MapSpan:
+.word 7049
+	.no_dead_strip plt_Xamarin_Forms_Maps_MapSpan__ctor_Xamarin_Forms_Maps_Position_double_double
+plt_Xamarin_Forms_Maps_MapSpan__ctor_Xamarin_Forms_Maps_Position_double_double:
 _p_76:
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #64]
 br x16
-.word 7053
-	.no_dead_strip plt_Xamarin_Forms_Maps_MapSpan_get_Center
-plt_Xamarin_Forms_Maps_MapSpan_get_Center:
+.word 7054
+	.no_dead_strip plt_Xamarin_Forms_Maps_Map_SetVisibleRegion_Xamarin_Forms_Maps_MapSpan
+plt_Xamarin_Forms_Maps_Map_SetVisibleRegion_Xamarin_Forms_Maps_MapSpan:
 _p_77:
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #72]
 br x16
-.word 7058
-	.no_dead_strip plt_Xamarin_Forms_Maps_MapSpan_get_LatitudeDegrees
-plt_Xamarin_Forms_Maps_MapSpan_get_LatitudeDegrees:
+.word 7059
+	.no_dead_strip plt_Xamarin_Forms_Maps_MapSpan_get_Center
+plt_Xamarin_Forms_Maps_MapSpan_get_Center:
 _p_78:
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #80]
 br x16
-.word 7063
-	.no_dead_strip plt_Xamarin_Forms_Maps_MapSpan_get_LongitudeDegrees
-plt_Xamarin_Forms_Maps_MapSpan_get_LongitudeDegrees:
+.word 7064
+	.no_dead_strip plt_Xamarin_Forms_Maps_MapSpan_get_LatitudeDegrees
+plt_Xamarin_Forms_Maps_MapSpan_get_LatitudeDegrees:
 _p_79:
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #88]
 br x16
-.word 7068
-	.no_dead_strip plt_MapKit_MKCoordinateSpan__ctor_double_double
-plt_MapKit_MKCoordinateSpan__ctor_double_double:
+.word 7069
+	.no_dead_strip plt_Xamarin_Forms_Maps_MapSpan_get_LongitudeDegrees
+plt_Xamarin_Forms_Maps_MapSpan_get_LongitudeDegrees:
 _p_80:
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #96]
 br x16
-.word 7073
-	.no_dead_strip plt_MapKit_MKCoordinateRegion__ctor_CoreLocation_CLLocationCoordinate2D_MapKit_MKCoordinateSpan
-plt_MapKit_MKCoordinateRegion__ctor_CoreLocation_CLLocationCoordinate2D_MapKit_MKCoordinateSpan:
+.word 7074
+	.no_dead_strip plt_MapKit_MKCoordinateSpan__ctor_double_double
+plt_MapKit_MKCoordinateSpan__ctor_double_double:
 _p_81:
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #104]
 br x16
-.word 7078
-	.no_dead_strip plt_System_Collections_Specialized_NotifyCollectionChangedEventArgs_get_Action
-plt_System_Collections_Specialized_NotifyCollectionChangedEventArgs_get_Action:
+.word 7079
+	.no_dead_strip plt_MapKit_MKCoordinateRegion__ctor_CoreLocation_CLLocationCoordinate2D_MapKit_MKCoordinateSpan
+plt_MapKit_MKCoordinateRegion__ctor_CoreLocation_CLLocationCoordinate2D_MapKit_MKCoordinateSpan:
 _p_82:
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #112]
 br x16
-.word 7083
-	.no_dead_strip plt_System_Collections_Specialized_NotifyCollectionChangedEventArgs_get_NewItems
-plt_System_Collections_Specialized_NotifyCollectionChangedEventArgs_get_NewItems:
+.word 7084
+	.no_dead_strip plt_System_Collections_Specialized_NotifyCollectionChangedEventArgs_get_Action
+plt_System_Collections_Specialized_NotifyCollectionChangedEventArgs_get_Action:
 _p_83:
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #120]
 br x16
-.word 7088
-	.no_dead_strip plt_Xamarin_Forms_Maps_iOS_MapRenderer_AddPins_System_Collections_IList
-plt_Xamarin_Forms_Maps_iOS_MapRenderer_AddPins_System_Collections_IList:
+.word 7089
+	.no_dead_strip plt_System_Collections_Specialized_NotifyCollectionChangedEventArgs_get_NewItems
+plt_System_Collections_Specialized_NotifyCollectionChangedEventArgs_get_NewItems:
 _p_84:
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #128]
 br x16
-.word 7093
-	.no_dead_strip plt_System_Collections_Specialized_NotifyCollectionChangedEventArgs_get_OldItems
-plt_System_Collections_Specialized_NotifyCollectionChangedEventArgs_get_OldItems:
+.word 7094
+	.no_dead_strip plt_Xamarin_Forms_Maps_iOS_MapRenderer_AddPins_System_Collections_IList
+plt_Xamarin_Forms_Maps_iOS_MapRenderer_AddPins_System_Collections_IList:
 _p_85:
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #136]
 br x16
-.word 7095
-	.no_dead_strip plt_Xamarin_Forms_Maps_iOS_MapRenderer_RemovePins_System_Collections_IList
-plt_Xamarin_Forms_Maps_iOS_MapRenderer_RemovePins_System_Collections_IList:
+.word 7099
+	.no_dead_strip plt_System_Collections_Specialized_NotifyCollectionChangedEventArgs_get_OldItems
+plt_System_Collections_Specialized_NotifyCollectionChangedEventArgs_get_OldItems:
 _p_86:
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #144]
 br x16
-.word 7100
-	.no_dead_strip plt_Xamarin_Forms_Maps_Map_get_HasScrollEnabled
-plt_Xamarin_Forms_Maps_Map_get_HasScrollEnabled:
+.word 7101
+	.no_dead_strip plt_Xamarin_Forms_Maps_iOS_MapRenderer_RemovePins_System_Collections_IList
+plt_Xamarin_Forms_Maps_iOS_MapRenderer_RemovePins_System_Collections_IList:
 _p_87:
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #152]
 br x16
-.word 7102
-	.no_dead_strip plt_Xamarin_Forms_Maps_Map_get_HasZoomEnabled
-plt_Xamarin_Forms_Maps_Map_get_HasZoomEnabled:
+.word 7106
+	.no_dead_strip plt_Xamarin_Forms_Maps_Map_get_HasScrollEnabled
+plt_Xamarin_Forms_Maps_Map_get_HasScrollEnabled:
 _p_88:
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #160]
 br x16
-.word 7107
-	.no_dead_strip plt_Xamarin_FormsMaps_get_IsiOs8OrNewer
-plt_Xamarin_FormsMaps_get_IsiOs8OrNewer:
+.word 7108
+	.no_dead_strip plt_Xamarin_Forms_Maps_Map_get_HasZoomEnabled
+plt_Xamarin_Forms_Maps_Map_get_HasZoomEnabled:
 _p_89:
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #168]
 br x16
-.word 7112
-	.no_dead_strip plt_Xamarin_Forms_Maps_Map_get_IsShowingUser
-plt_Xamarin_Forms_Maps_Map_get_IsShowingUser:
+.word 7113
+	.no_dead_strip plt_Xamarin_FormsMaps_get_IsiOs8OrNewer
+plt_Xamarin_FormsMaps_get_IsiOs8OrNewer:
 _p_90:
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #176]
 br x16
-.word 7114
-	.no_dead_strip plt_CoreLocation_CLLocationManager__ctor
-plt_CoreLocation_CLLocationManager__ctor:
+.word 7118
+	.no_dead_strip plt_Xamarin_Forms_Maps_Map_get_IsShowingUser
+plt_Xamarin_Forms_Maps_Map_get_IsShowingUser:
 _p_91:
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #184]
 br x16
-.word 7119
-	.no_dead_strip plt_Xamarin_Forms_Maps_Map_get_MapType
-plt_Xamarin_Forms_Maps_Map_get_MapType:
+.word 7120
+	.no_dead_strip plt_CoreLocation_CLLocationManager__ctor
+plt_CoreLocation_CLLocationManager__ctor:
 _p_92:
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #192]
 br x16
-.word 7124
-	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_ViewRenderer__ctor
-plt_Xamarin_Forms_Platform_iOS_ViewRenderer__ctor:
+.word 7125
+	.no_dead_strip plt_Xamarin_Forms_Maps_Map_get_MapType
+plt_Xamarin_Forms_Maps_Map_get_MapType:
 _p_93:
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #200]
 br x16
-.word 7129
-	.no_dead_strip plt_Xamarin_Forms_Maps_iOS_GeocoderBackend__c__DisplayClass1_0__ctor
-plt_Xamarin_Forms_Maps_iOS_GeocoderBackend__c__DisplayClass1_0__ctor:
+.word 7130
+	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_ViewRenderer__ctor
+plt_Xamarin_Forms_Platform_iOS_ViewRenderer__ctor:
 _p_94:
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #208]
 br x16
-.word 7134
-	.no_dead_strip plt_CoreLocation_CLLocation__ctor_double_double
-plt_CoreLocation_CLLocation__ctor_double_double:
+.word 7135
+	.no_dead_strip plt_Xamarin_Forms_Maps_iOS_GeocoderBackend__c__DisplayClass1_0__ctor
+plt_Xamarin_Forms_Maps_iOS_GeocoderBackend__c__DisplayClass1_0__ctor:
 _p_95:
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #216]
 br x16
-.word 7136
-	.no_dead_strip plt_CoreLocation_CLGeocoder__ctor
-plt_CoreLocation_CLGeocoder__ctor:
+.word 7140
+	.no_dead_strip plt_CoreLocation_CLLocation__ctor_double_double
+plt_CoreLocation_CLLocation__ctor_double_double:
 _p_96:
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #224]
 br x16
-.word 7141
-	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_System_Collections_Generic_IEnumerable_1_string__ctor
-plt_System_Threading_Tasks_TaskCompletionSource_1_System_Collections_Generic_IEnumerable_1_string__ctor:
+.word 7142
+	.no_dead_strip plt_CoreLocation_CLGeocoder__ctor
+plt_CoreLocation_CLGeocoder__ctor:
 _p_97:
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #232]
 br x16
-.word 7146
-	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_System_Collections_Generic_IEnumerable_1_string_get_Task
-plt_System_Threading_Tasks_TaskCompletionSource_1_System_Collections_Generic_IEnumerable_1_string_get_Task:
+.word 7147
+	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_System_Collections_Generic_IEnumerable_1_string__ctor
+plt_System_Threading_Tasks_TaskCompletionSource_1_System_Collections_Generic_IEnumerable_1_string__ctor:
 _p_98:
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #240]
 br x16
-.word 7157
-	.no_dead_strip plt_Xamarin_Forms_Maps_iOS_GeocoderBackend__c__DisplayClass2_0__ctor
-plt_Xamarin_Forms_Maps_iOS_GeocoderBackend__c__DisplayClass2_0__ctor:
+.word 7152
+	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_System_Collections_Generic_IEnumerable_1_string_get_Task
+plt_System_Threading_Tasks_TaskCompletionSource_1_System_Collections_Generic_IEnumerable_1_string_get_Task:
 _p_99:
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #248]
 br x16
-.word 7168
-	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_System_Collections_Generic_IEnumerable_1_Xamarin_Forms_Maps_Position__ctor
-plt_System_Threading_Tasks_TaskCompletionSource_1_System_Collections_Generic_IEnumerable_1_Xamarin_Forms_Maps_Position__ctor:
+.word 7163
+	.no_dead_strip plt_Xamarin_Forms_Maps_iOS_GeocoderBackend__c__DisplayClass2_0__ctor
+plt_Xamarin_Forms_Maps_iOS_GeocoderBackend__c__DisplayClass2_0__ctor:
 _p_100:
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #256]
 br x16
-.word 7170
-	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_System_Collections_Generic_IEnumerable_1_Xamarin_Forms_Maps_Position_get_Task
-plt_System_Threading_Tasks_TaskCompletionSource_1_System_Collections_Generic_IEnumerable_1_Xamarin_Forms_Maps_Position_get_Task:
+.word 7174
+	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_System_Collections_Generic_IEnumerable_1_Xamarin_Forms_Maps_Position__ctor
+plt_System_Threading_Tasks_TaskCompletionSource_1_System_Collections_Generic_IEnumerable_1_Xamarin_Forms_Maps_Position__ctor:
 _p_101:
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #264]
 br x16
-.word 7181
-	.no_dead_strip plt_Xamarin_Forms_Maps_iOS_MapRenderer_OnClick_object_UIKit_UITapGestureRecognizer
-plt_Xamarin_Forms_Maps_iOS_MapRenderer_OnClick_object_UIKit_UITapGestureRecognizer:
+.word 7176
+	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_System_Collections_Generic_IEnumerable_1_Xamarin_Forms_Maps_Position_get_Task
+plt_System_Threading_Tasks_TaskCompletionSource_1_System_Collections_Generic_IEnumerable_1_Xamarin_Forms_Maps_Position_get_Task:
 _p_102:
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #272]
 br x16
-.word 7192
-	.no_dead_strip plt_wrapper_alloc_object_AllocVector_intptr_intptr
-plt_wrapper_alloc_object_AllocVector_intptr_intptr:
+.word 7187
+	.no_dead_strip plt_Xamarin_Forms_Maps_iOS_MapRenderer_OnClick_object_UIKit_UITapGestureRecognizer
+plt_Xamarin_Forms_Maps_iOS_MapRenderer_OnClick_object_UIKit_UITapGestureRecognizer:
 _p_103:
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #280]
 br x16
-.word 7194
-	.no_dead_strip plt_System_Collections_Generic_List_1_string__ctor
-plt_System_Collections_Generic_List_1_string__ctor:
+.word 7198
+	.no_dead_strip plt_wrapper_alloc_object_AllocVector_intptr_intptr
+plt_wrapper_alloc_object_AllocVector_intptr_intptr:
 _p_104:
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #288]
 br x16
-.word 7202
-	.no_dead_strip plt_System_Linq_Enumerable_Select_CoreLocation_CLPlacemark_string_System_Collections_Generic_IEnumerable_1_CoreLocation_CLPlacemark_System_Func_2_CoreLocation_CLPlacemark_string
-plt_System_Linq_Enumerable_Select_CoreLocation_CLPlacemark_string_System_Collections_Generic_IEnumerable_1_CoreLocation_CLPlacemark_System_Func_2_CoreLocation_CLPlacemark_string:
+.word 7200
+	.no_dead_strip plt_System_Collections_Generic_List_1_string__ctor
+plt_System_Collections_Generic_List_1_string__ctor:
 _p_105:
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #296]
 br x16
-.word 7213
-	.no_dead_strip plt_System_Linq_Enumerable_ToList_string_System_Collections_Generic_IEnumerable_1_string
-plt_System_Linq_Enumerable_ToList_string_System_Collections_Generic_IEnumerable_1_string:
+.word 7208
+	.no_dead_strip plt_System_Linq_Enumerable_Select_CoreLocation_CLPlacemark_string_System_Collections_Generic_IEnumerable_1_CoreLocation_CLPlacemark_System_Func_2_CoreLocation_CLPlacemark_string
+plt_System_Linq_Enumerable_Select_CoreLocation_CLPlacemark_string_System_Collections_Generic_IEnumerable_1_CoreLocation_CLPlacemark_System_Func_2_CoreLocation_CLPlacemark_string:
 _p_106:
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #304]
 br x16
-.word 7225
-	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_System_Collections_Generic_IEnumerable_1_string_SetResult_System_Collections_Generic_IEnumerable_1_string
-plt_System_Threading_Tasks_TaskCompletionSource_1_System_Collections_Generic_IEnumerable_1_string_SetResult_System_Collections_Generic_IEnumerable_1_string:
+.word 7219
+	.no_dead_strip plt_System_Linq_Enumerable_ToList_string_System_Collections_Generic_IEnumerable_1_string
+plt_System_Linq_Enumerable_ToList_string_System_Collections_Generic_IEnumerable_1_string:
 _p_107:
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #312]
 br x16
-.word 7237
-	.no_dead_strip plt_Xamarin_Forms_Maps_iOS_GeocoderBackend__c__ctor
-plt_Xamarin_Forms_Maps_iOS_GeocoderBackend__c__ctor:
+.word 7231
+	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_System_Collections_Generic_IEnumerable_1_string_SetResult_System_Collections_Generic_IEnumerable_1_string
+plt_System_Threading_Tasks_TaskCompletionSource_1_System_Collections_Generic_IEnumerable_1_string_SetResult_System_Collections_Generic_IEnumerable_1_string:
 _p_108:
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #320]
 br x16
-.word 7248
-	.no_dead_strip plt_AddressBookUI_ABAddressFormatting_ToString_Foundation_NSDictionary_bool
-plt_AddressBookUI_ABAddressFormatting_ToString_Foundation_NSDictionary_bool:
+.word 7243
+	.no_dead_strip plt_Xamarin_Forms_Maps_iOS_GeocoderBackend__c__ctor
+plt_Xamarin_Forms_Maps_iOS_GeocoderBackend__c__ctor:
 _p_109:
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #328]
 br x16
-.word 7250
-	.no_dead_strip plt_System_Linq_Enumerable_Select_CoreLocation_CLPlacemark_Xamarin_Forms_Maps_Position_System_Collections_Generic_IEnumerable_1_CoreLocation_CLPlacemark_System_Func_2_CoreLocation_CLPlacemark_Xamarin_Forms_Maps_Position
-plt_System_Linq_Enumerable_Select_CoreLocation_CLPlacemark_Xamarin_Forms_Maps_Position_System_Collections_Generic_IEnumerable_1_CoreLocation_CLPlacemark_System_Func_2_CoreLocation_CLPlacemark_Xamarin_Forms_Maps_Position:
+.word 7254
+	.no_dead_strip plt_AddressBookUI_ABAddressFormatting_ToString_Foundation_NSDictionary_bool
+plt_AddressBookUI_ABAddressFormatting_ToString_Foundation_NSDictionary_bool:
 _p_110:
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #336]
 br x16
-.word 7255
-	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_System_Collections_Generic_IEnumerable_1_Xamarin_Forms_Maps_Position_SetResult_System_Collections_Generic_IEnumerable_1_Xamarin_Forms_Maps_Position
-plt_System_Threading_Tasks_TaskCompletionSource_1_System_Collections_Generic_IEnumerable_1_Xamarin_Forms_Maps_Position_SetResult_System_Collections_Generic_IEnumerable_1_Xamarin_Forms_Maps_Position:
+.word 7256
+	.no_dead_strip plt_System_Linq_Enumerable_Select_CoreLocation_CLPlacemark_Xamarin_Forms_Maps_Position_System_Collections_Generic_IEnumerable_1_CoreLocation_CLPlacemark_System_Func_2_CoreLocation_CLPlacemark_Xamarin_Forms_Maps_Position
+plt_System_Linq_Enumerable_Select_CoreLocation_CLPlacemark_Xamarin_Forms_Maps_Position_System_Collections_Generic_IEnumerable_1_CoreLocation_CLPlacemark_System_Func_2_CoreLocation_CLPlacemark_Xamarin_Forms_Maps_Position:
 _p_111:
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #344]
 br x16
-.word 7267
-	.no_dead_strip plt_System_ThrowHelper_ThrowInvalidOperationException_InvalidOperation_NoValue
-plt_System_ThrowHelper_ThrowInvalidOperationException_InvalidOperation_NoValue:
+.word 7261
+	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_System_Collections_Generic_IEnumerable_1_Xamarin_Forms_Maps_Position_SetResult_System_Collections_Generic_IEnumerable_1_Xamarin_Forms_Maps_Position
+plt_System_Threading_Tasks_TaskCompletionSource_1_System_Collections_Generic_IEnumerable_1_Xamarin_Forms_Maps_Position_SetResult_System_Collections_Generic_IEnumerable_1_Xamarin_Forms_Maps_Position:
 _p_112:
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #352]
 br x16
-.word 7278
-	.no_dead_strip plt_bool_Equals_object
-plt_bool_Equals_object:
+.word 7273
+	.no_dead_strip plt_System_ThrowHelper_ThrowInvalidOperationException_InvalidOperation_NoValue
+plt_System_ThrowHelper_ThrowInvalidOperationException_InvalidOperation_NoValue:
 _p_113:
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #360]
 br x16
-.word 7283
-	.no_dead_strip plt_bool_GetHashCode
-plt_bool_GetHashCode:
+.word 7284
+	.no_dead_strip plt_bool_Equals_object
+plt_bool_Equals_object:
 _p_114:
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #368]
 br x16
-.word 7288
-	.no_dead_strip plt_bool_ToString
-plt_bool_ToString:
+.word 7289
+	.no_dead_strip plt_bool_GetHashCode
+plt_bool_GetHashCode:
 _p_115:
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #376]
 br x16
-.word 7293
-	.no_dead_strip plt_System_Type_op_Inequality_System_Type_System_Type
-plt_System_Type_op_Inequality_System_Type_System_Type:
+.word 7294
+	.no_dead_strip plt_bool_ToString
+plt_bool_ToString:
 _p_116:
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #384]
 br x16
-.word 7298
-	.no_dead_strip plt__jit_icall_mono_arch_throw_exception
-plt__jit_icall_mono_arch_throw_exception:
+.word 7299
+	.no_dead_strip plt_System_Type_op_Inequality_System_Type_System_Type
+plt_System_Type_op_Inequality_System_Type_System_Type:
 _p_117:
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #392]
 br x16
-.word 7303
-	.no_dead_strip plt__jit_icall_mono_thread_interruption_checkpoint
-plt__jit_icall_mono_thread_interruption_checkpoint:
+.word 7304
+	.no_dead_strip plt__jit_icall_mono_arch_throw_exception
+plt__jit_icall_mono_arch_throw_exception:
 _p_118:
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #400]
 br x16
-.word 7331
-	.no_dead_strip plt__jit_icall_mono_arch_rethrow_exception
-plt__jit_icall_mono_arch_rethrow_exception:
+.word 7309
+	.no_dead_strip plt__jit_icall_mono_thread_interruption_checkpoint
+plt__jit_icall_mono_thread_interruption_checkpoint:
 _p_119:
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #408]
 br x16
-.word 7369
-	.no_dead_strip plt__jit_icall_mono_helper_ldstr_mscorlib
-plt__jit_icall_mono_helper_ldstr_mscorlib:
+.word 7337
+	.no_dead_strip plt__jit_icall_mono_arch_rethrow_exception
+plt__jit_icall_mono_arch_rethrow_exception:
 _p_120:
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #416]
 br x16
-.word 7399
-	.no_dead_strip plt_System_Array_InternalArray__get_Item_Xamarin_Forms_Maps_Position_int
-plt_System_Array_InternalArray__get_Item_Xamarin_Forms_Maps_Position_int:
+.word 7375
+	.no_dead_strip plt__jit_icall_mono_helper_ldstr_mscorlib
+plt__jit_icall_mono_helper_ldstr_mscorlib:
 _p_121:
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #424]
 br x16
-.word 7428
-	.no_dead_strip plt_System_Array_InternalEnumerator_1_Xamarin_Forms_Maps_Position_get_Current
-plt_System_Array_InternalEnumerator_1_Xamarin_Forms_Maps_Position_get_Current:
+.word 7405
+	.no_dead_strip plt_System_Array_InternalArray__get_Item_Xamarin_Forms_Maps_Position_int
+plt_System_Array_InternalArray__get_Item_Xamarin_Forms_Maps_Position_int:
 _p_122:
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #432]
 br x16
-.word 7444
-	.no_dead_strip plt_System_Array_InternalEnumerator_1_Xamarin_Forms_Maps_Position__ctor_System_Array
-plt_System_Array_InternalEnumerator_1_Xamarin_Forms_Maps_Position__ctor_System_Array:
+.word 7434
+	.no_dead_strip plt_System_Array_InternalEnumerator_1_Xamarin_Forms_Maps_Position_get_Current
+plt_System_Array_InternalEnumerator_1_Xamarin_Forms_Maps_Position_get_Current:
 _p_123:
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #440]
 br x16
-.word 7459
-	.no_dead_strip plt__jit_icall_mono_helper_ldstr
-plt__jit_icall_mono_helper_ldstr:
+.word 7450
+	.no_dead_strip plt_System_Array_InternalEnumerator_1_Xamarin_Forms_Maps_Position__ctor_System_Array
+plt_System_Array_InternalEnumerator_1_Xamarin_Forms_Maps_Position__ctor_System_Array:
 _p_124:
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #448]
 br x16
-.word 7474
-	.no_dead_strip plt_System_Linq_Error_ArgumentNull_string
-plt_System_Linq_Error_ArgumentNull_string:
+.word 7465
+	.no_dead_strip plt__jit_icall_mono_helper_ldstr
+plt__jit_icall_mono_helper_ldstr:
 _p_125:
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #456]
 br x16
-.word 7494
-	.no_dead_strip plt_wrapper_castclass_object___isinst_with_cache_object_intptr_intptr
-plt_wrapper_castclass_object___isinst_with_cache_object_intptr_intptr:
+.word 7480
+	.no_dead_strip plt_System_Linq_Error_ArgumentNull_string
+plt_System_Linq_Error_ArgumentNull_string:
 _p_126:
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #464]
 br x16
-.word 7499
-	.no_dead_strip plt_System_Linq_Enumerable_SelectArrayIterator_2_CoreLocation_CLPlacemark_Xamarin_Forms_Maps_Position__ctor_CoreLocation_CLPlacemark___System_Func_2_CoreLocation_CLPlacemark_Xamarin_Forms_Maps_Position
-plt_System_Linq_Enumerable_SelectArrayIterator_2_CoreLocation_CLPlacemark_Xamarin_Forms_Maps_Position__ctor_CoreLocation_CLPlacemark___System_Func_2_CoreLocation_CLPlacemark_Xamarin_Forms_Maps_Position:
+.word 7500
+	.no_dead_strip plt_wrapper_castclass_object___isinst_with_cache_object_intptr_intptr
+plt_wrapper_castclass_object___isinst_with_cache_object_intptr_intptr:
 _p_127:
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #472]
 br x16
-.word 7507
-	.no_dead_strip plt_System_Linq_Enumerable_SelectListIterator_2_CoreLocation_CLPlacemark_Xamarin_Forms_Maps_Position__ctor_System_Collections_Generic_List_1_CoreLocation_CLPlacemark_System_Func_2_CoreLocation_CLPlacemark_Xamarin_Forms_Maps_Position
-plt_System_Linq_Enumerable_SelectListIterator_2_CoreLocation_CLPlacemark_Xamarin_Forms_Maps_Position__ctor_System_Collections_Generic_List_1_CoreLocation_CLPlacemark_System_Func_2_CoreLocation_CLPlacemark_Xamarin_Forms_Maps_Position:
+.word 7505
+	.no_dead_strip plt_System_Linq_Enumerable_SelectArrayIterator_2_CoreLocation_CLPlacemark_Xamarin_Forms_Maps_Position__ctor_CoreLocation_CLPlacemark___System_Func_2_CoreLocation_CLPlacemark_Xamarin_Forms_Maps_Position
+plt_System_Linq_Enumerable_SelectArrayIterator_2_CoreLocation_CLPlacemark_Xamarin_Forms_Maps_Position__ctor_CoreLocation_CLPlacemark___System_Func_2_CoreLocation_CLPlacemark_Xamarin_Forms_Maps_Position:
 _p_128:
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #480]
 br x16
-.word 7522
-	.no_dead_strip plt_System_Linq_Enumerable_SelectIListIterator_2_CoreLocation_CLPlacemark_Xamarin_Forms_Maps_Position__ctor_System_Collections_Generic_IList_1_CoreLocation_CLPlacemark_System_Func_2_CoreLocation_CLPlacemark_Xamarin_Forms_Maps_Position
-plt_System_Linq_Enumerable_SelectIListIterator_2_CoreLocation_CLPlacemark_Xamarin_Forms_Maps_Position__ctor_System_Collections_Generic_IList_1_CoreLocation_CLPlacemark_System_Func_2_CoreLocation_CLPlacemark_Xamarin_Forms_Maps_Position:
+.word 7513
+	.no_dead_strip plt_System_Linq_Enumerable_SelectListIterator_2_CoreLocation_CLPlacemark_Xamarin_Forms_Maps_Position__ctor_System_Collections_Generic_List_1_CoreLocation_CLPlacemark_System_Func_2_CoreLocation_CLPlacemark_Xamarin_Forms_Maps_Position
+plt_System_Linq_Enumerable_SelectListIterator_2_CoreLocation_CLPlacemark_Xamarin_Forms_Maps_Position__ctor_System_Collections_Generic_List_1_CoreLocation_CLPlacemark_System_Func_2_CoreLocation_CLPlacemark_Xamarin_Forms_Maps_Position:
 _p_129:
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #488]
 br x16
-.word 7537
-	.no_dead_strip plt_System_Linq_Enumerable_SelectIPartitionIterator_2_CoreLocation_CLPlacemark_Xamarin_Forms_Maps_Position__ctor_System_Linq_IPartition_1_CoreLocation_CLPlacemark_System_Func_2_CoreLocation_CLPlacemark_Xamarin_Forms_Maps_Position
-plt_System_Linq_Enumerable_SelectIPartitionIterator_2_CoreLocation_CLPlacemark_Xamarin_Forms_Maps_Position__ctor_System_Linq_IPartition_1_CoreLocation_CLPlacemark_System_Func_2_CoreLocation_CLPlacemark_Xamarin_Forms_Maps_Position:
+.word 7528
+	.no_dead_strip plt_System_Linq_Enumerable_SelectIListIterator_2_CoreLocation_CLPlacemark_Xamarin_Forms_Maps_Position__ctor_System_Collections_Generic_IList_1_CoreLocation_CLPlacemark_System_Func_2_CoreLocation_CLPlacemark_Xamarin_Forms_Maps_Position
+plt_System_Linq_Enumerable_SelectIListIterator_2_CoreLocation_CLPlacemark_Xamarin_Forms_Maps_Position__ctor_System_Collections_Generic_IList_1_CoreLocation_CLPlacemark_System_Func_2_CoreLocation_CLPlacemark_Xamarin_Forms_Maps_Position:
 _p_130:
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #496]
 br x16
-.word 7552
-	.no_dead_strip plt_System_Linq_Enumerable_SelectEnumerableIterator_2_CoreLocation_CLPlacemark_Xamarin_Forms_Maps_Position__ctor_System_Collections_Generic_IEnumerable_1_CoreLocation_CLPlacemark_System_Func_2_CoreLocation_CLPlacemark_Xamarin_Forms_Maps_Position
-plt_System_Linq_Enumerable_SelectEnumerableIterator_2_CoreLocation_CLPlacemark_Xamarin_Forms_Maps_Position__ctor_System_Collections_Generic_IEnumerable_1_CoreLocation_CLPlacemark_System_Func_2_CoreLocation_CLPlacemark_Xamarin_Forms_Maps_Position:
+.word 7543
+	.no_dead_strip plt_System_Linq_Enumerable_SelectIPartitionIterator_2_CoreLocation_CLPlacemark_Xamarin_Forms_Maps_Position__ctor_System_Linq_IPartition_1_CoreLocation_CLPlacemark_System_Func_2_CoreLocation_CLPlacemark_Xamarin_Forms_Maps_Position
+plt_System_Linq_Enumerable_SelectIPartitionIterator_2_CoreLocation_CLPlacemark_Xamarin_Forms_Maps_Position__ctor_System_Linq_IPartition_1_CoreLocation_CLPlacemark_System_Func_2_CoreLocation_CLPlacemark_Xamarin_Forms_Maps_Position:
 _p_131:
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #504]
 br x16
-.word 7567
-	.no_dead_strip plt_System_Array_EmptyInternalEnumerator_1_Xamarin_Forms_Maps_Position__ctor
-plt_System_Array_EmptyInternalEnumerator_1_Xamarin_Forms_Maps_Position__ctor:
+.word 7558
+	.no_dead_strip plt_System_Linq_Enumerable_SelectEnumerableIterator_2_CoreLocation_CLPlacemark_Xamarin_Forms_Maps_Position__ctor_System_Collections_Generic_IEnumerable_1_CoreLocation_CLPlacemark_System_Func_2_CoreLocation_CLPlacemark_Xamarin_Forms_Maps_Position
+plt_System_Linq_Enumerable_SelectEnumerableIterator_2_CoreLocation_CLPlacemark_Xamarin_Forms_Maps_Position__ctor_System_Collections_Generic_IEnumerable_1_CoreLocation_CLPlacemark_System_Func_2_CoreLocation_CLPlacemark_Xamarin_Forms_Maps_Position:
 _p_132:
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #512]
 br x16
-.word 7582
-	.no_dead_strip plt_System_Linq_Enumerable_Iterator_1_Xamarin_Forms_Maps_Position__ctor
-plt_System_Linq_Enumerable_Iterator_1_Xamarin_Forms_Maps_Position__ctor:
+.word 7573
+	.no_dead_strip plt_System_Array_EmptyInternalEnumerator_1_Xamarin_Forms_Maps_Position__ctor
+plt_System_Array_EmptyInternalEnumerator_1_Xamarin_Forms_Maps_Position__ctor:
 _p_133:
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #520]
 br x16
-.word 7597
-	.no_dead_strip plt_System_Linq_Enumerable_Iterator_1_Xamarin_Forms_Maps_Position_Dispose
-plt_System_Linq_Enumerable_Iterator_1_Xamarin_Forms_Maps_Position_Dispose:
+.word 7588
+	.no_dead_strip plt_System_Linq_Enumerable_Iterator_1_Xamarin_Forms_Maps_Position__ctor
+plt_System_Linq_Enumerable_Iterator_1_Xamarin_Forms_Maps_Position__ctor:
 _p_134:
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #528]
 br x16
-.word 7612
-	.no_dead_strip plt_System_Collections_Generic_LargeArrayBuilder_1_Xamarin_Forms_Maps_Position__ctor_bool
-plt_System_Collections_Generic_LargeArrayBuilder_1_Xamarin_Forms_Maps_Position__ctor_bool:
+.word 7603
+	.no_dead_strip plt_System_Linq_Enumerable_Iterator_1_Xamarin_Forms_Maps_Position_Dispose
+plt_System_Linq_Enumerable_Iterator_1_Xamarin_Forms_Maps_Position_Dispose:
 _p_135:
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #536]
 br x16
-.word 7627
-	.no_dead_strip plt_System_Collections_Generic_LargeArrayBuilder_1_Xamarin_Forms_Maps_Position_Add_Xamarin_Forms_Maps_Position
-plt_System_Collections_Generic_LargeArrayBuilder_1_Xamarin_Forms_Maps_Position_Add_Xamarin_Forms_Maps_Position:
+.word 7618
+	.no_dead_strip plt_System_Collections_Generic_LargeArrayBuilder_1_Xamarin_Forms_Maps_Position__ctor_bool
+plt_System_Collections_Generic_LargeArrayBuilder_1_Xamarin_Forms_Maps_Position__ctor_bool:
 _p_136:
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #544]
 br x16
-.word 7642
-	.no_dead_strip plt_System_Collections_Generic_LargeArrayBuilder_1_Xamarin_Forms_Maps_Position_ToArray
-plt_System_Collections_Generic_LargeArrayBuilder_1_Xamarin_Forms_Maps_Position_ToArray:
+.word 7633
+	.no_dead_strip plt_System_Collections_Generic_LargeArrayBuilder_1_Xamarin_Forms_Maps_Position_Add_Xamarin_Forms_Maps_Position
+plt_System_Collections_Generic_LargeArrayBuilder_1_Xamarin_Forms_Maps_Position_Add_Xamarin_Forms_Maps_Position:
 _p_137:
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #552]
 br x16
-.word 7657
-	.no_dead_strip plt_System_Collections_Generic_List_1_Xamarin_Forms_Maps_Position__ctor
-plt_System_Collections_Generic_List_1_Xamarin_Forms_Maps_Position__ctor:
+.word 7648
+	.no_dead_strip plt_System_Collections_Generic_LargeArrayBuilder_1_Xamarin_Forms_Maps_Position_ToArray
+plt_System_Collections_Generic_LargeArrayBuilder_1_Xamarin_Forms_Maps_Position_ToArray:
 _p_138:
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #560]
 br x16
-.word 7672
-	.no_dead_strip plt_System_Collections_Generic_List_1_Xamarin_Forms_Maps_Position_Add_Xamarin_Forms_Maps_Position
-plt_System_Collections_Generic_List_1_Xamarin_Forms_Maps_Position_Add_Xamarin_Forms_Maps_Position:
+.word 7663
+	.no_dead_strip plt_System_Collections_Generic_List_1_Xamarin_Forms_Maps_Position__ctor
+plt_System_Collections_Generic_List_1_Xamarin_Forms_Maps_Position__ctor:
 _p_139:
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #568]
 br x16
-.word 7687
-	.no_dead_strip plt_System_Environment_get_CurrentManagedThreadId
-plt_System_Environment_get_CurrentManagedThreadId:
+.word 7678
+	.no_dead_strip plt_System_Collections_Generic_List_1_Xamarin_Forms_Maps_Position_Add_Xamarin_Forms_Maps_Position
+plt_System_Collections_Generic_List_1_Xamarin_Forms_Maps_Position_Add_Xamarin_Forms_Maps_Position:
 _p_140:
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #576]
 br x16
-.word 7702
-	.no_dead_strip plt_System_Linq_Enumerable_WhereEnumerableIterator_1_Xamarin_Forms_Maps_Position__ctor_System_Collections_Generic_IEnumerable_1_Xamarin_Forms_Maps_Position_System_Func_2_Xamarin_Forms_Maps_Position_bool
-plt_System_Linq_Enumerable_WhereEnumerableIterator_1_Xamarin_Forms_Maps_Position__ctor_System_Collections_Generic_IEnumerable_1_Xamarin_Forms_Maps_Position_System_Func_2_Xamarin_Forms_Maps_Position_bool:
+.word 7693
+	.no_dead_strip plt_System_Environment_get_CurrentManagedThreadId
+plt_System_Environment_get_CurrentManagedThreadId:
 _p_141:
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #584]
 br x16
-.word 7707
-	.no_dead_strip plt_System_Linq_Enumerable_Iterator_1_Xamarin_Forms_Maps_Position_get_Current
-plt_System_Linq_Enumerable_Iterator_1_Xamarin_Forms_Maps_Position_get_Current:
+.word 7708
+	.no_dead_strip plt_System_Linq_Enumerable_WhereEnumerableIterator_1_Xamarin_Forms_Maps_Position__ctor_System_Collections_Generic_IEnumerable_1_Xamarin_Forms_Maps_Position_System_Func_2_Xamarin_Forms_Maps_Position_bool
+plt_System_Linq_Enumerable_WhereEnumerableIterator_1_Xamarin_Forms_Maps_Position__ctor_System_Collections_Generic_IEnumerable_1_Xamarin_Forms_Maps_Position_System_Func_2_Xamarin_Forms_Maps_Position_bool:
 _p_142:
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #592]
 br x16
-.word 7722
-	.no_dead_strip plt_System_Linq_Enumerable_Iterator_1_Xamarin_Forms_Maps_Position_GetEnumerator
-plt_System_Linq_Enumerable_Iterator_1_Xamarin_Forms_Maps_Position_GetEnumerator:
+.word 7713
+	.no_dead_strip plt_System_Linq_Enumerable_Iterator_1_Xamarin_Forms_Maps_Position_get_Current
+plt_System_Linq_Enumerable_Iterator_1_Xamarin_Forms_Maps_Position_get_Current:
 _p_143:
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #600]
 br x16
-.word 7737
-	.no_dead_strip plt_System_Linq_Error_NotSupported
-plt_System_Linq_Error_NotSupported:
+.word 7728
+	.no_dead_strip plt_System_Linq_Enumerable_Iterator_1_Xamarin_Forms_Maps_Position_GetEnumerator
+plt_System_Linq_Enumerable_Iterator_1_Xamarin_Forms_Maps_Position_GetEnumerator:
 _p_144:
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #608]
 br x16
-.word 7752
-	.no_dead_strip plt_System_Linq_EmptyPartition_1_Xamarin_Forms_Maps_Position__ctor
-plt_System_Linq_EmptyPartition_1_Xamarin_Forms_Maps_Position__ctor:
+.word 7743
+	.no_dead_strip plt_System_Linq_Error_NotSupported
+plt_System_Linq_Error_NotSupported:
 _p_145:
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #616]
 br x16
-.word 7757
-	.no_dead_strip plt_System_Linq_Enumerable_SelectIPartitionIterator_2_CoreLocation_CLPlacemark_Xamarin_Forms_Maps_Position_LazyToArray
-plt_System_Linq_Enumerable_SelectIPartitionIterator_2_CoreLocation_CLPlacemark_Xamarin_Forms_Maps_Position_LazyToArray:
+.word 7758
+	.no_dead_strip plt_System_Linq_EmptyPartition_1_Xamarin_Forms_Maps_Position__ctor
+plt_System_Linq_EmptyPartition_1_Xamarin_Forms_Maps_Position__ctor:
 _p_146:
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #624]
 br x16
-.word 7772
-	.no_dead_strip plt_System_Array_Empty_Xamarin_Forms_Maps_Position
-plt_System_Array_Empty_Xamarin_Forms_Maps_Position:
+.word 7763
+	.no_dead_strip plt_System_Linq_Enumerable_SelectIPartitionIterator_2_CoreLocation_CLPlacemark_Xamarin_Forms_Maps_Position_LazyToArray
+plt_System_Linq_Enumerable_SelectIPartitionIterator_2_CoreLocation_CLPlacemark_Xamarin_Forms_Maps_Position_LazyToArray:
 _p_147:
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #632]
 br x16
-.word 7787
-	.no_dead_strip plt_System_Linq_Enumerable_SelectIPartitionIterator_2_CoreLocation_CLPlacemark_Xamarin_Forms_Maps_Position_PreallocatingToArray_int
-plt_System_Linq_Enumerable_SelectIPartitionIterator_2_CoreLocation_CLPlacemark_Xamarin_Forms_Maps_Position_PreallocatingToArray_int:
+.word 7778
+	.no_dead_strip plt_System_Array_Empty_Xamarin_Forms_Maps_Position
+plt_System_Array_Empty_Xamarin_Forms_Maps_Position:
 _p_148:
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #640]
 br x16
-.word 7803
-	.no_dead_strip plt_System_Collections_Generic_List_1_Xamarin_Forms_Maps_Position__ctor_int
-plt_System_Collections_Generic_List_1_Xamarin_Forms_Maps_Position__ctor_int:
+.word 7793
+	.no_dead_strip plt_System_Linq_Enumerable_SelectIPartitionIterator_2_CoreLocation_CLPlacemark_Xamarin_Forms_Maps_Position_PreallocatingToArray_int
+plt_System_Linq_Enumerable_SelectIPartitionIterator_2_CoreLocation_CLPlacemark_Xamarin_Forms_Maps_Position_PreallocatingToArray_int:
 _p_149:
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #648]
 br x16
-.word 7818
-	.no_dead_strip plt_System_Linq_Enumerable_SelectListPartitionIterator_2_CoreLocation_CLPlacemark_Xamarin_Forms_Maps_Position__ctor_System_Collections_Generic_IList_1_CoreLocation_CLPlacemark_System_Func_2_CoreLocation_CLPlacemark_Xamarin_Forms_Maps_Position_int_int
-plt_System_Linq_Enumerable_SelectListPartitionIterator_2_CoreLocation_CLPlacemark_Xamarin_Forms_Maps_Position__ctor_System_Collections_Generic_IList_1_CoreLocation_CLPlacemark_System_Func_2_CoreLocation_CLPlacemark_Xamarin_Forms_Maps_Position_int_int:
+.word 7809
+	.no_dead_strip plt_System_Collections_Generic_List_1_Xamarin_Forms_Maps_Position__ctor_int
+plt_System_Collections_Generic_List_1_Xamarin_Forms_Maps_Position__ctor_int:
 _p_150:
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #656]
 br x16
-.word 7833
-	.no_dead_strip plt_System_Collections_Generic_List_1_CoreLocation_CLPlacemark_GetEnumerator
-plt_System_Collections_Generic_List_1_CoreLocation_CLPlacemark_GetEnumerator:
+.word 7824
+	.no_dead_strip plt_System_Linq_Enumerable_SelectListPartitionIterator_2_CoreLocation_CLPlacemark_Xamarin_Forms_Maps_Position__ctor_System_Collections_Generic_IList_1_CoreLocation_CLPlacemark_System_Func_2_CoreLocation_CLPlacemark_Xamarin_Forms_Maps_Position_int_int
+plt_System_Linq_Enumerable_SelectListPartitionIterator_2_CoreLocation_CLPlacemark_Xamarin_Forms_Maps_Position__ctor_System_Collections_Generic_IList_1_CoreLocation_CLPlacemark_System_Func_2_CoreLocation_CLPlacemark_Xamarin_Forms_Maps_Position_int_int:
 _p_151:
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #664]
 br x16
-.word 7848
-	.no_dead_strip plt_System_Collections_Generic_List_1_Enumerator_CoreLocation_CLPlacemark_MoveNext
-plt_System_Collections_Generic_List_1_Enumerator_CoreLocation_CLPlacemark_MoveNext:
+.word 7839
+	.no_dead_strip plt_System_Collections_Generic_List_1_CoreLocation_CLPlacemark_GetEnumerator
+plt_System_Collections_Generic_List_1_CoreLocation_CLPlacemark_GetEnumerator:
 _p_152:
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #672]
 br x16
-.word 7863
-	.no_dead_strip plt_System_Collections_Generic_List_1_Enumerator_CoreLocation_CLPlacemark_get_Current
-plt_System_Collections_Generic_List_1_Enumerator_CoreLocation_CLPlacemark_get_Current:
+.word 7854
+	.no_dead_strip plt_System_Collections_Generic_List_1_Enumerator_CoreLocation_CLPlacemark_MoveNext
+plt_System_Collections_Generic_List_1_Enumerator_CoreLocation_CLPlacemark_MoveNext:
 _p_153:
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #680]
 br x16
-.word 7878
-	.no_dead_strip plt_System_Collections_Generic_List_1_CoreLocation_CLPlacemark_get_Count
-plt_System_Collections_Generic_List_1_CoreLocation_CLPlacemark_get_Count:
+.word 7869
+	.no_dead_strip plt_System_Collections_Generic_List_1_Enumerator_CoreLocation_CLPlacemark_get_Current
+plt_System_Collections_Generic_List_1_Enumerator_CoreLocation_CLPlacemark_get_Current:
 _p_154:
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #688]
 br x16
-.word 7893
-	.no_dead_strip plt_System_Collections_Generic_List_1_CoreLocation_CLPlacemark_get_Item_int
-plt_System_Collections_Generic_List_1_CoreLocation_CLPlacemark_get_Item_int:
+.word 7884
+	.no_dead_strip plt_System_Collections_Generic_List_1_CoreLocation_CLPlacemark_get_Count
+plt_System_Collections_Generic_List_1_CoreLocation_CLPlacemark_get_Count:
 _p_155:
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #696]
 br x16
-.word 7908
-	.no_dead_strip plt_System_Array_EmptyInternalEnumerator_1_Xamarin_Forms_Maps_Position_get_Current
-plt_System_Array_EmptyInternalEnumerator_1_Xamarin_Forms_Maps_Position_get_Current:
+.word 7899
+	.no_dead_strip plt_System_Collections_Generic_List_1_CoreLocation_CLPlacemark_get_Item_int
+plt_System_Collections_Generic_List_1_CoreLocation_CLPlacemark_get_Item_int:
 _p_156:
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #704]
 br x16
-.word 7923
-	.no_dead_strip plt_System_Collections_Generic_LargeArrayBuilder_1_Xamarin_Forms_Maps_Position_TryMove_Xamarin_Forms_Maps_Position___
-plt_System_Collections_Generic_LargeArrayBuilder_1_Xamarin_Forms_Maps_Position_TryMove_Xamarin_Forms_Maps_Position___:
+.word 7914
+	.no_dead_strip plt_System_Array_EmptyInternalEnumerator_1_Xamarin_Forms_Maps_Position_get_Current
+plt_System_Array_EmptyInternalEnumerator_1_Xamarin_Forms_Maps_Position_get_Current:
 _p_157:
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #712]
 br x16
-.word 7938
-	.no_dead_strip plt_System_Collections_Generic_LargeArrayBuilder_1_Xamarin_Forms_Maps_Position_CopyTo_Xamarin_Forms_Maps_Position___int_int
-plt_System_Collections_Generic_LargeArrayBuilder_1_Xamarin_Forms_Maps_Position_CopyTo_Xamarin_Forms_Maps_Position___int_int:
+.word 7929
+	.no_dead_strip plt_System_Collections_Generic_LargeArrayBuilder_1_Xamarin_Forms_Maps_Position_TryMove_Xamarin_Forms_Maps_Position___
+plt_System_Collections_Generic_LargeArrayBuilder_1_Xamarin_Forms_Maps_Position_TryMove_Xamarin_Forms_Maps_Position___:
 _p_158:
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #720]
 br x16
-.word 7953
-	.no_dead_strip plt_System_Collections_Generic_LargeArrayBuilder_1_Xamarin_Forms_Maps_Position__ctor_int
-plt_System_Collections_Generic_LargeArrayBuilder_1_Xamarin_Forms_Maps_Position__ctor_int:
+.word 7944
+	.no_dead_strip plt_System_Collections_Generic_LargeArrayBuilder_1_Xamarin_Forms_Maps_Position_CopyTo_Xamarin_Forms_Maps_Position___int_int
+plt_System_Collections_Generic_LargeArrayBuilder_1_Xamarin_Forms_Maps_Position_CopyTo_Xamarin_Forms_Maps_Position___int_int:
 _p_159:
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #728]
 br x16
-.word 7968
-	.no_dead_strip plt_System_Collections_Generic_LargeArrayBuilder_1_Xamarin_Forms_Maps_Position_AddWithBufferAllocation_Xamarin_Forms_Maps_Position
-plt_System_Collections_Generic_LargeArrayBuilder_1_Xamarin_Forms_Maps_Position_AddWithBufferAllocation_Xamarin_Forms_Maps_Position:
+.word 7959
+	.no_dead_strip plt_System_Collections_Generic_LargeArrayBuilder_1_Xamarin_Forms_Maps_Position__ctor_int
+plt_System_Collections_Generic_LargeArrayBuilder_1_Xamarin_Forms_Maps_Position__ctor_int:
 _p_160:
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #736]
 br x16
-.word 7983
-	.no_dead_strip plt_System_Collections_Generic_LargeArrayBuilder_1_Xamarin_Forms_Maps_Position_AllocateBuffer
-plt_System_Collections_Generic_LargeArrayBuilder_1_Xamarin_Forms_Maps_Position_AllocateBuffer:
+.word 7974
+	.no_dead_strip plt_System_Collections_Generic_LargeArrayBuilder_1_Xamarin_Forms_Maps_Position_AddWithBufferAllocation_Xamarin_Forms_Maps_Position
+plt_System_Collections_Generic_LargeArrayBuilder_1_Xamarin_Forms_Maps_Position_AddWithBufferAllocation_Xamarin_Forms_Maps_Position:
 _p_161:
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #744]
 br x16
-.word 7998
-	.no_dead_strip plt_System_Collections_Generic_LargeArrayBuilder_1_Xamarin_Forms_Maps_Position_AddWithBufferAllocation_Xamarin_Forms_Maps_Position_Xamarin_Forms_Maps_Position____int_
-plt_System_Collections_Generic_LargeArrayBuilder_1_Xamarin_Forms_Maps_Position_AddWithBufferAllocation_Xamarin_Forms_Maps_Position_Xamarin_Forms_Maps_Position____int_:
+.word 7989
+	.no_dead_strip plt_System_Collections_Generic_LargeArrayBuilder_1_Xamarin_Forms_Maps_Position_AllocateBuffer
+plt_System_Collections_Generic_LargeArrayBuilder_1_Xamarin_Forms_Maps_Position_AllocateBuffer:
 _p_162:
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #752]
 br x16
-.word 8013
-	.no_dead_strip plt_System_Collections_Generic_LargeArrayBuilder_1_Xamarin_Forms_Maps_Position_GetBuffer_int
-plt_System_Collections_Generic_LargeArrayBuilder_1_Xamarin_Forms_Maps_Position_GetBuffer_int:
+.word 8004
+	.no_dead_strip plt_System_Collections_Generic_LargeArrayBuilder_1_Xamarin_Forms_Maps_Position_AddWithBufferAllocation_Xamarin_Forms_Maps_Position_Xamarin_Forms_Maps_Position____int_
+plt_System_Collections_Generic_LargeArrayBuilder_1_Xamarin_Forms_Maps_Position_AddWithBufferAllocation_Xamarin_Forms_Maps_Position_Xamarin_Forms_Maps_Position____int_:
 _p_163:
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #760]
 br x16
-.word 8028
-	.no_dead_strip plt_System_Math_Min_int_int
-plt_System_Math_Min_int_int:
+.word 8019
+	.no_dead_strip plt_System_Collections_Generic_LargeArrayBuilder_1_Xamarin_Forms_Maps_Position_GetBuffer_int
+plt_System_Collections_Generic_LargeArrayBuilder_1_Xamarin_Forms_Maps_Position_GetBuffer_int:
 _p_164:
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #768]
 br x16
-.word 8043
-	.no_dead_strip plt_System_Array_Copy_System_Array_int_System_Array_int_int
-plt_System_Array_Copy_System_Array_int_System_Array_int_int:
+.word 8034
+	.no_dead_strip plt_System_Math_Min_int_int
+plt_System_Math_Min_int_int:
 _p_165:
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #776]
 br x16
-.word 8048
-	.no_dead_strip plt_System_Collections_Generic_CopyPosition_get_Row
-plt_System_Collections_Generic_CopyPosition_get_Row:
+.word 8049
+	.no_dead_strip plt_System_Array_Copy_System_Array_int_System_Array_int_int
+plt_System_Array_Copy_System_Array_int_System_Array_int_int:
 _p_166:
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #784]
 br x16
-.word 8053
-	.no_dead_strip plt_System_Collections_Generic_CopyPosition_get_Column
-plt_System_Collections_Generic_CopyPosition_get_Column:
+.word 8054
+	.no_dead_strip plt_System_Collections_Generic_CopyPosition_get_Row
+plt_System_Collections_Generic_CopyPosition_get_Row:
 _p_167:
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #792]
 br x16
-.word 8058
-	.no_dead_strip plt_System_Collections_Generic_LargeArrayBuilder_1_Xamarin_Forms_Maps_Position__CopyTog__CopyToCore_17_0_Xamarin_Forms_Maps_Position___int_System_Collections_Generic_LargeArrayBuilder_1__c__DisplayClass17_0_Xamarin_Forms_Maps_Position_
-plt_System_Collections_Generic_LargeArrayBuilder_1_Xamarin_Forms_Maps_Position__CopyTog__CopyToCore_17_0_Xamarin_Forms_Maps_Position___int_System_Collections_Generic_LargeArrayBuilder_1__c__DisplayClass17_0_Xamarin_Forms_Maps_Position_:
+.word 8059
+	.no_dead_strip plt_System_Collections_Generic_CopyPosition_get_Column
+plt_System_Collections_Generic_CopyPosition_get_Column:
 _p_168:
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #800]
 br x16
-.word 8063
-	.no_dead_strip plt_System_Collections_Generic_CopyPosition__ctor_int_int
-plt_System_Collections_Generic_CopyPosition__ctor_int_int:
+.word 8064
+	.no_dead_strip plt_System_Collections_Generic_LargeArrayBuilder_1_Xamarin_Forms_Maps_Position__CopyTog__CopyToCore_17_0_Xamarin_Forms_Maps_Position___int_System_Collections_Generic_LargeArrayBuilder_1__c__DisplayClass17_0_Xamarin_Forms_Maps_Position_
+plt_System_Collections_Generic_LargeArrayBuilder_1_Xamarin_Forms_Maps_Position__CopyTog__CopyToCore_17_0_Xamarin_Forms_Maps_Position___int_System_Collections_Generic_LargeArrayBuilder_1__c__DisplayClass17_0_Xamarin_Forms_Maps_Position_:
 _p_169:
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #808]
 br x16
-.word 8078
-	.no_dead_strip plt_System_Collections_Generic_CopyPosition_Normalize_int
-plt_System_Collections_Generic_CopyPosition_Normalize_int:
+.word 8069
+	.no_dead_strip plt_System_Collections_Generic_CopyPosition__ctor_int_int
+plt_System_Collections_Generic_CopyPosition__ctor_int_int:
 _p_170:
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #816]
 br x16
-.word 8083
-	.no_dead_strip plt_System_Collections_Generic_ArrayBuilder_1_Xamarin_Forms_Maps_Position___get_Count
-plt_System_Collections_Generic_ArrayBuilder_1_Xamarin_Forms_Maps_Position___get_Count:
+.word 8084
+	.no_dead_strip plt_System_Collections_Generic_CopyPosition_Normalize_int
+plt_System_Collections_Generic_CopyPosition_Normalize_int:
 _p_171:
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #824]
 br x16
-.word 8088
-	.no_dead_strip plt_System_Collections_Generic_ArrayBuilder_1_Xamarin_Forms_Maps_Position___get_Item_int
-plt_System_Collections_Generic_ArrayBuilder_1_Xamarin_Forms_Maps_Position___get_Item_int:
+.word 8089
+	.no_dead_strip plt_System_Collections_Generic_ArrayBuilder_1_Xamarin_Forms_Maps_Position___get_Count
+plt_System_Collections_Generic_ArrayBuilder_1_Xamarin_Forms_Maps_Position___get_Count:
 _p_172:
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #832]
 br x16
-.word 8103
-	.no_dead_strip plt_System_Collections_Generic_ArrayBuilder_1_Xamarin_Forms_Maps_Position___Add_Xamarin_Forms_Maps_Position__
-plt_System_Collections_Generic_ArrayBuilder_1_Xamarin_Forms_Maps_Position___Add_Xamarin_Forms_Maps_Position__:
+.word 8094
+	.no_dead_strip plt_System_Collections_Generic_ArrayBuilder_1_Xamarin_Forms_Maps_Position___get_Item_int
+plt_System_Collections_Generic_ArrayBuilder_1_Xamarin_Forms_Maps_Position___get_Item_int:
 _p_173:
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #840]
 br x16
-.word 8118
-	.no_dead_strip plt_System_Collections_Generic_List_1_Xamarin_Forms_Maps_Position_AddWithResize_Xamarin_Forms_Maps_Position
-plt_System_Collections_Generic_List_1_Xamarin_Forms_Maps_Position_AddWithResize_Xamarin_Forms_Maps_Position:
+.word 8109
+	.no_dead_strip plt_System_Collections_Generic_ArrayBuilder_1_Xamarin_Forms_Maps_Position___Add_Xamarin_Forms_Maps_Position__
+plt_System_Collections_Generic_ArrayBuilder_1_Xamarin_Forms_Maps_Position___Add_Xamarin_Forms_Maps_Position__:
 _p_174:
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #848]
 br x16
-.word 8133
-	.no_dead_strip plt_Xamarin_Forms_Maps_Position_Equals_object
-plt_Xamarin_Forms_Maps_Position_Equals_object:
+.word 8124
+	.no_dead_strip plt_System_Collections_Generic_List_1_Xamarin_Forms_Maps_Position_AddWithResize_Xamarin_Forms_Maps_Position
+plt_System_Collections_Generic_List_1_Xamarin_Forms_Maps_Position_AddWithResize_Xamarin_Forms_Maps_Position:
 _p_175:
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #856]
 br x16
-.word 8148
-	.no_dead_strip plt_System_Linq_Utilities_CombinePredicates_Xamarin_Forms_Maps_Position_System_Func_2_Xamarin_Forms_Maps_Position_bool_System_Func_2_Xamarin_Forms_Maps_Position_bool
-plt_System_Linq_Utilities_CombinePredicates_Xamarin_Forms_Maps_Position_System_Func_2_Xamarin_Forms_Maps_Position_bool_System_Func_2_Xamarin_Forms_Maps_Position_bool:
+.word 8139
+	.no_dead_strip plt_Xamarin_Forms_Maps_Position_Equals_object
+plt_Xamarin_Forms_Maps_Position_Equals_object:
 _p_176:
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #864]
 br x16
-.word 8153
-	.no_dead_strip plt_System_ThrowHelper_ThrowArgumentOutOfRangeException_System_ExceptionArgument_System_ExceptionResource
-plt_System_ThrowHelper_ThrowArgumentOutOfRangeException_System_ExceptionArgument_System_ExceptionResource:
+.word 8154
+	.no_dead_strip plt_System_Linq_Utilities_CombinePredicates_Xamarin_Forms_Maps_Position_System_Func_2_Xamarin_Forms_Maps_Position_bool_System_Func_2_Xamarin_Forms_Maps_Position_bool
+plt_System_Linq_Utilities_CombinePredicates_Xamarin_Forms_Maps_Position_System_Func_2_Xamarin_Forms_Maps_Position_bool_System_Func_2_Xamarin_Forms_Maps_Position_bool:
 _p_177:
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #872]
 br x16
-.word 8168
-	.no_dead_strip plt_System_Linq_Enumerable_SelectListPartitionIterator_2_CoreLocation_CLPlacemark_Xamarin_Forms_Maps_Position_get_Count
-plt_System_Linq_Enumerable_SelectListPartitionIterator_2_CoreLocation_CLPlacemark_Xamarin_Forms_Maps_Position_get_Count:
+.word 8159
+	.no_dead_strip plt_System_ThrowHelper_ThrowArgumentOutOfRangeException_System_ExceptionArgument_System_ExceptionResource
+plt_System_ThrowHelper_ThrowArgumentOutOfRangeException_System_ExceptionArgument_System_ExceptionResource:
 _p_178:
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #880]
 br x16
-.word 8173
-	.no_dead_strip plt_System_Collections_Generic_List_1_Xamarin_Forms_Maps_Position_EnsureCapacity_int
-plt_System_Collections_Generic_List_1_Xamarin_Forms_Maps_Position_EnsureCapacity_int:
+.word 8174
+	.no_dead_strip plt_System_Linq_Enumerable_SelectListPartitionIterator_2_CoreLocation_CLPlacemark_Xamarin_Forms_Maps_Position_get_Count
+plt_System_Linq_Enumerable_SelectListPartitionIterator_2_CoreLocation_CLPlacemark_Xamarin_Forms_Maps_Position_get_Count:
 _p_179:
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #888]
 br x16
-.word 8188
-	.no_dead_strip plt_System_Linq_Utilities__c__DisplayClass1_0_1_Xamarin_Forms_Maps_Position__ctor
-plt_System_Linq_Utilities__c__DisplayClass1_0_1_Xamarin_Forms_Maps_Position__ctor:
+.word 8179
+	.no_dead_strip plt_System_Collections_Generic_List_1_Xamarin_Forms_Maps_Position_EnsureCapacity_int
+plt_System_Collections_Generic_List_1_Xamarin_Forms_Maps_Position_EnsureCapacity_int:
 _p_180:
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #896]
 br x16
-.word 8203
-	.no_dead_strip plt_System_Collections_Generic_List_1_Xamarin_Forms_Maps_Position_set_Capacity_int
-plt_System_Collections_Generic_List_1_Xamarin_Forms_Maps_Position_set_Capacity_int:
+.word 8194
+	.no_dead_strip plt_System_Linq_Utilities__c__DisplayClass1_0_1_Xamarin_Forms_Maps_Position__ctor
+plt_System_Linq_Utilities__c__DisplayClass1_0_1_Xamarin_Forms_Maps_Position__ctor:
 _p_181:
 adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
 ldr x16, [x16, #904]
 br x16
-.word 8218
+.word 8209
+	.no_dead_strip plt_System_Collections_Generic_List_1_Xamarin_Forms_Maps_Position_set_Capacity_int
+plt_System_Collections_Generic_List_1_Xamarin_Forms_Maps_Position_set_Capacity_int:
+_p_182:
+adrp x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGE+4096
+add x16, x16, mono_aot_Xamarin_Forms_Maps_iOS_got@PAGEOFF
+ldr x16, [x16, #912]
+br x16
+.word 8224
 plt_end:
 .section __DATA, __bss
 	.align 3
-.lcomm mono_aot_Xamarin_Forms_Maps_iOS_got, 5008
+.lcomm mono_aot_Xamarin_Forms_Maps_iOS_got, 5016
 got_end:
 .section __TEXT, __const
 	.align 3
@@ -35800,7 +35845,7 @@ runtime_version:
 .section __TEXT, __const
 	.align 2
 assembly_guid:
-	.asciz "38668FFA-DBC6-4A85-9A1A-D94F8683E8B0"
+	.asciz "F9A390E3-167D-4CA4-A1B7-1C1F12A67253"
 .section __TEXT, __const
 	.align 2
 assembly_name:
@@ -35887,14 +35932,14 @@ _mono_aot_file_info:
 	.align 3
 	.quad unbox_trampoline_addresses
 
-	.long 444,5008,182,297,34,102,387000831,0
-	.long 48639,128,8,8,8,9,8388607,0
-	.long 28,58168,0,0,9520,8816,7448,0
+	.long 444,5016,183,297,34,102,387000831,0
+	.long 48676,128,8,8,8,9,8388607,0
+	.long 28,58208,0,0,9520,8816,7448,0
 	.long 8144,8776,7544,0,5480,456,9512,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0
-	.byte 104,245,237,244,81,160,47,214,213,186,215,20,74,127,230,206
+	.byte 68,176,241,191,140,101,39,36,8,24,10,83,199,166,185,253
 	.globl _mono_aot_module_Xamarin_Forms_Maps_iOS_info
 	.align 3
 _mono_aot_module_Xamarin_Forms_Maps_iOS_info:
@@ -41032,7 +41077,7 @@ LDIFF_SYM833=LTDIE_13_REFERENCE - Ldebug_info_start
 
 LDIFF_SYM834=LDIE_OBJECT - Ldebug_info_start
 	.long LDIFF_SYM834
-	.byte 2,141,40,3
+	.byte 2,141,56,3
 	.asciz "e"
 
 LDIFF_SYM835=LTDIE_123_REFERENCE - Ldebug_info_start
@@ -41052,7 +41097,7 @@ Lfde13_start:
 LDIFF_SYM837=Lme_d - Xamarin_Forms_Maps_iOS_MapRenderer_OnElementPropertyChanged_object_System_ComponentModel_PropertyChangedEventArgs
 	.long LDIFF_SYM837
 	.long 0
-	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,151,12,152,11,68,154,10
+	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,149,14,150,13,68,151,12,152,11,68,154,10
 	.align 3
 Lfde13_end:
 

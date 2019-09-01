@@ -3027,6 +3027,166 @@ bl _p_20
 Lme_23:
 .text
 	.align 4
+	.no_dead_strip Xamarin_Forms_Maps_Map_get_MoveToLastRegionOnLayoutChange
+Xamarin_Forms_Maps_Map_get_MoveToLastRegionOnLayoutChange:
+.loc 1 1 0
+.word 0xa9bc7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+
+adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
+add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
+ldr x16, [x16, #704]
+.word 0xf9000fb0
+.word 0xf9400a11
+.word 0xf90013b1
+
+adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
+add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
+ldr x0, [x16, #56]
+.word 0xf9400011
+.word 0xb4000051
+bl _p_1
+.word 0xf9400fb1
+.word 0xf9404a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf9406a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400ba0
+
+adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
+add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
+ldr x1, [x16, #712]
+.word 0xf9400021
+bl _p_19
+.word 0xf9001fa0
+.word 0xf9400fb1
+.word 0xf9409631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401fa0
+.word 0xf9400001
+.word 0x3940b022
+.word 0xeb1f005f
+.word 0x10000011
+.word 0x54000381
+.word 0xf9400021
+.word 0xf9400021
+
+adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
+add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
+ldr x2, [x16, #488]
+.word 0xeb02003f
+.word 0x10000011
+.word 0x54000281
+.word 0x91004001
+.word 0x39404000
+.word 0xf9001ba0
+.word 0xf94013b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf940fa31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401ba0
+.word 0xf9400fb1
+.word 0xf9410e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910003bf
+.word 0xa8c47bfd
+.word 0xd65f03c0
+.word 0xd2801920
+.word 0xaa1103e1
+bl _p_6
+
+Lme_24:
+.text
+	.align 4
+	.no_dead_strip Xamarin_Forms_Maps_Map_set_MoveToLastRegionOnLayoutChange_bool
+Xamarin_Forms_Maps_Map_set_MoveToLastRegionOnLayoutChange_bool:
+.loc 1 1 0
+.word 0xa9ba7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+.word 0xf9000fa1
+
+adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
+add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
+ldr x16, [x16, #720]
+.word 0xf90013b0
+.word 0xf9400a11
+.word 0xf90017b1
+
+adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
+add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
+ldr x0, [x16, #56]
+.word 0xf9400011
+.word 0xb4000051
+bl _p_1
+.word 0xf94013b1
+.word 0xf9404e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf9406e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400ba0
+.word 0xf90023a0
+
+adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
+add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
+ldr x0, [x16, #712]
+.word 0xf9400000
+.word 0xf90027a0
+.word 0x394063a0
+.word 0xf9002ba0
+
+adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
+add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
+ldr x0, [x16, #504]
+.word 0xd2800221
+.word 0xd2800221
+bl _p_10
+.word 0xaa0003e2
+.word 0xf94023a0
+.word 0xf94027a1
+.word 0xf9402ba3
+.word 0x39004043
+bl _p_20
+.word 0xf94013b1
+.word 0xf940d231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf940e231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf940f231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910003bf
+.word 0xa8c67bfd
+.word 0xd65f03c0
+
+Lme_25:
+.text
+	.align 4
 	.no_dead_strip Xamarin_Forms_Maps_Map_add_MapClicked_System_EventHandler_1_Xamarin_Forms_Maps_MapClickedEventArgs
 Xamarin_Forms_Maps_Map_add_MapClicked_System_EventHandler_1_Xamarin_Forms_Maps_MapClickedEventArgs:
 .loc 1 1 0
@@ -3040,7 +3200,7 @@ Xamarin_Forms_Maps_Map_add_MapClicked_System_EventHandler_1_Xamarin_Forms_Maps_M
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #704]
+ldr x16, [x16, #728]
 .word 0xf90023b0
 .word 0xf9400a11
 .word 0xf90027b1
@@ -3108,7 +3268,7 @@ bl _p_21
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x1, [x16, #712]
+ldr x1, [x16, #736]
 .word 0xeb01001f
 .word 0x10000011
 .word 0x54000821
@@ -3181,7 +3341,7 @@ bl _p_6
 .word 0xaa1103e1
 bl _p_6
 
-Lme_24:
+Lme_26:
 .text
 	.align 4
 	.no_dead_strip Xamarin_Forms_Maps_Map_remove_MapClicked_System_EventHandler_1_Xamarin_Forms_Maps_MapClickedEventArgs
@@ -3197,7 +3357,7 @@ Xamarin_Forms_Maps_Map_remove_MapClicked_System_EventHandler_1_Xamarin_Forms_Map
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #720]
+ldr x16, [x16, #744]
 .word 0xf90023b0
 .word 0xf9400a11
 .word 0xf90027b1
@@ -3265,7 +3425,7 @@ bl _p_22
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x1, [x16, #712]
+ldr x1, [x16, #736]
 .word 0xeb01001f
 .word 0x10000011
 .word 0x54000821
@@ -3338,7 +3498,7 @@ bl _p_6
 .word 0xaa1103e1
 bl _p_6
 
-Lme_25:
+Lme_27:
 .text
 	.align 4
 	.no_dead_strip Xamarin_Forms_Maps_Map_SendMapClicked_Xamarin_Forms_Maps_Position
@@ -3354,7 +3514,7 @@ Xamarin_Forms_Maps_Map_SendMapClicked_Xamarin_Forms_Maps_Position:
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #728]
+ldr x16, [x16, #752]
 .word 0xf90037b0
 .word 0xf9400a11
 .word 0xf9003bb1
@@ -3401,7 +3561,7 @@ bl _p_1
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x0, [x16, #736]
+ldr x0, [x16, #760]
 .word 0xd2800401
 .word 0xd2800401
 bl _p_10
@@ -3437,7 +3597,7 @@ bl _p_23
 .word 0xa8ca7bfd
 .word 0xd65f03c0
 
-Lme_26:
+Lme_28:
 .text
 	.align 4
 	.no_dead_strip Xamarin_Forms_Maps_Map_SetVisibleRegion_Xamarin_Forms_Maps_MapSpan
@@ -3450,7 +3610,7 @@ Xamarin_Forms_Maps_Map_SetVisibleRegion_Xamarin_Forms_Maps_MapSpan:
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #744]
+ldr x16, [x16, #768]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -3492,7 +3652,7 @@ bl _p_24
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_27:
+Lme_29:
 .text
 	.align 4
 	.no_dead_strip Xamarin_Forms_Maps_Map_get_VisibleRegion
@@ -3504,7 +3664,7 @@ Xamarin_Forms_Maps_Map_get_VisibleRegion:
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #752]
+ldr x16, [x16, #776]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -3540,7 +3700,7 @@ ldr x16, [x16, #752]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_28:
+Lme_2a:
 .text
 	.align 4
 	.no_dead_strip Xamarin_Forms_Maps_Map_set_VisibleRegion_Xamarin_Forms_Maps_MapSpan
@@ -3554,7 +3714,7 @@ Xamarin_Forms_Maps_Map_set_VisibleRegion_Xamarin_Forms_Maps_MapSpan:
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #760]
+ldr x16, [x16, #784]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -3638,7 +3798,7 @@ bl _p_9
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x1, [x16, #768]
+ldr x1, [x16, #792]
 .word 0xaa1903e0
 .word 0xf9400322
 .word 0xf9404850
@@ -3674,7 +3834,7 @@ ldr x1, [x16, #16]
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x1, [x16, #768]
+ldr x1, [x16, #792]
 .word 0xaa1903e0
 .word 0xf9400322
 .word 0xf9404c50
@@ -3696,7 +3856,7 @@ ldr x1, [x16, #768]
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_29:
+Lme_2b:
 .text
 	.align 4
 	.no_dead_strip Xamarin_Forms_Maps_Map_get_LastMoveToRegion
@@ -3708,7 +3868,7 @@ Xamarin_Forms_Maps_Map_get_LastMoveToRegion:
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #776]
+ldr x16, [x16, #800]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -3744,7 +3904,7 @@ ldr x16, [x16, #776]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_2a:
+Lme_2c:
 .text
 	.align 4
 	.no_dead_strip Xamarin_Forms_Maps_Map_set_LastMoveToRegion_Xamarin_Forms_Maps_MapSpan
@@ -3757,7 +3917,7 @@ Xamarin_Forms_Maps_Map_set_LastMoveToRegion_Xamarin_Forms_Maps_MapSpan:
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #784]
+ldr x16, [x16, #808]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -3800,7 +3960,7 @@ ldr x2, [x16, #16]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_2b:
+Lme_2d:
 .text
 	.align 4
 	.no_dead_strip Xamarin_Forms_Maps_Map_System_Collections_IEnumerable_GetEnumerator
@@ -3812,7 +3972,7 @@ Xamarin_Forms_Maps_Map_System_Collections_IEnumerable_GetEnumerator:
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #792]
+ldr x16, [x16, #816]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -3859,7 +4019,7 @@ bl _p_26
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_2c:
+Lme_2e:
 .text
 	.align 4
 	.no_dead_strip Xamarin_Forms_Maps_Map_GetEnumerator
@@ -3871,7 +4031,7 @@ Xamarin_Forms_Maps_Map_GetEnumerator:
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #800]
+ldr x16, [x16, #824]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -3921,7 +4081,7 @@ bl _p_27
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_2d:
+Lme_2f:
 .text
 	.align 4
 	.no_dead_strip Xamarin_Forms_Maps_Map_MoveToRegion_Xamarin_Forms_Maps_MapSpan
@@ -3935,7 +4095,7 @@ Xamarin_Forms_Maps_Map_MoveToRegion_Xamarin_Forms_Maps_MapSpan:
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #808]
+ldr x16, [x16, #832]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -4010,12 +4170,12 @@ bl _p_13
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x1, [x16, #816]
+ldr x1, [x16, #840]
 .word 0xaa1a03e0
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x15, [x16, #824]
+ldr x15, [x16, #848]
 .word 0xaa1903e0
 .word 0xaa1a03e2
 bl _p_28
@@ -4036,7 +4196,7 @@ bl _p_28
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_2e:
+Lme_30:
 .text
 	.align 4
 	.no_dead_strip Xamarin_Forms_Maps_Map_PinsOnCollectionChanged_object_System_Collections_Specialized_NotifyCollectionChangedEventArgs
@@ -4053,7 +4213,7 @@ Xamarin_Forms_Maps_Map_PinsOnCollectionChanged_object_System_Collections_Special
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #832]
+ldr x16, [x16, #856]
 .word 0xf90027b0
 .word 0xf9400a11
 .word 0xf9002bb1
@@ -4104,7 +4264,7 @@ bl _p_29
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x15, [x16, #840]
+ldr x15, [x16, #864]
 bl _p_30
 .word 0xf90033a0
 .word 0xf94027b1
@@ -4115,7 +4275,7 @@ bl _p_30
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x0, [x16, #848]
+ldr x0, [x16, #872]
 .word 0xf9400000
 .word 0xaa0003f9
 .word 0xaa1903e0
@@ -4128,7 +4288,7 @@ ldr x0, [x16, #848]
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x0, [x16, #856]
+ldr x0, [x16, #880]
 .word 0xf9400000
 .word 0xf90033a0
 .word 0xeb1f001f
@@ -4137,7 +4297,7 @@ ldr x0, [x16, #856]
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x0, [x16, #864]
+ldr x0, [x16, #888]
 .word 0xd2801001
 .word 0xd2801001
 bl _p_10
@@ -4161,17 +4321,17 @@ ldr x3, [x16, #16]
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x1, [x16, #872]
+ldr x1, [x16, #896]
 .word 0xf9001401
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x1, [x16, #880]
+ldr x1, [x16, #904]
 .word 0xf9002001
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x1, [x16, #888]
+ldr x1, [x16, #912]
 .word 0xf9401422
 .word 0xf9000c02
 .word 0xf9401021
@@ -4184,7 +4344,7 @@ ldr x1, [x16, #888]
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x1, [x16, #848]
+ldr x1, [x16, #872]
 .word 0xf9000020
 .word 0xaa0003f7
 .word 0xaa1803e0
@@ -4192,7 +4352,7 @@ ldr x1, [x16, #848]
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x15, [x16, #896]
+ldr x15, [x16, #920]
 .word 0xaa1803e0
 .word 0xaa1703e1
 bl _p_31
@@ -4247,7 +4407,7 @@ bl _p_6
 .word 0xaa1103e1
 bl _p_6
 
-Lme_2f:
+Lme_31:
 .text
 	.align 4
 	.no_dead_strip Xamarin_Forms_Maps_Map_OnItemsSourcePropertyChanged_System_Collections_IEnumerable_System_Collections_IEnumerable
@@ -4265,7 +4425,7 @@ Xamarin_Forms_Maps_Map_OnItemsSourcePropertyChanged_System_Collections_IEnumerab
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #904]
+ldr x16, [x16, #928]
 .word 0xf9002fb0
 .word 0xf9400a11
 .word 0xf90033b1
@@ -4299,14 +4459,14 @@ bl _p_1
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x1, [x16, #912]
+ldr x1, [x16, #936]
 .word 0xeb01001f
 .word 0x540001c3
 .word 0xf9401260
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x1, [x16, #912]
+ldr x1, [x16, #936]
 .word 0x9343fc22
 .word 0x8b020000
 .word 0x39400000
@@ -4359,17 +4519,17 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x0, [x16, #920]
+ldr x0, [x16, #944]
 .word 0xf9001420
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x0, [x16, #928]
+ldr x0, [x16, #952]
 .word 0xf9002020
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x0, [x16, #936]
+ldr x0, [x16, #960]
 .word 0xf9401402
 .word 0xf9000c22
 .word 0xf9401000
@@ -4381,7 +4541,7 @@ ldr x0, [x16, #936]
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x15, [x16, #944]
+ldr x15, [x16, #968]
 .word 0x92800cf0
 .word 0xf2bffff0
 .word 0xf8706850
@@ -4412,7 +4572,7 @@ ldr x15, [x16, #944]
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x1, [x16, #912]
+ldr x1, [x16, #936]
 .word 0xeb01001f
 .word 0x540001e3
 .word 0xf94043a0
@@ -4420,7 +4580,7 @@ ldr x1, [x16, #912]
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x1, [x16, #912]
+ldr x1, [x16, #936]
 .word 0x9343fc22
 .word 0x8b020000
 .word 0x39400000
@@ -4473,17 +4633,17 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x0, [x16, #920]
+ldr x0, [x16, #944]
 .word 0xf9001420
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x0, [x16, #928]
+ldr x0, [x16, #952]
 .word 0xf9002020
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x0, [x16, #936]
+ldr x0, [x16, #960]
 .word 0xf9401402
 .word 0xf9000c22
 .word 0xf9401000
@@ -4495,7 +4655,7 @@ ldr x0, [x16, #936]
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x15, [x16, #952]
+ldr x15, [x16, #976]
 .word 0x928010f0
 .word 0xf2bffff0
 .word 0xf8706850
@@ -4554,7 +4714,7 @@ bl _p_6
 .word 0xaa1103e1
 bl _p_6
 
-Lme_30:
+Lme_32:
 .text
 	.align 4
 	.no_dead_strip Xamarin_Forms_Maps_Map_OnItemTemplatePropertyChanged_Xamarin_Forms_DataTemplate_Xamarin_Forms_DataTemplate
@@ -4572,7 +4732,7 @@ Xamarin_Forms_Maps_Map_OnItemTemplatePropertyChanged_Xamarin_Forms_DataTemplate_
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #960]
+ldr x16, [x16, #984]
 .word 0xf9002fb0
 .word 0xf9400a11
 .word 0xf90033b1
@@ -4620,7 +4780,7 @@ ldr x1, [x16, #688]
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x0, [x16, #968]
+ldr x0, [x16, #992]
 .word 0xd28000a1
 bl _p_34
 .word 0xaa0003f6
@@ -4793,7 +4953,7 @@ bl _p_33
 .word 0xa8cf7bfd
 .word 0xd65f03c0
 
-Lme_31:
+Lme_33:
 .text
 	.align 4
 	.no_dead_strip Xamarin_Forms_Maps_Map_OnItemTemplateSelectorPropertyChanged
@@ -4806,7 +4966,7 @@ Xamarin_Forms_Maps_Map_OnItemTemplateSelectorPropertyChanged:
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #976]
+ldr x16, [x16, #1000]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -4862,7 +5022,7 @@ bl _p_33
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_32:
+Lme_34:
 .text
 	.align 4
 	.no_dead_strip Xamarin_Forms_Maps_Map_OnItemsSourceCollectionChanged_object_System_Collections_Specialized_NotifyCollectionChangedEventArgs
@@ -4877,7 +5037,7 @@ Xamarin_Forms_Maps_Map_OnItemsSourceCollectionChanged_object_System_Collections_
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #984]
+ldr x16, [x16, #1008]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -4909,7 +5069,7 @@ bl _p_1
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x0, [x16, #992]
+ldr x0, [x16, #1016]
 .word 0xd2801001
 .word 0xd2801001
 bl _p_10
@@ -4932,17 +5092,17 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x1, [x16, #1000]
+ldr x1, [x16, #1024]
 .word 0xf9001401
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x1, [x16, #1008]
+ldr x1, [x16, #1032]
 .word 0xf9002001
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x1, [x16, #1016]
+ldr x1, [x16, #1040]
 .word 0xf9401422
 .word 0xf9000c02
 .word 0xf9401021
@@ -4957,7 +5117,7 @@ ldr x1, [x16, #1016]
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x0, [x16, #1024]
+ldr x0, [x16, #1048]
 .word 0xd2801001
 .word 0xd2801001
 bl _p_10
@@ -4980,17 +5140,17 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x1, [x16, #1032]
+ldr x1, [x16, #1056]
 .word 0xf9001401
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x1, [x16, #1040]
+ldr x1, [x16, #1064]
 .word 0xf9002001
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x1, [x16, #1048]
+ldr x1, [x16, #1072]
 .word 0xf9401422
 .word 0xf9000c02
 .word 0xf9401021
@@ -5005,7 +5165,7 @@ ldr x1, [x16, #1048]
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x0, [x16, #1056]
+ldr x0, [x16, #1080]
 .word 0xd2801001
 .word 0xd2801001
 bl _p_10
@@ -5032,17 +5192,17 @@ ldr x5, [x16, #16]
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x4, [x16, #1064]
+ldr x4, [x16, #1088]
 .word 0xf9001464
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x4, [x16, #1072]
+ldr x4, [x16, #1096]
 .word 0xf9002064
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x4, [x16, #1080]
+ldr x4, [x16, #1104]
 .word 0xf9401485
 .word 0xf9000c65
 .word 0xf9401084
@@ -5074,7 +5234,7 @@ bl _p_6
 .word 0xaa1103e1
 bl _p_6
 
-Lme_33:
+Lme_35:
 .text
 	.align 4
 	.no_dead_strip Xamarin_Forms_Maps_Map_CreatePinItems
@@ -5087,7 +5247,7 @@ Xamarin_Forms_Maps_Map_CreatePinItems:
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #1088]
+ldr x16, [x16, #1112]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -5190,7 +5350,7 @@ bl _p_38
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x15, [x16, #1096]
+ldr x15, [x16, #1120]
 .word 0x92800ef0
 .word 0xf2bffff0
 .word 0xf8706830
@@ -5232,7 +5392,7 @@ bl _p_1
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x15, [x16, #1104]
+ldr x15, [x16, #1128]
 .word 0x928003f0
 .word 0xf2bffff0
 .word 0xf8706830
@@ -5272,7 +5432,7 @@ bl _p_41
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x15, [x16, #1112]
+ldr x15, [x16, #1136]
 .word 0x92800ef0
 .word 0xf2bffff0
 .word 0xf8706830
@@ -5326,7 +5486,7 @@ bl _p_1
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x1, [x16, #1120]
+ldr x1, [x16, #1144]
 .word 0xeb01001f
 .word 0x540001e3
 .word 0xf94033a0
@@ -5334,7 +5494,7 @@ ldr x1, [x16, #1120]
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x1, [x16, #1120]
+ldr x1, [x16, #1144]
 .word 0x9343fc22
 .word 0x8b020000
 .word 0x39400000
@@ -5369,7 +5529,7 @@ ldr x1, [x16, #1120]
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x15, [x16, #1128]
+ldr x15, [x16, #1152]
 .word 0x928004f0
 .word 0xf2bffff0
 .word 0xf8706830
@@ -5405,7 +5565,7 @@ ldr x15, [x16, #1128]
 .word 0xa8c97bfd
 .word 0xd65f03c0
 
-Lme_34:
+Lme_36:
 .text
 	.align 4
 	.no_dead_strip Xamarin_Forms_Maps_Map_CreatePin_object
@@ -5422,7 +5582,7 @@ Xamarin_Forms_Maps_Map_CreatePin_object:
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #1136]
+ldr x16, [x16, #1160]
 .word 0xf90027b0
 .word 0xf9400a11
 .word 0xf9002bb1
@@ -5543,7 +5703,7 @@ bl _p_44
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x1, [x16, #1144]
+ldr x1, [x16, #1168]
 .word 0xeb01001f
 .word 0x10000011
 .word 0x540005e1
@@ -5597,7 +5757,7 @@ bl _p_46
 .word 0xaa1103e1
 bl _p_6
 
-Lme_35:
+Lme_37:
 .text
 	.align 4
 	.no_dead_strip Xamarin_Forms_Maps_Map_RemovePin_object
@@ -5613,7 +5773,7 @@ Xamarin_Forms_Maps_Map_RemovePin_object:
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #1152]
+ldr x16, [x16, #1176]
 .word 0xf90023b0
 .word 0xf9400a11
 .word 0xf90027b1
@@ -5770,13 +5930,13 @@ bl _p_50
 .word 0xa8c77bfd
 .word 0xd65f03c0
 
-Lme_36:
+Lme_38:
 .text
 	.align 4
 	.no_dead_strip Xamarin_Forms_Maps_Map__cctor
 Xamarin_Forms_Maps_Map__cctor:
 .loc 1 1 0
-.word 0xa9ad7bfd
+.word 0xa9ab7bfd
 .word 0x910003fd
 .word 0xd2800210
 .word 0x910003f1
@@ -5785,7 +5945,7 @@ Xamarin_Forms_Maps_Map__cctor:
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #1160]
+ldr x16, [x16, #1184]
 .word 0xf9000bb0
 .word 0xf9400a11
 .word 0xf9000fb1
@@ -5811,18 +5971,18 @@ bl _p_1
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x0, [x16, #1168]
-.word 0xf9008ba0
+ldr x0, [x16, #1192]
+.word 0xf9009ba0
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x0, [x16, #1176]
-.word 0xf9008fa0
+ldr x0, [x16, #1200]
+.word 0xf9009fa0
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x0, [x16, #1184]
-.word 0xf90093a0
+ldr x0, [x16, #1208]
+.word 0xf900a3a0
 .word 0xd2800000
 .word 0xd2800000
 
@@ -5833,9 +5993,9 @@ ldr x0, [x16, #592]
 .word 0xd2800281
 bl _p_10
 .word 0xaa0003e3
-.word 0xf9408ba0
-.word 0xf9408fa1
-.word 0xf94093a2
+.word 0xf9409ba0
+.word 0xf9409fa1
+.word 0xf940a3a2
 .word 0xb900107f
 .word 0xaa0303e4
 .word 0xd2800044
@@ -5851,12 +6011,12 @@ bl _p_10
 .word 0xf90003ff
 .word 0xf90007ff
 bl _p_51
-.word 0xf90087a0
+.word 0xf90097a0
 .word 0xf9400bb1
 .word 0xf9412631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf94087a1
+.word 0xf94097a1
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
@@ -5869,19 +6029,75 @@ ldr x0, [x16, #568]
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x0, [x16, #1192]
+ldr x0, [x16, #1216]
+.word 0xf9008ba0
+
+adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
+add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
+ldr x0, [x16, #1224]
+.word 0xf9008fa0
+
+adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
+add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
+ldr x0, [x16, #1208]
+.word 0xf90093a0
+.word 0xd2800000
+
+adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
+add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
+ldr x0, [x16, #504]
+.word 0xd2800221
+.word 0xd2800221
+bl _p_10
+.word 0xaa0003e3
+.word 0xf9408ba0
+.word 0xf9408fa1
+.word 0xf94093a2
+.word 0x3900407f
+.word 0xd2800044
+.word 0xd2800004
+.word 0xd2800004
+.word 0xd2800004
+.word 0xd2800004
+.word 0xd2800004
+.word 0xd2800044
+.word 0xd2800005
+.word 0xd2800006
+.word 0xd2800007
+.word 0xf90003ff
+.word 0xf90007ff
+bl _p_51
+.word 0xf90087a0
+.word 0xf9400bb1
+.word 0xf941f231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94087a1
+
+adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
+add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
+ldr x0, [x16, #544]
+.word 0xf9000001
+.word 0xf9400bb1
+.word 0xf9421631
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
+add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
+ldr x0, [x16, #1232]
 .word 0xf9007ba0
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x0, [x16, #1200]
+ldr x0, [x16, #1224]
 .word 0xf9007fa0
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x0, [x16, #1184]
+ldr x0, [x16, #1208]
 .word 0xf90083a0
-.word 0xd2800000
+.word 0xd2800020
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
@@ -5893,7 +6109,8 @@ bl _p_10
 .word 0xf9407ba0
 .word 0xf9407fa1
 .word 0xf94083a2
-.word 0x3900407f
+.word 0xd280003e
+.word 0x3900407e
 .word 0xd2800044
 .word 0xd2800004
 .word 0xd2800004
@@ -5909,33 +6126,33 @@ bl _p_10
 bl _p_51
 .word 0xf90077a0
 .word 0xf9400bb1
-.word 0xf941f231
+.word 0xf942c231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94077a1
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x0, [x16, #544]
+ldr x0, [x16, #480]
 .word 0xf9000001
 .word 0xf9400bb1
-.word 0xf9421631
+.word 0xf942e631
 .word 0xb4000051
 .word 0xd63f0220
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x0, [x16, #1208]
+ldr x0, [x16, #1240]
 .word 0xf9006ba0
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x0, [x16, #1200]
+ldr x0, [x16, #1224]
 .word 0xf9006fa0
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x0, [x16, #1184]
+ldr x0, [x16, #1208]
 .word 0xf90073a0
 .word 0xd2800020
 
@@ -5966,34 +6183,334 @@ bl _p_10
 bl _p_51
 .word 0xf90067a0
 .word 0xf9400bb1
-.word 0xf942c231
+.word 0xf9439231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94067a1
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x0, [x16, #480]
+ldr x0, [x16, #520]
 .word 0xf9000001
 .word 0xf9400bb1
-.word 0xf942e631
+.word 0xf943b631
 .word 0xb4000051
 .word 0xd63f0220
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x0, [x16, #1216]
+ldr x0, [x16, #1248]
+.word 0xf90057a0
+
+adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
+add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
+ldr x0, [x16, #1256]
 .word 0xf9005ba0
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x0, [x16, #1200]
+ldr x0, [x16, #1208]
 .word 0xf9005fa0
+.word 0xd2800000
+.word 0xd2800040
+.word 0xd2800000
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x0, [x16, #1184]
+ldr x0, [x16, #880]
+.word 0xf9400000
 .word 0xf90063a0
+.word 0xeb1f001f
+.word 0x10000011
+.word 0x540026c0
+
+adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
+add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
+ldr x0, [x16, #1264]
+.word 0xd2801001
+.word 0xd2801001
+bl _p_10
+.word 0xaa0003e6
+.word 0xf94057a0
+.word 0xf9405ba1
+.word 0xf9405fa2
+.word 0xf94063a3
+.word 0xeb1f007f
+.word 0x10000011
+.word 0x540024a0
+.word 0xf90010c3
+.word 0x910080c4
+.word 0xd349fc84
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0084
+
+adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
+add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
+ldr x5, [x16, #16]
+.word 0x8b050084
+.word 0xd280003e
+.word 0x3900009e
+
+adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
+add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
+ldr x3, [x16, #1272]
+.word 0xf90014c3
+
+adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
+add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
+ldr x3, [x16, #1280]
+.word 0xf90020c3
+
+adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
+add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
+ldr x3, [x16, #1288]
+.word 0xf9401464
+.word 0xf9000cc4
+.word 0xf9401063
+.word 0xf90008c3
+.word 0xd2800003
+.word 0x3901c0df
+.word 0xd2800003
+.word 0xd2800003
+.word 0xd2800003
+.word 0xd2800003
+.word 0xd2800044
+.word 0xd2800005
+.word 0xd2800007
+.word 0xf90003ff
+.word 0xf90007ff
+bl _p_51
+.word 0xf90053a0
+.word 0xf9400bb1
+.word 0xf944fa31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94053a1
+
+adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
+add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
+ldr x0, [x16, #616]
+.word 0xf9000001
+.word 0xf9400bb1
+.word 0xf9451e31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
+add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
+ldr x0, [x16, #1296]
+.word 0xf90043a0
+
+adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
+add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
+ldr x0, [x16, #1304]
+.word 0xf90047a0
+
+adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
+add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
+ldr x0, [x16, #1208]
+.word 0xf9004ba0
+.word 0xd2800000
+.word 0xd2800040
+.word 0xd2800000
+
+adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
+add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
+ldr x0, [x16, #880]
+.word 0xf9400000
+.word 0xf9004fa0
+.word 0xeb1f001f
+.word 0x10000011
+.word 0x54001b80
+
+adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
+add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
+ldr x0, [x16, #1264]
+.word 0xd2801001
+.word 0xd2801001
+bl _p_10
+.word 0xaa0003e6
+.word 0xf94043a0
+.word 0xf94047a1
+.word 0xf9404ba2
+.word 0xf9404fa3
+.word 0xeb1f007f
+.word 0x10000011
+.word 0x54001960
+.word 0xf90010c3
+.word 0x910080c4
+.word 0xd349fc84
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0084
+
+adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
+add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
+ldr x5, [x16, #16]
+.word 0x8b050084
+.word 0xd280003e
+.word 0x3900009e
+
+adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
+add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
+ldr x3, [x16, #1312]
+.word 0xf90014c3
+
+adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
+add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
+ldr x3, [x16, #1320]
+.word 0xf90020c3
+
+adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
+add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
+ldr x3, [x16, #1328]
+.word 0xf9401464
+.word 0xf9000cc4
+.word 0xf9401063
+.word 0xf90008c3
+.word 0xd2800003
+.word 0x3901c0df
+.word 0xd2800003
+.word 0xd2800003
+.word 0xd2800003
+.word 0xd2800003
+.word 0xd2800044
+.word 0xd2800005
+.word 0xd2800007
+.word 0xf90003ff
+.word 0xf90007ff
+bl _p_51
+.word 0xf9003fa0
+.word 0xf9400bb1
+.word 0xf9466231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9403fa1
+
+adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
+add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
+ldr x0, [x16, #648]
+.word 0xf9000001
+.word 0xf9400bb1
+.word 0xf9468631
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
+add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
+ldr x0, [x16, #1336]
+.word 0xf9002fa0
+
+adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
+add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
+ldr x0, [x16, #1344]
+.word 0xf90033a0
+
+adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
+add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
+ldr x0, [x16, #1208]
+.word 0xf90037a0
+.word 0xd2800000
+.word 0xd2800040
+.word 0xd2800000
+
+adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
+add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
+ldr x0, [x16, #880]
+.word 0xf9400000
+.word 0xf9003ba0
+.word 0xeb1f001f
+.word 0x10000011
+.word 0x54001040
+
+adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
+add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
+ldr x0, [x16, #1264]
+.word 0xd2801001
+.word 0xd2801001
+bl _p_10
+.word 0xaa0003e6
+.word 0xf9402fa0
+.word 0xf94033a1
+.word 0xf94037a2
+.word 0xf9403ba3
+.word 0xeb1f007f
+.word 0x10000011
+.word 0x54000e20
+.word 0xf90010c3
+.word 0x910080c4
+.word 0xd349fc84
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0084
+
+adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
+add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
+ldr x5, [x16, #16]
+.word 0x8b050084
+.word 0xd280003e
+.word 0x3900009e
+
+adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
+add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
+ldr x3, [x16, #1352]
+.word 0xf90014c3
+
+adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
+add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
+ldr x3, [x16, #1360]
+.word 0xf90020c3
+
+adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
+add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
+ldr x3, [x16, #1368]
+.word 0xf9401464
+.word 0xf9000cc4
+.word 0xf9401063
+.word 0xf90008c3
+.word 0xd2800003
+.word 0x3901c0df
+.word 0xd2800003
+.word 0xd2800003
+.word 0xd2800003
+.word 0xd2800003
+.word 0xd2800044
+.word 0xd2800005
+.word 0xd2800007
+.word 0xf90003ff
+.word 0xf90007ff
+bl _p_51
+.word 0xf9002ba0
+.word 0xf9400bb1
+.word 0xf947ca31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402ba1
+
+adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
+add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
+ldr x0, [x16, #680]
+.word 0xf9000001
+.word 0xf9400bb1
+.word 0xf947ee31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
+add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
+ldr x0, [x16, #1376]
+.word 0xf9001fa0
+
+adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
+add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
+ldr x0, [x16, #1224]
+.word 0xf90023a0
+
+adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
+add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
+ldr x0, [x16, #1208]
+.word 0xf90027a0
 .word 0xd2800020
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
@@ -6003,9 +6520,9 @@ ldr x0, [x16, #504]
 .word 0xd2800221
 bl _p_10
 .word 0xaa0003e3
-.word 0xf9405ba0
-.word 0xf9405fa1
-.word 0xf94063a2
+.word 0xf9401fa0
+.word 0xf94023a1
+.word 0xf94027a2
 .word 0xd280003e
 .word 0x3900407e
 .word 0xd2800044
@@ -6021,327 +6538,27 @@ bl _p_10
 .word 0xf90003ff
 .word 0xf90007ff
 bl _p_51
-.word 0xf90057a0
-.word 0xf9400bb1
-.word 0xf9439231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94057a1
-
-adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
-add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x0, [x16, #520]
-.word 0xf9000001
-.word 0xf9400bb1
-.word 0xf943b631
-.word 0xb4000051
-.word 0xd63f0220
-
-adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
-add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x0, [x16, #1224]
-.word 0xf90047a0
-
-adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
-add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x0, [x16, #1232]
-.word 0xf9004ba0
-
-adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
-add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x0, [x16, #1184]
-.word 0xf9004fa0
-.word 0xd2800000
-.word 0xd2800040
-.word 0xd2800000
-
-adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
-add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x0, [x16, #856]
-.word 0xf9400000
-.word 0xf90053a0
-.word 0xeb1f001f
-.word 0x10000011
-.word 0x54002040
-
-adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
-add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x0, [x16, #1240]
-.word 0xd2801001
-.word 0xd2801001
-bl _p_10
-.word 0xaa0003e6
-.word 0xf94047a0
-.word 0xf9404ba1
-.word 0xf9404fa2
-.word 0xf94053a3
-.word 0xeb1f007f
-.word 0x10000011
-.word 0x54001e20
-.word 0xf90010c3
-.word 0x910080c4
-.word 0xd349fc84
-.word 0xd29ffffe
-.word 0xf2a00ffe
-.word 0x8a1e0084
-
-adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
-add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x5, [x16, #16]
-.word 0x8b050084
-.word 0xd280003e
-.word 0x3900009e
-
-adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
-add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x3, [x16, #1248]
-.word 0xf90014c3
-
-adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
-add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x3, [x16, #1256]
-.word 0xf90020c3
-
-adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
-add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x3, [x16, #1264]
-.word 0xf9401464
-.word 0xf9000cc4
-.word 0xf9401063
-.word 0xf90008c3
-.word 0xd2800003
-.word 0x3901c0df
-.word 0xd2800003
-.word 0xd2800003
-.word 0xd2800003
-.word 0xd2800003
-.word 0xd2800044
-.word 0xd2800005
-.word 0xd2800007
-.word 0xf90003ff
-.word 0xf90007ff
-bl _p_51
-.word 0xf90043a0
-.word 0xf9400bb1
-.word 0xf944fa31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94043a1
-
-adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
-add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x0, [x16, #616]
-.word 0xf9000001
-.word 0xf9400bb1
-.word 0xf9451e31
-.word 0xb4000051
-.word 0xd63f0220
-
-adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
-add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x0, [x16, #1272]
-.word 0xf90033a0
-
-adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
-add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x0, [x16, #1280]
-.word 0xf90037a0
-
-adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
-add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x0, [x16, #1184]
-.word 0xf9003ba0
-.word 0xd2800000
-.word 0xd2800040
-.word 0xd2800000
-
-adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
-add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x0, [x16, #856]
-.word 0xf9400000
-.word 0xf9003fa0
-.word 0xeb1f001f
-.word 0x10000011
-.word 0x54001500
-
-adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
-add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x0, [x16, #1240]
-.word 0xd2801001
-.word 0xd2801001
-bl _p_10
-.word 0xaa0003e6
-.word 0xf94033a0
-.word 0xf94037a1
-.word 0xf9403ba2
-.word 0xf9403fa3
-.word 0xeb1f007f
-.word 0x10000011
-.word 0x540012e0
-.word 0xf90010c3
-.word 0x910080c4
-.word 0xd349fc84
-.word 0xd29ffffe
-.word 0xf2a00ffe
-.word 0x8a1e0084
-
-adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
-add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x5, [x16, #16]
-.word 0x8b050084
-.word 0xd280003e
-.word 0x3900009e
-
-adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
-add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x3, [x16, #1288]
-.word 0xf90014c3
-
-adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
-add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x3, [x16, #1296]
-.word 0xf90020c3
-
-adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
-add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x3, [x16, #1304]
-.word 0xf9401464
-.word 0xf9000cc4
-.word 0xf9401063
-.word 0xf90008c3
-.word 0xd2800003
-.word 0x3901c0df
-.word 0xd2800003
-.word 0xd2800003
-.word 0xd2800003
-.word 0xd2800003
-.word 0xd2800044
-.word 0xd2800005
-.word 0xd2800007
-.word 0xf90003ff
-.word 0xf90007ff
-bl _p_51
-.word 0xf9002fa0
-.word 0xf9400bb1
-.word 0xf9466231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9402fa1
-
-adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
-add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x0, [x16, #648]
-.word 0xf9000001
-.word 0xf9400bb1
-.word 0xf9468631
-.word 0xb4000051
-.word 0xd63f0220
-
-adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
-add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x0, [x16, #1312]
-.word 0xf9001fa0
-
-adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
-add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x0, [x16, #1320]
-.word 0xf90023a0
-
-adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
-add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x0, [x16, #1184]
-.word 0xf90027a0
-.word 0xd2800000
-.word 0xd2800040
-.word 0xd2800000
-
-adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
-add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x0, [x16, #856]
-.word 0xf9400000
-.word 0xf9002ba0
-.word 0xeb1f001f
-.word 0x10000011
-.word 0x540009c0
-
-adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
-add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x0, [x16, #1240]
-.word 0xd2801001
-.word 0xd2801001
-bl _p_10
-.word 0xaa0003e6
-.word 0xf9401fa0
-.word 0xf94023a1
-.word 0xf94027a2
-.word 0xf9402ba3
-.word 0xeb1f007f
-.word 0x10000011
-.word 0x540007a0
-.word 0xf90010c3
-.word 0x910080c4
-.word 0xd349fc84
-.word 0xd29ffffe
-.word 0xf2a00ffe
-.word 0x8a1e0084
-
-adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
-add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x5, [x16, #16]
-.word 0x8b050084
-.word 0xd280003e
-.word 0x3900009e
-
-adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
-add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x3, [x16, #1328]
-.word 0xf90014c3
-
-adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
-add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x3, [x16, #1336]
-.word 0xf90020c3
-
-adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
-add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x3, [x16, #1344]
-.word 0xf9401464
-.word 0xf9000cc4
-.word 0xf9401063
-.word 0xf90008c3
-.word 0xd2800003
-.word 0x3901c0df
-.word 0xd2800003
-.word 0xd2800003
-.word 0xd2800003
-.word 0xd2800003
-.word 0xd2800044
-.word 0xd2800005
-.word 0xd2800007
-.word 0xf90003ff
-.word 0xf90007ff
-bl _p_51
 .word 0xf9001ba0
 .word 0xf9400bb1
-.word 0xf947ca31
+.word 0xf9489a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9401ba1
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x0, [x16, #680]
+ldr x0, [x16, #712]
 .word 0xf9000001
 .word 0xf9400bb1
-.word 0xf947ee31
+.word 0xf948be31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400bb1
-.word 0xf947fe31
+.word 0xf948ce31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x910003bf
-.word 0xa8d37bfd
+.word 0xa8d57bfd
 .word 0xd65f03c0
 .word 0xd2801bc0
 .word 0xaa1103e1
@@ -6350,11 +6567,11 @@ bl _p_6
 .word 0xaa1103e1
 bl _p_6
 
-Lme_37:
+Lme_39:
 .text
 	.align 4
-	.no_dead_strip Xamarin_Forms_Maps_Map__OnItemsSourceCollectionChangedb__53_0_object_int_bool
-Xamarin_Forms_Maps_Map__OnItemsSourceCollectionChangedb__53_0_object_int_bool:
+	.no_dead_strip Xamarin_Forms_Maps_Map__OnItemsSourceCollectionChangedb__57_0_object_int_bool
+Xamarin_Forms_Maps_Map__OnItemsSourceCollectionChangedb__57_0_object_int_bool:
 .loc 1 1 0
 .word 0xa9bb7bfd
 .word 0x910003fd
@@ -6365,7 +6582,7 @@ Xamarin_Forms_Maps_Map__OnItemsSourceCollectionChangedb__53_0_object_int_bool:
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #1352]
+ldr x16, [x16, #1384]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -6407,11 +6624,11 @@ bl _p_41
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_38:
+Lme_3a:
 .text
 	.align 4
-	.no_dead_strip Xamarin_Forms_Maps_Map__OnItemsSourceCollectionChangedb__53_1_object_int
-Xamarin_Forms_Maps_Map__OnItemsSourceCollectionChangedb__53_1_object_int:
+	.no_dead_strip Xamarin_Forms_Maps_Map__OnItemsSourceCollectionChangedb__57_1_object_int
+Xamarin_Forms_Maps_Map__OnItemsSourceCollectionChangedb__57_1_object_int:
 .loc 1 1 0
 .word 0xa9bc7bfd
 .word 0x910003fd
@@ -6421,7 +6638,7 @@ Xamarin_Forms_Maps_Map__OnItemsSourceCollectionChangedb__53_1_object_int:
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #1360]
+ldr x16, [x16, #1392]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -6463,11 +6680,11 @@ bl _p_52
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_39:
+Lme_3b:
 .text
 	.align 4
-	.no_dead_strip Xamarin_Forms_Maps_Map__OnItemsSourceCollectionChangedb__53_2
-Xamarin_Forms_Maps_Map__OnItemsSourceCollectionChangedb__53_2:
+	.no_dead_strip Xamarin_Forms_Maps_Map__OnItemsSourceCollectionChangedb__57_2
+Xamarin_Forms_Maps_Map__OnItemsSourceCollectionChangedb__57_2:
 .loc 1 1 0
 .word 0xa9bd7bfd
 .word 0x910003fd
@@ -6475,7 +6692,7 @@ Xamarin_Forms_Maps_Map__OnItemsSourceCollectionChangedb__53_2:
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #1368]
+ldr x16, [x16, #1400]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -6519,7 +6736,7 @@ bl _p_32
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_3a:
+Lme_3c:
 .text
 	.align 4
 	.no_dead_strip Xamarin_Forms_Maps_Map__c__cctor
@@ -6530,7 +6747,7 @@ Xamarin_Forms_Maps_Map__c__cctor:
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #1376]
+ldr x16, [x16, #1408]
 .word 0xf9000bb0
 .word 0xf9400a11
 .word 0xf9000fb1
@@ -6556,7 +6773,7 @@ bl _p_1
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x0, [x16, #1384]
+ldr x0, [x16, #1416]
 .word 0xd2800201
 .word 0xd2800201
 bl _p_10
@@ -6570,7 +6787,7 @@ bl _p_53
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x0, [x16, #856]
+ldr x0, [x16, #880]
 .word 0xf9000001
 .word 0xf9400bb1
 .word 0xf940ba31
@@ -6584,7 +6801,7 @@ ldr x0, [x16, #856]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_3b:
+Lme_3d:
 .text
 	.align 4
 	.no_dead_strip Xamarin_Forms_Maps_Map__c__ctor
@@ -6596,7 +6813,7 @@ Xamarin_Forms_Maps_Map__c__ctor:
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #1392]
+ldr x16, [x16, #1424]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -6629,11 +6846,11 @@ ldr x16, [x16, #1392]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_3c:
+Lme_3e:
 .text
 	.align 4
-	.no_dead_strip Xamarin_Forms_Maps_Map__c__PinsOnCollectionChangedb__49_0_Xamarin_Forms_Maps_Pin
-Xamarin_Forms_Maps_Map__c__PinsOnCollectionChangedb__49_0_Xamarin_Forms_Maps_Pin:
+	.no_dead_strip Xamarin_Forms_Maps_Map__c__PinsOnCollectionChangedb__53_0_Xamarin_Forms_Maps_Pin
+Xamarin_Forms_Maps_Map__c__PinsOnCollectionChangedb__53_0_Xamarin_Forms_Maps_Pin:
 .loc 1 1 0
 .word 0xa9bb7bfd
 .word 0x910003fd
@@ -6642,7 +6859,7 @@ Xamarin_Forms_Maps_Map__c__PinsOnCollectionChangedb__49_0_Xamarin_Forms_Maps_Pin
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #1400]
+ldr x16, [x16, #1432]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -6696,11 +6913,11 @@ bl _p_54
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_3d:
+Lme_3f:
 .text
 	.align 4
-	.no_dead_strip Xamarin_Forms_Maps_Map__c___cctorb__57_0_Xamarin_Forms_BindableObject_object_object
-Xamarin_Forms_Maps_Map__c___cctorb__57_0_Xamarin_Forms_BindableObject_object_object:
+	.no_dead_strip Xamarin_Forms_Maps_Map__c___cctorb__61_0_Xamarin_Forms_BindableObject_object_object
+Xamarin_Forms_Maps_Map__c___cctorb__61_0_Xamarin_Forms_BindableObject_object_object:
 .loc 1 1 0
 .word 0xa9b97bfd
 .word 0x910003fd
@@ -6714,7 +6931,7 @@ Xamarin_Forms_Maps_Map__c___cctorb__57_0_Xamarin_Forms_BindableObject_object_obj
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #1408]
+ldr x16, [x16, #1440]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -6751,7 +6968,7 @@ bl _p_1
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x1, [x16, #1416]
+ldr x1, [x16, #1448]
 .word 0xeb01001f
 .word 0x10000011
 .word 0x540009a1
@@ -6839,11 +7056,11 @@ bl _p_55
 .word 0xaa1103e1
 bl _p_6
 
-Lme_3e:
+Lme_40:
 .text
 	.align 4
-	.no_dead_strip Xamarin_Forms_Maps_Map__c___cctorb__57_1_Xamarin_Forms_BindableObject_object_object
-Xamarin_Forms_Maps_Map__c___cctorb__57_1_Xamarin_Forms_BindableObject_object_object:
+	.no_dead_strip Xamarin_Forms_Maps_Map__c___cctorb__61_1_Xamarin_Forms_BindableObject_object_object
+Xamarin_Forms_Maps_Map__c___cctorb__61_1_Xamarin_Forms_BindableObject_object_object:
 .loc 1 1 0
 .word 0xa9b97bfd
 .word 0x910003fd
@@ -6857,7 +7074,7 @@ Xamarin_Forms_Maps_Map__c___cctorb__57_1_Xamarin_Forms_BindableObject_object_obj
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #1424]
+ldr x16, [x16, #1456]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -6894,7 +7111,7 @@ bl _p_1
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x1, [x16, #1416]
+ldr x1, [x16, #1448]
 .word 0xeb01001f
 .word 0x10000011
 .word 0x54000661
@@ -6954,11 +7171,11 @@ bl _p_56
 .word 0xaa1103e1
 bl _p_6
 
-Lme_3f:
+Lme_41:
 .text
 	.align 4
-	.no_dead_strip Xamarin_Forms_Maps_Map__c___cctorb__57_2_Xamarin_Forms_BindableObject_object_object
-Xamarin_Forms_Maps_Map__c___cctorb__57_2_Xamarin_Forms_BindableObject_object_object:
+	.no_dead_strip Xamarin_Forms_Maps_Map__c___cctorb__61_2_Xamarin_Forms_BindableObject_object_object
+Xamarin_Forms_Maps_Map__c___cctorb__61_2_Xamarin_Forms_BindableObject_object_object:
 .loc 1 1 0
 .word 0xa9bb7bfd
 .word 0x910003fd
@@ -6970,7 +7187,7 @@ Xamarin_Forms_Maps_Map__c___cctorb__57_2_Xamarin_Forms_BindableObject_object_obj
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #1432]
+ldr x16, [x16, #1464]
 .word 0xf9001fb0
 .word 0xf9400a11
 .word 0xf90023b1
@@ -7007,7 +7224,7 @@ bl _p_1
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x1, [x16, #1416]
+ldr x1, [x16, #1448]
 .word 0xeb01001f
 .word 0x10000011
 .word 0x540002a1
@@ -7035,7 +7252,7 @@ bl _p_57
 .word 0xaa1103e1
 bl _p_6
 
-Lme_40:
+Lme_42:
 .text
 	.align 4
 	.no_dead_strip Xamarin_Forms_Maps_MapClickedEventArgs_get_Position
@@ -7047,7 +7264,7 @@ Xamarin_Forms_Maps_MapClickedEventArgs_get_Position:
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #1440]
+ldr x16, [x16, #1472]
 .word 0xf9002fb0
 .word 0xf9400a11
 .word 0xf90033b1
@@ -7094,7 +7311,7 @@ ldr x16, [x16, #1440]
 .word 0xa8c87bfd
 .word 0xd65f03c0
 
-Lme_41:
+Lme_43:
 .text
 	.align 4
 	.no_dead_strip Xamarin_Forms_Maps_MapClickedEventArgs__ctor_Xamarin_Forms_Maps_Position
@@ -7109,7 +7326,7 @@ Xamarin_Forms_Maps_MapClickedEventArgs__ctor_Xamarin_Forms_Maps_Position:
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #1448]
+ldr x16, [x16, #1480]
 .word 0xf9002fb0
 .word 0xf9400a11
 .word 0xf90033b1
@@ -7160,7 +7377,7 @@ ldr x16, [x16, #1448]
 .word 0xa8c87bfd
 .word 0xd65f03c0
 
-Lme_42:
+Lme_44:
 .text
 	.align 4
 	.no_dead_strip Xamarin_Forms_Maps_MapSpan__ctor_Xamarin_Forms_Maps_Position_double_double
@@ -7177,7 +7394,7 @@ Xamarin_Forms_Maps_MapSpan__ctor_Xamarin_Forms_Maps_Position_double_double:
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #1456]
+ldr x16, [x16, #1488]
 .word 0xf90037b0
 .word 0xf9400a11
 .word 0xf9003bb1
@@ -7313,7 +7530,7 @@ bl _p_59
 .word 0xa8cb7bfd
 .word 0xd65f03c0
 
-Lme_43:
+Lme_45:
 .text
 	.align 4
 	.no_dead_strip Xamarin_Forms_Maps_MapSpan_get_Center
@@ -7325,7 +7542,7 @@ Xamarin_Forms_Maps_MapSpan_get_Center:
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #1464]
+ldr x16, [x16, #1496]
 .word 0xf9002fb0
 .word 0xf9400a11
 .word 0xf90033b1
@@ -7372,7 +7589,7 @@ ldr x16, [x16, #1464]
 .word 0xa8c87bfd
 .word 0xd65f03c0
 
-Lme_44:
+Lme_46:
 .text
 	.align 4
 	.no_dead_strip Xamarin_Forms_Maps_MapSpan_get_LatitudeDegrees
@@ -7384,7 +7601,7 @@ Xamarin_Forms_Maps_MapSpan_get_LatitudeDegrees:
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #1472]
+ldr x16, [x16, #1504]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -7420,7 +7637,7 @@ ldr x16, [x16, #1472]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_45:
+Lme_47:
 .text
 	.align 4
 	.no_dead_strip Xamarin_Forms_Maps_MapSpan_get_LongitudeDegrees
@@ -7432,7 +7649,7 @@ Xamarin_Forms_Maps_MapSpan_get_LongitudeDegrees:
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #1480]
+ldr x16, [x16, #1512]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -7468,7 +7685,7 @@ ldr x16, [x16, #1480]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_46:
+Lme_48:
 .text
 	.align 4
 	.no_dead_strip Xamarin_Forms_Maps_MapSpan_get_Radius
@@ -7481,7 +7698,7 @@ Xamarin_Forms_Maps_MapSpan_get_Radius:
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #1488]
+ldr x16, [x16, #1520]
 .word 0xf9002fb0
 .word 0xf9400a11
 .word 0xf90033b1
@@ -7619,7 +7836,7 @@ bl _p_3
 .word 0xa8ce7bfd
 .word 0xd65f03c0
 
-Lme_47:
+Lme_49:
 .text
 	.align 4
 	.no_dead_strip Xamarin_Forms_Maps_MapSpan_ClampLatitude_double_double
@@ -7634,7 +7851,7 @@ Xamarin_Forms_Maps_MapSpan_ClampLatitude_double_double:
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #1496]
+ldr x16, [x16, #1528]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -7904,7 +8121,7 @@ bl _p_17
 .word 0xa8d27bfd
 .word 0xd65f03c0
 
-Lme_48:
+Lme_4a:
 .text
 	.align 4
 	.no_dead_strip Xamarin_Forms_Maps_MapSpan_Equals_object
@@ -7920,7 +8137,7 @@ Xamarin_Forms_Maps_MapSpan_Equals_object:
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #1504]
+ldr x16, [x16, #1536]
 .word 0xf9001fb0
 .word 0xf9400a11
 .word 0xf90023b1
@@ -7998,7 +8215,7 @@ bl _p_1
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x1, [x16, #1512]
+ldr x1, [x16, #1544]
 .word 0xeb01001f
 .word 0x54000040
 .word 0xd2800017
@@ -8018,7 +8235,7 @@ ldr x1, [x16, #1512]
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x1, [x16, #1512]
+ldr x1, [x16, #1544]
 .word 0xeb01001f
 .word 0x10000011
 .word 0x540005a1
@@ -8070,7 +8287,7 @@ bl _p_67
 .word 0xaa1103e1
 bl _p_6
 
-Lme_49:
+Lme_4b:
 .text
 	.align 4
 	.no_dead_strip Xamarin_Forms_Maps_MapSpan_FromCenterAndRadius_Xamarin_Forms_Maps_Position_Xamarin_Forms_Maps_Distance
@@ -8084,7 +8301,7 @@ Xamarin_Forms_Maps_MapSpan_FromCenterAndRadius_Xamarin_Forms_Maps_Position_Xamar
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #1520]
+ldr x16, [x16, #1552]
 .word 0xf9004bb0
 .word 0xf9400a11
 .word 0xf9004fb1
@@ -8197,7 +8414,7 @@ bl _p_17
 .word 0xa8d27bfd
 .word 0xd65f03c0
 
-Lme_4a:
+Lme_4c:
 .text
 	.align 4
 	.no_dead_strip Xamarin_Forms_Maps_MapSpan_GetHashCode
@@ -8210,7 +8427,7 @@ Xamarin_Forms_Maps_MapSpan_GetHashCode:
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #1528]
+ldr x16, [x16, #1560]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -8337,7 +8554,7 @@ bl _p_7
 .word 0xa8ca7bfd
 .word 0xd65f03c0
 
-Lme_4b:
+Lme_4d:
 .text
 	.align 4
 	.no_dead_strip Xamarin_Forms_Maps_MapSpan_op_Equality_Xamarin_Forms_Maps_MapSpan_Xamarin_Forms_Maps_MapSpan
@@ -8350,7 +8567,7 @@ Xamarin_Forms_Maps_MapSpan_op_Equality_Xamarin_Forms_Maps_MapSpan_Xamarin_Forms_
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #1536]
+ldr x16, [x16, #1568]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -8399,7 +8616,7 @@ bl _p_71
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_4c:
+Lme_4e:
 .text
 	.align 4
 	.no_dead_strip Xamarin_Forms_Maps_MapSpan_op_Inequality_Xamarin_Forms_Maps_MapSpan_Xamarin_Forms_Maps_MapSpan
@@ -8412,7 +8629,7 @@ Xamarin_Forms_Maps_MapSpan_op_Inequality_Xamarin_Forms_Maps_MapSpan_Xamarin_Form
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #1544]
+ldr x16, [x16, #1576]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -8466,7 +8683,7 @@ bl _p_71
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_4d:
+Lme_4f:
 .text
 	.align 4
 	.no_dead_strip Xamarin_Forms_Maps_MapSpan_WithZoom_double
@@ -8480,7 +8697,7 @@ Xamarin_Forms_Maps_MapSpan_WithZoom_double:
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #1552]
+ldr x16, [x16, #1584]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -8671,7 +8888,7 @@ bl _p_17
 .word 0xa8cf7bfd
 .word 0xd65f03c0
 
-Lme_4e:
+Lme_50:
 .text
 	.align 4
 	.no_dead_strip Xamarin_Forms_Maps_MapSpan_DistanceToLatitudeDegrees_Xamarin_Forms_Maps_Distance
@@ -8683,7 +8900,7 @@ Xamarin_Forms_Maps_MapSpan_DistanceToLatitudeDegrees_Xamarin_Forms_Maps_Distance
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #1560]
+ldr x16, [x16, #1592]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -8743,7 +8960,7 @@ bl _p_72
 .word 0xa8c87bfd
 .word 0xd65f03c0
 
-Lme_4f:
+Lme_51:
 .text
 	.align 4
 	.no_dead_strip Xamarin_Forms_Maps_MapSpan_DistanceToLongitudeDegrees_Xamarin_Forms_Maps_Position_Xamarin_Forms_Maps_Distance
@@ -8757,7 +8974,7 @@ Xamarin_Forms_Maps_MapSpan_DistanceToLongitudeDegrees_Xamarin_Forms_Maps_Positio
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #1568]
+ldr x16, [x16, #1600]
 .word 0xf9004bb0
 .word 0xf9400a11
 .word 0xf9004fb1
@@ -8836,7 +9053,7 @@ bl _p_72
 .word 0xa8ce7bfd
 .word 0xd65f03c0
 
-Lme_50:
+Lme_52:
 .text
 	.align 4
 	.no_dead_strip Xamarin_Forms_Maps_MapSpan_Equals_Xamarin_Forms_Maps_MapSpan
@@ -8850,7 +9067,7 @@ Xamarin_Forms_Maps_MapSpan_Equals_Xamarin_Forms_Maps_MapSpan:
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #1576]
+ldr x16, [x16, #1608]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -8919,7 +9136,7 @@ bl _p_62
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x0, [x16, #1584]
+ldr x0, [x16, #1616]
 .word 0xd2800401
 .word 0xd2800401
 bl _p_10
@@ -9055,7 +9272,7 @@ bl _p_4
 .word 0xa8ca7bfd
 .word 0xd65f03c0
 
-Lme_51:
+Lme_53:
 .text
 	.align 4
 	.no_dead_strip Xamarin_Forms_Maps_MapSpan_LatitudeCircumferenceKm_Xamarin_Forms_Maps_Position
@@ -9068,7 +9285,7 @@ Xamarin_Forms_Maps_MapSpan_LatitudeCircumferenceKm_Xamarin_Forms_Maps_Position:
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #1592]
+ldr x16, [x16, #1624]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -9143,7 +9360,7 @@ bl _p_75
 .word 0xa8c97bfd
 .word 0xd65f03c0
 
-Lme_52:
+Lme_54:
 .text
 	.align 4
 	.no_dead_strip Xamarin_Forms_Maps_MapSpan_LatitudeDegreesToKm_double
@@ -9155,7 +9372,7 @@ Xamarin_Forms_Maps_MapSpan_LatitudeDegreesToKm_double:
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #1600]
+ldr x16, [x16, #1632]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -9201,7 +9418,7 @@ ldr x16, [x16, #1600]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_53:
+Lme_55:
 .text
 	.align 4
 	.no_dead_strip Xamarin_Forms_Maps_MapSpan_LongitudeDegreesToKm_Xamarin_Forms_Maps_Position_double
@@ -9215,7 +9432,7 @@ Xamarin_Forms_Maps_MapSpan_LongitudeDegreesToKm_Xamarin_Forms_Maps_Position_doub
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #1608]
+ldr x16, [x16, #1640]
 .word 0xf9002fb0
 .word 0xf9400a11
 .word 0xf90033b1
@@ -9279,153 +9496,11 @@ bl _p_73
 .word 0xa8c97bfd
 .word 0xd65f03c0
 
-Lme_54:
+Lme_56:
 .text
 	.align 4
 	.no_dead_strip Xamarin_Forms_Maps_Pin_get_Address
 Xamarin_Forms_Maps_Pin_get_Address:
-.loc 1 1 0
-.word 0xa9bc7bfd
-.word 0x910003fd
-.word 0xf9000bb9
-.word 0xf9000fa0
-
-adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
-add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #1616]
-.word 0xf90013b0
-.word 0xf9400a11
-.word 0xf90017b1
-
-adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
-add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x0, [x16, #56]
-.word 0xf9400011
-.word 0xb4000051
-bl _p_1
-.word 0xf94013b1
-.word 0xf9404e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94017b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94013b1
-.word 0xf9406e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400fa0
-
-adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
-add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x1, [x16, #1624]
-.word 0xf9400021
-bl _p_19
-.word 0xaa0003f9
-.word 0xf94013b1
-.word 0xf9409a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xb4000179
-.word 0xf9400320
-.word 0xf9400000
-.word 0xf9400800
-.word 0xf9400400
-
-adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
-add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x1, [x16, #1632]
-.word 0xeb01001f
-.word 0x10000011
-.word 0x54000261
-.word 0xaa1903e0
-.word 0xf94017b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94013b1
-.word 0xf940ea31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1903e0
-.word 0xf94013b1
-.word 0xf940fe31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400bb9
-.word 0x910003bf
-.word 0xa8c47bfd
-.word 0xd65f03c0
-.word 0xd2801920
-.word 0xaa1103e1
-bl _p_6
-
-Lme_55:
-.text
-	.align 4
-	.no_dead_strip Xamarin_Forms_Maps_Pin_set_Address_string
-Xamarin_Forms_Maps_Pin_set_Address_string:
-.loc 1 1 0
-.word 0xa9bc7bfd
-.word 0x910003fd
-.word 0xf9000ba0
-.word 0xf9000fa1
-
-adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
-add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #1640]
-.word 0xf90013b0
-.word 0xf9400a11
-.word 0xf90017b1
-
-adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
-add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x0, [x16, #56]
-.word 0xf9400011
-.word 0xb4000051
-bl _p_1
-.word 0xf94013b1
-.word 0xf9404e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94017b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94013b1
-.word 0xf9406e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400ba0
-
-adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
-add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x1, [x16, #1624]
-.word 0xf9400021
-.word 0xf9400fa2
-bl _p_20
-.word 0xf94013b1
-.word 0xf9409a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94013b1
-.word 0xf940aa31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94013b1
-.word 0xf940ba31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x910003bf
-.word 0xa8c47bfd
-.word 0xd65f03c0
-
-Lme_56:
-.text
-	.align 4
-	.no_dead_strip Xamarin_Forms_Maps_Pin_get_Label
-Xamarin_Forms_Maps_Pin_get_Label:
 .loc 1 1 0
 .word 0xa9bc7bfd
 .word 0x910003fd
@@ -9477,7 +9552,7 @@ bl _p_19
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x1, [x16, #1632]
+ldr x1, [x16, #1664]
 .word 0xeb01001f
 .word 0x10000011
 .word 0x54000261
@@ -9506,8 +9581,8 @@ bl _p_6
 Lme_57:
 .text
 	.align 4
-	.no_dead_strip Xamarin_Forms_Maps_Pin_set_Label_string
-Xamarin_Forms_Maps_Pin_set_Label_string:
+	.no_dead_strip Xamarin_Forms_Maps_Pin_set_Address_string
+Xamarin_Forms_Maps_Pin_set_Address_string:
 .loc 1 1 0
 .word 0xa9bc7bfd
 .word 0x910003fd
@@ -9516,7 +9591,7 @@ Xamarin_Forms_Maps_Pin_set_Label_string:
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #1664]
+ldr x16, [x16, #1672]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -9566,6 +9641,148 @@ bl _p_20
 Lme_58:
 .text
 	.align 4
+	.no_dead_strip Xamarin_Forms_Maps_Pin_get_Label
+Xamarin_Forms_Maps_Pin_get_Label:
+.loc 1 1 0
+.word 0xa9bc7bfd
+.word 0x910003fd
+.word 0xf9000bb9
+.word 0xf9000fa0
+
+adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
+add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
+ldr x16, [x16, #1680]
+.word 0xf90013b0
+.word 0xf9400a11
+.word 0xf90017b1
+
+adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
+add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
+ldr x0, [x16, #56]
+.word 0xf9400011
+.word 0xb4000051
+bl _p_1
+.word 0xf94013b1
+.word 0xf9404e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf9406e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fa0
+
+adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
+add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
+ldr x1, [x16, #1688]
+.word 0xf9400021
+bl _p_19
+.word 0xaa0003f9
+.word 0xf94013b1
+.word 0xf9409a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xb4000179
+.word 0xf9400320
+.word 0xf9400000
+.word 0xf9400800
+.word 0xf9400400
+
+adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
+add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
+ldr x1, [x16, #1664]
+.word 0xeb01001f
+.word 0x10000011
+.word 0x54000261
+.word 0xaa1903e0
+.word 0xf94017b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf940ea31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1903e0
+.word 0xf94013b1
+.word 0xf940fe31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400bb9
+.word 0x910003bf
+.word 0xa8c47bfd
+.word 0xd65f03c0
+.word 0xd2801920
+.word 0xaa1103e1
+bl _p_6
+
+Lme_59:
+.text
+	.align 4
+	.no_dead_strip Xamarin_Forms_Maps_Pin_set_Label_string
+Xamarin_Forms_Maps_Pin_set_Label_string:
+.loc 1 1 0
+.word 0xa9bc7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+.word 0xf9000fa1
+
+adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
+add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
+ldr x16, [x16, #1696]
+.word 0xf90013b0
+.word 0xf9400a11
+.word 0xf90017b1
+
+adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
+add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
+ldr x0, [x16, #56]
+.word 0xf9400011
+.word 0xb4000051
+bl _p_1
+.word 0xf94013b1
+.word 0xf9404e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf9406e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400ba0
+
+adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
+add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
+ldr x1, [x16, #1688]
+.word 0xf9400021
+.word 0xf9400fa2
+bl _p_20
+.word 0xf94013b1
+.word 0xf9409a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf940aa31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf940ba31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910003bf
+.word 0xa8c47bfd
+.word 0xd65f03c0
+
+Lme_5a:
+.text
+	.align 4
 	.no_dead_strip Xamarin_Forms_Maps_Pin_get_Position
 Xamarin_Forms_Maps_Pin_get_Position:
 .loc 1 1 0
@@ -9575,7 +9792,7 @@ Xamarin_Forms_Maps_Pin_get_Position:
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #1672]
+ldr x16, [x16, #1704]
 .word 0xf9002fb0
 .word 0xf9400a11
 .word 0xf90033b1
@@ -9602,7 +9819,7 @@ bl _p_1
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x1, [x16, #1680]
+ldr x1, [x16, #1712]
 .word 0xf9400021
 bl _p_19
 .word 0xf90043a0
@@ -9621,7 +9838,7 @@ bl _p_19
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x2, [x16, #1688]
+ldr x2, [x16, #1720]
 .word 0xeb02003f
 .word 0x10000011
 .word 0x540003c1
@@ -9658,7 +9875,7 @@ ldr x2, [x16, #1688]
 .word 0xaa1103e1
 bl _p_6
 
-Lme_59:
+Lme_5b:
 .text
 	.align 4
 	.no_dead_strip Xamarin_Forms_Maps_Pin_set_Position_Xamarin_Forms_Maps_Position
@@ -9672,7 +9889,7 @@ Xamarin_Forms_Maps_Pin_set_Position_Xamarin_Forms_Maps_Position:
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #1696]
+ldr x16, [x16, #1728]
 .word 0xf9002fb0
 .word 0xf9400a11
 .word 0xf90033b1
@@ -9700,7 +9917,7 @@ bl _p_1
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x0, [x16, #1680]
+ldr x0, [x16, #1712]
 .word 0xf9400000
 .word 0xf90047a0
 .word 0x910063a0
@@ -9712,7 +9929,7 @@ ldr x0, [x16, #1680]
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x0, [x16, #1584]
+ldr x0, [x16, #1616]
 .word 0xd2800401
 .word 0xd2800401
 bl _p_10
@@ -9742,7 +9959,7 @@ bl _p_20
 .word 0xa8c97bfd
 .word 0xd65f03c0
 
-Lme_5a:
+Lme_5c:
 .text
 	.align 4
 	.no_dead_strip Xamarin_Forms_Maps_Pin_get_Type
@@ -9754,7 +9971,7 @@ Xamarin_Forms_Maps_Pin_get_Type:
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #1704]
+ldr x16, [x16, #1736]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -9781,7 +9998,7 @@ bl _p_1
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x1, [x16, #1712]
+ldr x1, [x16, #1744]
 .word 0xf9400021
 bl _p_19
 .word 0xf9001fa0
@@ -9827,7 +10044,7 @@ ldr x2, [x16, #576]
 .word 0xaa1103e1
 bl _p_6
 
-Lme_5b:
+Lme_5d:
 .text
 	.align 4
 	.no_dead_strip Xamarin_Forms_Maps_Pin_set_Type_Xamarin_Forms_Maps_PinType
@@ -9840,7 +10057,7 @@ Xamarin_Forms_Maps_Pin_set_Type_Xamarin_Forms_Maps_PinType:
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #1720]
+ldr x16, [x16, #1752]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -9868,7 +10085,7 @@ bl _p_1
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x0, [x16, #1712]
+ldr x0, [x16, #1744]
 .word 0xf9400000
 .word 0xf90027a0
 .word 0xb9801ba0
@@ -9876,7 +10093,7 @@ ldr x0, [x16, #1712]
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x0, [x16, #1728]
+ldr x0, [x16, #1760]
 .word 0xd2800281
 .word 0xd2800281
 bl _p_10
@@ -9903,7 +10120,7 @@ bl _p_20
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_5c:
+Lme_5e:
 .text
 	.align 4
 	.no_dead_strip Xamarin_Forms_Maps_Pin_get_Id
@@ -9915,7 +10132,7 @@ Xamarin_Forms_Maps_Pin_get_Id:
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #1736]
+ldr x16, [x16, #1768]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -9951,7 +10168,7 @@ ldr x16, [x16, #1736]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_5d:
+Lme_5f:
 .text
 	.align 4
 	.no_dead_strip Xamarin_Forms_Maps_Pin_set_Id_object
@@ -9965,7 +10182,7 @@ Xamarin_Forms_Maps_Pin_set_Id_object:
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #1744]
+ldr x16, [x16, #1776]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -10028,7 +10245,7 @@ ldr x1, [x16, #16]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_5e:
+Lme_60:
 .text
 	.align 4
 	.no_dead_strip Xamarin_Forms_Maps_Pin_get_MarkerId
@@ -10040,7 +10257,7 @@ Xamarin_Forms_Maps_Pin_get_MarkerId:
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #1752]
+ldr x16, [x16, #1784]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -10076,7 +10293,7 @@ ldr x16, [x16, #1752]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_5f:
+Lme_61:
 .text
 	.align 4
 	.no_dead_strip Xamarin_Forms_Maps_Pin_set_MarkerId_object
@@ -10090,7 +10307,7 @@ Xamarin_Forms_Maps_Pin_set_MarkerId_object:
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #1760]
+ldr x16, [x16, #1792]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -10153,7 +10370,7 @@ ldr x1, [x16, #16]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_60:
+Lme_62:
 .text
 	.align 4
 	.no_dead_strip Xamarin_Forms_Maps_Pin_add_Clicked_System_EventHandler
@@ -10169,7 +10386,7 @@ Xamarin_Forms_Maps_Pin_add_Clicked_System_EventHandler:
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #1768]
+ldr x16, [x16, #1800]
 .word 0xf90023b0
 .word 0xf9400a11
 .word 0xf90027b1
@@ -10237,7 +10454,7 @@ bl _p_21
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x1, [x16, #1776]
+ldr x1, [x16, #1808]
 .word 0xeb01001f
 .word 0x10000011
 .word 0x54000821
@@ -10310,7 +10527,7 @@ bl _p_6
 .word 0xaa1103e1
 bl _p_6
 
-Lme_61:
+Lme_63:
 .text
 	.align 4
 	.no_dead_strip Xamarin_Forms_Maps_Pin_remove_Clicked_System_EventHandler
@@ -10326,7 +10543,7 @@ Xamarin_Forms_Maps_Pin_remove_Clicked_System_EventHandler:
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #1784]
+ldr x16, [x16, #1816]
 .word 0xf90023b0
 .word 0xf9400a11
 .word 0xf90027b1
@@ -10394,7 +10611,7 @@ bl _p_22
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x1, [x16, #1776]
+ldr x1, [x16, #1808]
 .word 0xeb01001f
 .word 0x10000011
 .word 0x54000821
@@ -10467,7 +10684,7 @@ bl _p_6
 .word 0xaa1103e1
 bl _p_6
 
-Lme_62:
+Lme_64:
 .text
 	.align 4
 	.no_dead_strip Xamarin_Forms_Maps_Pin_Equals_object
@@ -10482,7 +10699,7 @@ Xamarin_Forms_Maps_Pin_Equals_object:
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #1792]
+ldr x16, [x16, #1824]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -10605,7 +10822,7 @@ bl _p_76
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x1, [x16, #1144]
+ldr x1, [x16, #1168]
 .word 0xeb01001f
 .word 0x10000011
 .word 0x540003a1
@@ -10641,7 +10858,7 @@ bl _p_77
 .word 0xaa1103e1
 bl _p_6
 
-Lme_63:
+Lme_65:
 .text
 	.align 4
 	.no_dead_strip Xamarin_Forms_Maps_Pin_GetHashCode
@@ -10657,7 +10874,7 @@ Xamarin_Forms_Maps_Pin_GetHashCode:
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #1800]
+ldr x16, [x16, #1832]
 .word 0xf90027b0
 .word 0xf9400a11
 .word 0xf9002bb1
@@ -10830,7 +11047,7 @@ bl _p_80
 .word 0xa8cc7bfd
 .word 0xd65f03c0
 
-Lme_64:
+Lme_66:
 .text
 	.align 4
 	.no_dead_strip Xamarin_Forms_Maps_Pin_op_Equality_Xamarin_Forms_Maps_Pin_Xamarin_Forms_Maps_Pin
@@ -10843,7 +11060,7 @@ Xamarin_Forms_Maps_Pin_op_Equality_Xamarin_Forms_Maps_Pin_Xamarin_Forms_Maps_Pin
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #1808]
+ldr x16, [x16, #1840]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -10892,7 +11109,7 @@ bl _p_71
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_65:
+Lme_67:
 .text
 	.align 4
 	.no_dead_strip Xamarin_Forms_Maps_Pin_op_Inequality_Xamarin_Forms_Maps_Pin_Xamarin_Forms_Maps_Pin
@@ -10905,7 +11122,7 @@ Xamarin_Forms_Maps_Pin_op_Inequality_Xamarin_Forms_Maps_Pin_Xamarin_Forms_Maps_P
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #1816]
+ldr x16, [x16, #1848]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -10959,7 +11176,7 @@ bl _p_71
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_66:
+Lme_68:
 .text
 	.align 4
 	.no_dead_strip Xamarin_Forms_Maps_Pin_SendTap
@@ -10972,7 +11189,7 @@ Xamarin_Forms_Maps_Pin_SendTap:
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #1824]
+ldr x16, [x16, #1856]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -11029,7 +11246,7 @@ bl _p_1
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x0, [x16, #1832]
+ldr x0, [x16, #1864]
 .word 0xf9400002
 .word 0xaa1903e0
 .word 0xaa1a03e1
@@ -11062,7 +11279,7 @@ ldr x0, [x16, #1832]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_67:
+Lme_69:
 .text
 	.align 4
 	.no_dead_strip Xamarin_Forms_Maps_Pin_Equals_Xamarin_Forms_Maps_Pin
@@ -11076,7 +11293,7 @@ Xamarin_Forms_Maps_Pin_Equals_Xamarin_Forms_Maps_Pin:
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #1840]
+ldr x16, [x16, #1872]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -11146,7 +11363,7 @@ bl _p_78
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x0, [x16, #1584]
+ldr x0, [x16, #1616]
 .word 0xd2800401
 .word 0xd2800401
 bl _p_10
@@ -11173,7 +11390,7 @@ bl _p_78
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x0, [x16, #1584]
+ldr x0, [x16, #1616]
 .word 0xd2800401
 .word 0xd2800401
 bl _p_10
@@ -11288,7 +11505,7 @@ bl _p_81
 .word 0xa8c87bfd
 .word 0xd65f03c0
 
-Lme_68:
+Lme_6a:
 .text
 	.align 4
 	.no_dead_strip Xamarin_Forms_Maps_Pin__ctor
@@ -11300,7 +11517,7 @@ Xamarin_Forms_Maps_Pin__ctor:
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #1848]
+ldr x16, [x16, #1880]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -11341,7 +11558,7 @@ bl _p_82
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_69:
+Lme_6b:
 .text
 	.align 4
 	.no_dead_strip Xamarin_Forms_Maps_Pin__cctor
@@ -11356,7 +11573,7 @@ Xamarin_Forms_Maps_Pin__cctor:
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #1856]
+ldr x16, [x16, #1888]
 .word 0xf9000bb0
 .word 0xf9400a11
 .word 0xf9000fb1
@@ -11386,24 +11603,24 @@ bl _p_1
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x0, [x16, #1864]
+ldr x0, [x16, #1896]
 .word 0xf90047a0
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x0, [x16, #1872]
+ldr x0, [x16, #1904]
 .word 0xf9004ba0
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x0, [x16, #1880]
+ldr x0, [x16, #1912]
 .word 0xf9004fa0
 .word 0xd2800000
 .word 0xd2800000
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x0, [x16, #1728]
+ldr x0, [x16, #1760]
 .word 0xd2800281
 .word 0xd2800281
 bl _p_10
@@ -11435,7 +11652,7 @@ bl _p_51
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x0, [x16, #1712]
+ldr x0, [x16, #1744]
 .word 0xf9000001
 .word 0xf9400bb1
 .word 0xf9415a31
@@ -11444,17 +11661,17 @@ ldr x0, [x16, #1712]
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x0, [x16, #1888]
+ldr x0, [x16, #1920]
 .word 0xf90037a0
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x0, [x16, #1896]
+ldr x0, [x16, #1928]
 .word 0xf9003ba0
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x0, [x16, #1880]
+ldr x0, [x16, #1912]
 .word 0xf9003fa0
 .word 0x9100e3a0
 .word 0xd2800000
@@ -11469,7 +11686,7 @@ ldr x0, [x16, #1880]
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x0, [x16, #1584]
+ldr x0, [x16, #1616]
 .word 0xd2800401
 .word 0xd2800401
 bl _p_10
@@ -11505,7 +11722,7 @@ bl _p_51
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x0, [x16, #1680]
+ldr x0, [x16, #1712]
 .word 0xf9000001
 .word 0xf9400bb1
 .word 0xf9425e31
@@ -11514,15 +11731,15 @@ ldr x0, [x16, #1680]
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x0, [x16, #1904]
+ldr x0, [x16, #1936]
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x1, [x16, #1912]
+ldr x1, [x16, #1944]
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x2, [x16, #1880]
+ldr x2, [x16, #1912]
 .word 0xd2800003
 .word 0xd2800043
 .word 0xd2800003
@@ -11547,7 +11764,7 @@ bl _p_51
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x0, [x16, #1624]
+ldr x0, [x16, #1656]
 .word 0xf9000001
 .word 0xf9400bb1
 .word 0xf942f631
@@ -11556,15 +11773,15 @@ ldr x0, [x16, #1624]
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x0, [x16, #1920]
+ldr x0, [x16, #1952]
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x1, [x16, #1912]
+ldr x1, [x16, #1944]
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x2, [x16, #1880]
+ldr x2, [x16, #1912]
 .word 0xd2800003
 .word 0xd2800043
 .word 0xd2800003
@@ -11589,7 +11806,7 @@ bl _p_51
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x0, [x16, #1656]
+ldr x0, [x16, #1688]
 .word 0xf9000001
 .word 0xf9400bb1
 .word 0xf9438e31
@@ -11603,9 +11820,9 @@ ldr x0, [x16, #1656]
 .word 0xa8ca7bfd
 .word 0xd65f03c0
 
-Lme_6a:
+Lme_6c:
 .text
-ut_107:
+ut_109:
 add x0, x0, 16
 b Xamarin_Forms_Maps_Position__ctor_double_double
 .text
@@ -11622,7 +11839,7 @@ Xamarin_Forms_Maps_Position__ctor_double_double:
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #1928]
+ldr x16, [x16, #1960]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -11728,9 +11945,9 @@ bl _p_59
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_6b:
+Lme_6d:
 .text
-ut_108:
+ut_110:
 add x0, x0, 16
 b Xamarin_Forms_Maps_Position_get_Latitude
 .text
@@ -11744,7 +11961,7 @@ Xamarin_Forms_Maps_Position_get_Latitude:
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #1936]
+ldr x16, [x16, #1968]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -11780,9 +11997,9 @@ ldr x16, [x16, #1936]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_6c:
+Lme_6e:
 .text
-ut_109:
+ut_111:
 add x0, x0, 16
 b Xamarin_Forms_Maps_Position_get_Longitude
 .text
@@ -11796,7 +12013,7 @@ Xamarin_Forms_Maps_Position_get_Longitude:
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #1944]
+ldr x16, [x16, #1976]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -11832,9 +12049,9 @@ ldr x16, [x16, #1944]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_6d:
+Lme_6f:
 .text
-ut_110:
+ut_112:
 add x0, x0, 16
 b Xamarin_Forms_Maps_Position_Equals_object
 .text
@@ -11850,7 +12067,7 @@ Xamarin_Forms_Maps_Position_Equals_object:
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #1952]
+ldr x16, [x16, #1984]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -11916,7 +12133,7 @@ bl _p_1
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x0, [x16, #1584]
+ldr x0, [x16, #1616]
 .word 0xd2800401
 .word 0xd2800401
 bl _p_10
@@ -11974,7 +12191,7 @@ bl _p_76
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x1, [x16, #1688]
+ldr x1, [x16, #1720]
 .word 0xeb01001f
 .word 0x10000011
 .word 0x54000b81
@@ -12073,9 +12290,9 @@ bl _p_66
 .word 0xaa1103e1
 bl _p_6
 
-Lme_6e:
+Lme_70:
 .text
-ut_111:
+ut_113:
 add x0, x0, 16
 b Xamarin_Forms_Maps_Position_GetHashCode
 .text
@@ -12090,7 +12307,7 @@ Xamarin_Forms_Maps_Position_GetHashCode:
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #1960]
+ldr x16, [x16, #1992]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -12181,9 +12398,9 @@ bl _p_7
 .word 0xa8c77bfd
 .word 0xd65f03c0
 
-Lme_6f:
+Lme_71:
 .text
-ut_112:
+ut_114:
 add x0, x0, 16
 b Xamarin_Forms_Maps_Position_op_Equality_Xamarin_Forms_Maps_Position_Xamarin_Forms_Maps_Position
 .text
@@ -12200,7 +12417,7 @@ Xamarin_Forms_Maps_Position_op_Equality_Xamarin_Forms_Maps_Position_Xamarin_Form
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #1968]
+ldr x16, [x16, #2000]
 .word 0xf9004bb0
 .word 0xf9400a11
 .word 0xf9004fb1
@@ -12232,7 +12449,7 @@ bl _p_1
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x0, [x16, #1584]
+ldr x0, [x16, #1616]
 .word 0xd2800401
 .word 0xd2800401
 bl _p_10
@@ -12252,7 +12469,7 @@ bl _p_10
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x0, [x16, #1584]
+ldr x0, [x16, #1616]
 .word 0xd2800401
 .word 0xd2800401
 bl _p_10
@@ -12288,9 +12505,9 @@ bl _p_71
 .word 0xa8ce7bfd
 .word 0xd65f03c0
 
-Lme_70:
+Lme_72:
 .text
-ut_113:
+ut_115:
 add x0, x0, 16
 b Xamarin_Forms_Maps_Position_op_Inequality_Xamarin_Forms_Maps_Position_Xamarin_Forms_Maps_Position
 .text
@@ -12307,7 +12524,7 @@ Xamarin_Forms_Maps_Position_op_Inequality_Xamarin_Forms_Maps_Position_Xamarin_Fo
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #1976]
+ldr x16, [x16, #2008]
 .word 0xf9004bb0
 .word 0xf9400a11
 .word 0xf9004fb1
@@ -12339,7 +12556,7 @@ bl _p_1
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x0, [x16, #1584]
+ldr x0, [x16, #1616]
 .word 0xd2800401
 .word 0xd2800401
 bl _p_10
@@ -12359,7 +12576,7 @@ bl _p_10
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x0, [x16, #1584]
+ldr x0, [x16, #1616]
 .word 0xd2800401
 .word 0xd2800401
 bl _p_10
@@ -12400,7 +12617,7 @@ bl _p_71
 .word 0xa8cf7bfd
 .word 0xd65f03c0
 
-Lme_71:
+Lme_73:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Func_2_Xamarin_Forms_Maps_Position_System_Threading_Tasks_Task_1_System_Collections_Generic_IEnumerable_1_string_invoke_TResult_T_Xamarin_Forms_Maps_Position
@@ -12417,7 +12634,7 @@ wrapper_delegate_invoke_System_Func_2_Xamarin_Forms_Maps_Position_System_Threadi
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #1984]
+ldr x16, [x16, #2016]
 .word 0xf9004bb0
 .word 0xf9400a11
 .word 0xf9004fb1
@@ -12580,7 +12797,7 @@ bl _p_1
 .word 0xaa1103e1
 bl _p_6
 
-Lme_77:
+Lme_79:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Func_2_string_System_Threading_Tasks_Task_1_System_Collections_Generic_IEnumerable_1_Xamarin_Forms_Maps_Position_invoke_TResult_T_string
@@ -12596,7 +12813,7 @@ wrapper_delegate_invoke_System_Func_2_string_System_Threading_Tasks_Task_1_Syste
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #1992]
+ldr x16, [x16, #2024]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -12738,7 +12955,7 @@ bl _p_1
 .word 0xaa1103e1
 bl _p_6
 
-Lme_78:
+Lme_7a:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_EventHandler_1_Xamarin_Forms_Maps_MapClickedEventArgs_invoke_void_object_TEventArgs_object_Xamarin_Forms_Maps_MapClickedEventArgs
@@ -12755,7 +12972,7 @@ wrapper_delegate_invoke_System_EventHandler_1_Xamarin_Forms_Maps_MapClickedEvent
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #2000]
+ldr x16, [x16, #2032]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -12896,7 +13113,7 @@ bl _p_1
 .word 0xaa1103e1
 bl _p_6
 
-Lme_79:
+Lme_7b:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Func_2_Xamarin_Forms_Maps_Pin_bool_invoke_TResult_T_Xamarin_Forms_Maps_Pin
@@ -12912,7 +13129,7 @@ wrapper_delegate_invoke_System_Func_2_Xamarin_Forms_Maps_Pin_bool_invoke_TResult
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #2008]
+ldr x16, [x16, #2040]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -13057,7 +13274,7 @@ bl _p_1
 .word 0xaa1103e1
 bl _p_6
 
-Lme_7e:
+Lme_80:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Action_3_object_int_bool_invoke_void_T1_T2_T3_object_int_bool
@@ -13075,7 +13292,7 @@ wrapper_delegate_invoke_System_Action_3_object_int_bool_invoke_void_T1_T2_T3_obj
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #2016]
+ldr x16, [x16, #2048]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -13221,7 +13438,7 @@ bl _p_1
 .word 0xaa1103e1
 bl _p_6
 
-Lme_83:
+Lme_85:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Action_2_object_int_invoke_void_T1_T2_object_int
@@ -13238,7 +13455,7 @@ wrapper_delegate_invoke_System_Action_2_object_int_invoke_void_T1_T2_object_int:
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #2024]
+ldr x16, [x16, #2056]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -13379,7 +13596,7 @@ bl _p_1
 .word 0xaa1103e1
 bl _p_6
 
-Lme_88:
+Lme_8a:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Func_2_object_System_Collections_Generic_IEnumerable_1_string_invoke_TResult_T_object
@@ -13395,7 +13612,7 @@ wrapper_delegate_invoke_System_Func_2_object_System_Collections_Generic_IEnumera
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #2032]
+ldr x16, [x16, #2064]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -13537,7 +13754,7 @@ bl _p_1
 .word 0xaa1103e1
 bl _p_6
 
-Lme_89:
+Lme_8b:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Func_1_System_Collections_Generic_IEnumerable_1_string_invoke_TResult
@@ -13552,7 +13769,7 @@ wrapper_delegate_invoke_System_Func_1_System_Collections_Generic_IEnumerable_1_s
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #2040]
+ldr x16, [x16, #2072]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -13688,7 +13905,7 @@ bl _p_1
 .word 0xaa1103e1
 bl _p_6
 
-Lme_8a:
+Lme_8c:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Collections_Generic_IEnumerable_1_string_invoke_void_T_System_Threading_Tasks_Task_1_System_Collections_Generic_IEnumerable_1_string
@@ -13704,316 +13921,7 @@ wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Col
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #2048]
-.word 0xf9002bb0
-.word 0xf9400a11
-.word 0xf9002fb1
-
-adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
-add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x0, [x16, #56]
-.word 0xf9400011
-.word 0xb4000051
-bl _p_1
-.word 0xd2800018
-.word 0xd2800017
-.word 0xd2800016
-.word 0xd2800015
-.word 0xd2800014
-.word 0xf9402bb1
-.word 0xf9407231
-.word 0xb4000051
-.word 0xd63f0220
-
-adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
-add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x0, [x16, #48]
-.word 0xb9400000
-.word 0x34000220
-bl _p_83
-.word 0xaa0003f3
-.word 0xaa1303e0
-.word 0xaa1303e1
-.word 0xf90037a0
-.word 0xb4000153
-.word 0xf94037a0
-.word 0xf9003ba0
-.word 0xf9403ba0
-.word 0xf9403ba1
-.word 0x91022021
-.word 0xd2800022
-.word 0xd280003e
-.word 0xb900003e
-bl _p_84
-.word 0xf94037a0
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x9101e320
-.word 0xf9403f20
-.word 0xaa0003f6
-.word 0xaa1603e0
-.word 0xb50003c0
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x91008320
-.word 0xf9401320
-.word 0xaa0003f4
-.word 0xaa1403e0
-.word 0xb40001a0
-.word 0xaa1403e0
-.word 0xaa1a03e0
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x9100e320
-.word 0xf9401f20
-.word 0xaa1903e0
-.word 0xf9400b22
-.word 0xaa1403e0
-.word 0xaa1a03e1
-.word 0xd63f0040
-.word 0x14000034
-.word 0xaa1a03e0
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x9100e320
-.word 0xf9401f20
-.word 0xaa1903e0
-.word 0xf9400b21
-.word 0xaa1a03e0
-.word 0xd63f0020
-.word 0x1400002a
-.word 0xaa1603e0
-.word 0xb9801ac0
-.word 0xaa0003f7
-.word 0xd2800018
-
-adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
-add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x0, [x16, #56]
-.word 0xf9400011
-.word 0xb4000051
-bl _p_1
-.word 0xaa1603e0
-.word 0xaa1803e0
-.word 0x93407f00
-.word 0xb9801ac1
-.word 0xeb00003f
-.word 0x10000011
-.word 0x54000489
-.word 0xd37df000
-.word 0x8b0002c0
-.word 0x91008000
-.word 0xf9400000
-.word 0xaa0003f5
-.word 0xaa1503e2
-.word 0xaa1a03e0
-.word 0xaa0203e0
-.word 0xaa1a03e1
-.word 0xf90043a2
-.word 0xf9400c50
-.word 0xd63f0200
-.word 0xf94043a0
-.word 0xf9402bb1
-.word 0xf941de31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1803e0
-.word 0x11000700
-.word 0xaa0003f8
-.word 0xaa1803e0
-.word 0xaa1703e1
-.word 0x6b17001f
-.word 0x54fffb8b
-.word 0xf9402bb1
-.word 0xf9420a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xa94153b3
-.word 0xa9425bb5
-.word 0xa94363b7
-.word 0xa9446bb9
-.word 0x910003bf
-.word 0xa8c97bfd
-.word 0xd65f03c0
-.word 0xd2801880
-.word 0xaa1103e1
-bl _p_6
-
-Lme_8b:
-.text
-	.align 4
-	.no_dead_strip wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Collections_Generic_IEnumerable_1_string_invoke_TResult_T_System_IAsyncResult
-wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Collections_Generic_IEnumerable_1_string_invoke_TResult_T_System_IAsyncResult:
-.word 0xa9b77bfd
-.word 0x910003fd
-.word 0xa90153b3
-.word 0xa9025bb5
-.word 0xa90363b7
-.word 0xa9046bb9
-.word 0xaa0003f9
-.word 0xaa0103fa
-
-adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
-add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #2056]
-.word 0xf9002bb0
-.word 0xf9400a11
-.word 0xf9002fb1
-
-adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
-add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x0, [x16, #56]
-.word 0xf9400011
-.word 0xb4000051
-bl _p_1
-.word 0xd2800018
-.word 0xd2800017
-.word 0xd2800016
-.word 0xd2800015
-.word 0xd2800014
-.word 0xd2800013
-.word 0xf9402bb1
-.word 0xf9407631
-.word 0xb4000051
-.word 0xd63f0220
-
-adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
-add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x0, [x16, #48]
-.word 0xb9400000
-.word 0x34000220
-bl _p_83
-.word 0xf90037a0
-.word 0xf94037a1
-.word 0xf94037a0
-.word 0xf9003ba1
-.word 0xb4000140
-.word 0xf9403ba0
-.word 0xf9003fa0
-.word 0xf9403fa0
-.word 0xf9403fa1
-.word 0x91022021
-.word 0xd2800022
-.word 0xd280003e
-.word 0xb900003e
-bl _p_84
-.word 0xf9403ba0
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x9101e320
-.word 0xf9403f20
-.word 0xaa0003f6
-.word 0xaa1603e0
-.word 0xb50003c0
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x91008320
-.word 0xf9401320
-.word 0xaa0003f4
-.word 0xaa1403e0
-.word 0xb40001a0
-.word 0xaa1403e0
-.word 0xaa1a03e0
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x9100e320
-.word 0xf9401f20
-.word 0xaa1903e0
-.word 0xf9400b22
-.word 0xaa1403e0
-.word 0xaa1a03e1
-.word 0xd63f0040
-.word 0x1400003a
-.word 0xaa1a03e0
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x9100e320
-.word 0xf9401f20
-.word 0xaa1903e0
-.word 0xf9400b21
-.word 0xaa1a03e0
-.word 0xd63f0020
-.word 0x14000030
-.word 0xaa1603e0
-.word 0xb9801ac0
-.word 0xaa0003f7
-.word 0xd2800018
-
-adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
-add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x0, [x16, #56]
-.word 0xf9400011
-.word 0xb4000051
-bl _p_1
-.word 0xaa1603e0
-.word 0xaa1803e0
-.word 0x93407f00
-.word 0xb9801ac1
-.word 0xeb00003f
-.word 0x10000011
-.word 0x54000549
-.word 0xd37df000
-.word 0x8b0002c0
-.word 0x91008000
-.word 0xf9400000
-.word 0xaa0003f5
-.word 0xaa1503e2
-.word 0xaa1a03e0
-.word 0xaa0203e0
-.word 0xaa1a03e1
-.word 0xf90047a2
-.word 0xf9400c50
-.word 0xd63f0200
-.word 0xaa0003e1
-.word 0xf94047a0
-.word 0xf90043a1
-.word 0xf9402bb1
-.word 0xf941ea31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94043a0
-.word 0xaa0003f3
-.word 0xaa1803e0
-.word 0x11000700
-.word 0xaa0003f8
-.word 0xaa1803e0
-.word 0xaa1703e1
-.word 0x6b17001f
-.word 0x54fffb0b
-.word 0xaa1303e0
-.word 0xaa1303e0
-.word 0xf9402bb1
-.word 0xf9422631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xa94153b3
-.word 0xa9425bb5
-.word 0xa94363b7
-.word 0xa9446bb9
-.word 0x910003bf
-.word 0xa8c97bfd
-.word 0xd65f03c0
-.word 0xd2801880
-.word 0xaa1103e1
-bl _p_6
-
-Lme_8c:
-.text
-	.align 4
-	.no_dead_strip wrapper_delegate_invoke_System_Action_1_System_IAsyncResult_invoke_void_T_System_IAsyncResult
-wrapper_delegate_invoke_System_Action_1_System_IAsyncResult_invoke_void_T_System_IAsyncResult:
-.word 0xa9b77bfd
-.word 0x910003fd
-.word 0xa90153b3
-.word 0xa9025bb5
-.word 0xa90363b7
-.word 0xa9046bb9
-.word 0xaa0003f9
-.word 0xaa0103fa
-
-adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
-add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #2064]
+ldr x16, [x16, #2080]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -14151,6 +14059,315 @@ bl _p_6
 Lme_8d:
 .text
 	.align 4
+	.no_dead_strip wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Collections_Generic_IEnumerable_1_string_invoke_TResult_T_System_IAsyncResult
+wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Collections_Generic_IEnumerable_1_string_invoke_TResult_T_System_IAsyncResult:
+.word 0xa9b77bfd
+.word 0x910003fd
+.word 0xa90153b3
+.word 0xa9025bb5
+.word 0xa90363b7
+.word 0xa9046bb9
+.word 0xaa0003f9
+.word 0xaa0103fa
+
+adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
+add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
+ldr x16, [x16, #2088]
+.word 0xf9002bb0
+.word 0xf9400a11
+.word 0xf9002fb1
+
+adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
+add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
+ldr x0, [x16, #56]
+.word 0xf9400011
+.word 0xb4000051
+bl _p_1
+.word 0xd2800018
+.word 0xd2800017
+.word 0xd2800016
+.word 0xd2800015
+.word 0xd2800014
+.word 0xd2800013
+.word 0xf9402bb1
+.word 0xf9407631
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
+add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
+ldr x0, [x16, #48]
+.word 0xb9400000
+.word 0x34000220
+bl _p_83
+.word 0xf90037a0
+.word 0xf94037a1
+.word 0xf94037a0
+.word 0xf9003ba1
+.word 0xb4000140
+.word 0xf9403ba0
+.word 0xf9003fa0
+.word 0xf9403fa0
+.word 0xf9403fa1
+.word 0x91022021
+.word 0xd2800022
+.word 0xd280003e
+.word 0xb900003e
+bl _p_84
+.word 0xf9403ba0
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x9101e320
+.word 0xf9403f20
+.word 0xaa0003f6
+.word 0xaa1603e0
+.word 0xb50003c0
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x91008320
+.word 0xf9401320
+.word 0xaa0003f4
+.word 0xaa1403e0
+.word 0xb40001a0
+.word 0xaa1403e0
+.word 0xaa1a03e0
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x9100e320
+.word 0xf9401f20
+.word 0xaa1903e0
+.word 0xf9400b22
+.word 0xaa1403e0
+.word 0xaa1a03e1
+.word 0xd63f0040
+.word 0x1400003a
+.word 0xaa1a03e0
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x9100e320
+.word 0xf9401f20
+.word 0xaa1903e0
+.word 0xf9400b21
+.word 0xaa1a03e0
+.word 0xd63f0020
+.word 0x14000030
+.word 0xaa1603e0
+.word 0xb9801ac0
+.word 0xaa0003f7
+.word 0xd2800018
+
+adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
+add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
+ldr x0, [x16, #56]
+.word 0xf9400011
+.word 0xb4000051
+bl _p_1
+.word 0xaa1603e0
+.word 0xaa1803e0
+.word 0x93407f00
+.word 0xb9801ac1
+.word 0xeb00003f
+.word 0x10000011
+.word 0x54000549
+.word 0xd37df000
+.word 0x8b0002c0
+.word 0x91008000
+.word 0xf9400000
+.word 0xaa0003f5
+.word 0xaa1503e2
+.word 0xaa1a03e0
+.word 0xaa0203e0
+.word 0xaa1a03e1
+.word 0xf90047a2
+.word 0xf9400c50
+.word 0xd63f0200
+.word 0xaa0003e1
+.word 0xf94047a0
+.word 0xf90043a1
+.word 0xf9402bb1
+.word 0xf941ea31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94043a0
+.word 0xaa0003f3
+.word 0xaa1803e0
+.word 0x11000700
+.word 0xaa0003f8
+.word 0xaa1803e0
+.word 0xaa1703e1
+.word 0x6b17001f
+.word 0x54fffb0b
+.word 0xaa1303e0
+.word 0xaa1303e0
+.word 0xf9402bb1
+.word 0xf9422631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xa94153b3
+.word 0xa9425bb5
+.word 0xa94363b7
+.word 0xa9446bb9
+.word 0x910003bf
+.word 0xa8c97bfd
+.word 0xd65f03c0
+.word 0xd2801880
+.word 0xaa1103e1
+bl _p_6
+
+Lme_8e:
+.text
+	.align 4
+	.no_dead_strip wrapper_delegate_invoke_System_Action_1_System_IAsyncResult_invoke_void_T_System_IAsyncResult
+wrapper_delegate_invoke_System_Action_1_System_IAsyncResult_invoke_void_T_System_IAsyncResult:
+.word 0xa9b77bfd
+.word 0x910003fd
+.word 0xa90153b3
+.word 0xa9025bb5
+.word 0xa90363b7
+.word 0xa9046bb9
+.word 0xaa0003f9
+.word 0xaa0103fa
+
+adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
+add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
+ldr x16, [x16, #2096]
+.word 0xf9002bb0
+.word 0xf9400a11
+.word 0xf9002fb1
+
+adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
+add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
+ldr x0, [x16, #56]
+.word 0xf9400011
+.word 0xb4000051
+bl _p_1
+.word 0xd2800018
+.word 0xd2800017
+.word 0xd2800016
+.word 0xd2800015
+.word 0xd2800014
+.word 0xf9402bb1
+.word 0xf9407231
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
+add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
+ldr x0, [x16, #48]
+.word 0xb9400000
+.word 0x34000220
+bl _p_83
+.word 0xaa0003f3
+.word 0xaa1303e0
+.word 0xaa1303e1
+.word 0xf90037a0
+.word 0xb4000153
+.word 0xf94037a0
+.word 0xf9003ba0
+.word 0xf9403ba0
+.word 0xf9403ba1
+.word 0x91022021
+.word 0xd2800022
+.word 0xd280003e
+.word 0xb900003e
+bl _p_84
+.word 0xf94037a0
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x9101e320
+.word 0xf9403f20
+.word 0xaa0003f6
+.word 0xaa1603e0
+.word 0xb50003c0
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x91008320
+.word 0xf9401320
+.word 0xaa0003f4
+.word 0xaa1403e0
+.word 0xb40001a0
+.word 0xaa1403e0
+.word 0xaa1a03e0
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x9100e320
+.word 0xf9401f20
+.word 0xaa1903e0
+.word 0xf9400b22
+.word 0xaa1403e0
+.word 0xaa1a03e1
+.word 0xd63f0040
+.word 0x14000034
+.word 0xaa1a03e0
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x9100e320
+.word 0xf9401f20
+.word 0xaa1903e0
+.word 0xf9400b21
+.word 0xaa1a03e0
+.word 0xd63f0020
+.word 0x1400002a
+.word 0xaa1603e0
+.word 0xb9801ac0
+.word 0xaa0003f7
+.word 0xd2800018
+
+adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
+add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
+ldr x0, [x16, #56]
+.word 0xf9400011
+.word 0xb4000051
+bl _p_1
+.word 0xaa1603e0
+.word 0xaa1803e0
+.word 0x93407f00
+.word 0xb9801ac1
+.word 0xeb00003f
+.word 0x10000011
+.word 0x54000489
+.word 0xd37df000
+.word 0x8b0002c0
+.word 0x91008000
+.word 0xf9400000
+.word 0xaa0003f5
+.word 0xaa1503e2
+.word 0xaa1a03e0
+.word 0xaa0203e0
+.word 0xaa1a03e1
+.word 0xf90043a2
+.word 0xf9400c50
+.word 0xd63f0200
+.word 0xf94043a0
+.word 0xf9402bb1
+.word 0xf941de31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1803e0
+.word 0x11000700
+.word 0xaa0003f8
+.word 0xaa1803e0
+.word 0xaa1703e1
+.word 0x6b17001f
+.word 0x54fffb8b
+.word 0xf9402bb1
+.word 0xf9420a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xa94153b3
+.word 0xa9425bb5
+.word 0xa94363b7
+.word 0xa9446bb9
+.word 0x910003bf
+.word 0xa8c97bfd
+.word 0xd65f03c0
+.word 0xd2801880
+.word 0xaa1103e1
+bl _p_6
+
+Lme_8f:
+.text
+	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_invoke_TResult_T1_T2_System_AsyncCallback_object
 wrapper_delegate_invoke_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_invoke_TResult_T1_T2_System_AsyncCallback_object:
 .word 0xa9b67bfd
@@ -14165,7 +14382,7 @@ wrapper_delegate_invoke_System_Func_3_System_AsyncCallback_object_System_IAsyncR
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #2072]
+ldr x16, [x16, #2104]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -14312,9 +14529,9 @@ bl _p_1
 .word 0xaa1103e1
 bl _p_6
 
-Lme_8e:
+Lme_90:
 .text
-ut_144:
+ut_146:
 add x0, x0, 16
 b System_Array_InternalEnumerator_1_Xamarin_Forms_Maps_Position__ctor_System_Array
 .text
@@ -14331,7 +14548,7 @@ System_Array_InternalEnumerator_1_Xamarin_Forms_Maps_Position__ctor_System_Array
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #2080]
+ldr x16, [x16, #2112]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -14387,9 +14604,9 @@ ldr x2, [x16, #16]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_90:
+Lme_92:
 .text
-ut_145:
+ut_147:
 add x0, x0, 16
 b System_Array_InternalEnumerator_1_Xamarin_Forms_Maps_Position_Dispose
 .text
@@ -14403,7 +14620,7 @@ System_Array_InternalEnumerator_1_Xamarin_Forms_Maps_Position_Dispose:
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #2088]
+ldr x16, [x16, #2120]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -14427,9 +14644,9 @@ ldr x16, [x16, #2088]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_91:
+Lme_93:
 .text
-ut_146:
+ut_148:
 add x0, x0, 16
 b System_Array_InternalEnumerator_1_Xamarin_Forms_Maps_Position_MoveNext
 .text
@@ -14444,7 +14661,7 @@ System_Array_InternalEnumerator_1_Xamarin_Forms_Maps_Position_MoveNext:
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #2096]
+ldr x16, [x16, #2128]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -14531,9 +14748,9 @@ ldr x16, [x16, #2096]
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_92:
+Lme_94:
 .text
-ut_147:
+ut_149:
 add x0, x0, 16
 b System_Array_InternalEnumerator_1_Xamarin_Forms_Maps_Position_get_Current
 .text
@@ -14548,7 +14765,7 @@ System_Array_InternalEnumerator_1_Xamarin_Forms_Maps_Position_get_Current:
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #2104]
+ldr x16, [x16, #2136]
 .word 0xf9002fb0
 .word 0xf9400a11
 .word 0xf90033b1
@@ -14647,7 +14864,7 @@ bl _p_9
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x15, [x16, #2112]
+ldr x15, [x16, #2144]
 .word 0x3940001e
 .word 0x9101c3a2
 .word 0xf90043a2
@@ -14676,9 +14893,9 @@ bl _p_86
 .word 0xa8ca7bfd
 .word 0xd65f03c0
 
-Lme_93:
+Lme_95:
 .text
-ut_148:
+ut_150:
 add x0, x0, 16
 b System_Array_InternalEnumerator_1_Xamarin_Forms_Maps_Position_System_Collections_IEnumerator_Reset
 .text
@@ -14692,7 +14909,7 @@ System_Array_InternalEnumerator_1_Xamarin_Forms_Maps_Position_System_Collections
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #2120]
+ldr x16, [x16, #2152]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -14727,9 +14944,9 @@ ldr x16, [x16, #2120]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_94:
+Lme_96:
 .text
-ut_149:
+ut_151:
 add x0, x0, 16
 b System_Array_InternalEnumerator_1_Xamarin_Forms_Maps_Position_System_Collections_IEnumerator_get_Current
 .text
@@ -14743,7 +14960,7 @@ System_Array_InternalEnumerator_1_Xamarin_Forms_Maps_Position_System_Collections
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #2128]
+ldr x16, [x16, #2160]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -14770,7 +14987,7 @@ bl _p_1
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x15, [x16, #2136]
+ldr x15, [x16, #2168]
 .word 0x9100c3a1
 .word 0xf90023a1
 bl _p_87
@@ -14784,7 +15001,7 @@ bl _p_87
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x0, [x16, #1584]
+ldr x0, [x16, #1616]
 .word 0xd2800401
 .word 0xd2800401
 bl _p_10
@@ -14802,7 +15019,7 @@ bl _p_10
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_95:
+Lme_97:
 .text
 	.align 4
 	.no_dead_strip System_Array_InternalArray__IEnumerable_GetEnumerator_Xamarin_Forms_Maps_Position
@@ -14815,7 +15032,7 @@ System_Array_InternalArray__IEnumerable_GetEnumerator_Xamarin_Forms_Maps_Positio
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #2144]
+ldr x16, [x16, #2176]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -14855,7 +15072,7 @@ bl _p_1
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x0, [x16, #2152]
+ldr x0, [x16, #2184]
 .word 0xf9400000
 .word 0x14000032
 .loc 2 92 0
@@ -14872,7 +15089,7 @@ ldr x0, [x16, #2152]
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x15, [x16, #2136]
+ldr x15, [x16, #2168]
 .word 0xaa1a03e1
 bl _p_88
 .word 0x910103a0
@@ -14888,7 +15105,7 @@ bl _p_88
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x0, [x16, #2136]
+ldr x0, [x16, #2168]
 .word 0xd2800401
 .word 0xd2800401
 bl _p_10
@@ -14920,7 +15137,7 @@ ldr x4, [x16, #16]
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_96:
+Lme_98:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Func_2_object_System_Collections_Generic_IEnumerable_1_Xamarin_Forms_Maps_Position_invoke_TResult_T_object
@@ -14936,7 +15153,7 @@ wrapper_delegate_invoke_System_Func_2_object_System_Collections_Generic_IEnumera
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #2160]
+ldr x16, [x16, #2192]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -15078,7 +15295,7 @@ bl _p_1
 .word 0xaa1103e1
 bl _p_6
 
-Lme_97:
+Lme_99:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Func_1_System_Collections_Generic_IEnumerable_1_Xamarin_Forms_Maps_Position_invoke_TResult
@@ -15093,7 +15310,7 @@ wrapper_delegate_invoke_System_Func_1_System_Collections_Generic_IEnumerable_1_X
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #2168]
+ldr x16, [x16, #2200]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -15229,7 +15446,7 @@ bl _p_1
 .word 0xaa1103e1
 bl _p_6
 
-Lme_98:
+Lme_9a:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Collections_Generic_IEnumerable_1_Xamarin_Forms_Maps_Position_invoke_void_T_System_Threading_Tasks_Task_1_System_Collections_Generic_IEnumerable_1_Xamarin_Forms_Maps_Position
@@ -15245,7 +15462,7 @@ wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Col
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #2176]
+ldr x16, [x16, #2208]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -15380,7 +15597,7 @@ bl _p_1
 .word 0xaa1103e1
 bl _p_6
 
-Lme_99:
+Lme_9b:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Collections_Generic_IEnumerable_1_Xamarin_Forms_Maps_Position_invoke_TResult_T_System_IAsyncResult
@@ -15396,7 +15613,7 @@ wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Collections_Gen
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #2184]
+ldr x16, [x16, #2216]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -15538,9 +15755,9 @@ bl _p_1
 .word 0xaa1103e1
 bl _p_6
 
-Lme_9a:
+Lme_9c:
 .text
-ut_155:
+ut_157:
 add x0, x0, 16
 b wrapper_other_Xamarin_Forms_Maps_Distance_StructureToPtr_object_intptr_bool
 .text
@@ -15556,7 +15773,7 @@ wrapper_other_Xamarin_Forms_Maps_Distance_StructureToPtr_object_intptr_bool:
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #2192]
+ldr x16, [x16, #2224]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -15590,9 +15807,9 @@ ldr x16, [x16, #2192]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_9b:
+Lme_9d:
 .text
-ut_156:
+ut_158:
 add x0, x0, 16
 b wrapper_other_Xamarin_Forms_Maps_Distance_PtrToStructure_intptr_object
 .text
@@ -15607,7 +15824,7 @@ wrapper_other_Xamarin_Forms_Maps_Distance_PtrToStructure_intptr_object:
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #2200]
+ldr x16, [x16, #2232]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -15641,9 +15858,9 @@ ldr x16, [x16, #2200]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_9c:
+Lme_9e:
 .text
-ut_157:
+ut_159:
 add x0, x0, 16
 b wrapper_other_Xamarin_Forms_Maps_Position_StructureToPtr_object_intptr_bool
 .text
@@ -15659,7 +15876,7 @@ wrapper_other_Xamarin_Forms_Maps_Position_StructureToPtr_object_intptr_bool:
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #2208]
+ldr x16, [x16, #2240]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -15695,9 +15912,9 @@ ldr x16, [x16, #2208]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_9d:
+Lme_9f:
 .text
-ut_158:
+ut_160:
 add x0, x0, 16
 b wrapper_other_Xamarin_Forms_Maps_Position_PtrToStructure_intptr_object
 .text
@@ -15712,7 +15929,7 @@ wrapper_other_Xamarin_Forms_Maps_Position_PtrToStructure_intptr_object:
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #2216]
+ldr x16, [x16, #2248]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -15748,7 +15965,7 @@ ldr x16, [x16, #2216]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_9e:
+Lme_a0:
 .text
 	.align 4
 	.no_dead_strip System_Array_InternalArray__get_Item_Xamarin_Forms_Maps_Position_int
@@ -15762,7 +15979,7 @@ System_Array_InternalArray__get_Item_Xamarin_Forms_Maps_Position_int:
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #2224]
+ldr x16, [x16, #2256]
 .word 0xf90033b0
 .word 0xf9400a11
 .word 0xf90037b1
@@ -15866,7 +16083,7 @@ bl _p_9
 .word 0xa8cc7bfd
 .word 0xd65f03c0
 
-Lme_9f:
+Lme_a1:
 .text
 	.align 4
 	.no_dead_strip System_Array_EmptyInternalEnumerator_1_Xamarin_Forms_Maps_Position__cctor
@@ -15877,7 +16094,7 @@ System_Array_EmptyInternalEnumerator_1_Xamarin_Forms_Maps_Position__cctor:
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #2232]
+ldr x16, [x16, #2264]
 .word 0xf9000bb0
 .word 0xf9400a11
 .word 0xf9000fb1
@@ -15903,7 +16120,7 @@ bl _p_1
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x0, [x16, #2240]
+ldr x0, [x16, #2272]
 .word 0xd2800201
 .word 0xd2800201
 bl _p_10
@@ -15917,7 +16134,7 @@ bl _p_89
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x0, [x16, #2152]
+ldr x0, [x16, #2184]
 .word 0xf9000001
 .word 0xf9400bb1
 .word 0xf940ba31
@@ -15927,7 +16144,7 @@ ldr x0, [x16, #2152]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_a0:
+Lme_a2:
 .text
 	.align 4
 	.no_dead_strip System_Array_EmptyInternalEnumerator_1_Xamarin_Forms_Maps_Position__ctor
@@ -15938,7 +16155,7 @@ System_Array_EmptyInternalEnumerator_1_Xamarin_Forms_Maps_Position__ctor:
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #2248]
+ldr x16, [x16, #2280]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -15959,7 +16176,7 @@ ldr x16, [x16, #2248]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_a1:
+Lme_a3:
 .text
 	.align 4
 	.no_dead_strip System_Array_EmptyInternalEnumerator_1_Xamarin_Forms_Maps_Position_Dispose
@@ -15971,7 +16188,7 @@ System_Array_EmptyInternalEnumerator_1_Xamarin_Forms_Maps_Position_Dispose:
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #2256]
+ldr x16, [x16, #2288]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -15995,7 +16212,7 @@ ldr x16, [x16, #2256]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_a2:
+Lme_a4:
 .text
 	.align 4
 	.no_dead_strip System_Array_EmptyInternalEnumerator_1_Xamarin_Forms_Maps_Position_MoveNext
@@ -16007,7 +16224,7 @@ System_Array_EmptyInternalEnumerator_1_Xamarin_Forms_Maps_Position_MoveNext:
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #2264]
+ldr x16, [x16, #2296]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -16033,7 +16250,7 @@ ldr x16, [x16, #2264]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_a3:
+Lme_a5:
 .text
 	.align 4
 	.no_dead_strip System_Array_EmptyInternalEnumerator_1_Xamarin_Forms_Maps_Position_get_Current
@@ -16045,7 +16262,7 @@ System_Array_EmptyInternalEnumerator_1_Xamarin_Forms_Maps_Position_get_Current:
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #2272]
+ldr x16, [x16, #2304]
 .word 0xf9002fb0
 .word 0xf9400a11
 .word 0xf90033b1
@@ -16088,7 +16305,7 @@ bl _p_9
 .word 0xa8c77bfd
 .word 0xd65f03c0
 
-Lme_a4:
+Lme_a6:
 .text
 	.align 4
 	.no_dead_strip System_Array_EmptyInternalEnumerator_1_Xamarin_Forms_Maps_Position_System_Collections_IEnumerator_get_Current
@@ -16100,7 +16317,7 @@ System_Array_EmptyInternalEnumerator_1_Xamarin_Forms_Maps_Position_System_Collec
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #2280]
+ldr x16, [x16, #2312]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -16137,7 +16354,7 @@ bl _p_90
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x0, [x16, #1584]
+ldr x0, [x16, #1616]
 .word 0xd2800401
 .word 0xd2800401
 bl _p_10
@@ -16155,7 +16372,7 @@ bl _p_10
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_a5:
+Lme_a7:
 .text
 	.align 4
 	.no_dead_strip System_Array_EmptyInternalEnumerator_1_Xamarin_Forms_Maps_Position_System_Collections_IEnumerator_Reset
@@ -16167,7 +16384,7 @@ System_Array_EmptyInternalEnumerator_1_Xamarin_Forms_Maps_Position_System_Collec
 
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #2288]
+ldr x16, [x16, #2320]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -16191,7 +16408,7 @@ ldr x16, [x16, #2288]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_a6:
+Lme_a8:
 .text
 	.align 3
 jit_code_end:
@@ -16237,6 +16454,8 @@ bl Xamarin_Forms_Maps_Map_get_ItemTemplate
 bl Xamarin_Forms_Maps_Map_set_ItemTemplate_Xamarin_Forms_DataTemplate
 bl Xamarin_Forms_Maps_Map_get_ItemTemplateSelector
 bl Xamarin_Forms_Maps_Map_set_ItemTemplateSelector_Xamarin_Forms_DataTemplateSelector
+bl Xamarin_Forms_Maps_Map_get_MoveToLastRegionOnLayoutChange
+bl Xamarin_Forms_Maps_Map_set_MoveToLastRegionOnLayoutChange_bool
 bl Xamarin_Forms_Maps_Map_add_MapClicked_System_EventHandler_1_Xamarin_Forms_Maps_MapClickedEventArgs
 bl Xamarin_Forms_Maps_Map_remove_MapClicked_System_EventHandler_1_Xamarin_Forms_Maps_MapClickedEventArgs
 bl Xamarin_Forms_Maps_Map_SendMapClicked_Xamarin_Forms_Maps_Position
@@ -16257,15 +16476,15 @@ bl Xamarin_Forms_Maps_Map_CreatePinItems
 bl Xamarin_Forms_Maps_Map_CreatePin_object
 bl Xamarin_Forms_Maps_Map_RemovePin_object
 bl Xamarin_Forms_Maps_Map__cctor
-bl Xamarin_Forms_Maps_Map__OnItemsSourceCollectionChangedb__53_0_object_int_bool
-bl Xamarin_Forms_Maps_Map__OnItemsSourceCollectionChangedb__53_1_object_int
-bl Xamarin_Forms_Maps_Map__OnItemsSourceCollectionChangedb__53_2
+bl Xamarin_Forms_Maps_Map__OnItemsSourceCollectionChangedb__57_0_object_int_bool
+bl Xamarin_Forms_Maps_Map__OnItemsSourceCollectionChangedb__57_1_object_int
+bl Xamarin_Forms_Maps_Map__OnItemsSourceCollectionChangedb__57_2
 bl Xamarin_Forms_Maps_Map__c__cctor
 bl Xamarin_Forms_Maps_Map__c__ctor
-bl Xamarin_Forms_Maps_Map__c__PinsOnCollectionChangedb__49_0_Xamarin_Forms_Maps_Pin
-bl Xamarin_Forms_Maps_Map__c___cctorb__57_0_Xamarin_Forms_BindableObject_object_object
-bl Xamarin_Forms_Maps_Map__c___cctorb__57_1_Xamarin_Forms_BindableObject_object_object
-bl Xamarin_Forms_Maps_Map__c___cctorb__57_2_Xamarin_Forms_BindableObject_object_object
+bl Xamarin_Forms_Maps_Map__c__PinsOnCollectionChangedb__53_0_Xamarin_Forms_Maps_Pin
+bl Xamarin_Forms_Maps_Map__c___cctorb__61_0_Xamarin_Forms_BindableObject_object_object
+bl Xamarin_Forms_Maps_Map__c___cctorb__61_1_Xamarin_Forms_BindableObject_object_object
+bl Xamarin_Forms_Maps_Map__c___cctorb__61_2_Xamarin_Forms_BindableObject_object_object
 bl Xamarin_Forms_Maps_MapClickedEventArgs_get_Position
 bl Xamarin_Forms_Maps_MapClickedEventArgs__ctor_Xamarin_Forms_Maps_Position
 bl Xamarin_Forms_Maps_MapSpan__ctor_Xamarin_Forms_Maps_Position_double_double
@@ -16375,9 +16594,9 @@ method_addresses_end:
 unbox_trampolines:
 
 	.long 4,5,6,7,8,9,10,11
-	.long 12,13,14,15,107,108,109,110
-	.long 111,112,113,144,145,146,147,148
-	.long 149,155,156,157,158
+	.long 12,13,14,15,109,110,111,112
+	.long 113,114,115,146,147,148,149,150
+	.long 151,157,158,159,160
 unbox_trampolines_end:
 
 	.long 0
@@ -16396,23 +16615,23 @@ bl ut_12
 bl ut_13
 bl ut_14
 bl ut_15
-bl ut_107
-bl ut_108
 bl ut_109
 bl ut_110
 bl ut_111
 bl ut_112
 bl ut_113
-bl ut_144
-bl ut_145
+bl ut_114
+bl ut_115
 bl ut_146
 bl ut_147
 bl ut_148
 bl ut_149
-bl ut_155
-bl ut_156
+bl ut_150
+bl ut_151
 bl ut_157
 bl ut_158
+bl ut_159
+bl ut_160
 
 	.long 0
 .section __TEXT, __const
@@ -16432,7 +16651,7 @@ unwind_info:
 	.byte 68,147,28,148,27,68,149,26,150,25,68,151,24,152,23,68,153,22,16,12,31,0,68,14,48,157,6,158,5,68,13,29
 	.byte 68,154,4,16,12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10,19,12,31,0,68,14,144,1,157,18,158,17
 	.byte 68,13,29,68,153,16,154,15,31,12,31,0,68,14,112,157,14,158,13,68,13,29,68,148,12,149,11,68,150,10,151,9
-	.byte 68,152,8,153,7,68,154,6,14,12,31,0,68,14,176,2,157,38,158,37,68,13,29,24,12,31,0,68,14,112,157,14
+	.byte 68,152,8,153,7,68,154,6,14,12,31,0,68,14,208,2,157,42,158,41,68,13,29,24,12,31,0,68,14,112,157,14
 	.byte 158,13,68,13,29,68,147,12,68,149,11,150,10,68,151,9,16,12,31,0,68,14,80,157,10,158,9,68,13,29,68,153
 	.byte 8,17,12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,154,14,17,12,31,0,68,14,176,1,157,22,158,21,68
 	.byte 13,29,68,154,20,17,12,31,0,68,14,224,1,157,28,158,27,68,13,29,68,154,26,17,12,31,0,68,14,160,2,157
@@ -16459,725 +16678,725 @@ plt__jit_icall_mono_threads_state_poll:
 _p_1:
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #2304]
+ldr x16, [x16, #2336]
 br x16
-.word 2652
+.word 2687
 	.no_dead_strip plt_Xamarin_Forms_Maps_Distance_get_Meters
 plt_Xamarin_Forms_Maps_Distance_get_Meters:
 _p_2:
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #2312]
+ldr x16, [x16, #2344]
 br x16
-.word 2678
+.word 2713
 	.no_dead_strip plt_Xamarin_Forms_Maps_Distance__ctor_double
 plt_Xamarin_Forms_Maps_Distance__ctor_double:
 _p_3:
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #2320]
+ldr x16, [x16, #2352]
 br x16
-.word 2680
+.word 2715
 	.no_dead_strip plt_double_Equals_double
 plt_double_Equals_double:
 _p_4:
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #2328]
+ldr x16, [x16, #2360]
 br x16
-.word 2682
+.word 2717
 	.no_dead_strip plt_Xamarin_Forms_Maps_Distance_Equals_Xamarin_Forms_Maps_Distance
 plt_Xamarin_Forms_Maps_Distance_Equals_Xamarin_Forms_Maps_Distance:
 _p_5:
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #2336]
+ldr x16, [x16, #2368]
 br x16
-.word 2687
+.word 2722
 	.no_dead_strip plt__jit_icall_mono_arch_throw_corlib_exception
 plt__jit_icall_mono_arch_throw_corlib_exception:
 _p_6:
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #2344]
+ldr x16, [x16, #2376]
 br x16
-.word 2689
+.word 2724
 	.no_dead_strip plt_double_GetHashCode
 plt_double_GetHashCode:
 _p_7:
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #2352]
+ldr x16, [x16, #2384]
 br x16
-.word 2724
+.word 2759
 	.no_dead_strip plt__jit_icall_mono_helper_ldstr
 plt__jit_icall_mono_helper_ldstr:
 _p_8:
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #2360]
+ldr x16, [x16, #2392]
 br x16
-.word 2729
+.word 2764
 	.no_dead_strip plt__jit_icall_mono_arch_throw_exception
 plt__jit_icall_mono_arch_throw_exception:
 _p_9:
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #2368]
+ldr x16, [x16, #2400]
 br x16
-.word 2749
+.word 2784
 	.no_dead_strip plt_wrapper_alloc_object_AllocSmall_intptr_intptr
 plt_wrapper_alloc_object_AllocSmall_intptr_intptr:
 _p_10:
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #2376]
+ldr x16, [x16, #2408]
 br x16
-.word 2777
+.word 2812
 	.no_dead_strip plt_System_Collections_ObjectModel_ObservableCollection_1_Xamarin_Forms_Maps_Pin__ctor
 plt_System_Collections_ObjectModel_ObservableCollection_1_Xamarin_Forms_Maps_Pin__ctor:
 _p_11:
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #2384]
+ldr x16, [x16, #2416]
 br x16
-.word 2785
+.word 2820
 	.no_dead_strip plt_Xamarin_Forms_View__ctor
 plt_Xamarin_Forms_View__ctor:
 _p_12:
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #2392]
+ldr x16, [x16, #2424]
 br x16
-.word 2796
+.word 2831
 	.no_dead_strip plt_Xamarin_Forms_Maps_Map_set_LastMoveToRegion_Xamarin_Forms_Maps_MapSpan
 plt_Xamarin_Forms_Maps_Map_set_LastMoveToRegion_Xamarin_Forms_Maps_MapSpan:
 _p_13:
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #2400]
+ldr x16, [x16, #2432]
 br x16
-.word 2801
+.word 2836
 	.no_dead_strip plt_Xamarin_Forms_View_set_HorizontalOptions_Xamarin_Forms_LayoutOptions
 plt_Xamarin_Forms_View_set_HorizontalOptions_Xamarin_Forms_LayoutOptions:
 _p_14:
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #2408]
+ldr x16, [x16, #2440]
 br x16
-.word 2803
+.word 2838
 	.no_dead_strip plt_Xamarin_Forms_View_set_VerticalOptions_Xamarin_Forms_LayoutOptions
 plt_Xamarin_Forms_View_set_VerticalOptions_Xamarin_Forms_LayoutOptions:
 _p_15:
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #2416]
+ldr x16, [x16, #2448]
 br x16
-.word 2808
+.word 2843
 	.no_dead_strip plt_Xamarin_Forms_Maps_Position__ctor_double_double
 plt_Xamarin_Forms_Maps_Position__ctor_double_double:
 _p_16:
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #2424]
+ldr x16, [x16, #2456]
 br x16
-.word 2813
+.word 2848
 	.no_dead_strip plt_Xamarin_Forms_Maps_MapSpan__ctor_Xamarin_Forms_Maps_Position_double_double
 plt_Xamarin_Forms_Maps_MapSpan__ctor_Xamarin_Forms_Maps_Position_double_double:
 _p_17:
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #2432]
+ldr x16, [x16, #2464]
 br x16
-.word 2815
+.word 2850
 	.no_dead_strip plt_Xamarin_Forms_Maps_Map__ctor_Xamarin_Forms_Maps_MapSpan
 plt_Xamarin_Forms_Maps_Map__ctor_Xamarin_Forms_Maps_MapSpan:
 _p_18:
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #2440]
+ldr x16, [x16, #2472]
 br x16
-.word 2817
+.word 2852
 	.no_dead_strip plt_Xamarin_Forms_BindableObject_GetValue_Xamarin_Forms_BindableProperty
 plt_Xamarin_Forms_BindableObject_GetValue_Xamarin_Forms_BindableProperty:
 _p_19:
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #2448]
+ldr x16, [x16, #2480]
 br x16
-.word 2819
+.word 2854
 	.no_dead_strip plt_Xamarin_Forms_BindableObject_SetValue_Xamarin_Forms_BindableProperty_object
 plt_Xamarin_Forms_BindableObject_SetValue_Xamarin_Forms_BindableProperty_object:
 _p_20:
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #2456]
+ldr x16, [x16, #2488]
 br x16
-.word 2824
+.word 2859
 	.no_dead_strip plt_System_Delegate_Combine_System_Delegate_System_Delegate
 plt_System_Delegate_Combine_System_Delegate_System_Delegate:
 _p_21:
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #2464]
+ldr x16, [x16, #2496]
 br x16
-.word 2829
+.word 2864
 	.no_dead_strip plt_System_Delegate_Remove_System_Delegate_System_Delegate
 plt_System_Delegate_Remove_System_Delegate_System_Delegate:
 _p_22:
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #2472]
+ldr x16, [x16, #2504]
 br x16
-.word 2834
+.word 2869
 	.no_dead_strip plt_Xamarin_Forms_Maps_MapClickedEventArgs__ctor_Xamarin_Forms_Maps_Position
 plt_Xamarin_Forms_Maps_MapClickedEventArgs__ctor_Xamarin_Forms_Maps_Position:
 _p_23:
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #2480]
+ldr x16, [x16, #2512]
 br x16
-.word 2839
+.word 2874
 	.no_dead_strip plt_Xamarin_Forms_Maps_Map_set_VisibleRegion_Xamarin_Forms_Maps_MapSpan
 plt_Xamarin_Forms_Maps_Map_set_VisibleRegion_Xamarin_Forms_Maps_MapSpan:
 _p_24:
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #2488]
+ldr x16, [x16, #2520]
 br x16
-.word 2841
+.word 2876
 	.no_dead_strip plt_Xamarin_Forms_Maps_MapSpan_op_Equality_Xamarin_Forms_Maps_MapSpan_Xamarin_Forms_Maps_MapSpan
 plt_Xamarin_Forms_Maps_MapSpan_op_Equality_Xamarin_Forms_Maps_MapSpan_Xamarin_Forms_Maps_MapSpan:
 _p_25:
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #2496]
+ldr x16, [x16, #2528]
 br x16
-.word 2843
+.word 2878
 	.no_dead_strip plt_Xamarin_Forms_Maps_Map_GetEnumerator
 plt_Xamarin_Forms_Maps_Map_GetEnumerator:
 _p_26:
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #2504]
+ldr x16, [x16, #2536]
 br x16
-.word 2845
+.word 2880
 	.no_dead_strip plt_System_Collections_ObjectModel_Collection_1_Xamarin_Forms_Maps_Pin_GetEnumerator
 plt_System_Collections_ObjectModel_Collection_1_Xamarin_Forms_Maps_Pin_GetEnumerator:
 _p_27:
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #2512]
+ldr x16, [x16, #2544]
 br x16
-.word 2847
+.word 2882
 	.no_dead_strip plt_Xamarin_Forms_MessagingCenter_Send_Xamarin_Forms_Maps_Map_Xamarin_Forms_Maps_MapSpan_Xamarin_Forms_Maps_Map_string_Xamarin_Forms_Maps_MapSpan
 plt_Xamarin_Forms_MessagingCenter_Send_Xamarin_Forms_Maps_Map_Xamarin_Forms_Maps_MapSpan_Xamarin_Forms_Maps_Map_string_Xamarin_Forms_Maps_MapSpan:
 _p_28:
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #2520]
+ldr x16, [x16, #2552]
 br x16
-.word 2858
+.word 2893
 	.no_dead_strip plt_System_Collections_Specialized_NotifyCollectionChangedEventArgs_get_NewItems
 plt_System_Collections_Specialized_NotifyCollectionChangedEventArgs_get_NewItems:
 _p_29:
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #2528]
+ldr x16, [x16, #2560]
 br x16
-.word 2870
+.word 2905
 	.no_dead_strip plt_System_Linq_Enumerable_Cast_Xamarin_Forms_Maps_Pin_System_Collections_IEnumerable
 plt_System_Linq_Enumerable_Cast_Xamarin_Forms_Maps_Pin_System_Collections_IEnumerable:
 _p_30:
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #2536]
+ldr x16, [x16, #2568]
 br x16
-.word 2875
+.word 2910
 	.no_dead_strip plt_System_Linq_Enumerable_Any_Xamarin_Forms_Maps_Pin_System_Collections_Generic_IEnumerable_1_Xamarin_Forms_Maps_Pin_System_Func_2_Xamarin_Forms_Maps_Pin_bool
 plt_System_Linq_Enumerable_Any_Xamarin_Forms_Maps_Pin_System_Collections_Generic_IEnumerable_1_Xamarin_Forms_Maps_Pin_System_Func_2_Xamarin_Forms_Maps_Pin_bool:
 _p_31:
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #2544]
+ldr x16, [x16, #2576]
 br x16
-.word 2887
+.word 2922
 	.no_dead_strip plt_System_Collections_ObjectModel_Collection_1_Xamarin_Forms_Maps_Pin_Clear
 plt_System_Collections_ObjectModel_Collection_1_Xamarin_Forms_Maps_Pin_Clear:
 _p_32:
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #2552]
+ldr x16, [x16, #2584]
 br x16
-.word 2899
+.word 2934
 	.no_dead_strip plt_Xamarin_Forms_Maps_Map_CreatePinItems
 plt_Xamarin_Forms_Maps_Map_CreatePinItems:
 _p_33:
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #2560]
+ldr x16, [x16, #2592]
 br x16
-.word 2910
+.word 2945
 	.no_dead_strip plt_wrapper_alloc_object_AllocVector_intptr_intptr
 plt_wrapper_alloc_object_AllocVector_intptr_intptr:
 _p_34:
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #2568]
+ldr x16, [x16, #2600]
 br x16
-.word 2912
+.word 2947
 	.no_dead_strip plt_Xamarin_Forms_BindableProperty_get_PropertyName
 plt_Xamarin_Forms_BindableProperty_get_PropertyName:
 _p_35:
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #2576]
+ldr x16, [x16, #2608]
 br x16
-.word 2920
+.word 2955
 	.no_dead_strip plt_string_Concat_string__
 plt_string_Concat_string__:
 _p_36:
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #2584]
+ldr x16, [x16, #2616]
 br x16
-.word 2925
+.word 2960
 	.no_dead_strip plt_Xamarin_Forms_Internals_NotifyCollectionChangedEventArgsExtensions_Apply_System_Collections_Specialized_NotifyCollectionChangedEventArgs_System_Action_3_object_int_bool_System_Action_2_object_int_System_Action
 plt_Xamarin_Forms_Internals_NotifyCollectionChangedEventArgsExtensions_Apply_System_Collections_Specialized_NotifyCollectionChangedEventArgs_System_Action_3_object_int_bool_System_Action_2_object_int_System_Action:
 _p_37:
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #2592]
+ldr x16, [x16, #2624]
 br x16
-.word 2930
+.word 2965
 	.no_dead_strip plt_Xamarin_Forms_Maps_Map_get_ItemsSource
 plt_Xamarin_Forms_Maps_Map_get_ItemsSource:
 _p_38:
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #2600]
+ldr x16, [x16, #2632]
 br x16
-.word 2935
+.word 2970
 	.no_dead_strip plt_Xamarin_Forms_Maps_Map_get_ItemTemplate
 plt_Xamarin_Forms_Maps_Map_get_ItemTemplate:
 _p_39:
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #2608]
+ldr x16, [x16, #2640]
 br x16
-.word 2937
+.word 2972
 	.no_dead_strip plt_Xamarin_Forms_Maps_Map_get_ItemTemplateSelector
 plt_Xamarin_Forms_Maps_Map_get_ItemTemplateSelector:
 _p_40:
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #2616]
+ldr x16, [x16, #2648]
 br x16
-.word 2939
+.word 2974
 	.no_dead_strip plt_Xamarin_Forms_Maps_Map_CreatePin_object
 plt_Xamarin_Forms_Maps_Map_CreatePin_object:
 _p_41:
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #2624]
+ldr x16, [x16, #2656]
 br x16
-.word 2941
+.word 2976
 	.no_dead_strip plt__jit_icall_ves_icall_thread_finish_async_abort
 plt__jit_icall_ves_icall_thread_finish_async_abort:
 _p_42:
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #2632]
+ldr x16, [x16, #2664]
 br x16
-.word 2943
+.word 2978
 	.no_dead_strip plt_Xamarin_Forms_DataTemplateSelector_SelectTemplate_object_Xamarin_Forms_BindableObject
 plt_Xamarin_Forms_DataTemplateSelector_SelectTemplate_object_Xamarin_Forms_BindableObject:
 _p_43:
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #2640]
+ldr x16, [x16, #2672]
 br x16
-.word 2981
+.word 3016
 	.no_dead_strip plt_Xamarin_Forms_ElementTemplate_CreateContent
 plt_Xamarin_Forms_ElementTemplate_CreateContent:
 _p_44:
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #2648]
+ldr x16, [x16, #2680]
 br x16
-.word 2986
+.word 3021
 	.no_dead_strip plt_Xamarin_Forms_BindableObject_set_BindingContext_object
 plt_Xamarin_Forms_BindableObject_set_BindingContext_object:
 _p_45:
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #2656]
+ldr x16, [x16, #2688]
 br x16
-.word 2991
+.word 3026
 	.no_dead_strip plt_System_Collections_ObjectModel_Collection_1_Xamarin_Forms_Maps_Pin_Add_Xamarin_Forms_Maps_Pin
 plt_System_Collections_ObjectModel_Collection_1_Xamarin_Forms_Maps_Pin_Add_Xamarin_Forms_Maps_Pin:
 _p_46:
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #2664]
+ldr x16, [x16, #2696]
 br x16
-.word 2996
+.word 3031
 	.no_dead_strip plt_System_Collections_ObjectModel_Collection_1_Xamarin_Forms_Maps_Pin_get_Item_int
 plt_System_Collections_ObjectModel_Collection_1_Xamarin_Forms_Maps_Pin_get_Item_int:
 _p_47:
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #2672]
+ldr x16, [x16, #2704]
 br x16
-.word 3007
+.word 3042
 	.no_dead_strip plt_Xamarin_Forms_BindableObject_get_BindingContext
 plt_Xamarin_Forms_BindableObject_get_BindingContext:
 _p_48:
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #2680]
+ldr x16, [x16, #2712]
 br x16
-.word 3018
+.word 3053
 	.no_dead_strip plt_System_Collections_ObjectModel_Collection_1_Xamarin_Forms_Maps_Pin_RemoveAt_int
 plt_System_Collections_ObjectModel_Collection_1_Xamarin_Forms_Maps_Pin_RemoveAt_int:
 _p_49:
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #2688]
+ldr x16, [x16, #2720]
 br x16
-.word 3023
+.word 3058
 	.no_dead_strip plt_System_Collections_ObjectModel_Collection_1_Xamarin_Forms_Maps_Pin_get_Count
 plt_System_Collections_ObjectModel_Collection_1_Xamarin_Forms_Maps_Pin_get_Count:
 _p_50:
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #2696]
+ldr x16, [x16, #2728]
 br x16
-.word 3034
+.word 3069
 	.no_dead_strip plt_Xamarin_Forms_BindableProperty_Create_string_System_Type_System_Type_object_Xamarin_Forms_BindingMode_Xamarin_Forms_BindableProperty_ValidateValueDelegate_Xamarin_Forms_BindableProperty_BindingPropertyChangedDelegate_Xamarin_Forms_BindableProperty_BindingPropertyChangingDelegate_Xamarin_Forms_BindableProperty_CoerceValueDelegate_Xamarin_Forms_BindableProperty_CreateDefaultValueDelegate
 plt_Xamarin_Forms_BindableProperty_Create_string_System_Type_System_Type_object_Xamarin_Forms_BindingMode_Xamarin_Forms_BindableProperty_ValidateValueDelegate_Xamarin_Forms_BindableProperty_BindingPropertyChangedDelegate_Xamarin_Forms_BindableProperty_BindingPropertyChangingDelegate_Xamarin_Forms_BindableProperty_CoerceValueDelegate_Xamarin_Forms_BindableProperty_CreateDefaultValueDelegate:
 _p_51:
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #2704]
+ldr x16, [x16, #2736]
 br x16
-.word 3045
+.word 3080
 	.no_dead_strip plt_Xamarin_Forms_Maps_Map_RemovePin_object
 plt_Xamarin_Forms_Maps_Map_RemovePin_object:
 _p_52:
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #2712]
+ldr x16, [x16, #2744]
 br x16
-.word 3050
+.word 3085
 	.no_dead_strip plt_Xamarin_Forms_Maps_Map__c__ctor
 plt_Xamarin_Forms_Maps_Map__c__ctor:
 _p_53:
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #2720]
+ldr x16, [x16, #2752]
 br x16
-.word 3052
+.word 3087
 	.no_dead_strip plt_Xamarin_Forms_Maps_Pin_get_Label
 plt_Xamarin_Forms_Maps_Pin_get_Label:
 _p_54:
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #2728]
+ldr x16, [x16, #2760]
 br x16
-.word 3054
+.word 3089
 	.no_dead_strip plt_Xamarin_Forms_Maps_Map_OnItemsSourcePropertyChanged_System_Collections_IEnumerable_System_Collections_IEnumerable
 plt_Xamarin_Forms_Maps_Map_OnItemsSourcePropertyChanged_System_Collections_IEnumerable_System_Collections_IEnumerable:
 _p_55:
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #2736]
+ldr x16, [x16, #2768]
 br x16
-.word 3056
+.word 3091
 	.no_dead_strip plt_Xamarin_Forms_Maps_Map_OnItemTemplatePropertyChanged_Xamarin_Forms_DataTemplate_Xamarin_Forms_DataTemplate
 plt_Xamarin_Forms_Maps_Map_OnItemTemplatePropertyChanged_Xamarin_Forms_DataTemplate_Xamarin_Forms_DataTemplate:
 _p_56:
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #2744]
+ldr x16, [x16, #2776]
 br x16
-.word 3058
+.word 3093
 	.no_dead_strip plt_Xamarin_Forms_Maps_Map_OnItemTemplateSelectorPropertyChanged
 plt_Xamarin_Forms_Maps_Map_OnItemTemplateSelectorPropertyChanged:
 _p_57:
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #2752]
+ldr x16, [x16, #2784]
 br x16
-.word 3060
+.word 3095
 	.no_dead_strip plt_System_Math_Max_double_double
 plt_System_Math_Max_double_double:
 _p_58:
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #2760]
+ldr x16, [x16, #2792]
 br x16
-.word 3062
+.word 3097
 	.no_dead_strip plt_System_Math_Min_double_double
 plt_System_Math_Min_double_double:
 _p_59:
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #2768]
+ldr x16, [x16, #2800]
 br x16
-.word 3067
+.word 3102
 	.no_dead_strip plt_Xamarin_Forms_Maps_MapSpan_get_LatitudeDegrees
 plt_Xamarin_Forms_Maps_MapSpan_get_LatitudeDegrees:
 _p_60:
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #2776]
+ldr x16, [x16, #2808]
 br x16
-.word 3072
+.word 3107
 	.no_dead_strip plt_Xamarin_Forms_Maps_MapSpan_LatitudeDegreesToKm_double
 plt_Xamarin_Forms_Maps_MapSpan_LatitudeDegreesToKm_double:
 _p_61:
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #2784]
+ldr x16, [x16, #2816]
 br x16
-.word 3074
+.word 3109
 	.no_dead_strip plt_Xamarin_Forms_Maps_MapSpan_get_Center
 plt_Xamarin_Forms_Maps_MapSpan_get_Center:
 _p_62:
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #2792]
+ldr x16, [x16, #2824]
 br x16
-.word 3076
+.word 3111
 	.no_dead_strip plt_Xamarin_Forms_Maps_MapSpan_get_LongitudeDegrees
 plt_Xamarin_Forms_Maps_MapSpan_get_LongitudeDegrees:
 _p_63:
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #2800]
+ldr x16, [x16, #2832]
 br x16
-.word 3078
+.word 3113
 	.no_dead_strip plt_Xamarin_Forms_Maps_MapSpan_LongitudeDegreesToKm_Xamarin_Forms_Maps_Position_double
 plt_Xamarin_Forms_Maps_MapSpan_LongitudeDegreesToKm_Xamarin_Forms_Maps_Position_double:
 _p_64:
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #2808]
+ldr x16, [x16, #2840]
 br x16
-.word 3080
+.word 3115
 	.no_dead_strip plt_Xamarin_Forms_Maps_Position_get_Latitude
 plt_Xamarin_Forms_Maps_Position_get_Latitude:
 _p_65:
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #2816]
+ldr x16, [x16, #2848]
 br x16
-.word 3082
+.word 3117
 	.no_dead_strip plt_Xamarin_Forms_Maps_Position_get_Longitude
 plt_Xamarin_Forms_Maps_Position_get_Longitude:
 _p_66:
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #2824]
+ldr x16, [x16, #2856]
 br x16
-.word 3084
+.word 3119
 	.no_dead_strip plt_Xamarin_Forms_Maps_MapSpan_Equals_Xamarin_Forms_Maps_MapSpan
 plt_Xamarin_Forms_Maps_MapSpan_Equals_Xamarin_Forms_Maps_MapSpan:
 _p_67:
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #2832]
+ldr x16, [x16, #2864]
 br x16
-.word 3086
+.word 3121
 	.no_dead_strip plt_Xamarin_Forms_Maps_MapSpan_DistanceToLatitudeDegrees_Xamarin_Forms_Maps_Distance
 plt_Xamarin_Forms_Maps_MapSpan_DistanceToLatitudeDegrees_Xamarin_Forms_Maps_Distance:
 _p_68:
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #2840]
+ldr x16, [x16, #2872]
 br x16
-.word 3088
+.word 3123
 	.no_dead_strip plt_Xamarin_Forms_Maps_MapSpan_DistanceToLongitudeDegrees_Xamarin_Forms_Maps_Position_Xamarin_Forms_Maps_Distance
 plt_Xamarin_Forms_Maps_MapSpan_DistanceToLongitudeDegrees_Xamarin_Forms_Maps_Position_Xamarin_Forms_Maps_Distance:
 _p_69:
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #2848]
+ldr x16, [x16, #2880]
 br x16
-.word 3090
+.word 3125
 	.no_dead_strip plt_Xamarin_Forms_Maps_Position_GetHashCode
 plt_Xamarin_Forms_Maps_Position_GetHashCode:
 _p_70:
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #2856]
+ldr x16, [x16, #2888]
 br x16
-.word 3092
+.word 3127
 	.no_dead_strip plt_object_Equals_object_object
 plt_object_Equals_object_object:
 _p_71:
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #2864]
+ldr x16, [x16, #2896]
 br x16
-.word 3094
+.word 3129
 	.no_dead_strip plt_Xamarin_Forms_Maps_Distance_get_Kilometers
 plt_Xamarin_Forms_Maps_Distance_get_Kilometers:
 _p_72:
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #2872]
+ldr x16, [x16, #2904]
 br x16
-.word 3099
+.word 3134
 	.no_dead_strip plt_Xamarin_Forms_Maps_MapSpan_LatitudeCircumferenceKm_Xamarin_Forms_Maps_Position
 plt_Xamarin_Forms_Maps_MapSpan_LatitudeCircumferenceKm_Xamarin_Forms_Maps_Position:
 _p_73:
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #2880]
+ldr x16, [x16, #2912]
 br x16
-.word 3101
+.word 3136
 	.no_dead_strip plt_Xamarin_Forms_Maps_Position_Equals_object
 plt_Xamarin_Forms_Maps_Position_Equals_object:
 _p_74:
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #2888]
+ldr x16, [x16, #2920]
 br x16
-.word 3103
+.word 3138
 	.no_dead_strip plt_System_Math_Cos_double
 plt_System_Math_Cos_double:
 _p_75:
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #2896]
+ldr x16, [x16, #2928]
 br x16
-.word 3105
+.word 3140
 	.no_dead_strip plt_System_Type_op_Inequality_System_Type_System_Type
 plt_System_Type_op_Inequality_System_Type_System_Type:
 _p_76:
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #2904]
+ldr x16, [x16, #2936]
 br x16
-.word 3110
+.word 3145
 	.no_dead_strip plt_Xamarin_Forms_Maps_Pin_Equals_Xamarin_Forms_Maps_Pin
 plt_Xamarin_Forms_Maps_Pin_Equals_Xamarin_Forms_Maps_Pin:
 _p_77:
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #2912]
+ldr x16, [x16, #2944]
 br x16
-.word 3115
+.word 3150
 	.no_dead_strip plt_Xamarin_Forms_Maps_Pin_get_Position
 plt_Xamarin_Forms_Maps_Pin_get_Position:
 _p_78:
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #2920]
+ldr x16, [x16, #2952]
 br x16
-.word 3117
+.word 3152
 	.no_dead_strip plt_Xamarin_Forms_Maps_Pin_get_Type
 plt_Xamarin_Forms_Maps_Pin_get_Type:
 _p_79:
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #2928]
+ldr x16, [x16, #2960]
 br x16
-.word 3119
+.word 3154
 	.no_dead_strip plt_Xamarin_Forms_Maps_Pin_get_Address
 plt_Xamarin_Forms_Maps_Pin_get_Address:
 _p_80:
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #2936]
+ldr x16, [x16, #2968]
 br x16
-.word 3121
+.word 3156
 	.no_dead_strip plt_string_Equals_string_string
 plt_string_Equals_string_string:
 _p_81:
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #2944]
+ldr x16, [x16, #2976]
 br x16
-.word 3123
+.word 3158
 	.no_dead_strip plt_Xamarin_Forms_Element__ctor
 plt_Xamarin_Forms_Element__ctor:
 _p_82:
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #2952]
+ldr x16, [x16, #2984]
 br x16
-.word 3128
+.word 3163
 	.no_dead_strip plt__jit_icall_mono_thread_interruption_checkpoint
 plt__jit_icall_mono_thread_interruption_checkpoint:
 _p_83:
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #2960]
+ldr x16, [x16, #2992]
 br x16
-.word 3133
+.word 3168
 	.no_dead_strip plt__jit_icall_mono_arch_rethrow_exception
 plt__jit_icall_mono_arch_rethrow_exception:
 _p_84:
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #2968]
+ldr x16, [x16, #3000]
 br x16
-.word 3171
+.word 3206
 	.no_dead_strip plt__jit_icall_mono_helper_ldstr_mscorlib
 plt__jit_icall_mono_helper_ldstr_mscorlib:
 _p_85:
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #2976]
+ldr x16, [x16, #3008]
 br x16
-.word 3201
+.word 3236
 	.no_dead_strip plt_System_Array_InternalArray__get_Item_Xamarin_Forms_Maps_Position_int
 plt_System_Array_InternalArray__get_Item_Xamarin_Forms_Maps_Position_int:
 _p_86:
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #2984]
+ldr x16, [x16, #3016]
 br x16
-.word 3230
+.word 3265
 	.no_dead_strip plt_System_Array_InternalEnumerator_1_Xamarin_Forms_Maps_Position_get_Current
 plt_System_Array_InternalEnumerator_1_Xamarin_Forms_Maps_Position_get_Current:
 _p_87:
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #2992]
+ldr x16, [x16, #3024]
 br x16
-.word 3246
+.word 3281
 	.no_dead_strip plt_System_Array_InternalEnumerator_1_Xamarin_Forms_Maps_Position__ctor_System_Array
 plt_System_Array_InternalEnumerator_1_Xamarin_Forms_Maps_Position__ctor_System_Array:
 _p_88:
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #3000]
+ldr x16, [x16, #3032]
 br x16
-.word 3261
+.word 3296
 	.no_dead_strip plt_System_Array_EmptyInternalEnumerator_1_Xamarin_Forms_Maps_Position__ctor
 plt_System_Array_EmptyInternalEnumerator_1_Xamarin_Forms_Maps_Position__ctor:
 _p_89:
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #3008]
+ldr x16, [x16, #3040]
 br x16
-.word 3276
+.word 3311
 	.no_dead_strip plt_System_Array_EmptyInternalEnumerator_1_Xamarin_Forms_Maps_Position_get_Current
 plt_System_Array_EmptyInternalEnumerator_1_Xamarin_Forms_Maps_Position_get_Current:
 _p_90:
 adrp x16, mono_aot_Xamarin_Forms_Maps_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Maps_got@PAGEOFF
-ldr x16, [x16, #3016]
+ldr x16, [x16, #3048]
 br x16
-.word 3291
+.word 3326
 plt_end:
 .section __DATA, __bss
 	.align 3
-.lcomm mono_aot_Xamarin_Forms_Maps_got, 3024
+.lcomm mono_aot_Xamarin_Forms_Maps_got, 3056
 got_end:
 .section __TEXT, __const
 	.align 3
@@ -17208,7 +17427,7 @@ runtime_version:
 .section __TEXT, __const
 	.align 2
 assembly_guid:
-	.asciz "59F2119C-59FC-48F4-BFD7-26C929BE8F18"
+	.asciz "AA5D5F3D-971A-4F27-8D5E-F54404C91B24"
 .section __TEXT, __const
 	.align 2
 assembly_name:
@@ -17295,14 +17514,14 @@ _mono_aot_file_info:
 	.align 3
 	.quad unbox_trampoline_addresses
 
-	.long 287,3024,91,167,20,102,387000831,0
-	.long 22257,128,8,8,8,9,8388607,0
-	.long 28,25320,0,0,3056,2616,1696,0
-	.long 2248,2568,1856,0,1272,256,3048,0
+	.long 291,3056,91,169,20,102,387000831,0
+	.long 22534,128,8,8,8,9,8388607,0
+	.long 28,25608,0,0,3064,2624,1704,0
+	.long 2264,2576,1864,0,1280,264,3056,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0
-	.byte 163,127,56,88,44,168,176,65,184,106,90,147,165,153,112,4
+	.byte 235,251,133,137,190,49,50,9,80,226,123,174,30,9,19,39
 	.globl _mono_aot_module_Xamarin_Forms_Maps_info
 	.align 3
 _mono_aot_module_Xamarin_Forms_Maps_info:
@@ -22275,11 +22494,11 @@ Lfde35_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "Xamarin.Forms.Maps.Map:add_MapClicked"
-	.asciz "Xamarin_Forms_Maps_Map_add_MapClicked_System_EventHandler_1_Xamarin_Forms_Maps_MapClickedEventArgs"
+	.asciz "Xamarin.Forms.Maps.Map:get_MoveToLastRegionOnLayoutChange"
+	.asciz "Xamarin_Forms_Maps_Map_get_MoveToLastRegionOnLayoutChange"
 
 	.byte 0,0
-	.quad Xamarin_Forms_Maps_Map_add_MapClicked_System_EventHandler_1_Xamarin_Forms_Maps_MapClickedEventArgs
+	.quad Xamarin_Forms_Maps_Map_get_MoveToLastRegionOnLayoutChange
 	.quad Lme_24
 
 	.byte 2,118,16,3
@@ -22287,54 +22506,73 @@ Lfde35_end:
 
 LDIFF_SYM738=LTDIE_9_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM738
-	.byte 1,105,3
-	.asciz "value"
-
-LDIFF_SYM739=LTDIE_87_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM739
-	.byte 1,106,11
-	.asciz "V_0"
-
-LDIFF_SYM740=LTDIE_87_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM740
-	.byte 1,104,11
-	.asciz "V_1"
-
-LDIFF_SYM741=LTDIE_87_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM741
-	.byte 1,103,11
-	.asciz "V_2"
-
-LDIFF_SYM742=LTDIE_87_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM742
-	.byte 1,102,0
+	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM743=Lfde36_end - Lfde36_start
-	.long LDIFF_SYM743
+LDIFF_SYM739=Lfde36_end - Lfde36_start
+	.long LDIFF_SYM739
 Lfde36_start:
 
 	.long 0
 	.align 3
-	.quad Xamarin_Forms_Maps_Map_add_MapClicked_System_EventHandler_1_Xamarin_Forms_Maps_MapClickedEventArgs
+	.quad Xamarin_Forms_Maps_Map_get_MoveToLastRegionOnLayoutChange
 
-LDIFF_SYM744=Lme_24 - Xamarin_Forms_Maps_Map_add_MapClicked_System_EventHandler_1_Xamarin_Forms_Maps_MapClickedEventArgs
-	.long LDIFF_SYM744
+LDIFF_SYM740=Lme_24 - Xamarin_Forms_Maps_Map_get_MoveToLastRegionOnLayoutChange
+	.long LDIFF_SYM740
 	.long 0
-	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,149,12,150,11,68,151,10,152,9,68,153,8,154,7
+	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
 Lfde36_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "Xamarin.Forms.Maps.Map:remove_MapClicked"
-	.asciz "Xamarin_Forms_Maps_Map_remove_MapClicked_System_EventHandler_1_Xamarin_Forms_Maps_MapClickedEventArgs"
+	.asciz "Xamarin.Forms.Maps.Map:set_MoveToLastRegionOnLayoutChange"
+	.asciz "Xamarin_Forms_Maps_Map_set_MoveToLastRegionOnLayoutChange_bool"
 
 	.byte 0,0
-	.quad Xamarin_Forms_Maps_Map_remove_MapClicked_System_EventHandler_1_Xamarin_Forms_Maps_MapClickedEventArgs
+	.quad Xamarin_Forms_Maps_Map_set_MoveToLastRegionOnLayoutChange_bool
 	.quad Lme_25
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM741=LTDIE_9_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM741
+	.byte 2,141,16,3
+	.asciz "value"
+
+LDIFF_SYM742=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM742
+	.byte 2,141,24,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM743=Lfde37_end - Lfde37_start
+	.long LDIFF_SYM743
+Lfde37_start:
+
+	.long 0
+	.align 3
+	.quad Xamarin_Forms_Maps_Map_set_MoveToLastRegionOnLayoutChange_bool
+
+LDIFF_SYM744=Lme_25 - Xamarin_Forms_Maps_Map_set_MoveToLastRegionOnLayoutChange_bool
+	.long LDIFF_SYM744
+	.long 0
+	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29
+	.align 3
+Lfde37_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "Xamarin.Forms.Maps.Map:add_MapClicked"
+	.asciz "Xamarin_Forms_Maps_Map_add_MapClicked_System_EventHandler_1_Xamarin_Forms_Maps_MapClickedEventArgs"
+
+	.byte 0,0
+	.quad Xamarin_Forms_Maps_Map_add_MapClicked_System_EventHandler_1_Xamarin_Forms_Maps_MapClickedEventArgs
+	.quad Lme_26
 
 	.byte 2,118,16,3
 	.asciz "this"
@@ -22365,20 +22603,74 @@ LDIFF_SYM749=LTDIE_87_REFERENCE - Ldebug_info_start
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM750=Lfde37_end - Lfde37_start
+LDIFF_SYM750=Lfde38_end - Lfde38_start
 	.long LDIFF_SYM750
-Lfde37_start:
+Lfde38_start:
+
+	.long 0
+	.align 3
+	.quad Xamarin_Forms_Maps_Map_add_MapClicked_System_EventHandler_1_Xamarin_Forms_Maps_MapClickedEventArgs
+
+LDIFF_SYM751=Lme_26 - Xamarin_Forms_Maps_Map_add_MapClicked_System_EventHandler_1_Xamarin_Forms_Maps_MapClickedEventArgs
+	.long LDIFF_SYM751
+	.long 0
+	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,149,12,150,11,68,151,10,152,9,68,153,8,154,7
+	.align 3
+Lfde38_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "Xamarin.Forms.Maps.Map:remove_MapClicked"
+	.asciz "Xamarin_Forms_Maps_Map_remove_MapClicked_System_EventHandler_1_Xamarin_Forms_Maps_MapClickedEventArgs"
+
+	.byte 0,0
+	.quad Xamarin_Forms_Maps_Map_remove_MapClicked_System_EventHandler_1_Xamarin_Forms_Maps_MapClickedEventArgs
+	.quad Lme_27
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM752=LTDIE_9_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM752
+	.byte 1,105,3
+	.asciz "value"
+
+LDIFF_SYM753=LTDIE_87_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM753
+	.byte 1,106,11
+	.asciz "V_0"
+
+LDIFF_SYM754=LTDIE_87_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM754
+	.byte 1,104,11
+	.asciz "V_1"
+
+LDIFF_SYM755=LTDIE_87_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM755
+	.byte 1,103,11
+	.asciz "V_2"
+
+LDIFF_SYM756=LTDIE_87_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM756
+	.byte 1,102,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM757=Lfde39_end - Lfde39_start
+	.long LDIFF_SYM757
+Lfde39_start:
 
 	.long 0
 	.align 3
 	.quad Xamarin_Forms_Maps_Map_remove_MapClicked_System_EventHandler_1_Xamarin_Forms_Maps_MapClickedEventArgs
 
-LDIFF_SYM751=Lme_25 - Xamarin_Forms_Maps_Map_remove_MapClicked_System_EventHandler_1_Xamarin_Forms_Maps_MapClickedEventArgs
-	.long LDIFF_SYM751
+LDIFF_SYM758=Lme_27 - Xamarin_Forms_Maps_Map_remove_MapClicked_System_EventHandler_1_Xamarin_Forms_Maps_MapClickedEventArgs
+	.long LDIFF_SYM758
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,149,12,150,11,68,151,10,152,9,68,153,8,154,7
 	.align 3
-Lfde37_end:
+Lfde39_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -22388,92 +22680,19 @@ Lfde37_end:
 
 	.byte 0,0
 	.quad Xamarin_Forms_Maps_Map_SendMapClicked_Xamarin_Forms_Maps_Position
-	.quad Lme_26
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM752=LTDIE_9_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM752
-	.byte 1,106,3
-	.asciz "position"
-
-LDIFF_SYM753=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM753
-	.byte 2,141,40,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM754=Lfde38_end - Lfde38_start
-	.long LDIFF_SYM754
-Lfde38_start:
-
-	.long 0
-	.align 3
-	.quad Xamarin_Forms_Maps_Map_SendMapClicked_Xamarin_Forms_Maps_Position
-
-LDIFF_SYM755=Lme_26 - Xamarin_Forms_Maps_Map_SendMapClicked_Xamarin_Forms_Maps_Position
-	.long LDIFF_SYM755
-	.long 0
-	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29,68,152,18,153,17,68,154,16
-	.align 3
-Lfde38_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "Xamarin.Forms.Maps.Map:SetVisibleRegion"
-	.asciz "Xamarin_Forms_Maps_Map_SetVisibleRegion_Xamarin_Forms_Maps_MapSpan"
-
-	.byte 0,0
-	.quad Xamarin_Forms_Maps_Map_SetVisibleRegion_Xamarin_Forms_Maps_MapSpan
-	.quad Lme_27
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM756=LTDIE_9_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM756
-	.byte 2,141,16,3
-	.asciz "value"
-
-LDIFF_SYM757=LTDIE_86_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM757
-	.byte 2,141,24,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM758=Lfde39_end - Lfde39_start
-	.long LDIFF_SYM758
-Lfde39_start:
-
-	.long 0
-	.align 3
-	.quad Xamarin_Forms_Maps_Map_SetVisibleRegion_Xamarin_Forms_Maps_MapSpan
-
-LDIFF_SYM759=Lme_27 - Xamarin_Forms_Maps_Map_SetVisibleRegion_Xamarin_Forms_Maps_MapSpan
-	.long LDIFF_SYM759
-	.long 0
-	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
-	.align 3
-Lfde39_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "Xamarin.Forms.Maps.Map:get_VisibleRegion"
-	.asciz "Xamarin_Forms_Maps_Map_get_VisibleRegion"
-
-	.byte 0,0
-	.quad Xamarin_Forms_Maps_Map_get_VisibleRegion
 	.quad Lme_28
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM760=LTDIE_9_REFERENCE - Ldebug_info_start
+LDIFF_SYM759=LTDIE_9_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM759
+	.byte 1,106,3
+	.asciz "position"
+
+LDIFF_SYM760=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM760
-	.byte 2,141,16,0
+	.byte 2,141,40,0
 
 .section __DWARF, __debug_frame,regular,debug
 
@@ -22483,23 +22702,23 @@ Lfde40_start:
 
 	.long 0
 	.align 3
-	.quad Xamarin_Forms_Maps_Map_get_VisibleRegion
+	.quad Xamarin_Forms_Maps_Map_SendMapClicked_Xamarin_Forms_Maps_Position
 
-LDIFF_SYM762=Lme_28 - Xamarin_Forms_Maps_Map_get_VisibleRegion
+LDIFF_SYM762=Lme_28 - Xamarin_Forms_Maps_Map_SendMapClicked_Xamarin_Forms_Maps_Position
 	.long LDIFF_SYM762
 	.long 0
-	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
+	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29,68,152,18,153,17,68,154,16
 	.align 3
 Lfde40_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "Xamarin.Forms.Maps.Map:set_VisibleRegion"
-	.asciz "Xamarin_Forms_Maps_Map_set_VisibleRegion_Xamarin_Forms_Maps_MapSpan"
+	.asciz "Xamarin.Forms.Maps.Map:SetVisibleRegion"
+	.asciz "Xamarin_Forms_Maps_Map_SetVisibleRegion_Xamarin_Forms_Maps_MapSpan"
 
 	.byte 0,0
-	.quad Xamarin_Forms_Maps_Map_set_VisibleRegion_Xamarin_Forms_Maps_MapSpan
+	.quad Xamarin_Forms_Maps_Map_SetVisibleRegion_Xamarin_Forms_Maps_MapSpan
 	.quad Lme_29
 
 	.byte 2,118,16,3
@@ -22507,12 +22726,12 @@ Lfde40_end:
 
 LDIFF_SYM763=LTDIE_9_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM763
-	.byte 1,105,3
+	.byte 2,141,16,3
 	.asciz "value"
 
 LDIFF_SYM764=LTDIE_86_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM764
-	.byte 1,106,0
+	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
@@ -22522,23 +22741,23 @@ Lfde41_start:
 
 	.long 0
 	.align 3
-	.quad Xamarin_Forms_Maps_Map_set_VisibleRegion_Xamarin_Forms_Maps_MapSpan
+	.quad Xamarin_Forms_Maps_Map_SetVisibleRegion_Xamarin_Forms_Maps_MapSpan
 
-LDIFF_SYM766=Lme_29 - Xamarin_Forms_Maps_Map_set_VisibleRegion_Xamarin_Forms_Maps_MapSpan
+LDIFF_SYM766=Lme_29 - Xamarin_Forms_Maps_Map_SetVisibleRegion_Xamarin_Forms_Maps_MapSpan
 	.long LDIFF_SYM766
 	.long 0
-	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,153,8,154,7
+	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
 Lfde41_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "Xamarin.Forms.Maps.Map:get_LastMoveToRegion"
-	.asciz "Xamarin_Forms_Maps_Map_get_LastMoveToRegion"
+	.asciz "Xamarin.Forms.Maps.Map:get_VisibleRegion"
+	.asciz "Xamarin_Forms_Maps_Map_get_VisibleRegion"
 
 	.byte 0,0
-	.quad Xamarin_Forms_Maps_Map_get_LastMoveToRegion
+	.quad Xamarin_Forms_Maps_Map_get_VisibleRegion
 	.quad Lme_2a
 
 	.byte 2,118,16,3
@@ -22556,9 +22775,9 @@ Lfde42_start:
 
 	.long 0
 	.align 3
-	.quad Xamarin_Forms_Maps_Map_get_LastMoveToRegion
+	.quad Xamarin_Forms_Maps_Map_get_VisibleRegion
 
-LDIFF_SYM769=Lme_2a - Xamarin_Forms_Maps_Map_get_LastMoveToRegion
+LDIFF_SYM769=Lme_2a - Xamarin_Forms_Maps_Map_get_VisibleRegion
 	.long LDIFF_SYM769
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
@@ -22568,11 +22787,11 @@ Lfde42_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "Xamarin.Forms.Maps.Map:set_LastMoveToRegion"
-	.asciz "Xamarin_Forms_Maps_Map_set_LastMoveToRegion_Xamarin_Forms_Maps_MapSpan"
+	.asciz "Xamarin.Forms.Maps.Map:set_VisibleRegion"
+	.asciz "Xamarin_Forms_Maps_Map_set_VisibleRegion_Xamarin_Forms_Maps_MapSpan"
 
 	.byte 0,0
-	.quad Xamarin_Forms_Maps_Map_set_LastMoveToRegion_Xamarin_Forms_Maps_MapSpan
+	.quad Xamarin_Forms_Maps_Map_set_VisibleRegion_Xamarin_Forms_Maps_MapSpan
 	.quad Lme_2b
 
 	.byte 2,118,16,3
@@ -22580,12 +22799,12 @@ Lfde42_end:
 
 LDIFF_SYM770=LTDIE_9_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM770
-	.byte 2,141,16,3
+	.byte 1,105,3
 	.asciz "value"
 
 LDIFF_SYM771=LTDIE_86_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM771
-	.byte 2,141,24,0
+	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
@@ -22595,23 +22814,23 @@ Lfde43_start:
 
 	.long 0
 	.align 3
-	.quad Xamarin_Forms_Maps_Map_set_LastMoveToRegion_Xamarin_Forms_Maps_MapSpan
+	.quad Xamarin_Forms_Maps_Map_set_VisibleRegion_Xamarin_Forms_Maps_MapSpan
 
-LDIFF_SYM773=Lme_2b - Xamarin_Forms_Maps_Map_set_LastMoveToRegion_Xamarin_Forms_Maps_MapSpan
+LDIFF_SYM773=Lme_2b - Xamarin_Forms_Maps_Map_set_VisibleRegion_Xamarin_Forms_Maps_MapSpan
 	.long LDIFF_SYM773
 	.long 0
-	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
+	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,153,8,154,7
 	.align 3
 Lfde43_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "Xamarin.Forms.Maps.Map:System.Collections.IEnumerable.GetEnumerator"
-	.asciz "Xamarin_Forms_Maps_Map_System_Collections_IEnumerable_GetEnumerator"
+	.asciz "Xamarin.Forms.Maps.Map:get_LastMoveToRegion"
+	.asciz "Xamarin_Forms_Maps_Map_get_LastMoveToRegion"
 
 	.byte 0,0
-	.quad Xamarin_Forms_Maps_Map_System_Collections_IEnumerable_GetEnumerator
+	.quad Xamarin_Forms_Maps_Map_get_LastMoveToRegion
 	.quad Lme_2c
 
 	.byte 2,118,16,3
@@ -22629,9 +22848,9 @@ Lfde44_start:
 
 	.long 0
 	.align 3
-	.quad Xamarin_Forms_Maps_Map_System_Collections_IEnumerable_GetEnumerator
+	.quad Xamarin_Forms_Maps_Map_get_LastMoveToRegion
 
-LDIFF_SYM776=Lme_2c - Xamarin_Forms_Maps_Map_System_Collections_IEnumerable_GetEnumerator
+LDIFF_SYM776=Lme_2c - Xamarin_Forms_Maps_Map_get_LastMoveToRegion
 	.long LDIFF_SYM776
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
@@ -22641,11 +22860,11 @@ Lfde44_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "Xamarin.Forms.Maps.Map:GetEnumerator"
-	.asciz "Xamarin_Forms_Maps_Map_GetEnumerator"
+	.asciz "Xamarin.Forms.Maps.Map:set_LastMoveToRegion"
+	.asciz "Xamarin_Forms_Maps_Map_set_LastMoveToRegion_Xamarin_Forms_Maps_MapSpan"
 
 	.byte 0,0
-	.quad Xamarin_Forms_Maps_Map_GetEnumerator
+	.quad Xamarin_Forms_Maps_Map_set_LastMoveToRegion_Xamarin_Forms_Maps_MapSpan
 	.quad Lme_2d
 
 	.byte 2,118,16,3
@@ -22653,20 +22872,25 @@ Lfde44_end:
 
 LDIFF_SYM777=LTDIE_9_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM777
-	.byte 2,141,16,0
+	.byte 2,141,16,3
+	.asciz "value"
+
+LDIFF_SYM778=LTDIE_86_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM778
+	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM778=Lfde45_end - Lfde45_start
-	.long LDIFF_SYM778
+LDIFF_SYM779=Lfde45_end - Lfde45_start
+	.long LDIFF_SYM779
 Lfde45_start:
 
 	.long 0
 	.align 3
-	.quad Xamarin_Forms_Maps_Map_GetEnumerator
+	.quad Xamarin_Forms_Maps_Map_set_LastMoveToRegion_Xamarin_Forms_Maps_MapSpan
 
-LDIFF_SYM779=Lme_2d - Xamarin_Forms_Maps_Map_GetEnumerator
-	.long LDIFF_SYM779
+LDIFF_SYM780=Lme_2d - Xamarin_Forms_Maps_Map_set_LastMoveToRegion_Xamarin_Forms_Maps_MapSpan
+	.long LDIFF_SYM780
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -22675,24 +22899,19 @@ Lfde45_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "Xamarin.Forms.Maps.Map:MoveToRegion"
-	.asciz "Xamarin_Forms_Maps_Map_MoveToRegion_Xamarin_Forms_Maps_MapSpan"
+	.asciz "Xamarin.Forms.Maps.Map:System.Collections.IEnumerable.GetEnumerator"
+	.asciz "Xamarin_Forms_Maps_Map_System_Collections_IEnumerable_GetEnumerator"
 
 	.byte 0,0
-	.quad Xamarin_Forms_Maps_Map_MoveToRegion_Xamarin_Forms_Maps_MapSpan
+	.quad Xamarin_Forms_Maps_Map_System_Collections_IEnumerable_GetEnumerator
 	.quad Lme_2e
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM780=LTDIE_9_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM780
-	.byte 1,105,3
-	.asciz "mapSpan"
-
-LDIFF_SYM781=LTDIE_86_REFERENCE - Ldebug_info_start
+LDIFF_SYM781=LTDIE_9_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM781
-	.byte 1,106,0
+	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
@@ -22702,14 +22921,87 @@ Lfde46_start:
 
 	.long 0
 	.align 3
+	.quad Xamarin_Forms_Maps_Map_System_Collections_IEnumerable_GetEnumerator
+
+LDIFF_SYM783=Lme_2e - Xamarin_Forms_Maps_Map_System_Collections_IEnumerable_GetEnumerator
+	.long LDIFF_SYM783
+	.long 0
+	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
+	.align 3
+Lfde46_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "Xamarin.Forms.Maps.Map:GetEnumerator"
+	.asciz "Xamarin_Forms_Maps_Map_GetEnumerator"
+
+	.byte 0,0
+	.quad Xamarin_Forms_Maps_Map_GetEnumerator
+	.quad Lme_2f
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM784=LTDIE_9_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM784
+	.byte 2,141,16,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM785=Lfde47_end - Lfde47_start
+	.long LDIFF_SYM785
+Lfde47_start:
+
+	.long 0
+	.align 3
+	.quad Xamarin_Forms_Maps_Map_GetEnumerator
+
+LDIFF_SYM786=Lme_2f - Xamarin_Forms_Maps_Map_GetEnumerator
+	.long LDIFF_SYM786
+	.long 0
+	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
+	.align 3
+Lfde47_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "Xamarin.Forms.Maps.Map:MoveToRegion"
+	.asciz "Xamarin_Forms_Maps_Map_MoveToRegion_Xamarin_Forms_Maps_MapSpan"
+
+	.byte 0,0
+	.quad Xamarin_Forms_Maps_Map_MoveToRegion_Xamarin_Forms_Maps_MapSpan
+	.quad Lme_30
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM787=LTDIE_9_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM787
+	.byte 1,105,3
+	.asciz "mapSpan"
+
+LDIFF_SYM788=LTDIE_86_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM788
+	.byte 1,106,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM789=Lfde48_end - Lfde48_start
+	.long LDIFF_SYM789
+Lfde48_start:
+
+	.long 0
+	.align 3
 	.quad Xamarin_Forms_Maps_Map_MoveToRegion_Xamarin_Forms_Maps_MapSpan
 
-LDIFF_SYM783=Lme_2e - Xamarin_Forms_Maps_Map_MoveToRegion_Xamarin_Forms_Maps_MapSpan
-	.long LDIFF_SYM783
+LDIFF_SYM790=Lme_30 - Xamarin_Forms_Maps_Map_MoveToRegion_Xamarin_Forms_Maps_MapSpan
+	.long LDIFF_SYM790
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,153,8,154,7
 	.align 3
-Lfde46_end:
+Lfde48_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_101:
@@ -22718,31 +23010,31 @@ LTDIE_101:
 	.asciz "System_EventArgs"
 
 	.byte 16,16
-LDIFF_SYM784=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM784
+LDIFF_SYM791=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM791
 	.byte 2,35,0,0,7
 	.asciz "System_EventArgs"
 
-LDIFF_SYM785=LTDIE_101 - Ldebug_info_start
-	.long LDIFF_SYM785
+LDIFF_SYM792=LTDIE_101 - Ldebug_info_start
+	.long LDIFF_SYM792
 LTDIE_101_POINTER:
 
 	.byte 13
-LDIFF_SYM786=LTDIE_101 - Ldebug_info_start
-	.long LDIFF_SYM786
+LDIFF_SYM793=LTDIE_101 - Ldebug_info_start
+	.long LDIFF_SYM793
 LTDIE_101_REFERENCE:
 
 	.byte 14
-LDIFF_SYM787=LTDIE_101 - Ldebug_info_start
-	.long LDIFF_SYM787
+LDIFF_SYM794=LTDIE_101 - Ldebug_info_start
+	.long LDIFF_SYM794
 LTDIE_102:
 
 	.byte 8
 	.asciz "System_Collections_Specialized_NotifyCollectionChangedAction"
 
 	.byte 4
-LDIFF_SYM788=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM788
+LDIFF_SYM795=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM795
 	.byte 9
 	.asciz "Add"
 
@@ -22761,18 +23053,18 @@ LDIFF_SYM788=LDIE_I4 - Ldebug_info_start
 	.byte 4,0,7
 	.asciz "System_Collections_Specialized_NotifyCollectionChangedAction"
 
-LDIFF_SYM789=LTDIE_102 - Ldebug_info_start
-	.long LDIFF_SYM789
+LDIFF_SYM796=LTDIE_102 - Ldebug_info_start
+	.long LDIFF_SYM796
 LTDIE_102_POINTER:
 
 	.byte 13
-LDIFF_SYM790=LTDIE_102 - Ldebug_info_start
-	.long LDIFF_SYM790
+LDIFF_SYM797=LTDIE_102 - Ldebug_info_start
+	.long LDIFF_SYM797
 LTDIE_102_REFERENCE:
 
 	.byte 14
-LDIFF_SYM791=LTDIE_102 - Ldebug_info_start
-	.long LDIFF_SYM791
+LDIFF_SYM798=LTDIE_102 - Ldebug_info_start
+	.long LDIFF_SYM798
 LTDIE_103:
 
 	.byte 17
@@ -22781,107 +23073,107 @@ LTDIE_103:
 	.byte 16,7
 	.asciz "System_Collections_IList"
 
-LDIFF_SYM792=LTDIE_103 - Ldebug_info_start
-	.long LDIFF_SYM792
+LDIFF_SYM799=LTDIE_103 - Ldebug_info_start
+	.long LDIFF_SYM799
 LTDIE_103_POINTER:
 
 	.byte 13
-LDIFF_SYM793=LTDIE_103 - Ldebug_info_start
-	.long LDIFF_SYM793
+LDIFF_SYM800=LTDIE_103 - Ldebug_info_start
+	.long LDIFF_SYM800
 LTDIE_103_REFERENCE:
 
 	.byte 14
-LDIFF_SYM794=LTDIE_103 - Ldebug_info_start
-	.long LDIFF_SYM794
+LDIFF_SYM801=LTDIE_103 - Ldebug_info_start
+	.long LDIFF_SYM801
 LTDIE_100:
 
 	.byte 5
 	.asciz "System_Collections_Specialized_NotifyCollectionChangedEventArgs"
 
 	.byte 48,16
-LDIFF_SYM795=LTDIE_101 - Ldebug_info_start
-	.long LDIFF_SYM795
+LDIFF_SYM802=LTDIE_101 - Ldebug_info_start
+	.long LDIFF_SYM802
 	.byte 2,35,0,6
 	.asciz "_action"
 
-LDIFF_SYM796=LTDIE_102 - Ldebug_info_start
-	.long LDIFF_SYM796
+LDIFF_SYM803=LTDIE_102 - Ldebug_info_start
+	.long LDIFF_SYM803
 	.byte 2,35,32,6
 	.asciz "_newItems"
 
-LDIFF_SYM797=LTDIE_103_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM797
+LDIFF_SYM804=LTDIE_103_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM804
 	.byte 2,35,16,6
 	.asciz "_oldItems"
 
-LDIFF_SYM798=LTDIE_103_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM798
+LDIFF_SYM805=LTDIE_103_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM805
 	.byte 2,35,24,6
 	.asciz "_newStartingIndex"
 
-LDIFF_SYM799=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM799
+LDIFF_SYM806=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM806
 	.byte 2,35,36,6
 	.asciz "_oldStartingIndex"
 
-LDIFF_SYM800=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM800
+LDIFF_SYM807=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM807
 	.byte 2,35,40,0,7
 	.asciz "System_Collections_Specialized_NotifyCollectionChangedEventArgs"
 
-LDIFF_SYM801=LTDIE_100 - Ldebug_info_start
-	.long LDIFF_SYM801
+LDIFF_SYM808=LTDIE_100 - Ldebug_info_start
+	.long LDIFF_SYM808
 LTDIE_100_POINTER:
 
 	.byte 13
-LDIFF_SYM802=LTDIE_100 - Ldebug_info_start
-	.long LDIFF_SYM802
+LDIFF_SYM809=LTDIE_100 - Ldebug_info_start
+	.long LDIFF_SYM809
 LTDIE_100_REFERENCE:
 
 	.byte 14
-LDIFF_SYM803=LTDIE_100 - Ldebug_info_start
-	.long LDIFF_SYM803
+LDIFF_SYM810=LTDIE_100 - Ldebug_info_start
+	.long LDIFF_SYM810
 	.byte 2
 	.asciz "Xamarin.Forms.Maps.Map:PinsOnCollectionChanged"
 	.asciz "Xamarin_Forms_Maps_Map_PinsOnCollectionChanged_object_System_Collections_Specialized_NotifyCollectionChangedEventArgs"
 
 	.byte 0,0
 	.quad Xamarin_Forms_Maps_Map_PinsOnCollectionChanged_object_System_Collections_Specialized_NotifyCollectionChangedEventArgs
-	.quad Lme_2f
+	.quad Lme_31
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM804=LTDIE_9_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM804
+LDIFF_SYM811=LTDIE_9_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM811
 	.byte 2,141,56,3
 	.asciz "sender"
 
-LDIFF_SYM805=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM805
+LDIFF_SYM812=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM812
 	.byte 3,141,192,0,3
 	.asciz "e"
 
-LDIFF_SYM806=LTDIE_100_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM806
+LDIFF_SYM813=LTDIE_100_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM813
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM807=Lfde47_end - Lfde47_start
-	.long LDIFF_SYM807
-Lfde47_start:
+LDIFF_SYM814=Lfde49_end - Lfde49_start
+	.long LDIFF_SYM814
+Lfde49_start:
 
 	.long 0
 	.align 3
 	.quad Xamarin_Forms_Maps_Map_PinsOnCollectionChanged_object_System_Collections_Specialized_NotifyCollectionChangedEventArgs
 
-LDIFF_SYM808=Lme_2f - Xamarin_Forms_Maps_Map_PinsOnCollectionChanged_object_System_Collections_Specialized_NotifyCollectionChangedEventArgs
-	.long LDIFF_SYM808
+LDIFF_SYM815=Lme_31 - Xamarin_Forms_Maps_Map_PinsOnCollectionChanged_object_System_Collections_Specialized_NotifyCollectionChangedEventArgs
+	.long LDIFF_SYM815
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,150,12,151,11,68,152,10,153,9,68,154,8
 	.align 3
-Lfde47_end:
+Lfde49_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_104:
@@ -22892,69 +23184,69 @@ LTDIE_104:
 	.byte 16,7
 	.asciz "System_Collections_Specialized_INotifyCollectionChanged"
 
-LDIFF_SYM809=LTDIE_104 - Ldebug_info_start
-	.long LDIFF_SYM809
+LDIFF_SYM816=LTDIE_104 - Ldebug_info_start
+	.long LDIFF_SYM816
 LTDIE_104_POINTER:
 
 	.byte 13
-LDIFF_SYM810=LTDIE_104 - Ldebug_info_start
-	.long LDIFF_SYM810
+LDIFF_SYM817=LTDIE_104 - Ldebug_info_start
+	.long LDIFF_SYM817
 LTDIE_104_REFERENCE:
 
 	.byte 14
-LDIFF_SYM811=LTDIE_104 - Ldebug_info_start
-	.long LDIFF_SYM811
+LDIFF_SYM818=LTDIE_104 - Ldebug_info_start
+	.long LDIFF_SYM818
 	.byte 2
 	.asciz "Xamarin.Forms.Maps.Map:OnItemsSourcePropertyChanged"
 	.asciz "Xamarin_Forms_Maps_Map_OnItemsSourcePropertyChanged_System_Collections_IEnumerable_System_Collections_IEnumerable"
 
 	.byte 0,0
 	.quad Xamarin_Forms_Maps_Map_OnItemsSourcePropertyChanged_System_Collections_IEnumerable_System_Collections_IEnumerable
-	.quad Lme_30
+	.quad Lme_32
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM812=LTDIE_9_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM812
+LDIFF_SYM819=LTDIE_9_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM819
 	.byte 1,104,3
 	.asciz "oldItemsSource"
 
-LDIFF_SYM813=LTDIE_89_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM813
+LDIFF_SYM820=LTDIE_89_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM820
 	.byte 3,141,200,0,3
 	.asciz "newItemsSource"
 
-LDIFF_SYM814=LTDIE_89_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM814
+LDIFF_SYM821=LTDIE_89_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM821
 	.byte 3,141,208,0,11
 	.asciz "V_0"
 
-LDIFF_SYM815=LTDIE_104_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM815
+LDIFF_SYM822=LTDIE_104_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM822
 	.byte 1,103,11
 	.asciz "V_1"
 
-LDIFF_SYM816=LTDIE_104_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM816
+LDIFF_SYM823=LTDIE_104_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM823
 	.byte 1,102,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM817=Lfde48_end - Lfde48_start
-	.long LDIFF_SYM817
-Lfde48_start:
+LDIFF_SYM824=Lfde50_end - Lfde50_start
+	.long LDIFF_SYM824
+Lfde50_start:
 
 	.long 0
 	.align 3
 	.quad Xamarin_Forms_Maps_Map_OnItemsSourcePropertyChanged_System_Collections_IEnumerable_System_Collections_IEnumerable
 
-LDIFF_SYM818=Lme_30 - Xamarin_Forms_Maps_Map_OnItemsSourcePropertyChanged_System_Collections_IEnumerable_System_Collections_IEnumerable
-	.long LDIFF_SYM818
+LDIFF_SYM825=Lme_32 - Xamarin_Forms_Maps_Map_OnItemsSourcePropertyChanged_System_Collections_IEnumerable_System_Collections_IEnumerable
+	.long LDIFF_SYM825
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,154,10
 	.align 3
-Lfde48_end:
+Lfde50_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -22964,41 +23256,41 @@ Lfde48_end:
 
 	.byte 0,0
 	.quad Xamarin_Forms_Maps_Map_OnItemTemplatePropertyChanged_Xamarin_Forms_DataTemplate_Xamarin_Forms_DataTemplate
-	.quad Lme_31
+	.quad Lme_33
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM819=LTDIE_9_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM819
+LDIFF_SYM826=LTDIE_9_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM826
 	.byte 1,105,3
 	.asciz "oldItemTemplate"
 
-LDIFF_SYM820=LTDIE_90_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM820
+LDIFF_SYM827=LTDIE_90_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM827
 	.byte 3,141,200,0,3
 	.asciz "newItemTemplate"
 
-LDIFF_SYM821=LTDIE_90_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM821
+LDIFF_SYM828=LTDIE_90_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM828
 	.byte 3,141,208,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM822=Lfde49_end - Lfde49_start
-	.long LDIFF_SYM822
-Lfde49_start:
+LDIFF_SYM829=Lfde51_end - Lfde51_start
+	.long LDIFF_SYM829
+Lfde51_start:
 
 	.long 0
 	.align 3
 	.quad Xamarin_Forms_Maps_Map_OnItemTemplatePropertyChanged_Xamarin_Forms_DataTemplate_Xamarin_Forms_DataTemplate
 
-LDIFF_SYM823=Lme_31 - Xamarin_Forms_Maps_Map_OnItemTemplatePropertyChanged_Xamarin_Forms_DataTemplate_Xamarin_Forms_DataTemplate
-	.long LDIFF_SYM823
+LDIFF_SYM830=Lme_33 - Xamarin_Forms_Maps_Map_OnItemTemplatePropertyChanged_Xamarin_Forms_DataTemplate_Xamarin_Forms_DataTemplate
+	.long LDIFF_SYM830
 	.long 0
 	.byte 12,31,0,68,14,240,1,157,30,158,29,68,13,29,68,147,28,148,27,68,149,26,150,25,68,151,24,152,23,68,153,22
 	.align 3
-Lfde49_end:
+Lfde51_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -23008,31 +23300,31 @@ Lfde49_end:
 
 	.byte 0,0
 	.quad Xamarin_Forms_Maps_Map_OnItemTemplateSelectorPropertyChanged
-	.quad Lme_32
+	.quad Lme_34
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM824=LTDIE_9_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM824
+LDIFF_SYM831=LTDIE_9_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM831
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM825=Lfde50_end - Lfde50_start
-	.long LDIFF_SYM825
-Lfde50_start:
+LDIFF_SYM832=Lfde52_end - Lfde52_start
+	.long LDIFF_SYM832
+Lfde52_start:
 
 	.long 0
 	.align 3
 	.quad Xamarin_Forms_Maps_Map_OnItemTemplateSelectorPropertyChanged
 
-LDIFF_SYM826=Lme_32 - Xamarin_Forms_Maps_Map_OnItemTemplateSelectorPropertyChanged
-	.long LDIFF_SYM826
+LDIFF_SYM833=Lme_34 - Xamarin_Forms_Maps_Map_OnItemTemplateSelectorPropertyChanged
+	.long LDIFF_SYM833
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,154,4
 	.align 3
-Lfde50_end:
+Lfde52_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -23042,41 +23334,41 @@ Lfde50_end:
 
 	.byte 0,0
 	.quad Xamarin_Forms_Maps_Map_OnItemsSourceCollectionChanged_object_System_Collections_Specialized_NotifyCollectionChangedEventArgs
-	.quad Lme_33
+	.quad Lme_35
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM827=LTDIE_9_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM827
+LDIFF_SYM834=LTDIE_9_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM834
 	.byte 1,105,3
 	.asciz "sender"
 
-LDIFF_SYM828=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM828
+LDIFF_SYM835=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM835
 	.byte 2,141,24,3
 	.asciz "e"
 
-LDIFF_SYM829=LTDIE_100_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM829
+LDIFF_SYM836=LTDIE_100_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM836
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM830=Lfde51_end - Lfde51_start
-	.long LDIFF_SYM830
-Lfde51_start:
+LDIFF_SYM837=Lfde53_end - Lfde53_start
+	.long LDIFF_SYM837
+Lfde53_start:
 
 	.long 0
 	.align 3
 	.quad Xamarin_Forms_Maps_Map_OnItemsSourceCollectionChanged_object_System_Collections_Specialized_NotifyCollectionChangedEventArgs
 
-LDIFF_SYM831=Lme_33 - Xamarin_Forms_Maps_Map_OnItemsSourceCollectionChanged_object_System_Collections_Specialized_NotifyCollectionChangedEventArgs
-	.long LDIFF_SYM831
+LDIFF_SYM838=Lme_35 - Xamarin_Forms_Maps_Map_OnItemsSourceCollectionChanged_object_System_Collections_Specialized_NotifyCollectionChangedEventArgs
+	.long LDIFF_SYM838
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10
 	.align 3
-Lfde51_end:
+Lfde53_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_105:
@@ -23087,18 +23379,18 @@ LTDIE_105:
 	.byte 16,7
 	.asciz "System_Collections_IEnumerator"
 
-LDIFF_SYM832=LTDIE_105 - Ldebug_info_start
-	.long LDIFF_SYM832
+LDIFF_SYM839=LTDIE_105 - Ldebug_info_start
+	.long LDIFF_SYM839
 LTDIE_105_POINTER:
 
 	.byte 13
-LDIFF_SYM833=LTDIE_105 - Ldebug_info_start
-	.long LDIFF_SYM833
+LDIFF_SYM840=LTDIE_105 - Ldebug_info_start
+	.long LDIFF_SYM840
 LTDIE_105_REFERENCE:
 
 	.byte 14
-LDIFF_SYM834=LTDIE_105 - Ldebug_info_start
-	.long LDIFF_SYM834
+LDIFF_SYM841=LTDIE_105 - Ldebug_info_start
+	.long LDIFF_SYM841
 LTDIE_106:
 
 	.byte 17
@@ -23107,64 +23399,64 @@ LTDIE_106:
 	.byte 16,7
 	.asciz "System_IDisposable"
 
-LDIFF_SYM835=LTDIE_106 - Ldebug_info_start
-	.long LDIFF_SYM835
+LDIFF_SYM842=LTDIE_106 - Ldebug_info_start
+	.long LDIFF_SYM842
 LTDIE_106_POINTER:
 
 	.byte 13
-LDIFF_SYM836=LTDIE_106 - Ldebug_info_start
-	.long LDIFF_SYM836
+LDIFF_SYM843=LTDIE_106 - Ldebug_info_start
+	.long LDIFF_SYM843
 LTDIE_106_REFERENCE:
 
 	.byte 14
-LDIFF_SYM837=LTDIE_106 - Ldebug_info_start
-	.long LDIFF_SYM837
+LDIFF_SYM844=LTDIE_106 - Ldebug_info_start
+	.long LDIFF_SYM844
 	.byte 2
 	.asciz "Xamarin.Forms.Maps.Map:CreatePinItems"
 	.asciz "Xamarin_Forms_Maps_Map_CreatePinItems"
 
 	.byte 0,0
 	.quad Xamarin_Forms_Maps_Map_CreatePinItems
-	.quad Lme_34
+	.quad Lme_36
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM838=LTDIE_9_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM838
+LDIFF_SYM845=LTDIE_9_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM845
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM839=LTDIE_105_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM839
+LDIFF_SYM846=LTDIE_105_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM846
 	.byte 2,141,56,11
 	.asciz "V_1"
 
-LDIFF_SYM840=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM840
+LDIFF_SYM847=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM847
 	.byte 1,105,11
 	.asciz "V_2"
 
-LDIFF_SYM841=LTDIE_106_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM841
+LDIFF_SYM848=LTDIE_106_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM848
 	.byte 3,141,192,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM842=Lfde52_end - Lfde52_start
-	.long LDIFF_SYM842
-Lfde52_start:
+LDIFF_SYM849=Lfde54_end - Lfde54_start
+	.long LDIFF_SYM849
+Lfde54_start:
 
 	.long 0
 	.align 3
 	.quad Xamarin_Forms_Maps_Map_CreatePinItems
 
-LDIFF_SYM843=Lme_34 - Xamarin_Forms_Maps_Map_CreatePinItems
-	.long LDIFF_SYM843
+LDIFF_SYM850=Lme_36 - Xamarin_Forms_Maps_Map_CreatePinItems
+	.long LDIFF_SYM850
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,153,16,154,15
 	.align 3
-Lfde52_end:
+Lfde54_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_107:
@@ -23173,140 +23465,67 @@ LTDIE_107:
 	.asciz "Xamarin_Forms_Maps_Pin"
 
 	.byte 248,1,16
-LDIFF_SYM844=LTDIE_13 - Ldebug_info_start
-	.long LDIFF_SYM844
+LDIFF_SYM851=LTDIE_13 - Ldebug_info_start
+	.long LDIFF_SYM851
 	.byte 2,35,0,6
 	.asciz "_markerId"
 
-LDIFF_SYM845=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM845
+LDIFF_SYM852=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM852
 	.byte 3,35,224,1,6
 	.asciz "_id"
 
-LDIFF_SYM846=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM846
+LDIFF_SYM853=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM853
 	.byte 3,35,232,1,6
 	.asciz "Clicked"
 
-LDIFF_SYM847=LTDIE_30_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM847
+LDIFF_SYM854=LTDIE_30_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM854
 	.byte 3,35,240,1,0,7
 	.asciz "Xamarin_Forms_Maps_Pin"
 
-LDIFF_SYM848=LTDIE_107 - Ldebug_info_start
-	.long LDIFF_SYM848
+LDIFF_SYM855=LTDIE_107 - Ldebug_info_start
+	.long LDIFF_SYM855
 LTDIE_107_POINTER:
 
 	.byte 13
-LDIFF_SYM849=LTDIE_107 - Ldebug_info_start
-	.long LDIFF_SYM849
+LDIFF_SYM856=LTDIE_107 - Ldebug_info_start
+	.long LDIFF_SYM856
 LTDIE_107_REFERENCE:
 
 	.byte 14
-LDIFF_SYM850=LTDIE_107 - Ldebug_info_start
-	.long LDIFF_SYM850
+LDIFF_SYM857=LTDIE_107 - Ldebug_info_start
+	.long LDIFF_SYM857
 	.byte 2
 	.asciz "Xamarin.Forms.Maps.Map:CreatePin"
 	.asciz "Xamarin_Forms_Maps_Map_CreatePin_object"
 
 	.byte 0,0
 	.quad Xamarin_Forms_Maps_Map_CreatePin_object
-	.quad Lme_35
+	.quad Lme_37
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM851=LTDIE_9_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM851
+LDIFF_SYM858=LTDIE_9_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM858
 	.byte 1,105,3
 	.asciz "newItem"
 
-LDIFF_SYM852=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM852
+LDIFF_SYM859=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM859
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM853=LTDIE_90_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM853
+LDIFF_SYM860=LTDIE_90_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM860
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM854=LTDIE_107_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM854
-	.byte 1,103,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM855=Lfde53_end - Lfde53_start
-	.long LDIFF_SYM855
-Lfde53_start:
-
-	.long 0
-	.align 3
-	.quad Xamarin_Forms_Maps_Map_CreatePin_object
-
-LDIFF_SYM856=Lme_35 - Xamarin_Forms_Maps_Map_CreatePin_object
-	.long LDIFF_SYM856
-	.long 0
-	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,148,12,149,11,68,150,10,151,9,68,152,8,153,7,68,154,6
-	.align 3
-Lfde53_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "Xamarin.Forms.Maps.Map:RemovePin"
-	.asciz "Xamarin_Forms_Maps_Map_RemovePin_object"
-
-	.byte 0,0
-	.quad Xamarin_Forms_Maps_Map_RemovePin_object
-	.quad Lme_36
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM857=LTDIE_9_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM857
-	.byte 1,105,3
-	.asciz "itemToRemove"
-
-LDIFF_SYM858=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM858
-	.byte 1,106,11
-	.asciz "V_0"
-
-LDIFF_SYM859=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM859
-	.byte 1,104,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM860=Lfde54_end - Lfde54_start
-	.long LDIFF_SYM860
-Lfde54_start:
-
-	.long 0
-	.align 3
-	.quad Xamarin_Forms_Maps_Map_RemovePin_object
-
-LDIFF_SYM861=Lme_36 - Xamarin_Forms_Maps_Map_RemovePin_object
+LDIFF_SYM861=LTDIE_107_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM861
-	.long 0
-	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,149,12,150,11,68,151,10,152,9,68,153,8,154,7
-	.align 3
-Lfde54_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "Xamarin.Forms.Maps.Map:.cctor"
-	.asciz "Xamarin_Forms_Maps_Map__cctor"
-
-	.byte 0,0
-	.quad Xamarin_Forms_Maps_Map__cctor
-	.quad Lme_37
-
-	.byte 2,118,16,0
+	.byte 1,103,0
 
 .section __DWARF, __debug_frame,regular,debug
 
@@ -23316,23 +23535,23 @@ Lfde55_start:
 
 	.long 0
 	.align 3
-	.quad Xamarin_Forms_Maps_Map__cctor
+	.quad Xamarin_Forms_Maps_Map_CreatePin_object
 
-LDIFF_SYM863=Lme_37 - Xamarin_Forms_Maps_Map__cctor
+LDIFF_SYM863=Lme_37 - Xamarin_Forms_Maps_Map_CreatePin_object
 	.long LDIFF_SYM863
 	.long 0
-	.byte 12,31,0,68,14,176,2,157,38,158,37,68,13,29
+	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,148,12,149,11,68,150,10,151,9,68,152,8,153,7,68,154,6
 	.align 3
 Lfde55_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "Xamarin.Forms.Maps.Map:<OnItemsSourceCollectionChanged>b__53_0"
-	.asciz "Xamarin_Forms_Maps_Map__OnItemsSourceCollectionChangedb__53_0_object_int_bool"
+	.asciz "Xamarin.Forms.Maps.Map:RemovePin"
+	.asciz "Xamarin_Forms_Maps_Map_RemovePin_object"
 
 	.byte 0,0
-	.quad Xamarin_Forms_Maps_Map__OnItemsSourceCollectionChangedb__53_0_object_int_bool
+	.quad Xamarin_Forms_Maps_Map_RemovePin_object
 	.quad Lme_38
 
 	.byte 2,118,16,3
@@ -23340,117 +23559,190 @@ Lfde55_end:
 
 LDIFF_SYM864=LTDIE_9_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM864
-	.byte 2,141,16,3
-	.asciz "item"
+	.byte 1,105,3
+	.asciz "itemToRemove"
 
 LDIFF_SYM865=LDIE_OBJECT - Ldebug_info_start
 	.long LDIFF_SYM865
-	.byte 2,141,24,3
-	.asciz "_"
+	.byte 1,106,11
+	.asciz "V_0"
 
 LDIFF_SYM866=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM866
-	.byte 2,141,32,3
-	.asciz "__"
-
-LDIFF_SYM867=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM867
-	.byte 2,141,40,0
+	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM868=Lfde56_end - Lfde56_start
-	.long LDIFF_SYM868
+LDIFF_SYM867=Lfde56_end - Lfde56_start
+	.long LDIFF_SYM867
 Lfde56_start:
 
 	.long 0
 	.align 3
-	.quad Xamarin_Forms_Maps_Map__OnItemsSourceCollectionChangedb__53_0_object_int_bool
+	.quad Xamarin_Forms_Maps_Map_RemovePin_object
 
-LDIFF_SYM869=Lme_38 - Xamarin_Forms_Maps_Map__OnItemsSourceCollectionChangedb__53_0_object_int_bool
-	.long LDIFF_SYM869
+LDIFF_SYM868=Lme_38 - Xamarin_Forms_Maps_Map_RemovePin_object
+	.long LDIFF_SYM868
 	.long 0
-	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
+	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,149,12,150,11,68,151,10,152,9,68,153,8,154,7
 	.align 3
 Lfde56_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "Xamarin.Forms.Maps.Map:<OnItemsSourceCollectionChanged>b__53_1"
-	.asciz "Xamarin_Forms_Maps_Map__OnItemsSourceCollectionChangedb__53_1_object_int"
+	.asciz "Xamarin.Forms.Maps.Map:.cctor"
+	.asciz "Xamarin_Forms_Maps_Map__cctor"
 
 	.byte 0,0
-	.quad Xamarin_Forms_Maps_Map__OnItemsSourceCollectionChangedb__53_1_object_int
+	.quad Xamarin_Forms_Maps_Map__cctor
 	.quad Lme_39
 
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM870=LTDIE_9_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM870
-	.byte 2,141,16,3
-	.asciz "item"
-
-LDIFF_SYM871=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM871
-	.byte 2,141,24,3
-	.asciz "_"
-
-LDIFF_SYM872=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM872
-	.byte 2,141,32,0
+	.byte 2,118,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM873=Lfde57_end - Lfde57_start
-	.long LDIFF_SYM873
+LDIFF_SYM869=Lfde57_end - Lfde57_start
+	.long LDIFF_SYM869
 Lfde57_start:
 
 	.long 0
 	.align 3
-	.quad Xamarin_Forms_Maps_Map__OnItemsSourceCollectionChangedb__53_1_object_int
+	.quad Xamarin_Forms_Maps_Map__cctor
 
-LDIFF_SYM874=Lme_39 - Xamarin_Forms_Maps_Map__OnItemsSourceCollectionChangedb__53_1_object_int
-	.long LDIFF_SYM874
+LDIFF_SYM870=Lme_39 - Xamarin_Forms_Maps_Map__cctor
+	.long LDIFF_SYM870
 	.long 0
-	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
+	.byte 12,31,0,68,14,208,2,157,42,158,41,68,13,29
 	.align 3
 Lfde57_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "Xamarin.Forms.Maps.Map:<OnItemsSourceCollectionChanged>b__53_2"
-	.asciz "Xamarin_Forms_Maps_Map__OnItemsSourceCollectionChangedb__53_2"
+	.asciz "Xamarin.Forms.Maps.Map:<OnItemsSourceCollectionChanged>b__57_0"
+	.asciz "Xamarin_Forms_Maps_Map__OnItemsSourceCollectionChangedb__57_0_object_int_bool"
 
 	.byte 0,0
-	.quad Xamarin_Forms_Maps_Map__OnItemsSourceCollectionChangedb__53_2
+	.quad Xamarin_Forms_Maps_Map__OnItemsSourceCollectionChangedb__57_0_object_int_bool
 	.quad Lme_3a
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM875=LTDIE_9_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM875
-	.byte 2,141,16,0
+LDIFF_SYM871=LTDIE_9_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM871
+	.byte 2,141,16,3
+	.asciz "item"
+
+LDIFF_SYM872=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM872
+	.byte 2,141,24,3
+	.asciz "_"
+
+LDIFF_SYM873=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM873
+	.byte 2,141,32,3
+	.asciz "__"
+
+LDIFF_SYM874=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM874
+	.byte 2,141,40,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM876=Lfde58_end - Lfde58_start
-	.long LDIFF_SYM876
+LDIFF_SYM875=Lfde58_end - Lfde58_start
+	.long LDIFF_SYM875
 Lfde58_start:
 
 	.long 0
 	.align 3
-	.quad Xamarin_Forms_Maps_Map__OnItemsSourceCollectionChangedb__53_2
+	.quad Xamarin_Forms_Maps_Map__OnItemsSourceCollectionChangedb__57_0_object_int_bool
 
-LDIFF_SYM877=Lme_3a - Xamarin_Forms_Maps_Map__OnItemsSourceCollectionChangedb__53_2
+LDIFF_SYM876=Lme_3a - Xamarin_Forms_Maps_Map__OnItemsSourceCollectionChangedb__57_0_object_int_bool
+	.long LDIFF_SYM876
+	.long 0
+	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
+	.align 3
+Lfde58_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "Xamarin.Forms.Maps.Map:<OnItemsSourceCollectionChanged>b__57_1"
+	.asciz "Xamarin_Forms_Maps_Map__OnItemsSourceCollectionChangedb__57_1_object_int"
+
+	.byte 0,0
+	.quad Xamarin_Forms_Maps_Map__OnItemsSourceCollectionChangedb__57_1_object_int
+	.quad Lme_3b
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM877=LTDIE_9_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM877
+	.byte 2,141,16,3
+	.asciz "item"
+
+LDIFF_SYM878=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM878
+	.byte 2,141,24,3
+	.asciz "_"
+
+LDIFF_SYM879=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM879
+	.byte 2,141,32,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM880=Lfde59_end - Lfde59_start
+	.long LDIFF_SYM880
+Lfde59_start:
+
+	.long 0
+	.align 3
+	.quad Xamarin_Forms_Maps_Map__OnItemsSourceCollectionChangedb__57_1_object_int
+
+LDIFF_SYM881=Lme_3b - Xamarin_Forms_Maps_Map__OnItemsSourceCollectionChangedb__57_1_object_int
+	.long LDIFF_SYM881
+	.long 0
+	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
+	.align 3
+Lfde59_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "Xamarin.Forms.Maps.Map:<OnItemsSourceCollectionChanged>b__57_2"
+	.asciz "Xamarin_Forms_Maps_Map__OnItemsSourceCollectionChangedb__57_2"
+
+	.byte 0,0
+	.quad Xamarin_Forms_Maps_Map__OnItemsSourceCollectionChangedb__57_2
+	.quad Lme_3c
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM882=LTDIE_9_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM882
+	.byte 2,141,16,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM883=Lfde60_end - Lfde60_start
+	.long LDIFF_SYM883
+Lfde60_start:
+
+	.long 0
+	.align 3
+	.quad Xamarin_Forms_Maps_Map__OnItemsSourceCollectionChangedb__57_2
+
+LDIFF_SYM884=Lme_3c - Xamarin_Forms_Maps_Map__OnItemsSourceCollectionChangedb__57_2
+	.long LDIFF_SYM884
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde58_end:
+Lfde60_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -23460,26 +23752,26 @@ Lfde58_end:
 
 	.byte 0,0
 	.quad Xamarin_Forms_Maps_Map__c__cctor
-	.quad Lme_3b
+	.quad Lme_3d
 
 	.byte 2,118,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM878=Lfde59_end - Lfde59_start
-	.long LDIFF_SYM878
-Lfde59_start:
+LDIFF_SYM885=Lfde61_end - Lfde61_start
+	.long LDIFF_SYM885
+Lfde61_start:
 
 	.long 0
 	.align 3
 	.quad Xamarin_Forms_Maps_Map__c__cctor
 
-LDIFF_SYM879=Lme_3b - Xamarin_Forms_Maps_Map__c__cctor
-	.long LDIFF_SYM879
+LDIFF_SYM886=Lme_3d - Xamarin_Forms_Maps_Map__c__cctor
+	.long LDIFF_SYM886
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde59_end:
+Lfde61_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_108:
@@ -23488,102 +23780,29 @@ LTDIE_108:
 	.asciz "_<>c"
 
 	.byte 16,16
-LDIFF_SYM880=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM880
+LDIFF_SYM887=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM887
 	.byte 2,35,0,0,7
 	.asciz "_<>c"
 
-LDIFF_SYM881=LTDIE_108 - Ldebug_info_start
-	.long LDIFF_SYM881
+LDIFF_SYM888=LTDIE_108 - Ldebug_info_start
+	.long LDIFF_SYM888
 LTDIE_108_POINTER:
 
 	.byte 13
-LDIFF_SYM882=LTDIE_108 - Ldebug_info_start
-	.long LDIFF_SYM882
+LDIFF_SYM889=LTDIE_108 - Ldebug_info_start
+	.long LDIFF_SYM889
 LTDIE_108_REFERENCE:
 
 	.byte 14
-LDIFF_SYM883=LTDIE_108 - Ldebug_info_start
-	.long LDIFF_SYM883
+LDIFF_SYM890=LTDIE_108 - Ldebug_info_start
+	.long LDIFF_SYM890
 	.byte 2
 	.asciz "Xamarin.Forms.Maps.Map/<>c:.ctor"
 	.asciz "Xamarin_Forms_Maps_Map__c__ctor"
 
 	.byte 0,0
 	.quad Xamarin_Forms_Maps_Map__c__ctor
-	.quad Lme_3c
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM884=LTDIE_108_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM884
-	.byte 2,141,16,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM885=Lfde60_end - Lfde60_start
-	.long LDIFF_SYM885
-Lfde60_start:
-
-	.long 0
-	.align 3
-	.quad Xamarin_Forms_Maps_Map__c__ctor
-
-LDIFF_SYM886=Lme_3c - Xamarin_Forms_Maps_Map__c__ctor
-	.long LDIFF_SYM886
-	.long 0
-	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
-	.align 3
-Lfde60_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "Xamarin.Forms.Maps.Map/<>c:<PinsOnCollectionChanged>b__49_0"
-	.asciz "Xamarin_Forms_Maps_Map__c__PinsOnCollectionChangedb__49_0_Xamarin_Forms_Maps_Pin"
-
-	.byte 0,0
-	.quad Xamarin_Forms_Maps_Map__c__PinsOnCollectionChangedb__49_0_Xamarin_Forms_Maps_Pin
-	.quad Lme_3d
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM887=LTDIE_108_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM887
-	.byte 2,141,16,3
-	.asciz "pin"
-
-LDIFF_SYM888=LTDIE_107_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM888
-	.byte 2,141,24,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM889=Lfde61_end - Lfde61_start
-	.long LDIFF_SYM889
-Lfde61_start:
-
-	.long 0
-	.align 3
-	.quad Xamarin_Forms_Maps_Map__c__PinsOnCollectionChangedb__49_0_Xamarin_Forms_Maps_Pin
-
-LDIFF_SYM890=Lme_3d - Xamarin_Forms_Maps_Map__c__PinsOnCollectionChangedb__49_0_Xamarin_Forms_Maps_Pin
-	.long LDIFF_SYM890
-	.long 0
-	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
-	.align 3
-Lfde61_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "Xamarin.Forms.Maps.Map/<>c:<.cctor>b__57_0"
-	.asciz "Xamarin_Forms_Maps_Map__c___cctorb__57_0_Xamarin_Forms_BindableObject_object_object"
-
-	.byte 0,0
-	.quad Xamarin_Forms_Maps_Map__c___cctorb__57_0_Xamarin_Forms_BindableObject_object_object
 	.quad Lme_3e
 
 	.byte 2,118,16,3
@@ -23591,137 +23810,210 @@ Lfde61_end:
 
 LDIFF_SYM891=LTDIE_108_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM891
-	.byte 2,141,48,3
-	.asciz "b"
-
-LDIFF_SYM892=LTDIE_14_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM892
-	.byte 2,141,56,3
-	.asciz "o"
-
-LDIFF_SYM893=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM893
-	.byte 3,141,192,0,3
-	.asciz "n"
-
-LDIFF_SYM894=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM894
-	.byte 3,141,200,0,0
+	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM895=Lfde62_end - Lfde62_start
-	.long LDIFF_SYM895
+LDIFF_SYM892=Lfde62_end - Lfde62_start
+	.long LDIFF_SYM892
 Lfde62_start:
 
 	.long 0
 	.align 3
-	.quad Xamarin_Forms_Maps_Map__c___cctorb__57_0_Xamarin_Forms_BindableObject_object_object
+	.quad Xamarin_Forms_Maps_Map__c__ctor
 
-LDIFF_SYM896=Lme_3e - Xamarin_Forms_Maps_Map__c___cctorb__57_0_Xamarin_Forms_BindableObject_object_object
-	.long LDIFF_SYM896
+LDIFF_SYM893=Lme_3e - Xamarin_Forms_Maps_Map__c__ctor
+	.long LDIFF_SYM893
 	.long 0
-	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,147,12,68,149,11,150,10,68,151,9
+	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
 Lfde62_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "Xamarin.Forms.Maps.Map/<>c:<.cctor>b__57_1"
-	.asciz "Xamarin_Forms_Maps_Map__c___cctorb__57_1_Xamarin_Forms_BindableObject_object_object"
+	.asciz "Xamarin.Forms.Maps.Map/<>c:<PinsOnCollectionChanged>b__53_0"
+	.asciz "Xamarin_Forms_Maps_Map__c__PinsOnCollectionChangedb__53_0_Xamarin_Forms_Maps_Pin"
 
 	.byte 0,0
-	.quad Xamarin_Forms_Maps_Map__c___cctorb__57_1_Xamarin_Forms_BindableObject_object_object
+	.quad Xamarin_Forms_Maps_Map__c__PinsOnCollectionChangedb__53_0_Xamarin_Forms_Maps_Pin
 	.quad Lme_3f
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM897=LTDIE_108_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM897
-	.byte 2,141,48,3
-	.asciz "b"
+LDIFF_SYM894=LTDIE_108_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM894
+	.byte 2,141,16,3
+	.asciz "pin"
 
-LDIFF_SYM898=LTDIE_14_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM898
-	.byte 2,141,56,3
-	.asciz "o"
-
-LDIFF_SYM899=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM899
-	.byte 3,141,192,0,3
-	.asciz "n"
-
-LDIFF_SYM900=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM900
-	.byte 3,141,200,0,0
+LDIFF_SYM895=LTDIE_107_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM895
+	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM901=Lfde63_end - Lfde63_start
-	.long LDIFF_SYM901
+LDIFF_SYM896=Lfde63_end - Lfde63_start
+	.long LDIFF_SYM896
 Lfde63_start:
 
 	.long 0
 	.align 3
-	.quad Xamarin_Forms_Maps_Map__c___cctorb__57_1_Xamarin_Forms_BindableObject_object_object
+	.quad Xamarin_Forms_Maps_Map__c__PinsOnCollectionChangedb__53_0_Xamarin_Forms_Maps_Pin
 
-LDIFF_SYM902=Lme_3f - Xamarin_Forms_Maps_Map__c___cctorb__57_1_Xamarin_Forms_BindableObject_object_object
-	.long LDIFF_SYM902
+LDIFF_SYM897=Lme_3f - Xamarin_Forms_Maps_Map__c__PinsOnCollectionChangedb__53_0_Xamarin_Forms_Maps_Pin
+	.long LDIFF_SYM897
 	.long 0
-	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,147,12,68,149,11,150,10,68,151,9
+	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
 Lfde63_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "Xamarin.Forms.Maps.Map/<>c:<.cctor>b__57_2"
-	.asciz "Xamarin_Forms_Maps_Map__c___cctorb__57_2_Xamarin_Forms_BindableObject_object_object"
+	.asciz "Xamarin.Forms.Maps.Map/<>c:<.cctor>b__61_0"
+	.asciz "Xamarin_Forms_Maps_Map__c___cctorb__61_0_Xamarin_Forms_BindableObject_object_object"
 
 	.byte 0,0
-	.quad Xamarin_Forms_Maps_Map__c___cctorb__57_2_Xamarin_Forms_BindableObject_object_object
+	.quad Xamarin_Forms_Maps_Map__c___cctorb__61_0_Xamarin_Forms_BindableObject_object_object
 	.quad Lme_40
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM903=LTDIE_108_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM903
-	.byte 2,141,24,3
+LDIFF_SYM898=LTDIE_108_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM898
+	.byte 2,141,48,3
 	.asciz "b"
 
-LDIFF_SYM904=LTDIE_14_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM904
-	.byte 2,141,32,3
+LDIFF_SYM899=LTDIE_14_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM899
+	.byte 2,141,56,3
 	.asciz "o"
 
-LDIFF_SYM905=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM905
-	.byte 2,141,40,3
+LDIFF_SYM900=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM900
+	.byte 3,141,192,0,3
 	.asciz "n"
 
-LDIFF_SYM906=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM906
-	.byte 2,141,48,0
+LDIFF_SYM901=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM901
+	.byte 3,141,200,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM907=Lfde64_end - Lfde64_start
-	.long LDIFF_SYM907
+LDIFF_SYM902=Lfde64_end - Lfde64_start
+	.long LDIFF_SYM902
 Lfde64_start:
 
 	.long 0
 	.align 3
-	.quad Xamarin_Forms_Maps_Map__c___cctorb__57_2_Xamarin_Forms_BindableObject_object_object
+	.quad Xamarin_Forms_Maps_Map__c___cctorb__61_0_Xamarin_Forms_BindableObject_object_object
 
-LDIFF_SYM908=Lme_40 - Xamarin_Forms_Maps_Map__c___cctorb__57_2_Xamarin_Forms_BindableObject_object_object
+LDIFF_SYM903=Lme_40 - Xamarin_Forms_Maps_Map__c___cctorb__61_0_Xamarin_Forms_BindableObject_object_object
+	.long LDIFF_SYM903
+	.long 0
+	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,147,12,68,149,11,150,10,68,151,9
+	.align 3
+Lfde64_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "Xamarin.Forms.Maps.Map/<>c:<.cctor>b__61_1"
+	.asciz "Xamarin_Forms_Maps_Map__c___cctorb__61_1_Xamarin_Forms_BindableObject_object_object"
+
+	.byte 0,0
+	.quad Xamarin_Forms_Maps_Map__c___cctorb__61_1_Xamarin_Forms_BindableObject_object_object
+	.quad Lme_41
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM904=LTDIE_108_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM904
+	.byte 2,141,48,3
+	.asciz "b"
+
+LDIFF_SYM905=LTDIE_14_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM905
+	.byte 2,141,56,3
+	.asciz "o"
+
+LDIFF_SYM906=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM906
+	.byte 3,141,192,0,3
+	.asciz "n"
+
+LDIFF_SYM907=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM907
+	.byte 3,141,200,0,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM908=Lfde65_end - Lfde65_start
 	.long LDIFF_SYM908
+Lfde65_start:
+
+	.long 0
+	.align 3
+	.quad Xamarin_Forms_Maps_Map__c___cctorb__61_1_Xamarin_Forms_BindableObject_object_object
+
+LDIFF_SYM909=Lme_41 - Xamarin_Forms_Maps_Map__c___cctorb__61_1_Xamarin_Forms_BindableObject_object_object
+	.long LDIFF_SYM909
+	.long 0
+	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,147,12,68,149,11,150,10,68,151,9
+	.align 3
+Lfde65_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "Xamarin.Forms.Maps.Map/<>c:<.cctor>b__61_2"
+	.asciz "Xamarin_Forms_Maps_Map__c___cctorb__61_2_Xamarin_Forms_BindableObject_object_object"
+
+	.byte 0,0
+	.quad Xamarin_Forms_Maps_Map__c___cctorb__61_2_Xamarin_Forms_BindableObject_object_object
+	.quad Lme_42
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM910=LTDIE_108_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM910
+	.byte 2,141,24,3
+	.asciz "b"
+
+LDIFF_SYM911=LTDIE_14_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM911
+	.byte 2,141,32,3
+	.asciz "o"
+
+LDIFF_SYM912=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM912
+	.byte 2,141,40,3
+	.asciz "n"
+
+LDIFF_SYM913=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM913
+	.byte 2,141,48,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM914=Lfde66_end - Lfde66_start
+	.long LDIFF_SYM914
+Lfde66_start:
+
+	.long 0
+	.align 3
+	.quad Xamarin_Forms_Maps_Map__c___cctorb__61_2_Xamarin_Forms_BindableObject_object_object
+
+LDIFF_SYM915=Lme_42 - Xamarin_Forms_Maps_Map__c___cctorb__61_2_Xamarin_Forms_BindableObject_object_object
+	.long LDIFF_SYM915
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,153,8
 	.align 3
-Lfde64_end:
+Lfde66_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_109:
@@ -23730,59 +24022,59 @@ LTDIE_109:
 	.asciz "Xamarin_Forms_Maps_MapClickedEventArgs"
 
 	.byte 32,16
-LDIFF_SYM909=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM909
+LDIFF_SYM916=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM916
 	.byte 2,35,0,6
 	.asciz "<Position>k__BackingField"
 
-LDIFF_SYM910=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM910
+LDIFF_SYM917=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM917
 	.byte 2,35,16,0,7
 	.asciz "Xamarin_Forms_Maps_MapClickedEventArgs"
 
-LDIFF_SYM911=LTDIE_109 - Ldebug_info_start
-	.long LDIFF_SYM911
+LDIFF_SYM918=LTDIE_109 - Ldebug_info_start
+	.long LDIFF_SYM918
 LTDIE_109_POINTER:
 
 	.byte 13
-LDIFF_SYM912=LTDIE_109 - Ldebug_info_start
-	.long LDIFF_SYM912
+LDIFF_SYM919=LTDIE_109 - Ldebug_info_start
+	.long LDIFF_SYM919
 LTDIE_109_REFERENCE:
 
 	.byte 14
-LDIFF_SYM913=LTDIE_109 - Ldebug_info_start
-	.long LDIFF_SYM913
+LDIFF_SYM920=LTDIE_109 - Ldebug_info_start
+	.long LDIFF_SYM920
 	.byte 2
 	.asciz "Xamarin.Forms.Maps.MapClickedEventArgs:get_Position"
 	.asciz "Xamarin_Forms_Maps_MapClickedEventArgs_get_Position"
 
 	.byte 0,0
 	.quad Xamarin_Forms_Maps_MapClickedEventArgs_get_Position
-	.quad Lme_41
+	.quad Lme_43
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM914=LTDIE_109_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM914
+LDIFF_SYM921=LTDIE_109_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM921
 	.byte 3,141,208,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM915=Lfde65_end - Lfde65_start
-	.long LDIFF_SYM915
-Lfde65_start:
+LDIFF_SYM922=Lfde67_end - Lfde67_start
+	.long LDIFF_SYM922
+Lfde67_start:
 
 	.long 0
 	.align 3
 	.quad Xamarin_Forms_Maps_MapClickedEventArgs_get_Position
 
-LDIFF_SYM916=Lme_41 - Xamarin_Forms_Maps_MapClickedEventArgs_get_Position
-	.long LDIFF_SYM916
+LDIFF_SYM923=Lme_43 - Xamarin_Forms_Maps_MapClickedEventArgs_get_Position
+	.long LDIFF_SYM923
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29
 	.align 3
-Lfde65_end:
+Lfde67_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -23792,36 +24084,36 @@ Lfde65_end:
 
 	.byte 0,0
 	.quad Xamarin_Forms_Maps_MapClickedEventArgs__ctor_Xamarin_Forms_Maps_Position
-	.quad Lme_42
+	.quad Lme_44
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM917=LTDIE_109_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM917
+LDIFF_SYM924=LTDIE_109_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM924
 	.byte 1,106,3
 	.asciz "position"
 
-LDIFF_SYM918=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM918
+LDIFF_SYM925=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM925
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM919=Lfde66_end - Lfde66_start
-	.long LDIFF_SYM919
-Lfde66_start:
+LDIFF_SYM926=Lfde68_end - Lfde68_start
+	.long LDIFF_SYM926
+Lfde68_start:
 
 	.long 0
 	.align 3
 	.quad Xamarin_Forms_Maps_MapClickedEventArgs__ctor_Xamarin_Forms_Maps_Position
 
-LDIFF_SYM920=Lme_42 - Xamarin_Forms_Maps_MapClickedEventArgs__ctor_Xamarin_Forms_Maps_Position
-	.long LDIFF_SYM920
+LDIFF_SYM927=Lme_44 - Xamarin_Forms_Maps_MapClickedEventArgs__ctor_Xamarin_Forms_Maps_Position
+	.long LDIFF_SYM927
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,154,14
 	.align 3
-Lfde66_end:
+Lfde68_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -23831,46 +24123,46 @@ Lfde66_end:
 
 	.byte 0,0
 	.quad Xamarin_Forms_Maps_MapSpan__ctor_Xamarin_Forms_Maps_Position_double_double
-	.quad Lme_43
+	.quad Lme_45
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM921=LTDIE_86_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM921
+LDIFF_SYM928=LTDIE_86_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM928
 	.byte 1,106,3
 	.asciz "center"
 
-LDIFF_SYM922=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM922
+LDIFF_SYM929=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM929
 	.byte 2,141,24,3
 	.asciz "latitudeDegrees"
 
-LDIFF_SYM923=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM923
+LDIFF_SYM930=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM930
 	.byte 3,141,216,0,3
 	.asciz "longitudeDegrees"
 
-LDIFF_SYM924=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM924
+LDIFF_SYM931=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM931
 	.byte 3,141,224,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM925=Lfde67_end - Lfde67_start
-	.long LDIFF_SYM925
-Lfde67_start:
+LDIFF_SYM932=Lfde69_end - Lfde69_start
+	.long LDIFF_SYM932
+Lfde69_start:
 
 	.long 0
 	.align 3
 	.quad Xamarin_Forms_Maps_MapSpan__ctor_Xamarin_Forms_Maps_Position_double_double
 
-LDIFF_SYM926=Lme_43 - Xamarin_Forms_Maps_MapSpan__ctor_Xamarin_Forms_Maps_Position_double_double
-	.long LDIFF_SYM926
+LDIFF_SYM933=Lme_45 - Xamarin_Forms_Maps_MapSpan__ctor_Xamarin_Forms_Maps_Position_double_double
+	.long LDIFF_SYM933
 	.long 0
 	.byte 12,31,0,68,14,176,1,157,22,158,21,68,13,29,68,154,20
 	.align 3
-Lfde67_end:
+Lfde69_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -23880,31 +24172,31 @@ Lfde67_end:
 
 	.byte 0,0
 	.quad Xamarin_Forms_Maps_MapSpan_get_Center
-	.quad Lme_44
+	.quad Lme_46
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM927=LTDIE_86_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM927
+LDIFF_SYM934=LTDIE_86_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM934
 	.byte 3,141,208,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM928=Lfde68_end - Lfde68_start
-	.long LDIFF_SYM928
-Lfde68_start:
+LDIFF_SYM935=Lfde70_end - Lfde70_start
+	.long LDIFF_SYM935
+Lfde70_start:
 
 	.long 0
 	.align 3
 	.quad Xamarin_Forms_Maps_MapSpan_get_Center
 
-LDIFF_SYM929=Lme_44 - Xamarin_Forms_Maps_MapSpan_get_Center
-	.long LDIFF_SYM929
+LDIFF_SYM936=Lme_46 - Xamarin_Forms_Maps_MapSpan_get_Center
+	.long LDIFF_SYM936
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29
 	.align 3
-Lfde68_end:
+Lfde70_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -23914,31 +24206,31 @@ Lfde68_end:
 
 	.byte 0,0
 	.quad Xamarin_Forms_Maps_MapSpan_get_LatitudeDegrees
-	.quad Lme_45
+	.quad Lme_47
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM930=LTDIE_86_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM930
+LDIFF_SYM937=LTDIE_86_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM937
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM931=Lfde69_end - Lfde69_start
-	.long LDIFF_SYM931
-Lfde69_start:
+LDIFF_SYM938=Lfde71_end - Lfde71_start
+	.long LDIFF_SYM938
+Lfde71_start:
 
 	.long 0
 	.align 3
 	.quad Xamarin_Forms_Maps_MapSpan_get_LatitudeDegrees
 
-LDIFF_SYM932=Lme_45 - Xamarin_Forms_Maps_MapSpan_get_LatitudeDegrees
-	.long LDIFF_SYM932
+LDIFF_SYM939=Lme_47 - Xamarin_Forms_Maps_MapSpan_get_LatitudeDegrees
+	.long LDIFF_SYM939
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde69_end:
+Lfde71_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -23948,31 +24240,31 @@ Lfde69_end:
 
 	.byte 0,0
 	.quad Xamarin_Forms_Maps_MapSpan_get_LongitudeDegrees
-	.quad Lme_46
+	.quad Lme_48
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM933=LTDIE_86_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM933
+LDIFF_SYM940=LTDIE_86_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM940
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM934=Lfde70_end - Lfde70_start
-	.long LDIFF_SYM934
-Lfde70_start:
+LDIFF_SYM941=Lfde72_end - Lfde72_start
+	.long LDIFF_SYM941
+Lfde72_start:
 
 	.long 0
 	.align 3
 	.quad Xamarin_Forms_Maps_MapSpan_get_LongitudeDegrees
 
-LDIFF_SYM935=Lme_46 - Xamarin_Forms_Maps_MapSpan_get_LongitudeDegrees
-	.long LDIFF_SYM935
+LDIFF_SYM942=Lme_48 - Xamarin_Forms_Maps_MapSpan_get_LongitudeDegrees
+	.long LDIFF_SYM942
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde70_end:
+Lfde72_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -23982,68 +24274,14 @@ Lfde70_end:
 
 	.byte 0,0
 	.quad Xamarin_Forms_Maps_MapSpan_get_Radius
-	.quad Lme_47
+	.quad Lme_49
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM936=LTDIE_86_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM936
-	.byte 1,106,11
-	.asciz "V_0"
-
-LDIFF_SYM937=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM937
-	.byte 3,141,144,1,11
-	.asciz "V_1"
-
-LDIFF_SYM938=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM938
-	.byte 3,141,152,1,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM939=Lfde71_end - Lfde71_start
-	.long LDIFF_SYM939
-Lfde71_start:
-
-	.long 0
-	.align 3
-	.quad Xamarin_Forms_Maps_MapSpan_get_Radius
-
-LDIFF_SYM940=Lme_47 - Xamarin_Forms_Maps_MapSpan_get_Radius
-	.long LDIFF_SYM940
-	.long 0
-	.byte 12,31,0,68,14,224,1,157,28,158,27,68,13,29,68,154,26
-	.align 3
-Lfde71_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "Xamarin.Forms.Maps.MapSpan:ClampLatitude"
-	.asciz "Xamarin_Forms_Maps_MapSpan_ClampLatitude_double_double"
-
-	.byte 0,0
-	.quad Xamarin_Forms_Maps_MapSpan_ClampLatitude_double_double
-	.quad Lme_48
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM941=LTDIE_86_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM941
-	.byte 1,106,3
-	.asciz "north"
-
-LDIFF_SYM942=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM942
-	.byte 2,141,24,3
-	.asciz "south"
-
-LDIFF_SYM943=LDIE_R8 - Ldebug_info_start
+LDIFF_SYM943=LTDIE_86_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM943
-	.byte 2,141,32,11
+	.byte 1,106,11
 	.asciz "V_0"
 
 LDIFF_SYM944=LDIE_R8 - Ldebug_info_start
@@ -24053,29 +24291,83 @@ LDIFF_SYM944=LDIE_R8 - Ldebug_info_start
 
 LDIFF_SYM945=LDIE_R8 - Ldebug_info_start
 	.long LDIFF_SYM945
+	.byte 3,141,152,1,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM946=Lfde73_end - Lfde73_start
+	.long LDIFF_SYM946
+Lfde73_start:
+
+	.long 0
+	.align 3
+	.quad Xamarin_Forms_Maps_MapSpan_get_Radius
+
+LDIFF_SYM947=Lme_49 - Xamarin_Forms_Maps_MapSpan_get_Radius
+	.long LDIFF_SYM947
+	.long 0
+	.byte 12,31,0,68,14,224,1,157,28,158,27,68,13,29,68,154,26
+	.align 3
+Lfde73_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "Xamarin.Forms.Maps.MapSpan:ClampLatitude"
+	.asciz "Xamarin_Forms_Maps_MapSpan_ClampLatitude_double_double"
+
+	.byte 0,0
+	.quad Xamarin_Forms_Maps_MapSpan_ClampLatitude_double_double
+	.quad Lme_4a
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM948=LTDIE_86_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM948
+	.byte 1,106,3
+	.asciz "north"
+
+LDIFF_SYM949=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM949
+	.byte 2,141,24,3
+	.asciz "south"
+
+LDIFF_SYM950=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM950
+	.byte 2,141,32,11
+	.asciz "V_0"
+
+LDIFF_SYM951=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM951
+	.byte 3,141,144,1,11
+	.asciz "V_1"
+
+LDIFF_SYM952=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM952
 	.byte 3,141,152,1,11
 	.asciz "V_2"
 
-LDIFF_SYM946=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM946
+LDIFF_SYM953=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM953
 	.byte 3,141,128,1,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM947=Lfde72_end - Lfde72_start
-	.long LDIFF_SYM947
-Lfde72_start:
+LDIFF_SYM954=Lfde74_end - Lfde74_start
+	.long LDIFF_SYM954
+Lfde74_start:
 
 	.long 0
 	.align 3
 	.quad Xamarin_Forms_Maps_MapSpan_ClampLatitude_double_double
 
-LDIFF_SYM948=Lme_48 - Xamarin_Forms_Maps_MapSpan_ClampLatitude_double_double
-	.long LDIFF_SYM948
+LDIFF_SYM955=Lme_4a - Xamarin_Forms_Maps_MapSpan_ClampLatitude_double_double
+	.long LDIFF_SYM955
 	.long 0
 	.byte 12,31,0,68,14,160,2,157,36,158,35,68,13,29,68,154,34
 	.align 3
-Lfde72_end:
+Lfde74_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -24085,36 +24377,36 @@ Lfde72_end:
 
 	.byte 0,0
 	.quad Xamarin_Forms_Maps_MapSpan_Equals_object
-	.quad Lme_49
+	.quad Lme_4b
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM949=LTDIE_86_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM949
+LDIFF_SYM956=LTDIE_86_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM956
 	.byte 1,105,3
 	.asciz "obj"
 
-LDIFF_SYM950=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM950
+LDIFF_SYM957=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM957
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM951=Lfde73_end - Lfde73_start
-	.long LDIFF_SYM951
-Lfde73_start:
+LDIFF_SYM958=Lfde75_end - Lfde75_start
+	.long LDIFF_SYM958
+Lfde75_start:
 
 	.long 0
 	.align 3
 	.quad Xamarin_Forms_Maps_MapSpan_Equals_object
 
-LDIFF_SYM952=Lme_49 - Xamarin_Forms_Maps_MapSpan_Equals_object
-	.long LDIFF_SYM952
+LDIFF_SYM959=Lme_4b - Xamarin_Forms_Maps_MapSpan_Equals_object
+	.long LDIFF_SYM959
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,149,12,68,151,11,152,10,68,153,9,154,8
 	.align 3
-Lfde73_end:
+Lfde75_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -24124,36 +24416,36 @@ Lfde73_end:
 
 	.byte 0,0
 	.quad Xamarin_Forms_Maps_MapSpan_FromCenterAndRadius_Xamarin_Forms_Maps_Position_Xamarin_Forms_Maps_Distance
-	.quad Lme_4a
+	.quad Lme_4c
 
 	.byte 2,118,16,3
 	.asciz "center"
 
-LDIFF_SYM953=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM953
+LDIFF_SYM960=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM960
 	.byte 2,141,16,3
 	.asciz "radius"
 
-LDIFF_SYM954=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM954
+LDIFF_SYM961=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM961
 	.byte 3,141,208,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM955=Lfde74_end - Lfde74_start
-	.long LDIFF_SYM955
-Lfde74_start:
+LDIFF_SYM962=Lfde76_end - Lfde76_start
+	.long LDIFF_SYM962
+Lfde76_start:
 
 	.long 0
 	.align 3
 	.quad Xamarin_Forms_Maps_MapSpan_FromCenterAndRadius_Xamarin_Forms_Maps_Position_Xamarin_Forms_Maps_Distance
 
-LDIFF_SYM956=Lme_4a - Xamarin_Forms_Maps_MapSpan_FromCenterAndRadius_Xamarin_Forms_Maps_Position_Xamarin_Forms_Maps_Distance
-	.long LDIFF_SYM956
+LDIFF_SYM963=Lme_4c - Xamarin_Forms_Maps_MapSpan_FromCenterAndRadius_Xamarin_Forms_Maps_Position_Xamarin_Forms_Maps_Distance
+	.long LDIFF_SYM963
 	.long 0
 	.byte 12,31,0,68,14,160,2,157,36,158,35,68,13,29
 	.align 3
-Lfde74_end:
+Lfde76_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -24163,41 +24455,41 @@ Lfde74_end:
 
 	.byte 0,0
 	.quad Xamarin_Forms_Maps_MapSpan_GetHashCode
-	.quad Lme_4b
+	.quad Lme_4d
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM957=LTDIE_86_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM957
+LDIFF_SYM964=LTDIE_86_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM964
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM958=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM958
+LDIFF_SYM965=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM965
 	.byte 3,141,192,0,11
 	.asciz "V_1"
 
-LDIFF_SYM959=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM959
+LDIFF_SYM966=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM966
 	.byte 3,141,208,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM960=Lfde75_end - Lfde75_start
-	.long LDIFF_SYM960
-Lfde75_start:
+LDIFF_SYM967=Lfde77_end - Lfde77_start
+	.long LDIFF_SYM967
+Lfde77_start:
 
 	.long 0
 	.align 3
 	.quad Xamarin_Forms_Maps_MapSpan_GetHashCode
 
-LDIFF_SYM961=Lme_4b - Xamarin_Forms_Maps_MapSpan_GetHashCode
-	.long LDIFF_SYM961
+LDIFF_SYM968=Lme_4d - Xamarin_Forms_Maps_MapSpan_GetHashCode
+	.long LDIFF_SYM968
 	.long 0
 	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29,68,154,18
 	.align 3
-Lfde75_end:
+Lfde77_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -24207,36 +24499,36 @@ Lfde75_end:
 
 	.byte 0,0
 	.quad Xamarin_Forms_Maps_MapSpan_op_Equality_Xamarin_Forms_Maps_MapSpan_Xamarin_Forms_Maps_MapSpan
-	.quad Lme_4c
+	.quad Lme_4e
 
 	.byte 2,118,16,3
 	.asciz "left"
 
-LDIFF_SYM962=LTDIE_86_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM962
+LDIFF_SYM969=LTDIE_86_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM969
 	.byte 2,141,16,3
 	.asciz "right"
 
-LDIFF_SYM963=LTDIE_86_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM963
+LDIFF_SYM970=LTDIE_86_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM970
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM964=Lfde76_end - Lfde76_start
-	.long LDIFF_SYM964
-Lfde76_start:
+LDIFF_SYM971=Lfde78_end - Lfde78_start
+	.long LDIFF_SYM971
+Lfde78_start:
 
 	.long 0
 	.align 3
 	.quad Xamarin_Forms_Maps_MapSpan_op_Equality_Xamarin_Forms_Maps_MapSpan_Xamarin_Forms_Maps_MapSpan
 
-LDIFF_SYM965=Lme_4c - Xamarin_Forms_Maps_MapSpan_op_Equality_Xamarin_Forms_Maps_MapSpan_Xamarin_Forms_Maps_MapSpan
-	.long LDIFF_SYM965
+LDIFF_SYM972=Lme_4e - Xamarin_Forms_Maps_MapSpan_op_Equality_Xamarin_Forms_Maps_MapSpan_Xamarin_Forms_Maps_MapSpan
+	.long LDIFF_SYM972
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
-Lfde76_end:
+Lfde78_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -24246,36 +24538,36 @@ Lfde76_end:
 
 	.byte 0,0
 	.quad Xamarin_Forms_Maps_MapSpan_op_Inequality_Xamarin_Forms_Maps_MapSpan_Xamarin_Forms_Maps_MapSpan
-	.quad Lme_4d
+	.quad Lme_4f
 
 	.byte 2,118,16,3
 	.asciz "left"
 
-LDIFF_SYM966=LTDIE_86_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM966
+LDIFF_SYM973=LTDIE_86_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM973
 	.byte 2,141,16,3
 	.asciz "right"
 
-LDIFF_SYM967=LTDIE_86_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM967
+LDIFF_SYM974=LTDIE_86_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM974
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM968=Lfde77_end - Lfde77_start
-	.long LDIFF_SYM968
-Lfde77_start:
+LDIFF_SYM975=Lfde79_end - Lfde79_start
+	.long LDIFF_SYM975
+Lfde79_start:
 
 	.long 0
 	.align 3
 	.quad Xamarin_Forms_Maps_MapSpan_op_Inequality_Xamarin_Forms_Maps_MapSpan_Xamarin_Forms_Maps_MapSpan
 
-LDIFF_SYM969=Lme_4d - Xamarin_Forms_Maps_MapSpan_op_Inequality_Xamarin_Forms_Maps_MapSpan_Xamarin_Forms_Maps_MapSpan
-	.long LDIFF_SYM969
+LDIFF_SYM976=Lme_4f - Xamarin_Forms_Maps_MapSpan_op_Inequality_Xamarin_Forms_Maps_MapSpan_Xamarin_Forms_Maps_MapSpan
+	.long LDIFF_SYM976
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
-Lfde77_end:
+Lfde79_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -24285,46 +24577,46 @@ Lfde77_end:
 
 	.byte 0,0
 	.quad Xamarin_Forms_Maps_MapSpan_WithZoom_double
-	.quad Lme_4e
+	.quad Lme_50
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM970=LTDIE_86_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM970
+LDIFF_SYM977=LTDIE_86_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM977
 	.byte 1,106,3
 	.asciz "zoomFactor"
 
-LDIFF_SYM971=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM971
+LDIFF_SYM978=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM978
 	.byte 2,141,24,11
 	.asciz "V_0"
 
-LDIFF_SYM972=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM972
+LDIFF_SYM979=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM979
 	.byte 3,141,248,0,11
 	.asciz "V_1"
 
-LDIFF_SYM973=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM973
+LDIFF_SYM980=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM980
 	.byte 3,141,232,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM974=Lfde78_end - Lfde78_start
-	.long LDIFF_SYM974
-Lfde78_start:
+LDIFF_SYM981=Lfde80_end - Lfde80_start
+	.long LDIFF_SYM981
+Lfde80_start:
 
 	.long 0
 	.align 3
 	.quad Xamarin_Forms_Maps_MapSpan_WithZoom_double
 
-LDIFF_SYM975=Lme_4e - Xamarin_Forms_Maps_MapSpan_WithZoom_double
-	.long LDIFF_SYM975
+LDIFF_SYM982=Lme_50 - Xamarin_Forms_Maps_MapSpan_WithZoom_double
+	.long LDIFF_SYM982
 	.long 0
 	.byte 12,31,0,68,14,240,1,157,30,158,29,68,13,29,68,154,28
 	.align 3
-Lfde78_end:
+Lfde80_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -24334,31 +24626,31 @@ Lfde78_end:
 
 	.byte 0,0
 	.quad Xamarin_Forms_Maps_MapSpan_DistanceToLatitudeDegrees_Xamarin_Forms_Maps_Distance
-	.quad Lme_4f
+	.quad Lme_51
 
 	.byte 2,118,16,3
 	.asciz "distance"
 
-LDIFF_SYM976=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM976
+LDIFF_SYM983=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM983
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM977=Lfde79_end - Lfde79_start
-	.long LDIFF_SYM977
-Lfde79_start:
+LDIFF_SYM984=Lfde81_end - Lfde81_start
+	.long LDIFF_SYM984
+Lfde81_start:
 
 	.long 0
 	.align 3
 	.quad Xamarin_Forms_Maps_MapSpan_DistanceToLatitudeDegrees_Xamarin_Forms_Maps_Distance
 
-LDIFF_SYM978=Lme_4f - Xamarin_Forms_Maps_MapSpan_DistanceToLatitudeDegrees_Xamarin_Forms_Maps_Distance
-	.long LDIFF_SYM978
+LDIFF_SYM985=Lme_51 - Xamarin_Forms_Maps_MapSpan_DistanceToLatitudeDegrees_Xamarin_Forms_Maps_Distance
+	.long LDIFF_SYM985
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29
 	.align 3
-Lfde79_end:
+Lfde81_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -24368,41 +24660,41 @@ Lfde79_end:
 
 	.byte 0,0
 	.quad Xamarin_Forms_Maps_MapSpan_DistanceToLongitudeDegrees_Xamarin_Forms_Maps_Position_Xamarin_Forms_Maps_Distance
-	.quad Lme_50
+	.quad Lme_52
 
 	.byte 2,118,16,3
 	.asciz "position"
 
-LDIFF_SYM979=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM979
+LDIFF_SYM986=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM986
 	.byte 2,141,16,3
 	.asciz "distance"
 
-LDIFF_SYM980=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM980
+LDIFF_SYM987=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM987
 	.byte 3,141,208,0,11
 	.asciz "V_0"
 
-LDIFF_SYM981=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM981
+LDIFF_SYM988=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM988
 	.byte 3,141,184,1,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM982=Lfde80_end - Lfde80_start
-	.long LDIFF_SYM982
-Lfde80_start:
+LDIFF_SYM989=Lfde82_end - Lfde82_start
+	.long LDIFF_SYM989
+Lfde82_start:
 
 	.long 0
 	.align 3
 	.quad Xamarin_Forms_Maps_MapSpan_DistanceToLongitudeDegrees_Xamarin_Forms_Maps_Position_Xamarin_Forms_Maps_Distance
 
-LDIFF_SYM983=Lme_50 - Xamarin_Forms_Maps_MapSpan_DistanceToLongitudeDegrees_Xamarin_Forms_Maps_Position_Xamarin_Forms_Maps_Distance
-	.long LDIFF_SYM983
+LDIFF_SYM990=Lme_52 - Xamarin_Forms_Maps_MapSpan_DistanceToLongitudeDegrees_Xamarin_Forms_Maps_Position_Xamarin_Forms_Maps_Distance
+	.long LDIFF_SYM990
 	.long 0
 	.byte 12,31,0,68,14,224,1,157,28,158,27,68,13,29
 	.align 3
-Lfde80_end:
+Lfde82_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -24412,46 +24704,46 @@ Lfde80_end:
 
 	.byte 0,0
 	.quad Xamarin_Forms_Maps_MapSpan_Equals_Xamarin_Forms_Maps_MapSpan
-	.quad Lme_51
+	.quad Lme_53
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM984=LTDIE_86_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM984
+LDIFF_SYM991=LTDIE_86_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM991
 	.byte 1,105,3
 	.asciz "other"
 
-LDIFF_SYM985=LTDIE_86_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM985
+LDIFF_SYM992=LTDIE_86_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM992
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM986=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM986
+LDIFF_SYM993=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM993
 	.byte 3,141,216,0,11
 	.asciz "V_1"
 
-LDIFF_SYM987=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM987
+LDIFF_SYM994=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM994
 	.byte 3,141,232,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM988=Lfde81_end - Lfde81_start
-	.long LDIFF_SYM988
-Lfde81_start:
+LDIFF_SYM995=Lfde83_end - Lfde83_start
+	.long LDIFF_SYM995
+Lfde83_start:
 
 	.long 0
 	.align 3
 	.quad Xamarin_Forms_Maps_MapSpan_Equals_Xamarin_Forms_Maps_MapSpan
 
-LDIFF_SYM989=Lme_51 - Xamarin_Forms_Maps_MapSpan_Equals_Xamarin_Forms_Maps_MapSpan
-	.long LDIFF_SYM989
+LDIFF_SYM996=Lme_53 - Xamarin_Forms_Maps_MapSpan_Equals_Xamarin_Forms_Maps_MapSpan
+	.long LDIFF_SYM996
 	.long 0
 	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29,68,153,18,154,17
 	.align 3
-Lfde81_end:
+Lfde83_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -24461,87 +24753,14 @@ Lfde81_end:
 
 	.byte 0,0
 	.quad Xamarin_Forms_Maps_MapSpan_LatitudeCircumferenceKm_Xamarin_Forms_Maps_Position
-	.quad Lme_52
-
-	.byte 2,118,16,3
-	.asciz "position"
-
-LDIFF_SYM990=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM990
-	.byte 2,141,16,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM991=Lfde82_end - Lfde82_start
-	.long LDIFF_SYM991
-Lfde82_start:
-
-	.long 0
-	.align 3
-	.quad Xamarin_Forms_Maps_MapSpan_LatitudeCircumferenceKm_Xamarin_Forms_Maps_Position
-
-LDIFF_SYM992=Lme_52 - Xamarin_Forms_Maps_MapSpan_LatitudeCircumferenceKm_Xamarin_Forms_Maps_Position
-	.long LDIFF_SYM992
-	.long 0
-	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29
-	.align 3
-Lfde82_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "Xamarin.Forms.Maps.MapSpan:LatitudeDegreesToKm"
-	.asciz "Xamarin_Forms_Maps_MapSpan_LatitudeDegreesToKm_double"
-
-	.byte 0,0
-	.quad Xamarin_Forms_Maps_MapSpan_LatitudeDegreesToKm_double
-	.quad Lme_53
-
-	.byte 2,118,16,3
-	.asciz "latitudeDegrees"
-
-LDIFF_SYM993=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM993
-	.byte 2,141,16,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM994=Lfde83_end - Lfde83_start
-	.long LDIFF_SYM994
-Lfde83_start:
-
-	.long 0
-	.align 3
-	.quad Xamarin_Forms_Maps_MapSpan_LatitudeDegreesToKm_double
-
-LDIFF_SYM995=Lme_53 - Xamarin_Forms_Maps_MapSpan_LatitudeDegreesToKm_double
-	.long LDIFF_SYM995
-	.long 0
-	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
-	.align 3
-Lfde83_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "Xamarin.Forms.Maps.MapSpan:LongitudeDegreesToKm"
-	.asciz "Xamarin_Forms_Maps_MapSpan_LongitudeDegreesToKm_Xamarin_Forms_Maps_Position_double"
-
-	.byte 0,0
-	.quad Xamarin_Forms_Maps_MapSpan_LongitudeDegreesToKm_Xamarin_Forms_Maps_Position_double
 	.quad Lme_54
 
 	.byte 2,118,16,3
 	.asciz "position"
 
-LDIFF_SYM996=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM996
-	.byte 2,141,16,3
-	.asciz "longitudeDegrees"
-
-LDIFF_SYM997=LDIE_R8 - Ldebug_info_start
+LDIFF_SYM997=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM997
-	.byte 3,141,208,0,0
+	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
@@ -24551,9 +24770,9 @@ Lfde84_start:
 
 	.long 0
 	.align 3
-	.quad Xamarin_Forms_Maps_MapSpan_LongitudeDegreesToKm_Xamarin_Forms_Maps_Position_double
+	.quad Xamarin_Forms_Maps_MapSpan_LatitudeCircumferenceKm_Xamarin_Forms_Maps_Position
 
-LDIFF_SYM999=Lme_54 - Xamarin_Forms_Maps_MapSpan_LongitudeDegreesToKm_Xamarin_Forms_Maps_Position_double
+LDIFF_SYM999=Lme_54 - Xamarin_Forms_Maps_MapSpan_LatitudeCircumferenceKm_Xamarin_Forms_Maps_Position
 	.long LDIFF_SYM999
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29
@@ -24563,19 +24782,19 @@ Lfde84_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "Xamarin.Forms.Maps.Pin:get_Address"
-	.asciz "Xamarin_Forms_Maps_Pin_get_Address"
+	.asciz "Xamarin.Forms.Maps.MapSpan:LatitudeDegreesToKm"
+	.asciz "Xamarin_Forms_Maps_MapSpan_LatitudeDegreesToKm_double"
 
 	.byte 0,0
-	.quad Xamarin_Forms_Maps_Pin_get_Address
+	.quad Xamarin_Forms_Maps_MapSpan_LatitudeDegreesToKm_double
 	.quad Lme_55
 
 	.byte 2,118,16,3
-	.asciz "this"
+	.asciz "latitudeDegrees"
 
-LDIFF_SYM1000=LTDIE_107_REFERENCE - Ldebug_info_start
+LDIFF_SYM1000=LDIE_R8 - Ldebug_info_start
 	.long LDIFF_SYM1000
-	.byte 2,141,24,0
+	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
@@ -24585,36 +24804,36 @@ Lfde85_start:
 
 	.long 0
 	.align 3
-	.quad Xamarin_Forms_Maps_Pin_get_Address
+	.quad Xamarin_Forms_Maps_MapSpan_LatitudeDegreesToKm_double
 
-LDIFF_SYM1002=Lme_55 - Xamarin_Forms_Maps_Pin_get_Address
+LDIFF_SYM1002=Lme_55 - Xamarin_Forms_Maps_MapSpan_LatitudeDegreesToKm_double
 	.long LDIFF_SYM1002
 	.long 0
-	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,153,6
+	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
 Lfde85_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "Xamarin.Forms.Maps.Pin:set_Address"
-	.asciz "Xamarin_Forms_Maps_Pin_set_Address_string"
+	.asciz "Xamarin.Forms.Maps.MapSpan:LongitudeDegreesToKm"
+	.asciz "Xamarin_Forms_Maps_MapSpan_LongitudeDegreesToKm_Xamarin_Forms_Maps_Position_double"
 
 	.byte 0,0
-	.quad Xamarin_Forms_Maps_Pin_set_Address_string
+	.quad Xamarin_Forms_Maps_MapSpan_LongitudeDegreesToKm_Xamarin_Forms_Maps_Position_double
 	.quad Lme_56
 
 	.byte 2,118,16,3
-	.asciz "this"
+	.asciz "position"
 
-LDIFF_SYM1003=LTDIE_107_REFERENCE - Ldebug_info_start
+LDIFF_SYM1003=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM1003
 	.byte 2,141,16,3
-	.asciz "value"
+	.asciz "longitudeDegrees"
 
-LDIFF_SYM1004=LDIE_STRING - Ldebug_info_start
+LDIFF_SYM1004=LDIE_R8 - Ldebug_info_start
 	.long LDIFF_SYM1004
-	.byte 2,141,24,0
+	.byte 3,141,208,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
@@ -24624,23 +24843,23 @@ Lfde86_start:
 
 	.long 0
 	.align 3
-	.quad Xamarin_Forms_Maps_Pin_set_Address_string
+	.quad Xamarin_Forms_Maps_MapSpan_LongitudeDegreesToKm_Xamarin_Forms_Maps_Position_double
 
-LDIFF_SYM1006=Lme_56 - Xamarin_Forms_Maps_Pin_set_Address_string
+LDIFF_SYM1006=Lme_56 - Xamarin_Forms_Maps_MapSpan_LongitudeDegreesToKm_Xamarin_Forms_Maps_Position_double
 	.long LDIFF_SYM1006
 	.long 0
-	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
+	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29
 	.align 3
 Lfde86_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "Xamarin.Forms.Maps.Pin:get_Label"
-	.asciz "Xamarin_Forms_Maps_Pin_get_Label"
+	.asciz "Xamarin.Forms.Maps.Pin:get_Address"
+	.asciz "Xamarin_Forms_Maps_Pin_get_Address"
 
 	.byte 0,0
-	.quad Xamarin_Forms_Maps_Pin_get_Label
+	.quad Xamarin_Forms_Maps_Pin_get_Address
 	.quad Lme_57
 
 	.byte 2,118,16,3
@@ -24658,9 +24877,9 @@ Lfde87_start:
 
 	.long 0
 	.align 3
-	.quad Xamarin_Forms_Maps_Pin_get_Label
+	.quad Xamarin_Forms_Maps_Pin_get_Address
 
-LDIFF_SYM1009=Lme_57 - Xamarin_Forms_Maps_Pin_get_Label
+LDIFF_SYM1009=Lme_57 - Xamarin_Forms_Maps_Pin_get_Address
 	.long LDIFF_SYM1009
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,153,6
@@ -24670,11 +24889,11 @@ Lfde87_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "Xamarin.Forms.Maps.Pin:set_Label"
-	.asciz "Xamarin_Forms_Maps_Pin_set_Label_string"
+	.asciz "Xamarin.Forms.Maps.Pin:set_Address"
+	.asciz "Xamarin_Forms_Maps_Pin_set_Address_string"
 
 	.byte 0,0
-	.quad Xamarin_Forms_Maps_Pin_set_Label_string
+	.quad Xamarin_Forms_Maps_Pin_set_Address_string
 	.quad Lme_58
 
 	.byte 2,118,16,3
@@ -24697,9 +24916,9 @@ Lfde88_start:
 
 	.long 0
 	.align 3
-	.quad Xamarin_Forms_Maps_Pin_set_Label_string
+	.quad Xamarin_Forms_Maps_Pin_set_Address_string
 
-LDIFF_SYM1013=Lme_58 - Xamarin_Forms_Maps_Pin_set_Label_string
+LDIFF_SYM1013=Lme_58 - Xamarin_Forms_Maps_Pin_set_Address_string
 	.long LDIFF_SYM1013
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
@@ -24709,11 +24928,11 @@ Lfde88_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "Xamarin.Forms.Maps.Pin:get_Position"
-	.asciz "Xamarin_Forms_Maps_Pin_get_Position"
+	.asciz "Xamarin.Forms.Maps.Pin:get_Label"
+	.asciz "Xamarin_Forms_Maps_Pin_get_Label"
 
 	.byte 0,0
-	.quad Xamarin_Forms_Maps_Pin_get_Position
+	.quad Xamarin_Forms_Maps_Pin_get_Label
 	.quad Lme_59
 
 	.byte 2,118,16,3
@@ -24721,7 +24940,7 @@ Lfde88_end:
 
 LDIFF_SYM1014=LTDIE_107_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1014
-	.byte 3,141,208,0,0
+	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
@@ -24731,23 +24950,23 @@ Lfde89_start:
 
 	.long 0
 	.align 3
-	.quad Xamarin_Forms_Maps_Pin_get_Position
+	.quad Xamarin_Forms_Maps_Pin_get_Label
 
-LDIFF_SYM1016=Lme_59 - Xamarin_Forms_Maps_Pin_get_Position
+LDIFF_SYM1016=Lme_59 - Xamarin_Forms_Maps_Pin_get_Label
 	.long LDIFF_SYM1016
 	.long 0
-	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29
+	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,153,6
 	.align 3
 Lfde89_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "Xamarin.Forms.Maps.Pin:set_Position"
-	.asciz "Xamarin_Forms_Maps_Pin_set_Position_Xamarin_Forms_Maps_Position"
+	.asciz "Xamarin.Forms.Maps.Pin:set_Label"
+	.asciz "Xamarin_Forms_Maps_Pin_set_Label_string"
 
 	.byte 0,0
-	.quad Xamarin_Forms_Maps_Pin_set_Position_Xamarin_Forms_Maps_Position
+	.quad Xamarin_Forms_Maps_Pin_set_Label_string
 	.quad Lme_5a
 
 	.byte 2,118,16,3
@@ -24758,7 +24977,7 @@ LDIFF_SYM1017=LTDIE_107_REFERENCE - Ldebug_info_start
 	.byte 2,141,16,3
 	.asciz "value"
 
-LDIFF_SYM1018=LDIE_I4 - Ldebug_info_start
+LDIFF_SYM1018=LDIE_STRING - Ldebug_info_start
 	.long LDIFF_SYM1018
 	.byte 2,141,24,0
 
@@ -24770,23 +24989,23 @@ Lfde90_start:
 
 	.long 0
 	.align 3
-	.quad Xamarin_Forms_Maps_Pin_set_Position_Xamarin_Forms_Maps_Position
+	.quad Xamarin_Forms_Maps_Pin_set_Label_string
 
-LDIFF_SYM1020=Lme_5a - Xamarin_Forms_Maps_Pin_set_Position_Xamarin_Forms_Maps_Position
+LDIFF_SYM1020=Lme_5a - Xamarin_Forms_Maps_Pin_set_Label_string
 	.long LDIFF_SYM1020
 	.long 0
-	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29
+	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
 Lfde90_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "Xamarin.Forms.Maps.Pin:get_Type"
-	.asciz "Xamarin_Forms_Maps_Pin_get_Type"
+	.asciz "Xamarin.Forms.Maps.Pin:get_Position"
+	.asciz "Xamarin_Forms_Maps_Pin_get_Position"
 
 	.byte 0,0
-	.quad Xamarin_Forms_Maps_Pin_get_Type
+	.quad Xamarin_Forms_Maps_Pin_get_Position
 	.quad Lme_5b
 
 	.byte 2,118,16,3
@@ -24794,7 +25013,7 @@ Lfde90_end:
 
 LDIFF_SYM1021=LTDIE_107_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1021
-	.byte 2,141,16,0
+	.byte 3,141,208,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
@@ -24804,14 +25023,87 @@ Lfde91_start:
 
 	.long 0
 	.align 3
+	.quad Xamarin_Forms_Maps_Pin_get_Position
+
+LDIFF_SYM1023=Lme_5b - Xamarin_Forms_Maps_Pin_get_Position
+	.long LDIFF_SYM1023
+	.long 0
+	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29
+	.align 3
+Lfde91_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "Xamarin.Forms.Maps.Pin:set_Position"
+	.asciz "Xamarin_Forms_Maps_Pin_set_Position_Xamarin_Forms_Maps_Position"
+
+	.byte 0,0
+	.quad Xamarin_Forms_Maps_Pin_set_Position_Xamarin_Forms_Maps_Position
+	.quad Lme_5c
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1024=LTDIE_107_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1024
+	.byte 2,141,16,3
+	.asciz "value"
+
+LDIFF_SYM1025=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1025
+	.byte 2,141,24,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1026=Lfde92_end - Lfde92_start
+	.long LDIFF_SYM1026
+Lfde92_start:
+
+	.long 0
+	.align 3
+	.quad Xamarin_Forms_Maps_Pin_set_Position_Xamarin_Forms_Maps_Position
+
+LDIFF_SYM1027=Lme_5c - Xamarin_Forms_Maps_Pin_set_Position_Xamarin_Forms_Maps_Position
+	.long LDIFF_SYM1027
+	.long 0
+	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29
+	.align 3
+Lfde92_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "Xamarin.Forms.Maps.Pin:get_Type"
+	.asciz "Xamarin_Forms_Maps_Pin_get_Type"
+
+	.byte 0,0
+	.quad Xamarin_Forms_Maps_Pin_get_Type
+	.quad Lme_5d
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1028=LTDIE_107_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1028
+	.byte 2,141,16,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1029=Lfde93_end - Lfde93_start
+	.long LDIFF_SYM1029
+Lfde93_start:
+
+	.long 0
+	.align 3
 	.quad Xamarin_Forms_Maps_Pin_get_Type
 
-LDIFF_SYM1023=Lme_5b - Xamarin_Forms_Maps_Pin_get_Type
-	.long LDIFF_SYM1023
+LDIFF_SYM1030=Lme_5d - Xamarin_Forms_Maps_Pin_get_Type
+	.long LDIFF_SYM1030
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde91_end:
+Lfde93_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_110:
@@ -24820,8 +25112,8 @@ LTDIE_110:
 	.asciz "Xamarin_Forms_Maps_PinType"
 
 	.byte 4
-LDIFF_SYM1024=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1024
+LDIFF_SYM1031=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1031
 	.byte 9
 	.asciz "Generic"
 
@@ -24837,97 +25129,24 @@ LDIFF_SYM1024=LDIE_I4 - Ldebug_info_start
 	.byte 3,0,7
 	.asciz "Xamarin_Forms_Maps_PinType"
 
-LDIFF_SYM1025=LTDIE_110 - Ldebug_info_start
-	.long LDIFF_SYM1025
+LDIFF_SYM1032=LTDIE_110 - Ldebug_info_start
+	.long LDIFF_SYM1032
 LTDIE_110_POINTER:
 
 	.byte 13
-LDIFF_SYM1026=LTDIE_110 - Ldebug_info_start
-	.long LDIFF_SYM1026
+LDIFF_SYM1033=LTDIE_110 - Ldebug_info_start
+	.long LDIFF_SYM1033
 LTDIE_110_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1027=LTDIE_110 - Ldebug_info_start
-	.long LDIFF_SYM1027
+LDIFF_SYM1034=LTDIE_110 - Ldebug_info_start
+	.long LDIFF_SYM1034
 	.byte 2
 	.asciz "Xamarin.Forms.Maps.Pin:set_Type"
 	.asciz "Xamarin_Forms_Maps_Pin_set_Type_Xamarin_Forms_Maps_PinType"
 
 	.byte 0,0
 	.quad Xamarin_Forms_Maps_Pin_set_Type_Xamarin_Forms_Maps_PinType
-	.quad Lme_5c
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1028=LTDIE_107_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1028
-	.byte 2,141,16,3
-	.asciz "value"
-
-LDIFF_SYM1029=LTDIE_110 - Ldebug_info_start
-	.long LDIFF_SYM1029
-	.byte 2,141,24,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1030=Lfde92_end - Lfde92_start
-	.long LDIFF_SYM1030
-Lfde92_start:
-
-	.long 0
-	.align 3
-	.quad Xamarin_Forms_Maps_Pin_set_Type_Xamarin_Forms_Maps_PinType
-
-LDIFF_SYM1031=Lme_5c - Xamarin_Forms_Maps_Pin_set_Type_Xamarin_Forms_Maps_PinType
-	.long LDIFF_SYM1031
-	.long 0
-	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29
-	.align 3
-Lfde92_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "Xamarin.Forms.Maps.Pin:get_Id"
-	.asciz "Xamarin_Forms_Maps_Pin_get_Id"
-
-	.byte 0,0
-	.quad Xamarin_Forms_Maps_Pin_get_Id
-	.quad Lme_5d
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1032=LTDIE_107_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1032
-	.byte 2,141,16,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1033=Lfde93_end - Lfde93_start
-	.long LDIFF_SYM1033
-Lfde93_start:
-
-	.long 0
-	.align 3
-	.quad Xamarin_Forms_Maps_Pin_get_Id
-
-LDIFF_SYM1034=Lme_5d - Xamarin_Forms_Maps_Pin_get_Id
-	.long LDIFF_SYM1034
-	.long 0
-	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
-	.align 3
-Lfde93_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "Xamarin.Forms.Maps.Pin:set_Id"
-	.asciz "Xamarin_Forms_Maps_Pin_set_Id_object"
-
-	.byte 0,0
-	.quad Xamarin_Forms_Maps_Pin_set_Id_object
 	.quad Lme_5e
 
 	.byte 2,118,16,3
@@ -24935,12 +25154,12 @@ Lfde93_end:
 
 LDIFF_SYM1035=LTDIE_107_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1035
-	.byte 1,105,3
+	.byte 2,141,16,3
 	.asciz "value"
 
-LDIFF_SYM1036=LDIE_OBJECT - Ldebug_info_start
+LDIFF_SYM1036=LTDIE_110 - Ldebug_info_start
 	.long LDIFF_SYM1036
-	.byte 1,106,0
+	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
@@ -24950,23 +25169,23 @@ Lfde94_start:
 
 	.long 0
 	.align 3
-	.quad Xamarin_Forms_Maps_Pin_set_Id_object
+	.quad Xamarin_Forms_Maps_Pin_set_Type_Xamarin_Forms_Maps_PinType
 
-LDIFF_SYM1038=Lme_5e - Xamarin_Forms_Maps_Pin_set_Id_object
+LDIFF_SYM1038=Lme_5e - Xamarin_Forms_Maps_Pin_set_Type_Xamarin_Forms_Maps_PinType
 	.long LDIFF_SYM1038
 	.long 0
-	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,153,6,154,5
+	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29
 	.align 3
 Lfde94_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "Xamarin.Forms.Maps.Pin:get_MarkerId"
-	.asciz "Xamarin_Forms_Maps_Pin_get_MarkerId"
+	.asciz "Xamarin.Forms.Maps.Pin:get_Id"
+	.asciz "Xamarin_Forms_Maps_Pin_get_Id"
 
 	.byte 0,0
-	.quad Xamarin_Forms_Maps_Pin_get_MarkerId
+	.quad Xamarin_Forms_Maps_Pin_get_Id
 	.quad Lme_5f
 
 	.byte 2,118,16,3
@@ -24984,9 +25203,9 @@ Lfde95_start:
 
 	.long 0
 	.align 3
-	.quad Xamarin_Forms_Maps_Pin_get_MarkerId
+	.quad Xamarin_Forms_Maps_Pin_get_Id
 
-LDIFF_SYM1041=Lme_5f - Xamarin_Forms_Maps_Pin_get_MarkerId
+LDIFF_SYM1041=Lme_5f - Xamarin_Forms_Maps_Pin_get_Id
 	.long LDIFF_SYM1041
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
@@ -24996,11 +25215,11 @@ Lfde95_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "Xamarin.Forms.Maps.Pin:set_MarkerId"
-	.asciz "Xamarin_Forms_Maps_Pin_set_MarkerId_object"
+	.asciz "Xamarin.Forms.Maps.Pin:set_Id"
+	.asciz "Xamarin_Forms_Maps_Pin_set_Id_object"
 
 	.byte 0,0
-	.quad Xamarin_Forms_Maps_Pin_set_MarkerId_object
+	.quad Xamarin_Forms_Maps_Pin_set_Id_object
 	.quad Lme_60
 
 	.byte 2,118,16,3
@@ -25023,9 +25242,9 @@ Lfde96_start:
 
 	.long 0
 	.align 3
-	.quad Xamarin_Forms_Maps_Pin_set_MarkerId_object
+	.quad Xamarin_Forms_Maps_Pin_set_Id_object
 
-LDIFF_SYM1045=Lme_60 - Xamarin_Forms_Maps_Pin_set_MarkerId_object
+LDIFF_SYM1045=Lme_60 - Xamarin_Forms_Maps_Pin_set_Id_object
 	.long LDIFF_SYM1045
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,153,6,154,5
@@ -25035,11 +25254,11 @@ Lfde96_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "Xamarin.Forms.Maps.Pin:add_Clicked"
-	.asciz "Xamarin_Forms_Maps_Pin_add_Clicked_System_EventHandler"
+	.asciz "Xamarin.Forms.Maps.Pin:get_MarkerId"
+	.asciz "Xamarin_Forms_Maps_Pin_get_MarkerId"
 
 	.byte 0,0
-	.quad Xamarin_Forms_Maps_Pin_add_Clicked_System_EventHandler
+	.quad Xamarin_Forms_Maps_Pin_get_MarkerId
 	.quad Lme_61
 
 	.byte 2,118,16,3
@@ -25047,54 +25266,73 @@ Lfde96_end:
 
 LDIFF_SYM1046=LTDIE_107_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1046
-	.byte 1,105,3
-	.asciz "value"
-
-LDIFF_SYM1047=LTDIE_30_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1047
-	.byte 1,106,11
-	.asciz "V_0"
-
-LDIFF_SYM1048=LTDIE_30_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1048
-	.byte 1,104,11
-	.asciz "V_1"
-
-LDIFF_SYM1049=LTDIE_30_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1049
-	.byte 1,103,11
-	.asciz "V_2"
-
-LDIFF_SYM1050=LTDIE_30_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1050
-	.byte 1,102,0
+	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1051=Lfde97_end - Lfde97_start
-	.long LDIFF_SYM1051
+LDIFF_SYM1047=Lfde97_end - Lfde97_start
+	.long LDIFF_SYM1047
 Lfde97_start:
 
 	.long 0
 	.align 3
-	.quad Xamarin_Forms_Maps_Pin_add_Clicked_System_EventHandler
+	.quad Xamarin_Forms_Maps_Pin_get_MarkerId
 
-LDIFF_SYM1052=Lme_61 - Xamarin_Forms_Maps_Pin_add_Clicked_System_EventHandler
-	.long LDIFF_SYM1052
+LDIFF_SYM1048=Lme_61 - Xamarin_Forms_Maps_Pin_get_MarkerId
+	.long LDIFF_SYM1048
 	.long 0
-	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,149,12,150,11,68,151,10,152,9,68,153,8,154,7
+	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
 Lfde97_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "Xamarin.Forms.Maps.Pin:remove_Clicked"
-	.asciz "Xamarin_Forms_Maps_Pin_remove_Clicked_System_EventHandler"
+	.asciz "Xamarin.Forms.Maps.Pin:set_MarkerId"
+	.asciz "Xamarin_Forms_Maps_Pin_set_MarkerId_object"
 
 	.byte 0,0
-	.quad Xamarin_Forms_Maps_Pin_remove_Clicked_System_EventHandler
+	.quad Xamarin_Forms_Maps_Pin_set_MarkerId_object
 	.quad Lme_62
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1049=LTDIE_107_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1049
+	.byte 1,105,3
+	.asciz "value"
+
+LDIFF_SYM1050=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1050
+	.byte 1,106,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1051=Lfde98_end - Lfde98_start
+	.long LDIFF_SYM1051
+Lfde98_start:
+
+	.long 0
+	.align 3
+	.quad Xamarin_Forms_Maps_Pin_set_MarkerId_object
+
+LDIFF_SYM1052=Lme_62 - Xamarin_Forms_Maps_Pin_set_MarkerId_object
+	.long LDIFF_SYM1052
+	.long 0
+	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,153,6,154,5
+	.align 3
+Lfde98_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "Xamarin.Forms.Maps.Pin:add_Clicked"
+	.asciz "Xamarin_Forms_Maps_Pin_add_Clicked_System_EventHandler"
+
+	.byte 0,0
+	.quad Xamarin_Forms_Maps_Pin_add_Clicked_System_EventHandler
+	.quad Lme_63
 
 	.byte 2,118,16,3
 	.asciz "this"
@@ -25125,20 +25363,74 @@ LDIFF_SYM1057=LTDIE_30_REFERENCE - Ldebug_info_start
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1058=Lfde98_end - Lfde98_start
+LDIFF_SYM1058=Lfde99_end - Lfde99_start
 	.long LDIFF_SYM1058
-Lfde98_start:
+Lfde99_start:
+
+	.long 0
+	.align 3
+	.quad Xamarin_Forms_Maps_Pin_add_Clicked_System_EventHandler
+
+LDIFF_SYM1059=Lme_63 - Xamarin_Forms_Maps_Pin_add_Clicked_System_EventHandler
+	.long LDIFF_SYM1059
+	.long 0
+	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,149,12,150,11,68,151,10,152,9,68,153,8,154,7
+	.align 3
+Lfde99_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "Xamarin.Forms.Maps.Pin:remove_Clicked"
+	.asciz "Xamarin_Forms_Maps_Pin_remove_Clicked_System_EventHandler"
+
+	.byte 0,0
+	.quad Xamarin_Forms_Maps_Pin_remove_Clicked_System_EventHandler
+	.quad Lme_64
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1060=LTDIE_107_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1060
+	.byte 1,105,3
+	.asciz "value"
+
+LDIFF_SYM1061=LTDIE_30_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1061
+	.byte 1,106,11
+	.asciz "V_0"
+
+LDIFF_SYM1062=LTDIE_30_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1062
+	.byte 1,104,11
+	.asciz "V_1"
+
+LDIFF_SYM1063=LTDIE_30_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1063
+	.byte 1,103,11
+	.asciz "V_2"
+
+LDIFF_SYM1064=LTDIE_30_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1064
+	.byte 1,102,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1065=Lfde100_end - Lfde100_start
+	.long LDIFF_SYM1065
+Lfde100_start:
 
 	.long 0
 	.align 3
 	.quad Xamarin_Forms_Maps_Pin_remove_Clicked_System_EventHandler
 
-LDIFF_SYM1059=Lme_62 - Xamarin_Forms_Maps_Pin_remove_Clicked_System_EventHandler
-	.long LDIFF_SYM1059
+LDIFF_SYM1066=Lme_64 - Xamarin_Forms_Maps_Pin_remove_Clicked_System_EventHandler
+	.long LDIFF_SYM1066
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,149,12,150,11,68,151,10,152,9,68,153,8,154,7
 	.align 3
-Lfde98_end:
+Lfde100_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -25148,36 +25440,36 @@ Lfde98_end:
 
 	.byte 0,0
 	.quad Xamarin_Forms_Maps_Pin_Equals_object
-	.quad Lme_63
+	.quad Lme_65
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1060=LTDIE_107_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1060
+LDIFF_SYM1067=LTDIE_107_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1067
 	.byte 1,105,3
 	.asciz "obj"
 
-LDIFF_SYM1061=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1061
+LDIFF_SYM1068=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1068
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1062=Lfde99_end - Lfde99_start
-	.long LDIFF_SYM1062
-Lfde99_start:
+LDIFF_SYM1069=Lfde101_end - Lfde101_start
+	.long LDIFF_SYM1069
+Lfde101_start:
 
 	.long 0
 	.align 3
 	.quad Xamarin_Forms_Maps_Pin_Equals_object
 
-LDIFF_SYM1063=Lme_63 - Xamarin_Forms_Maps_Pin_Equals_object
-	.long LDIFF_SYM1063
+LDIFF_SYM1070=Lme_65 - Xamarin_Forms_Maps_Pin_Equals_object
+	.long LDIFF_SYM1070
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,151,12,68,153,11,154,10
 	.align 3
-Lfde99_end:
+Lfde101_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -25187,36 +25479,36 @@ Lfde99_end:
 
 	.byte 0,0
 	.quad Xamarin_Forms_Maps_Pin_GetHashCode
-	.quad Lme_64
+	.quad Lme_66
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1064=LTDIE_107_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1064
+LDIFF_SYM1071=LTDIE_107_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1071
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1065=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1065
+LDIFF_SYM1072=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1072
 	.byte 3,141,240,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1066=Lfde100_end - Lfde100_start
-	.long LDIFF_SYM1066
-Lfde100_start:
+LDIFF_SYM1073=Lfde102_end - Lfde102_start
+	.long LDIFF_SYM1073
+Lfde102_start:
 
 	.long 0
 	.align 3
 	.quad Xamarin_Forms_Maps_Pin_GetHashCode
 
-LDIFF_SYM1067=Lme_64 - Xamarin_Forms_Maps_Pin_GetHashCode
-	.long LDIFF_SYM1067
+LDIFF_SYM1074=Lme_66 - Xamarin_Forms_Maps_Pin_GetHashCode
+	.long LDIFF_SYM1074
 	.long 0
 	.byte 12,31,0,68,14,192,1,157,24,158,23,68,13,29,68,148,22,149,21,68,150,20,151,19,68,152,18,153,17,68,154,16
 	.align 3
-Lfde100_end:
+Lfde102_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -25226,36 +25518,36 @@ Lfde100_end:
 
 	.byte 0,0
 	.quad Xamarin_Forms_Maps_Pin_op_Equality_Xamarin_Forms_Maps_Pin_Xamarin_Forms_Maps_Pin
-	.quad Lme_65
+	.quad Lme_67
 
 	.byte 2,118,16,3
 	.asciz "left"
 
-LDIFF_SYM1068=LTDIE_107_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1068
+LDIFF_SYM1075=LTDIE_107_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1075
 	.byte 2,141,16,3
 	.asciz "right"
 
-LDIFF_SYM1069=LTDIE_107_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1069
+LDIFF_SYM1076=LTDIE_107_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1076
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1070=Lfde101_end - Lfde101_start
-	.long LDIFF_SYM1070
-Lfde101_start:
+LDIFF_SYM1077=Lfde103_end - Lfde103_start
+	.long LDIFF_SYM1077
+Lfde103_start:
 
 	.long 0
 	.align 3
 	.quad Xamarin_Forms_Maps_Pin_op_Equality_Xamarin_Forms_Maps_Pin_Xamarin_Forms_Maps_Pin
 
-LDIFF_SYM1071=Lme_65 - Xamarin_Forms_Maps_Pin_op_Equality_Xamarin_Forms_Maps_Pin_Xamarin_Forms_Maps_Pin
-	.long LDIFF_SYM1071
+LDIFF_SYM1078=Lme_67 - Xamarin_Forms_Maps_Pin_op_Equality_Xamarin_Forms_Maps_Pin_Xamarin_Forms_Maps_Pin
+	.long LDIFF_SYM1078
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
-Lfde101_end:
+Lfde103_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -25265,36 +25557,36 @@ Lfde101_end:
 
 	.byte 0,0
 	.quad Xamarin_Forms_Maps_Pin_op_Inequality_Xamarin_Forms_Maps_Pin_Xamarin_Forms_Maps_Pin
-	.quad Lme_66
+	.quad Lme_68
 
 	.byte 2,118,16,3
 	.asciz "left"
 
-LDIFF_SYM1072=LTDIE_107_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1072
+LDIFF_SYM1079=LTDIE_107_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1079
 	.byte 2,141,16,3
 	.asciz "right"
 
-LDIFF_SYM1073=LTDIE_107_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1073
+LDIFF_SYM1080=LTDIE_107_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1080
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1074=Lfde102_end - Lfde102_start
-	.long LDIFF_SYM1074
-Lfde102_start:
+LDIFF_SYM1081=Lfde104_end - Lfde104_start
+	.long LDIFF_SYM1081
+Lfde104_start:
 
 	.long 0
 	.align 3
 	.quad Xamarin_Forms_Maps_Pin_op_Inequality_Xamarin_Forms_Maps_Pin_Xamarin_Forms_Maps_Pin
 
-LDIFF_SYM1075=Lme_66 - Xamarin_Forms_Maps_Pin_op_Inequality_Xamarin_Forms_Maps_Pin_Xamarin_Forms_Maps_Pin
-	.long LDIFF_SYM1075
+LDIFF_SYM1082=Lme_68 - Xamarin_Forms_Maps_Pin_op_Inequality_Xamarin_Forms_Maps_Pin_Xamarin_Forms_Maps_Pin
+	.long LDIFF_SYM1082
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
-Lfde102_end:
+Lfde104_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -25304,92 +25596,19 @@ Lfde102_end:
 
 	.byte 0,0
 	.quad Xamarin_Forms_Maps_Pin_SendTap
-	.quad Lme_67
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1076=LTDIE_107_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1076
-	.byte 1,106,11
-	.asciz "V_0"
-
-LDIFF_SYM1077=LTDIE_30_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1077
-	.byte 1,105,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1078=Lfde103_end - Lfde103_start
-	.long LDIFF_SYM1078
-Lfde103_start:
-
-	.long 0
-	.align 3
-	.quad Xamarin_Forms_Maps_Pin_SendTap
-
-LDIFF_SYM1079=Lme_67 - Xamarin_Forms_Maps_Pin_SendTap
-	.long LDIFF_SYM1079
-	.long 0
-	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,153,6,154,5
-	.align 3
-Lfde103_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "Xamarin.Forms.Maps.Pin:Equals"
-	.asciz "Xamarin_Forms_Maps_Pin_Equals_Xamarin_Forms_Maps_Pin"
-
-	.byte 0,0
-	.quad Xamarin_Forms_Maps_Pin_Equals_Xamarin_Forms_Maps_Pin
-	.quad Lme_68
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1080=LTDIE_107_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1080
-	.byte 1,105,3
-	.asciz "other"
-
-LDIFF_SYM1081=LTDIE_107_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1081
-	.byte 1,106,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1082=Lfde104_end - Lfde104_start
-	.long LDIFF_SYM1082
-Lfde104_start:
-
-	.long 0
-	.align 3
-	.quad Xamarin_Forms_Maps_Pin_Equals_Xamarin_Forms_Maps_Pin
-
-LDIFF_SYM1083=Lme_68 - Xamarin_Forms_Maps_Pin_Equals_Xamarin_Forms_Maps_Pin
-	.long LDIFF_SYM1083
-	.long 0
-	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,153,14,154,13
-	.align 3
-Lfde104_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "Xamarin.Forms.Maps.Pin:.ctor"
-	.asciz "Xamarin_Forms_Maps_Pin__ctor"
-
-	.byte 0,0
-	.quad Xamarin_Forms_Maps_Pin__ctor
 	.quad Lme_69
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1084=LTDIE_107_REFERENCE - Ldebug_info_start
+LDIFF_SYM1083=LTDIE_107_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1083
+	.byte 1,106,11
+	.asciz "V_0"
+
+LDIFF_SYM1084=LTDIE_30_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1084
-	.byte 2,141,16,0
+	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
@@ -25399,14 +25618,87 @@ Lfde105_start:
 
 	.long 0
 	.align 3
+	.quad Xamarin_Forms_Maps_Pin_SendTap
+
+LDIFF_SYM1086=Lme_69 - Xamarin_Forms_Maps_Pin_SendTap
+	.long LDIFF_SYM1086
+	.long 0
+	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,153,6,154,5
+	.align 3
+Lfde105_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "Xamarin.Forms.Maps.Pin:Equals"
+	.asciz "Xamarin_Forms_Maps_Pin_Equals_Xamarin_Forms_Maps_Pin"
+
+	.byte 0,0
+	.quad Xamarin_Forms_Maps_Pin_Equals_Xamarin_Forms_Maps_Pin
+	.quad Lme_6a
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1087=LTDIE_107_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1087
+	.byte 1,105,3
+	.asciz "other"
+
+LDIFF_SYM1088=LTDIE_107_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1088
+	.byte 1,106,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1089=Lfde106_end - Lfde106_start
+	.long LDIFF_SYM1089
+Lfde106_start:
+
+	.long 0
+	.align 3
+	.quad Xamarin_Forms_Maps_Pin_Equals_Xamarin_Forms_Maps_Pin
+
+LDIFF_SYM1090=Lme_6a - Xamarin_Forms_Maps_Pin_Equals_Xamarin_Forms_Maps_Pin
+	.long LDIFF_SYM1090
+	.long 0
+	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,153,14,154,13
+	.align 3
+Lfde106_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "Xamarin.Forms.Maps.Pin:.ctor"
+	.asciz "Xamarin_Forms_Maps_Pin__ctor"
+
+	.byte 0,0
+	.quad Xamarin_Forms_Maps_Pin__ctor
+	.quad Lme_6b
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1091=LTDIE_107_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1091
+	.byte 2,141,16,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1092=Lfde107_end - Lfde107_start
+	.long LDIFF_SYM1092
+Lfde107_start:
+
+	.long 0
+	.align 3
 	.quad Xamarin_Forms_Maps_Pin__ctor
 
-LDIFF_SYM1086=Lme_69 - Xamarin_Forms_Maps_Pin__ctor
-	.long LDIFF_SYM1086
+LDIFF_SYM1093=Lme_6b - Xamarin_Forms_Maps_Pin__ctor
+	.long LDIFF_SYM1093
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde105_end:
+Lfde107_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -25416,31 +25708,31 @@ Lfde105_end:
 
 	.byte 0,0
 	.quad Xamarin_Forms_Maps_Pin__cctor
-	.quad Lme_6a
+	.quad Lme_6c
 
 	.byte 2,118,16,11
 	.asciz "V_0"
 
-LDIFF_SYM1087=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1087
+LDIFF_SYM1094=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1094
 	.byte 2,141,56,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1088=Lfde106_end - Lfde106_start
-	.long LDIFF_SYM1088
-Lfde106_start:
+LDIFF_SYM1095=Lfde108_end - Lfde108_start
+	.long LDIFF_SYM1095
+Lfde108_start:
 
 	.long 0
 	.align 3
 	.quad Xamarin_Forms_Maps_Pin__cctor
 
-LDIFF_SYM1089=Lme_6a - Xamarin_Forms_Maps_Pin__cctor
-	.long LDIFF_SYM1089
+LDIFF_SYM1096=Lme_6c - Xamarin_Forms_Maps_Pin__cctor
+	.long LDIFF_SYM1096
 	.long 0
 	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29
 	.align 3
-Lfde106_end:
+Lfde108_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_111:
@@ -25449,74 +25741,74 @@ LTDIE_111:
 	.asciz "Xamarin_Forms_Maps_Position"
 
 	.byte 32,16
-LDIFF_SYM1090=LTDIE_6 - Ldebug_info_start
-	.long LDIFF_SYM1090
+LDIFF_SYM1097=LTDIE_6 - Ldebug_info_start
+	.long LDIFF_SYM1097
 	.byte 2,35,0,6
 	.asciz "<Latitude>k__BackingField"
 
-LDIFF_SYM1091=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM1091
+LDIFF_SYM1098=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM1098
 	.byte 2,35,0,6
 	.asciz "<Longitude>k__BackingField"
 
-LDIFF_SYM1092=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM1092
+LDIFF_SYM1099=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM1099
 	.byte 2,35,8,0,7
 	.asciz "Xamarin_Forms_Maps_Position"
 
-LDIFF_SYM1093=LTDIE_111 - Ldebug_info_start
-	.long LDIFF_SYM1093
+LDIFF_SYM1100=LTDIE_111 - Ldebug_info_start
+	.long LDIFF_SYM1100
 LTDIE_111_POINTER:
 
 	.byte 13
-LDIFF_SYM1094=LTDIE_111 - Ldebug_info_start
-	.long LDIFF_SYM1094
+LDIFF_SYM1101=LTDIE_111 - Ldebug_info_start
+	.long LDIFF_SYM1101
 LTDIE_111_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1095=LTDIE_111 - Ldebug_info_start
-	.long LDIFF_SYM1095
+LDIFF_SYM1102=LTDIE_111 - Ldebug_info_start
+	.long LDIFF_SYM1102
 	.byte 2
 	.asciz "Xamarin.Forms.Maps.Position:.ctor"
 	.asciz "Xamarin_Forms_Maps_Position__ctor_double_double"
 
 	.byte 0,0
 	.quad Xamarin_Forms_Maps_Position__ctor_double_double
-	.quad Lme_6b
+	.quad Lme_6d
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1096=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1096
+LDIFF_SYM1103=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1103
 	.byte 1,106,3
 	.asciz "latitude"
 
-LDIFF_SYM1097=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM1097
+LDIFF_SYM1104=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM1104
 	.byte 2,141,24,3
 	.asciz "longitude"
 
-LDIFF_SYM1098=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM1098
+LDIFF_SYM1105=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM1105
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1099=Lfde107_end - Lfde107_start
-	.long LDIFF_SYM1099
-Lfde107_start:
+LDIFF_SYM1106=Lfde109_end - Lfde109_start
+	.long LDIFF_SYM1106
+Lfde109_start:
 
 	.long 0
 	.align 3
 	.quad Xamarin_Forms_Maps_Position__ctor_double_double
 
-LDIFF_SYM1100=Lme_6b - Xamarin_Forms_Maps_Position__ctor_double_double
-	.long LDIFF_SYM1100
+LDIFF_SYM1107=Lme_6d - Xamarin_Forms_Maps_Position__ctor_double_double
+	.long LDIFF_SYM1107
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,154,10
 	.align 3
-Lfde107_end:
+Lfde109_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -25526,31 +25818,31 @@ Lfde107_end:
 
 	.byte 0,0
 	.quad Xamarin_Forms_Maps_Position_get_Latitude
-	.quad Lme_6c
+	.quad Lme_6e
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1101=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1101
+LDIFF_SYM1108=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1108
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1102=Lfde108_end - Lfde108_start
-	.long LDIFF_SYM1102
-Lfde108_start:
+LDIFF_SYM1109=Lfde110_end - Lfde110_start
+	.long LDIFF_SYM1109
+Lfde110_start:
 
 	.long 0
 	.align 3
 	.quad Xamarin_Forms_Maps_Position_get_Latitude
 
-LDIFF_SYM1103=Lme_6c - Xamarin_Forms_Maps_Position_get_Latitude
-	.long LDIFF_SYM1103
+LDIFF_SYM1110=Lme_6e - Xamarin_Forms_Maps_Position_get_Latitude
+	.long LDIFF_SYM1110
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde108_end:
+Lfde110_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -25560,31 +25852,31 @@ Lfde108_end:
 
 	.byte 0,0
 	.quad Xamarin_Forms_Maps_Position_get_Longitude
-	.quad Lme_6d
+	.quad Lme_6f
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1104=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1104
+LDIFF_SYM1111=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1111
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1105=Lfde109_end - Lfde109_start
-	.long LDIFF_SYM1105
-Lfde109_start:
+LDIFF_SYM1112=Lfde111_end - Lfde111_start
+	.long LDIFF_SYM1112
+Lfde111_start:
 
 	.long 0
 	.align 3
 	.quad Xamarin_Forms_Maps_Position_get_Longitude
 
-LDIFF_SYM1106=Lme_6d - Xamarin_Forms_Maps_Position_get_Longitude
-	.long LDIFF_SYM1106
+LDIFF_SYM1113=Lme_6f - Xamarin_Forms_Maps_Position_get_Longitude
+	.long LDIFF_SYM1113
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde109_end:
+Lfde111_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -25594,41 +25886,41 @@ Lfde109_end:
 
 	.byte 0,0
 	.quad Xamarin_Forms_Maps_Position_Equals_object
-	.quad Lme_6e
+	.quad Lme_70
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1107=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1107
+LDIFF_SYM1114=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1114
 	.byte 1,105,3
 	.asciz "obj"
 
-LDIFF_SYM1108=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1108
+LDIFF_SYM1115=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1115
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1109=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1109
+LDIFF_SYM1116=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1116
 	.byte 3,141,216,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1110=Lfde110_end - Lfde110_start
-	.long LDIFF_SYM1110
-Lfde110_start:
+LDIFF_SYM1117=Lfde112_end - Lfde112_start
+	.long LDIFF_SYM1117
+Lfde112_start:
 
 	.long 0
 	.align 3
 	.quad Xamarin_Forms_Maps_Position_Equals_object
 
-LDIFF_SYM1111=Lme_6e - Xamarin_Forms_Maps_Position_Equals_object
-	.long LDIFF_SYM1111
+LDIFF_SYM1118=Lme_70 - Xamarin_Forms_Maps_Position_Equals_object
+	.long LDIFF_SYM1118
 	.long 0
 	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29,68,153,18,154,17
 	.align 3
-Lfde110_end:
+Lfde112_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -25638,36 +25930,36 @@ Lfde110_end:
 
 	.byte 0,0
 	.quad Xamarin_Forms_Maps_Position_GetHashCode
-	.quad Lme_6f
+	.quad Lme_71
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1112=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1112
+LDIFF_SYM1119=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1119
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1113=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM1113
+LDIFF_SYM1120=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM1120
 	.byte 2,141,48,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1114=Lfde111_end - Lfde111_start
-	.long LDIFF_SYM1114
-Lfde111_start:
+LDIFF_SYM1121=Lfde113_end - Lfde113_start
+	.long LDIFF_SYM1121
+Lfde113_start:
 
 	.long 0
 	.align 3
 	.quad Xamarin_Forms_Maps_Position_GetHashCode
 
-LDIFF_SYM1115=Lme_6f - Xamarin_Forms_Maps_Position_GetHashCode
-	.long LDIFF_SYM1115
+LDIFF_SYM1122=Lme_71 - Xamarin_Forms_Maps_Position_GetHashCode
+	.long LDIFF_SYM1122
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,154,12
 	.align 3
-Lfde111_end:
+Lfde113_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -25677,36 +25969,36 @@ Lfde111_end:
 
 	.byte 0,0
 	.quad Xamarin_Forms_Maps_Position_op_Equality_Xamarin_Forms_Maps_Position_Xamarin_Forms_Maps_Position
-	.quad Lme_70
+	.quad Lme_72
 
 	.byte 2,118,16,3
 	.asciz "left"
 
-LDIFF_SYM1116=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1116
+LDIFF_SYM1123=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1123
 	.byte 2,141,16,3
 	.asciz "right"
 
-LDIFF_SYM1117=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1117
+LDIFF_SYM1124=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1124
 	.byte 3,141,208,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1118=Lfde112_end - Lfde112_start
-	.long LDIFF_SYM1118
-Lfde112_start:
+LDIFF_SYM1125=Lfde114_end - Lfde114_start
+	.long LDIFF_SYM1125
+Lfde114_start:
 
 	.long 0
 	.align 3
 	.quad Xamarin_Forms_Maps_Position_op_Equality_Xamarin_Forms_Maps_Position_Xamarin_Forms_Maps_Position
 
-LDIFF_SYM1119=Lme_70 - Xamarin_Forms_Maps_Position_op_Equality_Xamarin_Forms_Maps_Position_Xamarin_Forms_Maps_Position
-	.long LDIFF_SYM1119
+LDIFF_SYM1126=Lme_72 - Xamarin_Forms_Maps_Position_op_Equality_Xamarin_Forms_Maps_Position_Xamarin_Forms_Maps_Position
+	.long LDIFF_SYM1126
 	.long 0
 	.byte 12,31,0,68,14,224,1,157,28,158,27,68,13,29
 	.align 3
-Lfde112_end:
+Lfde114_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -25716,36 +26008,36 @@ Lfde112_end:
 
 	.byte 0,0
 	.quad Xamarin_Forms_Maps_Position_op_Inequality_Xamarin_Forms_Maps_Position_Xamarin_Forms_Maps_Position
-	.quad Lme_71
+	.quad Lme_73
 
 	.byte 2,118,16,3
 	.asciz "left"
 
-LDIFF_SYM1120=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1120
+LDIFF_SYM1127=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1127
 	.byte 2,141,16,3
 	.asciz "right"
 
-LDIFF_SYM1121=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1121
+LDIFF_SYM1128=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1128
 	.byte 3,141,208,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1122=Lfde113_end - Lfde113_start
-	.long LDIFF_SYM1122
-Lfde113_start:
+LDIFF_SYM1129=Lfde115_end - Lfde115_start
+	.long LDIFF_SYM1129
+Lfde115_start:
 
 	.long 0
 	.align 3
 	.quad Xamarin_Forms_Maps_Position_op_Inequality_Xamarin_Forms_Maps_Position_Xamarin_Forms_Maps_Position
 
-LDIFF_SYM1123=Lme_71 - Xamarin_Forms_Maps_Position_op_Inequality_Xamarin_Forms_Maps_Position_Xamarin_Forms_Maps_Position
-	.long LDIFF_SYM1123
+LDIFF_SYM1130=Lme_73 - Xamarin_Forms_Maps_Position_op_Inequality_Xamarin_Forms_Maps_Position_Xamarin_Forms_Maps_Position
+	.long LDIFF_SYM1130
 	.long 0
 	.byte 12,31,0,68,14,240,1,157,30,158,29,68,13,29
 	.align 3
-Lfde113_end:
+Lfde115_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_112:
@@ -25754,82 +26046,82 @@ LTDIE_112:
 	.asciz "System_Func`2"
 
 	.byte 128,1,16
-LDIFF_SYM1124=LTDIE_22 - Ldebug_info_start
-	.long LDIFF_SYM1124
+LDIFF_SYM1131=LTDIE_22 - Ldebug_info_start
+	.long LDIFF_SYM1131
 	.byte 2,35,0,0,7
 	.asciz "System_Func`2"
 
-LDIFF_SYM1125=LTDIE_112 - Ldebug_info_start
-	.long LDIFF_SYM1125
+LDIFF_SYM1132=LTDIE_112 - Ldebug_info_start
+	.long LDIFF_SYM1132
 LTDIE_112_POINTER:
 
 	.byte 13
-LDIFF_SYM1126=LTDIE_112 - Ldebug_info_start
-	.long LDIFF_SYM1126
+LDIFF_SYM1133=LTDIE_112 - Ldebug_info_start
+	.long LDIFF_SYM1133
 LTDIE_112_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1127=LTDIE_112 - Ldebug_info_start
-	.long LDIFF_SYM1127
+LDIFF_SYM1134=LTDIE_112 - Ldebug_info_start
+	.long LDIFF_SYM1134
 LTDIE_113:
 
 	.byte 5
 	.asciz "System_Array"
 
 	.byte 16,16
-LDIFF_SYM1128=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM1128
+LDIFF_SYM1135=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM1135
 	.byte 2,35,0,0,7
 	.asciz "System_Array"
 
-LDIFF_SYM1129=LTDIE_113 - Ldebug_info_start
-	.long LDIFF_SYM1129
+LDIFF_SYM1136=LTDIE_113 - Ldebug_info_start
+	.long LDIFF_SYM1136
 LTDIE_113_POINTER:
 
 	.byte 13
-LDIFF_SYM1130=LTDIE_113 - Ldebug_info_start
-	.long LDIFF_SYM1130
+LDIFF_SYM1137=LTDIE_113 - Ldebug_info_start
+	.long LDIFF_SYM1137
 LTDIE_113_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1131=LTDIE_113 - Ldebug_info_start
-	.long LDIFF_SYM1131
+LDIFF_SYM1138=LTDIE_113 - Ldebug_info_start
+	.long LDIFF_SYM1138
 LTDIE_116:
 
 	.byte 5
 	.asciz "System_Threading_Tasks_TaskScheduler"
 
 	.byte 20,16
-LDIFF_SYM1132=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM1132
+LDIFF_SYM1139=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM1139
 	.byte 2,35,0,6
 	.asciz "m_taskSchedulerId"
 
-LDIFF_SYM1133=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1133
+LDIFF_SYM1140=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1140
 	.byte 2,35,16,0,7
 	.asciz "System_Threading_Tasks_TaskScheduler"
 
-LDIFF_SYM1134=LTDIE_116 - Ldebug_info_start
-	.long LDIFF_SYM1134
+LDIFF_SYM1141=LTDIE_116 - Ldebug_info_start
+	.long LDIFF_SYM1141
 LTDIE_116_POINTER:
 
 	.byte 13
-LDIFF_SYM1135=LTDIE_116 - Ldebug_info_start
-	.long LDIFF_SYM1135
+LDIFF_SYM1142=LTDIE_116 - Ldebug_info_start
+	.long LDIFF_SYM1142
 LTDIE_116_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1136=LTDIE_116 - Ldebug_info_start
-	.long LDIFF_SYM1136
+LDIFF_SYM1143=LTDIE_116 - Ldebug_info_start
+	.long LDIFF_SYM1143
 LTDIE_120:
 
 	.byte 8
 	.asciz "System_Threading_SynchronizationContextProperties"
 
 	.byte 4
-LDIFF_SYM1137=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1137
+LDIFF_SYM1144=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1144
 	.byte 9
 	.asciz "None"
 
@@ -25839,74 +26131,74 @@ LDIFF_SYM1137=LDIE_I4 - Ldebug_info_start
 	.byte 1,0,7
 	.asciz "System_Threading_SynchronizationContextProperties"
 
-LDIFF_SYM1138=LTDIE_120 - Ldebug_info_start
-	.long LDIFF_SYM1138
+LDIFF_SYM1145=LTDIE_120 - Ldebug_info_start
+	.long LDIFF_SYM1145
 LTDIE_120_POINTER:
 
 	.byte 13
-LDIFF_SYM1139=LTDIE_120 - Ldebug_info_start
-	.long LDIFF_SYM1139
+LDIFF_SYM1146=LTDIE_120 - Ldebug_info_start
+	.long LDIFF_SYM1146
 LTDIE_120_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1140=LTDIE_120 - Ldebug_info_start
-	.long LDIFF_SYM1140
+LDIFF_SYM1147=LTDIE_120 - Ldebug_info_start
+	.long LDIFF_SYM1147
 LTDIE_119:
 
 	.byte 5
 	.asciz "System_Threading_SynchronizationContext"
 
 	.byte 20,16
-LDIFF_SYM1141=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM1141
+LDIFF_SYM1148=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM1148
 	.byte 2,35,0,6
 	.asciz "_props"
 
-LDIFF_SYM1142=LTDIE_120 - Ldebug_info_start
-	.long LDIFF_SYM1142
+LDIFF_SYM1149=LTDIE_120 - Ldebug_info_start
+	.long LDIFF_SYM1149
 	.byte 2,35,16,0,7
 	.asciz "System_Threading_SynchronizationContext"
 
-LDIFF_SYM1143=LTDIE_119 - Ldebug_info_start
-	.long LDIFF_SYM1143
+LDIFF_SYM1150=LTDIE_119 - Ldebug_info_start
+	.long LDIFF_SYM1150
 LTDIE_119_POINTER:
 
 	.byte 13
-LDIFF_SYM1144=LTDIE_119 - Ldebug_info_start
-	.long LDIFF_SYM1144
+LDIFF_SYM1151=LTDIE_119 - Ldebug_info_start
+	.long LDIFF_SYM1151
 LTDIE_119_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1145=LTDIE_119 - Ldebug_info_start
-	.long LDIFF_SYM1145
+LDIFF_SYM1152=LTDIE_119 - Ldebug_info_start
+	.long LDIFF_SYM1152
 LTDIE_123:
 
 	.byte 5
 	.asciz "System_Single"
 
 	.byte 20,16
-LDIFF_SYM1146=LTDIE_6 - Ldebug_info_start
-	.long LDIFF_SYM1146
+LDIFF_SYM1153=LTDIE_6 - Ldebug_info_start
+	.long LDIFF_SYM1153
 	.byte 2,35,0,6
 	.asciz "m_value"
 
-LDIFF_SYM1147=LDIE_R4 - Ldebug_info_start
-	.long LDIFF_SYM1147
+LDIFF_SYM1154=LDIE_R4 - Ldebug_info_start
+	.long LDIFF_SYM1154
 	.byte 2,35,16,0,7
 	.asciz "System_Single"
 
-LDIFF_SYM1148=LTDIE_123 - Ldebug_info_start
-	.long LDIFF_SYM1148
+LDIFF_SYM1155=LTDIE_123 - Ldebug_info_start
+	.long LDIFF_SYM1155
 LTDIE_123_POINTER:
 
 	.byte 13
-LDIFF_SYM1149=LTDIE_123 - Ldebug_info_start
-	.long LDIFF_SYM1149
+LDIFF_SYM1156=LTDIE_123 - Ldebug_info_start
+	.long LDIFF_SYM1156
 LTDIE_123_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1150=LTDIE_123 - Ldebug_info_start
-	.long LDIFF_SYM1150
+LDIFF_SYM1157=LTDIE_123 - Ldebug_info_start
+	.long LDIFF_SYM1157
 LTDIE_124:
 
 	.byte 17
@@ -25915,18 +26207,18 @@ LTDIE_124:
 	.byte 16,7
 	.asciz "System_Collections_ICollection"
 
-LDIFF_SYM1151=LTDIE_124 - Ldebug_info_start
-	.long LDIFF_SYM1151
+LDIFF_SYM1158=LTDIE_124 - Ldebug_info_start
+	.long LDIFF_SYM1158
 LTDIE_124_POINTER:
 
 	.byte 13
-LDIFF_SYM1152=LTDIE_124 - Ldebug_info_start
-	.long LDIFF_SYM1152
+LDIFF_SYM1159=LTDIE_124 - Ldebug_info_start
+	.long LDIFF_SYM1159
 LTDIE_124_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1153=LTDIE_124 - Ldebug_info_start
-	.long LDIFF_SYM1153
+LDIFF_SYM1160=LTDIE_124 - Ldebug_info_start
+	.long LDIFF_SYM1160
 LTDIE_125:
 
 	.byte 17
@@ -25935,221 +26227,221 @@ LTDIE_125:
 	.byte 16,7
 	.asciz "System_Collections_IEqualityComparer"
 
-LDIFF_SYM1154=LTDIE_125 - Ldebug_info_start
-	.long LDIFF_SYM1154
+LDIFF_SYM1161=LTDIE_125 - Ldebug_info_start
+	.long LDIFF_SYM1161
 LTDIE_125_POINTER:
 
 	.byte 13
-LDIFF_SYM1155=LTDIE_125 - Ldebug_info_start
-	.long LDIFF_SYM1155
+LDIFF_SYM1162=LTDIE_125 - Ldebug_info_start
+	.long LDIFF_SYM1162
 LTDIE_125_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1156=LTDIE_125 - Ldebug_info_start
-	.long LDIFF_SYM1156
+LDIFF_SYM1163=LTDIE_125 - Ldebug_info_start
+	.long LDIFF_SYM1163
 LTDIE_122:
 
 	.byte 5
 	.asciz "System_Collections_Hashtable"
 
 	.byte 80,16
-LDIFF_SYM1157=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM1157
+LDIFF_SYM1164=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM1164
 	.byte 2,35,0,6
 	.asciz "_buckets"
 
-LDIFF_SYM1158=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1158
+LDIFF_SYM1165=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1165
 	.byte 2,35,16,6
 	.asciz "_count"
 
-LDIFF_SYM1159=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1159
+LDIFF_SYM1166=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1166
 	.byte 2,35,56,6
 	.asciz "_occupancy"
 
-LDIFF_SYM1160=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1160
+LDIFF_SYM1167=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1167
 	.byte 2,35,60,6
 	.asciz "_loadsize"
 
-LDIFF_SYM1161=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1161
+LDIFF_SYM1168=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1168
 	.byte 2,35,64,6
 	.asciz "_loadFactor"
 
-LDIFF_SYM1162=LDIE_R4 - Ldebug_info_start
-	.long LDIFF_SYM1162
+LDIFF_SYM1169=LDIE_R4 - Ldebug_info_start
+	.long LDIFF_SYM1169
 	.byte 2,35,68,6
 	.asciz "_version"
 
-LDIFF_SYM1163=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1163
+LDIFF_SYM1170=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1170
 	.byte 2,35,72,6
 	.asciz "_isWriterInProgress"
 
-LDIFF_SYM1164=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1164
+LDIFF_SYM1171=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1171
 	.byte 2,35,76,6
 	.asciz "_keys"
 
-LDIFF_SYM1165=LTDIE_124_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1165
+LDIFF_SYM1172=LTDIE_124_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1172
 	.byte 2,35,24,6
 	.asciz "_values"
 
-LDIFF_SYM1166=LTDIE_124_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1166
+LDIFF_SYM1173=LTDIE_124_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1173
 	.byte 2,35,32,6
 	.asciz "_keycomparer"
 
-LDIFF_SYM1167=LTDIE_125_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1167
+LDIFF_SYM1174=LTDIE_125_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1174
 	.byte 2,35,40,6
 	.asciz "_syncRoot"
 
-LDIFF_SYM1168=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1168
+LDIFF_SYM1175=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1175
 	.byte 2,35,48,0,7
 	.asciz "System_Collections_Hashtable"
 
-LDIFF_SYM1169=LTDIE_122 - Ldebug_info_start
-	.long LDIFF_SYM1169
+LDIFF_SYM1176=LTDIE_122 - Ldebug_info_start
+	.long LDIFF_SYM1176
 LTDIE_122_POINTER:
 
 	.byte 13
-LDIFF_SYM1170=LTDIE_122 - Ldebug_info_start
-	.long LDIFF_SYM1170
+LDIFF_SYM1177=LTDIE_122 - Ldebug_info_start
+	.long LDIFF_SYM1177
 LTDIE_122_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1171=LTDIE_122 - Ldebug_info_start
-	.long LDIFF_SYM1171
+LDIFF_SYM1178=LTDIE_122 - Ldebug_info_start
+	.long LDIFF_SYM1178
 LTDIE_126:
 
 	.byte 5
 	.asciz "System_Runtime_Remoting_Messaging_CallContextRemotingData"
 
 	.byte 16,16
-LDIFF_SYM1172=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM1172
+LDIFF_SYM1179=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM1179
 	.byte 2,35,0,0,7
 	.asciz "System_Runtime_Remoting_Messaging_CallContextRemotingData"
 
-LDIFF_SYM1173=LTDIE_126 - Ldebug_info_start
-	.long LDIFF_SYM1173
+LDIFF_SYM1180=LTDIE_126 - Ldebug_info_start
+	.long LDIFF_SYM1180
 LTDIE_126_POINTER:
 
 	.byte 13
-LDIFF_SYM1174=LTDIE_126 - Ldebug_info_start
-	.long LDIFF_SYM1174
+LDIFF_SYM1181=LTDIE_126 - Ldebug_info_start
+	.long LDIFF_SYM1181
 LTDIE_126_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1175=LTDIE_126 - Ldebug_info_start
-	.long LDIFF_SYM1175
+LDIFF_SYM1182=LTDIE_126 - Ldebug_info_start
+	.long LDIFF_SYM1182
 LTDIE_127:
 
 	.byte 5
 	.asciz "System_Runtime_Remoting_Messaging_CallContextSecurityData"
 
 	.byte 16,16
-LDIFF_SYM1176=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM1176
+LDIFF_SYM1183=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM1183
 	.byte 2,35,0,0,7
 	.asciz "System_Runtime_Remoting_Messaging_CallContextSecurityData"
 
-LDIFF_SYM1177=LTDIE_127 - Ldebug_info_start
-	.long LDIFF_SYM1177
+LDIFF_SYM1184=LTDIE_127 - Ldebug_info_start
+	.long LDIFF_SYM1184
 LTDIE_127_POINTER:
 
 	.byte 13
-LDIFF_SYM1178=LTDIE_127 - Ldebug_info_start
-	.long LDIFF_SYM1178
+LDIFF_SYM1185=LTDIE_127 - Ldebug_info_start
+	.long LDIFF_SYM1185
 LTDIE_127_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1179=LTDIE_127 - Ldebug_info_start
-	.long LDIFF_SYM1179
+LDIFF_SYM1186=LTDIE_127 - Ldebug_info_start
+	.long LDIFF_SYM1186
 LTDIE_121:
 
 	.byte 5
 	.asciz "System_Runtime_Remoting_Messaging_LogicalCallContext"
 
 	.byte 56,16
-LDIFF_SYM1180=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM1180
+LDIFF_SYM1187=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM1187
 	.byte 2,35,0,6
 	.asciz "m_Datastore"
 
-LDIFF_SYM1181=LTDIE_122_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1181
+LDIFF_SYM1188=LTDIE_122_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1188
 	.byte 2,35,16,6
 	.asciz "m_RemotingData"
 
-LDIFF_SYM1182=LTDIE_126_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1182
+LDIFF_SYM1189=LTDIE_126_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1189
 	.byte 2,35,24,6
 	.asciz "m_SecurityData"
 
-LDIFF_SYM1183=LTDIE_127_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1183
+LDIFF_SYM1190=LTDIE_127_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1190
 	.byte 2,35,32,6
 	.asciz "m_HostContext"
 
-LDIFF_SYM1184=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1184
+LDIFF_SYM1191=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1191
 	.byte 2,35,40,6
 	.asciz "m_IsCorrelationMgr"
 
-LDIFF_SYM1185=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1185
+LDIFF_SYM1192=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1192
 	.byte 2,35,48,0,7
 	.asciz "System_Runtime_Remoting_Messaging_LogicalCallContext"
 
-LDIFF_SYM1186=LTDIE_121 - Ldebug_info_start
-	.long LDIFF_SYM1186
+LDIFF_SYM1193=LTDIE_121 - Ldebug_info_start
+	.long LDIFF_SYM1193
 LTDIE_121_POINTER:
 
 	.byte 13
-LDIFF_SYM1187=LTDIE_121 - Ldebug_info_start
-	.long LDIFF_SYM1187
+LDIFF_SYM1194=LTDIE_121 - Ldebug_info_start
+	.long LDIFF_SYM1194
 LTDIE_121_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1188=LTDIE_121 - Ldebug_info_start
-	.long LDIFF_SYM1188
+LDIFF_SYM1195=LTDIE_121 - Ldebug_info_start
+	.long LDIFF_SYM1195
 LTDIE_128:
 
 	.byte 5
 	.asciz "System_Runtime_Remoting_Messaging_IllogicalCallContext"
 
 	.byte 16,16
-LDIFF_SYM1189=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM1189
+LDIFF_SYM1196=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM1196
 	.byte 2,35,0,0,7
 	.asciz "System_Runtime_Remoting_Messaging_IllogicalCallContext"
 
-LDIFF_SYM1190=LTDIE_128 - Ldebug_info_start
-	.long LDIFF_SYM1190
+LDIFF_SYM1197=LTDIE_128 - Ldebug_info_start
+	.long LDIFF_SYM1197
 LTDIE_128_POINTER:
 
 	.byte 13
-LDIFF_SYM1191=LTDIE_128 - Ldebug_info_start
-	.long LDIFF_SYM1191
+LDIFF_SYM1198=LTDIE_128 - Ldebug_info_start
+	.long LDIFF_SYM1198
 LTDIE_128_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1192=LTDIE_128 - Ldebug_info_start
-	.long LDIFF_SYM1192
+LDIFF_SYM1199=LTDIE_128 - Ldebug_info_start
+	.long LDIFF_SYM1199
 LTDIE_129:
 
 	.byte 8
 	.asciz "_Flags"
 
 	.byte 4
-LDIFF_SYM1193=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1193
+LDIFF_SYM1200=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1200
 	.byte 9
 	.asciz "None"
 
@@ -26165,18 +26457,18 @@ LDIFF_SYM1193=LDIE_I4 - Ldebug_info_start
 	.byte 4,0,7
 	.asciz "_Flags"
 
-LDIFF_SYM1194=LTDIE_129 - Ldebug_info_start
-	.long LDIFF_SYM1194
+LDIFF_SYM1201=LTDIE_129 - Ldebug_info_start
+	.long LDIFF_SYM1201
 LTDIE_129_POINTER:
 
 	.byte 13
-LDIFF_SYM1195=LTDIE_129 - Ldebug_info_start
-	.long LDIFF_SYM1195
+LDIFF_SYM1202=LTDIE_129 - Ldebug_info_start
+	.long LDIFF_SYM1202
 LTDIE_129_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1196=LTDIE_129 - Ldebug_info_start
-	.long LDIFF_SYM1196
+LDIFF_SYM1203=LTDIE_129 - Ldebug_info_start
+	.long LDIFF_SYM1203
 LTDIE_131:
 
 	.byte 17
@@ -26185,543 +26477,543 @@ LTDIE_131:
 	.byte 16,7
 	.asciz "System_Collections_Generic_IEqualityComparer`1"
 
-LDIFF_SYM1197=LTDIE_131 - Ldebug_info_start
-	.long LDIFF_SYM1197
+LDIFF_SYM1204=LTDIE_131 - Ldebug_info_start
+	.long LDIFF_SYM1204
 LTDIE_131_POINTER:
 
 	.byte 13
-LDIFF_SYM1198=LTDIE_131 - Ldebug_info_start
-	.long LDIFF_SYM1198
+LDIFF_SYM1205=LTDIE_131 - Ldebug_info_start
+	.long LDIFF_SYM1205
 LTDIE_131_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1199=LTDIE_131 - Ldebug_info_start
-	.long LDIFF_SYM1199
+LDIFF_SYM1206=LTDIE_131 - Ldebug_info_start
+	.long LDIFF_SYM1206
 LTDIE_132:
 
 	.byte 5
 	.asciz "_KeyCollection"
 
 	.byte 24,16
-LDIFF_SYM1200=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM1200
+LDIFF_SYM1207=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM1207
 	.byte 2,35,0,6
 	.asciz "_dictionary"
 
-LDIFF_SYM1201=LTDIE_130_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1201
+LDIFF_SYM1208=LTDIE_130_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1208
 	.byte 2,35,16,0,7
 	.asciz "_KeyCollection"
 
-LDIFF_SYM1202=LTDIE_132 - Ldebug_info_start
-	.long LDIFF_SYM1202
+LDIFF_SYM1209=LTDIE_132 - Ldebug_info_start
+	.long LDIFF_SYM1209
 LTDIE_132_POINTER:
 
 	.byte 13
-LDIFF_SYM1203=LTDIE_132 - Ldebug_info_start
-	.long LDIFF_SYM1203
+LDIFF_SYM1210=LTDIE_132 - Ldebug_info_start
+	.long LDIFF_SYM1210
 LTDIE_132_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1204=LTDIE_132 - Ldebug_info_start
-	.long LDIFF_SYM1204
+LDIFF_SYM1211=LTDIE_132 - Ldebug_info_start
+	.long LDIFF_SYM1211
 LTDIE_133:
 
 	.byte 5
 	.asciz "_ValueCollection"
 
 	.byte 24,16
-LDIFF_SYM1205=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM1205
+LDIFF_SYM1212=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM1212
 	.byte 2,35,0,6
 	.asciz "_dictionary"
 
-LDIFF_SYM1206=LTDIE_130_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1206
+LDIFF_SYM1213=LTDIE_130_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1213
 	.byte 2,35,16,0,7
 	.asciz "_ValueCollection"
 
-LDIFF_SYM1207=LTDIE_133 - Ldebug_info_start
-	.long LDIFF_SYM1207
+LDIFF_SYM1214=LTDIE_133 - Ldebug_info_start
+	.long LDIFF_SYM1214
 LTDIE_133_POINTER:
 
 	.byte 13
-LDIFF_SYM1208=LTDIE_133 - Ldebug_info_start
-	.long LDIFF_SYM1208
+LDIFF_SYM1215=LTDIE_133 - Ldebug_info_start
+	.long LDIFF_SYM1215
 LTDIE_133_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1209=LTDIE_133 - Ldebug_info_start
-	.long LDIFF_SYM1209
+LDIFF_SYM1216=LTDIE_133 - Ldebug_info_start
+	.long LDIFF_SYM1216
 LTDIE_130:
 
 	.byte 5
 	.asciz "System_Collections_Generic_Dictionary`2"
 
 	.byte 80,16
-LDIFF_SYM1210=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM1210
+LDIFF_SYM1217=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM1217
 	.byte 2,35,0,6
 	.asciz "_buckets"
 
-LDIFF_SYM1211=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1211
+LDIFF_SYM1218=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1218
 	.byte 2,35,16,6
 	.asciz "_entries"
 
-LDIFF_SYM1212=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1212
+LDIFF_SYM1219=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1219
 	.byte 2,35,24,6
 	.asciz "_count"
 
-LDIFF_SYM1213=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1213
+LDIFF_SYM1220=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1220
 	.byte 2,35,64,6
 	.asciz "_freeList"
 
-LDIFF_SYM1214=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1214
+LDIFF_SYM1221=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1221
 	.byte 2,35,68,6
 	.asciz "_freeCount"
 
-LDIFF_SYM1215=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1215
+LDIFF_SYM1222=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1222
 	.byte 2,35,72,6
 	.asciz "_version"
 
-LDIFF_SYM1216=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1216
+LDIFF_SYM1223=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1223
 	.byte 2,35,76,6
 	.asciz "_comparer"
 
-LDIFF_SYM1217=LTDIE_131_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1217
+LDIFF_SYM1224=LTDIE_131_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1224
 	.byte 2,35,32,6
 	.asciz "_keys"
 
-LDIFF_SYM1218=LTDIE_132_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1218
+LDIFF_SYM1225=LTDIE_132_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1225
 	.byte 2,35,40,6
 	.asciz "_values"
 
-LDIFF_SYM1219=LTDIE_133_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1219
+LDIFF_SYM1226=LTDIE_133_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1226
 	.byte 2,35,48,6
 	.asciz "_syncRoot"
 
-LDIFF_SYM1220=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1220
+LDIFF_SYM1227=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1227
 	.byte 2,35,56,0,7
 	.asciz "System_Collections_Generic_Dictionary`2"
 
-LDIFF_SYM1221=LTDIE_130 - Ldebug_info_start
-	.long LDIFF_SYM1221
+LDIFF_SYM1228=LTDIE_130 - Ldebug_info_start
+	.long LDIFF_SYM1228
 LTDIE_130_POINTER:
 
 	.byte 13
-LDIFF_SYM1222=LTDIE_130 - Ldebug_info_start
-	.long LDIFF_SYM1222
+LDIFF_SYM1229=LTDIE_130 - Ldebug_info_start
+	.long LDIFF_SYM1229
 LTDIE_130_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1223=LTDIE_130 - Ldebug_info_start
-	.long LDIFF_SYM1223
+LDIFF_SYM1230=LTDIE_130 - Ldebug_info_start
+	.long LDIFF_SYM1230
 LTDIE_134:
 
 	.byte 5
 	.asciz "System_Collections_Generic_List`1"
 
 	.byte 40,16
-LDIFF_SYM1224=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM1224
+LDIFF_SYM1231=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM1231
 	.byte 2,35,0,6
 	.asciz "_items"
 
-LDIFF_SYM1225=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1225
+LDIFF_SYM1232=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1232
 	.byte 2,35,16,6
 	.asciz "_size"
 
-LDIFF_SYM1226=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1226
+LDIFF_SYM1233=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1233
 	.byte 2,35,32,6
 	.asciz "_version"
 
-LDIFF_SYM1227=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1227
+LDIFF_SYM1234=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1234
 	.byte 2,35,36,6
 	.asciz "_syncRoot"
 
-LDIFF_SYM1228=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1228
+LDIFF_SYM1235=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1235
 	.byte 2,35,24,0,7
 	.asciz "System_Collections_Generic_List`1"
 
-LDIFF_SYM1229=LTDIE_134 - Ldebug_info_start
-	.long LDIFF_SYM1229
+LDIFF_SYM1236=LTDIE_134 - Ldebug_info_start
+	.long LDIFF_SYM1236
 LTDIE_134_POINTER:
 
 	.byte 13
-LDIFF_SYM1230=LTDIE_134 - Ldebug_info_start
-	.long LDIFF_SYM1230
+LDIFF_SYM1237=LTDIE_134 - Ldebug_info_start
+	.long LDIFF_SYM1237
 LTDIE_134_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1231=LTDIE_134 - Ldebug_info_start
-	.long LDIFF_SYM1231
+LDIFF_SYM1238=LTDIE_134 - Ldebug_info_start
+	.long LDIFF_SYM1238
 LTDIE_118:
 
 	.byte 5
 	.asciz "System_Threading_ExecutionContext"
 
 	.byte 72,16
-LDIFF_SYM1232=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM1232
+LDIFF_SYM1239=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM1239
 	.byte 2,35,0,6
 	.asciz "_syncContext"
 
-LDIFF_SYM1233=LTDIE_119_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1233
+LDIFF_SYM1240=LTDIE_119_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1240
 	.byte 2,35,16,6
 	.asciz "_syncContextNoFlow"
 
-LDIFF_SYM1234=LTDIE_119_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1234
+LDIFF_SYM1241=LTDIE_119_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1241
 	.byte 2,35,24,6
 	.asciz "_logicalCallContext"
 
-LDIFF_SYM1235=LTDIE_121_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1235
+LDIFF_SYM1242=LTDIE_121_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1242
 	.byte 2,35,32,6
 	.asciz "_illogicalCallContext"
 
-LDIFF_SYM1236=LTDIE_128_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1236
+LDIFF_SYM1243=LTDIE_128_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1243
 	.byte 2,35,40,6
 	.asciz "_flags"
 
-LDIFF_SYM1237=LTDIE_129 - Ldebug_info_start
-	.long LDIFF_SYM1237
+LDIFF_SYM1244=LTDIE_129 - Ldebug_info_start
+	.long LDIFF_SYM1244
 	.byte 2,35,64,6
 	.asciz "_localValues"
 
-LDIFF_SYM1238=LTDIE_130_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1238
+LDIFF_SYM1245=LTDIE_130_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1245
 	.byte 2,35,48,6
 	.asciz "_localChangeNotifications"
 
-LDIFF_SYM1239=LTDIE_134_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1239
+LDIFF_SYM1246=LTDIE_134_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1246
 	.byte 2,35,56,0,7
 	.asciz "System_Threading_ExecutionContext"
 
-LDIFF_SYM1240=LTDIE_118 - Ldebug_info_start
-	.long LDIFF_SYM1240
+LDIFF_SYM1247=LTDIE_118 - Ldebug_info_start
+	.long LDIFF_SYM1247
 LTDIE_118_POINTER:
 
 	.byte 13
-LDIFF_SYM1241=LTDIE_118 - Ldebug_info_start
-	.long LDIFF_SYM1241
+LDIFF_SYM1248=LTDIE_118 - Ldebug_info_start
+	.long LDIFF_SYM1248
 LTDIE_118_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1242=LTDIE_118 - Ldebug_info_start
-	.long LDIFF_SYM1242
+LDIFF_SYM1249=LTDIE_118 - Ldebug_info_start
+	.long LDIFF_SYM1249
 LTDIE_142:
 
 	.byte 5
 	.asciz "System_Runtime_ConstrainedExecution_CriticalFinalizerObject"
 
 	.byte 16,16
-LDIFF_SYM1243=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM1243
+LDIFF_SYM1250=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM1250
 	.byte 2,35,0,0,7
 	.asciz "System_Runtime_ConstrainedExecution_CriticalFinalizerObject"
 
-LDIFF_SYM1244=LTDIE_142 - Ldebug_info_start
-	.long LDIFF_SYM1244
+LDIFF_SYM1251=LTDIE_142 - Ldebug_info_start
+	.long LDIFF_SYM1251
 LTDIE_142_POINTER:
 
 	.byte 13
-LDIFF_SYM1245=LTDIE_142 - Ldebug_info_start
-	.long LDIFF_SYM1245
+LDIFF_SYM1252=LTDIE_142 - Ldebug_info_start
+	.long LDIFF_SYM1252
 LTDIE_142_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1246=LTDIE_142 - Ldebug_info_start
-	.long LDIFF_SYM1246
+LDIFF_SYM1253=LTDIE_142 - Ldebug_info_start
+	.long LDIFF_SYM1253
 LTDIE_141:
 
 	.byte 5
 	.asciz "System_Runtime_InteropServices_SafeHandle"
 
 	.byte 32,16
-LDIFF_SYM1247=LTDIE_142 - Ldebug_info_start
-	.long LDIFF_SYM1247
+LDIFF_SYM1254=LTDIE_142 - Ldebug_info_start
+	.long LDIFF_SYM1254
 	.byte 2,35,0,6
 	.asciz "handle"
 
-LDIFF_SYM1248=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1248
+LDIFF_SYM1255=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1255
 	.byte 2,35,16,6
 	.asciz "_state"
 
-LDIFF_SYM1249=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1249
+LDIFF_SYM1256=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1256
 	.byte 2,35,24,6
 	.asciz "_ownsHandle"
 
-LDIFF_SYM1250=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1250
+LDIFF_SYM1257=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1257
 	.byte 2,35,28,6
 	.asciz "_fullyInitialized"
 
-LDIFF_SYM1251=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1251
+LDIFF_SYM1258=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1258
 	.byte 2,35,29,0,7
 	.asciz "System_Runtime_InteropServices_SafeHandle"
 
-LDIFF_SYM1252=LTDIE_141 - Ldebug_info_start
-	.long LDIFF_SYM1252
+LDIFF_SYM1259=LTDIE_141 - Ldebug_info_start
+	.long LDIFF_SYM1259
 LTDIE_141_POINTER:
 
 	.byte 13
-LDIFF_SYM1253=LTDIE_141 - Ldebug_info_start
-	.long LDIFF_SYM1253
+LDIFF_SYM1260=LTDIE_141 - Ldebug_info_start
+	.long LDIFF_SYM1260
 LTDIE_141_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1254=LTDIE_141 - Ldebug_info_start
-	.long LDIFF_SYM1254
+LDIFF_SYM1261=LTDIE_141 - Ldebug_info_start
+	.long LDIFF_SYM1261
 LTDIE_140:
 
 	.byte 5
 	.asciz "Microsoft_Win32_SafeHandles_SafeHandleZeroOrMinusOneIsInvalid"
 
 	.byte 32,16
-LDIFF_SYM1255=LTDIE_141 - Ldebug_info_start
-	.long LDIFF_SYM1255
+LDIFF_SYM1262=LTDIE_141 - Ldebug_info_start
+	.long LDIFF_SYM1262
 	.byte 2,35,0,0,7
 	.asciz "Microsoft_Win32_SafeHandles_SafeHandleZeroOrMinusOneIsInvalid"
 
-LDIFF_SYM1256=LTDIE_140 - Ldebug_info_start
-	.long LDIFF_SYM1256
+LDIFF_SYM1263=LTDIE_140 - Ldebug_info_start
+	.long LDIFF_SYM1263
 LTDIE_140_POINTER:
 
 	.byte 13
-LDIFF_SYM1257=LTDIE_140 - Ldebug_info_start
-	.long LDIFF_SYM1257
+LDIFF_SYM1264=LTDIE_140 - Ldebug_info_start
+	.long LDIFF_SYM1264
 LTDIE_140_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1258=LTDIE_140 - Ldebug_info_start
-	.long LDIFF_SYM1258
+LDIFF_SYM1265=LTDIE_140 - Ldebug_info_start
+	.long LDIFF_SYM1265
 LTDIE_139:
 
 	.byte 5
 	.asciz "Microsoft_Win32_SafeHandles_SafeWaitHandle"
 
 	.byte 32,16
-LDIFF_SYM1259=LTDIE_140 - Ldebug_info_start
-	.long LDIFF_SYM1259
+LDIFF_SYM1266=LTDIE_140 - Ldebug_info_start
+	.long LDIFF_SYM1266
 	.byte 2,35,0,0,7
 	.asciz "Microsoft_Win32_SafeHandles_SafeWaitHandle"
 
-LDIFF_SYM1260=LTDIE_139 - Ldebug_info_start
-	.long LDIFF_SYM1260
+LDIFF_SYM1267=LTDIE_139 - Ldebug_info_start
+	.long LDIFF_SYM1267
 LTDIE_139_POINTER:
 
 	.byte 13
-LDIFF_SYM1261=LTDIE_139 - Ldebug_info_start
-	.long LDIFF_SYM1261
+LDIFF_SYM1268=LTDIE_139 - Ldebug_info_start
+	.long LDIFF_SYM1268
 LTDIE_139_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1262=LTDIE_139 - Ldebug_info_start
-	.long LDIFF_SYM1262
+LDIFF_SYM1269=LTDIE_139 - Ldebug_info_start
+	.long LDIFF_SYM1269
 LTDIE_138:
 
 	.byte 5
 	.asciz "System_Threading_WaitHandle"
 
 	.byte 40,16
-LDIFF_SYM1263=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM1263
+LDIFF_SYM1270=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM1270
 	.byte 2,35,0,6
 	.asciz "waitHandle"
 
-LDIFF_SYM1264=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1264
+LDIFF_SYM1271=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1271
 	.byte 2,35,16,6
 	.asciz "safeWaitHandle"
 
-LDIFF_SYM1265=LTDIE_139_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1265
+LDIFF_SYM1272=LTDIE_139_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1272
 	.byte 2,35,24,6
 	.asciz "hasThreadAffinity"
 
-LDIFF_SYM1266=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1266
+LDIFF_SYM1273=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1273
 	.byte 2,35,32,0,7
 	.asciz "System_Threading_WaitHandle"
 
-LDIFF_SYM1267=LTDIE_138 - Ldebug_info_start
-	.long LDIFF_SYM1267
+LDIFF_SYM1274=LTDIE_138 - Ldebug_info_start
+	.long LDIFF_SYM1274
 LTDIE_138_POINTER:
 
 	.byte 13
-LDIFF_SYM1268=LTDIE_138 - Ldebug_info_start
-	.long LDIFF_SYM1268
+LDIFF_SYM1275=LTDIE_138 - Ldebug_info_start
+	.long LDIFF_SYM1275
 LTDIE_138_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1269=LTDIE_138 - Ldebug_info_start
-	.long LDIFF_SYM1269
+LDIFF_SYM1276=LTDIE_138 - Ldebug_info_start
+	.long LDIFF_SYM1276
 LTDIE_137:
 
 	.byte 5
 	.asciz "System_Threading_EventWaitHandle"
 
 	.byte 40,16
-LDIFF_SYM1270=LTDIE_138 - Ldebug_info_start
-	.long LDIFF_SYM1270
+LDIFF_SYM1277=LTDIE_138 - Ldebug_info_start
+	.long LDIFF_SYM1277
 	.byte 2,35,0,0,7
 	.asciz "System_Threading_EventWaitHandle"
 
-LDIFF_SYM1271=LTDIE_137 - Ldebug_info_start
-	.long LDIFF_SYM1271
+LDIFF_SYM1278=LTDIE_137 - Ldebug_info_start
+	.long LDIFF_SYM1278
 LTDIE_137_POINTER:
 
 	.byte 13
-LDIFF_SYM1272=LTDIE_137 - Ldebug_info_start
-	.long LDIFF_SYM1272
+LDIFF_SYM1279=LTDIE_137 - Ldebug_info_start
+	.long LDIFF_SYM1279
 LTDIE_137_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1273=LTDIE_137 - Ldebug_info_start
-	.long LDIFF_SYM1273
+LDIFF_SYM1280=LTDIE_137 - Ldebug_info_start
+	.long LDIFF_SYM1280
 LTDIE_136:
 
 	.byte 5
 	.asciz "System_Threading_ManualResetEvent"
 
 	.byte 40,16
-LDIFF_SYM1274=LTDIE_137 - Ldebug_info_start
-	.long LDIFF_SYM1274
+LDIFF_SYM1281=LTDIE_137 - Ldebug_info_start
+	.long LDIFF_SYM1281
 	.byte 2,35,0,0,7
 	.asciz "System_Threading_ManualResetEvent"
 
-LDIFF_SYM1275=LTDIE_136 - Ldebug_info_start
-	.long LDIFF_SYM1275
+LDIFF_SYM1282=LTDIE_136 - Ldebug_info_start
+	.long LDIFF_SYM1282
 LTDIE_136_POINTER:
 
 	.byte 13
-LDIFF_SYM1276=LTDIE_136 - Ldebug_info_start
-	.long LDIFF_SYM1276
+LDIFF_SYM1283=LTDIE_136 - Ldebug_info_start
+	.long LDIFF_SYM1283
 LTDIE_136_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1277=LTDIE_136 - Ldebug_info_start
-	.long LDIFF_SYM1277
+LDIFF_SYM1284=LTDIE_136 - Ldebug_info_start
+	.long LDIFF_SYM1284
 LTDIE_135:
 
 	.byte 5
 	.asciz "System_Threading_ManualResetEventSlim"
 
 	.byte 40,16
-LDIFF_SYM1278=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM1278
+LDIFF_SYM1285=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM1285
 	.byte 2,35,0,6
 	.asciz "m_lock"
 
-LDIFF_SYM1279=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1279
+LDIFF_SYM1286=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1286
 	.byte 2,35,16,6
 	.asciz "m_eventObj"
 
-LDIFF_SYM1280=LTDIE_136_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1280
+LDIFF_SYM1287=LTDIE_136_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1287
 	.byte 2,35,24,6
 	.asciz "m_combinedState"
 
-LDIFF_SYM1281=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1281
+LDIFF_SYM1288=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1288
 	.byte 2,35,32,0,7
 	.asciz "System_Threading_ManualResetEventSlim"
 
-LDIFF_SYM1282=LTDIE_135 - Ldebug_info_start
-	.long LDIFF_SYM1282
+LDIFF_SYM1289=LTDIE_135 - Ldebug_info_start
+	.long LDIFF_SYM1289
 LTDIE_135_POINTER:
 
 	.byte 13
-LDIFF_SYM1283=LTDIE_135 - Ldebug_info_start
-	.long LDIFF_SYM1283
+LDIFF_SYM1290=LTDIE_135 - Ldebug_info_start
+	.long LDIFF_SYM1290
 LTDIE_135_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1284=LTDIE_135 - Ldebug_info_start
-	.long LDIFF_SYM1284
+LDIFF_SYM1291=LTDIE_135 - Ldebug_info_start
+	.long LDIFF_SYM1291
 LTDIE_145:
 
 	.byte 5
 	.asciz "System_Collections_Generic_LowLevelList`1"
 
 	.byte 32,16
-LDIFF_SYM1285=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM1285
+LDIFF_SYM1292=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM1292
 	.byte 2,35,0,6
 	.asciz "_items"
 
-LDIFF_SYM1286=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1286
+LDIFF_SYM1293=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1293
 	.byte 2,35,16,6
 	.asciz "_size"
 
-LDIFF_SYM1287=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1287
+LDIFF_SYM1294=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1294
 	.byte 2,35,24,6
 	.asciz "_version"
 
-LDIFF_SYM1288=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1288
+LDIFF_SYM1295=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1295
 	.byte 2,35,28,0,7
 	.asciz "System_Collections_Generic_LowLevelList`1"
 
-LDIFF_SYM1289=LTDIE_145 - Ldebug_info_start
-	.long LDIFF_SYM1289
+LDIFF_SYM1296=LTDIE_145 - Ldebug_info_start
+	.long LDIFF_SYM1296
 LTDIE_145_POINTER:
 
 	.byte 13
-LDIFF_SYM1290=LTDIE_145 - Ldebug_info_start
-	.long LDIFF_SYM1290
+LDIFF_SYM1297=LTDIE_145 - Ldebug_info_start
+	.long LDIFF_SYM1297
 LTDIE_145_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1291=LTDIE_145 - Ldebug_info_start
-	.long LDIFF_SYM1291
+LDIFF_SYM1298=LTDIE_145 - Ldebug_info_start
+	.long LDIFF_SYM1298
 LTDIE_144:
 
 	.byte 5
 	.asciz "System_Collections_Generic_LowLevelListWithIList`1"
 
 	.byte 32,16
-LDIFF_SYM1292=LTDIE_145 - Ldebug_info_start
-	.long LDIFF_SYM1292
+LDIFF_SYM1299=LTDIE_145 - Ldebug_info_start
+	.long LDIFF_SYM1299
 	.byte 2,35,0,0,7
 	.asciz "System_Collections_Generic_LowLevelListWithIList`1"
 
-LDIFF_SYM1293=LTDIE_144 - Ldebug_info_start
-	.long LDIFF_SYM1293
+LDIFF_SYM1300=LTDIE_144 - Ldebug_info_start
+	.long LDIFF_SYM1300
 LTDIE_144_POINTER:
 
 	.byte 13
-LDIFF_SYM1294=LTDIE_144 - Ldebug_info_start
-	.long LDIFF_SYM1294
+LDIFF_SYM1301=LTDIE_144 - Ldebug_info_start
+	.long LDIFF_SYM1301
 LTDIE_144_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1295=LTDIE_144 - Ldebug_info_start
-	.long LDIFF_SYM1295
+LDIFF_SYM1302=LTDIE_144 - Ldebug_info_start
+	.long LDIFF_SYM1302
 LTDIE_148:
 
 	.byte 17
@@ -26730,18 +27022,18 @@ LTDIE_148:
 	.byte 16,7
 	.asciz "System_Collections_IDictionary"
 
-LDIFF_SYM1296=LTDIE_148 - Ldebug_info_start
-	.long LDIFF_SYM1296
+LDIFF_SYM1303=LTDIE_148 - Ldebug_info_start
+	.long LDIFF_SYM1303
 LTDIE_148_POINTER:
 
 	.byte 13
-LDIFF_SYM1297=LTDIE_148 - Ldebug_info_start
-	.long LDIFF_SYM1297
+LDIFF_SYM1304=LTDIE_148 - Ldebug_info_start
+	.long LDIFF_SYM1304
 LTDIE_148_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1298=LTDIE_148 - Ldebug_info_start
-	.long LDIFF_SYM1298
+LDIFF_SYM1305=LTDIE_148 - Ldebug_info_start
+	.long LDIFF_SYM1305
 LTDIE_150:
 
 	.byte 17
@@ -26750,147 +27042,147 @@ LTDIE_150:
 	.byte 16,7
 	.asciz "System_Collections_Generic_IList`1"
 
-LDIFF_SYM1299=LTDIE_150 - Ldebug_info_start
-	.long LDIFF_SYM1299
+LDIFF_SYM1306=LTDIE_150 - Ldebug_info_start
+	.long LDIFF_SYM1306
 LTDIE_150_POINTER:
 
 	.byte 13
-LDIFF_SYM1300=LTDIE_150 - Ldebug_info_start
-	.long LDIFF_SYM1300
+LDIFF_SYM1307=LTDIE_150 - Ldebug_info_start
+	.long LDIFF_SYM1307
 LTDIE_150_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1301=LTDIE_150 - Ldebug_info_start
-	.long LDIFF_SYM1301
+LDIFF_SYM1308=LTDIE_150 - Ldebug_info_start
+	.long LDIFF_SYM1308
 LTDIE_153:
 
 	.byte 5
 	.asciz "_KeyCollection"
 
 	.byte 24,16
-LDIFF_SYM1302=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM1302
+LDIFF_SYM1309=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM1309
 	.byte 2,35,0,6
 	.asciz "_dictionary"
 
-LDIFF_SYM1303=LTDIE_152_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1303
+LDIFF_SYM1310=LTDIE_152_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1310
 	.byte 2,35,16,0,7
 	.asciz "_KeyCollection"
 
-LDIFF_SYM1304=LTDIE_153 - Ldebug_info_start
-	.long LDIFF_SYM1304
+LDIFF_SYM1311=LTDIE_153 - Ldebug_info_start
+	.long LDIFF_SYM1311
 LTDIE_153_POINTER:
 
 	.byte 13
-LDIFF_SYM1305=LTDIE_153 - Ldebug_info_start
-	.long LDIFF_SYM1305
+LDIFF_SYM1312=LTDIE_153 - Ldebug_info_start
+	.long LDIFF_SYM1312
 LTDIE_153_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1306=LTDIE_153 - Ldebug_info_start
-	.long LDIFF_SYM1306
+LDIFF_SYM1313=LTDIE_153 - Ldebug_info_start
+	.long LDIFF_SYM1313
 LTDIE_154:
 
 	.byte 5
 	.asciz "_ValueCollection"
 
 	.byte 24,16
-LDIFF_SYM1307=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM1307
+LDIFF_SYM1314=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM1314
 	.byte 2,35,0,6
 	.asciz "_dictionary"
 
-LDIFF_SYM1308=LTDIE_152_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1308
+LDIFF_SYM1315=LTDIE_152_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1315
 	.byte 2,35,16,0,7
 	.asciz "_ValueCollection"
 
-LDIFF_SYM1309=LTDIE_154 - Ldebug_info_start
-	.long LDIFF_SYM1309
+LDIFF_SYM1316=LTDIE_154 - Ldebug_info_start
+	.long LDIFF_SYM1316
 LTDIE_154_POINTER:
 
 	.byte 13
-LDIFF_SYM1310=LTDIE_154 - Ldebug_info_start
-	.long LDIFF_SYM1310
+LDIFF_SYM1317=LTDIE_154 - Ldebug_info_start
+	.long LDIFF_SYM1317
 LTDIE_154_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1311=LTDIE_154 - Ldebug_info_start
-	.long LDIFF_SYM1311
+LDIFF_SYM1318=LTDIE_154 - Ldebug_info_start
+	.long LDIFF_SYM1318
 LTDIE_152:
 
 	.byte 5
 	.asciz "System_Collections_Generic_Dictionary`2"
 
 	.byte 80,16
-LDIFF_SYM1312=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM1312
+LDIFF_SYM1319=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM1319
 	.byte 2,35,0,6
 	.asciz "_buckets"
 
-LDIFF_SYM1313=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1313
+LDIFF_SYM1320=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1320
 	.byte 2,35,16,6
 	.asciz "_entries"
 
-LDIFF_SYM1314=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1314
+LDIFF_SYM1321=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1321
 	.byte 2,35,24,6
 	.asciz "_count"
 
-LDIFF_SYM1315=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1315
+LDIFF_SYM1322=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1322
 	.byte 2,35,64,6
 	.asciz "_freeList"
 
-LDIFF_SYM1316=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1316
+LDIFF_SYM1323=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1323
 	.byte 2,35,68,6
 	.asciz "_freeCount"
 
-LDIFF_SYM1317=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1317
+LDIFF_SYM1324=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1324
 	.byte 2,35,72,6
 	.asciz "_version"
 
-LDIFF_SYM1318=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1318
+LDIFF_SYM1325=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1325
 	.byte 2,35,76,6
 	.asciz "_comparer"
 
-LDIFF_SYM1319=LTDIE_60_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1319
+LDIFF_SYM1326=LTDIE_60_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1326
 	.byte 2,35,32,6
 	.asciz "_keys"
 
-LDIFF_SYM1320=LTDIE_153_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1320
+LDIFF_SYM1327=LTDIE_153_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1327
 	.byte 2,35,40,6
 	.asciz "_values"
 
-LDIFF_SYM1321=LTDIE_154_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1321
+LDIFF_SYM1328=LTDIE_154_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1328
 	.byte 2,35,48,6
 	.asciz "_syncRoot"
 
-LDIFF_SYM1322=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1322
+LDIFF_SYM1329=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1329
 	.byte 2,35,56,0,7
 	.asciz "System_Collections_Generic_Dictionary`2"
 
-LDIFF_SYM1323=LTDIE_152 - Ldebug_info_start
-	.long LDIFF_SYM1323
+LDIFF_SYM1330=LTDIE_152 - Ldebug_info_start
+	.long LDIFF_SYM1330
 LTDIE_152_POINTER:
 
 	.byte 13
-LDIFF_SYM1324=LTDIE_152 - Ldebug_info_start
-	.long LDIFF_SYM1324
+LDIFF_SYM1331=LTDIE_152 - Ldebug_info_start
+	.long LDIFF_SYM1331
 LTDIE_152_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1325=LTDIE_152 - Ldebug_info_start
-	.long LDIFF_SYM1325
+LDIFF_SYM1332=LTDIE_152 - Ldebug_info_start
+	.long LDIFF_SYM1332
 LTDIE_155:
 
 	.byte 17
@@ -26899,693 +27191,693 @@ LTDIE_155:
 	.byte 16,7
 	.asciz "System_Runtime_Serialization_IFormatterConverter"
 
-LDIFF_SYM1326=LTDIE_155 - Ldebug_info_start
-	.long LDIFF_SYM1326
+LDIFF_SYM1333=LTDIE_155 - Ldebug_info_start
+	.long LDIFF_SYM1333
 LTDIE_155_POINTER:
 
 	.byte 13
-LDIFF_SYM1327=LTDIE_155 - Ldebug_info_start
-	.long LDIFF_SYM1327
+LDIFF_SYM1334=LTDIE_155 - Ldebug_info_start
+	.long LDIFF_SYM1334
 LTDIE_155_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1328=LTDIE_155 - Ldebug_info_start
-	.long LDIFF_SYM1328
+LDIFF_SYM1335=LTDIE_155 - Ldebug_info_start
+	.long LDIFF_SYM1335
 LTDIE_151:
 
 	.byte 5
 	.asciz "System_Runtime_Serialization_SerializationInfo"
 
 	.byte 88,16
-LDIFF_SYM1329=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM1329
+LDIFF_SYM1336=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM1336
 	.byte 2,35,0,6
 	.asciz "m_members"
 
-LDIFF_SYM1330=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1330
+LDIFF_SYM1337=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1337
 	.byte 2,35,16,6
 	.asciz "m_data"
 
-LDIFF_SYM1331=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1331
+LDIFF_SYM1338=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1338
 	.byte 2,35,24,6
 	.asciz "m_types"
 
-LDIFF_SYM1332=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1332
+LDIFF_SYM1339=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1339
 	.byte 2,35,32,6
 	.asciz "m_nameToIndex"
 
-LDIFF_SYM1333=LTDIE_152_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1333
+LDIFF_SYM1340=LTDIE_152_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1340
 	.byte 2,35,40,6
 	.asciz "m_currMember"
 
-LDIFF_SYM1334=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1334
+LDIFF_SYM1341=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1341
 	.byte 2,35,80,6
 	.asciz "m_converter"
 
-LDIFF_SYM1335=LTDIE_155_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1335
+LDIFF_SYM1342=LTDIE_155_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1342
 	.byte 2,35,48,6
 	.asciz "m_fullTypeName"
 
-LDIFF_SYM1336=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM1336
+LDIFF_SYM1343=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1343
 	.byte 2,35,56,6
 	.asciz "m_assemName"
 
-LDIFF_SYM1337=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM1337
+LDIFF_SYM1344=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1344
 	.byte 2,35,64,6
 	.asciz "objectType"
 
-LDIFF_SYM1338=LTDIE_28_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1338
+LDIFF_SYM1345=LTDIE_28_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1345
 	.byte 2,35,72,6
 	.asciz "isFullTypeNameSetExplicit"
 
-LDIFF_SYM1339=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1339
+LDIFF_SYM1346=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1346
 	.byte 2,35,84,6
 	.asciz "isAssemblyNameSetExplicit"
 
-LDIFF_SYM1340=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1340
+LDIFF_SYM1347=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1347
 	.byte 2,35,85,6
 	.asciz "requireSameTokenInPartialTrust"
 
-LDIFF_SYM1341=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1341
+LDIFF_SYM1348=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1348
 	.byte 2,35,86,0,7
 	.asciz "System_Runtime_Serialization_SerializationInfo"
 
-LDIFF_SYM1342=LTDIE_151 - Ldebug_info_start
-	.long LDIFF_SYM1342
+LDIFF_SYM1349=LTDIE_151 - Ldebug_info_start
+	.long LDIFF_SYM1349
 LTDIE_151_POINTER:
 
 	.byte 13
-LDIFF_SYM1343=LTDIE_151 - Ldebug_info_start
-	.long LDIFF_SYM1343
+LDIFF_SYM1350=LTDIE_151 - Ldebug_info_start
+	.long LDIFF_SYM1350
 LTDIE_151_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1344=LTDIE_151 - Ldebug_info_start
-	.long LDIFF_SYM1344
+LDIFF_SYM1351=LTDIE_151 - Ldebug_info_start
+	.long LDIFF_SYM1351
 LTDIE_157:
 
 	.byte 5
 	.asciz "System_Reflection_TypeInfo"
 
 	.byte 24,16
-LDIFF_SYM1345=LTDIE_28 - Ldebug_info_start
-	.long LDIFF_SYM1345
+LDIFF_SYM1352=LTDIE_28 - Ldebug_info_start
+	.long LDIFF_SYM1352
 	.byte 2,35,0,0,7
 	.asciz "System_Reflection_TypeInfo"
 
-LDIFF_SYM1346=LTDIE_157 - Ldebug_info_start
-	.long LDIFF_SYM1346
+LDIFF_SYM1353=LTDIE_157 - Ldebug_info_start
+	.long LDIFF_SYM1353
 LTDIE_157_POINTER:
 
 	.byte 13
-LDIFF_SYM1347=LTDIE_157 - Ldebug_info_start
-	.long LDIFF_SYM1347
+LDIFF_SYM1354=LTDIE_157 - Ldebug_info_start
+	.long LDIFF_SYM1354
 LTDIE_157_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1348=LTDIE_157 - Ldebug_info_start
-	.long LDIFF_SYM1348
+LDIFF_SYM1355=LTDIE_157 - Ldebug_info_start
+	.long LDIFF_SYM1355
 LTDIE_160:
 
 	.byte 5
 	.asciz "System_Reflection_ConstructorInfo"
 
 	.byte 16,16
-LDIFF_SYM1349=LTDIE_25 - Ldebug_info_start
-	.long LDIFF_SYM1349
+LDIFF_SYM1356=LTDIE_25 - Ldebug_info_start
+	.long LDIFF_SYM1356
 	.byte 2,35,0,0,7
 	.asciz "System_Reflection_ConstructorInfo"
 
-LDIFF_SYM1350=LTDIE_160 - Ldebug_info_start
-	.long LDIFF_SYM1350
+LDIFF_SYM1357=LTDIE_160 - Ldebug_info_start
+	.long LDIFF_SYM1357
 LTDIE_160_POINTER:
 
 	.byte 13
-LDIFF_SYM1351=LTDIE_160 - Ldebug_info_start
-	.long LDIFF_SYM1351
+LDIFF_SYM1358=LTDIE_160 - Ldebug_info_start
+	.long LDIFF_SYM1358
 LTDIE_160_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1352=LTDIE_160 - Ldebug_info_start
-	.long LDIFF_SYM1352
+LDIFF_SYM1359=LTDIE_160 - Ldebug_info_start
+	.long LDIFF_SYM1359
 LTDIE_159:
 
 	.byte 5
 	.asciz "System_Reflection_RuntimeConstructorInfo"
 
 	.byte 40,16
-LDIFF_SYM1353=LTDIE_160 - Ldebug_info_start
-	.long LDIFF_SYM1353
+LDIFF_SYM1360=LTDIE_160 - Ldebug_info_start
+	.long LDIFF_SYM1360
 	.byte 2,35,0,6
 	.asciz "mhandle"
 
-LDIFF_SYM1354=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1354
+LDIFF_SYM1361=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1361
 	.byte 2,35,16,6
 	.asciz "name"
 
-LDIFF_SYM1355=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM1355
+LDIFF_SYM1362=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1362
 	.byte 2,35,24,6
 	.asciz "reftype"
 
-LDIFF_SYM1356=LTDIE_28_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1356
+LDIFF_SYM1363=LTDIE_28_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1363
 	.byte 2,35,32,0,7
 	.asciz "System_Reflection_RuntimeConstructorInfo"
 
-LDIFF_SYM1357=LTDIE_159 - Ldebug_info_start
-	.long LDIFF_SYM1357
+LDIFF_SYM1364=LTDIE_159 - Ldebug_info_start
+	.long LDIFF_SYM1364
 LTDIE_159_POINTER:
 
 	.byte 13
-LDIFF_SYM1358=LTDIE_159 - Ldebug_info_start
-	.long LDIFF_SYM1358
+LDIFF_SYM1365=LTDIE_159 - Ldebug_info_start
+	.long LDIFF_SYM1365
 LTDIE_159_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1359=LTDIE_159 - Ldebug_info_start
-	.long LDIFF_SYM1359
+LDIFF_SYM1366=LTDIE_159 - Ldebug_info_start
+	.long LDIFF_SYM1366
 LTDIE_158:
 
 	.byte 5
 	.asciz "System_MonoTypeInfo"
 
 	.byte 32,16
-LDIFF_SYM1360=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM1360
+LDIFF_SYM1367=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM1367
 	.byte 2,35,0,6
 	.asciz "full_name"
 
-LDIFF_SYM1361=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM1361
+LDIFF_SYM1368=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1368
 	.byte 2,35,16,6
 	.asciz "default_ctor"
 
-LDIFF_SYM1362=LTDIE_159_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1362
+LDIFF_SYM1369=LTDIE_159_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1369
 	.byte 2,35,24,0,7
 	.asciz "System_MonoTypeInfo"
 
-LDIFF_SYM1363=LTDIE_158 - Ldebug_info_start
-	.long LDIFF_SYM1363
+LDIFF_SYM1370=LTDIE_158 - Ldebug_info_start
+	.long LDIFF_SYM1370
 LTDIE_158_POINTER:
 
 	.byte 13
-LDIFF_SYM1364=LTDIE_158 - Ldebug_info_start
-	.long LDIFF_SYM1364
+LDIFF_SYM1371=LTDIE_158 - Ldebug_info_start
+	.long LDIFF_SYM1371
 LTDIE_158_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1365=LTDIE_158 - Ldebug_info_start
-	.long LDIFF_SYM1365
+LDIFF_SYM1372=LTDIE_158 - Ldebug_info_start
+	.long LDIFF_SYM1372
 LTDIE_156:
 
 	.byte 5
 	.asciz "System_RuntimeType"
 
 	.byte 48,16
-LDIFF_SYM1366=LTDIE_157 - Ldebug_info_start
-	.long LDIFF_SYM1366
+LDIFF_SYM1373=LTDIE_157 - Ldebug_info_start
+	.long LDIFF_SYM1373
 	.byte 2,35,0,6
 	.asciz "type_info"
 
-LDIFF_SYM1367=LTDIE_158_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1367
+LDIFF_SYM1374=LTDIE_158_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1374
 	.byte 2,35,24,6
 	.asciz "GenericCache"
 
-LDIFF_SYM1368=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1368
+LDIFF_SYM1375=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1375
 	.byte 2,35,32,6
 	.asciz "m_serializationCtor"
 
-LDIFF_SYM1369=LTDIE_159_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1369
+LDIFF_SYM1376=LTDIE_159_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1376
 	.byte 2,35,40,0,7
 	.asciz "System_RuntimeType"
 
-LDIFF_SYM1370=LTDIE_156 - Ldebug_info_start
-	.long LDIFF_SYM1370
+LDIFF_SYM1377=LTDIE_156 - Ldebug_info_start
+	.long LDIFF_SYM1377
 LTDIE_156_POINTER:
 
 	.byte 13
-LDIFF_SYM1371=LTDIE_156 - Ldebug_info_start
-	.long LDIFF_SYM1371
+LDIFF_SYM1378=LTDIE_156 - Ldebug_info_start
+	.long LDIFF_SYM1378
 LTDIE_156_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1372=LTDIE_156 - Ldebug_info_start
-	.long LDIFF_SYM1372
+LDIFF_SYM1379=LTDIE_156 - Ldebug_info_start
+	.long LDIFF_SYM1379
 LTDIE_161:
 
 	.byte 5
 	.asciz "System_EventHandler`1"
 
 	.byte 128,1,16
-LDIFF_SYM1373=LTDIE_22 - Ldebug_info_start
-	.long LDIFF_SYM1373
+LDIFF_SYM1380=LTDIE_22 - Ldebug_info_start
+	.long LDIFF_SYM1380
 	.byte 2,35,0,0,7
 	.asciz "System_EventHandler`1"
 
-LDIFF_SYM1374=LTDIE_161 - Ldebug_info_start
-	.long LDIFF_SYM1374
+LDIFF_SYM1381=LTDIE_161 - Ldebug_info_start
+	.long LDIFF_SYM1381
 LTDIE_161_POINTER:
 
 	.byte 13
-LDIFF_SYM1375=LTDIE_161 - Ldebug_info_start
-	.long LDIFF_SYM1375
+LDIFF_SYM1382=LTDIE_161 - Ldebug_info_start
+	.long LDIFF_SYM1382
 LTDIE_161_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1376=LTDIE_161 - Ldebug_info_start
-	.long LDIFF_SYM1376
+LDIFF_SYM1383=LTDIE_161 - Ldebug_info_start
+	.long LDIFF_SYM1383
 LTDIE_149:
 
 	.byte 5
 	.asciz "System_Runtime_Serialization_SafeSerializationManager"
 
 	.byte 56,16
-LDIFF_SYM1377=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM1377
+LDIFF_SYM1384=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM1384
 	.byte 2,35,0,6
 	.asciz "m_serializedStates"
 
-LDIFF_SYM1378=LTDIE_150_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1378
+LDIFF_SYM1385=LTDIE_150_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1385
 	.byte 2,35,16,6
 	.asciz "m_savedSerializationInfo"
 
-LDIFF_SYM1379=LTDIE_151_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1379
+LDIFF_SYM1386=LTDIE_151_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1386
 	.byte 2,35,24,6
 	.asciz "m_realObject"
 
-LDIFF_SYM1380=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1380
+LDIFF_SYM1387=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1387
 	.byte 2,35,32,6
 	.asciz "m_realType"
 
-LDIFF_SYM1381=LTDIE_156_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1381
+LDIFF_SYM1388=LTDIE_156_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1388
 	.byte 2,35,40,6
 	.asciz "SerializeObjectState"
 
-LDIFF_SYM1382=LTDIE_161_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1382
+LDIFF_SYM1389=LTDIE_161_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1389
 	.byte 2,35,48,0,7
 	.asciz "System_Runtime_Serialization_SafeSerializationManager"
 
-LDIFF_SYM1383=LTDIE_149 - Ldebug_info_start
-	.long LDIFF_SYM1383
+LDIFF_SYM1390=LTDIE_149 - Ldebug_info_start
+	.long LDIFF_SYM1390
 LTDIE_149_POINTER:
 
 	.byte 13
-LDIFF_SYM1384=LTDIE_149 - Ldebug_info_start
-	.long LDIFF_SYM1384
+LDIFF_SYM1391=LTDIE_149 - Ldebug_info_start
+	.long LDIFF_SYM1391
 LTDIE_149_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1385=LTDIE_149 - Ldebug_info_start
-	.long LDIFF_SYM1385
+LDIFF_SYM1392=LTDIE_149 - Ldebug_info_start
+	.long LDIFF_SYM1392
 LTDIE_147:
 
 	.byte 5
 	.asciz "System_Exception"
 
 	.byte 144,1,16
-LDIFF_SYM1386=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM1386
+LDIFF_SYM1393=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM1393
 	.byte 2,35,0,6
 	.asciz "_className"
 
-LDIFF_SYM1387=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM1387
+LDIFF_SYM1394=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1394
 	.byte 2,35,16,6
 	.asciz "_message"
 
-LDIFF_SYM1388=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM1388
+LDIFF_SYM1395=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1395
 	.byte 2,35,24,6
 	.asciz "_data"
 
-LDIFF_SYM1389=LTDIE_148_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1389
+LDIFF_SYM1396=LTDIE_148_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1396
 	.byte 2,35,32,6
 	.asciz "_innerException"
 
-LDIFF_SYM1390=LTDIE_147_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1390
+LDIFF_SYM1397=LTDIE_147_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1397
 	.byte 2,35,40,6
 	.asciz "_helpURL"
 
-LDIFF_SYM1391=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM1391
+LDIFF_SYM1398=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1398
 	.byte 2,35,48,6
 	.asciz "_stackTrace"
 
-LDIFF_SYM1392=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1392
+LDIFF_SYM1399=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1399
 	.byte 2,35,56,6
 	.asciz "_stackTraceString"
 
-LDIFF_SYM1393=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM1393
+LDIFF_SYM1400=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1400
 	.byte 2,35,64,6
 	.asciz "_remoteStackTraceString"
 
-LDIFF_SYM1394=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM1394
+LDIFF_SYM1401=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1401
 	.byte 2,35,72,6
 	.asciz "_remoteStackIndex"
 
-LDIFF_SYM1395=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1395
+LDIFF_SYM1402=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1402
 	.byte 2,35,80,6
 	.asciz "_dynamicMethods"
 
-LDIFF_SYM1396=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1396
+LDIFF_SYM1403=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1403
 	.byte 2,35,88,6
 	.asciz "_HResult"
 
-LDIFF_SYM1397=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1397
+LDIFF_SYM1404=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1404
 	.byte 2,35,96,6
 	.asciz "_source"
 
-LDIFF_SYM1398=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM1398
+LDIFF_SYM1405=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1405
 	.byte 2,35,104,6
 	.asciz "_safeSerializationManager"
 
-LDIFF_SYM1399=LTDIE_149_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1399
+LDIFF_SYM1406=LTDIE_149_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1406
 	.byte 2,35,112,6
 	.asciz "captured_traces"
 
-LDIFF_SYM1400=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1400
+LDIFF_SYM1407=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1407
 	.byte 2,35,120,6
 	.asciz "native_trace_ips"
 
-LDIFF_SYM1401=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1401
+LDIFF_SYM1408=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1408
 	.byte 3,35,128,1,6
 	.asciz "caught_in_unmanaged"
 
-LDIFF_SYM1402=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1402
+LDIFF_SYM1409=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1409
 	.byte 3,35,136,1,0,7
 	.asciz "System_Exception"
 
-LDIFF_SYM1403=LTDIE_147 - Ldebug_info_start
-	.long LDIFF_SYM1403
+LDIFF_SYM1410=LTDIE_147 - Ldebug_info_start
+	.long LDIFF_SYM1410
 LTDIE_147_POINTER:
 
 	.byte 13
-LDIFF_SYM1404=LTDIE_147 - Ldebug_info_start
-	.long LDIFF_SYM1404
+LDIFF_SYM1411=LTDIE_147 - Ldebug_info_start
+	.long LDIFF_SYM1411
 LTDIE_147_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1405=LTDIE_147 - Ldebug_info_start
-	.long LDIFF_SYM1405
+LDIFF_SYM1412=LTDIE_147 - Ldebug_info_start
+	.long LDIFF_SYM1412
 LTDIE_146:
 
 	.byte 5
 	.asciz "System_Runtime_ExceptionServices_ExceptionDispatchInfo"
 
 	.byte 32,16
-LDIFF_SYM1406=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM1406
+LDIFF_SYM1413=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM1413
 	.byte 2,35,0,6
 	.asciz "m_Exception"
 
-LDIFF_SYM1407=LTDIE_147_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1407
+LDIFF_SYM1414=LTDIE_147_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1414
 	.byte 2,35,16,6
 	.asciz "m_stackTrace"
 
-LDIFF_SYM1408=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1408
+LDIFF_SYM1415=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1415
 	.byte 2,35,24,0,7
 	.asciz "System_Runtime_ExceptionServices_ExceptionDispatchInfo"
 
-LDIFF_SYM1409=LTDIE_146 - Ldebug_info_start
-	.long LDIFF_SYM1409
+LDIFF_SYM1416=LTDIE_146 - Ldebug_info_start
+	.long LDIFF_SYM1416
 LTDIE_146_POINTER:
 
 	.byte 13
-LDIFF_SYM1410=LTDIE_146 - Ldebug_info_start
-	.long LDIFF_SYM1410
+LDIFF_SYM1417=LTDIE_146 - Ldebug_info_start
+	.long LDIFF_SYM1417
 LTDIE_146_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1411=LTDIE_146 - Ldebug_info_start
-	.long LDIFF_SYM1411
+LDIFF_SYM1418=LTDIE_146 - Ldebug_info_start
+	.long LDIFF_SYM1418
 LTDIE_143:
 
 	.byte 5
 	.asciz "System_Threading_Tasks_TaskExceptionHolder"
 
 	.byte 48,16
-LDIFF_SYM1412=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM1412
+LDIFF_SYM1419=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM1419
 	.byte 2,35,0,6
 	.asciz "m_task"
 
-LDIFF_SYM1413=LTDIE_115_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1413
+LDIFF_SYM1420=LTDIE_115_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1420
 	.byte 2,35,16,6
 	.asciz "m_faultExceptions"
 
-LDIFF_SYM1414=LTDIE_144_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1414
+LDIFF_SYM1421=LTDIE_144_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1421
 	.byte 2,35,24,6
 	.asciz "m_cancellationException"
 
-LDIFF_SYM1415=LTDIE_146_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1415
+LDIFF_SYM1422=LTDIE_146_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1422
 	.byte 2,35,32,6
 	.asciz "m_isHandled"
 
-LDIFF_SYM1416=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1416
+LDIFF_SYM1423=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1423
 	.byte 2,35,40,0,7
 	.asciz "System_Threading_Tasks_TaskExceptionHolder"
 
-LDIFF_SYM1417=LTDIE_143 - Ldebug_info_start
-	.long LDIFF_SYM1417
+LDIFF_SYM1424=LTDIE_143 - Ldebug_info_start
+	.long LDIFF_SYM1424
 LTDIE_143_POINTER:
 
 	.byte 13
-LDIFF_SYM1418=LTDIE_143 - Ldebug_info_start
-	.long LDIFF_SYM1418
+LDIFF_SYM1425=LTDIE_143 - Ldebug_info_start
+	.long LDIFF_SYM1425
 LTDIE_143_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1419=LTDIE_143 - Ldebug_info_start
-	.long LDIFF_SYM1419
+LDIFF_SYM1426=LTDIE_143 - Ldebug_info_start
+	.long LDIFF_SYM1426
 LTDIE_163:
 
 	.byte 5
 	.asciz "System_Collections_Generic_LowLevelList`1"
 
 	.byte 32,16
-LDIFF_SYM1420=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM1420
+LDIFF_SYM1427=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM1427
 	.byte 2,35,0,6
 	.asciz "_items"
 
-LDIFF_SYM1421=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1421
+LDIFF_SYM1428=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1428
 	.byte 2,35,16,6
 	.asciz "_size"
 
-LDIFF_SYM1422=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1422
+LDIFF_SYM1429=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1429
 	.byte 2,35,24,6
 	.asciz "_version"
 
-LDIFF_SYM1423=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1423
+LDIFF_SYM1430=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1430
 	.byte 2,35,28,0,7
 	.asciz "System_Collections_Generic_LowLevelList`1"
 
-LDIFF_SYM1424=LTDIE_163 - Ldebug_info_start
-	.long LDIFF_SYM1424
+LDIFF_SYM1431=LTDIE_163 - Ldebug_info_start
+	.long LDIFF_SYM1431
 LTDIE_163_POINTER:
 
 	.byte 13
-LDIFF_SYM1425=LTDIE_163 - Ldebug_info_start
-	.long LDIFF_SYM1425
+LDIFF_SYM1432=LTDIE_163 - Ldebug_info_start
+	.long LDIFF_SYM1432
 LTDIE_163_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1426=LTDIE_163 - Ldebug_info_start
-	.long LDIFF_SYM1426
+LDIFF_SYM1433=LTDIE_163 - Ldebug_info_start
+	.long LDIFF_SYM1433
 LTDIE_162:
 
 	.byte 5
 	.asciz "System_Collections_Generic_LowLevelListWithIList`1"
 
 	.byte 32,16
-LDIFF_SYM1427=LTDIE_163 - Ldebug_info_start
-	.long LDIFF_SYM1427
+LDIFF_SYM1434=LTDIE_163 - Ldebug_info_start
+	.long LDIFF_SYM1434
 	.byte 2,35,0,0,7
 	.asciz "System_Collections_Generic_LowLevelListWithIList`1"
 
-LDIFF_SYM1428=LTDIE_162 - Ldebug_info_start
-	.long LDIFF_SYM1428
+LDIFF_SYM1435=LTDIE_162 - Ldebug_info_start
+	.long LDIFF_SYM1435
 LTDIE_162_POINTER:
 
 	.byte 13
-LDIFF_SYM1429=LTDIE_162 - Ldebug_info_start
-	.long LDIFF_SYM1429
+LDIFF_SYM1436=LTDIE_162 - Ldebug_info_start
+	.long LDIFF_SYM1436
 LTDIE_162_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1430=LTDIE_162 - Ldebug_info_start
-	.long LDIFF_SYM1430
+LDIFF_SYM1437=LTDIE_162 - Ldebug_info_start
+	.long LDIFF_SYM1437
 LTDIE_117:
 
 	.byte 5
 	.asciz "_ContingentProperties"
 
 	.byte 72,16
-LDIFF_SYM1431=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM1431
+LDIFF_SYM1438=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM1438
 	.byte 2,35,0,6
 	.asciz "m_capturedContext"
 
-LDIFF_SYM1432=LTDIE_118_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1432
+LDIFF_SYM1439=LTDIE_118_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1439
 	.byte 2,35,16,6
 	.asciz "m_completionEvent"
 
-LDIFF_SYM1433=LTDIE_135_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1433
+LDIFF_SYM1440=LTDIE_135_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1440
 	.byte 2,35,24,6
 	.asciz "m_exceptionsHolder"
 
-LDIFF_SYM1434=LTDIE_143_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1434
+LDIFF_SYM1441=LTDIE_143_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1441
 	.byte 2,35,32,6
 	.asciz "m_cancellationToken"
 
-LDIFF_SYM1435=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1435
+LDIFF_SYM1442=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1442
 	.byte 2,35,40,6
 	.asciz "m_cancellationRegistration"
 
-LDIFF_SYM1436=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1436
+LDIFF_SYM1443=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1443
 	.byte 2,35,48,6
 	.asciz "m_internalCancellationRequested"
 
-LDIFF_SYM1437=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1437
+LDIFF_SYM1444=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1444
 	.byte 2,35,64,6
 	.asciz "m_completionCountdown"
 
-LDIFF_SYM1438=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1438
+LDIFF_SYM1445=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1445
 	.byte 2,35,68,6
 	.asciz "m_exceptionalChildren"
 
-LDIFF_SYM1439=LTDIE_162_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1439
+LDIFF_SYM1446=LTDIE_162_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1446
 	.byte 2,35,56,0,7
 	.asciz "_ContingentProperties"
 
-LDIFF_SYM1440=LTDIE_117 - Ldebug_info_start
-	.long LDIFF_SYM1440
+LDIFF_SYM1447=LTDIE_117 - Ldebug_info_start
+	.long LDIFF_SYM1447
 LTDIE_117_POINTER:
 
 	.byte 13
-LDIFF_SYM1441=LTDIE_117 - Ldebug_info_start
-	.long LDIFF_SYM1441
+LDIFF_SYM1448=LTDIE_117 - Ldebug_info_start
+	.long LDIFF_SYM1448
 LTDIE_117_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1442=LTDIE_117 - Ldebug_info_start
-	.long LDIFF_SYM1442
+LDIFF_SYM1449=LTDIE_117 - Ldebug_info_start
+	.long LDIFF_SYM1449
 LTDIE_115:
 
 	.byte 5
 	.asciz "System_Threading_Tasks_Task"
 
 	.byte 72,16
-LDIFF_SYM1443=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM1443
+LDIFF_SYM1450=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM1450
 	.byte 2,35,0,6
 	.asciz "m_taskId"
 
-LDIFF_SYM1444=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1444
+LDIFF_SYM1451=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1451
 	.byte 2,35,64,6
 	.asciz "m_action"
 
-LDIFF_SYM1445=LTDIE_23_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1445
+LDIFF_SYM1452=LTDIE_23_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1452
 	.byte 2,35,16,6
 	.asciz "m_stateObject"
 
-LDIFF_SYM1446=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1446
+LDIFF_SYM1453=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1453
 	.byte 2,35,24,6
 	.asciz "m_taskScheduler"
 
-LDIFF_SYM1447=LTDIE_116_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1447
+LDIFF_SYM1454=LTDIE_116_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1454
 	.byte 2,35,32,6
 	.asciz "m_parent"
 
-LDIFF_SYM1448=LTDIE_115_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1448
+LDIFF_SYM1455=LTDIE_115_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1455
 	.byte 2,35,40,6
 	.asciz "m_stateFlags"
 
-LDIFF_SYM1449=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1449
+LDIFF_SYM1456=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1456
 	.byte 2,35,68,6
 	.asciz "m_continuationObject"
 
-LDIFF_SYM1450=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1450
+LDIFF_SYM1457=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1457
 	.byte 2,35,48,6
 	.asciz "m_contingentProperties"
 
-LDIFF_SYM1451=LTDIE_117_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1451
+LDIFF_SYM1458=LTDIE_117_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1458
 	.byte 2,35,56,0,7
 	.asciz "System_Threading_Tasks_Task"
 
-LDIFF_SYM1452=LTDIE_115 - Ldebug_info_start
-	.long LDIFF_SYM1452
+LDIFF_SYM1459=LTDIE_115 - Ldebug_info_start
+	.long LDIFF_SYM1459
 LTDIE_115_POINTER:
 
 	.byte 13
-LDIFF_SYM1453=LTDIE_115 - Ldebug_info_start
-	.long LDIFF_SYM1453
+LDIFF_SYM1460=LTDIE_115 - Ldebug_info_start
+	.long LDIFF_SYM1460
 LTDIE_115_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1454=LTDIE_115 - Ldebug_info_start
-	.long LDIFF_SYM1454
+LDIFF_SYM1461=LTDIE_115 - Ldebug_info_start
+	.long LDIFF_SYM1461
 LTDIE_164:
 
 	.byte 17
@@ -27594,113 +27886,113 @@ LTDIE_164:
 	.byte 16,7
 	.asciz "System_Collections_Generic_IEnumerable`1"
 
-LDIFF_SYM1455=LTDIE_164 - Ldebug_info_start
-	.long LDIFF_SYM1455
+LDIFF_SYM1462=LTDIE_164 - Ldebug_info_start
+	.long LDIFF_SYM1462
 LTDIE_164_POINTER:
 
 	.byte 13
-LDIFF_SYM1456=LTDIE_164 - Ldebug_info_start
-	.long LDIFF_SYM1456
+LDIFF_SYM1463=LTDIE_164 - Ldebug_info_start
+	.long LDIFF_SYM1463
 LTDIE_164_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1457=LTDIE_164 - Ldebug_info_start
-	.long LDIFF_SYM1457
+LDIFF_SYM1464=LTDIE_164 - Ldebug_info_start
+	.long LDIFF_SYM1464
 LTDIE_114:
 
 	.byte 5
 	.asciz "System_Threading_Tasks_Task`1"
 
 	.byte 80,16
-LDIFF_SYM1458=LTDIE_115 - Ldebug_info_start
-	.long LDIFF_SYM1458
+LDIFF_SYM1465=LTDIE_115 - Ldebug_info_start
+	.long LDIFF_SYM1465
 	.byte 2,35,0,6
 	.asciz "m_result"
 
-LDIFF_SYM1459=LTDIE_164_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1459
+LDIFF_SYM1466=LTDIE_164_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1466
 	.byte 2,35,72,0,7
 	.asciz "System_Threading_Tasks_Task`1"
 
-LDIFF_SYM1460=LTDIE_114 - Ldebug_info_start
-	.long LDIFF_SYM1460
+LDIFF_SYM1467=LTDIE_114 - Ldebug_info_start
+	.long LDIFF_SYM1467
 LTDIE_114_POINTER:
 
 	.byte 13
-LDIFF_SYM1461=LTDIE_114 - Ldebug_info_start
-	.long LDIFF_SYM1461
+LDIFF_SYM1468=LTDIE_114 - Ldebug_info_start
+	.long LDIFF_SYM1468
 LTDIE_114_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1462=LTDIE_114 - Ldebug_info_start
-	.long LDIFF_SYM1462
+LDIFF_SYM1469=LTDIE_114 - Ldebug_info_start
+	.long LDIFF_SYM1469
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Func`2<Xamarin.Forms.Maps.Position,_System.Threading.Tasks.Task`1<System.Collections.Generic.IEnumerable`1<string>>>:invoke_TResult_T"
 	.asciz "wrapper_delegate_invoke_System_Func_2_Xamarin_Forms_Maps_Position_System_Threading_Tasks_Task_1_System_Collections_Generic_IEnumerable_1_string_invoke_TResult_T_Xamarin_Forms_Maps_Position"
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Func_2_Xamarin_Forms_Maps_Position_System_Threading_Tasks_Task_1_System_Collections_Generic_IEnumerable_1_string_invoke_TResult_T_Xamarin_Forms_Maps_Position
-	.quad Lme_77
+	.quad Lme_79
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1463=LTDIE_112_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1463
+LDIFF_SYM1470=LTDIE_112_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1470
 	.byte 1,106,3
 	.asciz "param0"
 
-LDIFF_SYM1464=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1464
+LDIFF_SYM1471=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1471
 	.byte 3,141,208,0,11
 	.asciz "V_0"
 
-LDIFF_SYM1465=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1465
+LDIFF_SYM1472=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1472
 	.byte 1,105,11
 	.asciz "V_1"
 
-LDIFF_SYM1466=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1466
+LDIFF_SYM1473=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1473
 	.byte 1,104,11
 	.asciz "V_2"
 
-LDIFF_SYM1467=LTDIE_113_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1467
+LDIFF_SYM1474=LTDIE_113_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1474
 	.byte 1,103,11
 	.asciz "V_3"
 
-LDIFF_SYM1468=LTDIE_22_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1468
+LDIFF_SYM1475=LTDIE_22_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1475
 	.byte 1,102,11
 	.asciz "V_4"
 
-LDIFF_SYM1469=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1469
+LDIFF_SYM1476=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1476
 	.byte 1,101,11
 	.asciz "V_5"
 
-LDIFF_SYM1470=LTDIE_114_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1470
+LDIFF_SYM1477=LTDIE_114_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1477
 	.byte 1,100,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1471=Lfde114_end - Lfde114_start
-	.long LDIFF_SYM1471
-Lfde114_start:
+LDIFF_SYM1478=Lfde116_end - Lfde116_start
+	.long LDIFF_SYM1478
+Lfde116_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Func_2_Xamarin_Forms_Maps_Position_System_Threading_Tasks_Task_1_System_Collections_Generic_IEnumerable_1_string_invoke_TResult_T_Xamarin_Forms_Maps_Position
 
-LDIFF_SYM1472=Lme_77 - wrapper_delegate_invoke_System_Func_2_Xamarin_Forms_Maps_Position_System_Threading_Tasks_Task_1_System_Collections_Generic_IEnumerable_1_string_invoke_TResult_T_Xamarin_Forms_Maps_Position
-	.long LDIFF_SYM1472
+LDIFF_SYM1479=Lme_79 - wrapper_delegate_invoke_System_Func_2_Xamarin_Forms_Maps_Position_System_Threading_Tasks_Task_1_System_Collections_Generic_IEnumerable_1_string_invoke_TResult_T_Xamarin_Forms_Maps_Position
+	.long LDIFF_SYM1479
 	.long 0
 	.byte 12,31,0,68,14,128,2,157,32,158,31,68,13,29,68,147,30,148,29,68,149,28,150,27,68,151,26,152,25,68,153,24
 	.byte 154,23
 	.align 3
-Lfde114_end:
+Lfde116_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_165:
@@ -27709,23 +28001,23 @@ LTDIE_165:
 	.asciz "System_Func`2"
 
 	.byte 128,1,16
-LDIFF_SYM1473=LTDIE_22 - Ldebug_info_start
-	.long LDIFF_SYM1473
+LDIFF_SYM1480=LTDIE_22 - Ldebug_info_start
+	.long LDIFF_SYM1480
 	.byte 2,35,0,0,7
 	.asciz "System_Func`2"
 
-LDIFF_SYM1474=LTDIE_165 - Ldebug_info_start
-	.long LDIFF_SYM1474
+LDIFF_SYM1481=LTDIE_165 - Ldebug_info_start
+	.long LDIFF_SYM1481
 LTDIE_165_POINTER:
 
 	.byte 13
-LDIFF_SYM1475=LTDIE_165 - Ldebug_info_start
-	.long LDIFF_SYM1475
+LDIFF_SYM1482=LTDIE_165 - Ldebug_info_start
+	.long LDIFF_SYM1482
 LTDIE_165_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1476=LTDIE_165 - Ldebug_info_start
-	.long LDIFF_SYM1476
+LDIFF_SYM1483=LTDIE_165 - Ldebug_info_start
+	.long LDIFF_SYM1483
 LTDIE_167:
 
 	.byte 17
@@ -27734,113 +28026,113 @@ LTDIE_167:
 	.byte 16,7
 	.asciz "System_Collections_Generic_IEnumerable`1"
 
-LDIFF_SYM1477=LTDIE_167 - Ldebug_info_start
-	.long LDIFF_SYM1477
+LDIFF_SYM1484=LTDIE_167 - Ldebug_info_start
+	.long LDIFF_SYM1484
 LTDIE_167_POINTER:
 
 	.byte 13
-LDIFF_SYM1478=LTDIE_167 - Ldebug_info_start
-	.long LDIFF_SYM1478
+LDIFF_SYM1485=LTDIE_167 - Ldebug_info_start
+	.long LDIFF_SYM1485
 LTDIE_167_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1479=LTDIE_167 - Ldebug_info_start
-	.long LDIFF_SYM1479
+LDIFF_SYM1486=LTDIE_167 - Ldebug_info_start
+	.long LDIFF_SYM1486
 LTDIE_166:
 
 	.byte 5
 	.asciz "System_Threading_Tasks_Task`1"
 
 	.byte 80,16
-LDIFF_SYM1480=LTDIE_115 - Ldebug_info_start
-	.long LDIFF_SYM1480
+LDIFF_SYM1487=LTDIE_115 - Ldebug_info_start
+	.long LDIFF_SYM1487
 	.byte 2,35,0,6
 	.asciz "m_result"
 
-LDIFF_SYM1481=LTDIE_167_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1481
+LDIFF_SYM1488=LTDIE_167_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1488
 	.byte 2,35,72,0,7
 	.asciz "System_Threading_Tasks_Task`1"
 
-LDIFF_SYM1482=LTDIE_166 - Ldebug_info_start
-	.long LDIFF_SYM1482
+LDIFF_SYM1489=LTDIE_166 - Ldebug_info_start
+	.long LDIFF_SYM1489
 LTDIE_166_POINTER:
 
 	.byte 13
-LDIFF_SYM1483=LTDIE_166 - Ldebug_info_start
-	.long LDIFF_SYM1483
+LDIFF_SYM1490=LTDIE_166 - Ldebug_info_start
+	.long LDIFF_SYM1490
 LTDIE_166_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1484=LTDIE_166 - Ldebug_info_start
-	.long LDIFF_SYM1484
+LDIFF_SYM1491=LTDIE_166 - Ldebug_info_start
+	.long LDIFF_SYM1491
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Func`2<string,_System.Threading.Tasks.Task`1<System.Collections.Generic.IEnumerable`1<Xamarin.Forms.Maps.Position>>>:invoke_TResult_T"
 	.asciz "wrapper_delegate_invoke_System_Func_2_string_System_Threading_Tasks_Task_1_System_Collections_Generic_IEnumerable_1_Xamarin_Forms_Maps_Position_invoke_TResult_T_string"
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Func_2_string_System_Threading_Tasks_Task_1_System_Collections_Generic_IEnumerable_1_Xamarin_Forms_Maps_Position_invoke_TResult_T_string
-	.quad Lme_78
+	.quad Lme_7a
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1485=LTDIE_165_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1485
+LDIFF_SYM1492=LTDIE_165_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1492
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM1486=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM1486
+LDIFF_SYM1493=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1493
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1487=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1487
+LDIFF_SYM1494=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1494
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM1488=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1488
+LDIFF_SYM1495=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1495
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM1489=LTDIE_113_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1489
+LDIFF_SYM1496=LTDIE_113_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1496
 	.byte 1,102,11
 	.asciz "V_3"
 
-LDIFF_SYM1490=LTDIE_22_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1490
+LDIFF_SYM1497=LTDIE_22_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1497
 	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM1491=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1491
+LDIFF_SYM1498=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1498
 	.byte 1,100,11
 	.asciz "V_5"
 
-LDIFF_SYM1492=LTDIE_166_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1492
+LDIFF_SYM1499=LTDIE_166_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1499
 	.byte 1,99,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1493=Lfde115_end - Lfde115_start
-	.long LDIFF_SYM1493
-Lfde115_start:
+LDIFF_SYM1500=Lfde117_end - Lfde117_start
+	.long LDIFF_SYM1500
+Lfde117_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Func_2_string_System_Threading_Tasks_Task_1_System_Collections_Generic_IEnumerable_1_Xamarin_Forms_Maps_Position_invoke_TResult_T_string
 
-LDIFF_SYM1494=Lme_78 - wrapper_delegate_invoke_System_Func_2_string_System_Threading_Tasks_Task_1_System_Collections_Generic_IEnumerable_1_Xamarin_Forms_Maps_Position_invoke_TResult_T_string
-	.long LDIFF_SYM1494
+LDIFF_SYM1501=Lme_7a - wrapper_delegate_invoke_System_Func_2_string_System_Threading_Tasks_Task_1_System_Collections_Generic_IEnumerable_1_Xamarin_Forms_Maps_Position_invoke_TResult_T_string
+	.long LDIFF_SYM1501
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9
 	.align 3
-Lfde115_end:
+Lfde117_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -27850,67 +28142,67 @@ Lfde115_end:
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_EventHandler_1_Xamarin_Forms_Maps_MapClickedEventArgs_invoke_void_object_TEventArgs_object_Xamarin_Forms_Maps_MapClickedEventArgs
-	.quad Lme_79
+	.quad Lme_7b
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1495=LTDIE_87_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1495
+LDIFF_SYM1502=LTDIE_87_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1502
 	.byte 1,104,3
 	.asciz "param0"
 
-LDIFF_SYM1496=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1496
+LDIFF_SYM1503=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1503
 	.byte 1,105,3
 	.asciz "param1"
 
-LDIFF_SYM1497=LTDIE_109_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1497
+LDIFF_SYM1504=LTDIE_109_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1504
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1498=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1498
+LDIFF_SYM1505=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1505
 	.byte 1,103,11
 	.asciz "V_1"
 
-LDIFF_SYM1499=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1499
+LDIFF_SYM1506=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1506
 	.byte 1,102,11
 	.asciz "V_2"
 
-LDIFF_SYM1500=LTDIE_113_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1500
+LDIFF_SYM1507=LTDIE_113_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1507
 	.byte 1,101,11
 	.asciz "V_3"
 
-LDIFF_SYM1501=LTDIE_22_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1501
+LDIFF_SYM1508=LTDIE_22_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1508
 	.byte 1,100,11
 	.asciz "V_4"
 
-LDIFF_SYM1502=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1502
+LDIFF_SYM1509=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1509
 	.byte 1,99,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1503=Lfde116_end - Lfde116_start
-	.long LDIFF_SYM1503
-Lfde116_start:
+LDIFF_SYM1510=Lfde118_end - Lfde118_start
+	.long LDIFF_SYM1510
+Lfde118_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_EventHandler_1_Xamarin_Forms_Maps_MapClickedEventArgs_invoke_void_object_TEventArgs_object_Xamarin_Forms_Maps_MapClickedEventArgs
 
-LDIFF_SYM1504=Lme_79 - wrapper_delegate_invoke_System_EventHandler_1_Xamarin_Forms_Maps_MapClickedEventArgs_invoke_void_object_TEventArgs_object_Xamarin_Forms_Maps_MapClickedEventArgs
-	.long LDIFF_SYM1504
+LDIFF_SYM1511=Lme_7b - wrapper_delegate_invoke_System_EventHandler_1_Xamarin_Forms_Maps_MapClickedEventArgs_invoke_void_object_TEventArgs_object_Xamarin_Forms_Maps_MapClickedEventArgs
+	.long LDIFF_SYM1511
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9
 	.align 3
-Lfde116_end:
+Lfde118_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_168:
@@ -27919,90 +28211,90 @@ LTDIE_168:
 	.asciz "System_Func`2"
 
 	.byte 128,1,16
-LDIFF_SYM1505=LTDIE_22 - Ldebug_info_start
-	.long LDIFF_SYM1505
+LDIFF_SYM1512=LTDIE_22 - Ldebug_info_start
+	.long LDIFF_SYM1512
 	.byte 2,35,0,0,7
 	.asciz "System_Func`2"
 
-LDIFF_SYM1506=LTDIE_168 - Ldebug_info_start
-	.long LDIFF_SYM1506
+LDIFF_SYM1513=LTDIE_168 - Ldebug_info_start
+	.long LDIFF_SYM1513
 LTDIE_168_POINTER:
 
 	.byte 13
-LDIFF_SYM1507=LTDIE_168 - Ldebug_info_start
-	.long LDIFF_SYM1507
+LDIFF_SYM1514=LTDIE_168 - Ldebug_info_start
+	.long LDIFF_SYM1514
 LTDIE_168_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1508=LTDIE_168 - Ldebug_info_start
-	.long LDIFF_SYM1508
+LDIFF_SYM1515=LTDIE_168 - Ldebug_info_start
+	.long LDIFF_SYM1515
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Func`2<Xamarin.Forms.Maps.Pin,_bool>:invoke_TResult_T"
 	.asciz "wrapper_delegate_invoke_System_Func_2_Xamarin_Forms_Maps_Pin_bool_invoke_TResult_T_Xamarin_Forms_Maps_Pin"
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Func_2_Xamarin_Forms_Maps_Pin_bool_invoke_TResult_T_Xamarin_Forms_Maps_Pin
-	.quad Lme_7e
+	.quad Lme_80
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1509=LTDIE_168_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1509
+LDIFF_SYM1516=LTDIE_168_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1516
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM1510=LTDIE_107_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1510
+LDIFF_SYM1517=LTDIE_107_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1517
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1511=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1511
+LDIFF_SYM1518=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1518
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM1512=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1512
+LDIFF_SYM1519=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1519
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM1513=LTDIE_113_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1513
+LDIFF_SYM1520=LTDIE_113_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1520
 	.byte 1,102,11
 	.asciz "V_3"
 
-LDIFF_SYM1514=LTDIE_22_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1514
+LDIFF_SYM1521=LTDIE_22_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1521
 	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM1515=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1515
+LDIFF_SYM1522=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1522
 	.byte 1,100,11
 	.asciz "V_5"
 
-LDIFF_SYM1516=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1516
+LDIFF_SYM1523=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1523
 	.byte 1,99,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1517=Lfde117_end - Lfde117_start
-	.long LDIFF_SYM1517
-Lfde117_start:
+LDIFF_SYM1524=Lfde119_end - Lfde119_start
+	.long LDIFF_SYM1524
+Lfde119_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Func_2_Xamarin_Forms_Maps_Pin_bool_invoke_TResult_T_Xamarin_Forms_Maps_Pin
 
-LDIFF_SYM1518=Lme_7e - wrapper_delegate_invoke_System_Func_2_Xamarin_Forms_Maps_Pin_bool_invoke_TResult_T_Xamarin_Forms_Maps_Pin
-	.long LDIFF_SYM1518
+LDIFF_SYM1525=Lme_80 - wrapper_delegate_invoke_System_Func_2_Xamarin_Forms_Maps_Pin_bool_invoke_TResult_T_Xamarin_Forms_Maps_Pin
+	.long LDIFF_SYM1525
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9
 	.align 3
-Lfde117_end:
+Lfde119_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_169:
@@ -28011,95 +28303,95 @@ LTDIE_169:
 	.asciz "System_Action`3"
 
 	.byte 128,1,16
-LDIFF_SYM1519=LTDIE_22 - Ldebug_info_start
-	.long LDIFF_SYM1519
+LDIFF_SYM1526=LTDIE_22 - Ldebug_info_start
+	.long LDIFF_SYM1526
 	.byte 2,35,0,0,7
 	.asciz "System_Action`3"
 
-LDIFF_SYM1520=LTDIE_169 - Ldebug_info_start
-	.long LDIFF_SYM1520
+LDIFF_SYM1527=LTDIE_169 - Ldebug_info_start
+	.long LDIFF_SYM1527
 LTDIE_169_POINTER:
 
 	.byte 13
-LDIFF_SYM1521=LTDIE_169 - Ldebug_info_start
-	.long LDIFF_SYM1521
+LDIFF_SYM1528=LTDIE_169 - Ldebug_info_start
+	.long LDIFF_SYM1528
 LTDIE_169_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1522=LTDIE_169 - Ldebug_info_start
-	.long LDIFF_SYM1522
+LDIFF_SYM1529=LTDIE_169 - Ldebug_info_start
+	.long LDIFF_SYM1529
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Action`3<object,_int,_bool>:invoke_void_T1_T2_T3"
 	.asciz "wrapper_delegate_invoke_System_Action_3_object_int_bool_invoke_void_T1_T2_T3_object_int_bool"
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Action_3_object_int_bool_invoke_void_T1_T2_T3_object_int_bool
-	.quad Lme_83
+	.quad Lme_85
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1523=LTDIE_169_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1523
+LDIFF_SYM1530=LTDIE_169_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1530
 	.byte 1,103,3
 	.asciz "param0"
 
-LDIFF_SYM1524=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1524
+LDIFF_SYM1531=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1531
 	.byte 1,104,3
 	.asciz "param1"
 
-LDIFF_SYM1525=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1525
+LDIFF_SYM1532=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1532
 	.byte 1,105,3
 	.asciz "param2"
 
-LDIFF_SYM1526=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1526
+LDIFF_SYM1533=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1533
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1527=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1527
+LDIFF_SYM1534=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1534
 	.byte 1,102,11
 	.asciz "V_1"
 
-LDIFF_SYM1528=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1528
+LDIFF_SYM1535=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1535
 	.byte 1,101,11
 	.asciz "V_2"
 
-LDIFF_SYM1529=LTDIE_113_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1529
+LDIFF_SYM1536=LTDIE_113_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1536
 	.byte 1,100,11
 	.asciz "V_3"
 
-LDIFF_SYM1530=LTDIE_22_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1530
+LDIFF_SYM1537=LTDIE_22_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1537
 	.byte 1,99,11
 	.asciz "V_4"
 
-LDIFF_SYM1531=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1531
+LDIFF_SYM1538=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1538
 	.byte 3,141,232,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1532=Lfde118_end - Lfde118_start
-	.long LDIFF_SYM1532
-Lfde118_start:
+LDIFF_SYM1539=Lfde120_end - Lfde120_start
+	.long LDIFF_SYM1539
+Lfde120_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Action_3_object_int_bool_invoke_void_T1_T2_T3_object_int_bool
 
-LDIFF_SYM1533=Lme_83 - wrapper_delegate_invoke_System_Action_3_object_int_bool_invoke_void_T1_T2_T3_object_int_bool
-	.long LDIFF_SYM1533
+LDIFF_SYM1540=Lme_85 - wrapper_delegate_invoke_System_Action_3_object_int_bool_invoke_void_T1_T2_T3_object_int_bool
+	.long LDIFF_SYM1540
 	.long 0
 	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29,68,147,18,148,17,68,149,16,150,15,68,151,14,152,13,68,153,12
 	.byte 154,11
 	.align 3
-Lfde118_end:
+Lfde120_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_170:
@@ -28108,90 +28400,90 @@ LTDIE_170:
 	.asciz "System_Action`2"
 
 	.byte 128,1,16
-LDIFF_SYM1534=LTDIE_22 - Ldebug_info_start
-	.long LDIFF_SYM1534
+LDIFF_SYM1541=LTDIE_22 - Ldebug_info_start
+	.long LDIFF_SYM1541
 	.byte 2,35,0,0,7
 	.asciz "System_Action`2"
 
-LDIFF_SYM1535=LTDIE_170 - Ldebug_info_start
-	.long LDIFF_SYM1535
+LDIFF_SYM1542=LTDIE_170 - Ldebug_info_start
+	.long LDIFF_SYM1542
 LTDIE_170_POINTER:
 
 	.byte 13
-LDIFF_SYM1536=LTDIE_170 - Ldebug_info_start
-	.long LDIFF_SYM1536
+LDIFF_SYM1543=LTDIE_170 - Ldebug_info_start
+	.long LDIFF_SYM1543
 LTDIE_170_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1537=LTDIE_170 - Ldebug_info_start
-	.long LDIFF_SYM1537
+LDIFF_SYM1544=LTDIE_170 - Ldebug_info_start
+	.long LDIFF_SYM1544
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Action`2<object,_int>:invoke_void_T1_T2"
 	.asciz "wrapper_delegate_invoke_System_Action_2_object_int_invoke_void_T1_T2_object_int"
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Action_2_object_int_invoke_void_T1_T2_object_int
-	.quad Lme_88
+	.quad Lme_8a
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1538=LTDIE_170_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1538
+LDIFF_SYM1545=LTDIE_170_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1545
 	.byte 1,104,3
 	.asciz "param0"
 
-LDIFF_SYM1539=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1539
+LDIFF_SYM1546=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1546
 	.byte 1,105,3
 	.asciz "param1"
 
-LDIFF_SYM1540=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1540
+LDIFF_SYM1547=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1547
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1541=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1541
+LDIFF_SYM1548=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1548
 	.byte 1,103,11
 	.asciz "V_1"
 
-LDIFF_SYM1542=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1542
+LDIFF_SYM1549=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1549
 	.byte 1,102,11
 	.asciz "V_2"
 
-LDIFF_SYM1543=LTDIE_113_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1543
+LDIFF_SYM1550=LTDIE_113_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1550
 	.byte 1,101,11
 	.asciz "V_3"
 
-LDIFF_SYM1544=LTDIE_22_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1544
+LDIFF_SYM1551=LTDIE_22_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1551
 	.byte 1,100,11
 	.asciz "V_4"
 
-LDIFF_SYM1545=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1545
+LDIFF_SYM1552=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1552
 	.byte 1,99,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1546=Lfde119_end - Lfde119_start
-	.long LDIFF_SYM1546
-Lfde119_start:
+LDIFF_SYM1553=Lfde121_end - Lfde121_start
+	.long LDIFF_SYM1553
+Lfde121_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Action_2_object_int_invoke_void_T1_T2_object_int
 
-LDIFF_SYM1547=Lme_88 - wrapper_delegate_invoke_System_Action_2_object_int_invoke_void_T1_T2_object_int
-	.long LDIFF_SYM1547
+LDIFF_SYM1554=Lme_8a - wrapper_delegate_invoke_System_Action_2_object_int_invoke_void_T1_T2_object_int
+	.long LDIFF_SYM1554
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9
 	.align 3
-Lfde119_end:
+Lfde121_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_171:
@@ -28200,90 +28492,90 @@ LTDIE_171:
 	.asciz "System_Func`2"
 
 	.byte 128,1,16
-LDIFF_SYM1548=LTDIE_22 - Ldebug_info_start
-	.long LDIFF_SYM1548
+LDIFF_SYM1555=LTDIE_22 - Ldebug_info_start
+	.long LDIFF_SYM1555
 	.byte 2,35,0,0,7
 	.asciz "System_Func`2"
 
-LDIFF_SYM1549=LTDIE_171 - Ldebug_info_start
-	.long LDIFF_SYM1549
+LDIFF_SYM1556=LTDIE_171 - Ldebug_info_start
+	.long LDIFF_SYM1556
 LTDIE_171_POINTER:
 
 	.byte 13
-LDIFF_SYM1550=LTDIE_171 - Ldebug_info_start
-	.long LDIFF_SYM1550
+LDIFF_SYM1557=LTDIE_171 - Ldebug_info_start
+	.long LDIFF_SYM1557
 LTDIE_171_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1551=LTDIE_171 - Ldebug_info_start
-	.long LDIFF_SYM1551
+LDIFF_SYM1558=LTDIE_171 - Ldebug_info_start
+	.long LDIFF_SYM1558
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Func`2<object,_System.Collections.Generic.IEnumerable`1<string>>:invoke_TResult_T"
 	.asciz "wrapper_delegate_invoke_System_Func_2_object_System_Collections_Generic_IEnumerable_1_string_invoke_TResult_T_object"
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Func_2_object_System_Collections_Generic_IEnumerable_1_string_invoke_TResult_T_object
-	.quad Lme_89
+	.quad Lme_8b
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1552=LTDIE_171_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1552
+LDIFF_SYM1559=LTDIE_171_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1559
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM1553=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1553
+LDIFF_SYM1560=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1560
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1554=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1554
+LDIFF_SYM1561=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1561
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM1555=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1555
+LDIFF_SYM1562=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1562
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM1556=LTDIE_113_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1556
+LDIFF_SYM1563=LTDIE_113_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1563
 	.byte 1,102,11
 	.asciz "V_3"
 
-LDIFF_SYM1557=LTDIE_22_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1557
+LDIFF_SYM1564=LTDIE_22_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1564
 	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM1558=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1558
+LDIFF_SYM1565=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1565
 	.byte 1,100,11
 	.asciz "V_5"
 
-LDIFF_SYM1559=LTDIE_164_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1559
+LDIFF_SYM1566=LTDIE_164_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1566
 	.byte 1,99,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1560=Lfde120_end - Lfde120_start
-	.long LDIFF_SYM1560
-Lfde120_start:
+LDIFF_SYM1567=Lfde122_end - Lfde122_start
+	.long LDIFF_SYM1567
+Lfde122_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Func_2_object_System_Collections_Generic_IEnumerable_1_string_invoke_TResult_T_object
 
-LDIFF_SYM1561=Lme_89 - wrapper_delegate_invoke_System_Func_2_object_System_Collections_Generic_IEnumerable_1_string_invoke_TResult_T_object
-	.long LDIFF_SYM1561
+LDIFF_SYM1568=Lme_8b - wrapper_delegate_invoke_System_Func_2_object_System_Collections_Generic_IEnumerable_1_string_invoke_TResult_T_object
+	.long LDIFF_SYM1568
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9
 	.align 3
-Lfde120_end:
+Lfde122_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_172:
@@ -28292,85 +28584,85 @@ LTDIE_172:
 	.asciz "System_Func`1"
 
 	.byte 128,1,16
-LDIFF_SYM1562=LTDIE_22 - Ldebug_info_start
-	.long LDIFF_SYM1562
+LDIFF_SYM1569=LTDIE_22 - Ldebug_info_start
+	.long LDIFF_SYM1569
 	.byte 2,35,0,0,7
 	.asciz "System_Func`1"
 
-LDIFF_SYM1563=LTDIE_172 - Ldebug_info_start
-	.long LDIFF_SYM1563
+LDIFF_SYM1570=LTDIE_172 - Ldebug_info_start
+	.long LDIFF_SYM1570
 LTDIE_172_POINTER:
 
 	.byte 13
-LDIFF_SYM1564=LTDIE_172 - Ldebug_info_start
-	.long LDIFF_SYM1564
+LDIFF_SYM1571=LTDIE_172 - Ldebug_info_start
+	.long LDIFF_SYM1571
 LTDIE_172_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1565=LTDIE_172 - Ldebug_info_start
-	.long LDIFF_SYM1565
+LDIFF_SYM1572=LTDIE_172 - Ldebug_info_start
+	.long LDIFF_SYM1572
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Func`1<System.Collections.Generic.IEnumerable`1<string>>:invoke_TResult"
 	.asciz "wrapper_delegate_invoke_System_Func_1_System_Collections_Generic_IEnumerable_1_string_invoke_TResult"
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Func_1_System_Collections_Generic_IEnumerable_1_string_invoke_TResult
-	.quad Lme_8a
+	.quad Lme_8c
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1566=LTDIE_172_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1566
+LDIFF_SYM1573=LTDIE_172_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1573
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1567=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1567
+LDIFF_SYM1574=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1574
 	.byte 1,105,11
 	.asciz "V_1"
 
-LDIFF_SYM1568=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1568
+LDIFF_SYM1575=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1575
 	.byte 1,104,11
 	.asciz "V_2"
 
-LDIFF_SYM1569=LTDIE_113_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1569
+LDIFF_SYM1576=LTDIE_113_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1576
 	.byte 1,103,11
 	.asciz "V_3"
 
-LDIFF_SYM1570=LTDIE_22_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1570
+LDIFF_SYM1577=LTDIE_22_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1577
 	.byte 1,102,11
 	.asciz "V_4"
 
-LDIFF_SYM1571=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1571
+LDIFF_SYM1578=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1578
 	.byte 1,101,11
 	.asciz "V_5"
 
-LDIFF_SYM1572=LTDIE_164_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1572
+LDIFF_SYM1579=LTDIE_164_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1579
 	.byte 1,100,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1573=Lfde121_end - Lfde121_start
-	.long LDIFF_SYM1573
-Lfde121_start:
+LDIFF_SYM1580=Lfde123_end - Lfde123_start
+	.long LDIFF_SYM1580
+Lfde123_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Func_1_System_Collections_Generic_IEnumerable_1_string_invoke_TResult
 
-LDIFF_SYM1574=Lme_8a - wrapper_delegate_invoke_System_Func_1_System_Collections_Generic_IEnumerable_1_string_invoke_TResult
-	.long LDIFF_SYM1574
+LDIFF_SYM1581=Lme_8c - wrapper_delegate_invoke_System_Func_1_System_Collections_Generic_IEnumerable_1_string_invoke_TResult
+	.long LDIFF_SYM1581
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9
 	.align 3
-Lfde121_end:
+Lfde123_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_173:
@@ -28379,85 +28671,85 @@ LTDIE_173:
 	.asciz "System_Action`1"
 
 	.byte 128,1,16
-LDIFF_SYM1575=LTDIE_22 - Ldebug_info_start
-	.long LDIFF_SYM1575
+LDIFF_SYM1582=LTDIE_22 - Ldebug_info_start
+	.long LDIFF_SYM1582
 	.byte 2,35,0,0,7
 	.asciz "System_Action`1"
 
-LDIFF_SYM1576=LTDIE_173 - Ldebug_info_start
-	.long LDIFF_SYM1576
+LDIFF_SYM1583=LTDIE_173 - Ldebug_info_start
+	.long LDIFF_SYM1583
 LTDIE_173_POINTER:
 
 	.byte 13
-LDIFF_SYM1577=LTDIE_173 - Ldebug_info_start
-	.long LDIFF_SYM1577
+LDIFF_SYM1584=LTDIE_173 - Ldebug_info_start
+	.long LDIFF_SYM1584
 LTDIE_173_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1578=LTDIE_173 - Ldebug_info_start
-	.long LDIFF_SYM1578
+LDIFF_SYM1585=LTDIE_173 - Ldebug_info_start
+	.long LDIFF_SYM1585
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Action`1<System.Threading.Tasks.Task`1<System.Collections.Generic.IEnumerable`1<string>>>:invoke_void_T"
 	.asciz "wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Collections_Generic_IEnumerable_1_string_invoke_void_T_System_Threading_Tasks_Task_1_System_Collections_Generic_IEnumerable_1_string"
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Collections_Generic_IEnumerable_1_string_invoke_void_T_System_Threading_Tasks_Task_1_System_Collections_Generic_IEnumerable_1_string
-	.quad Lme_8b
+	.quad Lme_8d
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1579=LTDIE_173_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1579
+LDIFF_SYM1586=LTDIE_173_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1586
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM1580=LTDIE_114_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1580
+LDIFF_SYM1587=LTDIE_114_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1587
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1581=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1581
+LDIFF_SYM1588=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1588
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM1582=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1582
+LDIFF_SYM1589=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1589
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM1583=LTDIE_113_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1583
+LDIFF_SYM1590=LTDIE_113_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1590
 	.byte 1,102,11
 	.asciz "V_3"
 
-LDIFF_SYM1584=LTDIE_22_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1584
+LDIFF_SYM1591=LTDIE_22_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1591
 	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM1585=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1585
+LDIFF_SYM1592=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1592
 	.byte 1,100,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1586=Lfde122_end - Lfde122_start
-	.long LDIFF_SYM1586
-Lfde122_start:
+LDIFF_SYM1593=Lfde124_end - Lfde124_start
+	.long LDIFF_SYM1593
+Lfde124_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Collections_Generic_IEnumerable_1_string_invoke_void_T_System_Threading_Tasks_Task_1_System_Collections_Generic_IEnumerable_1_string
 
-LDIFF_SYM1587=Lme_8b - wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Collections_Generic_IEnumerable_1_string_invoke_void_T_System_Threading_Tasks_Task_1_System_Collections_Generic_IEnumerable_1_string
-	.long LDIFF_SYM1587
+LDIFF_SYM1594=Lme_8d - wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Collections_Generic_IEnumerable_1_string_invoke_void_T_System_Threading_Tasks_Task_1_System_Collections_Generic_IEnumerable_1_string
+	.long LDIFF_SYM1594
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9
 	.align 3
-Lfde122_end:
+Lfde124_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_174:
@@ -28466,23 +28758,23 @@ LTDIE_174:
 	.asciz "System_Func`2"
 
 	.byte 128,1,16
-LDIFF_SYM1588=LTDIE_22 - Ldebug_info_start
-	.long LDIFF_SYM1588
+LDIFF_SYM1595=LTDIE_22 - Ldebug_info_start
+	.long LDIFF_SYM1595
 	.byte 2,35,0,0,7
 	.asciz "System_Func`2"
 
-LDIFF_SYM1589=LTDIE_174 - Ldebug_info_start
-	.long LDIFF_SYM1589
+LDIFF_SYM1596=LTDIE_174 - Ldebug_info_start
+	.long LDIFF_SYM1596
 LTDIE_174_POINTER:
 
 	.byte 13
-LDIFF_SYM1590=LTDIE_174 - Ldebug_info_start
-	.long LDIFF_SYM1590
+LDIFF_SYM1597=LTDIE_174 - Ldebug_info_start
+	.long LDIFF_SYM1597
 LTDIE_174_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1591=LTDIE_174 - Ldebug_info_start
-	.long LDIFF_SYM1591
+LDIFF_SYM1598=LTDIE_174 - Ldebug_info_start
+	.long LDIFF_SYM1598
 LTDIE_175:
 
 	.byte 17
@@ -28491,85 +28783,85 @@ LTDIE_175:
 	.byte 16,7
 	.asciz "System_IAsyncResult"
 
-LDIFF_SYM1592=LTDIE_175 - Ldebug_info_start
-	.long LDIFF_SYM1592
+LDIFF_SYM1599=LTDIE_175 - Ldebug_info_start
+	.long LDIFF_SYM1599
 LTDIE_175_POINTER:
 
 	.byte 13
-LDIFF_SYM1593=LTDIE_175 - Ldebug_info_start
-	.long LDIFF_SYM1593
+LDIFF_SYM1600=LTDIE_175 - Ldebug_info_start
+	.long LDIFF_SYM1600
 LTDIE_175_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1594=LTDIE_175 - Ldebug_info_start
-	.long LDIFF_SYM1594
+LDIFF_SYM1601=LTDIE_175 - Ldebug_info_start
+	.long LDIFF_SYM1601
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Func`2<System.IAsyncResult,_System.Collections.Generic.IEnumerable`1<string>>:invoke_TResult_T"
 	.asciz "wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Collections_Generic_IEnumerable_1_string_invoke_TResult_T_System_IAsyncResult"
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Collections_Generic_IEnumerable_1_string_invoke_TResult_T_System_IAsyncResult
-	.quad Lme_8c
+	.quad Lme_8e
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1595=LTDIE_174_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1595
+LDIFF_SYM1602=LTDIE_174_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1602
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM1596=LTDIE_175_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1596
+LDIFF_SYM1603=LTDIE_175_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1603
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1597=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1597
+LDIFF_SYM1604=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1604
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM1598=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1598
+LDIFF_SYM1605=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1605
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM1599=LTDIE_113_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1599
+LDIFF_SYM1606=LTDIE_113_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1606
 	.byte 1,102,11
 	.asciz "V_3"
 
-LDIFF_SYM1600=LTDIE_22_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1600
+LDIFF_SYM1607=LTDIE_22_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1607
 	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM1601=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1601
+LDIFF_SYM1608=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1608
 	.byte 1,100,11
 	.asciz "V_5"
 
-LDIFF_SYM1602=LTDIE_164_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1602
+LDIFF_SYM1609=LTDIE_164_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1609
 	.byte 1,99,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1603=Lfde123_end - Lfde123_start
-	.long LDIFF_SYM1603
-Lfde123_start:
+LDIFF_SYM1610=Lfde125_end - Lfde125_start
+	.long LDIFF_SYM1610
+Lfde125_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Collections_Generic_IEnumerable_1_string_invoke_TResult_T_System_IAsyncResult
 
-LDIFF_SYM1604=Lme_8c - wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Collections_Generic_IEnumerable_1_string_invoke_TResult_T_System_IAsyncResult
-	.long LDIFF_SYM1604
+LDIFF_SYM1611=Lme_8e - wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Collections_Generic_IEnumerable_1_string_invoke_TResult_T_System_IAsyncResult
+	.long LDIFF_SYM1611
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9
 	.align 3
-Lfde123_end:
+Lfde125_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_176:
@@ -28578,85 +28870,85 @@ LTDIE_176:
 	.asciz "System_Action`1"
 
 	.byte 128,1,16
-LDIFF_SYM1605=LTDIE_22 - Ldebug_info_start
-	.long LDIFF_SYM1605
+LDIFF_SYM1612=LTDIE_22 - Ldebug_info_start
+	.long LDIFF_SYM1612
 	.byte 2,35,0,0,7
 	.asciz "System_Action`1"
 
-LDIFF_SYM1606=LTDIE_176 - Ldebug_info_start
-	.long LDIFF_SYM1606
+LDIFF_SYM1613=LTDIE_176 - Ldebug_info_start
+	.long LDIFF_SYM1613
 LTDIE_176_POINTER:
 
 	.byte 13
-LDIFF_SYM1607=LTDIE_176 - Ldebug_info_start
-	.long LDIFF_SYM1607
+LDIFF_SYM1614=LTDIE_176 - Ldebug_info_start
+	.long LDIFF_SYM1614
 LTDIE_176_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1608=LTDIE_176 - Ldebug_info_start
-	.long LDIFF_SYM1608
+LDIFF_SYM1615=LTDIE_176 - Ldebug_info_start
+	.long LDIFF_SYM1615
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Action`1<System.IAsyncResult>:invoke_void_T"
 	.asciz "wrapper_delegate_invoke_System_Action_1_System_IAsyncResult_invoke_void_T_System_IAsyncResult"
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Action_1_System_IAsyncResult_invoke_void_T_System_IAsyncResult
-	.quad Lme_8d
+	.quad Lme_8f
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1609=LTDIE_176_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1609
+LDIFF_SYM1616=LTDIE_176_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1616
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM1610=LTDIE_175_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1610
+LDIFF_SYM1617=LTDIE_175_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1617
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1611=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1611
+LDIFF_SYM1618=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1618
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM1612=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1612
+LDIFF_SYM1619=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1619
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM1613=LTDIE_113_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1613
+LDIFF_SYM1620=LTDIE_113_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1620
 	.byte 1,102,11
 	.asciz "V_3"
 
-LDIFF_SYM1614=LTDIE_22_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1614
+LDIFF_SYM1621=LTDIE_22_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1621
 	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM1615=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1615
+LDIFF_SYM1622=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1622
 	.byte 1,100,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1616=Lfde124_end - Lfde124_start
-	.long LDIFF_SYM1616
-Lfde124_start:
+LDIFF_SYM1623=Lfde126_end - Lfde126_start
+	.long LDIFF_SYM1623
+Lfde126_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Action_1_System_IAsyncResult_invoke_void_T_System_IAsyncResult
 
-LDIFF_SYM1617=Lme_8d - wrapper_delegate_invoke_System_Action_1_System_IAsyncResult_invoke_void_T_System_IAsyncResult
-	.long LDIFF_SYM1617
+LDIFF_SYM1624=Lme_8f - wrapper_delegate_invoke_System_Action_1_System_IAsyncResult_invoke_void_T_System_IAsyncResult
+	.long LDIFF_SYM1624
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9
 	.align 3
-Lfde124_end:
+Lfde126_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_177:
@@ -28665,118 +28957,118 @@ LTDIE_177:
 	.asciz "System_Func`3"
 
 	.byte 128,1,16
-LDIFF_SYM1618=LTDIE_22 - Ldebug_info_start
-	.long LDIFF_SYM1618
+LDIFF_SYM1625=LTDIE_22 - Ldebug_info_start
+	.long LDIFF_SYM1625
 	.byte 2,35,0,0,7
 	.asciz "System_Func`3"
 
-LDIFF_SYM1619=LTDIE_177 - Ldebug_info_start
-	.long LDIFF_SYM1619
+LDIFF_SYM1626=LTDIE_177 - Ldebug_info_start
+	.long LDIFF_SYM1626
 LTDIE_177_POINTER:
 
 	.byte 13
-LDIFF_SYM1620=LTDIE_177 - Ldebug_info_start
-	.long LDIFF_SYM1620
+LDIFF_SYM1627=LTDIE_177 - Ldebug_info_start
+	.long LDIFF_SYM1627
 LTDIE_177_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1621=LTDIE_177 - Ldebug_info_start
-	.long LDIFF_SYM1621
+LDIFF_SYM1628=LTDIE_177 - Ldebug_info_start
+	.long LDIFF_SYM1628
 LTDIE_178:
 
 	.byte 5
 	.asciz "System_AsyncCallback"
 
 	.byte 128,1,16
-LDIFF_SYM1622=LTDIE_22 - Ldebug_info_start
-	.long LDIFF_SYM1622
+LDIFF_SYM1629=LTDIE_22 - Ldebug_info_start
+	.long LDIFF_SYM1629
 	.byte 2,35,0,0,7
 	.asciz "System_AsyncCallback"
 
-LDIFF_SYM1623=LTDIE_178 - Ldebug_info_start
-	.long LDIFF_SYM1623
+LDIFF_SYM1630=LTDIE_178 - Ldebug_info_start
+	.long LDIFF_SYM1630
 LTDIE_178_POINTER:
 
 	.byte 13
-LDIFF_SYM1624=LTDIE_178 - Ldebug_info_start
-	.long LDIFF_SYM1624
+LDIFF_SYM1631=LTDIE_178 - Ldebug_info_start
+	.long LDIFF_SYM1631
 LTDIE_178_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1625=LTDIE_178 - Ldebug_info_start
-	.long LDIFF_SYM1625
+LDIFF_SYM1632=LTDIE_178 - Ldebug_info_start
+	.long LDIFF_SYM1632
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Func`3<System.AsyncCallback,_object,_System.IAsyncResult>:invoke_TResult_T1_T2"
 	.asciz "wrapper_delegate_invoke_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_invoke_TResult_T1_T2_System_AsyncCallback_object"
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_invoke_TResult_T1_T2_System_AsyncCallback_object
-	.quad Lme_8e
+	.quad Lme_90
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1626=LTDIE_177_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1626
+LDIFF_SYM1633=LTDIE_177_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1633
 	.byte 1,104,3
 	.asciz "param0"
 
-LDIFF_SYM1627=LTDIE_178_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1627
+LDIFF_SYM1634=LTDIE_178_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1634
 	.byte 1,105,3
 	.asciz "param1"
 
-LDIFF_SYM1628=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1628
+LDIFF_SYM1635=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1635
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1629=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1629
+LDIFF_SYM1636=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1636
 	.byte 1,103,11
 	.asciz "V_1"
 
-LDIFF_SYM1630=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1630
+LDIFF_SYM1637=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1637
 	.byte 1,102,11
 	.asciz "V_2"
 
-LDIFF_SYM1631=LTDIE_113_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1631
+LDIFF_SYM1638=LTDIE_113_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1638
 	.byte 1,101,11
 	.asciz "V_3"
 
-LDIFF_SYM1632=LTDIE_22_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1632
+LDIFF_SYM1639=LTDIE_22_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1639
 	.byte 1,100,11
 	.asciz "V_4"
 
-LDIFF_SYM1633=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1633
+LDIFF_SYM1640=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1640
 	.byte 1,99,11
 	.asciz "V_5"
 
-LDIFF_SYM1634=LTDIE_175_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1634
+LDIFF_SYM1641=LTDIE_175_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1641
 	.byte 3,141,232,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1635=Lfde125_end - Lfde125_start
-	.long LDIFF_SYM1635
-Lfde125_start:
+LDIFF_SYM1642=Lfde127_end - Lfde127_start
+	.long LDIFF_SYM1642
+Lfde127_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_invoke_TResult_T1_T2_System_AsyncCallback_object
 
-LDIFF_SYM1636=Lme_8e - wrapper_delegate_invoke_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_invoke_TResult_T1_T2_System_AsyncCallback_object
-	.long LDIFF_SYM1636
+LDIFF_SYM1643=Lme_90 - wrapper_delegate_invoke_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_invoke_TResult_T1_T2_System_AsyncCallback_object
+	.long LDIFF_SYM1643
 	.long 0
 	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29,68,147,18,148,17,68,149,16,150,15,68,151,14,152,13,68,153,12
 	.byte 154,11
 	.align 3
-Lfde125_end:
+Lfde127_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_179:
@@ -28785,112 +29077,39 @@ LTDIE_179:
 	.asciz "_InternalEnumerator`1"
 
 	.byte 32,16
-LDIFF_SYM1637=LTDIE_6 - Ldebug_info_start
-	.long LDIFF_SYM1637
+LDIFF_SYM1644=LTDIE_6 - Ldebug_info_start
+	.long LDIFF_SYM1644
 	.byte 2,35,0,6
 	.asciz "array"
 
-LDIFF_SYM1638=LTDIE_113_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1638
+LDIFF_SYM1645=LTDIE_113_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1645
 	.byte 2,35,16,6
 	.asciz "idx"
 
-LDIFF_SYM1639=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1639
+LDIFF_SYM1646=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1646
 	.byte 2,35,24,0,7
 	.asciz "_InternalEnumerator`1"
 
-LDIFF_SYM1640=LTDIE_179 - Ldebug_info_start
-	.long LDIFF_SYM1640
+LDIFF_SYM1647=LTDIE_179 - Ldebug_info_start
+	.long LDIFF_SYM1647
 LTDIE_179_POINTER:
 
 	.byte 13
-LDIFF_SYM1641=LTDIE_179 - Ldebug_info_start
-	.long LDIFF_SYM1641
+LDIFF_SYM1648=LTDIE_179 - Ldebug_info_start
+	.long LDIFF_SYM1648
 LTDIE_179_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1642=LTDIE_179 - Ldebug_info_start
-	.long LDIFF_SYM1642
+LDIFF_SYM1649=LTDIE_179 - Ldebug_info_start
+	.long LDIFF_SYM1649
 	.byte 2
 	.asciz "System.Array/InternalEnumerator`1<Xamarin.Forms.Maps.Position>:.ctor"
 	.asciz "System_Array_InternalEnumerator_1_Xamarin_Forms_Maps_Position__ctor_System_Array"
 
 	.byte 1,236,1
 	.quad System_Array_InternalEnumerator_1_Xamarin_Forms_Maps_Position__ctor_System_Array
-	.quad Lme_90
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1643=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1643
-	.byte 1,105,3
-	.asciz "array"
-
-LDIFF_SYM1644=LTDIE_113_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1644
-	.byte 2,141,24,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1645=Lfde126_end - Lfde126_start
-	.long LDIFF_SYM1645
-Lfde126_start:
-
-	.long 0
-	.align 3
-	.quad System_Array_InternalEnumerator_1_Xamarin_Forms_Maps_Position__ctor_System_Array
-
-LDIFF_SYM1646=Lme_90 - System_Array_InternalEnumerator_1_Xamarin_Forms_Maps_Position__ctor_System_Array
-	.long LDIFF_SYM1646
-	.long 0
-	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,153,6
-	.align 3
-Lfde126_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.Array/InternalEnumerator`1<Xamarin.Forms.Maps.Position>:Dispose"
-	.asciz "System_Array_InternalEnumerator_1_Xamarin_Forms_Maps_Position_Dispose"
-
-	.byte 1,242,1
-	.quad System_Array_InternalEnumerator_1_Xamarin_Forms_Maps_Position_Dispose
-	.quad Lme_91
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1647=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1647
-	.byte 2,141,16,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1648=Lfde127_end - Lfde127_start
-	.long LDIFF_SYM1648
-Lfde127_start:
-
-	.long 0
-	.align 3
-	.quad System_Array_InternalEnumerator_1_Xamarin_Forms_Maps_Position_Dispose
-
-LDIFF_SYM1649=Lme_91 - System_Array_InternalEnumerator_1_Xamarin_Forms_Maps_Position_Dispose
-	.long LDIFF_SYM1649
-	.long 0
-	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
-	.align 3
-Lfde127_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.Array/InternalEnumerator`1<Xamarin.Forms.Maps.Position>:MoveNext"
-	.asciz "System_Array_InternalEnumerator_1_Xamarin_Forms_Maps_Position_MoveNext"
-
-	.byte 1,246,1
-	.quad System_Array_InternalEnumerator_1_Xamarin_Forms_Maps_Position_MoveNext
 	.quad Lme_92
 
 	.byte 2,118,16,3
@@ -28898,12 +29117,12 @@ Lfde127_end:
 
 LDIFF_SYM1650=LDIE_I - Ldebug_info_start
 	.long LDIFF_SYM1650
-	.byte 1,106,11
-	.asciz "V_0"
+	.byte 1,105,3
+	.asciz "array"
 
-LDIFF_SYM1651=LDIE_I4 - Ldebug_info_start
+LDIFF_SYM1651=LTDIE_113_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1651
-	.byte 1,105,0
+	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
@@ -28913,23 +29132,23 @@ Lfde128_start:
 
 	.long 0
 	.align 3
-	.quad System_Array_InternalEnumerator_1_Xamarin_Forms_Maps_Position_MoveNext
+	.quad System_Array_InternalEnumerator_1_Xamarin_Forms_Maps_Position__ctor_System_Array
 
-LDIFF_SYM1653=Lme_92 - System_Array_InternalEnumerator_1_Xamarin_Forms_Maps_Position_MoveNext
+LDIFF_SYM1653=Lme_92 - System_Array_InternalEnumerator_1_Xamarin_Forms_Maps_Position__ctor_System_Array
 	.long LDIFF_SYM1653
 	.long 0
-	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,153,8,154,7
+	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,153,6
 	.align 3
 Lfde128_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "System.Array/InternalEnumerator`1<Xamarin.Forms.Maps.Position>:get_Current"
-	.asciz "System_Array_InternalEnumerator_1_Xamarin_Forms_Maps_Position_get_Current"
+	.asciz "System.Array/InternalEnumerator`1<Xamarin.Forms.Maps.Position>:Dispose"
+	.asciz "System_Array_InternalEnumerator_1_Xamarin_Forms_Maps_Position_Dispose"
 
-	.byte 1,254,1
-	.quad System_Array_InternalEnumerator_1_Xamarin_Forms_Maps_Position_get_Current
+	.byte 1,242,1
+	.quad System_Array_InternalEnumerator_1_Xamarin_Forms_Maps_Position_Dispose
 	.quad Lme_93
 
 	.byte 2,118,16,3
@@ -28937,7 +29156,7 @@ Lfde128_end:
 
 LDIFF_SYM1654=LDIE_I - Ldebug_info_start
 	.long LDIFF_SYM1654
-	.byte 1,106,0
+	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
@@ -28947,14 +29166,87 @@ Lfde129_start:
 
 	.long 0
 	.align 3
+	.quad System_Array_InternalEnumerator_1_Xamarin_Forms_Maps_Position_Dispose
+
+LDIFF_SYM1656=Lme_93 - System_Array_InternalEnumerator_1_Xamarin_Forms_Maps_Position_Dispose
+	.long LDIFF_SYM1656
+	.long 0
+	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
+	.align 3
+Lfde129_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Array/InternalEnumerator`1<Xamarin.Forms.Maps.Position>:MoveNext"
+	.asciz "System_Array_InternalEnumerator_1_Xamarin_Forms_Maps_Position_MoveNext"
+
+	.byte 1,246,1
+	.quad System_Array_InternalEnumerator_1_Xamarin_Forms_Maps_Position_MoveNext
+	.quad Lme_94
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1657=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1657
+	.byte 1,106,11
+	.asciz "V_0"
+
+LDIFF_SYM1658=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1658
+	.byte 1,105,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1659=Lfde130_end - Lfde130_start
+	.long LDIFF_SYM1659
+Lfde130_start:
+
+	.long 0
+	.align 3
+	.quad System_Array_InternalEnumerator_1_Xamarin_Forms_Maps_Position_MoveNext
+
+LDIFF_SYM1660=Lme_94 - System_Array_InternalEnumerator_1_Xamarin_Forms_Maps_Position_MoveNext
+	.long LDIFF_SYM1660
+	.long 0
+	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,153,8,154,7
+	.align 3
+Lfde130_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Array/InternalEnumerator`1<Xamarin.Forms.Maps.Position>:get_Current"
+	.asciz "System_Array_InternalEnumerator_1_Xamarin_Forms_Maps_Position_get_Current"
+
+	.byte 1,254,1
+	.quad System_Array_InternalEnumerator_1_Xamarin_Forms_Maps_Position_get_Current
+	.quad Lme_95
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1661=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1661
+	.byte 1,106,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1662=Lfde131_end - Lfde131_start
+	.long LDIFF_SYM1662
+Lfde131_start:
+
+	.long 0
+	.align 3
 	.quad System_Array_InternalEnumerator_1_Xamarin_Forms_Maps_Position_get_Current
 
-LDIFF_SYM1656=Lme_93 - System_Array_InternalEnumerator_1_Xamarin_Forms_Maps_Position_get_Current
-	.long LDIFF_SYM1656
+LDIFF_SYM1663=Lme_95 - System_Array_InternalEnumerator_1_Xamarin_Forms_Maps_Position_get_Current
+	.long LDIFF_SYM1663
 	.long 0
 	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29,68,154,18
 	.align 3
-Lfde129_end:
+Lfde131_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -28964,31 +29256,31 @@ Lfde129_end:
 
 	.byte 1,137,2
 	.quad System_Array_InternalEnumerator_1_Xamarin_Forms_Maps_Position_System_Collections_IEnumerator_Reset
-	.quad Lme_94
+	.quad Lme_96
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1657=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1657
+LDIFF_SYM1664=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1664
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1658=Lfde130_end - Lfde130_start
-	.long LDIFF_SYM1658
-Lfde130_start:
+LDIFF_SYM1665=Lfde132_end - Lfde132_start
+	.long LDIFF_SYM1665
+Lfde132_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalEnumerator_1_Xamarin_Forms_Maps_Position_System_Collections_IEnumerator_Reset
 
-LDIFF_SYM1659=Lme_94 - System_Array_InternalEnumerator_1_Xamarin_Forms_Maps_Position_System_Collections_IEnumerator_Reset
-	.long LDIFF_SYM1659
+LDIFF_SYM1666=Lme_96 - System_Array_InternalEnumerator_1_Xamarin_Forms_Maps_Position_System_Collections_IEnumerator_Reset
+	.long LDIFF_SYM1666
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde130_end:
+Lfde132_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -28998,31 +29290,31 @@ Lfde130_end:
 
 	.byte 1,142,2
 	.quad System_Array_InternalEnumerator_1_Xamarin_Forms_Maps_Position_System_Collections_IEnumerator_get_Current
-	.quad Lme_95
+	.quad Lme_97
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1660=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1660
+LDIFF_SYM1667=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1667
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1661=Lfde131_end - Lfde131_start
-	.long LDIFF_SYM1661
-Lfde131_start:
+LDIFF_SYM1668=Lfde133_end - Lfde133_start
+	.long LDIFF_SYM1668
+Lfde133_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalEnumerator_1_Xamarin_Forms_Maps_Position_System_Collections_IEnumerator_get_Current
 
-LDIFF_SYM1662=Lme_95 - System_Array_InternalEnumerator_1_Xamarin_Forms_Maps_Position_System_Collections_IEnumerator_get_Current
-	.long LDIFF_SYM1662
+LDIFF_SYM1669=Lme_97 - System_Array_InternalEnumerator_1_Xamarin_Forms_Maps_Position_System_Collections_IEnumerator_get_Current
+	.long LDIFF_SYM1669
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
-Lfde131_end:
+Lfde133_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -29032,31 +29324,31 @@ Lfde131_end:
 
 	.byte 1,89
 	.quad System_Array_InternalArray__IEnumerable_GetEnumerator_Xamarin_Forms_Maps_Position
-	.quad Lme_96
+	.quad Lme_98
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1663=LTDIE_113_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1663
+LDIFF_SYM1670=LTDIE_113_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1670
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1664=Lfde132_end - Lfde132_start
-	.long LDIFF_SYM1664
-Lfde132_start:
+LDIFF_SYM1671=Lfde134_end - Lfde134_start
+	.long LDIFF_SYM1671
+Lfde134_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalArray__IEnumerable_GetEnumerator_Xamarin_Forms_Maps_Position
 
-LDIFF_SYM1665=Lme_96 - System_Array_InternalArray__IEnumerable_GetEnumerator_Xamarin_Forms_Maps_Position
-	.long LDIFF_SYM1665
+LDIFF_SYM1672=Lme_98 - System_Array_InternalArray__IEnumerable_GetEnumerator_Xamarin_Forms_Maps_Position
+	.long LDIFF_SYM1672
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,154,10
 	.align 3
-Lfde132_end:
+Lfde134_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_180:
@@ -29065,90 +29357,90 @@ LTDIE_180:
 	.asciz "System_Func`2"
 
 	.byte 128,1,16
-LDIFF_SYM1666=LTDIE_22 - Ldebug_info_start
-	.long LDIFF_SYM1666
+LDIFF_SYM1673=LTDIE_22 - Ldebug_info_start
+	.long LDIFF_SYM1673
 	.byte 2,35,0,0,7
 	.asciz "System_Func`2"
 
-LDIFF_SYM1667=LTDIE_180 - Ldebug_info_start
-	.long LDIFF_SYM1667
+LDIFF_SYM1674=LTDIE_180 - Ldebug_info_start
+	.long LDIFF_SYM1674
 LTDIE_180_POINTER:
 
 	.byte 13
-LDIFF_SYM1668=LTDIE_180 - Ldebug_info_start
-	.long LDIFF_SYM1668
+LDIFF_SYM1675=LTDIE_180 - Ldebug_info_start
+	.long LDIFF_SYM1675
 LTDIE_180_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1669=LTDIE_180 - Ldebug_info_start
-	.long LDIFF_SYM1669
+LDIFF_SYM1676=LTDIE_180 - Ldebug_info_start
+	.long LDIFF_SYM1676
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Func`2<object,_System.Collections.Generic.IEnumerable`1<Xamarin.Forms.Maps.Position>>:invoke_TResult_T"
 	.asciz "wrapper_delegate_invoke_System_Func_2_object_System_Collections_Generic_IEnumerable_1_Xamarin_Forms_Maps_Position_invoke_TResult_T_object"
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Func_2_object_System_Collections_Generic_IEnumerable_1_Xamarin_Forms_Maps_Position_invoke_TResult_T_object
-	.quad Lme_97
+	.quad Lme_99
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1670=LTDIE_180_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1670
+LDIFF_SYM1677=LTDIE_180_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1677
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM1671=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1671
+LDIFF_SYM1678=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1678
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1672=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1672
+LDIFF_SYM1679=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1679
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM1673=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1673
+LDIFF_SYM1680=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1680
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM1674=LTDIE_113_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1674
+LDIFF_SYM1681=LTDIE_113_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1681
 	.byte 1,102,11
 	.asciz "V_3"
 
-LDIFF_SYM1675=LTDIE_22_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1675
+LDIFF_SYM1682=LTDIE_22_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1682
 	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM1676=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1676
+LDIFF_SYM1683=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1683
 	.byte 1,100,11
 	.asciz "V_5"
 
-LDIFF_SYM1677=LTDIE_167_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1677
+LDIFF_SYM1684=LTDIE_167_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1684
 	.byte 1,99,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1678=Lfde133_end - Lfde133_start
-	.long LDIFF_SYM1678
-Lfde133_start:
+LDIFF_SYM1685=Lfde135_end - Lfde135_start
+	.long LDIFF_SYM1685
+Lfde135_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Func_2_object_System_Collections_Generic_IEnumerable_1_Xamarin_Forms_Maps_Position_invoke_TResult_T_object
 
-LDIFF_SYM1679=Lme_97 - wrapper_delegate_invoke_System_Func_2_object_System_Collections_Generic_IEnumerable_1_Xamarin_Forms_Maps_Position_invoke_TResult_T_object
-	.long LDIFF_SYM1679
+LDIFF_SYM1686=Lme_99 - wrapper_delegate_invoke_System_Func_2_object_System_Collections_Generic_IEnumerable_1_Xamarin_Forms_Maps_Position_invoke_TResult_T_object
+	.long LDIFF_SYM1686
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9
 	.align 3
-Lfde133_end:
+Lfde135_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_181:
@@ -29157,85 +29449,85 @@ LTDIE_181:
 	.asciz "System_Func`1"
 
 	.byte 128,1,16
-LDIFF_SYM1680=LTDIE_22 - Ldebug_info_start
-	.long LDIFF_SYM1680
+LDIFF_SYM1687=LTDIE_22 - Ldebug_info_start
+	.long LDIFF_SYM1687
 	.byte 2,35,0,0,7
 	.asciz "System_Func`1"
 
-LDIFF_SYM1681=LTDIE_181 - Ldebug_info_start
-	.long LDIFF_SYM1681
+LDIFF_SYM1688=LTDIE_181 - Ldebug_info_start
+	.long LDIFF_SYM1688
 LTDIE_181_POINTER:
 
 	.byte 13
-LDIFF_SYM1682=LTDIE_181 - Ldebug_info_start
-	.long LDIFF_SYM1682
+LDIFF_SYM1689=LTDIE_181 - Ldebug_info_start
+	.long LDIFF_SYM1689
 LTDIE_181_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1683=LTDIE_181 - Ldebug_info_start
-	.long LDIFF_SYM1683
+LDIFF_SYM1690=LTDIE_181 - Ldebug_info_start
+	.long LDIFF_SYM1690
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Func`1<System.Collections.Generic.IEnumerable`1<Xamarin.Forms.Maps.Position>>:invoke_TResult"
 	.asciz "wrapper_delegate_invoke_System_Func_1_System_Collections_Generic_IEnumerable_1_Xamarin_Forms_Maps_Position_invoke_TResult"
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Func_1_System_Collections_Generic_IEnumerable_1_Xamarin_Forms_Maps_Position_invoke_TResult
-	.quad Lme_98
+	.quad Lme_9a
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1684=LTDIE_181_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1684
+LDIFF_SYM1691=LTDIE_181_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1691
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1685=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1685
+LDIFF_SYM1692=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1692
 	.byte 1,105,11
 	.asciz "V_1"
 
-LDIFF_SYM1686=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1686
+LDIFF_SYM1693=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1693
 	.byte 1,104,11
 	.asciz "V_2"
 
-LDIFF_SYM1687=LTDIE_113_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1687
+LDIFF_SYM1694=LTDIE_113_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1694
 	.byte 1,103,11
 	.asciz "V_3"
 
-LDIFF_SYM1688=LTDIE_22_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1688
+LDIFF_SYM1695=LTDIE_22_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1695
 	.byte 1,102,11
 	.asciz "V_4"
 
-LDIFF_SYM1689=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1689
+LDIFF_SYM1696=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1696
 	.byte 1,101,11
 	.asciz "V_5"
 
-LDIFF_SYM1690=LTDIE_167_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1690
+LDIFF_SYM1697=LTDIE_167_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1697
 	.byte 1,100,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1691=Lfde134_end - Lfde134_start
-	.long LDIFF_SYM1691
-Lfde134_start:
+LDIFF_SYM1698=Lfde136_end - Lfde136_start
+	.long LDIFF_SYM1698
+Lfde136_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Func_1_System_Collections_Generic_IEnumerable_1_Xamarin_Forms_Maps_Position_invoke_TResult
 
-LDIFF_SYM1692=Lme_98 - wrapper_delegate_invoke_System_Func_1_System_Collections_Generic_IEnumerable_1_Xamarin_Forms_Maps_Position_invoke_TResult
-	.long LDIFF_SYM1692
+LDIFF_SYM1699=Lme_9a - wrapper_delegate_invoke_System_Func_1_System_Collections_Generic_IEnumerable_1_Xamarin_Forms_Maps_Position_invoke_TResult
+	.long LDIFF_SYM1699
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9
 	.align 3
-Lfde134_end:
+Lfde136_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_182:
@@ -29244,85 +29536,85 @@ LTDIE_182:
 	.asciz "System_Action`1"
 
 	.byte 128,1,16
-LDIFF_SYM1693=LTDIE_22 - Ldebug_info_start
-	.long LDIFF_SYM1693
+LDIFF_SYM1700=LTDIE_22 - Ldebug_info_start
+	.long LDIFF_SYM1700
 	.byte 2,35,0,0,7
 	.asciz "System_Action`1"
 
-LDIFF_SYM1694=LTDIE_182 - Ldebug_info_start
-	.long LDIFF_SYM1694
+LDIFF_SYM1701=LTDIE_182 - Ldebug_info_start
+	.long LDIFF_SYM1701
 LTDIE_182_POINTER:
 
 	.byte 13
-LDIFF_SYM1695=LTDIE_182 - Ldebug_info_start
-	.long LDIFF_SYM1695
+LDIFF_SYM1702=LTDIE_182 - Ldebug_info_start
+	.long LDIFF_SYM1702
 LTDIE_182_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1696=LTDIE_182 - Ldebug_info_start
-	.long LDIFF_SYM1696
+LDIFF_SYM1703=LTDIE_182 - Ldebug_info_start
+	.long LDIFF_SYM1703
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Action`1<System.Threading.Tasks.Task`1<System.Collections.Generic.IEnumerable`1<Xamarin.Forms.Maps.Position>>>:invoke_void_T"
 	.asciz "wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Collections_Generic_IEnumerable_1_Xamarin_Forms_Maps_Position_invoke_void_T_System_Threading_Tasks_Task_1_System_Collections_Generic_IEnumerable_1_Xamarin_Forms_Maps_Position"
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Collections_Generic_IEnumerable_1_Xamarin_Forms_Maps_Position_invoke_void_T_System_Threading_Tasks_Task_1_System_Collections_Generic_IEnumerable_1_Xamarin_Forms_Maps_Position
-	.quad Lme_99
+	.quad Lme_9b
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1697=LTDIE_182_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1697
+LDIFF_SYM1704=LTDIE_182_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1704
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM1698=LTDIE_166_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1698
+LDIFF_SYM1705=LTDIE_166_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1705
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1699=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1699
+LDIFF_SYM1706=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1706
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM1700=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1700
+LDIFF_SYM1707=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1707
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM1701=LTDIE_113_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1701
+LDIFF_SYM1708=LTDIE_113_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1708
 	.byte 1,102,11
 	.asciz "V_3"
 
-LDIFF_SYM1702=LTDIE_22_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1702
+LDIFF_SYM1709=LTDIE_22_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1709
 	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM1703=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1703
+LDIFF_SYM1710=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1710
 	.byte 1,100,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1704=Lfde135_end - Lfde135_start
-	.long LDIFF_SYM1704
-Lfde135_start:
+LDIFF_SYM1711=Lfde137_end - Lfde137_start
+	.long LDIFF_SYM1711
+Lfde137_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Collections_Generic_IEnumerable_1_Xamarin_Forms_Maps_Position_invoke_void_T_System_Threading_Tasks_Task_1_System_Collections_Generic_IEnumerable_1_Xamarin_Forms_Maps_Position
 
-LDIFF_SYM1705=Lme_99 - wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Collections_Generic_IEnumerable_1_Xamarin_Forms_Maps_Position_invoke_void_T_System_Threading_Tasks_Task_1_System_Collections_Generic_IEnumerable_1_Xamarin_Forms_Maps_Position
-	.long LDIFF_SYM1705
+LDIFF_SYM1712=Lme_9b - wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Collections_Generic_IEnumerable_1_Xamarin_Forms_Maps_Position_invoke_void_T_System_Threading_Tasks_Task_1_System_Collections_Generic_IEnumerable_1_Xamarin_Forms_Maps_Position
+	.long LDIFF_SYM1712
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9
 	.align 3
-Lfde135_end:
+Lfde137_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_183:
@@ -29331,90 +29623,90 @@ LTDIE_183:
 	.asciz "System_Func`2"
 
 	.byte 128,1,16
-LDIFF_SYM1706=LTDIE_22 - Ldebug_info_start
-	.long LDIFF_SYM1706
+LDIFF_SYM1713=LTDIE_22 - Ldebug_info_start
+	.long LDIFF_SYM1713
 	.byte 2,35,0,0,7
 	.asciz "System_Func`2"
 
-LDIFF_SYM1707=LTDIE_183 - Ldebug_info_start
-	.long LDIFF_SYM1707
+LDIFF_SYM1714=LTDIE_183 - Ldebug_info_start
+	.long LDIFF_SYM1714
 LTDIE_183_POINTER:
 
 	.byte 13
-LDIFF_SYM1708=LTDIE_183 - Ldebug_info_start
-	.long LDIFF_SYM1708
+LDIFF_SYM1715=LTDIE_183 - Ldebug_info_start
+	.long LDIFF_SYM1715
 LTDIE_183_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1709=LTDIE_183 - Ldebug_info_start
-	.long LDIFF_SYM1709
+LDIFF_SYM1716=LTDIE_183 - Ldebug_info_start
+	.long LDIFF_SYM1716
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Func`2<System.IAsyncResult,_System.Collections.Generic.IEnumerable`1<Xamarin.Forms.Maps.Position>>:invoke_TResult_T"
 	.asciz "wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Collections_Generic_IEnumerable_1_Xamarin_Forms_Maps_Position_invoke_TResult_T_System_IAsyncResult"
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Collections_Generic_IEnumerable_1_Xamarin_Forms_Maps_Position_invoke_TResult_T_System_IAsyncResult
-	.quad Lme_9a
+	.quad Lme_9c
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1710=LTDIE_183_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1710
+LDIFF_SYM1717=LTDIE_183_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1717
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM1711=LTDIE_175_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1711
+LDIFF_SYM1718=LTDIE_175_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1718
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1712=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1712
+LDIFF_SYM1719=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1719
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM1713=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1713
+LDIFF_SYM1720=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1720
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM1714=LTDIE_113_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1714
+LDIFF_SYM1721=LTDIE_113_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1721
 	.byte 1,102,11
 	.asciz "V_3"
 
-LDIFF_SYM1715=LTDIE_22_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1715
+LDIFF_SYM1722=LTDIE_22_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1722
 	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM1716=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1716
+LDIFF_SYM1723=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1723
 	.byte 1,100,11
 	.asciz "V_5"
 
-LDIFF_SYM1717=LTDIE_167_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1717
+LDIFF_SYM1724=LTDIE_167_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1724
 	.byte 1,99,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1718=Lfde136_end - Lfde136_start
-	.long LDIFF_SYM1718
-Lfde136_start:
+LDIFF_SYM1725=Lfde138_end - Lfde138_start
+	.long LDIFF_SYM1725
+Lfde138_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Collections_Generic_IEnumerable_1_Xamarin_Forms_Maps_Position_invoke_TResult_T_System_IAsyncResult
 
-LDIFF_SYM1719=Lme_9a - wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Collections_Generic_IEnumerable_1_Xamarin_Forms_Maps_Position_invoke_TResult_T_System_IAsyncResult
-	.long LDIFF_SYM1719
+LDIFF_SYM1726=Lme_9c - wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Collections_Generic_IEnumerable_1_Xamarin_Forms_Maps_Position_invoke_TResult_T_System_IAsyncResult
+	.long LDIFF_SYM1726
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9
 	.align 3
-Lfde136_end:
+Lfde138_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -29424,41 +29716,41 @@ Lfde136_end:
 
 	.byte 0,0
 	.quad wrapper_other_Xamarin_Forms_Maps_Distance_StructureToPtr_object_intptr_bool
-	.quad Lme_9b
+	.quad Lme_9d
 
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM1720=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1720
+LDIFF_SYM1727=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1727
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM1721=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1721
+LDIFF_SYM1728=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1728
 	.byte 2,141,24,3
 	.asciz "param2"
 
-LDIFF_SYM1722=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1722
+LDIFF_SYM1729=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1729
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1723=Lfde137_end - Lfde137_start
-	.long LDIFF_SYM1723
-Lfde137_start:
+LDIFF_SYM1730=Lfde139_end - Lfde139_start
+	.long LDIFF_SYM1730
+Lfde139_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_other_Xamarin_Forms_Maps_Distance_StructureToPtr_object_intptr_bool
 
-LDIFF_SYM1724=Lme_9b - wrapper_other_Xamarin_Forms_Maps_Distance_StructureToPtr_object_intptr_bool
-	.long LDIFF_SYM1724
+LDIFF_SYM1731=Lme_9d - wrapper_other_Xamarin_Forms_Maps_Distance_StructureToPtr_object_intptr_bool
+	.long LDIFF_SYM1731
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde137_end:
+Lfde139_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -29468,36 +29760,36 @@ Lfde137_end:
 
 	.byte 0,0
 	.quad wrapper_other_Xamarin_Forms_Maps_Distance_PtrToStructure_intptr_object
-	.quad Lme_9c
+	.quad Lme_9e
 
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM1725=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1725
+LDIFF_SYM1732=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1732
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM1726=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1726
+LDIFF_SYM1733=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1733
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1727=Lfde138_end - Lfde138_start
-	.long LDIFF_SYM1727
-Lfde138_start:
+LDIFF_SYM1734=Lfde140_end - Lfde140_start
+	.long LDIFF_SYM1734
+Lfde140_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_other_Xamarin_Forms_Maps_Distance_PtrToStructure_intptr_object
 
-LDIFF_SYM1728=Lme_9c - wrapper_other_Xamarin_Forms_Maps_Distance_PtrToStructure_intptr_object
-	.long LDIFF_SYM1728
+LDIFF_SYM1735=Lme_9e - wrapper_other_Xamarin_Forms_Maps_Distance_PtrToStructure_intptr_object
+	.long LDIFF_SYM1735
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde138_end:
+Lfde140_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -29507,41 +29799,41 @@ Lfde138_end:
 
 	.byte 0,0
 	.quad wrapper_other_Xamarin_Forms_Maps_Position_StructureToPtr_object_intptr_bool
-	.quad Lme_9d
+	.quad Lme_9f
 
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM1729=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1729
+LDIFF_SYM1736=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1736
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM1730=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1730
+LDIFF_SYM1737=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1737
 	.byte 2,141,24,3
 	.asciz "param2"
 
-LDIFF_SYM1731=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1731
+LDIFF_SYM1738=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1738
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1732=Lfde139_end - Lfde139_start
-	.long LDIFF_SYM1732
-Lfde139_start:
+LDIFF_SYM1739=Lfde141_end - Lfde141_start
+	.long LDIFF_SYM1739
+Lfde141_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_other_Xamarin_Forms_Maps_Position_StructureToPtr_object_intptr_bool
 
-LDIFF_SYM1733=Lme_9d - wrapper_other_Xamarin_Forms_Maps_Position_StructureToPtr_object_intptr_bool
-	.long LDIFF_SYM1733
+LDIFF_SYM1740=Lme_9f - wrapper_other_Xamarin_Forms_Maps_Position_StructureToPtr_object_intptr_bool
+	.long LDIFF_SYM1740
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde139_end:
+Lfde141_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -29551,92 +29843,19 @@ Lfde139_end:
 
 	.byte 0,0
 	.quad wrapper_other_Xamarin_Forms_Maps_Position_PtrToStructure_intptr_object
-	.quad Lme_9e
+	.quad Lme_a0
 
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM1734=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1734
+LDIFF_SYM1741=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1741
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM1735=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1735
-	.byte 2,141,24,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1736=Lfde140_end - Lfde140_start
-	.long LDIFF_SYM1736
-Lfde140_start:
-
-	.long 0
-	.align 3
-	.quad wrapper_other_Xamarin_Forms_Maps_Position_PtrToStructure_intptr_object
-
-LDIFF_SYM1737=Lme_9e - wrapper_other_Xamarin_Forms_Maps_Position_PtrToStructure_intptr_object
-	.long LDIFF_SYM1737
-	.long 0
-	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
-	.align 3
-Lfde140_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.Array:InternalArray__get_Item<Xamarin.Forms.Maps.Position>"
-	.asciz "System_Array_InternalArray__get_Item_Xamarin_Forms_Maps_Position_int"
-
-	.byte 1,194,1
-	.quad System_Array_InternalArray__get_Item_Xamarin_Forms_Maps_Position_int
-	.quad Lme_9f
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1738=LTDIE_113_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1738
-	.byte 1,105,3
-	.asciz "index"
-
-LDIFF_SYM1739=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1739
-	.byte 1,106,11
-	.asciz "value"
-
-LDIFF_SYM1740=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1740
-	.byte 3,141,152,1,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1741=Lfde141_end - Lfde141_start
-	.long LDIFF_SYM1741
-Lfde141_start:
-
-	.long 0
-	.align 3
-	.quad System_Array_InternalArray__get_Item_Xamarin_Forms_Maps_Position_int
-
-LDIFF_SYM1742=Lme_9f - System_Array_InternalArray__get_Item_Xamarin_Forms_Maps_Position_int
+LDIFF_SYM1742=LDIE_OBJECT - Ldebug_info_start
 	.long LDIFF_SYM1742
-	.long 0
-	.byte 12,31,0,68,14,192,1,157,24,158,23,68,13,29,68,153,22,154,21
-	.align 3
-Lfde141_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.Array/EmptyInternalEnumerator`1<Xamarin.Forms.Maps.Position>:.cctor"
-	.asciz "System_Array_EmptyInternalEnumerator_1_Xamarin_Forms_Maps_Position__cctor"
-
-	.byte 1,169,2
-	.quad System_Array_EmptyInternalEnumerator_1_Xamarin_Forms_Maps_Position__cctor
-	.quad Lme_a0
-
-	.byte 2,118,16,0
+	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
@@ -29646,14 +29865,87 @@ Lfde142_start:
 
 	.long 0
 	.align 3
-	.quad System_Array_EmptyInternalEnumerator_1_Xamarin_Forms_Maps_Position__cctor
+	.quad wrapper_other_Xamarin_Forms_Maps_Position_PtrToStructure_intptr_object
 
-LDIFF_SYM1744=Lme_a0 - System_Array_EmptyInternalEnumerator_1_Xamarin_Forms_Maps_Position__cctor
+LDIFF_SYM1744=Lme_a0 - wrapper_other_Xamarin_Forms_Maps_Position_PtrToStructure_intptr_object
 	.long LDIFF_SYM1744
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
 Lfde142_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Array:InternalArray__get_Item<Xamarin.Forms.Maps.Position>"
+	.asciz "System_Array_InternalArray__get_Item_Xamarin_Forms_Maps_Position_int"
+
+	.byte 1,194,1
+	.quad System_Array_InternalArray__get_Item_Xamarin_Forms_Maps_Position_int
+	.quad Lme_a1
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1745=LTDIE_113_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1745
+	.byte 1,105,3
+	.asciz "index"
+
+LDIFF_SYM1746=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1746
+	.byte 1,106,11
+	.asciz "value"
+
+LDIFF_SYM1747=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1747
+	.byte 3,141,152,1,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1748=Lfde143_end - Lfde143_start
+	.long LDIFF_SYM1748
+Lfde143_start:
+
+	.long 0
+	.align 3
+	.quad System_Array_InternalArray__get_Item_Xamarin_Forms_Maps_Position_int
+
+LDIFF_SYM1749=Lme_a1 - System_Array_InternalArray__get_Item_Xamarin_Forms_Maps_Position_int
+	.long LDIFF_SYM1749
+	.long 0
+	.byte 12,31,0,68,14,192,1,157,24,158,23,68,13,29,68,153,22,154,21
+	.align 3
+Lfde143_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Array/EmptyInternalEnumerator`1<Xamarin.Forms.Maps.Position>:.cctor"
+	.asciz "System_Array_EmptyInternalEnumerator_1_Xamarin_Forms_Maps_Position__cctor"
+
+	.byte 1,169,2
+	.quad System_Array_EmptyInternalEnumerator_1_Xamarin_Forms_Maps_Position__cctor
+	.quad Lme_a2
+
+	.byte 2,118,16,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1750=Lfde144_end - Lfde144_start
+	.long LDIFF_SYM1750
+Lfde144_start:
+
+	.long 0
+	.align 3
+	.quad System_Array_EmptyInternalEnumerator_1_Xamarin_Forms_Maps_Position__cctor
+
+LDIFF_SYM1751=Lme_a2 - System_Array_EmptyInternalEnumerator_1_Xamarin_Forms_Maps_Position__cctor
+	.long LDIFF_SYM1751
+	.long 0
+	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
+	.align 3
+Lfde144_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_184:
@@ -29662,54 +29954,54 @@ LTDIE_184:
 	.asciz "_EmptyInternalEnumerator`1"
 
 	.byte 16,16
-LDIFF_SYM1745=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM1745
+LDIFF_SYM1752=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM1752
 	.byte 2,35,0,0,7
 	.asciz "_EmptyInternalEnumerator`1"
 
-LDIFF_SYM1746=LTDIE_184 - Ldebug_info_start
-	.long LDIFF_SYM1746
+LDIFF_SYM1753=LTDIE_184 - Ldebug_info_start
+	.long LDIFF_SYM1753
 LTDIE_184_POINTER:
 
 	.byte 13
-LDIFF_SYM1747=LTDIE_184 - Ldebug_info_start
-	.long LDIFF_SYM1747
+LDIFF_SYM1754=LTDIE_184 - Ldebug_info_start
+	.long LDIFF_SYM1754
 LTDIE_184_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1748=LTDIE_184 - Ldebug_info_start
-	.long LDIFF_SYM1748
+LDIFF_SYM1755=LTDIE_184 - Ldebug_info_start
+	.long LDIFF_SYM1755
 	.byte 2
 	.asciz "System.Array/EmptyInternalEnumerator`1<Xamarin.Forms.Maps.Position>:.ctor"
 	.asciz "System_Array_EmptyInternalEnumerator_1_Xamarin_Forms_Maps_Position__ctor"
 
 	.byte 0,0
 	.quad System_Array_EmptyInternalEnumerator_1_Xamarin_Forms_Maps_Position__ctor
-	.quad Lme_a1
+	.quad Lme_a3
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1749=LTDIE_184_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1749
+LDIFF_SYM1756=LTDIE_184_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1756
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1750=Lfde143_end - Lfde143_start
-	.long LDIFF_SYM1750
-Lfde143_start:
+LDIFF_SYM1757=Lfde145_end - Lfde145_start
+	.long LDIFF_SYM1757
+Lfde145_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_EmptyInternalEnumerator_1_Xamarin_Forms_Maps_Position__ctor
 
-LDIFF_SYM1751=Lme_a1 - System_Array_EmptyInternalEnumerator_1_Xamarin_Forms_Maps_Position__ctor
-	.long LDIFF_SYM1751
+LDIFF_SYM1758=Lme_a3 - System_Array_EmptyInternalEnumerator_1_Xamarin_Forms_Maps_Position__ctor
+	.long LDIFF_SYM1758
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde143_end:
+Lfde145_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -29719,31 +30011,31 @@ Lfde143_end:
 
 	.byte 1,173,2
 	.quad System_Array_EmptyInternalEnumerator_1_Xamarin_Forms_Maps_Position_Dispose
-	.quad Lme_a2
+	.quad Lme_a4
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1752=LTDIE_184_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1752
+LDIFF_SYM1759=LTDIE_184_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1759
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1753=Lfde144_end - Lfde144_start
-	.long LDIFF_SYM1753
-Lfde144_start:
+LDIFF_SYM1760=Lfde146_end - Lfde146_start
+	.long LDIFF_SYM1760
+Lfde146_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_EmptyInternalEnumerator_1_Xamarin_Forms_Maps_Position_Dispose
 
-LDIFF_SYM1754=Lme_a2 - System_Array_EmptyInternalEnumerator_1_Xamarin_Forms_Maps_Position_Dispose
-	.long LDIFF_SYM1754
+LDIFF_SYM1761=Lme_a4 - System_Array_EmptyInternalEnumerator_1_Xamarin_Forms_Maps_Position_Dispose
+	.long LDIFF_SYM1761
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde144_end:
+Lfde146_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -29753,31 +30045,31 @@ Lfde144_end:
 
 	.byte 1,178,2
 	.quad System_Array_EmptyInternalEnumerator_1_Xamarin_Forms_Maps_Position_MoveNext
-	.quad Lme_a3
+	.quad Lme_a5
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1755=LTDIE_184_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1755
+LDIFF_SYM1762=LTDIE_184_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1762
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1756=Lfde145_end - Lfde145_start
-	.long LDIFF_SYM1756
-Lfde145_start:
+LDIFF_SYM1763=Lfde147_end - Lfde147_start
+	.long LDIFF_SYM1763
+Lfde147_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_EmptyInternalEnumerator_1_Xamarin_Forms_Maps_Position_MoveNext
 
-LDIFF_SYM1757=Lme_a3 - System_Array_EmptyInternalEnumerator_1_Xamarin_Forms_Maps_Position_MoveNext
-	.long LDIFF_SYM1757
+LDIFF_SYM1764=Lme_a5 - System_Array_EmptyInternalEnumerator_1_Xamarin_Forms_Maps_Position_MoveNext
+	.long LDIFF_SYM1764
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde145_end:
+Lfde147_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -29787,31 +30079,31 @@ Lfde145_end:
 
 	.byte 1,183,2
 	.quad System_Array_EmptyInternalEnumerator_1_Xamarin_Forms_Maps_Position_get_Current
-	.quad Lme_a4
+	.quad Lme_a6
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1758=LTDIE_184_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1758
+LDIFF_SYM1765=LTDIE_184_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1765
 	.byte 3,141,208,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1759=Lfde146_end - Lfde146_start
-	.long LDIFF_SYM1759
-Lfde146_start:
+LDIFF_SYM1766=Lfde148_end - Lfde148_start
+	.long LDIFF_SYM1766
+Lfde148_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_EmptyInternalEnumerator_1_Xamarin_Forms_Maps_Position_get_Current
 
-LDIFF_SYM1760=Lme_a4 - System_Array_EmptyInternalEnumerator_1_Xamarin_Forms_Maps_Position_get_Current
-	.long LDIFF_SYM1760
+LDIFF_SYM1767=Lme_a6 - System_Array_EmptyInternalEnumerator_1_Xamarin_Forms_Maps_Position_get_Current
+	.long LDIFF_SYM1767
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29
 	.align 3
-Lfde146_end:
+Lfde148_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -29821,31 +30113,31 @@ Lfde146_end:
 
 	.byte 1,189,2
 	.quad System_Array_EmptyInternalEnumerator_1_Xamarin_Forms_Maps_Position_System_Collections_IEnumerator_get_Current
-	.quad Lme_a5
+	.quad Lme_a7
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1761=LTDIE_184_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1761
+LDIFF_SYM1768=LTDIE_184_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1768
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1762=Lfde147_end - Lfde147_start
-	.long LDIFF_SYM1762
-Lfde147_start:
+LDIFF_SYM1769=Lfde149_end - Lfde149_start
+	.long LDIFF_SYM1769
+Lfde149_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_EmptyInternalEnumerator_1_Xamarin_Forms_Maps_Position_System_Collections_IEnumerator_get_Current
 
-LDIFF_SYM1763=Lme_a5 - System_Array_EmptyInternalEnumerator_1_Xamarin_Forms_Maps_Position_System_Collections_IEnumerator_get_Current
-	.long LDIFF_SYM1763
+LDIFF_SYM1770=Lme_a7 - System_Array_EmptyInternalEnumerator_1_Xamarin_Forms_Maps_Position_System_Collections_IEnumerator_get_Current
+	.long LDIFF_SYM1770
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
-Lfde147_end:
+Lfde149_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -29855,31 +30147,31 @@ Lfde147_end:
 
 	.byte 1,195,2
 	.quad System_Array_EmptyInternalEnumerator_1_Xamarin_Forms_Maps_Position_System_Collections_IEnumerator_Reset
-	.quad Lme_a6
+	.quad Lme_a8
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1764=LTDIE_184_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1764
+LDIFF_SYM1771=LTDIE_184_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1771
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1765=Lfde148_end - Lfde148_start
-	.long LDIFF_SYM1765
-Lfde148_start:
+LDIFF_SYM1772=Lfde150_end - Lfde150_start
+	.long LDIFF_SYM1772
+Lfde150_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_EmptyInternalEnumerator_1_Xamarin_Forms_Maps_Position_System_Collections_IEnumerator_Reset
 
-LDIFF_SYM1766=Lme_a6 - System_Array_EmptyInternalEnumerator_1_Xamarin_Forms_Maps_Position_System_Collections_IEnumerator_Reset
-	.long LDIFF_SYM1766
+LDIFF_SYM1773=Lme_a8 - System_Array_EmptyInternalEnumerator_1_Xamarin_Forms_Maps_Position_System_Collections_IEnumerator_Reset
+	.long LDIFF_SYM1773
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde148_end:
+Lfde150_end:
 
 .section __DWARF, __debug_info,regular,debug
 
