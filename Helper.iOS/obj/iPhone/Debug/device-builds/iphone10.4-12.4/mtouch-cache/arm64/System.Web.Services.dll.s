@@ -50853,7 +50853,7 @@ _mono_aot_file_info:
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0
-	.byte 155,68,159,4,198,177,181,104,238,251,114,177,175,72,162,111
+	.byte 106,21,80,99,86,120,89,225,207,112,229,64,50,60,9,209
 	.globl _mono_aot_module_System_Web_Services_info
 	.align 3
 _mono_aot_module_System_Web_Services_info:

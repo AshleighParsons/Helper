@@ -1,15 +1,16 @@
 ﻿<Properties StartupConfiguration="{5107B829-1C6B-4D12-AE1B-921ED5C724AF}|Default">
   <MonoDevelop.Ide.ItemProperties.Helper.iOS automaticSigning="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.42ecee95746602a9deccdf63f11a00f3644aaaee" />
   <MonoDevelop.Ide.ItemProperties.Helper.Android AndroidDesignerPreferredTheme="Theme.AppCompat.Light.NoActionBar" PreferredExecutionTarget="Android.Android_Accelerated_Oreo" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Helper/Views/BonesPageDetail.xaml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Helper.iOS/Info.plist">
     <Files>
       <File FileName="Helper/Views/Hospital.xaml" Line="1" Column="1" />
-      <File FileName="Helper/Views/Hospital.xaml.cs" Line="65" Column="69" />
-      <File FileName="Helper/Views/WoundsPageDetail.xaml" Line="71" Column="20" />
-      <File FileName="Helper/Views/WoundsPageDetail.xaml.cs" Line="48" Column="49" />
-      <File FileName="Helper/Views/Contact.xaml" Line="85" Column="45" />
-      <File FileName="Helper/Views/BonesPageDetail.xaml" Line="40" Column="1" />
-      <File FileName="Helper/Views/BonesPageDetail.xaml.cs" Line="50" Column="76" />
+      <File FileName="Helper/Views/Hospital.xaml.cs" />
+      <File FileName="Helper/Views/WoundsPageDetail.xaml" />
+      <File FileName="Helper/Views/WoundsPageDetail.xaml.cs" />
+      <File FileName="Helper/Views/Contact.xaml" />
+      <File FileName="Helper/Views/BonesPageDetail.xaml" />
+      <File FileName="Helper/Views/BonesPageDetail.xaml.cs" />
+      <File FileName="Helper.iOS/Info.plist" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -18,14 +19,12 @@
             <Node name="Helper" expanded="True">
               <Node name="Models" expanded="True" />
               <Node name="Views" expanded="True">
-                <Node name="BonesPageDetail.xaml" expanded="True">
-                  <Node name="BonesPageDetail.xaml.cs" selected="True" />
-                </Node>
+                <Node name="BonesPageDetail.xaml" expanded="True" />
                 <Node name="WoundsPageDetail.xaml" expanded="True" />
               </Node>
               <Node name="App.xaml" expanded="True" />
             </Node>
-            <Node name="Helper.iOS" expanded="True" />
+            <Node name="Helper.iOS" expanded="True" selected="True" />
           </Node>
         </State>
       </Pad>

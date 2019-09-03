@@ -311,7 +311,6 @@
 /Users/ashleighparsons/Desktop/firstaidhelper/Helper.iOS/obj/iPhone/Debug/device-builds/iphone10.4-12.4/optimized/red-torch.png
 /Users/ashleighparsons/Desktop/firstaidhelper/Helper.iOS/obj/iPhone/Debug/device-builds/iphone10.4-12.4/optimized/blue-torch.png
 /Users/ashleighparsons/Desktop/firstaidhelper/Helper.iOS/obj/iPhone/Debug/device-builds/iphone10.4-12.4/optimized/
-/Users/ashleighparsons/Desktop/firstaidhelper/Helper.iOS/obj/iPhone/Debug/Helper.iOS.csprojAssemblyReference.cache
 /Users/ashleighparsons/Desktop/firstaidhelper/Helper.iOS/obj/iPhone/Debug/Helper.iOS.csproj.CoreCompileInputs.cache
 /Users/ashleighparsons/Desktop/firstaidhelper/Helper.iOS/obj/iPhone/Debug/XamlC.stamp
 /Users/ashleighparsons/Desktop/firstaidhelper/Helper.iOS/obj/iPhone/Debug/Helper.iOS.csproj.CopyComplete
