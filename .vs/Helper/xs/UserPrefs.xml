@@ -24,7 +24,9 @@
               </Node>
               <Node name="App.xaml" expanded="True" />
             </Node>
-            <Node name="Helper.iOS" expanded="True" selected="True" />
+            <Node name="Helper.iOS" expanded="True">
+              <Node name="Info.plist" selected="True" />
+            </Node>
           </Node>
         </State>
       </Pad>

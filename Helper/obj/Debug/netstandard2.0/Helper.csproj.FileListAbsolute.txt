@@ -81,3 +81,4 @@
 /Users/ashleighparsons/Desktop/firstaidhelper/Helper/obj/Debug/netstandard2.0/Helper.csproj.CopyComplete
 /Users/ashleighparsons/Desktop/firstaidhelper/Helper/obj/Debug/netstandard2.0/Helper.dll
 /Users/ashleighparsons/Desktop/firstaidhelper/Helper/obj/Debug/netstandard2.0/Helper.pdb
+/Users/ashleighparsons/Desktop/firstaidhelper/Helper/obj/Debug/netstandard2.0/Helper.csprojAssemblyReference.cache

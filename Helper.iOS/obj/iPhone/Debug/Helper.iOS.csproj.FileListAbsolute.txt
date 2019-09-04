@@ -316,3 +316,4 @@
 /Users/ashleighparsons/Desktop/firstaidhelper/Helper.iOS/obj/iPhone/Debug/Helper.iOS.csproj.CopyComplete
 /Users/ashleighparsons/Desktop/firstaidhelper/Helper.iOS/obj/iPhone/Debug/Helper.iOS.exe
 /Users/ashleighparsons/Desktop/firstaidhelper/Helper.iOS/obj/iPhone/Debug/Helper.iOS.pdb
+/Users/ashleighparsons/Desktop/firstaidhelper/Helper.iOS/obj/iPhone/Debug/Helper.iOS.csprojAssemblyReference.cache

@@ -28,6 +28,42 @@
 		<dict>
 			<key>affected-items</key>
 			<array>
+				<string>./AppIcon.appiconset/[][ipad][40x40][][][2x][][]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/ashleighparsons/Desktop/firstaidhelper/Helper.iOS/obj/iPhone/Debug/device-builds/iphone10.4-12.4/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The file "Icon80.png" for the image set "AppIcon" does not exist.</string>
+			<key>type</key>
+			<string>Missing Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./AppIcon.appiconset/[][ipad][40x40][][][1x][][]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/ashleighparsons/Desktop/firstaidhelper/Helper.iOS/obj/iPhone/Debug/device-builds/iphone10.4-12.4/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The file "Icon40.png" for the image set "AppIcon" does not exist.</string>
+			<key>type</key>
+			<string>Missing Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./AppIcon.appiconset/[][ipad][29x29][][][2x][][]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/ashleighparsons/Desktop/firstaidhelper/Helper.iOS/obj/iPhone/Debug/device-builds/iphone10.4-12.4/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The file "Icon58.png" for the image set "AppIcon" does not exist.</string>
+			<key>type</key>
+			<string>Missing Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
 				<string>./AppIcon.appiconset/[][ipad][20x20][][][2x][][]</string>
 			</array>
 			<key>catalog</key>
@@ -52,42 +88,6 @@
 		<dict>
 			<key>affected-items</key>
 			<array>
-				<string>./AppIcon.appiconset/[][ipad][29x29][][][2x][][]</string>
-			</array>
-			<key>catalog</key>
-			<string>/Users/ashleighparsons/Desktop/firstaidhelper/Helper.iOS/obj/iPhone/Debug/device-builds/iphone10.4-12.4/actool/cloned-assets/Assets.xcassets</string>
-			<key>message</key>
-			<string>The file "Icon58.png" for the image set "AppIcon" does not exist.</string>
-			<key>type</key>
-			<string>Missing Content</string>
-		</dict>
-		<dict>
-			<key>affected-items</key>
-			<array>
-				<string>./AppIcon.appiconset/[][ipad][40x40][][][1x][][]</string>
-			</array>
-			<key>catalog</key>
-			<string>/Users/ashleighparsons/Desktop/firstaidhelper/Helper.iOS/obj/iPhone/Debug/device-builds/iphone10.4-12.4/actool/cloned-assets/Assets.xcassets</string>
-			<key>message</key>
-			<string>The file "Icon40.png" for the image set "AppIcon" does not exist.</string>
-			<key>type</key>
-			<string>Missing Content</string>
-		</dict>
-		<dict>
-			<key>affected-items</key>
-			<array>
-				<string>./AppIcon.appiconset/[][ipad][40x40][][][2x][][]</string>
-			</array>
-			<key>catalog</key>
-			<string>/Users/ashleighparsons/Desktop/firstaidhelper/Helper.iOS/obj/iPhone/Debug/device-builds/iphone10.4-12.4/actool/cloned-assets/Assets.xcassets</string>
-			<key>message</key>
-			<string>The file "Icon80.png" for the image set "AppIcon" does not exist.</string>
-			<key>type</key>
-			<string>Missing Content</string>
-		</dict>
-		<dict>
-			<key>affected-items</key>
-			<array>
 				<string>./AppIcon.appiconset/[][ipad][20x20][][][2x][][]</string>
 			</array>
 			<key>catalog</key>
@@ -100,24 +100,24 @@
 		<dict>
 			<key>affected-items</key>
 			<array>
-				<string>./AppIcon.appiconset/[][ipad][29x29][][][2x][][]</string>
-			</array>
-			<key>catalog</key>
-			<string>/Users/ashleighparsons/Desktop/firstaidhelper/Helper.iOS/obj/iPhone/Debug/device-builds/iphone10.4-12.4/actool/cloned-assets/Assets.xcassets</string>
-			<key>message</key>
-			<string>The file "Icon58.png" for the image set "AppIcon" does not exist.</string>
-			<key>type</key>
-			<string>Missing Content</string>
-		</dict>
-		<dict>
-			<key>affected-items</key>
-			<array>
 				<string>./AppIcon.appiconset/[][ipad][40x40][][][1x][][]</string>
 			</array>
 			<key>catalog</key>
 			<string>/Users/ashleighparsons/Desktop/firstaidhelper/Helper.iOS/obj/iPhone/Debug/device-builds/iphone10.4-12.4/actool/cloned-assets/Assets.xcassets</string>
 			<key>message</key>
 			<string>The file "Icon40.png" for the image set "AppIcon" does not exist.</string>
+			<key>type</key>
+			<string>Missing Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./AppIcon.appiconset/[][ipad][29x29][][][2x][][]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/ashleighparsons/Desktop/firstaidhelper/Helper.iOS/obj/iPhone/Debug/device-builds/iphone10.4-12.4/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The file "Icon58.png" for the image set "AppIcon" does not exist.</string>
 			<key>type</key>
 			<string>Missing Content</string>
 		</dict>
